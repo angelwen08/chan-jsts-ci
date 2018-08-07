@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: botbuilder.BotFrameworkAdapterSettings
+    name: BotFrameworkAdapterSettings
+    fullName: BotFrameworkAdapterSettings
+    children:
+      - botbuilder.BotFrameworkAdapterSettings.appId
+      - botbuilder.BotFrameworkAdapterSettings.appPassword
+    langs:
+      - typeScript
+    type: interface
+    summary: Bot Framework Adapter Settings.
+    package: botbuilder
+  - uid: botbuilder.BotFrameworkAdapterSettings.appId
+    name: appId
+    fullName: appId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      ID assigned to your bot in the [Bot Framework
+      Portal](https://dev.botframework.com/).
+    syntax:
+      content: 'appId: string'
+      return:
+        type:
+          - string
+    package: botbuilder
+  - uid: botbuilder.BotFrameworkAdapterSettings.appPassword
+    name: appPassword
+    fullName: appPassword
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Password assigned to your bot in the [Bot Framework
+      Portal](https://dev.botframework.com/).
+    syntax:
+      content: 'appPassword: string'
+      return:
+        type:
+          - string
+    package: botbuilder

@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: botbuilder-prompts.ListStyle
+    name: ListStyle
+    fullName: ListStyle
+    children:
+      - botbuilder-prompts.ListStyle.none
+      - botbuilder-prompts.ListStyle.auto
+      - botbuilder-prompts.ListStyle.inline
+      - botbuilder-prompts.ListStyle.list
+      - botbuilder-prompts.ListStyle.suggestedAction
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      Controls the way that choices for a `ChoicePrompt` or yes/no options for a
+      `ConfirmPrompt` are
+
+      presented to a user.
+    package: botbuilder-prompts
+  - uid: botbuilder-prompts.ListStyle.none
+    name: none
+    children: []
+    langs:
+      - typeScript
+    summary: Don't include any choices for prompt.
+    type: field
+    numericValue: 0
+    package: botbuilder-prompts
+  - uid: botbuilder-prompts.ListStyle.auto
+    name: auto
+    children: []
+    langs:
+      - typeScript
+    summary: Automatically select the appropriate style for the current channel.
+    type: field
+    numericValue: 1
+    package: botbuilder-prompts
+  - uid: botbuilder-prompts.ListStyle.inline
+    name: inline
+    children: []
+    langs:
+      - typeScript
+    summary: Add choices to prompt as an inline list.
+    type: field
+    numericValue: 2
+    package: botbuilder-prompts
+  - uid: botbuilder-prompts.ListStyle.list
+    name: list
+    children: []
+    langs:
+      - typeScript
+    summary: Add choices to prompt as a numbered list.
+    type: field
+    numericValue: 3
+    package: botbuilder-prompts
+  - uid: botbuilder-prompts.ListStyle.suggestedAction
+    name: suggestedAction
+    children: []
+    langs:
+      - typeScript
+    summary: Add choices to prompt as suggested actions.
+    type: field
+    numericValue: 4
+    package: botbuilder-prompts
