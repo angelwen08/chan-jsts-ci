@@ -14,7 +14,9 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'A builder for configuring <xref:HubConnection> instances.'
+    summary: >-
+      A builder for configuring <xref:%40aspnet%2Fsignalr.HubConnection>
+      instances.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.build'
     name: build
@@ -23,8 +25,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Creates a <xref:HubConnection> from the configuration options specified in
-      this builder.
+      Creates a <xref:%40aspnet%2Fsignalr.HubConnection> from the configuration
+      options specified in this builder.
     syntax:
       content: function build()
       parameters: []
@@ -38,7 +40,9 @@ items:
     type: method
     langs:
       - typeScript
-    summary: 'Configures console logging for the <xref:HubConnection>.'
+    summary: >-
+      Configures console logging for the
+      <xref:%40aspnet%2Fsignalr.HubConnection>.
     syntax:
       content: 'function configureLogging(logLevel: LogLevel)'
       parameters:
@@ -58,7 +62,9 @@ items:
     type: method
     langs:
       - typeScript
-    summary: 'Configures custom logging for the <xref:HubConnection>.'
+    summary: >-
+      Configures custom logging for the
+      <xref:%40aspnet%2Fsignalr.HubConnection>.
     syntax:
       content: 'function configureLogging(logger: ILogger)'
       parameters:
@@ -66,8 +72,8 @@ items:
           type:
             - '@aspnet/signalr.ILogger'
           description: >-
-            An object implementing the <xref:ILogger> interface, which will be
-            used to write all log messages.
+            An object implementing the <xref:%40aspnet%2Fsignalr.ILogger>
+            interface, which will be used to write all log messages.
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
@@ -78,7 +84,9 @@ items:
     type: method
     langs:
       - typeScript
-    summary: 'Configures the <xref:HubConnection> to use the specified Hub Protocol.'
+    summary: >-
+      Configures the <xref:%40aspnet%2Fsignalr.HubConnection> to use the
+      specified Hub Protocol.
     syntax:
       content: 'function withHubProtocol(protocol: IHubProtocol)'
       parameters:
@@ -86,7 +94,7 @@ items:
           type:
             - '@aspnet/signalr.IHubProtocol'
           description: |
-            The <xref:IHubProtocol> implementation to use.
+            The <xref:%40aspnet%2Fsignalr.IHubProtocol> implementation to use.
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
@@ -98,8 +106,8 @@ items:
     langs:
       - typeScript
     summary: >
-      Configures the <xref:HubConnection> to use HTTP-based transports to
-      connect to the specified URL.
+      Configures the <xref:%40aspnet%2Fsignalr.HubConnection> to use HTTP-based
+      transports to connect to the specified URL.
 
       The transport will be selected automatically based on what the server and
       client support.
@@ -121,8 +129,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Configures the <xref:HubConnection> to use the specified HTTP-based
-      transport to connect to the specified URL.
+      Configures the <xref:%40aspnet%2Fsignalr.HubConnection> to use the
+      specified HTTP-based transport to connect to the specified URL.
     syntax:
       content: 'function withUrl(url: string, transportType: HttpTransportType)'
       parameters:
@@ -145,8 +153,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Configures the <xref:HubConnection> to use HTTP-based transports to
-      connect to the specified URL.
+      Configures the <xref:%40aspnet%2Fsignalr.HubConnection> to use HTTP-based
+      transports to connect to the specified URL.
     syntax:
       content: 'function withUrl(url: string, options: IHttpConnectionOptions)'
       parameters:

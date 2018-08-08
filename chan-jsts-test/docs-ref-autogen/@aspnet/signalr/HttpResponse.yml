@@ -37,8 +37,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Constructs a new instance of <xref:HttpResponse> with the specified status
-      code.
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code.
     syntax:
       content: 'new HttpResponse(statusCode: number)'
       parameters:
@@ -55,8 +55,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Constructs a new instance of <xref:HttpResponse> with the specified status
-      code and message.
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code and message.
     syntax:
       content: 'new HttpResponse(statusCode: number, statusText: string)'
       parameters:
@@ -78,8 +78,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Constructs a new instance of <xref:HttpResponse> with the specified status
-      code, message and string content.
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code, message and string content.
     syntax:
       content: >-
         new HttpResponse(statusCode: number, statusText: string, content:
@@ -108,8 +108,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Constructs a new instance of <xref:HttpResponse> with the specified status
-      code, message and binary content.
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code, message and binary content.
     syntax:
       content: >-
         new HttpResponse(statusCode: number, statusText: string, content:
