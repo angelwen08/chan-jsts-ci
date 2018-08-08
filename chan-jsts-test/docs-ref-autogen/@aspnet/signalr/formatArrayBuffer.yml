@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.formatArrayBuffer'
+    name: formatArrayBuffer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatArrayBuffer(data: ArrayBuffer)'
+      parameters:
+        - id: data
+          type:
+            - ArrayBuffer
+          description: ''
+      return:
+        type:
+          - string
+    package: '@aspnet/signalr'
