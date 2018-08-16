@@ -1,5 +1,7 @@
 {
   "build": {
+    "exportRawModel": true,
+	"exportViewModel": true,
     "content": [
       {
         "files": [
