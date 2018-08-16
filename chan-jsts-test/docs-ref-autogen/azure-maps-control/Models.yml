@@ -3,7 +3,34 @@ items:
   - uid: azure-maps-control.Models
     name: Models
     fullName: Models
-    children: []
+    children:
+      - azure-maps-control.Models.AnimationOptions
+      - azure-maps-control.Models.CameraBoundsOptions
+      - azure-maps-control.Models.CameraOptions
+      - azure-maps-control.Models.CircleLayerOptions
+      - azure-maps-control.Models.CircleProperties
+      - azure-maps-control.Models.CompassControlOptions
+      - azure-maps-control.Models.Control
+      - azure-maps-control.Models.ControlOptions
+      - azure-maps-control.Models.ControlPosition
+      - azure-maps-control.Models.ControlStyle
+      - azure-maps-control.Models.LayerOptions
+      - azure-maps-control.Models.LinestringLayerOptions
+      - azure-maps-control.Models.LinestringProperties
+      - azure-maps-control.Models.MapEventData
+      - azure-maps-control.Models.PinLayerOptions
+      - azure-maps-control.Models.PinProperties
+      - azure-maps-control.Models.PitchControlOptions
+      - azure-maps-control.Models.PolygonLayerOptions
+      - azure-maps-control.Models.PolygonProperties
+      - azure-maps-control.Models.PopupOptions
+      - azure-maps-control.Models.RasterLayerOptions
+      - azure-maps-control.Models.ServiceOptions
+      - azure-maps-control.Models.StyleControlOptions
+      - azure-maps-control.Models.StyleOptions
+      - azure-maps-control.Models.TrafficOptions
+      - azure-maps-control.Models.UserInteractionOptions
+      - azure-maps-control.Models.ZoomControlOptions
     langs:
       - typeScript
     type: module
@@ -61,3 +88,118 @@ references:
         uid: azure-maps-control.atlas.data.Geometry
       - name: ', any>>'
         fullName: ', any>>'
+  - uid: azure-maps-control.Models.AnimationOptions
+    spec.typeScript:
+      - name: AnimationOptions
+        fullName: AnimationOptions
+        uid: azure-maps-control.Models.AnimationOptions
+  - uid: azure-maps-control.Models.CameraBoundsOptions
+    spec.typeScript:
+      - name: CameraBoundsOptions
+        fullName: CameraBoundsOptions
+        uid: azure-maps-control.Models.CameraBoundsOptions
+  - uid: azure-maps-control.Models.CameraOptions
+    spec.typeScript:
+      - name: CameraOptions
+        fullName: CameraOptions
+        uid: azure-maps-control.Models.CameraOptions
+  - uid: azure-maps-control.Models.CircleLayerOptions
+    spec.typeScript:
+      - name: CircleLayerOptions
+        fullName: CircleLayerOptions
+        uid: azure-maps-control.Models.CircleLayerOptions
+  - uid: azure-maps-control.Models.CircleProperties
+    spec.typeScript:
+      - name: CircleProperties
+        fullName: CircleProperties
+        uid: azure-maps-control.Models.CircleProperties
+  - uid: azure-maps-control.Models.CompassControlOptions
+    spec.typeScript:
+      - name: CompassControlOptions
+        fullName: CompassControlOptions
+        uid: azure-maps-control.Models.CompassControlOptions
+  - uid: azure-maps-control.Models.Control
+    spec.typeScript:
+      - name: Control
+        fullName: Control
+        uid: azure-maps-control.Models.Control
+  - uid: azure-maps-control.Models.LinestringLayerOptions
+    spec.typeScript:
+      - name: LinestringLayerOptions
+        fullName: LinestringLayerOptions
+        uid: azure-maps-control.Models.LinestringLayerOptions
+  - uid: azure-maps-control.Models.LinestringProperties
+    spec.typeScript:
+      - name: LinestringProperties
+        fullName: LinestringProperties
+        uid: azure-maps-control.Models.LinestringProperties
+  - uid: azure-maps-control.Models.MapEventData
+    spec.typeScript:
+      - name: MapEventData
+        fullName: MapEventData
+        uid: azure-maps-control.Models.MapEventData
+  - uid: azure-maps-control.Models.PinLayerOptions
+    spec.typeScript:
+      - name: PinLayerOptions
+        fullName: PinLayerOptions
+        uid: azure-maps-control.Models.PinLayerOptions
+  - uid: azure-maps-control.Models.PinProperties
+    spec.typeScript:
+      - name: PinProperties
+        fullName: PinProperties
+        uid: azure-maps-control.Models.PinProperties
+  - uid: azure-maps-control.Models.PitchControlOptions
+    spec.typeScript:
+      - name: PitchControlOptions
+        fullName: PitchControlOptions
+        uid: azure-maps-control.Models.PitchControlOptions
+  - uid: azure-maps-control.Models.PolygonLayerOptions
+    spec.typeScript:
+      - name: PolygonLayerOptions
+        fullName: PolygonLayerOptions
+        uid: azure-maps-control.Models.PolygonLayerOptions
+  - uid: azure-maps-control.Models.PolygonProperties
+    spec.typeScript:
+      - name: PolygonProperties
+        fullName: PolygonProperties
+        uid: azure-maps-control.Models.PolygonProperties
+  - uid: azure-maps-control.Models.PopupOptions
+    spec.typeScript:
+      - name: PopupOptions
+        fullName: PopupOptions
+        uid: azure-maps-control.Models.PopupOptions
+  - uid: azure-maps-control.Models.RasterLayerOptions
+    spec.typeScript:
+      - name: RasterLayerOptions
+        fullName: RasterLayerOptions
+        uid: azure-maps-control.Models.RasterLayerOptions
+  - uid: azure-maps-control.Models.ServiceOptions
+    spec.typeScript:
+      - name: ServiceOptions
+        fullName: ServiceOptions
+        uid: azure-maps-control.Models.ServiceOptions
+  - uid: azure-maps-control.Models.StyleControlOptions
+    spec.typeScript:
+      - name: StyleControlOptions
+        fullName: StyleControlOptions
+        uid: azure-maps-control.Models.StyleControlOptions
+  - uid: azure-maps-control.Models.StyleOptions
+    spec.typeScript:
+      - name: StyleOptions
+        fullName: StyleOptions
+        uid: azure-maps-control.Models.StyleOptions
+  - uid: azure-maps-control.Models.TrafficOptions
+    spec.typeScript:
+      - name: TrafficOptions
+        fullName: TrafficOptions
+        uid: azure-maps-control.Models.TrafficOptions
+  - uid: azure-maps-control.Models.UserInteractionOptions
+    spec.typeScript:
+      - name: UserInteractionOptions
+        fullName: UserInteractionOptions
+        uid: azure-maps-control.Models.UserInteractionOptions
+  - uid: azure-maps-control.Models.ZoomControlOptions
+    spec.typeScript:
+      - name: ZoomControlOptions
+        fullName: ZoomControlOptions
+        uid: azure-maps-control.Models.ZoomControlOptions

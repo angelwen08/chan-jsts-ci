@@ -3,7 +3,9 @@ items:
   - uid: azure-maps-control.atlas
     name: atlas
     fullName: atlas
-    children: []
+    children:
+      - azure-maps-control.atlas.Map
+      - azure-maps-control.atlas.Popup
     langs:
       - typeScript
     type: module
@@ -317,3 +319,8 @@ references:
       - name: PopupOptions
         fullName: PopupOptions
         uid: azure-maps-control.Models.PopupOptions
+  - uid: azure-maps-control.atlas.Popup
+    spec.typeScript:
+      - name: Popup
+        fullName: Popup
+        uid: azure-maps-control.atlas.Popup
