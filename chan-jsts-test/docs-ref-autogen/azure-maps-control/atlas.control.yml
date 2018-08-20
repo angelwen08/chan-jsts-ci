@@ -3,7 +3,11 @@ items:
   - uid: azure-maps-control.atlas.control
     name: control
     fullName: control
-    children: []
+    children:
+      - azure-maps-control.atlas.control.CompassControl
+      - azure-maps-control.atlas.control.PitchControl
+      - azure-maps-control.atlas.control.StyleControl
+      - azure-maps-control.atlas.control.ZoomControl
     langs:
       - typeScript
     type: module
@@ -317,3 +321,11 @@ references:
       - name: PopupOptions
         fullName: PopupOptions
         uid: azure-maps-control.Models.PopupOptions
+  - uid: azure-maps-control.atlas.control.CompassControl
+    name: CompassControl
+  - uid: azure-maps-control.atlas.control.PitchControl
+    name: PitchControl
+  - uid: azure-maps-control.atlas.control.StyleControl
+    name: StyleControl
+  - uid: azure-maps-control.atlas.control.ZoomControl
+    name: ZoomControl

@@ -3,7 +3,34 @@ items:
   - uid: azure-maps-control.Models
     name: Models
     fullName: Models
-    children: []
+    children:
+      - azure-maps-control.Models.AnimationOptions
+      - azure-maps-control.Models.CameraBoundsOptions
+      - azure-maps-control.Models.CameraOptions
+      - azure-maps-control.Models.CircleLayerOptions
+      - azure-maps-control.Models.CircleProperties
+      - azure-maps-control.Models.CompassControlOptions
+      - azure-maps-control.Models.Control
+      - azure-maps-control.Models.ControlOptions
+      - azure-maps-control.Models.ControlPosition
+      - azure-maps-control.Models.ControlStyle
+      - azure-maps-control.Models.LayerOptions
+      - azure-maps-control.Models.LinestringLayerOptions
+      - azure-maps-control.Models.LinestringProperties
+      - azure-maps-control.Models.MapEventData
+      - azure-maps-control.Models.PinLayerOptions
+      - azure-maps-control.Models.PinProperties
+      - azure-maps-control.Models.PitchControlOptions
+      - azure-maps-control.Models.PolygonLayerOptions
+      - azure-maps-control.Models.PolygonProperties
+      - azure-maps-control.Models.PopupOptions
+      - azure-maps-control.Models.RasterLayerOptions
+      - azure-maps-control.Models.ServiceOptions
+      - azure-maps-control.Models.StyleControlOptions
+      - azure-maps-control.Models.StyleOptions
+      - azure-maps-control.Models.TrafficOptions
+      - azure-maps-control.Models.UserInteractionOptions
+      - azure-maps-control.Models.ZoomControlOptions
     langs:
       - typeScript
     type: module
@@ -61,3 +88,49 @@ references:
         uid: azure-maps-control.atlas.data.Geometry
       - name: ', any>>'
         fullName: ', any>>'
+  - uid: azure-maps-control.Models.AnimationOptions
+    name: AnimationOptions
+  - uid: azure-maps-control.Models.CameraBoundsOptions
+    name: CameraBoundsOptions
+  - uid: azure-maps-control.Models.CameraOptions
+    name: CameraOptions
+  - uid: azure-maps-control.Models.CircleLayerOptions
+    name: CircleLayerOptions
+  - uid: azure-maps-control.Models.CircleProperties
+    name: CircleProperties
+  - uid: azure-maps-control.Models.CompassControlOptions
+    name: CompassControlOptions
+  - uid: azure-maps-control.Models.Control
+    name: Control
+  - uid: azure-maps-control.Models.LinestringLayerOptions
+    name: LinestringLayerOptions
+  - uid: azure-maps-control.Models.LinestringProperties
+    name: LinestringProperties
+  - uid: azure-maps-control.Models.MapEventData
+    name: MapEventData
+  - uid: azure-maps-control.Models.PinLayerOptions
+    name: PinLayerOptions
+  - uid: azure-maps-control.Models.PinProperties
+    name: PinProperties
+  - uid: azure-maps-control.Models.PitchControlOptions
+    name: PitchControlOptions
+  - uid: azure-maps-control.Models.PolygonLayerOptions
+    name: PolygonLayerOptions
+  - uid: azure-maps-control.Models.PolygonProperties
+    name: PolygonProperties
+  - uid: azure-maps-control.Models.PopupOptions
+    name: PopupOptions
+  - uid: azure-maps-control.Models.RasterLayerOptions
+    name: RasterLayerOptions
+  - uid: azure-maps-control.Models.ServiceOptions
+    name: ServiceOptions
+  - uid: azure-maps-control.Models.StyleControlOptions
+    name: StyleControlOptions
+  - uid: azure-maps-control.Models.StyleOptions
+    name: StyleOptions
+  - uid: azure-maps-control.Models.TrafficOptions
+    name: TrafficOptions
+  - uid: azure-maps-control.Models.UserInteractionOptions
+    name: UserInteractionOptions
+  - uid: azure-maps-control.Models.ZoomControlOptions
+    name: ZoomControlOptions
