@@ -20,8 +20,8 @@ items:
       - typeScript
     type: interface
     summary: >-
-      Defines the options that can be specified for preparing the Request
-      (WebResource) that is given to the request pipeline.
+      {boolean} [bodyIsStream] - Indicates whether the request body is a stream
+      (useful for file upload scenarios).
     package: ms-rest
   - uid: ms-rest.RequestPrepareOptions.baseUrl
     name: baseUrl
