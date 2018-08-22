@@ -1,150 +1,438 @@
-- uid: azure-maps-control
-  name: azure-maps-control
+- uid: azure-event-hubs
+  name: azure-event-hubs
   items:
-    - uid: azure-maps-control.atlas
-      name: atlas
-      items:
-        - uid: azure-maps-control.atlas.control
-          name: control
-          items:
-            - uid: azure-maps-control.atlas.control.CompassControl
-              name: CompassControl
-              items: []
-            - uid: azure-maps-control.atlas.control.PitchControl
-              name: PitchControl
-              items: []
-            - uid: azure-maps-control.atlas.control.StyleControl
-              name: StyleControl
-              items: []
-            - uid: azure-maps-control.atlas.control.ZoomControl
-              name: ZoomControl
-              items: []
-        - uid: azure-maps-control.atlas.data
-          name: data
-          items:
-            - uid: azure-maps-control.atlas.data.BoundingBox
-              name: BoundingBox
-              items: []
-            - uid: azure-maps-control.atlas.data.Feature
-              name: Feature
-              items: []
-            - uid: azure-maps-control.atlas.data.FeatureCollection
-              name: FeatureCollection
-              items: []
-            - uid: azure-maps-control.atlas.data.Geometry
-              name: Geometry
-              items: []
-            - uid: azure-maps-control.atlas.data.GeometryCollection
-              name: GeometryCollection
-              items: []
-            - uid: azure-maps-control.atlas.data.LineString
-              name: LineString
-              items: []
-            - uid: azure-maps-control.atlas.data.MultiLineString
-              name: MultiLineString
-              items: []
-            - uid: azure-maps-control.atlas.data.MultiPoint
-              name: MultiPoint
-              items: []
-            - uid: azure-maps-control.atlas.data.MultiPolygon
-              name: MultiPolygon
-              items: []
-            - uid: azure-maps-control.atlas.data.Point
-              name: Point
-              items: []
-            - uid: azure-maps-control.atlas.data.Polygon
-              name: Polygon
-              items: []
-            - uid: azure-maps-control.atlas.data.Position
-              name: Position
-              items: []
-        - uid: azure-maps-control.atlas.Map
-          name: Map
-          items: []
-        - uid: azure-maps-control.atlas.Popup
-          name: Popup
-          items: []
-    - uid: azure-maps-control.Models
-      name: Models
-      items:
-        - uid: azure-maps-control.Models.AnimationOptions
-          name: AnimationOptions
-          items: []
-        - uid: azure-maps-control.Models.CameraBoundsOptions
-          name: CameraBoundsOptions
-          items: []
-        - uid: azure-maps-control.Models.CameraOptions
-          name: CameraOptions
-          items: []
-        - uid: azure-maps-control.Models.CircleLayerOptions
-          name: CircleLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.CircleProperties
-          name: CircleProperties
-          items: []
-        - uid: azure-maps-control.Models.CompassControlOptions
-          name: CompassControlOptions
-          items: []
-        - uid: azure-maps-control.Models.Control
-          name: Control
-          items: []
-        - uid: azure-maps-control.Models.ControlOptions
-          name: ControlOptions
-          items: []
-        - uid: azure-maps-control.Models.ControlPosition
-          name: ControlPosition
-          items: []
-        - uid: azure-maps-control.Models.ControlStyle
-          name: ControlStyle
-          items: []
-        - uid: azure-maps-control.Models.LayerOptions
-          name: LayerOptions
-          items: []
-        - uid: azure-maps-control.Models.LinestringLayerOptions
-          name: LinestringLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.LinestringProperties
-          name: LinestringProperties
-          items: []
-        - uid: azure-maps-control.Models.MapEventData
-          name: MapEventData
-          items: []
-        - uid: azure-maps-control.Models.PinLayerOptions
-          name: PinLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.PinProperties
-          name: PinProperties
-          items: []
-        - uid: azure-maps-control.Models.PitchControlOptions
-          name: PitchControlOptions
-          items: []
-        - uid: azure-maps-control.Models.PolygonLayerOptions
-          name: PolygonLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.PolygonProperties
-          name: PolygonProperties
-          items: []
-        - uid: azure-maps-control.Models.PopupOptions
-          name: PopupOptions
-          items: []
-        - uid: azure-maps-control.Models.RasterLayerOptions
-          name: RasterLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.ServiceOptions
-          name: ServiceOptions
-          items: []
-        - uid: azure-maps-control.Models.StyleControlOptions
-          name: StyleControlOptions
-          items: []
-        - uid: azure-maps-control.Models.StyleOptions
-          name: StyleOptions
-          items: []
-        - uid: azure-maps-control.Models.TrafficOptions
-          name: TrafficOptions
-          items: []
-        - uid: azure-maps-control.Models.UserInteractionOptions
-          name: UserInteractionOptions
-          items: []
-        - uid: azure-maps-control.Models.ZoomControlOptions
-          name: ZoomControlOptions
-          items: []
+    - uid: azure-event-hubs.AadTokenProvider
+      name: AadTokenProvider
+      items: []
+    - uid: azure-event-hubs.AadTokenProvider
+      name: AadTokenProvider
+      items: []
+    - uid: azure-event-hubs.AmqpResponseStatusCode
+      name: AmqpResponseStatusCode
+      items: []
+    - uid: azure-event-hubs.AmqpResponseStatusCode
+      name: AmqpResponseStatusCode
+      items: []
+    - uid: azure-event-hubs.AsyncLockOptions
+      name: AsyncLockOptions
+      items: []
+    - uid: azure-event-hubs.AsyncLockOptions
+      name: AsyncLockOptions
+      items: []
+    - uid: azure-event-hubs.BatchingReceiver
+      name: BatchingReceiver
+      items: []
+    - uid: azure-event-hubs.BatchingReceiver
+      name: BatchingReceiver
+      items: []
+    - uid: azure-event-hubs.CbsClient
+      name: CbsClient
+      items: []
+    - uid: azure-event-hubs.CbsClient
+      name: CbsClient
+      items: []
+    - uid: azure-event-hubs.CheckpointData
+      name: CheckpointData
+      items: []
+    - uid: azure-event-hubs.CheckpointData
+      name: CheckpointData
+      items: []
+    - uid: azure-event-hubs.ClientEntity
+      name: ClientEntity
+      items: []
+    - uid: azure-event-hubs.ClientEntityOptions
+      name: ClientEntityOptions
+      items: []
+    - uid: azure-event-hubs.ClientOptions
+      name: ClientOptions
+      items: []
+    - uid: azure-event-hubs.ClientOptions
+      name: ClientOptions
+      items: []
+    - uid: azure-event-hubs.ClientOptionsBase
+      name: ClientOptionsBase
+      items: []
+    - uid: azure-event-hubs.ClientOptionsBase
+      name: ClientOptionsBase
+      items: []
+    - uid: azure-event-hubs.ConditionErrorNameMapper
+      name: ConditionErrorNameMapper
+      items: []
+    - uid: azure-event-hubs.ConditionErrorNameMapper
+      name: ConditionErrorNameMapper
+      items: []
+    - uid: azure-event-hubs.ConditionStatusMapper
+      name: ConditionStatusMapper
+      items: []
+    - uid: azure-event-hubs.ConditionStatusMapper
+      name: ConditionStatusMapper
+      items: []
+    - uid: azure-event-hubs.Connection
+      name: Connection
+      items: []
+    - uid: azure-event-hubs.Connection
+      name: Connection
+      items: []
+    - uid: azure-event-hubs.ConnectionConfig
+      name: ConnectionConfig
+      items: []
+    - uid: azure-event-hubs.ConnectionConfig
+      name: ConnectionConfig
+      items: []
+    - uid: azure-event-hubs.ConnectionConfigOptions
+      name: ConnectionConfigOptions
+      items: []
+    - uid: azure-event-hubs.ConnectionConfigOptions
+      name: ConnectionConfigOptions
+      items: []
+    - uid: azure-event-hubs.ConnectionContext
+      name: ConnectionContext
+      items: []
+    - uid: azure-event-hubs.ConnectionContext
+      name: ConnectionContext
+      items: []
+    - uid: azure-event-hubs.ConnectionContextOptions
+      name: ConnectionContextOptions
+      items: []
+    - uid: azure-event-hubs.ConnectionContextOptions
+      name: ConnectionContextOptions
+      items: []
+    - uid: azure-event-hubs.CreateConnectionPrameters
+      name: CreateConnectionPrameters
+      items: []
+    - uid: azure-event-hubs.CreateReceiverOptions
+      name: CreateReceiverOptions
+      items: []
+    - uid: azure-event-hubs.CreateReceiverOptions
+      name: CreateReceiverOptions
+      items: []
+    - uid: azure-event-hubs.DataTransformer
+      name: DataTransformer
+      items: []
+    - uid: azure-event-hubs.DataTransformer
+      name: DataTransformer
+      items: []
+    - uid: azure-event-hubs.DefaultDataTransformer
+      name: DefaultDataTransformer
+      items: []
+    - uid: azure-event-hubs.DefaultDataTransformer
+      name: DefaultDataTransformer
+      items: []
+    - uid: azure-event-hubs.EHConfig
+      name: EHConfig
+      items: []
+    - uid: azure-event-hubs.EHConfig
+      name: EHConfig
+      items: []
+    - uid: azure-event-hubs.ErrorNameConditionMapper
+      name: ErrorNameConditionMapper
+      items: []
+    - uid: azure-event-hubs.ErrorNameConditionMapper
+      name: ErrorNameConditionMapper
+      items: []
+    - uid: azure-event-hubs.EventData
+      name: EventData
+      items: []
+    - uid: azure-event-hubs.EventData
+      name: EventData
+      items: []
+    - uid: azure-event-hubs.EventHubClient
+      name: EventHubClient
+      items: []
+    - uid: azure-event-hubs.EventHubClient
+      name: EventHubClient
+      items: []
+    - uid: azure-event-hubs.EventHubConnectionStringModel
+      name: EventHubConnectionStringModel
+      items: []
+    - uid: azure-event-hubs.EventHubConnectionStringModel
+      name: EventHubConnectionStringModel
+      items: []
+    - uid: azure-event-hubs.EventHubDeliveryAnnotations
+      name: EventHubDeliveryAnnotations
+      items: []
+    - uid: azure-event-hubs.EventHubDeliveryAnnotations
+      name: EventHubDeliveryAnnotations
+      items: []
+    - uid: azure-event-hubs.EventHubDeliveryAnnotations
+      name: EventHubDeliveryAnnotations
+      items: []
+    - uid: azure-event-hubs.EventHubMessageAnnotations
+      name: EventHubMessageAnnotations
+      items: []
+    - uid: azure-event-hubs.EventHubMessageAnnotations
+      name: EventHubMessageAnnotations
+      items: []
+    - uid: azure-event-hubs.EventHubMessageAnnotations
+      name: EventHubMessageAnnotations
+      items: []
+    - uid: azure-event-hubs.EventHubPartitionRuntimeInformation
+      name: EventHubPartitionRuntimeInformation
+      items: []
+    - uid: azure-event-hubs.EventHubPartitionRuntimeInformation
+      name: EventHubPartitionRuntimeInformation
+      items: []
+    - uid: azure-event-hubs.EventHubReceiver
+      name: EventHubReceiver
+      items: []
+    - uid: azure-event-hubs.EventHubReceiver
+      name: EventHubReceiver
+      items: []
+    - uid: azure-event-hubs.EventHubRuntimeInformation
+      name: EventHubRuntimeInformation
+      items: []
+    - uid: azure-event-hubs.EventHubRuntimeInformation
+      name: EventHubRuntimeInformation
+      items: []
+    - uid: azure-event-hubs.EventHubSender
+      name: EventHubSender
+      items: []
+    - uid: azure-event-hubs.EventHubSender
+      name: EventHubSender
+      items: []
+    - uid: azure-event-hubs.EventPosition
+      name: EventPosition
+      items: []
+    - uid: azure-event-hubs.EventPosition
+      name: EventPosition
+      items: []
+    - uid: azure-event-hubs.EventPositionOptions
+      name: EventPositionOptions
+      items: []
+    - uid: azure-event-hubs.EventPositionOptions
+      name: EventPositionOptions
+      items: []
+    - uid: azure-event-hubs.IotHubClient
+      name: IotHubClient
+      items: []
+    - uid: azure-event-hubs.IotHubClient
+      name: IotHubClient
+      items: []
+    - uid: azure-event-hubs.IotHubConnectionConfig
+      name: IotHubConnectionConfig
+      items: []
+    - uid: azure-event-hubs.IotHubConnectionConfig
+      name: IotHubConnectionConfig
+      items: []
+    - uid: azure-event-hubs.IotHubConnectionStringModel
+      name: IotHubConnectionStringModel
+      items: []
+    - uid: azure-event-hubs.IotHubConnectionStringModel
+      name: IotHubConnectionStringModel
+      items: []
+    - uid: azure-event-hubs.IotSasTokenProvider
+      name: IotSasTokenProvider
+      items: []
+    - uid: azure-event-hubs.IotSasTokenProvider
+      name: IotSasTokenProvider
+      items: []
+    - uid: azure-event-hubs.LinkEntity
+      name: LinkEntity
+      items: []
+    - uid: azure-event-hubs.LinkEntity
+      name: LinkEntity
+      items: []
+    - uid: azure-event-hubs.LinkEntityOptions
+      name: LinkEntityOptions
+      items: []
+    - uid: azure-event-hubs.LinkEntityOptions
+      name: LinkEntityOptions
+      items: []
+    - uid: azure-event-hubs.ManagementClient
+      name: ManagementClient
+      items: []
+    - uid: azure-event-hubs.ManagementClient
+      name: ManagementClient
+      items: []
+    - uid: azure-event-hubs.ManagementClientOptions
+      name: ManagementClientOptions
+      items: []
+    - uid: azure-event-hubs.ManagementClientOptions
+      name: ManagementClientOptions
+      items: []
+    - uid: azure-event-hubs.MessageHeader
+      name: MessageHeader
+      items: []
+    - uid: azure-event-hubs.MessageHeader
+      name: MessageHeader
+      items: []
+    - uid: azure-event-hubs.MessageProperties
+      name: MessageProperties
+      items: []
+    - uid: azure-event-hubs.MessageProperties
+      name: MessageProperties
+      items: []
+    - uid: azure-event-hubs.MessagingError
+      name: MessagingError
+      items: []
+    - uid: azure-event-hubs.MessagingError
+      name: MessagingError
+      items: []
+    - uid: azure-event-hubs.ParsedRedirectError
+      name: ParsedRedirectError
+      items: []
+    - uid: azure-event-hubs.ParsedRedirectError
+      name: ParsedRedirectError
+      items: []
+    - uid: azure-event-hubs.ReceiveHandler
+      name: ReceiveHandler
+      items: []
+    - uid: azure-event-hubs.ReceiveHandler
+      name: ReceiveHandler
+      items: []
+    - uid: azure-event-hubs.ReceiveOptions
+      name: ReceiveOptions
+      items: []
+    - uid: azure-event-hubs.ReceiveOptions
+      name: ReceiveOptions
+      items: []
+    - uid: azure-event-hubs.Receiver
+      name: Receiver
+      items: []
+    - uid: azure-event-hubs.Receiver
+      name: Receiver
+      items: []
+    - uid: azure-event-hubs.ReceiverOptions
+      name: ReceiverOptions
+      items: []
+    - uid: azure-event-hubs.ReceiverOptions
+      name: ReceiverOptions
+      items: []
+    - uid: azure-event-hubs.ReceiverOptionsWithSession
+      name: ReceiverOptionsWithSession
+      items: []
+    - uid: azure-event-hubs.ReceiverOptionsWithSession
+      name: ReceiverOptionsWithSession
+      items: []
+    - uid: azure-event-hubs.ReceiverRuntimeInfo
+      name: ReceiverRuntimeInfo
+      items: []
+    - uid: azure-event-hubs.ReceiverRuntimeInfo
+      name: ReceiverRuntimeInfo
+      items: []
+    - uid: azure-event-hubs.ReqResLink
+      name: ReqResLink
+      items: []
+    - uid: azure-event-hubs.ReqResLink
+      name: ReqResLink
+      items: []
+    - uid: azure-event-hubs.RequestResponseLink
+      name: RequestResponseLink
+      items: []
+    - uid: azure-event-hubs.RequestResponseLink
+      name: RequestResponseLink
+      items: []
+    - uid: azure-event-hubs.RetryConfig
+      name: RetryConfig
+      items: []
+    - uid: azure-event-hubs.RetryConfig
+      name: RetryConfig
+      items: []
+    - uid: azure-event-hubs.RetryOperationType
+      name: RetryOperationType
+      items: []
+    - uid: azure-event-hubs.RetryOperationType
+      name: RetryOperationType
+      items: []
+    - uid: azure-event-hubs.SasTokenProvider
+      name: SasTokenProvider
+      items: []
+    - uid: azure-event-hubs.SasTokenProvider
+      name: SasTokenProvider
+      items: []
+    - uid: azure-event-hubs.Sender
+      name: Sender
+      items: []
+    - uid: azure-event-hubs.Sender
+      name: Sender
+      items: []
+    - uid: azure-event-hubs.SenderOptions
+      name: SenderOptions
+      items: []
+    - uid: azure-event-hubs.SenderOptions
+      name: SenderOptions
+      items: []
+    - uid: azure-event-hubs.SenderOptionsWithSession
+      name: SenderOptionsWithSession
+      items: []
+    - uid: azure-event-hubs.SenderOptionsWithSession
+      name: SenderOptionsWithSession
+      items: []
+    - uid: azure-event-hubs.SendRequestOptions
+      name: SendRequestOptions
+      items: []
+    - uid: azure-event-hubs.SendRequestOptions
+      name: SendRequestOptions
+      items: []
+    - uid: azure-event-hubs.ServiceBusConnectionStringModel
+      name: ServiceBusConnectionStringModel
+      items: []
+    - uid: azure-event-hubs.ServiceBusConnectionStringModel
+      name: ServiceBusConnectionStringModel
+      items: []
+    - uid: azure-event-hubs.ServiceBusDeliveryAnnotations
+      name: ServiceBusDeliveryAnnotations
+      items: []
+    - uid: azure-event-hubs.ServiceBusDeliveryAnnotations
+      name: ServiceBusDeliveryAnnotations
+      items: []
+    - uid: azure-event-hubs.ServiceBusDeliveryAnnotations
+      name: ServiceBusDeliveryAnnotations
+      items: []
+    - uid: azure-event-hubs.ServiceBusMessageAnnotations
+      name: ServiceBusMessageAnnotations
+      items: []
+    - uid: azure-event-hubs.ServiceBusMessageAnnotations
+      name: ServiceBusMessageAnnotations
+      items: []
+    - uid: azure-event-hubs.ServiceBusMessageAnnotations
+      name: ServiceBusMessageAnnotations
+      items: []
+    - uid: azure-event-hubs.Session
+      name: Session
+      items: []
+    - uid: azure-event-hubs.Session
+      name: Session
+      items: []
+    - uid: azure-event-hubs.StorageConnectionStringModel
+      name: StorageConnectionStringModel
+      items: []
+    - uid: azure-event-hubs.StorageConnectionStringModel
+      name: StorageConnectionStringModel
+      items: []
+    - uid: azure-event-hubs.StreamingReceiver
+      name: StreamingReceiver
+      items: []
+    - uid: azure-event-hubs.StreamingReceiver
+      name: StreamingReceiver
+      items: []
+    - uid: azure-event-hubs.SystemErrorConditionMapper
+      name: SystemErrorConditionMapper
+      items: []
+    - uid: azure-event-hubs.SystemErrorConditionMapper
+      name: SystemErrorConditionMapper
+      items: []
+    - uid: azure-event-hubs.Timeout
+      name: Timeout
+      items: []
+    - uid: azure-event-hubs.Timeout
+      name: Timeout
+      items: []
+    - uid: azure-event-hubs.TokenInfo
+      name: TokenInfo
+      items: []
+    - uid: azure-event-hubs.TokenInfo
+      name: TokenInfo
+      items: []
+    - uid: azure-event-hubs.TokenProvider
+      name: TokenProvider
+      items: []
+    - uid: azure-event-hubs.TokenProvider
+      name: TokenProvider
+      items: []
+    - uid: azure-event-hubs.TokenType
+      name: TokenType
+      items: []
+    - uid: azure-event-hubs.TokenType
+      name: TokenType
+      items: []
