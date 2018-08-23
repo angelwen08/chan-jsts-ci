@@ -536,3 +536,5 @@ references:
     name: ReceiveHandler
   - uid: azure-event-hubs.StreamingReceiver
     name: StreamingReceiver
+  - uid: azure-event-hubs.OnMessage
+    name: OnMessage
