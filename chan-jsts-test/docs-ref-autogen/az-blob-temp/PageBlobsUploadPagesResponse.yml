@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: az-blob-temp.PageBlobsUploadPagesResponse
+    name: PageBlobsUploadPagesResponse
+    fullName: PageBlobsUploadPagesResponse
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains response data for the uploadPages operation.
+    extends:
+      name: any
+    package: az-blob-temp

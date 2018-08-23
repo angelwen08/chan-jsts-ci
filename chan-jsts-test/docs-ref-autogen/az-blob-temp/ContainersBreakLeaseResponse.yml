@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: az-blob-temp.ContainersBreakLeaseResponse
+    name: ContainersBreakLeaseResponse
+    fullName: ContainersBreakLeaseResponse
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains response data for the breakLease operation.
+    extends:
+      name: any
+    package: az-blob-temp

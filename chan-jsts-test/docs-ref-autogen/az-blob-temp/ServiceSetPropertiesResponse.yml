@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: az-blob-temp.ServiceSetPropertiesResponse
+    name: ServiceSetPropertiesResponse
+    fullName: ServiceSetPropertiesResponse
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains response data for the setProperties operation.
+    extends:
+      name: any
+    package: az-blob-temp

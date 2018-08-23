@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: az-blob-temp.ContainersDeleteResponse
+    name: ContainersDeleteResponse
+    fullName: ContainersDeleteResponse
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains response data for the deleteMethod operation.
+    extends:
+      name: any
+    package: az-blob-temp

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: az-blob-temp.BlobsGetPropertiesResponse
+    name: BlobsGetPropertiesResponse
+    fullName: BlobsGetPropertiesResponse
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains response data for the getProperties operation.
+    extends:
+      name: any
+    package: az-blob-temp

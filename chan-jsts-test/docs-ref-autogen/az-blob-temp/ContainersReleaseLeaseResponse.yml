@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: az-blob-temp.ContainersReleaseLeaseResponse
+    name: ContainersReleaseLeaseResponse
+    fullName: ContainersReleaseLeaseResponse
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Contains response data for the releaseLease operation.
+    extends:
+      name: any
+    package: az-blob-temp

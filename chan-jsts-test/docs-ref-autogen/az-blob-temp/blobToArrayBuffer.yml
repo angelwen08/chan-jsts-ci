@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: az-blob-temp.blobToArrayBuffer
+    name: blobToArrayBuffer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Convert a Browser Blob object into ArrayBuffer.
+    syntax:
+      content: 'function blobToArrayBuffer(blob: Blob)'
+      parameters:
+        - id: blob
+          type:
+            - az-blob-temp.Blob
+          description: ''
+      return:
+        type:
+          - Promise<ArrayBuffer>
+    package: az-blob-temp
+references:
+  - uid: az-blob-temp.Blob
+    spec.typeScript:
+      - name: Blob
+        fullName: Blob
+        uid: az-blob-temp.Blob
