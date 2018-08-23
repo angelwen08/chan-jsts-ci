@@ -6,7 +6,18 @@ items:
     children: []
     langs:
       - typeScript
-    type: class
+    type: function
     summary: |
       Describes the message handler signature.
     package: azure-event-hubs
+    syntax:
+      content: '(eventData: EventData) => void'
+      parameters:
+        - id: eventData
+          type:
+            - azure-event-hubs.EventData
+          description: ''
+          optional: true
+      return:
+        type:
+          - void
