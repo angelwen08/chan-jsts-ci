@@ -3,11 +3,7 @@ items:
   - uid: az-blob-temp.INewPipelineOptions
     name: INewPipelineOptions
     fullName: INewPipelineOptions
-    children:
-      - az-blob-temp.INewPipelineOptions.HTTPClient
-      - az-blob-temp.INewPipelineOptions.logger
-      - az-blob-temp.INewPipelineOptions.retryOptions
-      - az-blob-temp.INewPipelineOptions.telemetry
+    children: []
     langs:
       - typeScript
     type: interface
@@ -75,11 +71,13 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.IRetryOptions
+    name: IRetryOptions
     spec.typeScript:
       - name: IRetryOptions
         fullName: IRetryOptions
         uid: az-blob-temp.IRetryOptions
   - uid: az-blob-temp.ITelemetryOptions
+    name: ITelemetryOptions
     spec.typeScript:
       - name: ITelemetryOptions
         fullName: ITelemetryOptions

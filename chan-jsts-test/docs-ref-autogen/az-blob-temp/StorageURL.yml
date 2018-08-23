@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.StorageURL
     name: StorageURL
     fullName: StorageURL
-    children:
-      - az-blob-temp.StorageURL.newPipeline
-      - az-blob-temp.StorageURL.url
+    children: []
     langs:
       - typeScript
     type: class
@@ -58,16 +56,19 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.Credential
+    name: Credential
     spec.typeScript:
       - name: Credential
         fullName: Credential
         uid: az-blob-temp.Credential
   - uid: az-blob-temp.INewPipelineOptions
+    name: INewPipelineOptions
     spec.typeScript:
       - name: INewPipelineOptions
         fullName: INewPipelineOptions
         uid: az-blob-temp.INewPipelineOptions
   - uid: az-blob-temp.Pipeline
+    name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline

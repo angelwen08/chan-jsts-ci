@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.ContainersListBlobFlatSegmentOptionalParams
     name: ContainersListBlobFlatSegmentOptionalParams
     fullName: ContainersListBlobFlatSegmentOptionalParams
-    children:
-      - az-blob-temp.ContainersListBlobFlatSegmentOptionalParams.include
-      - az-blob-temp.ContainersListBlobFlatSegmentOptionalParams.marker
-      - az-blob-temp.ContainersListBlobFlatSegmentOptionalParams.maxresults
-      - az-blob-temp.ContainersListBlobFlatSegmentOptionalParams.prefix
-      - az-blob-temp.ContainersListBlobFlatSegmentOptionalParams.requestId
-      - az-blob-temp.ContainersListBlobFlatSegmentOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface
@@ -109,6 +103,7 @@ items:
     package: az-blob-temp
 references:
   - uid: 'az-blob-temp.ListBlobsIncludeItem[]'
+    name: 'ListBlobsIncludeItem[]'
     spec.typeScript:
       - name: ListBlobsIncludeItem
         fullName: ListBlobsIncludeItem

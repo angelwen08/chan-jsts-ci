@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.BlockBlobsStageBlockOptionalParams
     name: BlockBlobsStageBlockOptionalParams
     fullName: BlockBlobsStageBlockOptionalParams
-    children:
-      - az-blob-temp.BlockBlobsStageBlockOptionalParams.leaseId
-      - az-blob-temp.BlockBlobsStageBlockOptionalParams.requestId
-      - az-blob-temp.BlockBlobsStageBlockOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

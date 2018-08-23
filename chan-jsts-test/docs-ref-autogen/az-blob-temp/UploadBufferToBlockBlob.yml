@@ -42,16 +42,19 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.BlockBlobURL
+    name: BlockBlobURL
     spec.typeScript:
       - name: BlockBlobURL
         fullName: BlockBlobURL
         uid: az-blob-temp.BlockBlobURL
   - uid: az-blob-temp.IUploadToBlockBlobOptions
+    name: IUploadToBlockBlobOptions
     spec.typeScript:
       - name: IUploadToBlockBlobOptions
         fullName: IUploadToBlockBlobOptions
         uid: az-blob-temp.IUploadToBlockBlobOptions
   - uid: Promise<az-blob-temp.ICommonResponse>
+    name: ICommonResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<

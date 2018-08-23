@@ -3,36 +3,7 @@ items:
   - uid: az-blob-temp.BlobsDownloadHeaders
     name: BlobsDownloadHeaders
     fullName: BlobsDownloadHeaders
-    children:
-      - az-blob-temp.BlobsDownloadHeaders.acceptRanges
-      - az-blob-temp.BlobsDownloadHeaders.blobCommittedBlockCount
-      - az-blob-temp.BlobsDownloadHeaders.blobContentMD5
-      - az-blob-temp.BlobsDownloadHeaders.blobSequenceNumber
-      - az-blob-temp.BlobsDownloadHeaders.blobType
-      - az-blob-temp.BlobsDownloadHeaders.cacheControl
-      - az-blob-temp.BlobsDownloadHeaders.contentDisposition
-      - az-blob-temp.BlobsDownloadHeaders.contentEncoding
-      - az-blob-temp.BlobsDownloadHeaders.contentLanguage
-      - az-blob-temp.BlobsDownloadHeaders.contentLength
-      - az-blob-temp.BlobsDownloadHeaders.contentMD5
-      - az-blob-temp.BlobsDownloadHeaders.contentRange
-      - az-blob-temp.BlobsDownloadHeaders.contentType
-      - az-blob-temp.BlobsDownloadHeaders.copyCompletionTime
-      - az-blob-temp.BlobsDownloadHeaders.copyId
-      - az-blob-temp.BlobsDownloadHeaders.copyProgress
-      - az-blob-temp.BlobsDownloadHeaders.copySource
-      - az-blob-temp.BlobsDownloadHeaders.copyStatus
-      - az-blob-temp.BlobsDownloadHeaders.copyStatusDescription
-      - az-blob-temp.BlobsDownloadHeaders.date
-      - az-blob-temp.BlobsDownloadHeaders.eTag
-      - az-blob-temp.BlobsDownloadHeaders.isServerEncrypted
-      - az-blob-temp.BlobsDownloadHeaders.lastModified
-      - az-blob-temp.BlobsDownloadHeaders.leaseDuration
-      - az-blob-temp.BlobsDownloadHeaders.leaseState
-      - az-blob-temp.BlobsDownloadHeaders.leaseStatus
-      - az-blob-temp.BlobsDownloadHeaders.metadata
-      - az-blob-temp.BlobsDownloadHeaders.requestId
-      - az-blob-temp.BlobsDownloadHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface
@@ -475,26 +446,31 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.BlobType
+    name: BlobType
     spec.typeScript:
       - name: BlobType
         fullName: BlobType
         uid: az-blob-temp.BlobType
   - uid: az-blob-temp.CopyStatusType
+    name: CopyStatusType
     spec.typeScript:
       - name: CopyStatusType
         fullName: CopyStatusType
         uid: az-blob-temp.CopyStatusType
   - uid: az-blob-temp.LeaseDurationType
+    name: LeaseDurationType
     spec.typeScript:
       - name: LeaseDurationType
         fullName: LeaseDurationType
         uid: az-blob-temp.LeaseDurationType
   - uid: az-blob-temp.LeaseStateType
+    name: LeaseStateType
     spec.typeScript:
       - name: LeaseStateType
         fullName: LeaseStateType
         uid: az-blob-temp.LeaseStateType
   - uid: az-blob-temp.LeaseStatusType
+    name: LeaseStatusType
     spec.typeScript:
       - name: LeaseStatusType
         fullName: LeaseStatusType

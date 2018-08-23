@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.IIPRange
     name: IIPRange
     fullName: IIPRange
-    children:
-      - az-blob-temp.IIPRange.end
-      - az-blob-temp.IIPRange.start
+    children: []
     langs:
       - typeScript
     type: interface

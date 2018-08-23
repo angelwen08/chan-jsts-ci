@@ -3,28 +3,7 @@ items:
   - uid: az-blob-temp.BlobURL
     name: BlobURL
     fullName: BlobURL
-    children:
-      - az-blob-temp.BlobURL.abortCopyFromURL
-      - az-blob-temp.BlobURL.acquireLease
-      - az-blob-temp.BlobURL.constructor
-      - az-blob-temp.BlobURL.breakLease
-      - az-blob-temp.BlobURL.changeLease
-      - az-blob-temp.BlobURL.createSnapshot
-      - az-blob-temp.BlobURL.delete
-      - az-blob-temp.BlobURL.download
-      - az-blob-temp.BlobURL.getProperties
-      - az-blob-temp.BlobURL.releaseLease
-      - az-blob-temp.BlobURL.renewLease
-      - az-blob-temp.BlobURL.setHTTPHeaders
-      - az-blob-temp.BlobURL.setMetadata
-      - az-blob-temp.BlobURL.setTier
-      - az-blob-temp.BlobURL.startCopyFromURL
-      - az-blob-temp.BlobURL.toAppendBlobURL
-      - az-blob-temp.BlobURL.toBlockBlobURL
-      - az-blob-temp.BlobURL.toPageBlobURL
-      - az-blob-temp.BlobURL.undelete
-      - az-blob-temp.BlobURL.withPipeline
-      - az-blob-temp.BlobURL.withSnapshot
+    children: []
     langs:
       - typeScript
     type: class
@@ -549,21 +528,25 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageURL
+    name: StorageURL
     spec.typeScript:
       - name: StorageURL
         fullName: StorageURL
         uid: az-blob-temp.StorageURL
   - uid: az-blob-temp.Pipeline
+    name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
         uid: az-blob-temp.Pipeline
   - uid: az-blob-temp.BlobsAbortCopyFromURLOptionalParams
+    name: BlobsAbortCopyFromURLOptionalParams
     spec.typeScript:
       - name: BlobsAbortCopyFromURLOptionalParams
         fullName: BlobsAbortCopyFromURLOptionalParams
         uid: az-blob-temp.BlobsAbortCopyFromURLOptionalParams
   - uid: Promise<az-blob-temp.BlobsAbortCopyFromURLResponse>
+    name: BlobsAbortCopyFromURLResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -573,11 +556,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsAcquireLeaseOptionalParams
+    name: BlobsAcquireLeaseOptionalParams
     spec.typeScript:
       - name: BlobsAcquireLeaseOptionalParams
         fullName: BlobsAcquireLeaseOptionalParams
         uid: az-blob-temp.BlobsAcquireLeaseOptionalParams
   - uid: Promise<az-blob-temp.BlobsAcquireLeaseResponse>
+    name: BlobsAcquireLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -587,11 +572,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsBreakLeaseOptionalParams
+    name: BlobsBreakLeaseOptionalParams
     spec.typeScript:
       - name: BlobsBreakLeaseOptionalParams
         fullName: BlobsBreakLeaseOptionalParams
         uid: az-blob-temp.BlobsBreakLeaseOptionalParams
   - uid: Promise<az-blob-temp.BlobsBreakLeaseResponse>
+    name: BlobsBreakLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -601,11 +588,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsChangeLeaseOptionalParams
+    name: BlobsChangeLeaseOptionalParams
     spec.typeScript:
       - name: BlobsChangeLeaseOptionalParams
         fullName: BlobsChangeLeaseOptionalParams
         uid: az-blob-temp.BlobsChangeLeaseOptionalParams
   - uid: Promise<az-blob-temp.BlobsChangeLeaseResponse>
+    name: BlobsChangeLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -615,11 +604,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsCreateSnapshotOptionalParams
+    name: BlobsCreateSnapshotOptionalParams
     spec.typeScript:
       - name: BlobsCreateSnapshotOptionalParams
         fullName: BlobsCreateSnapshotOptionalParams
         uid: az-blob-temp.BlobsCreateSnapshotOptionalParams
   - uid: Promise<az-blob-temp.BlobsCreateSnapshotResponse>
+    name: BlobsCreateSnapshotResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -629,11 +620,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsDeleteMethodOptionalParams
+    name: BlobsDeleteMethodOptionalParams
     spec.typeScript:
       - name: BlobsDeleteMethodOptionalParams
         fullName: BlobsDeleteMethodOptionalParams
         uid: az-blob-temp.BlobsDeleteMethodOptionalParams
   - uid: Promise<az-blob-temp.BlobsDeleteResponse>
+    name: BlobsDeleteResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -643,11 +636,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsDownloadOptionalParams
+    name: BlobsDownloadOptionalParams
     spec.typeScript:
       - name: BlobsDownloadOptionalParams
         fullName: BlobsDownloadOptionalParams
         uid: az-blob-temp.BlobsDownloadOptionalParams
   - uid: Promise<az-blob-temp.BlobsDownloadResponse>
+    name: BlobsDownloadResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -657,11 +652,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsGetPropertiesOptionalParams
+    name: BlobsGetPropertiesOptionalParams
     spec.typeScript:
       - name: BlobsGetPropertiesOptionalParams
         fullName: BlobsGetPropertiesOptionalParams
         uid: az-blob-temp.BlobsGetPropertiesOptionalParams
   - uid: Promise<az-blob-temp.BlobsGetPropertiesResponse>
+    name: BlobsGetPropertiesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -671,11 +668,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsReleaseLeaseOptionalParams
+    name: BlobsReleaseLeaseOptionalParams
     spec.typeScript:
       - name: BlobsReleaseLeaseOptionalParams
         fullName: BlobsReleaseLeaseOptionalParams
         uid: az-blob-temp.BlobsReleaseLeaseOptionalParams
   - uid: Promise<az-blob-temp.BlobsReleaseLeaseResponse>
+    name: BlobsReleaseLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -685,11 +684,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsRenewLeaseOptionalParams
+    name: BlobsRenewLeaseOptionalParams
     spec.typeScript:
       - name: BlobsRenewLeaseOptionalParams
         fullName: BlobsRenewLeaseOptionalParams
         uid: az-blob-temp.BlobsRenewLeaseOptionalParams
   - uid: Promise<az-blob-temp.BlobsRenewLeaseResponse>
+    name: BlobsRenewLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -699,11 +700,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsSetHTTPHeadersOptionalParams
+    name: BlobsSetHTTPHeadersOptionalParams
     spec.typeScript:
       - name: BlobsSetHTTPHeadersOptionalParams
         fullName: BlobsSetHTTPHeadersOptionalParams
         uid: az-blob-temp.BlobsSetHTTPHeadersOptionalParams
   - uid: Promise<az-blob-temp.BlobsSetHTTPHeadersResponse>
+    name: BlobsSetHTTPHeadersResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -713,11 +716,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsSetMetadataOptionalParams
+    name: BlobsSetMetadataOptionalParams
     spec.typeScript:
       - name: BlobsSetMetadataOptionalParams
         fullName: BlobsSetMetadataOptionalParams
         uid: az-blob-temp.BlobsSetMetadataOptionalParams
   - uid: Promise<az-blob-temp.BlobsSetMetadataResponse>
+    name: BlobsSetMetadataResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -727,16 +732,19 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.AccessTier
+    name: AccessTier
     spec.typeScript:
       - name: AccessTier
         fullName: AccessTier
         uid: az-blob-temp.AccessTier
   - uid: az-blob-temp.BlobsSetTierOptionalParams
+    name: BlobsSetTierOptionalParams
     spec.typeScript:
       - name: BlobsSetTierOptionalParams
         fullName: BlobsSetTierOptionalParams
         uid: az-blob-temp.BlobsSetTierOptionalParams
   - uid: Promise<az-blob-temp.BlobsSetTierResponse>
+    name: BlobsSetTierResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -746,11 +754,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobsStartCopyFromURLOptionalParams
+    name: BlobsStartCopyFromURLOptionalParams
     spec.typeScript:
       - name: BlobsStartCopyFromURLOptionalParams
         fullName: BlobsStartCopyFromURLOptionalParams
         uid: az-blob-temp.BlobsStartCopyFromURLOptionalParams
   - uid: Promise<az-blob-temp.BlobsStartCopyFromURLResponse>
+    name: BlobsStartCopyFromURLResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -760,26 +770,31 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.AppendBlobURL
+    name: AppendBlobURL
     spec.typeScript:
       - name: AppendBlobURL
         fullName: AppendBlobURL
         uid: az-blob-temp.AppendBlobURL
   - uid: az-blob-temp.BlockBlobURL
+    name: BlockBlobURL
     spec.typeScript:
       - name: BlockBlobURL
         fullName: BlockBlobURL
         uid: az-blob-temp.BlockBlobURL
   - uid: az-blob-temp.PageBlobURL
+    name: PageBlobURL
     spec.typeScript:
       - name: PageBlobURL
         fullName: PageBlobURL
         uid: az-blob-temp.PageBlobURL
   - uid: az-blob-temp.BlobsUndeleteOptionalParams
+    name: BlobsUndeleteOptionalParams
     spec.typeScript:
       - name: BlobsUndeleteOptionalParams
         fullName: BlobsUndeleteOptionalParams
         uid: az-blob-temp.BlobsUndeleteOptionalParams
   - uid: Promise<az-blob-temp.BlobsUndeleteResponse>
+    name: BlobsUndeleteResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -789,6 +804,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlobURL
+    name: BlobURL
     spec.typeScript:
       - name: BlobURL
         fullName: BlobURL

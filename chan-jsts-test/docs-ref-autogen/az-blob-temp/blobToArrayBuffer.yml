@@ -20,6 +20,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.Blob
+    name: Blob
     spec.typeScript:
       - name: Blob
         fullName: Blob

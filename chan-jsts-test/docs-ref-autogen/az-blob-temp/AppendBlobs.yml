@@ -3,18 +3,7 @@ items:
   - uid: az-blob-temp.AppendBlobs
     name: AppendBlobs
     fullName: AppendBlobs
-    children:
-      - az-blob-temp.AppendBlobs.constructor
-      - az-blob-temp.AppendBlobs.appendBlock_1
-      - az-blob-temp.AppendBlobs.appendBlock_2
-      - az-blob-temp.AppendBlobs.appendBlock_3
-      - az-blob-temp.AppendBlobs.appendBlock
-      - az-blob-temp.AppendBlobs.appendBlockWithHttpOperationResponse
-      - az-blob-temp.AppendBlobs.create
-      - az-blob-temp.AppendBlobs.create_1
-      - az-blob-temp.AppendBlobs.create_2
-      - az-blob-temp.AppendBlobs.create_3
-      - az-blob-temp.AppendBlobs.createWithHttpOperationResponse
+    children: []
     langs:
       - typeScript
     type: class
@@ -346,16 +335,19 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageClientContext
+    name: StorageClientContext
     spec.typeScript:
       - name: StorageClientContext
         fullName: StorageClientContext
         uid: az-blob-temp.StorageClientContext
   - uid: az-blob-temp.AppendBlobsAppendBlockOptionalParams
+    name: AppendBlobsAppendBlockOptionalParams
     spec.typeScript:
       - name: AppendBlobsAppendBlockOptionalParams
         fullName: AppendBlobsAppendBlockOptionalParams
         uid: az-blob-temp.AppendBlobsAppendBlockOptionalParams
   - uid: Promise<az-blob-temp.AppendBlobsAppendBlockResponse>
+    name: AppendBlobsAppendBlockResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -365,11 +357,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.AppendBlobsCreateOptionalParams
+    name: AppendBlobsCreateOptionalParams
     spec.typeScript:
       - name: AppendBlobsCreateOptionalParams
         fullName: AppendBlobsCreateOptionalParams
         uid: az-blob-temp.AppendBlobsCreateOptionalParams
   - uid: Promise<az-blob-temp.AppendBlobsCreateResponse>
+    name: AppendBlobsCreateResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<

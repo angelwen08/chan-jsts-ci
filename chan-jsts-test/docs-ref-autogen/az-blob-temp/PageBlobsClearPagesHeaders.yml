@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobsClearPagesHeaders
     name: PageBlobsClearPagesHeaders
     fullName: PageBlobsClearPagesHeaders
-    children:
-      - az-blob-temp.PageBlobsClearPagesHeaders.blobSequenceNumber
-      - az-blob-temp.PageBlobsClearPagesHeaders.contentMD5
-      - az-blob-temp.PageBlobsClearPagesHeaders.date
-      - az-blob-temp.PageBlobsClearPagesHeaders.eTag
-      - az-blob-temp.PageBlobsClearPagesHeaders.lastModified
-      - az-blob-temp.PageBlobsClearPagesHeaders.requestId
-      - az-blob-temp.PageBlobsClearPagesHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

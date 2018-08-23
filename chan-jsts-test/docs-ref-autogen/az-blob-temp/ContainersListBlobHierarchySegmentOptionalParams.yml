@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams
     name: ContainersListBlobHierarchySegmentOptionalParams
     fullName: ContainersListBlobHierarchySegmentOptionalParams
-    children:
-      - az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams.include
-      - az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams.marker
-      - az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams.maxresults
-      - az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams.prefix
-      - az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams.requestId
-      - az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface
@@ -109,6 +103,7 @@ items:
     package: az-blob-temp
 references:
   - uid: 'az-blob-temp.ListBlobsIncludeItem[]'
+    name: 'ListBlobsIncludeItem[]'
     spec.typeScript:
       - name: ListBlobsIncludeItem
         fullName: ListBlobsIncludeItem

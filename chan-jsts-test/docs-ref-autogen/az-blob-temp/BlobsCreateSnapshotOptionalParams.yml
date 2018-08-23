@@ -3,15 +3,7 @@ items:
   - uid: az-blob-temp.BlobsCreateSnapshotOptionalParams
     name: BlobsCreateSnapshotOptionalParams
     fullName: BlobsCreateSnapshotOptionalParams
-    children:
-      - az-blob-temp.BlobsCreateSnapshotOptionalParams.ifMatches
-      - az-blob-temp.BlobsCreateSnapshotOptionalParams.ifModifiedSince
-      - az-blob-temp.BlobsCreateSnapshotOptionalParams.ifNoneMatch
-      - az-blob-temp.BlobsCreateSnapshotOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.BlobsCreateSnapshotOptionalParams.leaseId
-      - az-blob-temp.BlobsCreateSnapshotOptionalParams.metadata
-      - az-blob-temp.BlobsCreateSnapshotOptionalParams.requestId
-      - az-blob-temp.BlobsCreateSnapshotOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.AccountSASServices
     name: AccountSASServices
     fullName: AccountSASServices
-    children:
-      - az-blob-temp.AccountSASServices.blob
-      - az-blob-temp.AccountSASServices.file
-      - az-blob-temp.AccountSASServices.parse
-      - az-blob-temp.AccountSASServices.queue
-      - az-blob-temp.AccountSASServices.table
-      - az-blob-temp.AccountSASServices.toString
+    children: []
     langs:
       - typeScript
     type: class
@@ -124,6 +118,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.AccountSASServices
+    name: AccountSASServices
     spec.typeScript:
       - name: AccountSASServices
         fullName: AccountSASServices

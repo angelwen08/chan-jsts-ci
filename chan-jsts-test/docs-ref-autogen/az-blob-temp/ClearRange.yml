@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.ClearRange
     name: ClearRange
     fullName: ClearRange
-    children:
-      - az-blob-temp.ClearRange.end
-      - az-blob-temp.ClearRange.start
+    children: []
     langs:
       - typeScript
     type: interface

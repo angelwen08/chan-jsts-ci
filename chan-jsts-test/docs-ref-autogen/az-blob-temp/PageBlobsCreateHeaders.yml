@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobsCreateHeaders
     name: PageBlobsCreateHeaders
     fullName: PageBlobsCreateHeaders
-    children:
-      - az-blob-temp.PageBlobsCreateHeaders.contentMD5
-      - az-blob-temp.PageBlobsCreateHeaders.date
-      - az-blob-temp.PageBlobsCreateHeaders.eTag
-      - az-blob-temp.PageBlobsCreateHeaders.isServerEncrypted
-      - az-blob-temp.PageBlobsCreateHeaders.lastModified
-      - az-blob-temp.PageBlobsCreateHeaders.requestId
-      - az-blob-temp.PageBlobsCreateHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

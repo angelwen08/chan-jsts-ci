@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.ContainersGetPropertiesOptionalParams
     name: ContainersGetPropertiesOptionalParams
     fullName: ContainersGetPropertiesOptionalParams
-    children:
-      - az-blob-temp.ContainersGetPropertiesOptionalParams.leaseId
-      - az-blob-temp.ContainersGetPropertiesOptionalParams.requestId
-      - az-blob-temp.ContainersGetPropertiesOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

@@ -3,21 +3,7 @@ items:
   - uid: az-blob-temp.BlockBlobsUploadOptionalParams
     name: BlockBlobsUploadOptionalParams
     fullName: BlockBlobsUploadOptionalParams
-    children:
-      - az-blob-temp.BlockBlobsUploadOptionalParams.blobCacheControl
-      - az-blob-temp.BlockBlobsUploadOptionalParams.blobContentDisposition
-      - az-blob-temp.BlockBlobsUploadOptionalParams.blobContentEncoding
-      - az-blob-temp.BlockBlobsUploadOptionalParams.blobContentLanguage
-      - az-blob-temp.BlockBlobsUploadOptionalParams.blobContentMD5
-      - az-blob-temp.BlockBlobsUploadOptionalParams.blobContentType
-      - az-blob-temp.BlockBlobsUploadOptionalParams.ifMatches
-      - az-blob-temp.BlockBlobsUploadOptionalParams.ifModifiedSince
-      - az-blob-temp.BlockBlobsUploadOptionalParams.ifNoneMatch
-      - az-blob-temp.BlockBlobsUploadOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.BlockBlobsUploadOptionalParams.leaseId
-      - az-blob-temp.BlockBlobsUploadOptionalParams.metadata
-      - az-blob-temp.BlockBlobsUploadOptionalParams.requestId
-      - az-blob-temp.BlockBlobsUploadOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.BlockBlobsCommitBlockListHeaders
     name: BlockBlobsCommitBlockListHeaders
     fullName: BlockBlobsCommitBlockListHeaders
-    children:
-      - az-blob-temp.BlockBlobsCommitBlockListHeaders.contentMD5
-      - az-blob-temp.BlockBlobsCommitBlockListHeaders.date
-      - az-blob-temp.BlockBlobsCommitBlockListHeaders.eTag
-      - az-blob-temp.BlockBlobsCommitBlockListHeaders.isServerEncrypted
-      - az-blob-temp.BlockBlobsCommitBlockListHeaders.lastModified
-      - az-blob-temp.BlockBlobsCommitBlockListHeaders.requestId
-      - az-blob-temp.BlockBlobsCommitBlockListHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

@@ -3,15 +3,7 @@ items:
   - uid: az-blob-temp.BlobsGetPropertiesOptionalParams
     name: BlobsGetPropertiesOptionalParams
     fullName: BlobsGetPropertiesOptionalParams
-    children:
-      - az-blob-temp.BlobsGetPropertiesOptionalParams.ifMatches
-      - az-blob-temp.BlobsGetPropertiesOptionalParams.ifModifiedSince
-      - az-blob-temp.BlobsGetPropertiesOptionalParams.ifNoneMatch
-      - az-blob-temp.BlobsGetPropertiesOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.BlobsGetPropertiesOptionalParams.leaseId
-      - az-blob-temp.BlobsGetPropertiesOptionalParams.requestId
-      - az-blob-temp.BlobsGetPropertiesOptionalParams.snapshot
-      - az-blob-temp.BlobsGetPropertiesOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

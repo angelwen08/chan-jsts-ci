@@ -3,28 +3,7 @@ items:
   - uid: az-blob-temp.Service
     name: Service
     fullName: Service
-    children:
-      - az-blob-temp.Service.getProperties_2
-      - az-blob-temp.Service.getProperties_3
-      - az-blob-temp.Service.getProperties_1
-      - az-blob-temp.Service.getProperties
-      - az-blob-temp.Service.getPropertiesWithHttpOperationResponse
-      - az-blob-temp.Service.getStatistics_2
-      - az-blob-temp.Service.getStatistics
-      - az-blob-temp.Service.getStatistics_1
-      - az-blob-temp.Service.getStatistics_3
-      - az-blob-temp.Service.getStatisticsWithHttpOperationResponse
-      - az-blob-temp.Service.listContainersSegment
-      - az-blob-temp.Service.listContainersSegment_1
-      - az-blob-temp.Service.listContainersSegment_2
-      - az-blob-temp.Service.listContainersSegment_3
-      - az-blob-temp.Service.listContainersSegmentWithHttpOperationResponse
-      - az-blob-temp.Service.constructor
-      - az-blob-temp.Service.setProperties
-      - az-blob-temp.Service.setProperties_1
-      - az-blob-temp.Service.setProperties_2
-      - az-blob-temp.Service.setProperties_3
-      - az-blob-temp.Service.setPropertiesWithHttpOperationResponse
+    children: []
     langs:
       - typeScript
     type: class
@@ -562,11 +541,13 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageClientContext
+    name: StorageClientContext
     spec.typeScript:
       - name: StorageClientContext
         fullName: StorageClientContext
         uid: az-blob-temp.StorageClientContext
   - uid: Promise<az-blob-temp.StorageServiceProperties>
+    name: StorageServiceProperties>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -576,11 +557,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ServiceGetPropertiesOptionalParams
+    name: ServiceGetPropertiesOptionalParams
     spec.typeScript:
       - name: ServiceGetPropertiesOptionalParams
         fullName: ServiceGetPropertiesOptionalParams
         uid: az-blob-temp.ServiceGetPropertiesOptionalParams
   - uid: msRest.ServiceCallback<az-blob-temp.StorageServiceProperties>
+    name: StorageServiceProperties>
     spec.typeScript:
       - name: msRest.ServiceCallback<
         fullName: msRest.ServiceCallback<
@@ -590,6 +573,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: Promise<az-blob-temp.ServiceGetPropertiesResponse>
+    name: ServiceGetPropertiesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -599,6 +583,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: Promise<az-blob-temp.StorageServiceStats>
+    name: StorageServiceStats>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -608,11 +593,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ServiceGetStatisticsOptionalParams
+    name: ServiceGetStatisticsOptionalParams
     spec.typeScript:
       - name: ServiceGetStatisticsOptionalParams
         fullName: ServiceGetStatisticsOptionalParams
         uid: az-blob-temp.ServiceGetStatisticsOptionalParams
   - uid: msRest.ServiceCallback<az-blob-temp.StorageServiceStats>
+    name: StorageServiceStats>
     spec.typeScript:
       - name: msRest.ServiceCallback<
         fullName: msRest.ServiceCallback<
@@ -622,6 +609,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: Promise<az-blob-temp.ServiceGetStatisticsResponse>
+    name: ServiceGetStatisticsResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -631,6 +619,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: Promise<az-blob-temp.ListContainersResponse>
+    name: ListContainersResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -640,11 +629,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ServiceListContainersSegmentOptionalParams
+    name: ServiceListContainersSegmentOptionalParams
     spec.typeScript:
       - name: ServiceListContainersSegmentOptionalParams
         fullName: ServiceListContainersSegmentOptionalParams
         uid: az-blob-temp.ServiceListContainersSegmentOptionalParams
   - uid: msRest.ServiceCallback<az-blob-temp.ListContainersResponse>
+    name: ListContainersResponse>
     spec.typeScript:
       - name: msRest.ServiceCallback<
         fullName: msRest.ServiceCallback<
@@ -654,6 +645,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: Promise<az-blob-temp.ServiceListContainersSegmentResponse>
+    name: ServiceListContainersSegmentResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -663,16 +655,19 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.StorageServiceProperties
+    name: StorageServiceProperties
     spec.typeScript:
       - name: StorageServiceProperties
         fullName: StorageServiceProperties
         uid: az-blob-temp.StorageServiceProperties
   - uid: az-blob-temp.ServiceSetPropertiesOptionalParams
+    name: ServiceSetPropertiesOptionalParams
     spec.typeScript:
       - name: ServiceSetPropertiesOptionalParams
         fullName: ServiceSetPropertiesOptionalParams
         uid: az-blob-temp.ServiceSetPropertiesOptionalParams
   - uid: Promise<az-blob-temp.ServiceSetPropertiesResponse>
+    name: ServiceSetPropertiesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<

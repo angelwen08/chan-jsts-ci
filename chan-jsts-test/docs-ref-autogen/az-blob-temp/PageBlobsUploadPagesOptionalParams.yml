@@ -3,19 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobsUploadPagesOptionalParams
     name: PageBlobsUploadPagesOptionalParams
     fullName: PageBlobsUploadPagesOptionalParams
-    children:
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.ifMatches
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.ifModifiedSince
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.ifNoneMatch
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.ifSequenceNumberEqualTo
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.ifSequenceNumberLessThan
-      - >-
-        az-blob-temp.PageBlobsUploadPagesOptionalParams.ifSequenceNumberLessThanOrEqualTo
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.leaseId
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.range
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.requestId
-      - az-blob-temp.PageBlobsUploadPagesOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

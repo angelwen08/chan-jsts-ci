@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.BlockList
     name: BlockList
     fullName: BlockList
-    children:
-      - az-blob-temp.BlockList.committedBlocks
-      - az-blob-temp.BlockList.uncommittedBlocks
+    children: []
     langs:
       - typeScript
     type: interface
@@ -43,6 +41,7 @@ items:
     package: az-blob-temp
 references:
   - uid: 'az-blob-temp.Block[]'
+    name: 'Block[]'
     spec.typeScript:
       - name: Block
         fullName: Block

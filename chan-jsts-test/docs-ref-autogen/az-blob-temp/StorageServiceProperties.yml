@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.StorageServiceProperties
     name: StorageServiceProperties
     fullName: StorageServiceProperties
-    children:
-      - az-blob-temp.StorageServiceProperties.cors
-      - az-blob-temp.StorageServiceProperties.defaultServiceVersion
-      - az-blob-temp.StorageServiceProperties.deleteRetentionPolicy
-      - az-blob-temp.StorageServiceProperties.hourMetrics
-      - az-blob-temp.StorageServiceProperties.logging
-      - az-blob-temp.StorageServiceProperties.minuteMetrics
+    children: []
     langs:
       - typeScript
     type: interface
@@ -107,6 +101,7 @@ items:
     package: az-blob-temp
 references:
   - uid: 'az-blob-temp.CorsRule[]'
+    name: 'CorsRule[]'
     spec.typeScript:
       - name: CorsRule
         fullName: CorsRule
@@ -114,16 +109,19 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: az-blob-temp.RetentionPolicy
+    name: RetentionPolicy
     spec.typeScript:
       - name: RetentionPolicy
         fullName: RetentionPolicy
         uid: az-blob-temp.RetentionPolicy
   - uid: az-blob-temp.Metrics
+    name: Metrics
     spec.typeScript:
       - name: Metrics
         fullName: Metrics
         uid: az-blob-temp.Metrics
   - uid: az-blob-temp.Logging
+    name: Logging
     spec.typeScript:
       - name: Logging
         fullName: Logging

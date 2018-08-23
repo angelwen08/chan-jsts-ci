@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.SignedIdentifier
     name: SignedIdentifier
     fullName: SignedIdentifier
-    children:
-      - az-blob-temp.SignedIdentifier.accessPolicy
-      - az-blob-temp.SignedIdentifier.id
+    children: []
     langs:
       - typeScript
     type: interface
@@ -41,6 +39,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.AccessPolicy
+    name: AccessPolicy
     spec.typeScript:
       - name: AccessPolicy
         fullName: AccessPolicy

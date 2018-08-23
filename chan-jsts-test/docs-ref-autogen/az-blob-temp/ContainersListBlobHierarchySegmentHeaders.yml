@@ -3,11 +3,7 @@ items:
   - uid: az-blob-temp.ContainersListBlobHierarchySegmentHeaders
     name: ContainersListBlobHierarchySegmentHeaders
     fullName: ContainersListBlobHierarchySegmentHeaders
-    children:
-      - az-blob-temp.ContainersListBlobHierarchySegmentHeaders.contentType
-      - az-blob-temp.ContainersListBlobHierarchySegmentHeaders.date
-      - az-blob-temp.ContainersListBlobHierarchySegmentHeaders.requestId
-      - az-blob-temp.ContainersListBlobHierarchySegmentHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

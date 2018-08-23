@@ -3,17 +3,7 @@ items:
   - uid: az-blob-temp.AccessTier
     name: AccessTier
     fullName: AccessTier
-    children:
-      - az-blob-temp.AccessTier.Archive
-      - az-blob-temp.AccessTier.Cool
-      - az-blob-temp.AccessTier.Hot
-      - az-blob-temp.AccessTier.P10
-      - az-blob-temp.AccessTier.P20
-      - az-blob-temp.AccessTier.P30
-      - az-blob-temp.AccessTier.P4
-      - az-blob-temp.AccessTier.P40
-      - az-blob-temp.AccessTier.P50
-      - az-blob-temp.AccessTier.P6
+    children: []
     langs:
       - typeScript
     type: enum

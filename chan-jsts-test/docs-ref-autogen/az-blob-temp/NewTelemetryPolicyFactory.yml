@@ -21,6 +21,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.ITelemetryOptions
+    name: ITelemetryOptions
     spec.typeScript:
       - name: ITelemetryOptions
         fullName: ITelemetryOptions

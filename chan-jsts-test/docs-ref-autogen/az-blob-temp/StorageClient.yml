@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.StorageClient
     name: StorageClient
     fullName: StorageClient
-    children:
-      - az-blob-temp.StorageClient.appendBlobs
-      - az-blob-temp.StorageClient.blobs
-      - az-blob-temp.StorageClient.blockBlobs
-      - az-blob-temp.StorageClient.containers
-      - az-blob-temp.StorageClient.pageBlobs
-      - az-blob-temp.StorageClient.service
-      - az-blob-temp.StorageClient.constructor
+    children: []
     langs:
       - typeScript
     type: class
@@ -130,36 +123,43 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageClientContext
+    name: StorageClientContext
     spec.typeScript:
       - name: StorageClientContext
         fullName: StorageClientContext
         uid: az-blob-temp.StorageClientContext
   - uid: az-blob-temp.AppendBlobs
+    name: AppendBlobs
     spec.typeScript:
       - name: AppendBlobs
         fullName: AppendBlobs
         uid: az-blob-temp.AppendBlobs
   - uid: az-blob-temp.Blobs
+    name: Blobs
     spec.typeScript:
       - name: Blobs
         fullName: Blobs
         uid: az-blob-temp.Blobs
   - uid: az-blob-temp.BlockBlobs
+    name: BlockBlobs
     spec.typeScript:
       - name: BlockBlobs
         fullName: BlockBlobs
         uid: az-blob-temp.BlockBlobs
   - uid: az-blob-temp.Containers
+    name: Containers
     spec.typeScript:
       - name: Containers
         fullName: Containers
         uid: az-blob-temp.Containers
   - uid: az-blob-temp.PageBlobs
+    name: PageBlobs
     spec.typeScript:
       - name: PageBlobs
         fullName: PageBlobs
         uid: az-blob-temp.PageBlobs
   - uid: az-blob-temp.Service
+    name: Service
     spec.typeScript:
       - name: Service
         fullName: Service

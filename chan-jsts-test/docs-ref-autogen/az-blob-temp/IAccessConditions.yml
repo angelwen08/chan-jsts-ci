@@ -3,11 +3,7 @@ items:
   - uid: az-blob-temp.IAccessConditions
     name: IAccessConditions
     fullName: IAccessConditions
-    children:
-      - az-blob-temp.IAccessConditions.ifMatches
-      - az-blob-temp.IAccessConditions.ifModifiedSince
-      - az-blob-temp.IAccessConditions.ifNoneMatch
-      - az-blob-temp.IAccessConditions.ifUnmodifiedSince
+    children: []
     langs:
       - typeScript
     type: interface

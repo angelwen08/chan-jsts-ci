@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.ContainersGetAccessPolicyOptionalParams
     name: ContainersGetAccessPolicyOptionalParams
     fullName: ContainersGetAccessPolicyOptionalParams
-    children:
-      - az-blob-temp.ContainersGetAccessPolicyOptionalParams.leaseId
-      - az-blob-temp.ContainersGetAccessPolicyOptionalParams.requestId
-      - az-blob-temp.ContainersGetAccessPolicyOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

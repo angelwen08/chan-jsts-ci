@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.BlockBlobsGetBlockListHeaders
     name: BlockBlobsGetBlockListHeaders
     fullName: BlockBlobsGetBlockListHeaders
-    children:
-      - az-blob-temp.BlockBlobsGetBlockListHeaders.blobContentLength
-      - az-blob-temp.BlockBlobsGetBlockListHeaders.contentType
-      - az-blob-temp.BlockBlobsGetBlockListHeaders.date
-      - az-blob-temp.BlockBlobsGetBlockListHeaders.eTag
-      - az-blob-temp.BlockBlobsGetBlockListHeaders.lastModified
-      - az-blob-temp.BlockBlobsGetBlockListHeaders.requestId
-      - az-blob-temp.BlockBlobsGetBlockListHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

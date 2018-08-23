@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobsCopyIncrementalOptionalParams
     name: PageBlobsCopyIncrementalOptionalParams
     fullName: PageBlobsCopyIncrementalOptionalParams
-    children:
-      - az-blob-temp.PageBlobsCopyIncrementalOptionalParams.ifMatches
-      - az-blob-temp.PageBlobsCopyIncrementalOptionalParams.ifModifiedSince
-      - az-blob-temp.PageBlobsCopyIncrementalOptionalParams.ifNoneMatch
-      - az-blob-temp.PageBlobsCopyIncrementalOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.PageBlobsCopyIncrementalOptionalParams.metadata
-      - az-blob-temp.PageBlobsCopyIncrementalOptionalParams.requestId
-      - az-blob-temp.PageBlobsCopyIncrementalOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

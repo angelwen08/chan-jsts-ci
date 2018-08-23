@@ -3,19 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobsClearPagesOptionalParams
     name: PageBlobsClearPagesOptionalParams
     fullName: PageBlobsClearPagesOptionalParams
-    children:
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.ifMatches
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.ifModifiedSince
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.ifNoneMatch
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.ifSequenceNumberEqualTo
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.ifSequenceNumberLessThan
-      - >-
-        az-blob-temp.PageBlobsClearPagesOptionalParams.ifSequenceNumberLessThanOrEqualTo
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.leaseId
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.range
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.requestId
-      - az-blob-temp.PageBlobsClearPagesOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

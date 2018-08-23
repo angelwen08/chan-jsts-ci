@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.BlobsAbortCopyFromURLOptionalParams
     name: BlobsAbortCopyFromURLOptionalParams
     fullName: BlobsAbortCopyFromURLOptionalParams
-    children:
-      - az-blob-temp.BlobsAbortCopyFromURLOptionalParams.leaseId
-      - az-blob-temp.BlobsAbortCopyFromURLOptionalParams.requestId
-      - az-blob-temp.BlobsAbortCopyFromURLOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobsResizeHeaders
     name: PageBlobsResizeHeaders
     fullName: PageBlobsResizeHeaders
-    children:
-      - az-blob-temp.PageBlobsResizeHeaders.blobSequenceNumber
-      - az-blob-temp.PageBlobsResizeHeaders.date
-      - az-blob-temp.PageBlobsResizeHeaders.eTag
-      - az-blob-temp.PageBlobsResizeHeaders.lastModified
-      - az-blob-temp.PageBlobsResizeHeaders.requestId
-      - az-blob-temp.PageBlobsResizeHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

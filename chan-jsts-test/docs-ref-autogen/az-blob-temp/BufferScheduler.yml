@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.BufferScheduler
     name: BufferScheduler
     fullName: BufferScheduler
-    children:
-      - az-blob-temp.BufferScheduler.constructor
-      - az-blob-temp.BufferScheduler.do
+    children: []
     langs:
       - typeScript
     type: class
@@ -111,6 +109,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.OutgoingHandler
+    name: OutgoingHandler
     spec.typeScript:
       - name: OutgoingHandler
         fullName: OutgoingHandler

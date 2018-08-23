@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.ServiceGetPropertiesOptionalParams
     name: ServiceGetPropertiesOptionalParams
     fullName: ServiceGetPropertiesOptionalParams
-    children:
-      - az-blob-temp.ServiceGetPropertiesOptionalParams.requestId
-      - az-blob-temp.ServiceGetPropertiesOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

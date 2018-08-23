@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.ContainersSetAccessPolicyOptionalParams
     name: ContainersSetAccessPolicyOptionalParams
     fullName: ContainersSetAccessPolicyOptionalParams
-    children:
-      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.access
-      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.containerAcl
-      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.ifModifiedSince
-      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.leaseId
-      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.requestId
-      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface
@@ -125,11 +118,13 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.PublicAccessType
+    name: PublicAccessType
     spec.typeScript:
       - name: PublicAccessType
         fullName: PublicAccessType
         uid: az-blob-temp.PublicAccessType
   - uid: 'az-blob-temp.SignedIdentifier[]'
+    name: 'SignedIdentifier[]'
     spec.typeScript:
       - name: SignedIdentifier
         fullName: SignedIdentifier

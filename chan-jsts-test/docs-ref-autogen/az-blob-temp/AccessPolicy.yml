@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.AccessPolicy
     name: AccessPolicy
     fullName: AccessPolicy
-    children:
-      - az-blob-temp.AccessPolicy.expiry
-      - az-blob-temp.AccessPolicy.permission
-      - az-blob-temp.AccessPolicy.start
+    children: []
     langs:
       - typeScript
     type: interface

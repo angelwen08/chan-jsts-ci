@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.BlobsRenewLeaseOptionalParams
     name: BlobsRenewLeaseOptionalParams
     fullName: BlobsRenewLeaseOptionalParams
-    children:
-      - az-blob-temp.BlobsRenewLeaseOptionalParams.ifMatches
-      - az-blob-temp.BlobsRenewLeaseOptionalParams.ifModifiedSince
-      - az-blob-temp.BlobsRenewLeaseOptionalParams.ifNoneMatch
-      - az-blob-temp.BlobsRenewLeaseOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.BlobsRenewLeaseOptionalParams.requestId
-      - az-blob-temp.BlobsRenewLeaseOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

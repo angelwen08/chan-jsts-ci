@@ -3,18 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobURL
     name: PageBlobURL
     fullName: PageBlobURL
-    children:
-      - az-blob-temp.PageBlobURL.clearPages
-      - az-blob-temp.PageBlobURL.create
-      - az-blob-temp.PageBlobURL.getPageRanges
-      - az-blob-temp.PageBlobURL.getPageRangesDiff
-      - az-blob-temp.PageBlobURL.constructor
-      - az-blob-temp.PageBlobURL.resize
-      - az-blob-temp.PageBlobURL.startCopyIncremental
-      - az-blob-temp.PageBlobURL.updateSequenceNumber
-      - az-blob-temp.PageBlobURL.uploadPages
-      - az-blob-temp.PageBlobURL.withPipeline
-      - az-blob-temp.PageBlobURL.withSnapshot
+    children: []
     langs:
       - typeScript
     type: class
@@ -329,21 +318,25 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageURL
+    name: StorageURL
     spec.typeScript:
       - name: StorageURL
         fullName: StorageURL
         uid: az-blob-temp.StorageURL
   - uid: az-blob-temp.Pipeline
+    name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
         uid: az-blob-temp.Pipeline
   - uid: az-blob-temp.PageBlobsClearPagesOptionalParams
+    name: PageBlobsClearPagesOptionalParams
     spec.typeScript:
       - name: PageBlobsClearPagesOptionalParams
         fullName: PageBlobsClearPagesOptionalParams
         uid: az-blob-temp.PageBlobsClearPagesOptionalParams
   - uid: Promise<az-blob-temp.PageBlobsClearPagesResponse>
+    name: PageBlobsClearPagesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -353,11 +346,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.PageBlobsCreateOptionalParams
+    name: PageBlobsCreateOptionalParams
     spec.typeScript:
       - name: PageBlobsCreateOptionalParams
         fullName: PageBlobsCreateOptionalParams
         uid: az-blob-temp.PageBlobsCreateOptionalParams
   - uid: Promise<az-blob-temp.PageBlobsCreateResponse>
+    name: PageBlobsCreateResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -367,11 +362,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.PageBlobsGetPageRangesOptionalParams
+    name: PageBlobsGetPageRangesOptionalParams
     spec.typeScript:
       - name: PageBlobsGetPageRangesOptionalParams
         fullName: PageBlobsGetPageRangesOptionalParams
         uid: az-blob-temp.PageBlobsGetPageRangesOptionalParams
   - uid: Promise<az-blob-temp.PageBlobsGetPageRangesResponse>
+    name: PageBlobsGetPageRangesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -381,11 +378,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.PageBlobsGetPageRangesDiffOptionalParams
+    name: PageBlobsGetPageRangesDiffOptionalParams
     spec.typeScript:
       - name: PageBlobsGetPageRangesDiffOptionalParams
         fullName: PageBlobsGetPageRangesDiffOptionalParams
         uid: az-blob-temp.PageBlobsGetPageRangesDiffOptionalParams
   - uid: Promise<az-blob-temp.PageBlobsGetPageRangesDiffResponse>
+    name: PageBlobsGetPageRangesDiffResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -395,11 +394,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.PageBlobsResizeOptionalParams
+    name: PageBlobsResizeOptionalParams
     spec.typeScript:
       - name: PageBlobsResizeOptionalParams
         fullName: PageBlobsResizeOptionalParams
         uid: az-blob-temp.PageBlobsResizeOptionalParams
   - uid: Promise<az-blob-temp.PageBlobsResizeResponse>
+    name: PageBlobsResizeResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -409,11 +410,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.PageBlobsCopyIncrementalOptionalParams
+    name: PageBlobsCopyIncrementalOptionalParams
     spec.typeScript:
       - name: PageBlobsCopyIncrementalOptionalParams
         fullName: PageBlobsCopyIncrementalOptionalParams
         uid: az-blob-temp.PageBlobsCopyIncrementalOptionalParams
   - uid: Promise<az-blob-temp.PageBlobsCopyIncrementalResponse>
+    name: PageBlobsCopyIncrementalResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -423,16 +426,19 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.SequenceNumberActionType
+    name: SequenceNumberActionType
     spec.typeScript:
       - name: SequenceNumberActionType
         fullName: SequenceNumberActionType
         uid: az-blob-temp.SequenceNumberActionType
   - uid: az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams
+    name: PageBlobsUpdateSequenceNumberOptionalParams
     spec.typeScript:
       - name: PageBlobsUpdateSequenceNumberOptionalParams
         fullName: PageBlobsUpdateSequenceNumberOptionalParams
         uid: az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams
   - uid: Promise<az-blob-temp.PageBlobsUpdateSequenceNumberResponse>
+    name: PageBlobsUpdateSequenceNumberResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -442,11 +448,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.PageBlobsUploadPagesOptionalParams
+    name: PageBlobsUploadPagesOptionalParams
     spec.typeScript:
       - name: PageBlobsUploadPagesOptionalParams
         fullName: PageBlobsUploadPagesOptionalParams
         uid: az-blob-temp.PageBlobsUploadPagesOptionalParams
   - uid: Promise<az-blob-temp.PageBlobsUploadPagesResponse>
+    name: PageBlobsUploadPagesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -456,6 +464,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.PageBlobURL
+    name: PageBlobURL
     spec.typeScript:
       - name: PageBlobURL
         fullName: PageBlobURL

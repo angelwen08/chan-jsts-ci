@@ -3,26 +3,7 @@ items:
   - uid: az-blob-temp.ContainerURL
     name: ContainerURL
     fullName: ContainerURL
-    children:
-      - az-blob-temp.ContainerURL.acquireLease
-      - az-blob-temp.ContainerURL.breakLease
-      - az-blob-temp.ContainerURL.changeLease
-      - az-blob-temp.ContainerURL.constructor
-      - az-blob-temp.ContainerURL.create
-      - az-blob-temp.ContainerURL.delete
-      - az-blob-temp.ContainerURL.getAccessPolicy
-      - az-blob-temp.ContainerURL.getProperties
-      - az-blob-temp.ContainerURL.listBlobFlatSegment
-      - az-blob-temp.ContainerURL.listBlobHierarchySegment
-      - az-blob-temp.ContainerURL.newAppendBlobURL
-      - az-blob-temp.ContainerURL.newBlobURL
-      - az-blob-temp.ContainerURL.newBlockBlobURL
-      - az-blob-temp.ContainerURL.newPageBlobURL
-      - az-blob-temp.ContainerURL.releaseLease
-      - az-blob-temp.ContainerURL.renewLease
-      - az-blob-temp.ContainerURL.setAccessPolicy
-      - az-blob-temp.ContainerURL.setMetadata
-      - az-blob-temp.ContainerURL.withPipeline
+    children: []
     langs:
       - typeScript
     type: class
@@ -525,21 +506,25 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageURL
+    name: StorageURL
     spec.typeScript:
       - name: StorageURL
         fullName: StorageURL
         uid: az-blob-temp.StorageURL
   - uid: az-blob-temp.Pipeline
+    name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
         uid: az-blob-temp.Pipeline
   - uid: az-blob-temp.ContainersAcquireLeaseOptionalParams
+    name: ContainersAcquireLeaseOptionalParams
     spec.typeScript:
       - name: ContainersAcquireLeaseOptionalParams
         fullName: ContainersAcquireLeaseOptionalParams
         uid: az-blob-temp.ContainersAcquireLeaseOptionalParams
   - uid: Promise<az-blob-temp.ContainersAcquireLeaseResponse>
+    name: ContainersAcquireLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -549,11 +534,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersBreakLeaseOptionalParams
+    name: ContainersBreakLeaseOptionalParams
     spec.typeScript:
       - name: ContainersBreakLeaseOptionalParams
         fullName: ContainersBreakLeaseOptionalParams
         uid: az-blob-temp.ContainersBreakLeaseOptionalParams
   - uid: Promise<az-blob-temp.ContainersBreakLeaseResponse>
+    name: ContainersBreakLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -563,11 +550,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersChangeLeaseOptionalParams
+    name: ContainersChangeLeaseOptionalParams
     spec.typeScript:
       - name: ContainersChangeLeaseOptionalParams
         fullName: ContainersChangeLeaseOptionalParams
         uid: az-blob-temp.ContainersChangeLeaseOptionalParams
   - uid: Promise<az-blob-temp.ContainersChangeLeaseResponse>
+    name: ContainersChangeLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -577,11 +566,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersCreateOptionalParams
+    name: ContainersCreateOptionalParams
     spec.typeScript:
       - name: ContainersCreateOptionalParams
         fullName: ContainersCreateOptionalParams
         uid: az-blob-temp.ContainersCreateOptionalParams
   - uid: Promise<az-blob-temp.ContainersCreateResponse>
+    name: ContainersCreateResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -591,11 +582,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersDeleteMethodOptionalParams
+    name: ContainersDeleteMethodOptionalParams
     spec.typeScript:
       - name: ContainersDeleteMethodOptionalParams
         fullName: ContainersDeleteMethodOptionalParams
         uid: az-blob-temp.ContainersDeleteMethodOptionalParams
   - uid: Promise<az-blob-temp.ContainersDeleteResponse>
+    name: ContainersDeleteResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -605,11 +598,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersGetAccessPolicyOptionalParams
+    name: ContainersGetAccessPolicyOptionalParams
     spec.typeScript:
       - name: ContainersGetAccessPolicyOptionalParams
         fullName: ContainersGetAccessPolicyOptionalParams
         uid: az-blob-temp.ContainersGetAccessPolicyOptionalParams
   - uid: Promise<az-blob-temp.ContainersGetAccessPolicyResponse>
+    name: ContainersGetAccessPolicyResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -619,11 +614,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersGetPropertiesOptionalParams
+    name: ContainersGetPropertiesOptionalParams
     spec.typeScript:
       - name: ContainersGetPropertiesOptionalParams
         fullName: ContainersGetPropertiesOptionalParams
         uid: az-blob-temp.ContainersGetPropertiesOptionalParams
   - uid: Promise<az-blob-temp.ContainersGetPropertiesResponse>
+    name: ContainersGetPropertiesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -633,11 +630,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersListBlobFlatSegmentOptionalParams
+    name: ContainersListBlobFlatSegmentOptionalParams
     spec.typeScript:
       - name: ContainersListBlobFlatSegmentOptionalParams
         fullName: ContainersListBlobFlatSegmentOptionalParams
         uid: az-blob-temp.ContainersListBlobFlatSegmentOptionalParams
   - uid: Promise<az-blob-temp.ContainersListBlobFlatSegmentResponse>
+    name: ContainersListBlobFlatSegmentResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -647,11 +646,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams
+    name: ContainersListBlobHierarchySegmentOptionalParams
     spec.typeScript:
       - name: ContainersListBlobHierarchySegmentOptionalParams
         fullName: ContainersListBlobHierarchySegmentOptionalParams
         uid: az-blob-temp.ContainersListBlobHierarchySegmentOptionalParams
   - uid: Promise<az-blob-temp.ContainersListBlobHierarchySegmentResponse>
+    name: ContainersListBlobHierarchySegmentResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -661,31 +662,37 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.AppendBlobURL
+    name: AppendBlobURL
     spec.typeScript:
       - name: AppendBlobURL
         fullName: AppendBlobURL
         uid: az-blob-temp.AppendBlobURL
   - uid: az-blob-temp.BlobURL
+    name: BlobURL
     spec.typeScript:
       - name: BlobURL
         fullName: BlobURL
         uid: az-blob-temp.BlobURL
   - uid: az-blob-temp.BlockBlobURL
+    name: BlockBlobURL
     spec.typeScript:
       - name: BlockBlobURL
         fullName: BlockBlobURL
         uid: az-blob-temp.BlockBlobURL
   - uid: az-blob-temp.PageBlobURL
+    name: PageBlobURL
     spec.typeScript:
       - name: PageBlobURL
         fullName: PageBlobURL
         uid: az-blob-temp.PageBlobURL
   - uid: az-blob-temp.ContainersReleaseLeaseOptionalParams
+    name: ContainersReleaseLeaseOptionalParams
     spec.typeScript:
       - name: ContainersReleaseLeaseOptionalParams
         fullName: ContainersReleaseLeaseOptionalParams
         uid: az-blob-temp.ContainersReleaseLeaseOptionalParams
   - uid: Promise<az-blob-temp.ContainersReleaseLeaseResponse>
+    name: ContainersReleaseLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -695,11 +702,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersRenewLeaseOptionalParams
+    name: ContainersRenewLeaseOptionalParams
     spec.typeScript:
       - name: ContainersRenewLeaseOptionalParams
         fullName: ContainersRenewLeaseOptionalParams
         uid: az-blob-temp.ContainersRenewLeaseOptionalParams
   - uid: Promise<az-blob-temp.ContainersRenewLeaseResponse>
+    name: ContainersRenewLeaseResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -709,11 +718,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersSetAccessPolicyOptionalParams
+    name: ContainersSetAccessPolicyOptionalParams
     spec.typeScript:
       - name: ContainersSetAccessPolicyOptionalParams
         fullName: ContainersSetAccessPolicyOptionalParams
         uid: az-blob-temp.ContainersSetAccessPolicyOptionalParams
   - uid: Promise<az-blob-temp.ContainersSetAccessPolicyResponse>
+    name: ContainersSetAccessPolicyResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -723,11 +734,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainersSetMetadataOptionalParams
+    name: ContainersSetMetadataOptionalParams
     spec.typeScript:
       - name: ContainersSetMetadataOptionalParams
         fullName: ContainersSetMetadataOptionalParams
         uid: az-blob-temp.ContainersSetMetadataOptionalParams
   - uid: Promise<az-blob-temp.ContainersSetMetadataResponse>
+    name: ContainersSetMetadataResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -737,6 +750,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainerURL
+    name: ContainerURL
     spec.typeScript:
       - name: ContainerURL
         fullName: ContainerURL

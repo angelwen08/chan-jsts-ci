@@ -3,35 +3,7 @@ items:
   - uid: az-blob-temp.BlobProperties
     name: BlobProperties
     fullName: BlobProperties
-    children:
-      - az-blob-temp.BlobProperties.accessTier
-      - az-blob-temp.BlobProperties.accessTierInferred
-      - az-blob-temp.BlobProperties.archiveStatus
-      - az-blob-temp.BlobProperties.blobSequenceNumber
-      - az-blob-temp.BlobProperties.blobType
-      - az-blob-temp.BlobProperties.cacheControl
-      - az-blob-temp.BlobProperties.contentDisposition
-      - az-blob-temp.BlobProperties.contentEncoding
-      - az-blob-temp.BlobProperties.contentLanguage
-      - az-blob-temp.BlobProperties.contentLength
-      - az-blob-temp.BlobProperties.contentMD5
-      - az-blob-temp.BlobProperties.contentType
-      - az-blob-temp.BlobProperties.copyCompletionTime
-      - az-blob-temp.BlobProperties.copyId
-      - az-blob-temp.BlobProperties.copyProgress
-      - az-blob-temp.BlobProperties.copySource
-      - az-blob-temp.BlobProperties.copyStatus
-      - az-blob-temp.BlobProperties.copyStatusDescription
-      - az-blob-temp.BlobProperties.deletedTime
-      - az-blob-temp.BlobProperties.destinationSnapshot
-      - az-blob-temp.BlobProperties.etag
-      - az-blob-temp.BlobProperties.incrementalCopy
-      - az-blob-temp.BlobProperties.lastModified
-      - az-blob-temp.BlobProperties.leaseDuration
-      - az-blob-temp.BlobProperties.leaseState
-      - az-blob-temp.BlobProperties.leaseStatus
-      - az-blob-temp.BlobProperties.remainingRetentionDays
-      - az-blob-temp.BlobProperties.serverEncrypted
+    children: []
     langs:
       - typeScript
     type: interface
@@ -457,36 +429,43 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.AccessTier
+    name: AccessTier
     spec.typeScript:
       - name: AccessTier
         fullName: AccessTier
         uid: az-blob-temp.AccessTier
   - uid: az-blob-temp.ArchiveStatus
+    name: ArchiveStatus
     spec.typeScript:
       - name: ArchiveStatus
         fullName: ArchiveStatus
         uid: az-blob-temp.ArchiveStatus
   - uid: az-blob-temp.BlobType
+    name: BlobType
     spec.typeScript:
       - name: BlobType
         fullName: BlobType
         uid: az-blob-temp.BlobType
   - uid: az-blob-temp.CopyStatusType
+    name: CopyStatusType
     spec.typeScript:
       - name: CopyStatusType
         fullName: CopyStatusType
         uid: az-blob-temp.CopyStatusType
   - uid: az-blob-temp.LeaseDurationType
+    name: LeaseDurationType
     spec.typeScript:
       - name: LeaseDurationType
         fullName: LeaseDurationType
         uid: az-blob-temp.LeaseDurationType
   - uid: az-blob-temp.LeaseStateType
+    name: LeaseStateType
     spec.typeScript:
       - name: LeaseStateType
         fullName: LeaseStateType
         uid: az-blob-temp.LeaseStateType
   - uid: az-blob-temp.LeaseStatusType
+    name: LeaseStatusType
     spec.typeScript:
       - name: LeaseStatusType
         fullName: LeaseStatusType

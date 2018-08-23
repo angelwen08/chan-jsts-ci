@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.GeoReplication
     name: GeoReplication
     fullName: GeoReplication
-    children:
-      - az-blob-temp.GeoReplication.lastSyncTime
-      - az-blob-temp.GeoReplication.status
+    children: []
     langs:
       - typeScript
     type: interface
@@ -41,6 +39,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.GeoReplicationStatusType
+    name: GeoReplicationStatusType
     spec.typeScript:
       - name: GeoReplicationStatusType
         fullName: GeoReplicationStatusType

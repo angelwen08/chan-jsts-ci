@@ -3,15 +3,7 @@ items:
   - uid: az-blob-temp.BlobsAcquireLeaseOptionalParams
     name: BlobsAcquireLeaseOptionalParams
     fullName: BlobsAcquireLeaseOptionalParams
-    children:
-      - az-blob-temp.BlobsAcquireLeaseOptionalParams.duration
-      - az-blob-temp.BlobsAcquireLeaseOptionalParams.ifMatches
-      - az-blob-temp.BlobsAcquireLeaseOptionalParams.ifModifiedSince
-      - az-blob-temp.BlobsAcquireLeaseOptionalParams.ifNoneMatch
-      - az-blob-temp.BlobsAcquireLeaseOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.BlobsAcquireLeaseOptionalParams.proposedLeaseId
-      - az-blob-temp.BlobsAcquireLeaseOptionalParams.requestId
-      - az-blob-temp.BlobsAcquireLeaseOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

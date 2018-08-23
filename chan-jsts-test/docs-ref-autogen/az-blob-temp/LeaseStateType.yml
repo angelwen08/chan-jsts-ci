@@ -3,12 +3,7 @@ items:
   - uid: az-blob-temp.LeaseStateType
     name: LeaseStateType
     fullName: LeaseStateType
-    children:
-      - az-blob-temp.LeaseStateType.Available
-      - az-blob-temp.LeaseStateType.Breaking
-      - az-blob-temp.LeaseStateType.Broken
-      - az-blob-temp.LeaseStateType.Expired
-      - az-blob-temp.LeaseStateType.Leased
+    children: []
     langs:
       - typeScript
     type: enum

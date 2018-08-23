@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.BlockListType
     name: BlockListType
     fullName: BlockListType
-    children:
-      - az-blob-temp.BlockListType.All
-      - az-blob-temp.BlockListType.Committed
-      - az-blob-temp.BlockListType.Uncommitted
+    children: []
     langs:
       - typeScript
     type: enum

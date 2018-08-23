@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.BlobsChangeLeaseOptionalParams
     name: BlobsChangeLeaseOptionalParams
     fullName: BlobsChangeLeaseOptionalParams
-    children:
-      - az-blob-temp.BlobsChangeLeaseOptionalParams.ifMatches
-      - az-blob-temp.BlobsChangeLeaseOptionalParams.ifModifiedSince
-      - az-blob-temp.BlobsChangeLeaseOptionalParams.ifNoneMatch
-      - az-blob-temp.BlobsChangeLeaseOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.BlobsChangeLeaseOptionalParams.requestId
-      - az-blob-temp.BlobsChangeLeaseOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

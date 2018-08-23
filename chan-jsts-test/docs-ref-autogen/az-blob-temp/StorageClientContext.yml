@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.StorageClientContext
     name: StorageClientContext
     fullName: StorageClientContext
-    children:
-      - az-blob-temp.StorageClientContext.constructor
-      - az-blob-temp.StorageClientContext.url
-      - az-blob-temp.StorageClientContext.version
+    children: []
     langs:
       - typeScript
     type: class
@@ -73,6 +70,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageClientContext
+    name: StorageClientContext
     spec.typeScript:
       - name: StorageClientContext
         fullName: StorageClientContext

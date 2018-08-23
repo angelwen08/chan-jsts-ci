@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.ServiceListContainersSegmentOptionalParams
     name: ServiceListContainersSegmentOptionalParams
     fullName: ServiceListContainersSegmentOptionalParams
-    children:
-      - az-blob-temp.ServiceListContainersSegmentOptionalParams.include
-      - az-blob-temp.ServiceListContainersSegmentOptionalParams.marker
-      - az-blob-temp.ServiceListContainersSegmentOptionalParams.maxresults
-      - az-blob-temp.ServiceListContainersSegmentOptionalParams.prefix
-      - az-blob-temp.ServiceListContainersSegmentOptionalParams.requestId
-      - az-blob-temp.ServiceListContainersSegmentOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface
@@ -109,6 +103,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.ListContainersIncludeType
+    name: ListContainersIncludeType
     spec.typeScript:
       - name: ListContainersIncludeType
         fullName: ListContainersIncludeType

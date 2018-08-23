@@ -3,12 +3,7 @@ items:
   - uid: az-blob-temp.ContainersDeleteMethodOptionalParams
     name: ContainersDeleteMethodOptionalParams
     fullName: ContainersDeleteMethodOptionalParams
-    children:
-      - az-blob-temp.ContainersDeleteMethodOptionalParams.ifModifiedSince
-      - az-blob-temp.ContainersDeleteMethodOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.ContainersDeleteMethodOptionalParams.leaseId
-      - az-blob-temp.ContainersDeleteMethodOptionalParams.requestId
-      - az-blob-temp.ContainersDeleteMethodOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

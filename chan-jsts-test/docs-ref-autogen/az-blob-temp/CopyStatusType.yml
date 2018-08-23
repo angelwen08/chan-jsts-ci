@@ -3,11 +3,7 @@ items:
   - uid: az-blob-temp.CopyStatusType
     name: CopyStatusType
     fullName: CopyStatusType
-    children:
-      - az-blob-temp.CopyStatusType.Aborted
-      - az-blob-temp.CopyStatusType.Failed
-      - az-blob-temp.CopyStatusType.Pending
-      - az-blob-temp.CopyStatusType.Success
+    children: []
     langs:
       - typeScript
     type: enum

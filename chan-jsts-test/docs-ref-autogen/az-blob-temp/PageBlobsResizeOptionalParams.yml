@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobsResizeOptionalParams
     name: PageBlobsResizeOptionalParams
     fullName: PageBlobsResizeOptionalParams
-    children:
-      - az-blob-temp.PageBlobsResizeOptionalParams.ifMatches
-      - az-blob-temp.PageBlobsResizeOptionalParams.ifModifiedSince
-      - az-blob-temp.PageBlobsResizeOptionalParams.ifNoneMatch
-      - az-blob-temp.PageBlobsResizeOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.PageBlobsResizeOptionalParams.leaseId
-      - az-blob-temp.PageBlobsResizeOptionalParams.requestId
-      - az-blob-temp.PageBlobsResizeOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

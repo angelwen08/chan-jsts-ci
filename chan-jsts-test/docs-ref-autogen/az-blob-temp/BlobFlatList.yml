@@ -3,8 +3,7 @@ items:
   - uid: az-blob-temp.BlobFlatList
     name: BlobFlatList
     fullName: BlobFlatList
-    children:
-      - az-blob-temp.BlobFlatList.blob
+    children: []
     langs:
       - typeScript
     type: interface
@@ -27,6 +26,7 @@ items:
     package: az-blob-temp
 references:
   - uid: 'az-blob-temp.Blob[]'
+    name: 'Blob[]'
     spec.typeScript:
       - name: Blob
         fullName: Blob

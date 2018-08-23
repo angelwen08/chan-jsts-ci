@@ -3,15 +3,7 @@ items:
   - uid: az-blob-temp.AppendBlobsAppendBlockHeaders
     name: AppendBlobsAppendBlockHeaders
     fullName: AppendBlobsAppendBlockHeaders
-    children:
-      - az-blob-temp.AppendBlobsAppendBlockHeaders.blobAppendOffset
-      - az-blob-temp.AppendBlobsAppendBlockHeaders.blobCommittedBlockCount
-      - az-blob-temp.AppendBlobsAppendBlockHeaders.contentMD5
-      - az-blob-temp.AppendBlobsAppendBlockHeaders.date
-      - az-blob-temp.AppendBlobsAppendBlockHeaders.eTag
-      - az-blob-temp.AppendBlobsAppendBlockHeaders.lastModified
-      - az-blob-temp.AppendBlobsAppendBlockHeaders.requestId
-      - az-blob-temp.AppendBlobsAppendBlockHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

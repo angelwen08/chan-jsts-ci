@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.IBlobHTTPHeaders
     name: IBlobHTTPHeaders
     fullName: IBlobHTTPHeaders
-    children:
-      - az-blob-temp.IBlobHTTPHeaders.cacheControl
-      - az-blob-temp.IBlobHTTPHeaders.contentDisposition
-      - az-blob-temp.IBlobHTTPHeaders.contentEncoding
-      - az-blob-temp.IBlobHTTPHeaders.contentLanguage
-      - az-blob-temp.IBlobHTTPHeaders.contentMD5
-      - az-blob-temp.IBlobHTTPHeaders.contentType
+    children: []
     langs:
       - typeScript
     type: interface

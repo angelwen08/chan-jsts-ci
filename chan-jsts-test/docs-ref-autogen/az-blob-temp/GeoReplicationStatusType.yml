@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.GeoReplicationStatusType
     name: GeoReplicationStatusType
     fullName: GeoReplicationStatusType
-    children:
-      - az-blob-temp.GeoReplicationStatusType.Bootstrap
-      - az-blob-temp.GeoReplicationStatusType.Live
-      - az-blob-temp.GeoReplicationStatusType.Unavailable
+    children: []
     langs:
       - typeScript
     type: enum

@@ -3,17 +3,7 @@ items:
   - uid: az-blob-temp.BlobsDownloadOptionalParams
     name: BlobsDownloadOptionalParams
     fullName: BlobsDownloadOptionalParams
-    children:
-      - az-blob-temp.BlobsDownloadOptionalParams.ifMatches
-      - az-blob-temp.BlobsDownloadOptionalParams.ifModifiedSince
-      - az-blob-temp.BlobsDownloadOptionalParams.ifNoneMatch
-      - az-blob-temp.BlobsDownloadOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.BlobsDownloadOptionalParams.leaseId
-      - az-blob-temp.BlobsDownloadOptionalParams.range
-      - az-blob-temp.BlobsDownloadOptionalParams.rangeGetContentMD5
-      - az-blob-temp.BlobsDownloadOptionalParams.requestId
-      - az-blob-temp.BlobsDownloadOptionalParams.snapshot
-      - az-blob-temp.BlobsDownloadOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

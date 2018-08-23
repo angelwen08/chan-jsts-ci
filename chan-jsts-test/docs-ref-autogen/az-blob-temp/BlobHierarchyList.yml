@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.BlobHierarchyList
     name: BlobHierarchyList
     fullName: BlobHierarchyList
-    children:
-      - az-blob-temp.BlobHierarchyList.blob
-      - az-blob-temp.BlobHierarchyList.blobPrefix
+    children: []
     langs:
       - typeScript
     type: interface
@@ -43,6 +41,7 @@ items:
     package: az-blob-temp
 references:
   - uid: 'az-blob-temp.Blob[]'
+    name: 'Blob[]'
     spec.typeScript:
       - name: Blob
         fullName: Blob
@@ -50,6 +49,7 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: 'az-blob-temp.BlobPrefix[]'
+    name: 'BlobPrefix[]'
     spec.typeScript:
       - name: BlobPrefix
         fullName: BlobPrefix

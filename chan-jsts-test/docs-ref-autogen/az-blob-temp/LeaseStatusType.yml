@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.LeaseStatusType
     name: LeaseStatusType
     fullName: LeaseStatusType
-    children:
-      - az-blob-temp.LeaseStatusType.Locked
-      - az-blob-temp.LeaseStatusType.Unlocked
+    children: []
     langs:
       - typeScript
     type: enum

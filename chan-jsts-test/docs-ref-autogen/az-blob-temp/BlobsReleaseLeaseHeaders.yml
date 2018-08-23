@@ -3,12 +3,7 @@ items:
   - uid: az-blob-temp.BlobsReleaseLeaseHeaders
     name: BlobsReleaseLeaseHeaders
     fullName: BlobsReleaseLeaseHeaders
-    children:
-      - az-blob-temp.BlobsReleaseLeaseHeaders.date
-      - az-blob-temp.BlobsReleaseLeaseHeaders.eTag
-      - az-blob-temp.BlobsReleaseLeaseHeaders.lastModified
-      - az-blob-temp.BlobsReleaseLeaseHeaders.requestId
-      - az-blob-temp.BlobsReleaseLeaseHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

@@ -3,23 +3,7 @@ items:
   - uid: az-blob-temp.PageBlobsCreateOptionalParams
     name: PageBlobsCreateOptionalParams
     fullName: PageBlobsCreateOptionalParams
-    children:
-      - az-blob-temp.PageBlobsCreateOptionalParams.blobCacheControl
-      - az-blob-temp.PageBlobsCreateOptionalParams.blobContentDisposition
-      - az-blob-temp.PageBlobsCreateOptionalParams.blobContentEncoding
-      - az-blob-temp.PageBlobsCreateOptionalParams.blobContentLanguage
-      - az-blob-temp.PageBlobsCreateOptionalParams.blobContentLength
-      - az-blob-temp.PageBlobsCreateOptionalParams.blobContentMD5
-      - az-blob-temp.PageBlobsCreateOptionalParams.blobContentType
-      - az-blob-temp.PageBlobsCreateOptionalParams.blobSequenceNumber
-      - az-blob-temp.PageBlobsCreateOptionalParams.ifMatches
-      - az-blob-temp.PageBlobsCreateOptionalParams.ifModifiedSince
-      - az-blob-temp.PageBlobsCreateOptionalParams.ifNoneMatch
-      - az-blob-temp.PageBlobsCreateOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.PageBlobsCreateOptionalParams.leaseId
-      - az-blob-temp.PageBlobsCreateOptionalParams.metadata
-      - az-blob-temp.PageBlobsCreateOptionalParams.requestId
-      - az-blob-temp.PageBlobsCreateOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

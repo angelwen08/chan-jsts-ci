@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.ServiceGetStatisticsHeaders
     name: ServiceGetStatisticsHeaders
     fullName: ServiceGetStatisticsHeaders
-    children:
-      - az-blob-temp.ServiceGetStatisticsHeaders.date
-      - az-blob-temp.ServiceGetStatisticsHeaders.requestId
-      - az-blob-temp.ServiceGetStatisticsHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

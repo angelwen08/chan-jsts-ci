@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.BlockLookupList
     name: BlockLookupList
     fullName: BlockLookupList
-    children:
-      - az-blob-temp.BlockLookupList.committed
-      - az-blob-temp.BlockLookupList.latest
-      - az-blob-temp.BlockLookupList.uncommitted
+    children: []
     langs:
       - typeScript
     type: interface

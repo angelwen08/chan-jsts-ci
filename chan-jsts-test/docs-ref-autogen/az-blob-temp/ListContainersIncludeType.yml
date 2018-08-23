@@ -3,8 +3,7 @@ items:
   - uid: az-blob-temp.ListContainersIncludeType
     name: ListContainersIncludeType
     fullName: ListContainersIncludeType
-    children:
-      - az-blob-temp.ListContainersIncludeType.Metadata
+    children: []
     langs:
       - typeScript
     type: enum

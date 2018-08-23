@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.ArchiveStatus
     name: ArchiveStatus
     fullName: ArchiveStatus
-    children:
-      - az-blob-temp.ArchiveStatus.RehydratePendingToCool
-      - az-blob-temp.ArchiveStatus.RehydratePendingToHot
+    children: []
     langs:
       - typeScript
     type: enum

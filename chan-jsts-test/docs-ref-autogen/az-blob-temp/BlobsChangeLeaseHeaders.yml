@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.BlobsChangeLeaseHeaders
     name: BlobsChangeLeaseHeaders
     fullName: BlobsChangeLeaseHeaders
-    children:
-      - az-blob-temp.BlobsChangeLeaseHeaders.date
-      - az-blob-temp.BlobsChangeLeaseHeaders.eTag
-      - az-blob-temp.BlobsChangeLeaseHeaders.lastModified
-      - az-blob-temp.BlobsChangeLeaseHeaders.leaseId
-      - az-blob-temp.BlobsChangeLeaseHeaders.requestId
-      - az-blob-temp.BlobsChangeLeaseHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

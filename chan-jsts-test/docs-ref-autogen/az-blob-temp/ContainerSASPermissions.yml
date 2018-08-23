@@ -3,15 +3,7 @@ items:
   - uid: az-blob-temp.ContainerSASPermissions
     name: ContainerSASPermissions
     fullName: ContainerSASPermissions
-    children:
-      - az-blob-temp.ContainerSASPermissions.add
-      - az-blob-temp.ContainerSASPermissions.create
-      - az-blob-temp.ContainerSASPermissions.delete
-      - az-blob-temp.ContainerSASPermissions.list
-      - az-blob-temp.ContainerSASPermissions.parse
-      - az-blob-temp.ContainerSASPermissions.read
-      - az-blob-temp.ContainerSASPermissions.toString
-      - az-blob-temp.ContainerSASPermissions.write
+    children: []
     langs:
       - typeScript
     type: class
@@ -161,6 +153,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.ContainerSASPermissions
+    name: ContainerSASPermissions
     spec.typeScript:
       - name: ContainerSASPermissions
         fullName: ContainerSASPermissions

@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.ServiceGetPropertiesHeaders
     name: ServiceGetPropertiesHeaders
     fullName: ServiceGetPropertiesHeaders
-    children:
-      - az-blob-temp.ServiceGetPropertiesHeaders.requestId
-      - az-blob-temp.ServiceGetPropertiesHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

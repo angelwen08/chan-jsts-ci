@@ -3,12 +3,7 @@ items:
   - uid: az-blob-temp.IUploadStreamToBlockBlobOptions
     name: IUploadStreamToBlockBlobOptions
     fullName: IUploadStreamToBlockBlobOptions
-    children:
-      - az-blob-temp.IUploadStreamToBlockBlobOptions.accessConditions
-      - az-blob-temp.IUploadStreamToBlockBlobOptions.blobHTTPHeaders
-      - az-blob-temp.IUploadStreamToBlockBlobOptions.bufferSize
-      - az-blob-temp.IUploadStreamToBlockBlobOptions.maxBuffers
-      - az-blob-temp.IUploadStreamToBlockBlobOptions.metadata
+    children: []
     langs:
       - typeScript
     type: interface
@@ -89,11 +84,13 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.IAccessConditions
+    name: IAccessConditions
     spec.typeScript:
       - name: IAccessConditions
         fullName: IAccessConditions
         uid: az-blob-temp.IAccessConditions
   - uid: az-blob-temp.IBlobHTTPHeaders
+    name: IBlobHTTPHeaders
     spec.typeScript:
       - name: IBlobHTTPHeaders
         fullName: IBlobHTTPHeaders

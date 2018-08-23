@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.BlobsSetTierHeaders
     name: BlobsSetTierHeaders
     fullName: BlobsSetTierHeaders
-    children:
-      - az-blob-temp.BlobsSetTierHeaders.requestId
-      - az-blob-temp.BlobsSetTierHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

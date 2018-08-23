@@ -3,11 +3,7 @@ items:
   - uid: az-blob-temp.ContainersRenewLeaseOptionalParams
     name: ContainersRenewLeaseOptionalParams
     fullName: ContainersRenewLeaseOptionalParams
-    children:
-      - az-blob-temp.ContainersRenewLeaseOptionalParams.ifModifiedSince
-      - az-blob-temp.ContainersRenewLeaseOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.ContainersRenewLeaseOptionalParams.requestId
-      - az-blob-temp.ContainersRenewLeaseOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

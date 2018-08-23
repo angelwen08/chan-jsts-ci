@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.ContainersAcquireLeaseOptionalParams
     name: ContainersAcquireLeaseOptionalParams
     fullName: ContainersAcquireLeaseOptionalParams
-    children:
-      - az-blob-temp.ContainersAcquireLeaseOptionalParams.duration
-      - az-blob-temp.ContainersAcquireLeaseOptionalParams.ifModifiedSince
-      - az-blob-temp.ContainersAcquireLeaseOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.ContainersAcquireLeaseOptionalParams.proposedLeaseId
-      - az-blob-temp.ContainersAcquireLeaseOptionalParams.requestId
-      - az-blob-temp.ContainersAcquireLeaseOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

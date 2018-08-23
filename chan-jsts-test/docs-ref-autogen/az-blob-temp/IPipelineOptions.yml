@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.IPipelineOptions
     name: IPipelineOptions
     fullName: IPipelineOptions
-    children:
-      - az-blob-temp.IPipelineOptions.HTTPClient
-      - az-blob-temp.IPipelineOptions.logger
+    children: []
     langs:
       - typeScript
     type: interface

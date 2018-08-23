@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.ServiceURL
     name: ServiceURL
     fullName: ServiceURL
-    children:
-      - az-blob-temp.ServiceURL.getProperties
-      - az-blob-temp.ServiceURL.getStatistics
-      - az-blob-temp.ServiceURL.listContainersSegment
-      - az-blob-temp.ServiceURL.newContainerURL
-      - az-blob-temp.ServiceURL.constructor
-      - az-blob-temp.ServiceURL.setProperties
-      - az-blob-temp.ServiceURL.withPipeline
+    children: []
     langs:
       - typeScript
     type: class
@@ -196,21 +189,25 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageURL
+    name: StorageURL
     spec.typeScript:
       - name: StorageURL
         fullName: StorageURL
         uid: az-blob-temp.StorageURL
   - uid: az-blob-temp.Pipeline
+    name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
         uid: az-blob-temp.Pipeline
   - uid: az-blob-temp.ServiceGetPropertiesOptionalParams
+    name: ServiceGetPropertiesOptionalParams
     spec.typeScript:
       - name: ServiceGetPropertiesOptionalParams
         fullName: ServiceGetPropertiesOptionalParams
         uid: az-blob-temp.ServiceGetPropertiesOptionalParams
   - uid: Promise<az-blob-temp.ServiceGetPropertiesResponse>
+    name: ServiceGetPropertiesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -220,11 +217,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ServiceGetStatisticsOptionalParams
+    name: ServiceGetStatisticsOptionalParams
     spec.typeScript:
       - name: ServiceGetStatisticsOptionalParams
         fullName: ServiceGetStatisticsOptionalParams
         uid: az-blob-temp.ServiceGetStatisticsOptionalParams
   - uid: Promise<az-blob-temp.ServiceGetStatisticsResponse>
+    name: ServiceGetStatisticsResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -234,11 +233,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ServiceListContainersSegmentOptionalParams
+    name: ServiceListContainersSegmentOptionalParams
     spec.typeScript:
       - name: ServiceListContainersSegmentOptionalParams
         fullName: ServiceListContainersSegmentOptionalParams
         uid: az-blob-temp.ServiceListContainersSegmentOptionalParams
   - uid: Promise<az-blob-temp.ServiceListContainersSegmentResponse>
+    name: ServiceListContainersSegmentResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -248,21 +249,25 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ContainerURL
+    name: ContainerURL
     spec.typeScript:
       - name: ContainerURL
         fullName: ContainerURL
         uid: az-blob-temp.ContainerURL
   - uid: az-blob-temp.StorageServiceProperties
+    name: StorageServiceProperties
     spec.typeScript:
       - name: StorageServiceProperties
         fullName: StorageServiceProperties
         uid: az-blob-temp.StorageServiceProperties
   - uid: az-blob-temp.ServiceSetPropertiesOptionalParams
+    name: ServiceSetPropertiesOptionalParams
     spec.typeScript:
       - name: ServiceSetPropertiesOptionalParams
         fullName: ServiceSetPropertiesOptionalParams
         uid: az-blob-temp.ServiceSetPropertiesOptionalParams
   - uid: Promise<az-blob-temp.ServiceSetPropertiesResponse>
+    name: ServiceSetPropertiesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -272,6 +277,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.ServiceURL
+    name: ServiceURL
     spec.typeScript:
       - name: ServiceURL
         fullName: ServiceURL

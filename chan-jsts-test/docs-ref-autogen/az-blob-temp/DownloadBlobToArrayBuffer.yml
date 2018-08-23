@@ -48,11 +48,13 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.BlobURL
+    name: BlobURL
     spec.typeScript:
       - name: BlobURL
         fullName: BlobURL
         uid: az-blob-temp.BlobURL
   - uid: az-blob-temp.IDownloadFromBlobOptions
+    name: IDownloadFromBlobOptions
     spec.typeScript:
       - name: IDownloadFromBlobOptions
         fullName: IDownloadFromBlobOptions

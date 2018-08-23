@@ -3,12 +3,7 @@ items:
   - uid: az-blob-temp.AppendBlobURL
     name: AppendBlobURL
     fullName: AppendBlobURL
-    children:
-      - az-blob-temp.AppendBlobURL.constructor
-      - az-blob-temp.AppendBlobURL.appendBlock
-      - az-blob-temp.AppendBlobURL.create
-      - az-blob-temp.AppendBlobURL.withPipeline
-      - az-blob-temp.AppendBlobURL.withSnapshot
+    children: []
     langs:
       - typeScript
     type: class
@@ -134,21 +129,25 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageURL
+    name: StorageURL
     spec.typeScript:
       - name: StorageURL
         fullName: StorageURL
         uid: az-blob-temp.StorageURL
   - uid: az-blob-temp.Pipeline
+    name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
         uid: az-blob-temp.Pipeline
   - uid: az-blob-temp.AppendBlobsAppendBlockOptionalParams
+    name: AppendBlobsAppendBlockOptionalParams
     spec.typeScript:
       - name: AppendBlobsAppendBlockOptionalParams
         fullName: AppendBlobsAppendBlockOptionalParams
         uid: az-blob-temp.AppendBlobsAppendBlockOptionalParams
   - uid: Promise<az-blob-temp.AppendBlobsAppendBlockResponse>
+    name: AppendBlobsAppendBlockResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -158,11 +157,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.AppendBlobsCreateOptionalParams
+    name: AppendBlobsCreateOptionalParams
     spec.typeScript:
       - name: AppendBlobsCreateOptionalParams
         fullName: AppendBlobsCreateOptionalParams
         uid: az-blob-temp.AppendBlobsCreateOptionalParams
   - uid: Promise<az-blob-temp.AppendBlobsCreateResponse>
+    name: AppendBlobsCreateResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -172,6 +173,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.AppendBlobURL
+    name: AppendBlobURL
     spec.typeScript:
       - name: AppendBlobURL
         fullName: AppendBlobURL

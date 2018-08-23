@@ -3,14 +3,7 @@ items:
   - uid: az-blob-temp.BlockBlobURL
     name: BlockBlobURL
     fullName: BlockBlobURL
-    children:
-      - az-blob-temp.BlockBlobURL.constructor
-      - az-blob-temp.BlockBlobURL.commitBlockList
-      - az-blob-temp.BlockBlobURL.getBlockList
-      - az-blob-temp.BlockBlobURL.stageBlock
-      - az-blob-temp.BlockBlobURL.upload
-      - az-blob-temp.BlockBlobURL.withPipeline
-      - az-blob-temp.BlockBlobURL.withSnapshot
+    children: []
     langs:
       - typeScript
     type: class
@@ -221,21 +214,25 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.StorageURL
+    name: StorageURL
     spec.typeScript:
       - name: StorageURL
         fullName: StorageURL
         uid: az-blob-temp.StorageURL
   - uid: az-blob-temp.Pipeline
+    name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
         uid: az-blob-temp.Pipeline
   - uid: az-blob-temp.BlockBlobsCommitBlockListOptionalParams
+    name: BlockBlobsCommitBlockListOptionalParams
     spec.typeScript:
       - name: BlockBlobsCommitBlockListOptionalParams
         fullName: BlockBlobsCommitBlockListOptionalParams
         uid: az-blob-temp.BlockBlobsCommitBlockListOptionalParams
   - uid: Promise<az-blob-temp.BlockBlobsCommitBlockListResponse>
+    name: BlockBlobsCommitBlockListResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -245,16 +242,19 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlockListType
+    name: BlockListType
     spec.typeScript:
       - name: BlockListType
         fullName: BlockListType
         uid: az-blob-temp.BlockListType
   - uid: az-blob-temp.BlockBlobsGetBlockListOptionalParams
+    name: BlockBlobsGetBlockListOptionalParams
     spec.typeScript:
       - name: BlockBlobsGetBlockListOptionalParams
         fullName: BlockBlobsGetBlockListOptionalParams
         uid: az-blob-temp.BlockBlobsGetBlockListOptionalParams
   - uid: Promise<az-blob-temp.BlockBlobsGetBlockListResponse>
+    name: BlockBlobsGetBlockListResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -264,11 +264,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlockBlobsStageBlockOptionalParams
+    name: BlockBlobsStageBlockOptionalParams
     spec.typeScript:
       - name: BlockBlobsStageBlockOptionalParams
         fullName: BlockBlobsStageBlockOptionalParams
         uid: az-blob-temp.BlockBlobsStageBlockOptionalParams
   - uid: Promise<az-blob-temp.BlockBlobsStageBlockResponse>
+    name: BlockBlobsStageBlockResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -278,11 +280,13 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlockBlobsUploadOptionalParams
+    name: BlockBlobsUploadOptionalParams
     spec.typeScript:
       - name: BlockBlobsUploadOptionalParams
         fullName: BlockBlobsUploadOptionalParams
         uid: az-blob-temp.BlockBlobsUploadOptionalParams
   - uid: Promise<az-blob-temp.BlockBlobsUploadResponse>
+    name: BlockBlobsUploadResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -292,6 +296,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: az-blob-temp.BlockBlobURL
+    name: BlockBlobURL
     spec.typeScript:
       - name: BlockBlobURL
         fullName: BlockBlobURL

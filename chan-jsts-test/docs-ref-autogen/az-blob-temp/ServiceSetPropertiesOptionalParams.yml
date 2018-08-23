@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.ServiceSetPropertiesOptionalParams
     name: ServiceSetPropertiesOptionalParams
     fullName: ServiceSetPropertiesOptionalParams
-    children:
-      - az-blob-temp.ServiceSetPropertiesOptionalParams.requestId
-      - az-blob-temp.ServiceSetPropertiesOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

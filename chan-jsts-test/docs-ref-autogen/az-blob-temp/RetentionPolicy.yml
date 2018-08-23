@@ -3,9 +3,7 @@ items:
   - uid: az-blob-temp.RetentionPolicy
     name: RetentionPolicy
     fullName: RetentionPolicy
-    children:
-      - az-blob-temp.RetentionPolicy.days
-      - az-blob-temp.RetentionPolicy.enabled
+    children: []
     langs:
       - typeScript
     type: interface

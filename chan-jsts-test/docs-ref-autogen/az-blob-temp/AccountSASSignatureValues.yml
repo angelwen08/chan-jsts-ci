@@ -3,17 +3,7 @@ items:
   - uid: az-blob-temp.AccountSASSignatureValues
     name: AccountSASSignatureValues
     fullName: AccountSASSignatureValues
-    children:
-      - az-blob-temp.AccountSASSignatureValues.constructor
-      - az-blob-temp.AccountSASSignatureValues.expiryTime
-      - az-blob-temp.AccountSASSignatureValues.generateSASQueryParameters
-      - az-blob-temp.AccountSASSignatureValues.ipRange
-      - az-blob-temp.AccountSASSignatureValues.permissions
-      - az-blob-temp.AccountSASSignatureValues.protocol
-      - az-blob-temp.AccountSASSignatureValues.resourceTypes
-      - az-blob-temp.AccountSASSignatureValues.services
-      - az-blob-temp.AccountSASSignatureValues.startTime
-      - az-blob-temp.AccountSASSignatureValues.version
+    children: []
     langs:
       - typeScript
     type: class
@@ -234,21 +224,25 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.IIPRange
+    name: IIPRange
     spec.typeScript:
       - name: IIPRange
         fullName: IIPRange
         uid: az-blob-temp.IIPRange
   - uid: az-blob-temp.SASProtocol
+    name: SASProtocol
     spec.typeScript:
       - name: SASProtocol
         fullName: SASProtocol
         uid: az-blob-temp.SASProtocol
   - uid: az-blob-temp.SharedKeyCredential
+    name: SharedKeyCredential
     spec.typeScript:
       - name: SharedKeyCredential
         fullName: SharedKeyCredential
         uid: az-blob-temp.SharedKeyCredential
   - uid: az-blob-temp.SASQueryParameters
+    name: SASQueryParameters
     spec.typeScript:
       - name: SASQueryParameters
         fullName: SASQueryParameters

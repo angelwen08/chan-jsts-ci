@@ -23,6 +23,7 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.IRetryOptions
+    name: IRetryOptions
     spec.typeScript:
       - name: IRetryOptions
         fullName: IRetryOptions

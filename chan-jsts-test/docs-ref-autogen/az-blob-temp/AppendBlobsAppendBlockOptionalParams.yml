@@ -3,16 +3,7 @@ items:
   - uid: az-blob-temp.AppendBlobsAppendBlockOptionalParams
     name: AppendBlobsAppendBlockOptionalParams
     fullName: AppendBlobsAppendBlockOptionalParams
-    children:
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.appendPosition
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.ifMatches
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.ifModifiedSince
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.ifNoneMatch
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.leaseId
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.maxSize
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.requestId
-      - az-blob-temp.AppendBlobsAppendBlockOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface

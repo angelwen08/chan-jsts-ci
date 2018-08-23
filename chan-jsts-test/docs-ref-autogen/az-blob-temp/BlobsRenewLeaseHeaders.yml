@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.BlobsRenewLeaseHeaders
     name: BlobsRenewLeaseHeaders
     fullName: BlobsRenewLeaseHeaders
-    children:
-      - az-blob-temp.BlobsRenewLeaseHeaders.date
-      - az-blob-temp.BlobsRenewLeaseHeaders.eTag
-      - az-blob-temp.BlobsRenewLeaseHeaders.lastModified
-      - az-blob-temp.BlobsRenewLeaseHeaders.leaseId
-      - az-blob-temp.BlobsRenewLeaseHeaders.requestId
-      - az-blob-temp.BlobsRenewLeaseHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

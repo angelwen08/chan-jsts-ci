@@ -3,25 +3,7 @@ items:
   - uid: az-blob-temp.BlobSASSignatureValues
     name: BlobSASSignatureValues
     fullName: BlobSASSignatureValues
-    children:
-      - az-blob-temp.BlobSASSignatureValues.blobName
-      - az-blob-temp.BlobSASSignatureValues.constructor
-      - az-blob-temp.BlobSASSignatureValues.cacheControl
-      - az-blob-temp.BlobSASSignatureValues.containerName
-      - az-blob-temp.BlobSASSignatureValues.contentDisposition
-      - az-blob-temp.BlobSASSignatureValues.contentEncoding
-      - az-blob-temp.BlobSASSignatureValues.contentLanguage
-      - az-blob-temp.BlobSASSignatureValues.contentType
-      - az-blob-temp.BlobSASSignatureValues.create
-      - az-blob-temp.BlobSASSignatureValues.createFromIdentifier
-      - az-blob-temp.BlobSASSignatureValues.expiryTime
-      - az-blob-temp.BlobSASSignatureValues.generateSASQueryParameters
-      - az-blob-temp.BlobSASSignatureValues.identifier
-      - az-blob-temp.BlobSASSignatureValues.ipRange
-      - az-blob-temp.BlobSASSignatureValues.permissions
-      - az-blob-temp.BlobSASSignatureValues.protocol
-      - az-blob-temp.BlobSASSignatureValues.startTime
-      - az-blob-temp.BlobSASSignatureValues.version
+    children: []
     langs:
       - typeScript
     type: class
@@ -386,26 +368,31 @@ items:
     package: az-blob-temp
 references:
   - uid: az-blob-temp.IIPRange
+    name: IIPRange
     spec.typeScript:
       - name: IIPRange
         fullName: IIPRange
         uid: az-blob-temp.IIPRange
   - uid: az-blob-temp.SASProtocol
+    name: SASProtocol
     spec.typeScript:
       - name: SASProtocol
         fullName: SASProtocol
         uid: az-blob-temp.SASProtocol
   - uid: az-blob-temp.SharedKeyCredential
+    name: SharedKeyCredential
     spec.typeScript:
       - name: SharedKeyCredential
         fullName: SharedKeyCredential
         uid: az-blob-temp.SharedKeyCredential
   - uid: az-blob-temp.SASQueryParameters
+    name: SASQueryParameters
     spec.typeScript:
       - name: SASQueryParameters
         fullName: SASQueryParameters
         uid: az-blob-temp.SASQueryParameters
   - uid: az-blob-temp.BlobSASSignatureValues
+    name: BlobSASSignatureValues
     spec.typeScript:
       - name: BlobSASSignatureValues
         fullName: BlobSASSignatureValues

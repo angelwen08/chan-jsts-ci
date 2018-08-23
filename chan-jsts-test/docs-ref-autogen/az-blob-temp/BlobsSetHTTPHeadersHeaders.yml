@@ -3,13 +3,7 @@ items:
   - uid: az-blob-temp.BlobsSetHTTPHeadersHeaders
     name: BlobsSetHTTPHeadersHeaders
     fullName: BlobsSetHTTPHeadersHeaders
-    children:
-      - az-blob-temp.BlobsSetHTTPHeadersHeaders.blobSequenceNumber
-      - az-blob-temp.BlobsSetHTTPHeadersHeaders.date
-      - az-blob-temp.BlobsSetHTTPHeadersHeaders.eTag
-      - az-blob-temp.BlobsSetHTTPHeadersHeaders.lastModified
-      - az-blob-temp.BlobsSetHTTPHeadersHeaders.requestId
-      - az-blob-temp.BlobsSetHTTPHeadersHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

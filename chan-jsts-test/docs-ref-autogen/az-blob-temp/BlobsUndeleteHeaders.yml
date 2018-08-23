@@ -3,10 +3,7 @@ items:
   - uid: az-blob-temp.BlobsUndeleteHeaders
     name: BlobsUndeleteHeaders
     fullName: BlobsUndeleteHeaders
-    children:
-      - az-blob-temp.BlobsUndeleteHeaders.date
-      - az-blob-temp.BlobsUndeleteHeaders.requestId
-      - az-blob-temp.BlobsUndeleteHeaders.version
+    children: []
     langs:
       - typeScript
     type: interface

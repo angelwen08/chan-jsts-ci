@@ -3,20 +3,7 @@ items:
   - uid: az-blob-temp.BlobsStartCopyFromURLOptionalParams
     name: BlobsStartCopyFromURLOptionalParams
     fullName: BlobsStartCopyFromURLOptionalParams
-    children:
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.ifMatches
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.ifModifiedSince
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.ifNoneMatch
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.ifUnmodifiedSince
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.leaseId
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.metadata
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.requestId
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.sourceIfMatches
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.sourceIfModifiedSince
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.sourceIfNoneMatch
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.sourceIfUnmodifiedSince
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.sourceLeaseId
-      - az-blob-temp.BlobsStartCopyFromURLOptionalParams.timeout
+    children: []
     langs:
       - typeScript
     type: interface
