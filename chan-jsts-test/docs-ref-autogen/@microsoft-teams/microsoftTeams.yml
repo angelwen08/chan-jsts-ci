@@ -25,6 +25,7 @@ items:
       - '@microsoft/teams-js.microsoftTeams.TaskModuleDimension'
       - '@microsoft/teams-js.microsoftTeams.TeamInformation'
       - '@microsoft/teams-js.microsoftTeams.TeamType'
+      - '@microsoft/teams-js.microsoftTeams.testInterfaceWithoutChild'
       - '@microsoft/teams-js.microsoftTeams.UserTeamRole'
     langs:
       - typeScript
@@ -371,3 +372,5 @@ references:
     name: TaskModuleDimension
   - uid: '@microsoft/teams-js.microsoftTeams.TeamInformation'
     name: TeamInformation
+  - uid: '@microsoft/teams-js.microsoftTeams.testInterfaceWithoutChild'
+    name: testInterfaceWithoutChild
