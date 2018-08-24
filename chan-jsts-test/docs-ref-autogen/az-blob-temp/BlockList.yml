@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.BlockList
     name: BlockList
     fullName: BlockList
-    children: []
+    children:
+      - az-blob-temp.BlockList.committedBlocks
+      - az-blob-temp.BlockList.uncommittedBlocks
     langs:
       - typeScript
     type: interface

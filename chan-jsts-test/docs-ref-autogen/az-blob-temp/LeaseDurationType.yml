@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.LeaseDurationType
     name: LeaseDurationType
     fullName: LeaseDurationType
-    children: []
+    children:
+      - az-blob-temp.LeaseDurationType.Fixed
+      - az-blob-temp.LeaseDurationType.Infinite
     langs:
       - typeScript
     type: enum

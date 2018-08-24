@@ -3,7 +3,10 @@ items:
   - uid: az-blob-temp.BlobsAbortCopyFromURLHeaders
     name: BlobsAbortCopyFromURLHeaders
     fullName: BlobsAbortCopyFromURLHeaders
-    children: []
+    children:
+      - az-blob-temp.BlobsAbortCopyFromURLHeaders.date
+      - az-blob-temp.BlobsAbortCopyFromURLHeaders.requestId
+      - az-blob-temp.BlobsAbortCopyFromURLHeaders.version
     langs:
       - typeScript
     type: interface

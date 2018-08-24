@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.StorageURL
     name: StorageURL
     fullName: StorageURL
-    children: []
+    children:
+      - az-blob-temp.StorageURL.newPipeline
+      - az-blob-temp.StorageURL.url
     langs:
       - typeScript
     type: class

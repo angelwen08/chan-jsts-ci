@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.PageList
     name: PageList
     fullName: PageList
-    children: []
+    children:
+      - az-blob-temp.PageList.clearRange
+      - az-blob-temp.PageList.pageRange
     langs:
       - typeScript
     type: interface

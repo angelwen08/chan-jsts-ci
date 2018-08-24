@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.DeleteSnapshotsOptionType
     name: DeleteSnapshotsOptionType
     fullName: DeleteSnapshotsOptionType
-    children: []
+    children:
+      - az-blob-temp.DeleteSnapshotsOptionType.Include
+      - az-blob-temp.DeleteSnapshotsOptionType.Only
     langs:
       - typeScript
     type: enum

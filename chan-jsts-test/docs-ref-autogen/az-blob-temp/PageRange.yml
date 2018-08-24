@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.PageRange
     name: PageRange
     fullName: PageRange
-    children: []
+    children:
+      - az-blob-temp.PageRange.end
+      - az-blob-temp.PageRange.start
     langs:
       - typeScript
     type: interface

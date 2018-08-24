@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.ServiceListContainersSegmentHeaders
     name: ServiceListContainersSegmentHeaders
     fullName: ServiceListContainersSegmentHeaders
-    children: []
+    children:
+      - az-blob-temp.ServiceListContainersSegmentHeaders.requestId
+      - az-blob-temp.ServiceListContainersSegmentHeaders.version
     langs:
       - typeScript
     type: interface

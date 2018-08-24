@@ -3,7 +3,11 @@ items:
   - uid: az-blob-temp.Pipeline
     name: Pipeline
     fullName: Pipeline
-    children: []
+    children:
+      - az-blob-temp.Pipeline.factories
+      - az-blob-temp.Pipeline.options
+      - az-blob-temp.Pipeline.constructor
+      - az-blob-temp.Pipeline.toServiceClientOptions
     langs:
       - typeScript
     type: class

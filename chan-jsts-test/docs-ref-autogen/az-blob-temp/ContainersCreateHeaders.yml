@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.ContainersCreateHeaders
     name: ContainersCreateHeaders
     fullName: ContainersCreateHeaders
-    children: []
+    children:
+      - az-blob-temp.ContainersCreateHeaders.date
+      - az-blob-temp.ContainersCreateHeaders.eTag
+      - az-blob-temp.ContainersCreateHeaders.lastModified
+      - az-blob-temp.ContainersCreateHeaders.requestId
+      - az-blob-temp.ContainersCreateHeaders.version
     langs:
       - typeScript
     type: interface

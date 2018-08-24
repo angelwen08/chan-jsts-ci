@@ -3,7 +3,17 @@ items:
   - uid: az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams
     name: PageBlobsUpdateSequenceNumberOptionalParams
     fullName: PageBlobsUpdateSequenceNumberOptionalParams
-    children: []
+    children:
+      - >-
+        az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams.blobSequenceNumber
+      - az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams.ifMatches
+      - az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams.ifModifiedSince
+      - az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams.ifNoneMatch
+      - >-
+        az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams.leaseId
+      - az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams.requestId
+      - az-blob-temp.PageBlobsUpdateSequenceNumberOptionalParams.timeout
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,20 @@ items:
   - uid: az-blob-temp.BlobsSetHTTPHeadersOptionalParams
     name: BlobsSetHTTPHeadersOptionalParams
     fullName: BlobsSetHTTPHeadersOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.blobCacheControl
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.blobContentDisposition
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.blobContentEncoding
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.blobContentLanguage
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.blobContentMD5
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.blobContentType
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.ifMatches
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.ifModifiedSince
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.ifNoneMatch
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.leaseId
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.requestId
+      - az-blob-temp.BlobsSetHTTPHeadersOptionalParams.timeout
     langs:
       - typeScript
     type: interface

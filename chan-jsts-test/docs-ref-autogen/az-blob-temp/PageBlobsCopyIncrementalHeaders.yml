@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.PageBlobsCopyIncrementalHeaders
     name: PageBlobsCopyIncrementalHeaders
     fullName: PageBlobsCopyIncrementalHeaders
-    children: []
+    children:
+      - az-blob-temp.PageBlobsCopyIncrementalHeaders.copyId
+      - az-blob-temp.PageBlobsCopyIncrementalHeaders.copyStatus
+      - az-blob-temp.PageBlobsCopyIncrementalHeaders.date
+      - az-blob-temp.PageBlobsCopyIncrementalHeaders.eTag
+      - az-blob-temp.PageBlobsCopyIncrementalHeaders.lastModified
+      - az-blob-temp.PageBlobsCopyIncrementalHeaders.requestId
+      - az-blob-temp.PageBlobsCopyIncrementalHeaders.version
     langs:
       - typeScript
     type: interface

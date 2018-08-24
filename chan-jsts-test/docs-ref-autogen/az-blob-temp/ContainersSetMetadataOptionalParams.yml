@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.ContainersSetMetadataOptionalParams
     name: ContainersSetMetadataOptionalParams
     fullName: ContainersSetMetadataOptionalParams
-    children: []
+    children:
+      - az-blob-temp.ContainersSetMetadataOptionalParams.ifModifiedSince
+      - az-blob-temp.ContainersSetMetadataOptionalParams.leaseId
+      - az-blob-temp.ContainersSetMetadataOptionalParams.metadata
+      - az-blob-temp.ContainersSetMetadataOptionalParams.requestId
+      - az-blob-temp.ContainersSetMetadataOptionalParams.timeout
     langs:
       - typeScript
     type: interface

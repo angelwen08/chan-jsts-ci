@@ -3,7 +3,15 @@ items:
   - uid: az-blob-temp.BlobsSetMetadataOptionalParams
     name: BlobsSetMetadataOptionalParams
     fullName: BlobsSetMetadataOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlobsSetMetadataOptionalParams.ifMatches
+      - az-blob-temp.BlobsSetMetadataOptionalParams.ifModifiedSince
+      - az-blob-temp.BlobsSetMetadataOptionalParams.ifNoneMatch
+      - az-blob-temp.BlobsSetMetadataOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.BlobsSetMetadataOptionalParams.leaseId
+      - az-blob-temp.BlobsSetMetadataOptionalParams.metadata
+      - az-blob-temp.BlobsSetMetadataOptionalParams.requestId
+      - az-blob-temp.BlobsSetMetadataOptionalParams.timeout
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.BlobsReleaseLeaseOptionalParams
     name: BlobsReleaseLeaseOptionalParams
     fullName: BlobsReleaseLeaseOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlobsReleaseLeaseOptionalParams.ifMatches
+      - az-blob-temp.BlobsReleaseLeaseOptionalParams.ifModifiedSince
+      - az-blob-temp.BlobsReleaseLeaseOptionalParams.ifNoneMatch
+      - az-blob-temp.BlobsReleaseLeaseOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.BlobsReleaseLeaseOptionalParams.requestId
+      - az-blob-temp.BlobsReleaseLeaseOptionalParams.timeout
     langs:
       - typeScript
     type: interface

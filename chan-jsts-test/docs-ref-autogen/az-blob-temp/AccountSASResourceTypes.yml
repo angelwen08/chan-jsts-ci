@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.AccountSASResourceTypes
     name: AccountSASResourceTypes
     fullName: AccountSASResourceTypes
-    children: []
+    children:
+      - az-blob-temp.AccountSASResourceTypes.container
+      - az-blob-temp.AccountSASResourceTypes.object
+      - az-blob-temp.AccountSASResourceTypes.parse
+      - az-blob-temp.AccountSASResourceTypes.service
+      - az-blob-temp.AccountSASResourceTypes.toString
     langs:
       - typeScript
     type: class

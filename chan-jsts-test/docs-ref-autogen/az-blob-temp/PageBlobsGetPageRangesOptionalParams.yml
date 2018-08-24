@@ -3,7 +3,16 @@ items:
   - uid: az-blob-temp.PageBlobsGetPageRangesOptionalParams
     name: PageBlobsGetPageRangesOptionalParams
     fullName: PageBlobsGetPageRangesOptionalParams
-    children: []
+    children:
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.ifMatches
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.ifModifiedSince
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.ifNoneMatch
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.leaseId
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.range
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.requestId
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.snapshot
+      - az-blob-temp.PageBlobsGetPageRangesOptionalParams.timeout
     langs:
       - typeScript
     type: interface

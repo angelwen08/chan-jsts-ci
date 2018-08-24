@@ -3,7 +3,11 @@ items:
   - uid: az-blob-temp.BlockBlobsGetBlockListOptionalParams
     name: BlockBlobsGetBlockListOptionalParams
     fullName: BlockBlobsGetBlockListOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlockBlobsGetBlockListOptionalParams.leaseId
+      - az-blob-temp.BlockBlobsGetBlockListOptionalParams.requestId
+      - az-blob-temp.BlockBlobsGetBlockListOptionalParams.snapshot
+      - az-blob-temp.BlockBlobsGetBlockListOptionalParams.timeout
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.PageBlobsUpdateSequenceNumberHeaders
     name: PageBlobsUpdateSequenceNumberHeaders
     fullName: PageBlobsUpdateSequenceNumberHeaders
-    children: []
+    children:
+      - az-blob-temp.PageBlobsUpdateSequenceNumberHeaders.blobSequenceNumber
+      - az-blob-temp.PageBlobsUpdateSequenceNumberHeaders.date
+      - az-blob-temp.PageBlobsUpdateSequenceNumberHeaders.eTag
+      - az-blob-temp.PageBlobsUpdateSequenceNumberHeaders.lastModified
+      - az-blob-temp.PageBlobsUpdateSequenceNumberHeaders.requestId
+      - az-blob-temp.PageBlobsUpdateSequenceNumberHeaders.version
     langs:
       - typeScript
     type: interface

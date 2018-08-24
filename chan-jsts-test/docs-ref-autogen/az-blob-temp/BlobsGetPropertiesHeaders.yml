@@ -3,7 +3,39 @@ items:
   - uid: az-blob-temp.BlobsGetPropertiesHeaders
     name: BlobsGetPropertiesHeaders
     fullName: BlobsGetPropertiesHeaders
-    children: []
+    children:
+      - az-blob-temp.BlobsGetPropertiesHeaders.acceptRanges
+      - az-blob-temp.BlobsGetPropertiesHeaders.accessTier
+      - az-blob-temp.BlobsGetPropertiesHeaders.accessTierInferred
+      - az-blob-temp.BlobsGetPropertiesHeaders.archiveStatus
+      - az-blob-temp.BlobsGetPropertiesHeaders.blobCommittedBlockCount
+      - az-blob-temp.BlobsGetPropertiesHeaders.blobSequenceNumber
+      - az-blob-temp.BlobsGetPropertiesHeaders.blobType
+      - az-blob-temp.BlobsGetPropertiesHeaders.cacheControl
+      - az-blob-temp.BlobsGetPropertiesHeaders.contentDisposition
+      - az-blob-temp.BlobsGetPropertiesHeaders.contentEncoding
+      - az-blob-temp.BlobsGetPropertiesHeaders.contentLanguage
+      - az-blob-temp.BlobsGetPropertiesHeaders.contentLength
+      - az-blob-temp.BlobsGetPropertiesHeaders.contentMD5
+      - az-blob-temp.BlobsGetPropertiesHeaders.contentType
+      - az-blob-temp.BlobsGetPropertiesHeaders.copyCompletionTime
+      - az-blob-temp.BlobsGetPropertiesHeaders.copyId
+      - az-blob-temp.BlobsGetPropertiesHeaders.copyProgress
+      - az-blob-temp.BlobsGetPropertiesHeaders.copySource
+      - az-blob-temp.BlobsGetPropertiesHeaders.copyStatus
+      - az-blob-temp.BlobsGetPropertiesHeaders.copyStatusDescription
+      - az-blob-temp.BlobsGetPropertiesHeaders.date
+      - az-blob-temp.BlobsGetPropertiesHeaders.destinationSnapshot
+      - az-blob-temp.BlobsGetPropertiesHeaders.eTag
+      - az-blob-temp.BlobsGetPropertiesHeaders.isIncrementalCopy
+      - az-blob-temp.BlobsGetPropertiesHeaders.isServerEncrypted
+      - az-blob-temp.BlobsGetPropertiesHeaders.lastModified
+      - az-blob-temp.BlobsGetPropertiesHeaders.leaseDuration
+      - az-blob-temp.BlobsGetPropertiesHeaders.leaseState
+      - az-blob-temp.BlobsGetPropertiesHeaders.leaseStatus
+      - az-blob-temp.BlobsGetPropertiesHeaders.metadata
+      - az-blob-temp.BlobsGetPropertiesHeaders.requestId
+      - az-blob-temp.BlobsGetPropertiesHeaders.version
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,48 @@ items:
   - uid: az-blob-temp.PageBlobs
     name: PageBlobs
     fullName: PageBlobs
-    children: []
+    children:
+      - az-blob-temp.PageBlobs.clearPages
+      - az-blob-temp.PageBlobs.clearPages_3
+      - az-blob-temp.PageBlobs.clearPages_2
+      - az-blob-temp.PageBlobs.clearPages_1
+      - az-blob-temp.PageBlobs.clearPagesWithHttpOperationResponse
+      - az-blob-temp.PageBlobs.copyIncremental
+      - az-blob-temp.PageBlobs.copyIncremental_1
+      - az-blob-temp.PageBlobs.copyIncremental_2
+      - az-blob-temp.PageBlobs.copyIncremental_3
+      - az-blob-temp.PageBlobs.copyIncrementalWithHttpOperationResponse
+      - az-blob-temp.PageBlobs.create_1
+      - az-blob-temp.PageBlobs.create_2
+      - az-blob-temp.PageBlobs.create_3
+      - az-blob-temp.PageBlobs.create
+      - az-blob-temp.PageBlobs.createWithHttpOperationResponse
+      - az-blob-temp.PageBlobs.getPageRanges
+      - az-blob-temp.PageBlobs.getPageRanges_1
+      - az-blob-temp.PageBlobs.getPageRanges_2
+      - az-blob-temp.PageBlobs.getPageRanges_3
+      - az-blob-temp.PageBlobs.getPageRangesDiff
+      - az-blob-temp.PageBlobs.getPageRangesDiff_1
+      - az-blob-temp.PageBlobs.getPageRangesDiff_2
+      - az-blob-temp.PageBlobs.getPageRangesDiff_3
+      - az-blob-temp.PageBlobs.getPageRangesDiffWithHttpOperationResponse
+      - az-blob-temp.PageBlobs.getPageRangesWithHttpOperationResponse
+      - az-blob-temp.PageBlobs.constructor
+      - az-blob-temp.PageBlobs.resize
+      - az-blob-temp.PageBlobs.resize_2
+      - az-blob-temp.PageBlobs.resize_3
+      - az-blob-temp.PageBlobs.resize_1
+      - az-blob-temp.PageBlobs.resizeWithHttpOperationResponse
+      - az-blob-temp.PageBlobs.updateSequenceNumber
+      - az-blob-temp.PageBlobs.updateSequenceNumber_1
+      - az-blob-temp.PageBlobs.updateSequenceNumber_2
+      - az-blob-temp.PageBlobs.updateSequenceNumber_3
+      - az-blob-temp.PageBlobs.updateSequenceNumberWithHttpOperationResponse
+      - az-blob-temp.PageBlobs.uploadPages
+      - az-blob-temp.PageBlobs.uploadPages_1
+      - az-blob-temp.PageBlobs.uploadPages_2
+      - az-blob-temp.PageBlobs.uploadPages_3
+      - az-blob-temp.PageBlobs.uploadPagesWithHttpOperationResponse
     langs:
       - typeScript
     type: class

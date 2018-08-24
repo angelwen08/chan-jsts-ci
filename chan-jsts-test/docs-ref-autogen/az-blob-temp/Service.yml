@@ -3,7 +3,28 @@ items:
   - uid: az-blob-temp.Service
     name: Service
     fullName: Service
-    children: []
+    children:
+      - az-blob-temp.Service.getProperties_2
+      - az-blob-temp.Service.getProperties_3
+      - az-blob-temp.Service.getProperties_1
+      - az-blob-temp.Service.getProperties
+      - az-blob-temp.Service.getPropertiesWithHttpOperationResponse
+      - az-blob-temp.Service.getStatistics_2
+      - az-blob-temp.Service.getStatistics
+      - az-blob-temp.Service.getStatistics_1
+      - az-blob-temp.Service.getStatistics_3
+      - az-blob-temp.Service.getStatisticsWithHttpOperationResponse
+      - az-blob-temp.Service.listContainersSegment
+      - az-blob-temp.Service.listContainersSegment_1
+      - az-blob-temp.Service.listContainersSegment_2
+      - az-blob-temp.Service.listContainersSegment_3
+      - az-blob-temp.Service.listContainersSegmentWithHttpOperationResponse
+      - az-blob-temp.Service.constructor
+      - az-blob-temp.Service.setProperties
+      - az-blob-temp.Service.setProperties_1
+      - az-blob-temp.Service.setProperties_2
+      - az-blob-temp.Service.setProperties_3
+      - az-blob-temp.Service.setPropertiesWithHttpOperationResponse
     langs:
       - typeScript
     type: class

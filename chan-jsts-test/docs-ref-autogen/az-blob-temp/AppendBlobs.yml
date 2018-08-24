@@ -3,7 +3,18 @@ items:
   - uid: az-blob-temp.AppendBlobs
     name: AppendBlobs
     fullName: AppendBlobs
-    children: []
+    children:
+      - az-blob-temp.AppendBlobs.constructor
+      - az-blob-temp.AppendBlobs.appendBlock_1
+      - az-blob-temp.AppendBlobs.appendBlock_2
+      - az-blob-temp.AppendBlobs.appendBlock_3
+      - az-blob-temp.AppendBlobs.appendBlock
+      - az-blob-temp.AppendBlobs.appendBlockWithHttpOperationResponse
+      - az-blob-temp.AppendBlobs.create
+      - az-blob-temp.AppendBlobs.create_1
+      - az-blob-temp.AppendBlobs.create_2
+      - az-blob-temp.AppendBlobs.create_3
+      - az-blob-temp.AppendBlobs.createWithHttpOperationResponse
     langs:
       - typeScript
     type: class

@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.CorsRule
     name: CorsRule
     fullName: CorsRule
-    children: []
+    children:
+      - az-blob-temp.CorsRule.allowedHeaders
+      - az-blob-temp.CorsRule.allowedMethods
+      - az-blob-temp.CorsRule.allowedOrigins
+      - az-blob-temp.CorsRule.exposedHeaders
+      - az-blob-temp.CorsRule.maxAgeInSeconds
     langs:
       - typeScript
     type: interface

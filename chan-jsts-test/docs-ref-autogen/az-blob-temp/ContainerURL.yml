@@ -3,7 +3,26 @@ items:
   - uid: az-blob-temp.ContainerURL
     name: ContainerURL
     fullName: ContainerURL
-    children: []
+    children:
+      - az-blob-temp.ContainerURL.acquireLease
+      - az-blob-temp.ContainerURL.breakLease
+      - az-blob-temp.ContainerURL.changeLease
+      - az-blob-temp.ContainerURL.constructor
+      - az-blob-temp.ContainerURL.create
+      - az-blob-temp.ContainerURL.delete
+      - az-blob-temp.ContainerURL.getAccessPolicy
+      - az-blob-temp.ContainerURL.getProperties
+      - az-blob-temp.ContainerURL.listBlobFlatSegment
+      - az-blob-temp.ContainerURL.listBlobHierarchySegment
+      - az-blob-temp.ContainerURL.newAppendBlobURL
+      - az-blob-temp.ContainerURL.newBlobURL
+      - az-blob-temp.ContainerURL.newBlockBlobURL
+      - az-blob-temp.ContainerURL.newPageBlobURL
+      - az-blob-temp.ContainerURL.releaseLease
+      - az-blob-temp.ContainerURL.renewLease
+      - az-blob-temp.ContainerURL.setAccessPolicy
+      - az-blob-temp.ContainerURL.setMetadata
+      - az-blob-temp.ContainerURL.withPipeline
     langs:
       - typeScript
     type: class

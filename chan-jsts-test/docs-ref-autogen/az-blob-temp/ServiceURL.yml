@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.ServiceURL
     name: ServiceURL
     fullName: ServiceURL
-    children: []
+    children:
+      - az-blob-temp.ServiceURL.getProperties
+      - az-blob-temp.ServiceURL.getStatistics
+      - az-blob-temp.ServiceURL.listContainersSegment
+      - az-blob-temp.ServiceURL.newContainerURL
+      - az-blob-temp.ServiceURL.constructor
+      - az-blob-temp.ServiceURL.setProperties
+      - az-blob-temp.ServiceURL.withPipeline
     langs:
       - typeScript
     type: class

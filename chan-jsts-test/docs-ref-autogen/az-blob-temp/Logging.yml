@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.Logging
     name: Logging
     fullName: Logging
-    children: []
+    children:
+      - az-blob-temp.Logging.deleteProperty
+      - az-blob-temp.Logging.read
+      - az-blob-temp.Logging.retentionPolicy
+      - az-blob-temp.Logging.version
+      - az-blob-temp.Logging.write
     langs:
       - typeScript
     type: interface

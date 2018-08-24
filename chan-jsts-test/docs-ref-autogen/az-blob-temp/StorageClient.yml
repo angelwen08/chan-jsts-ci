@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.StorageClient
     name: StorageClient
     fullName: StorageClient
-    children: []
+    children:
+      - az-blob-temp.StorageClient.appendBlobs
+      - az-blob-temp.StorageClient.blobs
+      - az-blob-temp.StorageClient.blockBlobs
+      - az-blob-temp.StorageClient.containers
+      - az-blob-temp.StorageClient.pageBlobs
+      - az-blob-temp.StorageClient.service
+      - az-blob-temp.StorageClient.constructor
     langs:
       - typeScript
     type: class

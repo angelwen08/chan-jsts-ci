@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.BlobsBreakLeaseOptionalParams
     name: BlobsBreakLeaseOptionalParams
     fullName: BlobsBreakLeaseOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlobsBreakLeaseOptionalParams.breakPeriod
+      - az-blob-temp.BlobsBreakLeaseOptionalParams.ifMatches
+      - az-blob-temp.BlobsBreakLeaseOptionalParams.ifModifiedSince
+      - az-blob-temp.BlobsBreakLeaseOptionalParams.ifNoneMatch
+      - az-blob-temp.BlobsBreakLeaseOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.BlobsBreakLeaseOptionalParams.requestId
+      - az-blob-temp.BlobsBreakLeaseOptionalParams.timeout
     langs:
       - typeScript
     type: interface

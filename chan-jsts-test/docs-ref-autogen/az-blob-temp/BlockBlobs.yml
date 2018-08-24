@@ -3,7 +3,28 @@ items:
   - uid: az-blob-temp.BlockBlobs
     name: BlockBlobs
     fullName: BlockBlobs
-    children: []
+    children:
+      - az-blob-temp.BlockBlobs.constructor
+      - az-blob-temp.BlockBlobs.commitBlockList_1
+      - az-blob-temp.BlockBlobs.commitBlockList_2
+      - az-blob-temp.BlockBlobs.commitBlockList_3
+      - az-blob-temp.BlockBlobs.commitBlockList
+      - az-blob-temp.BlockBlobs.commitBlockListWithHttpOperationResponse
+      - az-blob-temp.BlockBlobs.getBlockList
+      - az-blob-temp.BlockBlobs.getBlockList_1
+      - az-blob-temp.BlockBlobs.getBlockList_2
+      - az-blob-temp.BlockBlobs.getBlockList_3
+      - az-blob-temp.BlockBlobs.getBlockListWithHttpOperationResponse
+      - az-blob-temp.BlockBlobs.stageBlock
+      - az-blob-temp.BlockBlobs.stageBlock_1
+      - az-blob-temp.BlockBlobs.stageBlock_2
+      - az-blob-temp.BlockBlobs.stageBlock_3
+      - az-blob-temp.BlockBlobs.stageBlockWithHttpOperationResponse
+      - az-blob-temp.BlockBlobs.upload
+      - az-blob-temp.BlockBlobs.upload_1
+      - az-blob-temp.BlockBlobs.upload_2
+      - az-blob-temp.BlockBlobs.upload_3
+      - az-blob-temp.BlockBlobs.uploadWithHttpOperationResponse
     langs:
       - typeScript
     type: class

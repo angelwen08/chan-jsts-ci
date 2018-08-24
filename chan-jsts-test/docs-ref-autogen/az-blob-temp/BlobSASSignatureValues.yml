@@ -3,7 +3,25 @@ items:
   - uid: az-blob-temp.BlobSASSignatureValues
     name: BlobSASSignatureValues
     fullName: BlobSASSignatureValues
-    children: []
+    children:
+      - az-blob-temp.BlobSASSignatureValues.blobName
+      - az-blob-temp.BlobSASSignatureValues.constructor
+      - az-blob-temp.BlobSASSignatureValues.cacheControl
+      - az-blob-temp.BlobSASSignatureValues.containerName
+      - az-blob-temp.BlobSASSignatureValues.contentDisposition
+      - az-blob-temp.BlobSASSignatureValues.contentEncoding
+      - az-blob-temp.BlobSASSignatureValues.contentLanguage
+      - az-blob-temp.BlobSASSignatureValues.contentType
+      - az-blob-temp.BlobSASSignatureValues.create
+      - az-blob-temp.BlobSASSignatureValues.createFromIdentifier
+      - az-blob-temp.BlobSASSignatureValues.expiryTime
+      - az-blob-temp.BlobSASSignatureValues.generateSASQueryParameters
+      - az-blob-temp.BlobSASSignatureValues.identifier
+      - az-blob-temp.BlobSASSignatureValues.ipRange
+      - az-blob-temp.BlobSASSignatureValues.permissions
+      - az-blob-temp.BlobSASSignatureValues.protocol
+      - az-blob-temp.BlobSASSignatureValues.startTime
+      - az-blob-temp.BlobSASSignatureValues.version
     langs:
       - typeScript
     type: class

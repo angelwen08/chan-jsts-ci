@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.StorageServiceProperties
     name: StorageServiceProperties
     fullName: StorageServiceProperties
-    children: []
+    children:
+      - az-blob-temp.StorageServiceProperties.cors
+      - az-blob-temp.StorageServiceProperties.defaultServiceVersion
+      - az-blob-temp.StorageServiceProperties.deleteRetentionPolicy
+      - az-blob-temp.StorageServiceProperties.hourMetrics
+      - az-blob-temp.StorageServiceProperties.logging
+      - az-blob-temp.StorageServiceProperties.minuteMetrics
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,28 @@ items:
   - uid: az-blob-temp.BlobURL
     name: BlobURL
     fullName: BlobURL
-    children: []
+    children:
+      - az-blob-temp.BlobURL.abortCopyFromURL
+      - az-blob-temp.BlobURL.acquireLease
+      - az-blob-temp.BlobURL.constructor
+      - az-blob-temp.BlobURL.breakLease
+      - az-blob-temp.BlobURL.changeLease
+      - az-blob-temp.BlobURL.createSnapshot
+      - az-blob-temp.BlobURL.delete
+      - az-blob-temp.BlobURL.download
+      - az-blob-temp.BlobURL.getProperties
+      - az-blob-temp.BlobURL.releaseLease
+      - az-blob-temp.BlobURL.renewLease
+      - az-blob-temp.BlobURL.setHTTPHeaders
+      - az-blob-temp.BlobURL.setMetadata
+      - az-blob-temp.BlobURL.setTier
+      - az-blob-temp.BlobURL.startCopyFromURL
+      - az-blob-temp.BlobURL.toAppendBlobURL
+      - az-blob-temp.BlobURL.toBlockBlobURL
+      - az-blob-temp.BlobURL.toPageBlobURL
+      - az-blob-temp.BlobURL.undelete
+      - az-blob-temp.BlobURL.withPipeline
+      - az-blob-temp.BlobURL.withSnapshot
     langs:
       - typeScript
     type: class

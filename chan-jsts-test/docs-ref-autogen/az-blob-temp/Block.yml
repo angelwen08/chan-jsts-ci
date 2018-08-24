@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.Block
     name: Block
     fullName: Block
-    children: []
+    children:
+      - az-blob-temp.Block.name
+      - az-blob-temp.Block.size
     langs:
       - typeScript
     type: interface

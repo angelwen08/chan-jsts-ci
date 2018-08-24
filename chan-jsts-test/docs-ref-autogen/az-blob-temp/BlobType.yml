@@ -3,7 +3,10 @@ items:
   - uid: az-blob-temp.BlobType
     name: BlobType
     fullName: BlobType
-    children: []
+    children:
+      - az-blob-temp.BlobType.AppendBlob
+      - az-blob-temp.BlobType.BlockBlob
+      - az-blob-temp.BlobType.PageBlob
     langs:
       - typeScript
     type: enum

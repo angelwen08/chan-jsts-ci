@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.ContainersChangeLeaseHeaders
     name: ContainersChangeLeaseHeaders
     fullName: ContainersChangeLeaseHeaders
-    children: []
+    children:
+      - az-blob-temp.ContainersChangeLeaseHeaders.date
+      - az-blob-temp.ContainersChangeLeaseHeaders.eTag
+      - az-blob-temp.ContainersChangeLeaseHeaders.lastModified
+      - az-blob-temp.ContainersChangeLeaseHeaders.leaseId
+      - az-blob-temp.ContainersChangeLeaseHeaders.requestId
+      - az-blob-temp.ContainersChangeLeaseHeaders.version
     langs:
       - typeScript
     type: interface

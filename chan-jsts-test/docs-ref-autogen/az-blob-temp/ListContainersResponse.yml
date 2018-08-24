@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.ListContainersResponse
     name: ListContainersResponse
     fullName: ListContainersResponse
-    children: []
+    children:
+      - az-blob-temp.ListContainersResponse.containers
+      - az-blob-temp.ListContainersResponse.marker
+      - az-blob-temp.ListContainersResponse.maxResults
+      - az-blob-temp.ListContainersResponse.nextMarker
+      - az-blob-temp.ListContainersResponse.prefix
+      - az-blob-temp.ListContainersResponse.serviceEndpoint
     langs:
       - typeScript
     type: interface

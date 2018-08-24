@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.BlobsStartCopyFromURLHeaders
     name: BlobsStartCopyFromURLHeaders
     fullName: BlobsStartCopyFromURLHeaders
-    children: []
+    children:
+      - az-blob-temp.BlobsStartCopyFromURLHeaders.copyId
+      - az-blob-temp.BlobsStartCopyFromURLHeaders.copyStatus
+      - az-blob-temp.BlobsStartCopyFromURLHeaders.date
+      - az-blob-temp.BlobsStartCopyFromURLHeaders.eTag
+      - az-blob-temp.BlobsStartCopyFromURLHeaders.lastModified
+      - az-blob-temp.BlobsStartCopyFromURLHeaders.requestId
+      - az-blob-temp.BlobsStartCopyFromURLHeaders.version
     langs:
       - typeScript
     type: interface

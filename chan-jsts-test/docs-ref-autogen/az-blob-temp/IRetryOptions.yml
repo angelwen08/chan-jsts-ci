@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.IRetryOptions
     name: IRetryOptions
     fullName: IRetryOptions
-    children: []
+    children:
+      - az-blob-temp.IRetryOptions.maxRetryDelayInMs
+      - az-blob-temp.IRetryOptions.maxTries
+      - az-blob-temp.IRetryOptions.retryDelayInMs
+      - az-blob-temp.IRetryOptions.retryPolicyType
+      - az-blob-temp.IRetryOptions.secondaryHost
+      - az-blob-temp.IRetryOptions.tryTimeoutInMs
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.ServiceGetStatisticsOptionalParams
     name: ServiceGetStatisticsOptionalParams
     fullName: ServiceGetStatisticsOptionalParams
-    children: []
+    children:
+      - az-blob-temp.ServiceGetStatisticsOptionalParams.requestId
+      - az-blob-temp.ServiceGetStatisticsOptionalParams.timeout
     langs:
       - typeScript
     type: interface

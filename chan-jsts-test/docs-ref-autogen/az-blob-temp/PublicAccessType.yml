@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.PublicAccessType
     name: PublicAccessType
     fullName: PublicAccessType
-    children: []
+    children:
+      - az-blob-temp.PublicAccessType.Blob
+      - az-blob-temp.PublicAccessType.Container
     langs:
       - typeScript
     type: enum

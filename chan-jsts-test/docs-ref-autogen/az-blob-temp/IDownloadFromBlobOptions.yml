@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.IDownloadFromBlobOptions
     name: IDownloadFromBlobOptions
     fullName: IDownloadFromBlobOptions
-    children: []
+    children:
+      - az-blob-temp.IDownloadFromBlobOptions.accessConditions
+      - az-blob-temp.IDownloadFromBlobOptions.blockSize
+      - az-blob-temp.IDownloadFromBlobOptions.parallelism
+      - az-blob-temp.IDownloadFromBlobOptions.progress
+      - az-blob-temp.IDownloadFromBlobOptions.retryReaderOptionsPerBlock
     langs:
       - typeScript
     type: interface

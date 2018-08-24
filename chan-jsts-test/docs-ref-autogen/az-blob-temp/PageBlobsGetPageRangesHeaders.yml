@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.PageBlobsGetPageRangesHeaders
     name: PageBlobsGetPageRangesHeaders
     fullName: PageBlobsGetPageRangesHeaders
-    children: []
+    children:
+      - az-blob-temp.PageBlobsGetPageRangesHeaders.blobContentLength
+      - az-blob-temp.PageBlobsGetPageRangesHeaders.date
+      - az-blob-temp.PageBlobsGetPageRangesHeaders.eTag
+      - az-blob-temp.PageBlobsGetPageRangesHeaders.lastModified
+      - az-blob-temp.PageBlobsGetPageRangesHeaders.requestId
+      - az-blob-temp.PageBlobsGetPageRangesHeaders.version
     langs:
       - typeScript
     type: interface

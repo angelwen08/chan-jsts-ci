@@ -3,7 +3,10 @@ items:
   - uid: az-blob-temp.Container
     name: Container
     fullName: Container
-    children: []
+    children:
+      - az-blob-temp.Container.metadata
+      - az-blob-temp.Container.name
+      - az-blob-temp.Container.properties
     langs:
       - typeScript
     type: interface

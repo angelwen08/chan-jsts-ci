@@ -3,7 +3,11 @@ items:
   - uid: az-blob-temp.Metrics
     name: Metrics
     fullName: Metrics
-    children: []
+    children:
+      - az-blob-temp.Metrics.enabled
+      - az-blob-temp.Metrics.includeAPIs
+      - az-blob-temp.Metrics.retentionPolicy
+      - az-blob-temp.Metrics.version
     langs:
       - typeScript
     type: interface

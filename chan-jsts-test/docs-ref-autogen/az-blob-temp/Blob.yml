@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.Blob
     name: Blob
     fullName: Blob
-    children: []
+    children:
+      - az-blob-temp.Blob.deleted
+      - az-blob-temp.Blob.metadata
+      - az-blob-temp.Blob.name
+      - az-blob-temp.Blob.properties
+      - az-blob-temp.Blob.snapshot
     langs:
       - typeScript
     type: interface

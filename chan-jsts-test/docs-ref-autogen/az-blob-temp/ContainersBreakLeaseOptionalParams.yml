@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.ContainersBreakLeaseOptionalParams
     name: ContainersBreakLeaseOptionalParams
     fullName: ContainersBreakLeaseOptionalParams
-    children: []
+    children:
+      - az-blob-temp.ContainersBreakLeaseOptionalParams.breakPeriod
+      - az-blob-temp.ContainersBreakLeaseOptionalParams.ifModifiedSince
+      - az-blob-temp.ContainersBreakLeaseOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.ContainersBreakLeaseOptionalParams.requestId
+      - az-blob-temp.ContainersBreakLeaseOptionalParams.timeout
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.RetryPolicy
     name: RetryPolicy
     fullName: RetryPolicy
-    children: []
+    children:
+      - az-blob-temp.RetryPolicy.constructor
+      - az-blob-temp.RetryPolicy.sendRequest
     langs:
       - typeScript
     type: class

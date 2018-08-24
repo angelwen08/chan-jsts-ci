@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.BlockBlobsStageBlockHeaders
     name: BlockBlobsStageBlockHeaders
     fullName: BlockBlobsStageBlockHeaders
-    children: []
+    children:
+      - az-blob-temp.BlockBlobsStageBlockHeaders.contentMD5
+      - az-blob-temp.BlockBlobsStageBlockHeaders.date
+      - az-blob-temp.BlockBlobsStageBlockHeaders.isServerEncrypted
+      - az-blob-temp.BlockBlobsStageBlockHeaders.requestId
+      - az-blob-temp.BlockBlobsStageBlockHeaders.version
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.BlobHierarchyList
     name: BlobHierarchyList
     fullName: BlobHierarchyList
-    children: []
+    children:
+      - az-blob-temp.BlobHierarchyList.blob
+      - az-blob-temp.BlobHierarchyList.blobPrefix
     langs:
       - typeScript
     type: interface

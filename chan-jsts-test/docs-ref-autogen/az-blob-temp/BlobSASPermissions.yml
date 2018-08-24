@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.BlobSASPermissions
     name: BlobSASPermissions
     fullName: BlobSASPermissions
-    children: []
+    children:
+      - az-blob-temp.BlobSASPermissions.add
+      - az-blob-temp.BlobSASPermissions.create
+      - az-blob-temp.BlobSASPermissions.delete
+      - az-blob-temp.BlobSASPermissions.parse
+      - az-blob-temp.BlobSASPermissions.read
+      - az-blob-temp.BlobSASPermissions.toString
+      - az-blob-temp.BlobSASPermissions.write
     langs:
       - typeScript
     type: class

@@ -3,7 +3,74 @@ items:
   - uid: az-blob-temp.Containers
     name: Containers
     fullName: Containers
-    children: []
+    children:
+      - az-blob-temp.Containers.acquireLease
+      - az-blob-temp.Containers.acquireLease_1
+      - az-blob-temp.Containers.acquireLease_3
+      - az-blob-temp.Containers.acquireLease_2
+      - az-blob-temp.Containers.acquireLeaseWithHttpOperationResponse
+      - az-blob-temp.Containers.breakLease
+      - az-blob-temp.Containers.breakLease_2
+      - az-blob-temp.Containers.breakLease_3
+      - az-blob-temp.Containers.breakLease_1
+      - az-blob-temp.Containers.breakLeaseWithHttpOperationResponse
+      - az-blob-temp.Containers.changeLease_1
+      - az-blob-temp.Containers.changeLease_2
+      - az-blob-temp.Containers.changeLease_3
+      - az-blob-temp.Containers.changeLease
+      - az-blob-temp.Containers.changeLeaseWithHttpOperationResponse
+      - az-blob-temp.Containers.constructor
+      - az-blob-temp.Containers.create_1
+      - az-blob-temp.Containers.create
+      - az-blob-temp.Containers.create_3
+      - az-blob-temp.Containers.create_2
+      - az-blob-temp.Containers.createWithHttpOperationResponse
+      - az-blob-temp.Containers.deleteMethod
+      - az-blob-temp.Containers.deleteMethod_2
+      - az-blob-temp.Containers.deleteMethod_3
+      - az-blob-temp.Containers.deleteMethod_1
+      - az-blob-temp.Containers.deleteMethodWithHttpOperationResponse
+      - az-blob-temp.Containers.getAccessPolicy_1
+      - az-blob-temp.Containers.getAccessPolicy_2
+      - az-blob-temp.Containers.getAccessPolicy_3
+      - az-blob-temp.Containers.getAccessPolicy
+      - az-blob-temp.Containers.getAccessPolicyWithHttpOperationResponse
+      - az-blob-temp.Containers.getProperties
+      - az-blob-temp.Containers.getProperties_1
+      - az-blob-temp.Containers.getProperties_2
+      - az-blob-temp.Containers.getProperties_3
+      - az-blob-temp.Containers.getPropertiesWithHttpOperationResponse
+      - az-blob-temp.Containers.listBlobFlatSegment
+      - az-blob-temp.Containers.listBlobFlatSegment_2
+      - az-blob-temp.Containers.listBlobFlatSegment_3
+      - az-blob-temp.Containers.listBlobFlatSegment_1
+      - az-blob-temp.Containers.listBlobFlatSegmentWithHttpOperationResponse
+      - az-blob-temp.Containers.listBlobHierarchySegment
+      - az-blob-temp.Containers.listBlobHierarchySegment_1
+      - az-blob-temp.Containers.listBlobHierarchySegment_3
+      - az-blob-temp.Containers.listBlobHierarchySegment_2
+      - >-
+        az-blob-temp.Containers.listBlobHierarchySegmentWithHttpOperationResponse
+      - az-blob-temp.Containers.releaseLease
+      - az-blob-temp.Containers.releaseLease_1
+      - az-blob-temp.Containers.releaseLease_2
+      - az-blob-temp.Containers.releaseLease_3
+      - az-blob-temp.Containers.releaseLeaseWithHttpOperationResponse
+      - az-blob-temp.Containers.renewLease
+      - az-blob-temp.Containers.renewLease_2
+      - az-blob-temp.Containers.renewLease_3
+      - az-blob-temp.Containers.renewLease_1
+      - az-blob-temp.Containers.renewLeaseWithHttpOperationResponse
+      - az-blob-temp.Containers.setAccessPolicy
+      - az-blob-temp.Containers.setAccessPolicy_1
+      - az-blob-temp.Containers.setAccessPolicy_2
+      - az-blob-temp.Containers.setAccessPolicy_3
+      - az-blob-temp.Containers.setAccessPolicyWithHttpOperationResponse
+      - az-blob-temp.Containers.setMetadata
+      - az-blob-temp.Containers.setMetadata_1
+      - az-blob-temp.Containers.setMetadata_2
+      - az-blob-temp.Containers.setMetadata_3
+      - az-blob-temp.Containers.setMetadataWithHttpOperationResponse
     langs:
       - typeScript
     type: class

@@ -3,7 +3,15 @@ items:
   - uid: az-blob-temp.ListBlobsHierarchyResponse
     name: ListBlobsHierarchyResponse
     fullName: ListBlobsHierarchyResponse
-    children: []
+    children:
+      - az-blob-temp.ListBlobsHierarchyResponse.blobs
+      - az-blob-temp.ListBlobsHierarchyResponse.containerName
+      - az-blob-temp.ListBlobsHierarchyResponse.delimiter
+      - az-blob-temp.ListBlobsHierarchyResponse.marker
+      - az-blob-temp.ListBlobsHierarchyResponse.maxResults
+      - az-blob-temp.ListBlobsHierarchyResponse.nextMarker
+      - az-blob-temp.ListBlobsHierarchyResponse.prefix
+      - az-blob-temp.ListBlobsHierarchyResponse.serviceEndpoint
     langs:
       - typeScript
     type: interface

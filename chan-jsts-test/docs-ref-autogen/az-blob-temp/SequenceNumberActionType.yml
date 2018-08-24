@@ -3,7 +3,10 @@ items:
   - uid: az-blob-temp.SequenceNumberActionType
     name: SequenceNumberActionType
     fullName: SequenceNumberActionType
-    children: []
+    children:
+      - az-blob-temp.SequenceNumberActionType.Increment
+      - az-blob-temp.SequenceNumberActionType.Max
+      - az-blob-temp.SequenceNumberActionType.Update
     langs:
       - typeScript
     type: enum

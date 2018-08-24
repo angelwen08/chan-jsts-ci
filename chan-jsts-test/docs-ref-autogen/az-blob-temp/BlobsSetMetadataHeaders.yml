@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.BlobsSetMetadataHeaders
     name: BlobsSetMetadataHeaders
     fullName: BlobsSetMetadataHeaders
-    children: []
+    children:
+      - az-blob-temp.BlobsSetMetadataHeaders.date
+      - az-blob-temp.BlobsSetMetadataHeaders.eTag
+      - az-blob-temp.BlobsSetMetadataHeaders.isServerEncrypted
+      - az-blob-temp.BlobsSetMetadataHeaders.lastModified
+      - az-blob-temp.BlobsSetMetadataHeaders.requestId
+      - az-blob-temp.BlobsSetMetadataHeaders.version
     langs:
       - typeScript
     type: interface

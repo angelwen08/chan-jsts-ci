@@ -3,7 +3,8 @@ items:
   - uid: az-blob-temp.BlobPrefix
     name: BlobPrefix
     fullName: BlobPrefix
-    children: []
+    children:
+      - az-blob-temp.BlobPrefix.name
     langs:
       - typeScript
     type: interface

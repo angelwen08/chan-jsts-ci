@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.ICommonResponseHeaders
     name: ICommonResponseHeaders
     fullName: ICommonResponseHeaders
-    children: []
+    children:
+      - az-blob-temp.ICommonResponseHeaders.date
+      - az-blob-temp.ICommonResponseHeaders.eTag
+      - az-blob-temp.ICommonResponseHeaders.lastModified
+      - az-blob-temp.ICommonResponseHeaders.requestId
+      - az-blob-temp.ICommonResponseHeaders.version
     langs:
       - typeScript
     type: interface

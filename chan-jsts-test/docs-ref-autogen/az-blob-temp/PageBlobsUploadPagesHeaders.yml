@@ -3,7 +3,15 @@ items:
   - uid: az-blob-temp.PageBlobsUploadPagesHeaders
     name: PageBlobsUploadPagesHeaders
     fullName: PageBlobsUploadPagesHeaders
-    children: []
+    children:
+      - az-blob-temp.PageBlobsUploadPagesHeaders.blobSequenceNumber
+      - az-blob-temp.PageBlobsUploadPagesHeaders.contentMD5
+      - az-blob-temp.PageBlobsUploadPagesHeaders.date
+      - az-blob-temp.PageBlobsUploadPagesHeaders.eTag
+      - az-blob-temp.PageBlobsUploadPagesHeaders.isServerEncrypted
+      - az-blob-temp.PageBlobsUploadPagesHeaders.lastModified
+      - az-blob-temp.PageBlobsUploadPagesHeaders.requestId
+      - az-blob-temp.PageBlobsUploadPagesHeaders.version
     langs:
       - typeScript
     type: interface

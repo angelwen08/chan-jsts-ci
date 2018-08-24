@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.BlobsCreateSnapshotHeaders
     name: BlobsCreateSnapshotHeaders
     fullName: BlobsCreateSnapshotHeaders
-    children: []
+    children:
+      - az-blob-temp.BlobsCreateSnapshotHeaders.date
+      - az-blob-temp.BlobsCreateSnapshotHeaders.eTag
+      - az-blob-temp.BlobsCreateSnapshotHeaders.lastModified
+      - az-blob-temp.BlobsCreateSnapshotHeaders.requestId
+      - az-blob-temp.BlobsCreateSnapshotHeaders.snapshot
+      - az-blob-temp.BlobsCreateSnapshotHeaders.version
     langs:
       - typeScript
     type: interface

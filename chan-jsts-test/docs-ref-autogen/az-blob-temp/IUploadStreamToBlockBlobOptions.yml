@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.IUploadStreamToBlockBlobOptions
     name: IUploadStreamToBlockBlobOptions
     fullName: IUploadStreamToBlockBlobOptions
-    children: []
+    children:
+      - az-blob-temp.IUploadStreamToBlockBlobOptions.accessConditions
+      - az-blob-temp.IUploadStreamToBlockBlobOptions.blobHTTPHeaders
+      - az-blob-temp.IUploadStreamToBlockBlobOptions.bufferSize
+      - az-blob-temp.IUploadStreamToBlockBlobOptions.maxBuffers
+      - az-blob-temp.IUploadStreamToBlockBlobOptions.metadata
     langs:
       - typeScript
     type: interface

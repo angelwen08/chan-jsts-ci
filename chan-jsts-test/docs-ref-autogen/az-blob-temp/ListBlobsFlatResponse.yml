@@ -3,7 +3,15 @@ items:
   - uid: az-blob-temp.ListBlobsFlatResponse
     name: ListBlobsFlatResponse
     fullName: ListBlobsFlatResponse
-    children: []
+    children:
+      - az-blob-temp.ListBlobsFlatResponse.blobs
+      - az-blob-temp.ListBlobsFlatResponse.containerName
+      - az-blob-temp.ListBlobsFlatResponse.delimiter
+      - az-blob-temp.ListBlobsFlatResponse.marker
+      - az-blob-temp.ListBlobsFlatResponse.maxResults
+      - az-blob-temp.ListBlobsFlatResponse.nextMarker
+      - az-blob-temp.ListBlobsFlatResponse.prefix
+      - az-blob-temp.ListBlobsFlatResponse.serviceEndpoint
     langs:
       - typeScript
     type: interface

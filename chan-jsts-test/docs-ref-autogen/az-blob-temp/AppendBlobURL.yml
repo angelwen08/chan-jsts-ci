@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.AppendBlobURL
     name: AppendBlobURL
     fullName: AppendBlobURL
-    children: []
+    children:
+      - az-blob-temp.AppendBlobURL.constructor
+      - az-blob-temp.AppendBlobURL.appendBlock
+      - az-blob-temp.AppendBlobURL.create
+      - az-blob-temp.AppendBlobURL.withPipeline
+      - az-blob-temp.AppendBlobURL.withSnapshot
     langs:
       - typeScript
     type: class

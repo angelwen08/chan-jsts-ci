@@ -3,7 +3,17 @@ items:
   - uid: az-blob-temp.AccountSASPermissions
     name: AccountSASPermissions
     fullName: AccountSASPermissions
-    children: []
+    children:
+      - az-blob-temp.AccountSASPermissions.add
+      - az-blob-temp.AccountSASPermissions.create
+      - az-blob-temp.AccountSASPermissions.delete
+      - az-blob-temp.AccountSASPermissions.list
+      - az-blob-temp.AccountSASPermissions.parse
+      - az-blob-temp.AccountSASPermissions.process
+      - az-blob-temp.AccountSASPermissions.read
+      - az-blob-temp.AccountSASPermissions.toString
+      - az-blob-temp.AccountSASPermissions.update
+      - az-blob-temp.AccountSASPermissions.write
     langs:
       - typeScript
     type: class

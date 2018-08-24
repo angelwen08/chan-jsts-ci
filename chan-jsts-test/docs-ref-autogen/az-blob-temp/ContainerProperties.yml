@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.ContainerProperties
     name: ContainerProperties
     fullName: ContainerProperties
-    children: []
+    children:
+      - az-blob-temp.ContainerProperties.etag
+      - az-blob-temp.ContainerProperties.lastModified
+      - az-blob-temp.ContainerProperties.leaseDuration
+      - az-blob-temp.ContainerProperties.leaseState
+      - az-blob-temp.ContainerProperties.leaseStatus
+      - az-blob-temp.ContainerProperties.publicAccess
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,11 @@ items:
   - uid: az-blob-temp.ContainersCreateOptionalParams
     name: ContainersCreateOptionalParams
     fullName: ContainersCreateOptionalParams
-    children: []
+    children:
+      - az-blob-temp.ContainersCreateOptionalParams.access
+      - az-blob-temp.ContainersCreateOptionalParams.metadata
+      - az-blob-temp.ContainersCreateOptionalParams.requestId
+      - az-blob-temp.ContainersCreateOptionalParams.timeout
     langs:
       - typeScript
     type: interface

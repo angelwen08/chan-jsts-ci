@@ -3,7 +3,35 @@ items:
   - uid: az-blob-temp.BlobProperties
     name: BlobProperties
     fullName: BlobProperties
-    children: []
+    children:
+      - az-blob-temp.BlobProperties.accessTier
+      - az-blob-temp.BlobProperties.accessTierInferred
+      - az-blob-temp.BlobProperties.archiveStatus
+      - az-blob-temp.BlobProperties.blobSequenceNumber
+      - az-blob-temp.BlobProperties.blobType
+      - az-blob-temp.BlobProperties.cacheControl
+      - az-blob-temp.BlobProperties.contentDisposition
+      - az-blob-temp.BlobProperties.contentEncoding
+      - az-blob-temp.BlobProperties.contentLanguage
+      - az-blob-temp.BlobProperties.contentLength
+      - az-blob-temp.BlobProperties.contentMD5
+      - az-blob-temp.BlobProperties.contentType
+      - az-blob-temp.BlobProperties.copyCompletionTime
+      - az-blob-temp.BlobProperties.copyId
+      - az-blob-temp.BlobProperties.copyProgress
+      - az-blob-temp.BlobProperties.copySource
+      - az-blob-temp.BlobProperties.copyStatus
+      - az-blob-temp.BlobProperties.copyStatusDescription
+      - az-blob-temp.BlobProperties.deletedTime
+      - az-blob-temp.BlobProperties.destinationSnapshot
+      - az-blob-temp.BlobProperties.etag
+      - az-blob-temp.BlobProperties.incrementalCopy
+      - az-blob-temp.BlobProperties.lastModified
+      - az-blob-temp.BlobProperties.leaseDuration
+      - az-blob-temp.BlobProperties.leaseState
+      - az-blob-temp.BlobProperties.leaseStatus
+      - az-blob-temp.BlobProperties.remainingRetentionDays
+      - az-blob-temp.BlobProperties.serverEncrypted
     langs:
       - typeScript
     type: interface

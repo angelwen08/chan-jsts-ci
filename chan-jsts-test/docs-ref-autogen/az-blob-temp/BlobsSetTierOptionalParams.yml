@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.BlobsSetTierOptionalParams
     name: BlobsSetTierOptionalParams
     fullName: BlobsSetTierOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlobsSetTierOptionalParams.requestId
+      - az-blob-temp.BlobsSetTierOptionalParams.timeout
     langs:
       - typeScript
     type: interface

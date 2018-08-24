@@ -3,7 +3,17 @@ items:
   - uid: az-blob-temp.AccountSASSignatureValues
     name: AccountSASSignatureValues
     fullName: AccountSASSignatureValues
-    children: []
+    children:
+      - az-blob-temp.AccountSASSignatureValues.constructor
+      - az-blob-temp.AccountSASSignatureValues.expiryTime
+      - az-blob-temp.AccountSASSignatureValues.generateSASQueryParameters
+      - az-blob-temp.AccountSASSignatureValues.ipRange
+      - az-blob-temp.AccountSASSignatureValues.permissions
+      - az-blob-temp.AccountSASSignatureValues.protocol
+      - az-blob-temp.AccountSASSignatureValues.resourceTypes
+      - az-blob-temp.AccountSASSignatureValues.services
+      - az-blob-temp.AccountSASSignatureValues.startTime
+      - az-blob-temp.AccountSASSignatureValues.version
     langs:
       - typeScript
     type: class

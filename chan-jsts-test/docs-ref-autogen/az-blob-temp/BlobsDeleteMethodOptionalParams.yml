@@ -3,7 +3,16 @@ items:
   - uid: az-blob-temp.BlobsDeleteMethodOptionalParams
     name: BlobsDeleteMethodOptionalParams
     fullName: BlobsDeleteMethodOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.deleteSnapshots
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.ifMatches
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.ifModifiedSince
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.ifNoneMatch
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.leaseId
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.requestId
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.snapshot
+      - az-blob-temp.BlobsDeleteMethodOptionalParams.timeout
     langs:
       - typeScript
     type: interface

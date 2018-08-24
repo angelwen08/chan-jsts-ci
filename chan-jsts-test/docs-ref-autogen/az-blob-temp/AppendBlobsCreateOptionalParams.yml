@@ -3,7 +3,21 @@ items:
   - uid: az-blob-temp.AppendBlobsCreateOptionalParams
     name: AppendBlobsCreateOptionalParams
     fullName: AppendBlobsCreateOptionalParams
-    children: []
+    children:
+      - az-blob-temp.AppendBlobsCreateOptionalParams.blobCacheControl
+      - az-blob-temp.AppendBlobsCreateOptionalParams.blobContentDisposition
+      - az-blob-temp.AppendBlobsCreateOptionalParams.blobContentEncoding
+      - az-blob-temp.AppendBlobsCreateOptionalParams.blobContentLanguage
+      - az-blob-temp.AppendBlobsCreateOptionalParams.blobContentMD5
+      - az-blob-temp.AppendBlobsCreateOptionalParams.blobContentType
+      - az-blob-temp.AppendBlobsCreateOptionalParams.ifMatches
+      - az-blob-temp.AppendBlobsCreateOptionalParams.ifModifiedSince
+      - az-blob-temp.AppendBlobsCreateOptionalParams.ifNoneMatch
+      - az-blob-temp.AppendBlobsCreateOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.AppendBlobsCreateOptionalParams.leaseId
+      - az-blob-temp.AppendBlobsCreateOptionalParams.metadata
+      - az-blob-temp.AppendBlobsCreateOptionalParams.requestId
+      - az-blob-temp.AppendBlobsCreateOptionalParams.timeout
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.ContainersSetAccessPolicyOptionalParams
     name: ContainersSetAccessPolicyOptionalParams
     fullName: ContainersSetAccessPolicyOptionalParams
-    children: []
+    children:
+      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.access
+      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.containerAcl
+      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.ifModifiedSince
+      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.leaseId
+      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.requestId
+      - az-blob-temp.ContainersSetAccessPolicyOptionalParams.timeout
     langs:
       - typeScript
     type: interface

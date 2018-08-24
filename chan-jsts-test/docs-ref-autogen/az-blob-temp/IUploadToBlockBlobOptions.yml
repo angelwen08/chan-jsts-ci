@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.IUploadToBlockBlobOptions
     name: IUploadToBlockBlobOptions
     fullName: IUploadToBlockBlobOptions
-    children: []
+    children:
+      - az-blob-temp.IUploadToBlockBlobOptions.accessConditions
+      - az-blob-temp.IUploadToBlockBlobOptions.blobHTTPHeaders
+      - az-blob-temp.IUploadToBlockBlobOptions.blockSize
+      - az-blob-temp.IUploadToBlockBlobOptions.metadata
+      - az-blob-temp.IUploadToBlockBlobOptions.parallelism
+      - az-blob-temp.IUploadToBlockBlobOptions.progress
     langs:
       - typeScript
     type: interface

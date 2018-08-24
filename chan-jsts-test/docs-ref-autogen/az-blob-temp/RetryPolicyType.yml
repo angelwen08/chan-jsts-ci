@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.RetryPolicyType
     name: RetryPolicyType
     fullName: RetryPolicyType
-    children: []
+    children:
+      - az-blob-temp.RetryPolicyType.EXPONENTIAL
+      - az-blob-temp.RetryPolicyType.FIXED
     langs:
       - typeScript
     type: enum

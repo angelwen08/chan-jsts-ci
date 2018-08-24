@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.BlobsUndeleteOptionalParams
     name: BlobsUndeleteOptionalParams
     fullName: BlobsUndeleteOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlobsUndeleteOptionalParams.requestId
+      - az-blob-temp.BlobsUndeleteOptionalParams.timeout
     langs:
       - typeScript
     type: interface

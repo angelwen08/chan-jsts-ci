@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.BlockBlobURL
     name: BlockBlobURL
     fullName: BlockBlobURL
-    children: []
+    children:
+      - az-blob-temp.BlockBlobURL.constructor
+      - az-blob-temp.BlockBlobURL.commitBlockList
+      - az-blob-temp.BlockBlobURL.getBlockList
+      - az-blob-temp.BlockBlobURL.stageBlock
+      - az-blob-temp.BlockBlobURL.upload
+      - az-blob-temp.BlockBlobURL.withPipeline
+      - az-blob-temp.BlockBlobURL.withSnapshot
     langs:
       - typeScript
     type: class

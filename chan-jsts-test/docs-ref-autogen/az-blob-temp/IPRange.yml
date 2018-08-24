@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.IPRange
     name: IPRange
     fullName: IPRange
-    children: []
+    children:
+      - az-blob-temp.IPRange.end
+      - az-blob-temp.IPRange.constructor
+      - az-blob-temp.IPRange.constructor_1
+      - az-blob-temp.IPRange.parse
+      - az-blob-temp.IPRange.start
+      - az-blob-temp.IPRange.toString
     langs:
       - typeScript
     type: class

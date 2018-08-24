@@ -3,7 +3,17 @@ items:
   - uid: az-blob-temp.ContainersGetPropertiesHeaders
     name: ContainersGetPropertiesHeaders
     fullName: ContainersGetPropertiesHeaders
-    children: []
+    children:
+      - az-blob-temp.ContainersGetPropertiesHeaders.blobPublicAccess
+      - az-blob-temp.ContainersGetPropertiesHeaders.date
+      - az-blob-temp.ContainersGetPropertiesHeaders.eTag
+      - az-blob-temp.ContainersGetPropertiesHeaders.lastModified
+      - az-blob-temp.ContainersGetPropertiesHeaders.leaseDuration
+      - az-blob-temp.ContainersGetPropertiesHeaders.leaseState
+      - az-blob-temp.ContainersGetPropertiesHeaders.leaseStatus
+      - az-blob-temp.ContainersGetPropertiesHeaders.metadata
+      - az-blob-temp.ContainersGetPropertiesHeaders.requestId
+      - az-blob-temp.ContainersGetPropertiesHeaders.version
     langs:
       - typeScript
     type: interface

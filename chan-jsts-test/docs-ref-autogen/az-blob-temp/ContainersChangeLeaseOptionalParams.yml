@@ -3,7 +3,11 @@ items:
   - uid: az-blob-temp.ContainersChangeLeaseOptionalParams
     name: ContainersChangeLeaseOptionalParams
     fullName: ContainersChangeLeaseOptionalParams
-    children: []
+    children:
+      - az-blob-temp.ContainersChangeLeaseOptionalParams.ifModifiedSince
+      - az-blob-temp.ContainersChangeLeaseOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.ContainersChangeLeaseOptionalParams.requestId
+      - az-blob-temp.ContainersChangeLeaseOptionalParams.timeout
     langs:
       - typeScript
     type: interface

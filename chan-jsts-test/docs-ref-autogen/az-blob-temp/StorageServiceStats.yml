@@ -3,7 +3,8 @@ items:
   - uid: az-blob-temp.StorageServiceStats
     name: StorageServiceStats
     fullName: StorageServiceStats
-    children: []
+    children:
+      - az-blob-temp.StorageServiceStats.geoReplication
     langs:
       - typeScript
     type: interface

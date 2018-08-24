@@ -3,7 +3,12 @@ items:
   - uid: az-blob-temp.ContainersSetMetadataHeaders
     name: ContainersSetMetadataHeaders
     fullName: ContainersSetMetadataHeaders
-    children: []
+    children:
+      - az-blob-temp.ContainersSetMetadataHeaders.date
+      - az-blob-temp.ContainersSetMetadataHeaders.eTag
+      - az-blob-temp.ContainersSetMetadataHeaders.lastModified
+      - az-blob-temp.ContainersSetMetadataHeaders.requestId
+      - az-blob-temp.ContainersSetMetadataHeaders.version
     langs:
       - typeScript
     type: interface

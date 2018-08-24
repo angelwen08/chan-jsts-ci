@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.BufferScheduler
     name: BufferScheduler
     fullName: BufferScheduler
-    children: []
+    children:
+      - az-blob-temp.BufferScheduler.constructor
+      - az-blob-temp.BufferScheduler.do
     langs:
       - typeScript
     type: class

@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.MemoryStream
     name: MemoryStream
     fullName: MemoryStream
-    children: []
+    children:
+      - az-blob-temp.MemoryStream.chunkSize
+      - az-blob-temp.MemoryStream.constructor
     langs:
       - typeScript
     type: class

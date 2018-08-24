@@ -3,7 +3,11 @@ items:
   - uid: az-blob-temp.ContainersListBlobFlatSegmentHeaders
     name: ContainersListBlobFlatSegmentHeaders
     fullName: ContainersListBlobFlatSegmentHeaders
-    children: []
+    children:
+      - az-blob-temp.ContainersListBlobFlatSegmentHeaders.contentType
+      - az-blob-temp.ContainersListBlobFlatSegmentHeaders.date
+      - az-blob-temp.ContainersListBlobFlatSegmentHeaders.requestId
+      - az-blob-temp.ContainersListBlobFlatSegmentHeaders.version
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,14 @@ items:
   - uid: az-blob-temp.AppendBlobsCreateHeaders
     name: AppendBlobsCreateHeaders
     fullName: AppendBlobsCreateHeaders
-    children: []
+    children:
+      - az-blob-temp.AppendBlobsCreateHeaders.contentMD5
+      - az-blob-temp.AppendBlobsCreateHeaders.date
+      - az-blob-temp.AppendBlobsCreateHeaders.eTag
+      - az-blob-temp.AppendBlobsCreateHeaders.isServerEncrypted
+      - az-blob-temp.AppendBlobsCreateHeaders.lastModified
+      - az-blob-temp.AppendBlobsCreateHeaders.requestId
+      - az-blob-temp.AppendBlobsCreateHeaders.version
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,18 @@ items:
   - uid: az-blob-temp.PageBlobURL
     name: PageBlobURL
     fullName: PageBlobURL
-    children: []
+    children:
+      - az-blob-temp.PageBlobURL.clearPages
+      - az-blob-temp.PageBlobURL.create
+      - az-blob-temp.PageBlobURL.getPageRanges
+      - az-blob-temp.PageBlobURL.getPageRangesDiff
+      - az-blob-temp.PageBlobURL.constructor
+      - az-blob-temp.PageBlobURL.resize
+      - az-blob-temp.PageBlobURL.startCopyIncremental
+      - az-blob-temp.PageBlobURL.updateSequenceNumber
+      - az-blob-temp.PageBlobURL.uploadPages
+      - az-blob-temp.PageBlobURL.withPipeline
+      - az-blob-temp.PageBlobURL.withSnapshot
     langs:
       - typeScript
     type: class

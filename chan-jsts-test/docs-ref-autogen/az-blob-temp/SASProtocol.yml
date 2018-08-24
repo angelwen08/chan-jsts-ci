@@ -3,7 +3,9 @@ items:
   - uid: az-blob-temp.SASProtocol
     name: SASProtocol
     fullName: SASProtocol
-    children: []
+    children:
+      - az-blob-temp.SASProtocol.HTTPS
+      - az-blob-temp.SASProtocol.HTTPSandHTTP
     langs:
       - typeScript
     type: enum

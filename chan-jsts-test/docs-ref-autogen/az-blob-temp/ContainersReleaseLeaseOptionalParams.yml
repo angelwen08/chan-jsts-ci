@@ -3,7 +3,11 @@ items:
   - uid: az-blob-temp.ContainersReleaseLeaseOptionalParams
     name: ContainersReleaseLeaseOptionalParams
     fullName: ContainersReleaseLeaseOptionalParams
-    children: []
+    children:
+      - az-blob-temp.ContainersReleaseLeaseOptionalParams.ifModifiedSince
+      - az-blob-temp.ContainersReleaseLeaseOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.ContainersReleaseLeaseOptionalParams.requestId
+      - az-blob-temp.ContainersReleaseLeaseOptionalParams.timeout
     langs:
       - typeScript
     type: interface

@@ -3,7 +3,10 @@ items:
   - uid: az-blob-temp.Batch
     name: Batch
     fullName: Batch
-    children: []
+    children:
+      - az-blob-temp.Batch.addOperation
+      - az-blob-temp.Batch.constructor
+      - az-blob-temp.Batch.do
     langs:
       - typeScript
     type: class

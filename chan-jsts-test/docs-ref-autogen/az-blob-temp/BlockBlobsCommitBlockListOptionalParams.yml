@@ -3,7 +3,22 @@ items:
   - uid: az-blob-temp.BlockBlobsCommitBlockListOptionalParams
     name: BlockBlobsCommitBlockListOptionalParams
     fullName: BlockBlobsCommitBlockListOptionalParams
-    children: []
+    children:
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.blobCacheControl
+      - >-
+        az-blob-temp.BlockBlobsCommitBlockListOptionalParams.blobContentDisposition
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.blobContentEncoding
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.blobContentLanguage
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.blobContentMD5
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.blobContentType
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.ifMatches
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.ifModifiedSince
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.ifNoneMatch
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.ifUnmodifiedSince
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.leaseId
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.metadata
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.requestId
+      - az-blob-temp.BlockBlobsCommitBlockListOptionalParams.timeout
     langs:
       - typeScript
     type: interface

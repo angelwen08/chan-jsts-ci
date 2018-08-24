@@ -3,7 +3,20 @@ items:
   - uid: az-blob-temp.SASQueryParameters
     name: SASQueryParameters
     fullName: SASQueryParameters
-    children: []
+    children:
+      - az-blob-temp.SASQueryParameters.expiryTime
+      - az-blob-temp.SASQueryParameters.identifier
+      - az-blob-temp.SASQueryParameters.ipRange
+      - az-blob-temp.SASQueryParameters.permissions
+      - az-blob-temp.SASQueryParameters.protocol
+      - az-blob-temp.SASQueryParameters.resource
+      - az-blob-temp.SASQueryParameters.resourceTypes
+      - az-blob-temp.SASQueryParameters.constructor
+      - az-blob-temp.SASQueryParameters.services
+      - az-blob-temp.SASQueryParameters.signature
+      - az-blob-temp.SASQueryParameters.startTime
+      - az-blob-temp.SASQueryParameters.stringify
+      - az-blob-temp.SASQueryParameters.version
     langs:
       - typeScript
     type: class

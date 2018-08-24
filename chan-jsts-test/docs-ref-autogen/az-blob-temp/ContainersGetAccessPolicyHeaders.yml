@@ -3,7 +3,13 @@ items:
   - uid: az-blob-temp.ContainersGetAccessPolicyHeaders
     name: ContainersGetAccessPolicyHeaders
     fullName: ContainersGetAccessPolicyHeaders
-    children: []
+    children:
+      - az-blob-temp.ContainersGetAccessPolicyHeaders.blobPublicAccess
+      - az-blob-temp.ContainersGetAccessPolicyHeaders.date
+      - az-blob-temp.ContainersGetAccessPolicyHeaders.eTag
+      - az-blob-temp.ContainersGetAccessPolicyHeaders.lastModified
+      - az-blob-temp.ContainersGetAccessPolicyHeaders.requestId
+      - az-blob-temp.ContainersGetAccessPolicyHeaders.version
     langs:
       - typeScript
     type: interface
