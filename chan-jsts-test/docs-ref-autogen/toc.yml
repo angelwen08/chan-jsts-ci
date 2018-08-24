@@ -39,8 +39,8 @@
               name: Settings
               items: []
             - uid: >-
-                @microsoft/teams-js.microsoftTeams.settings.testInterfaceWithoutChild
-              name: testInterfaceWithoutChild
+                @microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild
+              name: testClassWithoutChild
               items: []
         - uid: '@microsoft/teams-js.microsoftTeams.TabInformation'
           name: TabInformation

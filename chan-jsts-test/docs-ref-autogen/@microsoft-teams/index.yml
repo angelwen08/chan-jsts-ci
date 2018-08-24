@@ -16,7 +16,7 @@ items:
       - '@microsoft/teams-js.microsoftTeams.settings.SaveEvent'
       - '@microsoft/teams-js.microsoftTeams.settings.SaveParameters'
       - '@microsoft/teams-js.microsoftTeams.settings.Settings'
-      - '@microsoft/teams-js.microsoftTeams.settings.testInterfaceWithoutChild'
+      - '@microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild'
       - '@microsoft/teams-js.microsoftTeams.TabInformation'
       - '@microsoft/teams-js.microsoftTeams.TabInstance'
       - '@microsoft/teams-js.microsoftTeams.TabInstanceParameters'
@@ -56,8 +56,8 @@ references:
     name: SaveParameters
   - uid: '@microsoft/teams-js.microsoftTeams.settings.Settings'
     name: Settings
-  - uid: '@microsoft/teams-js.microsoftTeams.settings.testInterfaceWithoutChild'
-    name: testInterfaceWithoutChild
+  - uid: '@microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild'
+    name: testClassWithoutChild
   - uid: '@microsoft/teams-js.microsoftTeams.TabInformation'
     name: TabInformation
   - uid: '@microsoft/teams-js.microsoftTeams.TabInstance'

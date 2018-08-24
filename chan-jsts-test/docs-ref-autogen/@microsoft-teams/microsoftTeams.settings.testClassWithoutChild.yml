@@ -1,8 +1,8 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@microsoft/teams-js.microsoftTeams.settings.testInterfaceWithoutChild'
-    name: testInterfaceWithoutChild
-    fullName: testInterfaceWithoutChild
+  - uid: '@microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild'
+    name: testClassWithoutChild
+    fullName: testClassWithoutChild
     children: []
     langs:
       - typeScript
