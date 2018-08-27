@@ -1,0 +1,170 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-iothub.ClientModule.Transport
+    name: Transport
+    fullName: Transport
+    children:
+      - azure-iothub.ClientModule.Transport.connect
+      - azure-iothub.ClientModule.Transport.disconnect
+      - azure-iothub.ClientModule.Transport.getFeedbackReceiver
+      - azure-iothub.ClientModule.Transport.getFileNotificationReceiver
+      - azure-iothub.ClientModule.Transport.send
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: EventEmitter
+    package: azure-iothub
+  - uid: azure-iothub.ClientModule.Transport.connect
+    name: connect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function connect(done?: Callback<Connected>)'
+      parameters:
+        - id: done
+          type:
+            - azure-iothub.ClientModule.Callback<Connected>
+          description: ''
+          optional: true
+    package: azure-iothub
+  - uid: azure-iothub.ClientModule.Transport.disconnect
+    name: disconnect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function disconnect(done: Callback<Disconnected>)'
+      parameters:
+        - id: done
+          type:
+            - azure-iothub.ClientModule.Callback<Disconnected>
+          description: ''
+    package: azure-iothub
+  - uid: azure-iothub.ClientModule.Transport.getFeedbackReceiver
+    name: getFeedbackReceiver
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFeedbackReceiver(done: Callback<ServiceReceiver>)'
+      parameters:
+        - id: done
+          type:
+            - >-
+              azure-iothub.ClientModule.Callback<azure-iothub.ClientModule.ServiceReceiver>
+          description: ''
+    package: azure-iothub
+  - uid: azure-iothub.ClientModule.Transport.getFileNotificationReceiver
+    name: getFileNotificationReceiver
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFileNotificationReceiver(done: Callback<ServiceReceiver>)'
+      parameters:
+        - id: done
+          type:
+            - >-
+              azure-iothub.ClientModule.Callback<azure-iothub.ClientModule.ServiceReceiver>
+          description: ''
+    package: azure-iothub
+  - uid: azure-iothub.ClientModule.Transport.send
+    name: send
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function send(deviceId: string, message: Message, done?:
+        Callback<MessageEnqueued>)
+      parameters:
+        - id: deviceId
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - Message
+          description: ''
+        - id: done
+          type:
+            - azure-iothub.ClientModule.Callback<MessageEnqueued>
+          description: ''
+          optional: true
+    package: azure-iothub
+references:
+  - uid: azure-iothub.ClientModule.Callback<MessageAbandoned>
+    name: Callback<MessageAbandoned>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.ClientModule.Callback
+      - name: <MessageAbandoned>
+        fullName: <MessageAbandoned>
+  - uid: azure-iothub.ClientModule.Callback<MessageCompleted>
+    name: Callback<MessageCompleted>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.ClientModule.Callback
+      - name: <MessageCompleted>
+        fullName: <MessageCompleted>
+  - uid: azure-iothub.ClientModule.Callback<MessageRejected>
+    name: Callback<MessageRejected>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.ClientModule.Callback
+      - name: <MessageRejected>
+        fullName: <MessageRejected>
+  - uid: azure-iothub.ClientModule.Callback<Connected>
+    name: Callback<Connected>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.ClientModule.Callback
+      - name: <Connected>
+        fullName: <Connected>
+  - uid: azure-iothub.ClientModule.Callback<Disconnected>
+    name: Callback<Disconnected>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.ClientModule.Callback
+      - name: <Disconnected>
+        fullName: <Disconnected>
+  - uid: >-
+      azure-iothub.ClientModule.Callback<azure-iothub.ClientModule.ServiceReceiver>
+    name: ServiceReceiver>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.ClientModule.Callback
+      - name: <
+        fullName: <
+      - name: ServiceReceiver
+        fullName: ServiceReceiver
+        uid: azure-iothub.ClientModule.ServiceReceiver
+      - name: '>'
+        fullName: '>'
+  - uid: azure-iothub.ClientModule.Callback<MessageEnqueued>
+    name: Callback<MessageEnqueued>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.ClientModule.Callback
+      - name: <MessageEnqueued>
+        fullName: <MessageEnqueued>

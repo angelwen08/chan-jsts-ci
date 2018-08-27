@@ -1,77 +1,126 @@
-- uid: '@microsoft/teams-js'
-  name: '@microsoft/teams-js'
+- uid: azure-iothub
+  name: azure-iothub
   items:
-    - uid: '@microsoft/teams-js.@microsoft.teams-js'
-      name: '@microsoft.teams-js'
+    - uid: azure-iothub.Amqp
+      name: Amqp
       items: []
-    - uid: '@microsoft/teams-js.microsoftTeams'
-      name: microsoftTeams
+    - uid: azure-iothub.AmqpWs
+      name: AmqpWs
+      items: []
+    - uid: azure-iothub.Client
+      name: Client
+      items: []
+    - uid: azure-iothub.ClientModule
+      name: ClientModule
       items:
-        - uid: '@microsoft/teams-js.microsoftTeams.authentication'
-          name: authentication
-          items:
-            - uid: >-
-                @microsoft/teams-js.microsoftTeams.authentication.AuthenticateParameters
-              name: AuthenticateParameters
-              items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.Context'
-          name: Context
+        - uid: azure-iothub.ClientModule.Callback
+          name: Callback
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.DeepLinkParameters'
-          name: DeepLinkParameters
+        - uid: azure-iothub.ClientModule.ServiceReceiver
+          name: ServiceReceiver
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.HostClientType'
-          name: HostClientType
+        - uid: azure-iothub.ClientModule.Transport
+          name: Transport
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.settings'
-          name: settings
-          items:
-            - uid: '@microsoft/teams-js.microsoftTeams.settings.RemoveEvent'
-              name: RemoveEvent
-              items: []
-            - uid: '@microsoft/teams-js.microsoftTeams.settings.SaveEvent'
-              name: SaveEvent
-              items: []
-            - uid: '@microsoft/teams-js.microsoftTeams.settings.SaveParameters'
-              name: SaveParameters
-              items: []
-            - uid: '@microsoft/teams-js.microsoftTeams.settings.Settings'
-              name: Settings
-              items: []
-            - uid: >-
-                @microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild
-              name: testClassWithoutChild
-              items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.TabInformation'
-          name: TabInformation
+        - uid: azure-iothub.ClientModule.TransportConfigOptions
+          name: TransportConfigOptions
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.TabInstance'
-          name: TabInstance
+        - uid: azure-iothub.ClientModule.TransportCtor
+          name: TransportCtor
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.TabInstanceParameters'
-          name: TabInstanceParameters
+    - uid: azure-iothub.Configuration
+      name: Configuration
+      items: []
+    - uid: azure-iothub.ConfigurationContent
+      name: ConfigurationContent
+      items: []
+    - uid: azure-iothub.ConfigurationMetrics
+      name: ConfigurationMetrics
+      items: []
+    - uid: azure-iothub.Device
+      name: Device
+      items:
+        - uid: azure-iothub.Device.Authentication
+          name: Authentication
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.TaskInfo'
-          name: TaskInfo
+        - uid: azure-iothub.Device.Capabilities
+          name: Capabilities
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.TaskModuleDimension'
-          name: TaskModuleDimension
+        - uid: azure-iothub.Device.ConnectionState
+          name: ConnectionState
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.tasks'
-          name: tasks
+        - uid: azure-iothub.Device.DeviceStatus
+          name: DeviceStatus
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.TeamInformation'
-          name: TeamInformation
+        - uid: azure-iothub.Device.X509Thumbprints
+          name: X509Thumbprints
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.TeamType'
-          name: TeamType
+    - uid: azure-iothub.DeviceMethodParams
+      name: DeviceMethodParams
+      items: []
+    - uid: azure-iothub.JobClient
+      name: JobClient
+      items:
+        - uid: azure-iothub.JobClient.JobCallback
+          name: JobCallback
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.testInterfaceWithoutChild'
-          name: testInterfaceWithoutChild
+    - uid: azure-iothub.JobStatus
+      name: JobStatus
+      items: []
+    - uid: azure-iothub.JobType
+      name: JobType
+      items: []
+    - uid: azure-iothub.Module
+      name: Module
+      items: []
+    - uid: azure-iothub.Query
+      name: Query
+      items: []
+    - uid: azure-iothub.Registry
+      name: Registry
+      items: []
+    - uid: azure-iothub.RegistryModule
+      name: RegistryModule
+      items:
+        - uid: azure-iothub.RegistryModule.BulkDeviceIdentityCallback
+          name: BulkDeviceIdentityCallback
           items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.UserTeamRole'
-          name: UserTeamRole
+        - uid: azure-iothub.RegistryModule.BulkRegistryOperationResult
+          name: BulkRegistryOperationResult
           items: []
-    - uid: '@microsoft/teams-js.String'
-      name: String
+        - uid: azure-iothub.RegistryModule.BulkRegistryOperationType
+          name: BulkRegistryOperationType
+          items: []
+        - uid: azure-iothub.RegistryModule.DeviceCallback
+          name: DeviceCallback
+          items: []
+        - uid: azure-iothub.RegistryModule.DeviceDescription
+          name: DeviceDescription
+          items: []
+        - uid: azure-iothub.RegistryModule.DeviceRegistryOperationError
+          name: DeviceRegistryOperationError
+          items: []
+        - uid: azure-iothub.RegistryModule.JobCallback
+          name: JobCallback
+          items: []
+        - uid: azure-iothub.RegistryModule.JobStatus
+          name: JobStatus
+          items: []
+        - uid: azure-iothub.RegistryModule.QueryDescription
+          name: QueryDescription
+          items: []
+        - uid: azure-iothub.RegistryModule.RegistryStatistics
+          name: RegistryStatistics
+          items: []
+        - uid: azure-iothub.RegistryModule.ResponseCallback
+          name: ResponseCallback
+          items: []
+        - uid: azure-iothub.RegistryModule.TransportConfig
+          name: TransportConfig
+          items: []
+    - uid: azure-iothub.ServiceReceiver
+      name: ServiceReceiver
+      items: []
+    - uid: azure-iothub.Twin
+      name: Twin
       items: []
