@@ -35,7 +35,7 @@ items:
           description: ''
         - id: done
           type:
-            - Client.Callback<MessageAbandoned>
+            - azure-iothub.Client.Callback<MessageAbandoned>
           description: ''
           optional: true
     package: azure-iothub
@@ -57,7 +57,7 @@ items:
           description: ''
         - id: done
           type:
-            - Client.Callback<MessageCompleted>
+            - azure-iothub.Client.Callback<MessageCompleted>
           description: ''
           optional: true
     package: azure-iothub
@@ -110,7 +110,7 @@ items:
           description: ''
         - id: done
           type:
-            - Client.Callback<MessageRejected>
+            - azure-iothub.Client.Callback<MessageRejected>
           description: ''
           optional: true
     package: azure-iothub
@@ -129,3 +129,28 @@ items:
             - ReceiverLink
           description: ''
     package: azure-iothub
+references:
+  - uid: azure-iothub.Client.Callback<MessageAbandoned>
+    name: Callback<MessageAbandoned>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <MessageAbandoned>
+        fullName: <MessageAbandoned>
+  - uid: azure-iothub.Client.Callback<MessageCompleted>
+    name: Callback<MessageCompleted>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <MessageCompleted>
+        fullName: <MessageCompleted>
+  - uid: azure-iothub.Client.Callback<MessageRejected>
+    name: Callback<MessageRejected>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <MessageRejected>
+        fullName: <MessageRejected>

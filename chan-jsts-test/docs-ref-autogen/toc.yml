@@ -9,23 +9,20 @@
       items: []
     - uid: azure-iothub.Client
       name: Client
-      items: []
-    - uid: azure-iothub.ClientModule
-      name: ClientModule
       items:
-        - uid: azure-iothub.ClientModule.Callback
+        - uid: azure-iothub.Client.Callback
           name: Callback
           items: []
-        - uid: azure-iothub.ClientModule.ServiceReceiver
+        - uid: azure-iothub.Client.ServiceReceiver
           name: ServiceReceiver
           items: []
-        - uid: azure-iothub.ClientModule.Transport
+        - uid: azure-iothub.Client.Transport
           name: Transport
           items: []
-        - uid: azure-iothub.ClientModule.TransportConfigOptions
+        - uid: azure-iothub.Client.TransportConfigOptions
           name: TransportConfigOptions
           items: []
-        - uid: azure-iothub.ClientModule.TransportCtor
+        - uid: azure-iothub.Client.TransportCtor
           name: TransportCtor
           items: []
     - uid: azure-iothub.Configuration
@@ -78,44 +75,41 @@
       items: []
     - uid: azure-iothub.Registry
       name: Registry
-      items: []
-    - uid: azure-iothub.RegistryModule
-      name: RegistryModule
       items:
-        - uid: azure-iothub.RegistryModule.BulkDeviceIdentityCallback
+        - uid: azure-iothub.Registry.BulkDeviceIdentityCallback
           name: BulkDeviceIdentityCallback
           items: []
-        - uid: azure-iothub.RegistryModule.BulkRegistryOperationResult
+        - uid: azure-iothub.Registry.BulkRegistryOperationResult
           name: BulkRegistryOperationResult
           items: []
-        - uid: azure-iothub.RegistryModule.BulkRegistryOperationType
+        - uid: azure-iothub.Registry.BulkRegistryOperationType
           name: BulkRegistryOperationType
           items: []
-        - uid: azure-iothub.RegistryModule.DeviceCallback
+        - uid: azure-iothub.Registry.DeviceCallback
           name: DeviceCallback
           items: []
-        - uid: azure-iothub.RegistryModule.DeviceDescription
+        - uid: azure-iothub.Registry.DeviceDescription
           name: DeviceDescription
           items: []
-        - uid: azure-iothub.RegistryModule.DeviceRegistryOperationError
+        - uid: azure-iothub.Registry.DeviceRegistryOperationError
           name: DeviceRegistryOperationError
           items: []
-        - uid: azure-iothub.RegistryModule.JobCallback
+        - uid: azure-iothub.Registry.JobCallback
           name: JobCallback
           items: []
-        - uid: azure-iothub.RegistryModule.JobStatus
+        - uid: azure-iothub.Registry.JobStatus
           name: JobStatus
           items: []
-        - uid: azure-iothub.RegistryModule.QueryDescription
+        - uid: azure-iothub.Registry.QueryDescription
           name: QueryDescription
           items: []
-        - uid: azure-iothub.RegistryModule.RegistryStatistics
+        - uid: azure-iothub.Registry.RegistryStatistics
           name: RegistryStatistics
           items: []
-        - uid: azure-iothub.RegistryModule.ResponseCallback
+        - uid: azure-iothub.Registry.ResponseCallback
           name: ResponseCallback
           items: []
-        - uid: azure-iothub.RegistryModule.TransportConfig
+        - uid: azure-iothub.Registry.TransportConfig
           name: TransportConfig
           items: []
     - uid: azure-iothub.ServiceReceiver

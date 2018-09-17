@@ -8,10 +8,16 @@ items:
       - azure-iothub.Registry.addDevices
       - azure-iothub.Registry.addModule
       - azure-iothub.Registry.applyConfigurationContentOnDevice
+      - azure-iothub.Registry.BulkDeviceIdentityCallback
+      - azure-iothub.Registry.BulkRegistryOperationResult
+      - azure-iothub.Registry.BulkRegistryOperationType
       - azure-iothub.Registry.cancelJob
       - azure-iothub.Registry.create
       - azure-iothub.Registry.createQuery
       - azure-iothub.Registry.delete
+      - azure-iothub.Registry.DeviceCallback
+      - azure-iothub.Registry.DeviceDescription
+      - azure-iothub.Registry.DeviceRegistryOperationError
       - azure-iothub.Registry.exportDevicesToBlob
       - azure-iothub.Registry.fromConnectionString
       - azure-iothub.Registry.fromSharedAccessSignature
@@ -25,12 +31,18 @@ items:
       - azure-iothub.Registry.getRegistryStatistics
       - azure-iothub.Registry.getTwin
       - azure-iothub.Registry.importDevicesFromBlob
+      - azure-iothub.Registry.JobCallback
+      - azure-iothub.Registry.JobStatus
       - azure-iothub.Registry.list
       - azure-iothub.Registry.listJobs
+      - azure-iothub.Registry.QueryDescription
+      - azure-iothub.Registry.RegistryStatistics
       - azure-iothub.Registry.removeConfiguration
       - azure-iothub.Registry.removeDevices
       - azure-iothub.Registry.removeModule
       - azure-iothub.Registry.removeModule_1
+      - azure-iothub.Registry.ResponseCallback
+      - azure-iothub.Registry.TransportConfig
       - azure-iothub.Registry.update
       - azure-iothub.Registry.updateConfiguration
       - azure-iothub.Registry.updateConfiguration_1
@@ -73,7 +85,7 @@ items:
                                                  to add to the hub
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The function to call when the operation is
                                                  complete. `done` will be called with three
@@ -91,19 +103,19 @@ items:
     summary: Adds an array of devices.
     syntax:
       content: >-
-        function addDevices(devices: Registry.DeviceDescription[], done:
+        function addDevices(devices: DeviceDescription[], done:
         Registry.BulkDeviceIdentityCallback)
       parameters:
         - id: devices
           type:
-            - 'Registry.DeviceDescription[]'
+            - 'azure-iothub.Registry.DeviceDescription[]'
           description: |-
             An array of objects which must include a `deviceId`
                                            property whose value is a valid device
                                            identifier.
         - id: done
           type:
-            - Registry.BulkDeviceIdentityCallback
+            - azure-iothub.Registry.BulkDeviceIdentityCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -128,7 +140,7 @@ items:
           description: Module object to add to the registry.
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -159,7 +171,7 @@ items:
           description: The Configuration to apply
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The function to call when the operation is
                                                      complete. `done` will be called with three
@@ -186,7 +198,7 @@ items:
             information.
         - id: done
           type:
-            - Registry.JobCallback
+            - azure-iothub.Registry.JobCallback
           description: >
             The function to call with two arguments: an error object if an error
             happened,
@@ -201,18 +213,18 @@ items:
     summary: Creates a new device identity on an IoT hub.
     syntax:
       content: >-
-        function create(deviceInfo: Registry.DeviceDescription, done:
+        function create(deviceInfo: DeviceDescription, done:
         Registry.DeviceCallback)
       parameters:
         - id: deviceInfo
           type:
-            - Registry.DeviceDescription
+            - azure-iothub.Registry.DeviceDescription
           description: |-
             The object must include a `deviceId` property
                                            with a valid device identifier.
         - id: done
           type:
-            - Registry.DeviceCallback
+            - azure-iothub.Registry.DeviceCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -265,7 +277,7 @@ items:
           description: The identifier of an existing device identity.
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -301,7 +313,7 @@ items:
             exported data.
         - id: done
           type:
-            - Registry.JobCallback
+            - azure-iothub.Registry.JobCallback
           description: >
             The function to call when the job has been created, with two
             arguments: an error object if an
@@ -367,7 +379,7 @@ items:
           description: The identifier of an existing device identity.
         - id: done
           type:
-            - Registry.DeviceCallback
+            - azure-iothub.Registry.DeviceCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -442,7 +454,7 @@ items:
             information.
         - id: done
           type:
-            - Registry.JobCallback
+            - azure-iothub.Registry.JobCallback
           description: >
             The function to call with two arguments: an error object if an error
             happened,
@@ -534,13 +546,11 @@ items:
       - typeScript
     summary: Gets statistics about the devices in the device identity registry.
     syntax:
-      content: >-
-        function getRegistryStatistics(done:
-        Callback<Registry.RegistryStatistics>)
+      content: 'function getRegistryStatistics(done: Callback<RegistryStatistics>)'
       parameters:
         - id: done
           type:
-            - Callback<Registry.RegistryStatistics>
+            - Callback<azure-iothub.Registry.RegistryStatistics>
           description: |
             The callback that will be called with either an Error object or
                                           the device registry statistics.
@@ -561,7 +571,7 @@ items:
           description: The device identifier.
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The callback that will be called with either an Error object or
                                             the device twin instance.
@@ -592,7 +602,7 @@ items:
             import process.
         - id: done
           type:
-            - Registry.JobCallback
+            - azure-iothub.Registry.JobCallback
           description: >
             The function to call when the job has been created, with two
             arguments: an error object if an
@@ -659,7 +669,7 @@ items:
           description: ID of the configuration to remove
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The function to call when the operation is
                                                  complete. `done` will be called with three
@@ -677,12 +687,12 @@ items:
     summary: Updates an array of devices.
     syntax:
       content: >-
-        function removeDevices(devices: Registry.DeviceDescription[],
-        forceRemove: boolean, done: Registry.BulkDeviceIdentityCallback)
+        function removeDevices(devices: DeviceDescription[], forceRemove:
+        boolean, done: Registry.BulkDeviceIdentityCallback)
       parameters:
         - id: devices
           type:
-            - 'Registry.DeviceDescription[]'
+            - 'azure-iothub.Registry.DeviceDescription[]'
           description: |-
             An array of objects which must include a `deviceId`
                                            property whose value is a valid device
@@ -696,7 +706,7 @@ items:
                                            must match.
         - id: done
           type:
-            - Registry.BulkDeviceIdentityCallback
+            - azure-iothub.Registry.BulkDeviceIdentityCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -721,7 +731,7 @@ items:
           description: ''
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -752,7 +762,7 @@ items:
           description: ''
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: ''
     package: azure-iothub
   - uid: azure-iothub.Registry.update
@@ -766,19 +776,19 @@ items:
                          the given device information.
     syntax:
       content: >-
-        function update(deviceInfo: Registry.DeviceDescription, done:
+        function update(deviceInfo: DeviceDescription, done:
         Registry.DeviceCallback)
       parameters:
         - id: deviceInfo
           type:
-            - Registry.DeviceDescription
+            - azure-iothub.Registry.DeviceDescription
           description: |-
             An object which must include a `deviceId`
                                            property whose value is a valid device
                                            identifier.
         - id: done
           type:
-            - Registry.DeviceCallback
+            - azure-iothub.Registry.DeviceCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -808,7 +818,7 @@ items:
                                                  to add to the hub
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The function to call when the operation is
                                                  complete. `done` will be called with three
@@ -839,7 +849,7 @@ items:
           description: ''
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: ''
     package: azure-iothub
   - uid: azure-iothub.Registry.updateDevices
@@ -851,12 +861,12 @@ items:
     summary: Updates an array of devices.
     syntax:
       content: >-
-        function updateDevices(devices: Registry.DeviceDescription[],
-        forceUpdate: boolean, done?: Registry.BulkDeviceIdentityCallback)
+        function updateDevices(devices: DeviceDescription[], forceUpdate:
+        boolean, done?: Registry.BulkDeviceIdentityCallback)
       parameters:
         - id: devices
           type:
-            - 'Registry.DeviceDescription[]'
+            - 'azure-iothub.Registry.DeviceDescription[]'
           description: |-
             An array of objects which must include a `deviceId`
                                            property whose value is a valid device
@@ -870,7 +880,7 @@ items:
                                            must match.
         - id: done
           type:
-            - Registry.BulkDeviceIdentityCallback
+            - azure-iothub.Registry.BulkDeviceIdentityCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -896,7 +906,7 @@ items:
           description: Module object to update.
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The function to call when the operation is
                                            complete. `done` will be called with three
@@ -927,7 +937,7 @@ items:
           description: ''
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: ''
     package: azure-iothub
   - uid: azure-iothub.Registry.updateModuleTwin
@@ -963,7 +973,7 @@ items:
                                              the module twin has been updated since the etag was obtained.
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |-
             The callback that will be called with either an Error object or
                                              the module twin instance.
@@ -997,18 +1007,52 @@ items:
                                             the device twin has been updated since the etag was obtained.
         - id: done
           type:
-            - Registry.ResponseCallback
+            - azure-iothub.Registry.ResponseCallback
           description: |
             The callback that will be called with either an Error object or
                                             the device twin instance.
     package: azure-iothub
 references:
+  - uid: 'azure-iothub.Registry.DeviceRegistryOperationError[]'
+    name: 'DeviceRegistryOperationError[]'
+    spec.typeScript:
+      - name: DeviceRegistryOperationError
+        fullName: DeviceRegistryOperationError
+        uid: azure-iothub.Registry.DeviceRegistryOperationError
+      - name: '[]'
+        fullName: '[]'
+  - uid: azure-iothub.Device.Capabilities
+    name: Capabilities
+    spec.typeScript:
+      - name: Capabilities
+        fullName: Capabilities
+        uid: azure-iothub.Device.Capabilities
   - uid: azure-iothub.Configuration
     name: Configuration
     spec.typeScript:
       - name: Configuration
         fullName: Configuration
         uid: azure-iothub.Configuration
+  - uid: azure-iothub.Registry.ResponseCallback
+    name: ResponseCallback
+    spec.typeScript:
+      - name: ResponseCallback
+        fullName: ResponseCallback
+        uid: azure-iothub.Registry.ResponseCallback
+  - uid: 'azure-iothub.Registry.DeviceDescription[]'
+    name: 'DeviceDescription[]'
+    spec.typeScript:
+      - name: DeviceDescription
+        fullName: DeviceDescription
+        uid: azure-iothub.Registry.DeviceDescription
+      - name: '[]'
+        fullName: '[]'
+  - uid: azure-iothub.Registry.BulkDeviceIdentityCallback
+    name: BulkDeviceIdentityCallback
+    spec.typeScript:
+      - name: BulkDeviceIdentityCallback
+        fullName: BulkDeviceIdentityCallback
+        uid: azure-iothub.Registry.BulkDeviceIdentityCallback
   - uid: azure-iothub.Module
     name: Module
     spec.typeScript:
@@ -1021,12 +1065,40 @@ references:
       - name: ConfigurationContent
         fullName: ConfigurationContent
         uid: azure-iothub.ConfigurationContent
+  - uid: azure-iothub.Registry.JobCallback
+    name: JobCallback
+    spec.typeScript:
+      - name: JobCallback
+        fullName: JobCallback
+        uid: azure-iothub.Registry.JobCallback
+  - uid: azure-iothub.Registry.DeviceDescription
+    name: DeviceDescription
+    spec.typeScript:
+      - name: DeviceDescription
+        fullName: DeviceDescription
+        uid: azure-iothub.Registry.DeviceDescription
+  - uid: azure-iothub.Registry.DeviceCallback
+    name: DeviceCallback
+    spec.typeScript:
+      - name: DeviceCallback
+        fullName: DeviceCallback
+        uid: azure-iothub.Registry.DeviceCallback
   - uid: azure-iothub.Query
     name: Query
     spec.typeScript:
       - name: Query
         fullName: Query
         uid: azure-iothub.Query
+  - uid: Callback<azure-iothub.Registry.RegistryStatistics>
+    name: RegistryStatistics>
+    spec.typeScript:
+      - name: Callback<
+        fullName: Callback<
+      - name: RegistryStatistics
+        fullName: RegistryStatistics
+        uid: azure-iothub.Registry.RegistryStatistics
+      - name: '>'
+        fullName: '>'
   - uid: 'Callback<azure-iothub.Device[]>'
     name: 'Device[]>'
     spec.typeScript:
@@ -1043,3 +1115,17 @@ references:
       - name: Registry
         fullName: Registry
         uid: azure-iothub.Registry
+  - uid: azure-iothub.Registry.BulkRegistryOperationResult
+    name: BulkRegistryOperationResult
+  - uid: azure-iothub.Registry.DeviceDescription
+    name: DeviceDescription
+  - uid: azure-iothub.Registry.DeviceRegistryOperationError
+    name: DeviceRegistryOperationError
+  - uid: azure-iothub.Registry.JobStatus
+    name: JobStatus
+  - uid: azure-iothub.Registry.QueryDescription
+    name: QueryDescription
+  - uid: azure-iothub.Registry.RegistryStatistics
+    name: RegistryStatistics
+  - uid: azure-iothub.Registry.TransportConfig
+    name: TransportConfig

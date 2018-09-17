@@ -4,6 +4,7 @@ items:
     name: Client
     fullName: Client
     children:
+      - azure-iothub.Client.Callback
       - azure-iothub.Client.close
       - azure-iothub.Client.fromConnectionString
       - azure-iothub.Client.fromSharedAccessSignature
@@ -13,7 +14,11 @@ items:
       - azure-iothub.Client.invokeDeviceMethod_1
       - azure-iothub.Client.open
       - azure-iothub.Client.send
+      - azure-iothub.Client.ServiceReceiver
       - azure-iothub.Client.setRetryPolicy
+      - azure-iothub.Client.Transport
+      - azure-iothub.Client.TransportConfigOptions
+      - azure-iothub.Client.TransportCtor
     langs:
       - typeScript
     type: class
@@ -49,7 +54,7 @@ items:
       parameters:
         - id: done
           type:
-            - Callback<Disconnected>
+            - azure-iothub.Client.Callback<Disconnected>
           description: |
             The function to call when the operation is
                                        complete. `done` will be passed an Error object
@@ -80,7 +85,7 @@ items:
                                              connect" permissions on an IoT hub.
         - id: transportCtor
           type:
-            - Client.TransportCtor
+            - azure-iothub.Client.TransportCtor
           description: ''
           optional: true
       return:
@@ -110,7 +115,7 @@ items:
                                        "service connect" permissions on an IoT hub.
         - id: transportCtor
           type:
-            - Client.TransportCtor
+            - azure-iothub.Client.TransportCtor
           description: ''
           optional: true
       return:
@@ -127,11 +132,11 @@ items:
       Returns a AmqpReceiver object which emits events when new feedback
       messages are received by the client.
     syntax:
-      content: 'function getFeedbackReceiver(done: Callback<Client.ServiceReceiver>)'
+      content: 'function getFeedbackReceiver(done: Callback<ServiceReceiver>)'
       parameters:
         - id: done
           type:
-            - Callback<Client.ServiceReceiver>
+            - azure-iothub.Client.Callback<azure-iothub.Client.ServiceReceiver>
           description: |
             The function to call when the operation is
                                          complete. `done` will be called with two
@@ -148,13 +153,11 @@ items:
       Returns a AmqpReceiver object which emits events when new file upload
       notifications are received by the client.
     syntax:
-      content: >-
-        function getFileNotificationReceiver(done:
-        Callback<Client.ServiceReceiver>)
+      content: 'function getFileNotificationReceiver(done: Callback<ServiceReceiver>)'
       parameters:
         - id: done
           type:
-            - Callback<Client.ServiceReceiver>
+            - azure-iothub.Client.Callback<azure-iothub.Client.ServiceReceiver>
           description: |
             The function to call when the operation is
                                          complete. `done` will be called with two
@@ -183,7 +186,7 @@ items:
           description: ''
         - id: done
           type:
-            - Callback<any>
+            - azure-iothub.Client.Callback<any>
           description: |
             The callback to call with the result of the method execution.
           optional: true
@@ -214,7 +217,7 @@ items:
           description: ''
         - id: done
           type:
-            - Callback<any>
+            - azure-iothub.Client.Callback<any>
           description: ''
           optional: true
     package: azure-iothub
@@ -230,7 +233,7 @@ items:
       parameters:
         - id: done
           type:
-            - Callback<Connected>
+            - azure-iothub.Client.Callback<Connected>
           description: |
             The function to call when the operation is
                                        complete. `done` will be passed an Error object
@@ -264,7 +267,7 @@ items:
                                          it will be converted.
         - id: done
           type:
-            - Callback<MessageEnqueued>
+            - azure-iothub.Client.Callback<MessageEnqueued>
           description: |
             The function to call when the operation is
                                          complete. `done` will be called with two
@@ -296,15 +299,96 @@ items:
                           before retrying based on the past number of attempts (retryCount) and the fact that the error is a throttling error or not.
     package: azure-iothub
 references:
+  - uid: azure-iothub.Client.Callback<MessageAbandoned>
+    name: Callback<MessageAbandoned>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <MessageAbandoned>
+        fullName: <MessageAbandoned>
+  - uid: azure-iothub.Client.Callback<MessageCompleted>
+    name: Callback<MessageCompleted>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <MessageCompleted>
+        fullName: <MessageCompleted>
+  - uid: azure-iothub.Client.Callback<MessageRejected>
+    name: Callback<MessageRejected>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <MessageRejected>
+        fullName: <MessageRejected>
+  - uid: azure-iothub.Client.Callback<Connected>
+    name: Callback<Connected>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <Connected>
+        fullName: <Connected>
+  - uid: azure-iothub.Client.Callback<Disconnected>
+    name: Callback<Disconnected>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <Disconnected>
+        fullName: <Disconnected>
+  - uid: azure-iothub.Client.Callback<azure-iothub.Client.ServiceReceiver>
+    name: ServiceReceiver>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <
+        fullName: <
+      - name: ServiceReceiver
+        fullName: ServiceReceiver
+        uid: azure-iothub.Client.ServiceReceiver
+      - name: '>'
+        fullName: '>'
+  - uid: azure-iothub.Client.Callback<MessageEnqueued>
+    name: Callback<MessageEnqueued>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <MessageEnqueued>
+        fullName: <MessageEnqueued>
   - uid: azure-iothub.DeviceMethodParams
     name: DeviceMethodParams
     spec.typeScript:
       - name: DeviceMethodParams
         fullName: DeviceMethodParams
         uid: azure-iothub.DeviceMethodParams
+  - uid: azure-iothub.Client.Callback<any>
+    name: Callback<any>
+    spec.typeScript:
+      - name: Callback
+        fullName: Callback
+        uid: azure-iothub.Client.Callback
+      - name: <any>
+        fullName: <any>
+  - uid: azure-iothub.Client.TransportCtor
+    name: TransportCtor
+    spec.typeScript:
+      - name: TransportCtor
+        fullName: TransportCtor
+        uid: azure-iothub.Client.TransportCtor
   - uid: azure-iothub.Client
     name: Client
     spec.typeScript:
       - name: Client
         fullName: Client
         uid: azure-iothub.Client
+  - uid: azure-iothub.Client.ServiceReceiver
+    name: ServiceReceiver
+  - uid: azure-iothub.Client.Transport
+    name: Transport
+  - uid: azure-iothub.Client.TransportConfigOptions
+    name: TransportConfigOptions
