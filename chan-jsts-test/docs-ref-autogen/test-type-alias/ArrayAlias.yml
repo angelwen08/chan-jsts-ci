@@ -1,0 +1,23 @@
+### YamlMime:UniversalReference
+items:
+  - uid: test-type-alias:ArrayAlias
+    name: ArrayAlias
+    fullName: ArrayAlias
+    langs: 
+      - typescript
+    type: type alias
+    typeInfo: 
+        targetType: tuple
+        elements:
+            - syntax: 
+                return: 
+                  type:
+                    - 1
+            - syntax: 
+                return: 
+                  type:
+                    - 2
+            - syntax: 
+                return:
+                  type:
+                    - 3

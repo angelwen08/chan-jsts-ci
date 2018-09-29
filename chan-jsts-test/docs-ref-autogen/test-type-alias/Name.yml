@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: test-type-alias:Name
+    name: Name
+    fullName: Name
+    langs: 
+      - typescript
+    type: type alias
+    typeInfo: 
+        targetType: string
+    

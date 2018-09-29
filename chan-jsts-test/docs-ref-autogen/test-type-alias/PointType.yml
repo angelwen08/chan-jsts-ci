@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: test-type-alias:PointType
+    name: PointType
+    fullName: PointType
+    langs: 
+      - typescript
+    type: type alias
+    typeInfo: 
+        targetType: function
+        elements:
+            - name: x
+              syntax: 
+                return: 
+                  type:
+                    -number
+            - name: y
+              syntax: 
+                return: 
+                  type:
+                    -number
+            - name: getCheckPointData
+              syntax: 
+                content: 'getCheckPointData(): string'
+                return:
+                  type:
+                    - string
+               
+            
+             
+            

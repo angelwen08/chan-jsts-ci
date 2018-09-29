@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: test-type-alias:Car
+    name: Car
+    fullName: Car
+    langs: 
+      - typescript
+    type: type alias
+    typeInfo: 
+        targetType: object
+        elements:
+            - name: color
+              syntax: 
+                return: 
+                  type:
+                    - \"white\"
+            - name: model
+              syntax: 
+                return: 
+                  type:
+                    - \"500\"
+            - name: type
+              syntax: 
+                return:
+                  type:
+                    - \"Fiat\"

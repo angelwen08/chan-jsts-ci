@@ -1,0 +1,29 @@
+items:
+  - uid: test-type-alias
+    name: test-type-alias
+    children: 
+      - test-type-alias.ArrayAlias
+      - test-type-alias.Car
+      - test-type-alias.OnMessage
+      - test-type-alias.Name
+      - test-type-alias.NameOrResolver
+      - test-type-alias.PointType
+      - test-type-alias.Easing
+    type: package
+    langs:
+      - typescript
+references:
+   - uid: test-type-alias.ArrayAlias
+     name: ArrayAlias
+   - uid: test-type-alias.Car
+     name: Car
+   - uid: test-type-alias.OnMessage
+     name: OnMessage
+   - uid: test-type-alias.Name
+     name: Name
+   - uid: test-type-alias.NameOrResolver
+     name: NameOrResolver
+   - uid: test-type-alias.PointType
+     name: PointType
+   - uid: test-type-alias.Easing
+     name: Easing

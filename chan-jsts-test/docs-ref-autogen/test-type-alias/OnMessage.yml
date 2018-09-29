@@ -1,0 +1,19 @@
+### YamlMime:UniversalReference
+items:
+  - uid: test-type-alias:OnMessage
+    name: OnMessage
+    fullName: OnMessage
+    langs: 
+      - typescript
+    type: type alias
+    typeInfo: 
+        targetType: function
+        elements:
+             -syntax: 
+                content: '(eventData: string): void'
+                return:
+                  type:
+                    - void
+                parameters: 
+                  - id: eventData
+                    type: string
