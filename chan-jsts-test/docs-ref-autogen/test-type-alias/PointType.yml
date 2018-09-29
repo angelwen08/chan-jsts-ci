@@ -7,7 +7,7 @@ items:
       - typescript
     type: type alias
     typeInfo: 
-        targetType: function
+        targetType: Object
         elements:
             - name: x
               syntax: 
