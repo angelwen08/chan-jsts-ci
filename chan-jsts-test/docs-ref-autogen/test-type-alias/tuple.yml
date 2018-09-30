@@ -6,5 +6,5 @@ items:
     langs: 
       - typeScript
     type: type alias
-    definition: type ArrayAlias = [1, 2, 3]
+    definition: type ArrayAlias = [1, 2, 3];
     
