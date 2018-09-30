@@ -4,7 +4,7 @@ items:
     name: NameOrResolver
     fullName: NameOrResolver
     langs: 
-      - typescript
+      - typeScript
     type: type alias
     typeInfo: 
         targetType: reference
