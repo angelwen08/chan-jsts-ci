@@ -4,10 +4,10 @@ items:
     name: PointType
     fullName: PointType
     langs: 
-      - typescript
+      - typeScript
     type: type alias
     typeInfo: 
-        targetType: Object
+        targetType: object
         elements:
             - name: x
               syntax: 
