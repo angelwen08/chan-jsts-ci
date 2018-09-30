@@ -4,7 +4,7 @@ items:
     name: Name
     fullName: Name
     langs: 
-      - typescript
+      - typeScript
     type: type alias
     typeInfo: 
         targetType: string
