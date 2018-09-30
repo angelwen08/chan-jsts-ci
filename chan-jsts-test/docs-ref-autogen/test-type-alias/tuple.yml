@@ -4,7 +4,7 @@ items:
     name: ArrayAlias
     fullName: ArrayAlias
     langs: 
-      - typecript
+      - typeScript
     type: type alias
     typeInfo: 
         targetType: tuple
