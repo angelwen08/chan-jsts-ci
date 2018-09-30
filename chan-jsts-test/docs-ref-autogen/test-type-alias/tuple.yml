@@ -6,18 +6,5 @@ items:
     langs: 
       - typeScript
     type: type alias
-    typeInfo: 
-        targetType: tuple
-        elements:
-            - syntax: 
-                return: 
-                  type:
-                    - 1
-            - syntax: 
-                return: 
-                  type:
-                    - 2
-            - syntax: 
-                return:
-                  type:
-                    - 3
+    definition: type ArrayAlias = [1, 2, 3]
+    
