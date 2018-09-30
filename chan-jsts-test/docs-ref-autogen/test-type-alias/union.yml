@@ -4,7 +4,7 @@ items:
     name: Car
     fullName: Car
     langs: 
-      - typescript
+      - typeScript
     type: type alias
     typeInfo: 
         targetType: object
