@@ -1,19 +1,11 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: test-type-alias:OnMessage
+  - uid: test-type-alias.OnMessage
     name: OnMessage
     fullName: OnMessage
-    langs: 
+    langs:
       - typeScript
     type: type alias
-    typeInfo: 
-        targetType: function
-        elements:
-             -syntax: 
-                content: '(eventData: string): void'
-                return:
-                  type:
-                    - void
-                parameters: 
-                  - id: eventData
-                    type: string
+    syntax:
+      content:
+        "type OnMessage = function(msg, callback){console.log('Something happened!')};"

@@ -1,31 +1,15 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: test-type-alias:PointType
+  - uid: test-type-alias.PointType
     name: PointType
     fullName: PointType
-    langs: 
+    langs:
       - typeScript
     type: type alias
-    typeInfo: 
-        targetType: object
-        elements:
-            - name: x
-              syntax: 
-                return: 
-                  type:
-                    -number
-            - name: y
-              syntax: 
-                return: 
-                  type:
-                    -number
-            - name: getCheckPointData
-              syntax: 
-                content: 'getCheckPointData(): string'
-                return:
-                  type:
-                    - string
-               
-            
-             
-            
+    syntax:
+      content:
+        "type PointType = {
+          x: number,
+          y: number,
+          getCheckPointData(): string
+        };"

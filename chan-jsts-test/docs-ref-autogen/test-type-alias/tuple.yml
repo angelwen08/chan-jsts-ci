@@ -1,10 +1,10 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: test-type-alias:ArrayAlias
+  - uid: test-type-alias.ArrayAlias
     name: ArrayAlias
     fullName: ArrayAlias
-    langs: 
+    langs:
       - typeScript
     type: type alias
-    definition: type ArrayAlias = [1, 2, 3];
-    
+    syntax:
+      content: type ArrayAlias = [1, 2, 3];

@@ -1,23 +1,10 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: test-type-alias:Easing
+  - uid: test-type-alias.Easing
     name: Easing
     fullName: Easing
-    langs: 
+    langs:
       - typeScript
     type: type alias
-    typeInfo: 
-        targetType: union
-        elements:
-            - syntax: 
-                return: 
-                  type:
-                    - \"ease-in\"
-            - syntax: 
-                return: 
-                  type:
-                    - \"ease-out\"
-            - syntax: 
-                return:
-                  type:
-                    - \"ease-in-out\"
+    syntax:
+      content: type Easing = "ease-in" | "ease-out" | "ease-in-out";

@@ -1,17 +1,10 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: test-type-alias:NameOrResolver
+  - uid: test-type-alias.NameOrResolver
     name: NameOrResolver
     fullName: NameOrResolver
-    langs: 
+    langs:
       - typeScript
     type: type alias
-    typeInfo: 
-        targetType: reference
-        elements:
-            - name: Name 
-              syntax: 
-                return: 
-                  type:
-                    - xref:test-type-alias.Name
-    
+    syntax:
+      content: type NameOrResolver = Name;
