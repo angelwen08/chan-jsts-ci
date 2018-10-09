@@ -8,4 +8,4 @@ items:
     type: type alias
     syntax:
       content:
-        "type OnMessage = function(msg, callback){console.log('Something happened!')};"
+        "OnMessage(msg, callback);"
