@@ -13,7 +13,6 @@ items:
       - '@microsoft/teams-js.microsoftTeams.settings.setSettings'
       - '@microsoft/teams-js.microsoftTeams.settings.Settings'
       - '@microsoft/teams-js.microsoftTeams.settings.setValidityState'
-      - '@microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild'
     langs:
       - typeScript
     type: module
@@ -220,5 +219,3 @@ references:
     name: setSettings
   - uid: '@microsoft/teams-js.microsoftTeams.settings.setValidityState'
     name: setValidityState
-  - uid: '@microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild'
-    name: testClassWithoutChild

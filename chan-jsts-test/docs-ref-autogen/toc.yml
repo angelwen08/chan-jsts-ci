@@ -35,10 +35,6 @@
             - uid: '@microsoft/teams-js.microsoftTeams.settings.Settings'
               name: Settings
               items: []
-            - uid: >-
-                @microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild
-              name: testClassWithoutChild
-              items: []
         - uid: '@microsoft/teams-js.microsoftTeams.TabInformation'
           name: TabInformation
           items: []
@@ -62,9 +58,6 @@
           items: []
         - uid: '@microsoft/teams-js.microsoftTeams.TeamType'
           name: TeamType
-          items: []
-        - uid: '@microsoft/teams-js.microsoftTeams.testInterfaceWithoutChild'
-          name: testInterfaceWithoutChild
           items: []
         - uid: '@microsoft/teams-js.microsoftTeams.UserTeamRole'
           name: UserTeamRole

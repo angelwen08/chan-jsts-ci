@@ -15,7 +15,6 @@ items:
       - '@microsoft/teams-js.microsoftTeams.settings.SaveEvent'
       - '@microsoft/teams-js.microsoftTeams.settings.SaveParameters'
       - '@microsoft/teams-js.microsoftTeams.settings.Settings'
-      - '@microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild'
       - '@microsoft/teams-js.microsoftTeams.TabInformation'
       - '@microsoft/teams-js.microsoftTeams.TabInstance'
       - '@microsoft/teams-js.microsoftTeams.TabInstanceParameters'
@@ -24,7 +23,6 @@ items:
       - '@microsoft/teams-js.microsoftTeams.tasks'
       - '@microsoft/teams-js.microsoftTeams.TeamInformation'
       - '@microsoft/teams-js.microsoftTeams.TeamType'
-      - '@microsoft/teams-js.microsoftTeams.testInterfaceWithoutChild'
       - '@microsoft/teams-js.microsoftTeams.UserTeamRole'
       - '@microsoft/teams-js.String'
     type: package
@@ -53,8 +51,6 @@ references:
     name: SaveParameters
   - uid: '@microsoft/teams-js.microsoftTeams.settings.Settings'
     name: Settings
-  - uid: '@microsoft/teams-js.microsoftTeams.settings.testClassWithoutChild'
-    name: testClassWithoutChild
   - uid: '@microsoft/teams-js.microsoftTeams.TabInformation'
     name: TabInformation
   - uid: '@microsoft/teams-js.microsoftTeams.TabInstance'
@@ -71,8 +67,6 @@ references:
     name: TeamInformation
   - uid: '@microsoft/teams-js.microsoftTeams.TeamType'
     name: TeamType
-  - uid: '@microsoft/teams-js.microsoftTeams.testInterfaceWithoutChild'
-    name: testInterfaceWithoutChild
   - uid: '@microsoft/teams-js.microsoftTeams.UserTeamRole'
     name: UserTeamRole
   - uid: '@microsoft/teams-js.String'
