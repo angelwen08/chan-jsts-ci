@@ -6,6 +6,8 @@ items:
     langs:
       - typeScript
     type: type
+    remarks: This is a test for remark
+    summary: This is a test for summary
     syntax:
       content:
         "OnMessage(msg, callback);"
