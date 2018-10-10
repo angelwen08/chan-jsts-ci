@@ -5,6 +5,6 @@ items:
     fullName: Car
     langs:
       - typeScript
-    type: type alias
+    type: type
     syntax:
       content: "type Car = { color: \"white\", model: 500, type: \"Fiat\" };"

@@ -5,6 +5,6 @@ items:
     fullName: Name
     langs:
       - typeScript
-    type: type alias
+    type: type
     syntax:
       content: type Name = string;

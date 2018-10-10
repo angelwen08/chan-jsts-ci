@@ -5,7 +5,7 @@ items:
     fullName: OnMessage
     langs:
       - typeScript
-    type: type alias
+    type: type
     syntax:
       content:
         "OnMessage(msg, callback);"
