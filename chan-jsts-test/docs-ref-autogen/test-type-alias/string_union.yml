@@ -5,6 +5,6 @@ items:
     fullName: Easing
     langs:
       - typeScript
-    type: type
+    type: type alias
     syntax:
       content: type Easing = "ease-in" | "ease-out" | "ease-in-out";

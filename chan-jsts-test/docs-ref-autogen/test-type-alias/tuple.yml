@@ -5,6 +5,6 @@ items:
     fullName: ArrayAlias
     langs:
       - typeScript
-    type: type
+    type: type alias
     syntax:
       content: type ArrayAlias = [1, 2, 3];

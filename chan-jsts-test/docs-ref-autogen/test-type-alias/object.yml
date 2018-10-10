@@ -5,7 +5,7 @@ items:
     fullName: PointType
     langs:
       - typeScript
-    type: type
+    type: type alias
     syntax:
       content:
         "type PointType = {
