@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.GenericIdentityFn
+    name: GenericIdentityFn
+    fullName: GenericIdentityFn<T>
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: type2docfx

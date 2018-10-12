@@ -1,30 +1,34 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: test-type-alias
-    name: test-type-alias
+  - uid: type2docfx
+    name: type2docfx
+    summary: ''
     children:
-      - test-type-alias.ArrayAlias
-      - test-type-alias.Car
-      - test-type-alias.OnMessage
-      - test-type-alias.Name
-      - test-type-alias.NameOrResolver
-      - test-type-alias.PointType
-      - test-type-alias.Easing
+      - type2docfx.GenericIdentityFn
+      - type2docfx.Easing
+      - type2docfx.LinkedList
+      - type2docfx.Name
+      - type2docfx.OnMessage
+      - type2docfx.PointType
+      - type2docfx.arrayAlias
+      - type2docfx.unionRef
     type: package
     langs:
       - typeScript
 references:
-  - uid: test-type-alias.ArrayAlias
-    name: ArrayAlias
-  - uid: test-type-alias.Car
-    name: Car
-  - uid: test-type-alias.OnMessage
-    name: OnMessage
-  - uid: test-type-alias.Name
-    name: Name
-  - uid: test-type-alias.NameOrResolver
-    name: NameOrResolver
-  - uid: test-type-alias.PointType
-    name: PointType
-  - uid: test-type-alias.Easing
+  - uid: type2docfx.GenericIdentityFn
+    name: GenericIdentityFn
+  - uid: type2docfx.Easing
     name: Easing
+  - uid: type2docfx.LinkedList
+    name: LinkedList
+  - uid: type2docfx.Name
+    name: Name
+  - uid: type2docfx.OnMessage
+    name: OnMessage
+  - uid: type2docfx.PointType
+    name: PointType
+  - uid: type2docfx.arrayAlias
+    name: arrayAlias
+  - uid: type2docfx.unionRef
+    name: unionRef

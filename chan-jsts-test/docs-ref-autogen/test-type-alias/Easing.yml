@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.Easing
+    name: Easing
+    fullName: Easing
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: test for union type
+    syntax:
+      content: '"ease-in" | "ease-out" | "ease-in-out" | GenericIdentityFn<T>'
+    package: type2docfx

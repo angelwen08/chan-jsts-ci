@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.OnMessage
+    name: OnMessage
+    fullName: OnMessage
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: test for function type
+    syntax:
+      content: '(eventData: string) => void'
+    package: type2docfx

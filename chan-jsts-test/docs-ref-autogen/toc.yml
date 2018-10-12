@@ -1,17 +1,27 @@
-- uid: test-type-alias
-  name: test-type-alias
+- uid: type2docfx
+  name: type2docfx
   items:
-    - uid: test-type-alias.ArrayAlias
-      name: ArrayAlias
-    - uid: test-type-alias.Car
-      name: Car
-    - uid: test-type-alias.OnMessage
-      name: OnMessage
-    - uid: test-type-alias.Name
-      name: Name
-    - uid: test-type-alias.NameOrResolver
-      name: NameOrResolver
-    - uid: test-type-alias.PointType
-      name: PointType
-    - uid: test-type-alias.Easing
+    - uid: type2docfx.arrayAlias
+      name: arrayAlias
+      items: []
+    - uid: type2docfx.Easing
       name: Easing
+      items: []
+    - uid: type2docfx.GenericIdentityFn
+      name: GenericIdentityFn
+      items: []
+    - uid: type2docfx.LinkedList
+      name: LinkedList
+      items: []
+    - uid: type2docfx.Name
+      name: Name
+      items: []
+    - uid: type2docfx.OnMessage
+      name: OnMessage
+      items: []
+    - uid: type2docfx.PointType
+      name: PointType
+      items: []
+    - uid: type2docfx.unionRef
+      name: unionRef
+      items: []
