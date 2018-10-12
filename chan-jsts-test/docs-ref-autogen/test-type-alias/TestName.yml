@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: type2docfx.UnionRef
-    name: UnionRef
-    fullName: UnionRef
+  - uid: type2docfx.TestName
+    name: TestName
+    fullName: TestName
     children: []
     langs:
       - typeScript
     type: type alias
     summary: ''
     syntax:
-      content: UnionRef = CheckpointData | string
+      content: TestName = string
     package: type2docfx

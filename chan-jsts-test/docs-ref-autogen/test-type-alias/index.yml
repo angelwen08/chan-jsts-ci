@@ -5,30 +5,30 @@ items:
     summary: ''
     children:
       - type2docfx.GenericIdentityFn
+      - type2docfx.ArrayAlias
       - type2docfx.Easing
       - type2docfx.LinkedList
-      - type2docfx.Name
       - type2docfx.OnMessage
       - type2docfx.PointType
-      - type2docfx.arrayAlias
-      - type2docfx.unionRef
+      - type2docfx.TestName
+      - type2docfx.UnionRef
     type: package
     langs:
       - typeScript
 references:
   - uid: type2docfx.GenericIdentityFn
     name: GenericIdentityFn
+  - uid: type2docfx.ArrayAlias
+    name: ArrayAlias
   - uid: type2docfx.Easing
     name: Easing
   - uid: type2docfx.LinkedList
     name: LinkedList
-  - uid: type2docfx.Name
-    name: Name
   - uid: type2docfx.OnMessage
     name: OnMessage
   - uid: type2docfx.PointType
     name: PointType
-  - uid: type2docfx.arrayAlias
-    name: arrayAlias
-  - uid: type2docfx.unionRef
-    name: unionRef
+  - uid: type2docfx.TestName
+    name: TestName
+  - uid: type2docfx.UnionRef
+    name: UnionRef

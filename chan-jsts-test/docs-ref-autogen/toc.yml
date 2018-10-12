@@ -1,8 +1,8 @@
 - uid: type2docfx
   name: type2docfx
   items:
-    - uid: type2docfx.arrayAlias
-      name: arrayAlias
+    - uid: type2docfx.ArrayAlias
+      name: ArrayAlias
       items: []
     - uid: type2docfx.Easing
       name: Easing
@@ -13,15 +13,15 @@
     - uid: type2docfx.LinkedList
       name: LinkedList
       items: []
-    - uid: type2docfx.Name
-      name: Name
-      items: []
     - uid: type2docfx.OnMessage
       name: OnMessage
       items: []
     - uid: type2docfx.PointType
       name: PointType
       items: []
-    - uid: type2docfx.unionRef
-      name: unionRef
+    - uid: type2docfx.TestName
+      name: TestName
+      items: []
+    - uid: type2docfx.UnionRef
+      name: UnionRef
       items: []

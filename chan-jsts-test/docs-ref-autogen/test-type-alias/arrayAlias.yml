@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: type2docfx.arrayAlias
-    name: arrayAlias
-    fullName: arrayAlias
+  - uid: type2docfx.ArrayAlias
+    name: ArrayAlias
+    fullName: ArrayAlias
     children: []
     langs:
       - typeScript
     type: type alias
     summary: ''
     syntax:
-      content: 'arrayAlias = [ 1, 2, 3, "hello", Name ]'
+      content: 'ArrayAlias = [ 1, 2, 3, "hello", Name ]'
     package: type2docfx
