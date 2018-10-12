@@ -9,5 +9,5 @@ items:
     type: type alias
     summary: ''
     syntax:
-      content: '{ x:number, y:number, getCheckPointData() => string }'
+      content: 'PointType = { x:number, y:number, getCheckPointData() => string }'
     package: type2docfx

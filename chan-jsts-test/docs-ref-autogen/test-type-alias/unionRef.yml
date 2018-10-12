@@ -9,5 +9,5 @@ items:
     type: type alias
     summary: ''
     syntax:
-      content: CheckpointData | string
+      content: unionRef = CheckpointData | string
     package: type2docfx

@@ -9,5 +9,5 @@ items:
     type: type alias
     summary: ''
     syntax:
-      content: '[ 1, 2, 3, "hello", Name ]'
+      content: 'arrayAlias = [ 1, 2, 3, "hello", Name ]'
     package: type2docfx

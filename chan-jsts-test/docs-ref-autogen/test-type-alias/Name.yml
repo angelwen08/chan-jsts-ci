@@ -9,5 +9,5 @@ items:
     type: type alias
     summary: ''
     syntax:
-      content: string
+      content: Name = string
     package: type2docfx

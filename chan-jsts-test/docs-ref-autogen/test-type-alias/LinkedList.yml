@@ -9,5 +9,5 @@ items:
     type: type alias
     summary: ''
     syntax:
-      content: T & Object
+      content: LinkedList = T & Object
     package: type2docfx

@@ -9,5 +9,5 @@ items:
     type: type alias
     summary: test for function type
     syntax:
-      content: '(eventData: string) => void'
+      content: 'OnMessage = (eventData: string) => void'
     package: type2docfx
