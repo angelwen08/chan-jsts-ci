@@ -13,6 +13,9 @@
     - uid: ms-rest-azure.AzureEnvironment
       name: AzureEnvironment
       items: []
+    - uid: ms-rest-azure.AzureEnvironmentParameters
+      name: AzureEnvironmentParameters
+      items: []
     - uid: ms-rest-azure.AzureServiceClient
       name: AzureServiceClient
       items: []
@@ -22,8 +25,14 @@
     - uid: ms-rest-azure.AzureTokenCredentialsOptions
       name: AzureTokenCredentialsOptions
       items: []
+    - uid: ms-rest-azure.BaseResource
+      name: BaseResource
+      items: []
     - uid: ms-rest-azure.CloudError
       name: CloudError
+      items: []
+    - uid: ms-rest-azure.CloudErrorParameters
+      name: CloudErrorParameters
       items: []
     - uid: ms-rest-azure.CognitiveServicesCredentials
       name: CognitiveServicesCredentials
