@@ -174,11 +174,13 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.ConnectionContext
+    name: ConnectionContext
     spec.typeScript:
       - name: ConnectionContext
         fullName: ConnectionContext
         uid: azure-event-hubs.ConnectionContext
   - uid: azure-event-hubs.ClientEntityOptions
+    name: ClientEntityOptions
     spec.typeScript:
       - name: ClientEntityOptions
         fullName: ClientEntityOptions

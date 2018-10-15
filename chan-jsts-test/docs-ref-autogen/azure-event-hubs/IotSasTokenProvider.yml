@@ -33,11 +33,13 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.SasTokenProvider
+    name: SasTokenProvider
     spec.typeScript:
       - name: SasTokenProvider
         fullName: SasTokenProvider
         uid: azure-event-hubs.SasTokenProvider
   - uid: Promise<azure-event-hubs.TokenInfo>
+    name: TokenInfo>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<

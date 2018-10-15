@@ -6,7 +6,8 @@ items:
     children: []
     langs:
       - typeScript
-    type: class
-    summary: |
-      Defines an object with possible properties defined in T.
+    type: type alias
+    summary: Defines an object with possible properties defined in T.
+    syntax:
+      content: type ParsedOutput = undefined
     package: azure-event-hubs

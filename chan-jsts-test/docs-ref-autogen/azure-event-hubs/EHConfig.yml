@@ -43,6 +43,7 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.ParsedRedirectError
+    name: ParsedRedirectError
     spec.typeScript:
       - name: ParsedRedirectError
         fullName: ParsedRedirectError

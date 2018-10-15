@@ -105,21 +105,25 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.EventHubReceiver
+    name: EventHubReceiver
     spec.typeScript:
       - name: EventHubReceiver
         fullName: EventHubReceiver
         uid: azure-event-hubs.EventHubReceiver
   - uid: azure-event-hubs.ConnectionContext
+    name: ConnectionContext
     spec.typeScript:
       - name: ConnectionContext
         fullName: ConnectionContext
         uid: azure-event-hubs.ConnectionContext
   - uid: azure-event-hubs.ReceiveOptions
+    name: ReceiveOptions
     spec.typeScript:
       - name: ReceiveOptions
         fullName: ReceiveOptions
         uid: azure-event-hubs.ReceiveOptions
   - uid: 'Promise<azure-event-hubs.EventData[]>'
+    name: 'EventData[]>'
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -129,6 +133,7 @@ references:
       - name: '[]>'
         fullName: '[]>'
   - uid: azure-event-hubs.BatchingReceiver
+    name: BatchingReceiver
     spec.typeScript:
       - name: BatchingReceiver
         fullName: BatchingReceiver

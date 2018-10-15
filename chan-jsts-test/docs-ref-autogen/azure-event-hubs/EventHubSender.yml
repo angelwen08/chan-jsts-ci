@@ -188,21 +188,25 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.LinkEntity
+    name: LinkEntity
     spec.typeScript:
       - name: LinkEntity
         fullName: LinkEntity
         uid: azure-event-hubs.LinkEntity
   - uid: azure-event-hubs.ConnectionContext
+    name: ConnectionContext
     spec.typeScript:
       - name: ConnectionContext
         fullName: ConnectionContext
         uid: azure-event-hubs.ConnectionContext
   - uid: azure-event-hubs.EventData
+    name: EventData
     spec.typeScript:
       - name: EventData
         fullName: EventData
         uid: azure-event-hubs.EventData
   - uid: 'azure-event-hubs.EventData[]'
+    name: 'EventData[]'
     spec.typeScript:
       - name: EventData
         fullName: EventData
@@ -210,6 +214,7 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: azure-event-hubs.EventHubSender
+    name: EventHubSender
     spec.typeScript:
       - name: EventHubSender
         fullName: EventHubSender

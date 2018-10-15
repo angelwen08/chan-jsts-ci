@@ -256,31 +256,37 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.CbsClient
+    name: CbsClient
     spec.typeScript:
       - name: CbsClient
         fullName: CbsClient
         uid: azure-event-hubs.CbsClient
   - uid: azure-event-hubs.ConnectionConfig
+    name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
         uid: azure-event-hubs.ConnectionConfig
   - uid: azure-event-hubs.Connection
+    name: Connection
     spec.typeScript:
       - name: Connection
         fullName: Connection
         uid: azure-event-hubs.Connection
   - uid: azure-event-hubs.DataTransformer
+    name: DataTransformer
     spec.typeScript:
       - name: DataTransformer
         fullName: DataTransformer
         uid: azure-event-hubs.DataTransformer
   - uid: azure-event-hubs.ManagementClient
+    name: ManagementClient
     spec.typeScript:
       - name: ManagementClient
         fullName: ManagementClient
         uid: azure-event-hubs.ManagementClient
   - uid: Dictionary<azure-event-hubs.EventHubReceiver>
+    name: EventHubReceiver>
     spec.typeScript:
       - name: Dictionary<
         fullName: Dictionary<
@@ -290,6 +296,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: Dictionary<azure-event-hubs.EventHubSender>
+    name: EventHubSender>
     spec.typeScript:
       - name: Dictionary<
         fullName: Dictionary<
@@ -299,17 +306,46 @@ references:
       - name: '>'
         fullName: '>'
   - uid: azure-event-hubs.TokenProvider
+    name: TokenProvider
     spec.typeScript:
       - name: TokenProvider
         fullName: TokenProvider
         uid: azure-event-hubs.TokenProvider
   - uid: azure-event-hubs.ConnectionContextOptions
+    name: ConnectionContextOptions
     spec.typeScript:
       - name: ConnectionContextOptions
         fullName: ConnectionContextOptions
         uid: azure-event-hubs.ConnectionContextOptions
   - uid: azure-event-hubs.ConnectionContext
+    name: ConnectionContext
     spec.typeScript:
       - name: ConnectionContext
         fullName: ConnectionContext
         uid: azure-event-hubs.ConnectionContext
+  - uid: azure-event-hubs.ConnectionContext.cbsSession
+    name: cbsSession
+  - uid: azure-event-hubs.ConnectionContext.config
+    name: config
+  - uid: azure-event-hubs.ConnectionContext.connection
+    name: connection
+  - uid: azure-event-hubs.ConnectionContext.connectionId
+    name: connectionId
+  - uid: azure-event-hubs.ConnectionContext.connectionLock
+    name: connectionLock
+  - uid: azure-event-hubs.ConnectionContext.create
+    name: create
+  - uid: azure-event-hubs.ConnectionContext.dataTransformer
+    name: dataTransformer
+  - uid: azure-event-hubs.ConnectionContext.managementSession
+    name: managementSession
+  - uid: azure-event-hubs.ConnectionContext.negotiateClaimLock
+    name: negotiateClaimLock
+  - uid: azure-event-hubs.ConnectionContext.receivers
+    name: receivers
+  - uid: azure-event-hubs.ConnectionContext.senders
+    name: senders
+  - uid: azure-event-hubs.ConnectionContext.tokenProvider
+    name: tokenProvider
+  - uid: azure-event-hubs.ConnectionContext.wasConnectionCloseCalled
+    name: wasConnectionCloseCalled

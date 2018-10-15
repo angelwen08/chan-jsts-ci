@@ -152,21 +152,25 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.LinkEntity
+    name: LinkEntity
     spec.typeScript:
       - name: LinkEntity
         fullName: LinkEntity
         uid: azure-event-hubs.LinkEntity
   - uid: azure-event-hubs.ConnectionContext
+    name: ConnectionContext
     spec.typeScript:
       - name: ConnectionContext
         fullName: ConnectionContext
         uid: azure-event-hubs.ConnectionContext
   - uid: azure-event-hubs.ManagementClientOptions
+    name: ManagementClientOptions
     spec.typeScript:
       - name: ManagementClientOptions
         fullName: ManagementClientOptions
         uid: azure-event-hubs.ManagementClientOptions
   - uid: Promise<azure-event-hubs.EventHubRuntimeInformation>
+    name: EventHubRuntimeInformation>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -176,6 +180,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: Promise<azure-event-hubs.EventHubPartitionRuntimeInformation>
+    name: EventHubPartitionRuntimeInformation>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<

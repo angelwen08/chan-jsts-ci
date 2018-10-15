@@ -6,18 +6,8 @@ items:
     children: []
     langs:
       - typeScript
-    type: function
-    summary: |
-      Describes the message handler signature.
-    package: azure-event-hubs
+    type: type alias
+    summary: Describes the message handler signature.
     syntax:
-      content: '(eventData: EventData) => void'
-      parameters:
-        - id: eventData
-          type:
-            - azure-event-hubs.EventData
-          description: ''
-          optional: true
-      return:
-        type:
-          - void
+      content: 'type OnMessage = (eventData: EventData) => void'
+    package: azure-event-hubs

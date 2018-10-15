@@ -87,11 +87,13 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.ConnectionContext
+    name: ConnectionContext
     spec.typeScript:
       - name: ConnectionContext
         fullName: ConnectionContext
         uid: azure-event-hubs.ConnectionContext
   - uid: azure-event-hubs.ConnectionContextOptions
+    name: ConnectionContextOptions
     spec.typeScript:
       - name: ConnectionContextOptions
         fullName: ConnectionContextOptions

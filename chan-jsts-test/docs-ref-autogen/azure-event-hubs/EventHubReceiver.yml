@@ -218,21 +218,25 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.LinkEntity
+    name: LinkEntity
     spec.typeScript:
       - name: LinkEntity
         fullName: LinkEntity
         uid: azure-event-hubs.LinkEntity
   - uid: azure-event-hubs.ConnectionContext
+    name: ConnectionContext
     spec.typeScript:
       - name: ConnectionContext
         fullName: ConnectionContext
         uid: azure-event-hubs.ConnectionContext
   - uid: azure-event-hubs.ReceiveOptions
+    name: ReceiveOptions
     spec.typeScript:
       - name: ReceiveOptions
         fullName: ReceiveOptions
         uid: azure-event-hubs.ReceiveOptions
   - uid: azure-event-hubs.ReceiverRuntimeInfo
+    name: ReceiverRuntimeInfo
     spec.typeScript:
       - name: ReceiverRuntimeInfo
         fullName: ReceiverRuntimeInfo

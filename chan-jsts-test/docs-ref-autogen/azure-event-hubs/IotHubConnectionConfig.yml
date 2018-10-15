@@ -171,12 +171,32 @@ items:
     package: azure-event-hubs
 references:
   - uid: azure-event-hubs.IotHubConnectionConfig
+    name: IotHubConnectionConfig
     spec.typeScript:
       - name: IotHubConnectionConfig
         fullName: IotHubConnectionConfig
         uid: azure-event-hubs.IotHubConnectionConfig
   - uid: azure-event-hubs.ConnectionConfig
+    name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
         uid: azure-event-hubs.ConnectionConfig
+  - uid: azure-event-hubs.IotHubConnectionConfig.connectionString
+    name: connectionString
+  - uid: azure-event-hubs.IotHubConnectionConfig.convertToEventHubConnectionConfig
+    name: convertToEventHubConnectionConfig
+  - uid: azure-event-hubs.IotHubConnectionConfig.create
+    name: create
+  - uid: azure-event-hubs.IotHubConnectionConfig.entityPath
+    name: entityPath
+  - uid: azure-event-hubs.IotHubConnectionConfig.host
+    name: host
+  - uid: azure-event-hubs.IotHubConnectionConfig.hostName
+    name: hostName
+  - uid: azure-event-hubs.IotHubConnectionConfig.sharedAccessKey
+    name: sharedAccessKey
+  - uid: azure-event-hubs.IotHubConnectionConfig.sharedAccessKeyName
+    name: sharedAccessKeyName
+  - uid: azure-event-hubs.IotHubConnectionConfig.validate
+    name: validate
