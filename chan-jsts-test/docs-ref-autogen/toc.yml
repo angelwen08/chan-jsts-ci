@@ -1,27 +1,126 @@
-- uid: type2docfx
-  name: type2docfx
+- uid: botbuilder-dialogs
+  name: botbuilder-dialogs
   items:
-    - uid: type2docfx.ArrayAlias
-      name: ArrayAlias
+    - uid: botbuilder-dialogs.ActivityPrompt
+      name: ActivityPrompt
       items: []
-    - uid: type2docfx.Easing
-      name: Easing
+    - uid: botbuilder-dialogs.AttachmentPrompt
+      name: AttachmentPrompt
       items: []
-    - uid: type2docfx.GenericIdentityFn
-      name: GenericIdentityFn
+    - uid: botbuilder-dialogs.Choice
+      name: Choice
       items: []
-    - uid: type2docfx.LinkedList
-      name: LinkedList
+    - uid: botbuilder-dialogs.ChoiceFactory
+      name: ChoiceFactory
       items: []
-    - uid: type2docfx.OnMessage
-      name: OnMessage
+    - uid: botbuilder-dialogs.ChoiceFactoryOptions
+      name: ChoiceFactoryOptions
       items: []
-    - uid: type2docfx.PointType
-      name: PointType
+    - uid: botbuilder-dialogs.ChoicePrompt
+      name: ChoicePrompt
       items: []
-    - uid: type2docfx.TestName
-      name: TestName
+    - uid: botbuilder-dialogs.ComponentDialog
+      name: ComponentDialog
       items: []
-    - uid: type2docfx.UnionRef
-      name: UnionRef
+    - uid: botbuilder-dialogs.ConfirmPrompt
+      name: ConfirmPrompt
+      items: []
+    - uid: botbuilder-dialogs.DateTimePrompt
+      name: DateTimePrompt
+      items: []
+    - uid: botbuilder-dialogs.DateTimeResolution
+      name: DateTimeResolution
+      items: []
+    - uid: botbuilder-dialogs.Dialog
+      name: Dialog
+      items: []
+    - uid: botbuilder-dialogs.DialogContext
+      name: DialogContext
+      items: []
+    - uid: botbuilder-dialogs.DialogInstance
+      name: DialogInstance
+      items: []
+    - uid: botbuilder-dialogs.DialogReason
+      name: DialogReason
+      items: []
+    - uid: botbuilder-dialogs.DialogSet
+      name: DialogSet
+      items: []
+    - uid: botbuilder-dialogs.DialogState
+      name: DialogState
+      items: []
+    - uid: botbuilder-dialogs.DialogTurnResult
+      name: DialogTurnResult
+      items: []
+    - uid: botbuilder-dialogs.DialogTurnStatus
+      name: DialogTurnStatus
+      items: []
+    - uid: botbuilder-dialogs.FindChoicesOptions
+      name: FindChoicesOptions
+      items: []
+    - uid: botbuilder-dialogs.FindValuesOptions
+      name: FindValuesOptions
+      items: []
+    - uid: botbuilder-dialogs.FoundChoice
+      name: FoundChoice
+      items: []
+    - uid: botbuilder-dialogs.FoundValue
+      name: FoundValue
+      items: []
+    - uid: botbuilder-dialogs.ListStyle
+      name: ListStyle
+      items: []
+    - uid: botbuilder-dialogs.ModelResult
+      name: ModelResult
+      items: []
+    - uid: botbuilder-dialogs.NumberPrompt
+      name: NumberPrompt
+      items: []
+    - uid: botbuilder-dialogs.OAuthPrompt
+      name: OAuthPrompt
+      items: []
+    - uid: botbuilder-dialogs.OAuthPromptSettings
+      name: OAuthPromptSettings
+      items: []
+    - uid: botbuilder-dialogs.Prompt
+      name: Prompt
+      items: []
+    - uid: botbuilder-dialogs.PromptOptions
+      name: PromptOptions
+      items: []
+    - uid: botbuilder-dialogs.PromptRecognizerResult
+      name: PromptRecognizerResult
+      items: []
+    - uid: botbuilder-dialogs.PromptValidator
+      name: PromptValidator
+      items: []
+    - uid: botbuilder-dialogs.PromptValidatorContext
+      name: PromptValidatorContext
+      items: []
+    - uid: botbuilder-dialogs.SkipStepFunction
+      name: SkipStepFunction
+      items: []
+    - uid: botbuilder-dialogs.SortedValue
+      name: SortedValue
+      items: []
+    - uid: botbuilder-dialogs.TextPrompt
+      name: TextPrompt
+      items: []
+    - uid: botbuilder-dialogs.Token
+      name: Token
+      items: []
+    - uid: botbuilder-dialogs.TokenizerFunction
+      name: TokenizerFunction
+      items: []
+    - uid: botbuilder-dialogs.WaterfallDialog
+      name: WaterfallDialog
+      items: []
+    - uid: botbuilder-dialogs.WaterfallStep
+      name: WaterfallStep
+      items: []
+    - uid: botbuilder-dialogs.WaterfallStepContext
+      name: WaterfallStepContext
+      items: []
+    - uid: botbuilder-dialogs.WaterfallStepInfo
+      name: WaterfallStepInfo
       items: []

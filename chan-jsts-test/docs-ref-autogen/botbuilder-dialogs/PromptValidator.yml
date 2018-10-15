@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: botbuilder-dialogs.PromptValidator
+    name: PromptValidator
+    fullName: PromptValidator<T>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        PromptValidator = (prompt: PromptValidatorContext<T>) =>
+        Promise<boolean>
+    package: botbuilder-dialogs

@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: botbuilder-dialogs.WaterfallStep
+    name: WaterfallStep
+    fullName: WaterfallStep<O>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: Function signature of a waterfall step.
+    syntax:
+      content: >-
+        WaterfallStep = (step: WaterfallStepContext<O>) =>
+        Promise<DialogTurnResult>
+    package: botbuilder-dialogs
+    remarks: >-
+      ```TypeScript
+
+      type WaterfallStep = (step: WaterfallStepContext<O>) =>
+      Promise<DialogTurnResult>;
+
+      ```
