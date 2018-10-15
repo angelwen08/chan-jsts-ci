@@ -17,5 +17,5 @@ items:
 
       ```
     syntax:
-      content: 'SkipStepFunction = (args?: any) => Promise<DialogTurnResult>'
+      content: 'type SkipStepFunction = (args?: any) => Promise<DialogTurnResult>'
     package: botbuilder-dialogs

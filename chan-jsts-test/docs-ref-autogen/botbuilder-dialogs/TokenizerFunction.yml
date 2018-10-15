@@ -19,7 +19,7 @@ items:
 
       ```
     syntax:
-      content: 'TokenizerFunction = (text: string, locale?: string) => Token[]'
+      content: 'type TokenizerFunction = (text: string, locale?: string) => Token[]'
     package: botbuilder-dialogs
     remarks: >-
       The `defaultTokenizer()` is fairly simple and only breaks on spaces and

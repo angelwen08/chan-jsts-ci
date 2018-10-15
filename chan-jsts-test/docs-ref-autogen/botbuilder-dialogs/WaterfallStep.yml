@@ -10,7 +10,7 @@ items:
     summary: Function signature of a waterfall step.
     syntax:
       content: >-
-        WaterfallStep = (step: WaterfallStepContext<O>) =>
+        type WaterfallStep = (step: WaterfallStepContext<O>) =>
         Promise<DialogTurnResult>
     package: botbuilder-dialogs
     remarks: >-
