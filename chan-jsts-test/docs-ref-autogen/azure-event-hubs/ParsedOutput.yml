@@ -9,5 +9,5 @@ items:
     type: type alias
     summary: Defines an object with possible properties defined in T.
     syntax:
-      content: type ParsedOutput = undefined
+      content: type ParsedOutput = Object
     package: azure-event-hubs
