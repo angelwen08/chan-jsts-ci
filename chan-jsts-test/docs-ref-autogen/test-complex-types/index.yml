@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx
+    name: type2docfx
+    summary: ''
+    children:
+      - type2docfx.ChartType
+      - type2docfx.CheckpointData
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: type2docfx.ChartType
+    name: ChartType
+  - uid: type2docfx.CheckpointData
+    name: CheckpointData

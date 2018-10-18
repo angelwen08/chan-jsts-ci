@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.ChartType
+    name: ChartType
+    fullName: ChartType
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: type2docfx
