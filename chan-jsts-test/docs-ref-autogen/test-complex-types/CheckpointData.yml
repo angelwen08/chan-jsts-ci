@@ -38,13 +38,13 @@ items:
       content: >-
         chartType: ChartType | "Invalid" | "ColumnClustered" | "ColumnStacked" |
         "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" |
-        "3DColumnStacked100"
+        "3DColumnStacked100" | ChartBox
       return:
         type:
           - >-
             type2docfx.ChartType | "Invalid" | "ColumnClustered" |
             "ColumnStacked" | "ColumnStacked100" | "3DColumnClustered" |
-            "3DColumnStacked" | "3DColumnStacked100"
+            "3DColumnStacked" | "3DColumnStacked100" | type2docfx.ChartBox
     package: type2docfx
   - uid: type2docfx.CheckpointData.point
     name: point
@@ -72,19 +72,19 @@ references:
   - uid: >-
       type2docfx.ChartType | "Invalid" | "ColumnClustered" | "ColumnStacked" |
       "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" |
-      "3DColumnStacked100"
-    name: >-
-      ChartType | "Invalid" | "ColumnClustered" | "ColumnStacked" |
-      "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" |
-      "3DColumnStacked100"
+      "3DColumnStacked100" | type2docfx.ChartBox
+    name: ChartBox
     spec.typeScript:
       - name: ChartType
         fullName: ChartType
         uid: type2docfx.ChartType
-      - name: ' | "Invalid" | "ColumnClustered" | "ColumnStacked" | "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" | "3DColumnStacked100"'
-        fullName: ' | "Invalid" | "ColumnClustered" | "ColumnStacked" | "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" | "3DColumnStacked100"'
+      - name: ' | "Invalid" | "ColumnClustered" | "ColumnStacked" | "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" | "3DColumnStacked100" | '
+        fullName: ' | "Invalid" | "ColumnClustered" | "ColumnStacked" | "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" | "3DColumnStacked100" | '
+      - name: ChartBox
+        fullName: ChartBox
+        uid: type2docfx.ChartBox
   - uid: type2docfx.GenericNumber<type2docfx.T>
-    name: T>
+    name: GenericNumber<type2docfx.T>
     spec.typeScript:
       - name: GenericNumber
         fullName: GenericNumber

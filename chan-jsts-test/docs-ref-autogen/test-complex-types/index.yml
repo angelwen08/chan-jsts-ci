@@ -5,6 +5,7 @@ items:
     summary: ''
     children:
       - type2docfx.GenericNumber
+      - type2docfx.ChartBox
       - type2docfx.ChartPoint
       - type2docfx.ChartType
       - type2docfx.CheckpointData
@@ -15,6 +16,8 @@ items:
 references:
   - uid: type2docfx.GenericNumber
     name: GenericNumber
+  - uid: type2docfx.ChartBox
+    name: ChartBox
   - uid: type2docfx.ChartPoint
     name: ChartPoint
   - uid: type2docfx.ChartType
