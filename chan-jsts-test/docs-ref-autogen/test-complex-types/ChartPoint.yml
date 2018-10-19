@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.ChartPoint
+    name: ChartPoint
+    fullName: ChartPoint
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: type2docfx

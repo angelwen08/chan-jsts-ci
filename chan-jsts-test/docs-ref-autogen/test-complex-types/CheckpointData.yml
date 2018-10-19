@@ -4,14 +4,27 @@ items:
     name: CheckpointData
     fullName: CheckpointData
     children:
+      - type2docfx.CheckpointData.chartPoint
       - type2docfx.CheckpointData.chartType
-      - type2docfx.CheckpointData.enqueuedTimeUtc
-      - type2docfx.CheckpointData.offset
-      - type2docfx.CheckpointData.sequenceNumber
+      - type2docfx.CheckpointData.point
     langs:
       - typeScript
     type: interface
     summary: ''
+    package: type2docfx
+  - uid: type2docfx.CheckpointData.chartPoint
+    name: chartPoint
+    fullName: chartPoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'chartPoint: ChartPoint[]'
+      return:
+        type:
+          - 'type2docfx.ChartPoint[]'
     package: type2docfx
   - uid: type2docfx.CheckpointData.chartType
     name: chartType
@@ -33,49 +46,29 @@ items:
             "ColumnStacked" | "ColumnStacked100" | "3DColumnClustered" |
             "3DColumnStacked" | "3DColumnStacked100"
     package: type2docfx
-  - uid: type2docfx.CheckpointData.enqueuedTimeUtc
-    name: enqueuedTimeUtc
-    fullName: enqueuedTimeUtc
+  - uid: type2docfx.CheckpointData.point
+    name: point
+    fullName: point
     children: []
     langs:
       - typeScript
     type: property
-    summary: '{Date} enqueuedTimeUtc The enqueued time of the event.'
+    summary: ''
     syntax:
-      content: 'enqueuedTimeUtc: Date'
+      content: 'point: GenericNumber<T>'
       return:
         type:
-          - Date
-    package: type2docfx
-  - uid: type2docfx.CheckpointData.offset
-    name: offset
-    fullName: offset
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: '{string} offset The offset of the event to be checked in.'
-    syntax:
-      content: 'offset: string'
-      return:
-        type:
-          - string
-    package: type2docfx
-  - uid: type2docfx.CheckpointData.sequenceNumber
-    name: sequenceNumber
-    fullName: sequenceNumber
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: '{string} sequenceNumber The sequence number of the event to be checked in.'
-    syntax:
-      content: 'sequenceNumber: number'
-      return:
-        type:
-          - number
+          - type2docfx.GenericNumber<type2docfx.T>
     package: type2docfx
 references:
+  - uid: 'type2docfx.ChartPoint[]'
+    name: 'ChartPoint[]'
+    spec.typeScript:
+      - name: ChartPoint
+        fullName: ChartPoint
+        uid: type2docfx.ChartPoint
+      - name: '[]'
+        fullName: '[]'
   - uid: >-
       type2docfx.ChartType | "Invalid" | "ColumnClustered" | "ColumnStacked" |
       "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" |
@@ -90,3 +83,16 @@ references:
         uid: type2docfx.ChartType
       - name: ' | "Invalid" | "ColumnClustered" | "ColumnStacked" | "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" | "3DColumnStacked100"'
         fullName: ' | "Invalid" | "ColumnClustered" | "ColumnStacked" | "ColumnStacked100" | "3DColumnClustered" | "3DColumnStacked" | "3DColumnStacked100"'
+  - uid: type2docfx.GenericNumber<type2docfx.T>
+    name: T>
+    spec.typeScript:
+      - name: GenericNumber
+        fullName: GenericNumber
+        uid: type2docfx.GenericNumber
+      - name: <
+        fullName: <
+      - name: T
+        fullName: T
+        uid: type2docfx.T
+      - name: '>'
+        fullName: '>'

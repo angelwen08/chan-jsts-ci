@@ -4,13 +4,22 @@ items:
     name: type2docfx
     summary: ''
     children:
+      - type2docfx.GenericNumber
+      - type2docfx.ChartPoint
       - type2docfx.ChartType
       - type2docfx.CheckpointData
+      - type2docfx.T
     type: package
     langs:
       - typeScript
 references:
+  - uid: type2docfx.GenericNumber
+    name: GenericNumber
+  - uid: type2docfx.ChartPoint
+    name: ChartPoint
   - uid: type2docfx.ChartType
     name: ChartType
   - uid: type2docfx.CheckpointData
     name: CheckpointData
+  - uid: type2docfx.T
+    name: T

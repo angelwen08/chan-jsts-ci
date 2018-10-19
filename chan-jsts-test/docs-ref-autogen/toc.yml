@@ -1,9 +1,18 @@
 - uid: type2docfx
   name: type2docfx
   items:
+    - uid: type2docfx.ChartPoint
+      name: ChartPoint
+      items: []
     - uid: type2docfx.ChartType
       name: ChartType
       items: []
     - uid: type2docfx.CheckpointData
       name: CheckpointData
+      items: []
+    - uid: type2docfx.GenericNumber
+      name: GenericNumber
+      items: []
+    - uid: type2docfx.T
+      name: T
       items: []
