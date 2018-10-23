@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.CheckPoint
+    name: CheckPoint
+    fullName: CheckPoint
+    children:
+      - type2docfx.CheckPoint.checkName
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: type2docfx
+  - uid: type2docfx.CheckPoint.checkName
+    name: checkName
+    fullName: checkName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'checkName: string = "Hello"'
+      return:
+        type:
+          - string
+    package: type2docfx

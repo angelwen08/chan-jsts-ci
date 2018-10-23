@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx
+    name: type2docfx
+    summary: ''
+    children:
+      - type2docfx.CheckPoint
+      - type2docfx.buildName
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: type2docfx.CheckPoint
+    name: CheckPoint
+  - uid: type2docfx.buildName
+    name: buildName

@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.buildName
+    name: buildName
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildName(firstName: string, lastName = "Smith")'
+      parameters:
+        - id: firstName
+          type:
+            - string
+          description: ''
+        - id: lastName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+    package: type2docfx
