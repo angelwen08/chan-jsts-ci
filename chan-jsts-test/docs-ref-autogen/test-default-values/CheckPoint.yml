@@ -19,8 +19,9 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'checkName: string = "Hello"'
+      content: 'checkName: string'
       return:
         type:
           - string
     package: type2docfx
+    defaultValue: '"Hello"'
