@@ -116,7 +116,8 @@ items:
           - Promise<TResult>
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.sendLongRunningRequest
-    name: sendLongRunningRequest
+    name: sendLongRunningRequest(LongRunningUrlBasedRequestPrepareOptions |
+        LongRunningPathTemplateBasedRequestPrepareOptions, ServiceCallback<TResult>)
     children: []
     type: method
     langs:
@@ -141,7 +142,8 @@ items:
           description: ''
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.sendLongRunningRequest_1
-    name: sendLongRunningRequest
+    name: sendLongRunningRequest(LongRunningUrlBasedRequestPrepareOptions |
+        LongRunningPathTemplateBasedRequestPrepareOptions)
     children: []
     type: method
     langs:
