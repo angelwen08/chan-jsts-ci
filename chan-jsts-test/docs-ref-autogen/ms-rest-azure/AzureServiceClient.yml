@@ -44,7 +44,7 @@ items:
             The parameter options used by ServiceClient
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.getLongRunningOperationResult
-    name: getLongRunningOperationResult
+    name: getLongRunningOperationResult(HttpOperationResponse<TResult>, RequestOptions, ServiceCallback<TResult>)
     children: []
     type: method
     langs:
@@ -70,7 +70,7 @@ items:
           description: ''
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.getLongRunningOperationResult_1
-    name: getLongRunningOperationResult
+    name: getLongRunningOperationResult(HttpOperationResponse<TResult>, ServiceCallback<TResult>)
     children: []
     type: method
     langs:
@@ -91,7 +91,7 @@ items:
           description: ''
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.getLongRunningOperationResult_2
-    name: getLongRunningOperationResult
+    name: getLongRunningOperationResult(HttpOperationResponse<TResult>, RequestOptions)
     children: []
     type: method
     langs:
