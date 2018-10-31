@@ -167,7 +167,8 @@ items:
     package: ms-rest-azure
   - uid: >-
       ms-rest-azure.AzureServiceClient.sendLongRunningRequestWithHttpOperationResponse
-    name: sendLongRunningRequestWithHttpOperationResponse
+    name: sendLongRunningRequestWithHttpOperationResponse(LongRunningUrlBasedRequestPrepareOptions |
+        LongRunningPathTemplateBasedRequestPrepareOption)
     children: []
     type: method
     langs:
