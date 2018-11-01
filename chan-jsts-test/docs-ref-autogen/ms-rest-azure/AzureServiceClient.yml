@@ -44,7 +44,7 @@ items:
             The parameter options used by ServiceClient
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.getLongRunningOperationResult
-    name: getLongRunningOperationResult(HttpOperationResponse<TResult>, RequestOptions, ServiceCallback<TResult>)
+    name: getLongRunningOperationResult
     children: []
     type: method
     langs:
@@ -70,7 +70,7 @@ items:
           description: ''
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.getLongRunningOperationResult_1
-    name: getLongRunningOperationResult(HttpOperationResponse<TResult>, ServiceCallback<TResult>)
+    name: getLongRunningOperationResult
     children: []
     type: method
     langs:
@@ -91,7 +91,7 @@ items:
           description: ''
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.getLongRunningOperationResult_2
-    name: getLongRunningOperationResult(HttpOperationResponse<TResult>, RequestOptions)
+    name: getLongRunningOperationResult
     children: []
     type: method
     langs:
@@ -116,8 +116,7 @@ items:
           - Promise<TResult>
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.sendLongRunningRequest
-    name: sendLongRunningRequest(LongRunningUrlBasedRequestPrepareOptions |
-        LongRunningPathTemplateBasedRequestPrepareOptions, ServiceCallback<TResult>)
+    name: sendLongRunningRequest
     children: []
     type: method
     langs:
@@ -142,8 +141,7 @@ items:
           description: ''
     package: ms-rest-azure
   - uid: ms-rest-azure.AzureServiceClient.sendLongRunningRequest_1
-    name: sendLongRunningRequest(LongRunningUrlBasedRequestPrepareOptions |
-        LongRunningPathTemplateBasedRequestPrepareOptions)
+    name: sendLongRunningRequest
     children: []
     type: method
     langs:
@@ -167,8 +165,7 @@ items:
     package: ms-rest-azure
   - uid: >-
       ms-rest-azure.AzureServiceClient.sendLongRunningRequestWithHttpOperationResponse
-    name: sendLongRunningRequestWithHttpOperationResponse(LongRunningUrlBasedRequestPrepareOptions |
-        LongRunningPathTemplateBasedRequestPrepareOption)
+    name: sendLongRunningRequestWithHttpOperationResponse
     children: []
     type: method
     langs:

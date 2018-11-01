@@ -10,7 +10,7 @@ items:
     summary: ''
     syntax:
       content: >-
-        AzureEnvironmentParameters = { activeDirectoryEndpointUrl:string,
+        type AzureEnvironmentParameters = { activeDirectoryEndpointUrl:string,
         activeDirectoryGraphApiVersion:string,
         activeDirectoryGraphResourceId:string, activeDirectoryResourceId:string,
         azureDataLakeAnalyticsCatalogAndJobEndpointSuffix:string,
