@@ -73,7 +73,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.WaterfallDialog.addStep
-    name: addStep
+    name: addStep(WaterfallStep<O>)
     children: []
     type: method
     langs:
@@ -145,7 +145,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.WaterfallDialog.beginDialog
-    name: beginDialog
+    name: 'beginDialog(DialogContext, O)'
     children: []
     type: method
     langs:
@@ -168,7 +168,7 @@ items:
           - Promise<botbuilder-dialogs.DialogTurnResult>
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.WaterfallDialog.continueDialog
-    name: continueDialog
+    name: continueDialog(DialogContext)
     children: []
     type: method
     langs:
@@ -186,7 +186,7 @@ items:
           - Promise<botbuilder-dialogs.DialogTurnResult>
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.WaterfallDialog.resumeDialog
-    name: resumeDialog
+    name: 'resumeDialog(DialogContext, DialogReason, any)'
     children: []
     type: method
     langs:
@@ -215,7 +215,7 @@ items:
           - Promise<botbuilder-dialogs.DialogTurnResult>
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.WaterfallDialog.constructor
-    name: WaterfallDialog
+    name: 'WaterfallDialog(string, WaterfallStep<O>[])'
     children: []
     type: constructor
     langs:

@@ -62,7 +62,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.DialogContext.beginDialog
-    name: beginDialog
+    name: 'beginDialog(string, object)'
     children: []
     type: method
     langs:
@@ -107,7 +107,7 @@ items:
       - `DialogTurnStatus.completed` if the dialog started was a single-turn
       dialog.
   - uid: botbuilder-dialogs.DialogContext.cancelAllDialogs
-    name: cancelAllDialogs
+    name: cancelAllDialogs()
     children: []
     type: method
     langs:
@@ -156,7 +156,7 @@ items:
           - TurnContext
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.DialogContext.continueDialog
-    name: continueDialog
+    name: continueDialog()
     children: []
     type: method
     langs:
@@ -198,7 +198,7 @@ items:
 
       - `DialogTurnStatus.empty` if the stack was empty.
   - uid: botbuilder-dialogs.DialogContext.constructor
-    name: DialogContext
+    name: 'DialogContext(DialogSet, TurnContext, DialogState)'
     children: []
     type: constructor
     langs:
@@ -238,7 +238,7 @@ items:
           - botbuilder-dialogs.DialogSet
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.DialogContext.endDialog
-    name: endDialog
+    name: endDialog(any)
     children: []
     type: method
     langs:
@@ -292,7 +292,7 @@ items:
       - `DialogTurnStatus.completed` the parent dialog completed or there was no
       parent dialog to resume.
   - uid: botbuilder-dialogs.DialogContext.prompt
-    name: prompt
+    name: 'prompt(string, string | Partial<Activity> | PromptOptions)'
     children: []
     type: method
     langs:
@@ -334,7 +334,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.DialogContext.replaceDialog
-    name: replaceDialog
+    name: 'replaceDialog(string, object)'
     children: []
     type: method
     langs:
@@ -394,7 +394,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.DialogContext.repromptDialog
-    name: repromptDialog
+    name: repromptDialog()
     children: []
     type: method
     langs:

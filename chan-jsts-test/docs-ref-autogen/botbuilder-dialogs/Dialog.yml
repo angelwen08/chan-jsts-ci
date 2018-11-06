@@ -18,7 +18,7 @@ items:
     summary: Base class for all dialogs.
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.Dialog.beginDialog
-    name: beginDialog
+    name: 'beginDialog(DialogContext, O)'
     children: []
     type: method
     langs:
@@ -53,7 +53,7 @@ items:
       should call `return await DialogContext.endDialog();` at the end of their
       implementation.
   - uid: botbuilder-dialogs.Dialog.continueDialog
-    name: continueDialog
+    name: continueDialog(DialogContext)
     children: []
     type: method
     langs:
@@ -79,7 +79,7 @@ items:
 
       implementation calls `DialogContext.endDialog()`.
   - uid: botbuilder-dialogs.Dialog.constructor
-    name: Dialog
+    name: Dialog(string)
     children: []
     type: constructor
     langs:
@@ -95,7 +95,7 @@ items:
             Unique ID of the dialog.
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.Dialog.endDialog
-    name: endDialog
+    name: 'endDialog(TurnContext, DialogInstance, DialogReason)'
     children: []
     type: method
     langs:
@@ -157,7 +157,7 @@ items:
           - string
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.Dialog.repromptDialog
-    name: repromptDialog
+    name: 'repromptDialog(TurnContext, DialogInstance)'
     children: []
     type: method
     langs:
@@ -185,7 +185,7 @@ items:
 
       default implementation performs no action.
   - uid: botbuilder-dialogs.Dialog.resumeDialog
-    name: resumeDialog
+    name: 'resumeDialog(DialogContext, DialogReason, any)'
     children: []
     type: method
     langs:

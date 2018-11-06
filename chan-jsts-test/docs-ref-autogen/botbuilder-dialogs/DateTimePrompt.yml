@@ -17,7 +17,7 @@ items:
       By default the prompt will return to the calling dialog a
       `DateTimeResolution[]`.
   - uid: botbuilder-dialogs.DateTimePrompt.constructor
-    name: DateTimePrompt
+    name: 'DateTimePrompt(string, PromptValidator<DateTimeResolution[]>, string)'
     children: []
     type: constructor
     langs:

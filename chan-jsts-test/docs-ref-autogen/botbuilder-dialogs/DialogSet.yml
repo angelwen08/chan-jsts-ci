@@ -87,7 +87,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.DialogSet.add
-    name: add
+    name: add(T)
     children: []
     type: method
     langs:
@@ -109,7 +109,7 @@ items:
       The `Dialog.id` of all dialogs or prompts added to the set need to be
       unique within the set.
   - uid: botbuilder-dialogs.DialogSet.createContext
-    name: createContext
+    name: createContext(TurnContext)
     children: []
     type: method
     langs:
@@ -130,7 +130,7 @@ items:
           - Promise<botbuilder-dialogs.DialogContext>
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.DialogSet.constructor
-    name: DialogSet
+    name: DialogSet(StatePropertyAccessor<DialogState>)
     children: []
     type: constructor
     langs:
@@ -162,7 +162,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.DialogSet.find
-    name: find
+    name: find(string)
     children: []
     type: method
     langs:

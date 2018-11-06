@@ -56,7 +56,7 @@ items:
           - 'string | botbuilder-dialogs.Choice[] | undefined'
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.ConfirmPrompt.constructor
-    name: ConfirmPrompt
+    name: 'ConfirmPrompt(string, PromptValidator<boolean>, string)'
     children: []
     type: constructor
     langs:

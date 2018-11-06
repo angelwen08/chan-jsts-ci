@@ -33,7 +33,7 @@ items:
           - number
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.WaterfallStepContext.next
-    name: next
+    name: next(any)
     children: []
     type: method
     langs:
@@ -117,7 +117,7 @@ items:
           - object
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.WaterfallStepContext.constructor
-    name: WaterfallStepContext
+    name: 'WaterfallStepContext(DialogContext, WaterfallStepInfo<O>)'
     children: []
     type: constructor
     langs:
