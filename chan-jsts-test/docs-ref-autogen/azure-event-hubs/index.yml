@@ -87,7 +87,6 @@ items:
       - azure-event-hubs.ReqResLink
       - azure-event-hubs.SenderOptionsWithSession
       - azure-event-hubs.AmqpResponseStatusCode
-      - azure-event-hubs.Func
       - azure-event-hubs.isAmqpError
       - azure-event-hubs.Receiver
       - azure-event-hubs.ReceiverOptions
@@ -266,8 +265,6 @@ references:
     name: SenderOptionsWithSession
   - uid: azure-event-hubs.AmqpResponseStatusCode
     name: AmqpResponseStatusCode
-  - uid: azure-event-hubs.Func
-    name: Func
   - uid: azure-event-hubs.isAmqpError
     name: isAmqpError
   - uid: azure-event-hubs.Receiver
