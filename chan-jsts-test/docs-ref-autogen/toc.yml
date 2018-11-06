@@ -112,9 +112,6 @@
     - uid: azure-event-hubs.Func
       name: Func
       items: []
-    - uid: azure-event-hubs.Func
-      name: Func
-      items: []
     - uid: azure-event-hubs.IotHubClient
       name: IotHubClient
       items: []
