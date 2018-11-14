@@ -18,6 +18,25 @@
       "template_folder": "_themes",
       "base_path": "chan-jsts-test",
       "site_name": "Docs"
+    },
+    {
+      "docset_name": "rampupTest",
+      "build_source_folder": "dhstest",
+      "build_output_subfolder": "rampupTest",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "UniversalReference": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "base_path": "javascript-typescript",
+      "site_name": "Docs"
     }
   ],
   "notification_subscribers": [],
