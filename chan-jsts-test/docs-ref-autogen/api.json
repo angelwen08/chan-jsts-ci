@@ -12,7 +12,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/azureBlob.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/azureBlob.d.ts",
 			"sources": [
 				{
 					"fileName": "azureBlob.d.ts",
@@ -29,7 +29,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/azureBlobLease.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/azureBlobLease.d.ts",
 			"children": [
 				{
 					"id": 214,
@@ -1243,7 +1243,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/azureStorageCheckpointLeaseManager.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/azureStorageCheckpointLeaseManager.d.ts",
 			"sources": [
 				{
 					"fileName": "azureStorageCheckpointLeaseManager.d.ts",
@@ -1260,7 +1260,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/baseLease.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/baseLease.d.ts",
 			"children": [
 				{
 					"id": 166,
@@ -1711,7 +1711,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/blobService.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/blobService.d.ts",
 			"sources": [
 				{
 					"fileName": "blobService.d.ts",
@@ -1728,7 +1728,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/checkpointInfo.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/checkpointInfo.d.ts",
 			"children": [
 				{
 					"id": 240,
@@ -2077,7 +2077,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/checkpointManager.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/checkpointManager.d.ts",
 			"children": [
 				{
 					"id": 257,
@@ -2513,7 +2513,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/completeLease.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/completeLease.d.ts",
 			"children": [
 				{
 					"id": 183,
@@ -3122,7 +3122,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/eventProcessorHost.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/eventProcessorHost.d.ts",
 			"children": [
 				{
 					"id": 751,
@@ -4710,7 +4710,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/hostContext.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/hostContext.d.ts",
 			"children": [
 				{
 					"id": 575,
@@ -5891,7 +5891,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/index.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/index.d.ts",
 			"sources": [
 				{
 					"fileName": "index.d.ts",
@@ -5908,7 +5908,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/leaseManager.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/leaseManager.d.ts",
 			"children": [
 				{
 					"id": 278,
@@ -6612,7 +6612,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/log.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/log.d.ts",
 			"sources": [
 				{
 					"fileName": "log.d.ts",
@@ -6629,7 +6629,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/modelTypes.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/modelTypes.d.ts",
 			"children": [
 				{
 					"id": 340,
@@ -6883,7 +6883,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "E:/temp/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
+									"fileName": "E:/temp/node_modules/@azure/event-processor-host/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
 									"line": 57,
 									"character": 19
 								}
@@ -7369,7 +7369,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "E:/temp/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
+									"fileName": "E:/temp/node_modules/@azure/event-processor-host/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
 									"line": 62,
 									"character": 13
 								}
@@ -7496,7 +7496,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "E:/temp/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
+									"fileName": "E:/temp/node_modules/@azure/event-processor-host/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
 									"line": 57,
 									"character": 19
 								}
@@ -7831,7 +7831,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "E:/temp/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
+									"fileName": "E:/temp/node_modules/@azure/event-processor-host/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
 									"line": 62,
 									"character": 13
 								}
@@ -7954,7 +7954,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "E:/temp/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
+									"fileName": "E:/temp/node_modules/@azure/event-processor-host/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
 									"line": 57,
 									"character": 19
 								}
@@ -8220,7 +8220,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "E:/temp/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
+									"fileName": "E:/temp/node_modules/@azure/event-processor-host/node_modules/@azure/event-hubs/typings/lib/eventHubClient.d.ts",
 									"line": 62,
 									"character": 13
 								}
@@ -8571,7 +8571,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/partitionContext.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/partitionContext.d.ts",
 			"children": [
 				{
 					"id": 311,
@@ -9100,7 +9100,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/partitionManager.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/partitionManager.d.ts",
 			"sources": [
 				{
 					"fileName": "partitionManager.d.ts",
@@ -9117,7 +9117,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/partitionPump.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/partitionPump.d.ts",
 			"sources": [
 				{
 					"fileName": "partitionPump.d.ts",
@@ -9134,7 +9134,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/partitionScanner.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/partitionScanner.d.ts",
 			"sources": [
 				{
 					"fileName": "partitionScanner.d.ts",
@@ -9151,7 +9151,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/pumpManager.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/pumpManager.d.ts",
 			"sources": [
 				{
 					"fileName": "pumpManager.d.ts",
@@ -9168,7 +9168,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/util/constants.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/util/constants.d.ts",
 			"children": [
 				{
 					"id": 864,
@@ -9646,7 +9646,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/lib/util/utils.d.ts",
+			"originalName": "E:/temp/node_modules/@azure/event-processor-host/typings/util/utils.d.ts",
 			"children": [
 				{
 					"id": 917,
