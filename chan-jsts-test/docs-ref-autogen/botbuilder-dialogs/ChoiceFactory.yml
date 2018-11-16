@@ -37,7 +37,9 @@ items:
 
       ```
   - uid: botbuilder-dialogs.ChoiceFactory.forChannel
-    name: forChannel
+    name: >-
+      forChannel(string | TurnContext, string | Choice[], string, string,
+      ChoiceFactoryOptions)
     children: []
     type: method
     langs:
@@ -111,7 +113,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.ChoiceFactory.inline
-    name: inline
+    name: 'inline(string | Choice[], string, string, ChoiceFactoryOptions)'
     children: []
     type: method
     langs:
@@ -164,7 +166,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.ChoiceFactory.list
-    name: list
+    name: 'list(string | Choice[], string, string, ChoiceFactoryOptions)'
     children: []
     type: method
     langs:
@@ -217,7 +219,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.ChoiceFactory.suggestedAction
-    name: suggestedAction
+    name: 'suggestedAction(string | Choice[], string, string)'
     children: []
     type: method
     langs:
@@ -265,7 +267,7 @@ items:
 
       ```
   - uid: botbuilder-dialogs.ChoiceFactory.toChoices
-    name: toChoices
+    name: 'toChoices(string | Choice[] | undefined)'
     children: []
     type: method
     langs:
@@ -288,6 +290,12 @@ items:
     remarks: >-
       This example converts a simple array of string based choices to a properly
       formated `Choice[]`.
+
+
+      If the `Choice` has a `Partial<CardAction>` for `Choice.action`,
+      `.toChoices()` will attempt to
+
+      fill the `Choice.action`.
 
 
       ```JavaScript

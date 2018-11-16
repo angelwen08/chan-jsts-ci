@@ -7,16 +7,17 @@ items:
     langs:
       - typeScript
     type: type alias
-    summary: Function signature of a waterfall step.
+    summary: >-
+      Function signature of an individual waterfall step.
+
+      ```TypeScript
+
+      type WaterfallStep<O extends object = {}> = (step:
+      WaterfallStepContext<O>) => Promise<DialogTurnResult>;
+
+      ```
     syntax:
       content: >-
         type WaterfallStep = (step: WaterfallStepContext<O>) =>
         Promise<DialogTurnResult>
     package: botbuilder-dialogs
-    remarks: >-
-      ```TypeScript
-
-      type WaterfallStep = (step: WaterfallStepContext<O>) =>
-      Promise<DialogTurnResult>;
-
-      ```

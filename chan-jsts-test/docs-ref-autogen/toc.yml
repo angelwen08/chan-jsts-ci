@@ -97,9 +97,6 @@
     - uid: botbuilder-dialogs.PromptValidatorContext
       name: PromptValidatorContext
       items: []
-    - uid: botbuilder-dialogs.SkipStepFunction
-      name: SkipStepFunction
-      items: []
     - uid: botbuilder-dialogs.SortedValue
       name: SortedValue
       items: []

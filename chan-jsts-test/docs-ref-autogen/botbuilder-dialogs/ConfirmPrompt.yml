@@ -14,7 +14,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: Prompts a user to confirm something with a yes/no response.
+    summary: Prompts a user to confirm something with a "yes" or "no" response.
     extends:
       name: botbuilder-dialogs.Prompt<boolean>
     package: botbuilder-dialogs
@@ -31,10 +31,10 @@ items:
       - typeScript
     type: property
     summary: >-
-      Gets or sets additional options passed to the `ChoiceFactory` and used to
-      tweak the style of
+      Additional options passed to the `ChoiceFactory` and used to tweak the
+      style of choices
 
-      choices rendered to the user.
+      rendered to the user.
     syntax:
       content: 'choiceOptions: ChoiceFactoryOptions | undefined'
       return:
@@ -48,7 +48,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: Custom list of choices to send for the prompt.
     syntax:
       content: 'confirmChoices: string | Choice[] | undefined'
       return:
@@ -56,12 +56,12 @@ items:
           - 'string | botbuilder-dialogs.Choice[] | undefined'
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.ConfirmPrompt.constructor
-    name: ConfirmPrompt
+    name: 'ConfirmPrompt(string, PromptValidator<boolean>, string)'
     children: []
     type: constructor
     langs:
       - typeScript
-    summary: Creates a new `ConfirmPrompt` instance.
+    summary: Creates a new ConfirmPrompt instance.
     syntax:
       content: >-
         new ConfirmPrompt(dialogId: string, validator?:
@@ -70,20 +70,21 @@ items:
         - id: dialogId
           type:
             - string
-          description: Unique ID of the dialog within its parent `DialogSet`.
+          description: >-
+            Unique ID of the dialog within its parent `DialogSet` or
+            `ComponentDialog`.
         - id: validator
           type:
             - botbuilder-dialogs.PromptValidator<boolean>
           description: >-
             (Optional) validator that will be called each time the user responds
-            to the prompt. If the validator replies with a message no additional
-            retry prompt will be sent.
+            to the prompt.
           optional: true
         - id: defaultLocale
           type:
             - string
           description: >
-            (Optional) locale to use if `dc.context.activity.locale` not
+            (Optional) locale to use if `TurnContext.activity.locale` is not
             specified. Defaults to a value of `en-us`.
           optional: true
     package: botbuilder-dialogs
@@ -94,7 +95,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: Default options for rendering the choices to the user based on locale.
     syntax:
       content: 'static defaultChoiceOptions: [key: string]: ChoiceFactoryOptions'
       return:
@@ -108,7 +109,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: Default confirm choices for a range of locales.
     syntax:
       content: 'static defaultConfirmChoices: [key: string]: function'
       return:
@@ -122,7 +123,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: ''
+    summary: The prompts default locale that should be recognized.
     syntax:
       content: 'defaultLocale: string | undefined'
       return:
@@ -136,9 +137,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      Gets or sets the style of the yes/no choices rendered to the user when
-      prompting.
+    summary: Style of the "yes" and "no" choices rendered to the user when prompting.
     syntax:
       content: 'style: ListStyle'
       return:

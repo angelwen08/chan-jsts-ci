@@ -17,7 +17,7 @@ items:
       name: botbuilder-dialogs.Dialog
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.Prompt.beginDialog
-    name: beginDialog
+    name: 'beginDialog(DialogContext, PromptOptions)'
     children: []
     type: method
     langs:
@@ -39,7 +39,7 @@ items:
           - Promise<botbuilder-dialogs.DialogTurnResult>
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.Prompt.continueDialog
-    name: continueDialog
+    name: continueDialog(DialogContext)
     children: []
     type: method
     langs:
@@ -57,27 +57,31 @@ items:
           - Promise<botbuilder-dialogs.DialogTurnResult>
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.Prompt.constructor
-    name: Prompt
+    name: 'Prompt(string, PromptValidator<T>)'
     children: []
     type: constructor
     langs:
       - typeScript
-    summary: ''
+    summary: Creates a new Prompt instance.
     syntax:
       content: 'new Prompt(dialogId: string, validator?: PromptValidator<T>)'
       parameters:
         - id: dialogId
           type:
             - string
-          description: ''
+          description: >-
+            Unique ID of the prompt within its parent `DialogSet` or
+            `ComponentDialog`.
         - id: validator
           type:
             - botbuilder-dialogs.PromptValidator<T>
-          description: ''
+          description: >
+            (Optional) custom validator used to provide additional validation
+            and re-prompting logic for the prompt.
           optional: true
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.Prompt.repromptDialog
-    name: repromptDialog
+    name: 'repromptDialog(TurnContext, DialogInstance)'
     children: []
     type: method
     langs:
@@ -99,7 +103,7 @@ items:
           - Promise<void>
     package: botbuilder-dialogs
   - uid: botbuilder-dialogs.Prompt.resumeDialog
-    name: resumeDialog
+    name: 'resumeDialog(DialogContext, DialogReason, any)'
     children: []
     type: method
     langs:
