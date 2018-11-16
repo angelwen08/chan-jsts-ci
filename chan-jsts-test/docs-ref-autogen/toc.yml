@@ -1,150 +1,67 @@
-- uid: azure-maps-control
-  name: azure-maps-control
+- uid: '@microsoft/teams-js'
+  name: '@microsoft/teams-js'
   items:
-    - uid: azure-maps-control.atlas
-      name: atlas
+    - uid: '@microsoft/teams-js.microsoftTeams'
+      name: microsoftTeams
       items:
-        - uid: azure-maps-control.atlas.control
-          name: control
+        - uid: '@microsoft/teams-js.microsoftTeams.authentication'
+          name: authentication
           items:
-            - uid: azure-maps-control.atlas.control.CompassControl
-              name: CompassControl
+            - uid: >-
+                @microsoft/teams-js.microsoftTeams.authentication.AuthenticateParameters
+              name: AuthenticateParameters
               items: []
-            - uid: azure-maps-control.atlas.control.PitchControl
-              name: PitchControl
-              items: []
-            - uid: azure-maps-control.atlas.control.StyleControl
-              name: StyleControl
-              items: []
-            - uid: azure-maps-control.atlas.control.ZoomControl
-              name: ZoomControl
-              items: []
-        - uid: azure-maps-control.atlas.data
-          name: data
+        - uid: '@microsoft/teams-js.microsoftTeams.Context'
+          name: Context
+          items: []
+        - uid: '@microsoft/teams-js.microsoftTeams.DeepLinkParameters'
+          name: DeepLinkParameters
+          items: []
+        - uid: '@microsoft/teams-js.microsoftTeams.HostClientType'
+          name: HostClientType
+          items: []
+        - uid: '@microsoft/teams-js.microsoftTeams.settings'
+          name: settings
           items:
-            - uid: azure-maps-control.atlas.data.BoundingBox
-              name: BoundingBox
+            - uid: '@microsoft/teams-js.microsoftTeams.settings.RemoveEvent'
+              name: RemoveEvent
               items: []
-            - uid: azure-maps-control.atlas.data.Feature
-              name: Feature
+            - uid: '@microsoft/teams-js.microsoftTeams.settings.SaveEvent'
+              name: SaveEvent
               items: []
-            - uid: azure-maps-control.atlas.data.FeatureCollection
-              name: FeatureCollection
+            - uid: '@microsoft/teams-js.microsoftTeams.settings.SaveParameters'
+              name: SaveParameters
               items: []
-            - uid: azure-maps-control.atlas.data.Geometry
-              name: Geometry
+            - uid: '@microsoft/teams-js.microsoftTeams.settings.Settings'
+              name: Settings
               items: []
-            - uid: azure-maps-control.atlas.data.GeometryCollection
-              name: GeometryCollection
-              items: []
-            - uid: azure-maps-control.atlas.data.LineString
-              name: LineString
-              items: []
-            - uid: azure-maps-control.atlas.data.MultiLineString
-              name: MultiLineString
-              items: []
-            - uid: azure-maps-control.atlas.data.MultiPoint
-              name: MultiPoint
-              items: []
-            - uid: azure-maps-control.atlas.data.MultiPolygon
-              name: MultiPolygon
-              items: []
-            - uid: azure-maps-control.atlas.data.Point
-              name: Point
-              items: []
-            - uid: azure-maps-control.atlas.data.Polygon
-              name: Polygon
-              items: []
-            - uid: azure-maps-control.atlas.data.Position
-              name: Position
-              items: []
-        - uid: azure-maps-control.atlas.Map
-          name: Map
+        - uid: '@microsoft/teams-js.microsoftTeams.TabInformation'
+          name: TabInformation
           items: []
-        - uid: azure-maps-control.atlas.Popup
-          name: Popup
+        - uid: '@microsoft/teams-js.microsoftTeams.TabInstance'
+          name: TabInstance
           items: []
-    - uid: azure-maps-control.Models
-      name: Models
-      items:
-        - uid: azure-maps-control.Models.AnimationOptions
-          name: AnimationOptions
+        - uid: '@microsoft/teams-js.microsoftTeams.TabInstanceParameters'
+          name: TabInstanceParameters
           items: []
-        - uid: azure-maps-control.Models.CameraBoundsOptions
-          name: CameraBoundsOptions
+        - uid: '@microsoft/teams-js.microsoftTeams.TaskInfo'
+          name: TaskInfo
           items: []
-        - uid: azure-maps-control.Models.CameraOptions
-          name: CameraOptions
+        - uid: '@microsoft/teams-js.microsoftTeams.TaskModuleDimension'
+          name: TaskModuleDimension
           items: []
-        - uid: azure-maps-control.Models.CircleLayerOptions
-          name: CircleLayerOptions
+        - uid: '@microsoft/teams-js.microsoftTeams.tasks'
+          name: tasks
           items: []
-        - uid: azure-maps-control.Models.CircleProperties
-          name: CircleProperties
+        - uid: '@microsoft/teams-js.microsoftTeams.TeamInformation'
+          name: TeamInformation
           items: []
-        - uid: azure-maps-control.Models.CompassControlOptions
-          name: CompassControlOptions
+        - uid: '@microsoft/teams-js.microsoftTeams.TeamType'
+          name: TeamType
           items: []
-        - uid: azure-maps-control.Models.Control
-          name: Control
+        - uid: '@microsoft/teams-js.microsoftTeams.UserTeamRole'
+          name: UserTeamRole
           items: []
-        - uid: azure-maps-control.Models.ControlOptions
-          name: ControlOptions
-          items: []
-        - uid: azure-maps-control.Models.ControlPosition
-          name: ControlPosition
-          items: []
-        - uid: azure-maps-control.Models.ControlStyle
-          name: ControlStyle
-          items: []
-        - uid: azure-maps-control.Models.LayerOptions
-          name: LayerOptions
-          items: []
-        - uid: azure-maps-control.Models.LinestringLayerOptions
-          name: LinestringLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.LinestringProperties
-          name: LinestringProperties
-          items: []
-        - uid: azure-maps-control.Models.MapEventData
-          name: MapEventData
-          items: []
-        - uid: azure-maps-control.Models.PinLayerOptions
-          name: PinLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.PinProperties
-          name: PinProperties
-          items: []
-        - uid: azure-maps-control.Models.PitchControlOptions
-          name: PitchControlOptions
-          items: []
-        - uid: azure-maps-control.Models.PolygonLayerOptions
-          name: PolygonLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.PolygonProperties
-          name: PolygonProperties
-          items: []
-        - uid: azure-maps-control.Models.PopupOptions
-          name: PopupOptions
-          items: []
-        - uid: azure-maps-control.Models.RasterLayerOptions
-          name: RasterLayerOptions
-          items: []
-        - uid: azure-maps-control.Models.ServiceOptions
-          name: ServiceOptions
-          items: []
-        - uid: azure-maps-control.Models.StyleControlOptions
-          name: StyleControlOptions
-          items: []
-        - uid: azure-maps-control.Models.StyleOptions
-          name: StyleOptions
-          items: []
-        - uid: azure-maps-control.Models.TrafficOptions
-          name: TrafficOptions
-          items: []
-        - uid: azure-maps-control.Models.UserInteractionOptions
-          name: UserInteractionOptions
-          items: []
-        - uid: azure-maps-control.Models.ZoomControlOptions
-          name: ZoomControlOptions
-          items: []
+    - uid: '@microsoft/teams-js.String'
+      name: String
+      items: []
