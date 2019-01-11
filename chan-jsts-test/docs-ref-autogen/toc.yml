@@ -1,123 +1,294 @@
-- uid: botbuilder-dialogs
-  name: botbuilder-dialogs
+- uid: '@azure/cosmos'
+  name: '@azure/cosmos'
   items:
-    - uid: botbuilder-dialogs.ActivityPrompt
-      name: ActivityPrompt
+    - uid: '@azure/cosmos.Agent'
+      name: Agent
       items: []
-    - uid: botbuilder-dialogs.AttachmentPrompt
-      name: AttachmentPrompt
+    - uid: '@azure/cosmos.AuthOptions'
+      name: AuthOptions
       items: []
-    - uid: botbuilder-dialogs.Choice
-      name: Choice
+    - uid: '@azure/cosmos.ChangeFeedIterator'
+      name: ChangeFeedIterator
       items: []
-    - uid: botbuilder-dialogs.ChoiceFactory
-      name: ChoiceFactory
+    - uid: '@azure/cosmos.ChangeFeedOptions'
+      name: ChangeFeedOptions
       items: []
-    - uid: botbuilder-dialogs.ChoiceFactoryOptions
-      name: ChoiceFactoryOptions
+    - uid: '@azure/cosmos.ChangeFeedResponse'
+      name: ChangeFeedResponse
       items: []
-    - uid: botbuilder-dialogs.ChoicePrompt
-      name: ChoicePrompt
+    - uid: '@azure/cosmos.ClientSideMetrics'
+      name: ClientSideMetrics
       items: []
-    - uid: botbuilder-dialogs.ComponentDialog
-      name: ComponentDialog
+    - uid: '@azure/cosmos.Conflict'
+      name: Conflict
       items: []
-    - uid: botbuilder-dialogs.ConfirmPrompt
-      name: ConfirmPrompt
+    - uid: '@azure/cosmos.ConflictDefinition'
+      name: ConflictDefinition
       items: []
-    - uid: botbuilder-dialogs.DateTimePrompt
-      name: DateTimePrompt
+    - uid: '@azure/cosmos.ConflictResolutionMode'
+      name: ConflictResolutionMode
       items: []
-    - uid: botbuilder-dialogs.DateTimeResolution
-      name: DateTimeResolution
+    - uid: '@azure/cosmos.ConflictResolutionPolicy'
+      name: ConflictResolutionPolicy
       items: []
-    - uid: botbuilder-dialogs.Dialog
-      name: Dialog
+    - uid: '@azure/cosmos.ConflictResponse'
+      name: ConflictResponse
       items: []
-    - uid: botbuilder-dialogs.DialogContext
-      name: DialogContext
+    - uid: '@azure/cosmos.Conflicts'
+      name: Conflicts
       items: []
-    - uid: botbuilder-dialogs.DialogInstance
-      name: DialogInstance
+    - uid: '@azure/cosmos.ConnectionMode'
+      name: ConnectionMode
       items: []
-    - uid: botbuilder-dialogs.DialogReason
-      name: DialogReason
+    - uid: '@azure/cosmos.ConnectionPolicy'
+      name: ConnectionPolicy
       items: []
-    - uid: botbuilder-dialogs.DialogSet
-      name: DialogSet
+    - uid: '@azure/cosmos.ConsistencyLevel'
+      name: ConsistencyLevel
       items: []
-    - uid: botbuilder-dialogs.DialogState
-      name: DialogState
+    - uid: '@azure/cosmos.Container'
+      name: Container
       items: []
-    - uid: botbuilder-dialogs.DialogTurnResult
-      name: DialogTurnResult
+    - uid: '@azure/cosmos.ContainerDefinition'
+      name: ContainerDefinition
       items: []
-    - uid: botbuilder-dialogs.DialogTurnStatus
-      name: DialogTurnStatus
+    - uid: '@azure/cosmos.ContainerResponse'
+      name: ContainerResponse
       items: []
-    - uid: botbuilder-dialogs.FindChoicesOptions
-      name: FindChoicesOptions
+    - uid: '@azure/cosmos.Containers'
+      name: Containers
       items: []
-    - uid: botbuilder-dialogs.FindValuesOptions
-      name: FindValuesOptions
+    - uid: '@azure/cosmos.CosmosClient'
+      name: CosmosClient
       items: []
-    - uid: botbuilder-dialogs.FoundChoice
-      name: FoundChoice
+    - uid: '@azure/cosmos.CosmosClientOptions'
+      name: CosmosClientOptions
       items: []
-    - uid: botbuilder-dialogs.FoundValue
-      name: FoundValue
+    - uid: '@azure/cosmos.CosmosResponse'
+      name: CosmosResponse
       items: []
-    - uid: botbuilder-dialogs.ListStyle
-      name: ListStyle
+    - uid: '@azure/cosmos.Database'
+      name: Database
       items: []
-    - uid: botbuilder-dialogs.ModelResult
-      name: ModelResult
+    - uid: '@azure/cosmos.DatabaseAccount'
+      name: DatabaseAccount
       items: []
-    - uid: botbuilder-dialogs.NumberPrompt
-      name: NumberPrompt
+    - uid: '@azure/cosmos.DatabaseDefinition'
+      name: DatabaseDefinition
       items: []
-    - uid: botbuilder-dialogs.OAuthPrompt
-      name: OAuthPrompt
+    - uid: '@azure/cosmos.DatabaseResponse'
+      name: DatabaseResponse
       items: []
-    - uid: botbuilder-dialogs.OAuthPromptSettings
-      name: OAuthPromptSettings
+    - uid: '@azure/cosmos.Databases'
+      name: Databases
       items: []
-    - uid: botbuilder-dialogs.Prompt
-      name: Prompt
+    - uid: '@azure/cosmos.DataType'
+      name: DataType
       items: []
-    - uid: botbuilder-dialogs.PromptOptions
-      name: PromptOptions
+    - uid: '@azure/cosmos.Document'
+      name: Document
       items: []
-    - uid: botbuilder-dialogs.PromptRecognizerResult
-      name: PromptRecognizerResult
+    - uid: '@azure/cosmos.ErrorResponse'
+      name: ErrorResponse
       items: []
-    - uid: botbuilder-dialogs.PromptValidator
-      name: PromptValidator
+    - uid: '@azure/cosmos.FeedOptions'
+      name: FeedOptions
       items: []
-    - uid: botbuilder-dialogs.PromptValidatorContext
-      name: PromptValidatorContext
+    - uid: '@azure/cosmos.IHeaders'
+      name: IHeaders
       items: []
-    - uid: botbuilder-dialogs.SortedValue
-      name: SortedValue
+    - uid: '@azure/cosmos.IHeaders'
+      name: IHeaders
       items: []
-    - uid: botbuilder-dialogs.TextPrompt
-      name: TextPrompt
+    - uid: '@azure/cosmos.Index'
+      name: Index
       items: []
-    - uid: botbuilder-dialogs.Token
-      name: Token
+    - uid: '@azure/cosmos.IndexedPath'
+      name: IndexedPath
       items: []
-    - uid: botbuilder-dialogs.TokenizerFunction
-      name: TokenizerFunction
+    - uid: '@azure/cosmos.IndexingMode'
+      name: IndexingMode
       items: []
-    - uid: botbuilder-dialogs.WaterfallDialog
-      name: WaterfallDialog
+    - uid: '@azure/cosmos.IndexingPolicy'
+      name: IndexingPolicy
       items: []
-    - uid: botbuilder-dialogs.WaterfallStep
-      name: WaterfallStep
+    - uid: '@azure/cosmos.IndexKind'
+      name: IndexKind
       items: []
-    - uid: botbuilder-dialogs.WaterfallStepContext
-      name: WaterfallStepContext
+    - uid: '@azure/cosmos.IRetryPolicy'
+      name: IRetryPolicy
       items: []
-    - uid: botbuilder-dialogs.WaterfallStepInfo
-      name: WaterfallStepInfo
+    - uid: '@azure/cosmos.Item'
+      name: Item
+      items: []
+    - uid: '@azure/cosmos.ItemDefinition'
+      name: ItemDefinition
+      items: []
+    - uid: '@azure/cosmos.ItemResponse'
+      name: ItemResponse
+      items: []
+    - uid: '@azure/cosmos.Items'
+      name: Items
+      items: []
+    - uid: '@azure/cosmos.ITokenProvider'
+      name: ITokenProvider
+      items: []
+    - uid: '@azure/cosmos.Location'
+      name: Location
+      items: []
+    - uid: '@azure/cosmos.LocationRouting'
+      name: LocationRouting
+      items: []
+    - uid: '@azure/cosmos.MediaOptions'
+      name: MediaOptions
+      items: []
+    - uid: '@azure/cosmos.MediaReadMode'
+      name: MediaReadMode
+      items: []
+    - uid: '@azure/cosmos.Offer'
+      name: Offer
+      items: []
+    - uid: '@azure/cosmos.OfferDefinition'
+      name: OfferDefinition
+      items: []
+    - uid: '@azure/cosmos.OfferResponse'
+      name: OfferResponse
+      items: []
+    - uid: '@azure/cosmos.Offers'
+      name: Offers
+      items: []
+    - uid: '@azure/cosmos.PartitionKey'
+      name: PartitionKey
+      items: []
+    - uid: '@azure/cosmos.PartitionKeyDefinition'
+      name: PartitionKeyDefinition
+      items: []
+    - uid: '@azure/cosmos.PartitionKeyRange'
+      name: PartitionKeyRange
+      items: []
+    - uid: '@azure/cosmos.PartitionKind'
+      name: PartitionKind
+      items: []
+    - uid: '@azure/cosmos.Permission'
+      name: Permission
+      items: []
+    - uid: '@azure/cosmos.PermissionBody'
+      name: PermissionBody
+      items: []
+    - uid: '@azure/cosmos.PermissionDefinition'
+      name: PermissionDefinition
+      items: []
+    - uid: '@azure/cosmos.PermissionMode'
+      name: PermissionMode
+      items: []
+    - uid: '@azure/cosmos.PermissionResponse'
+      name: PermissionResponse
+      items: []
+    - uid: '@azure/cosmos.Permissions'
+      name: Permissions
+      items: []
+    - uid: '@azure/cosmos.QueryCompatibilityMode'
+      name: QueryCompatibilityMode
+      items: []
+    - uid: '@azure/cosmos.QueryIterator'
+      name: QueryIterator
+      items: []
+    - uid: '@azure/cosmos.QueryMetrics'
+      name: QueryMetrics
+      items: []
+    - uid: '@azure/cosmos.QueryMetricsUtils'
+      name: QueryMetricsUtils
+      items: []
+    - uid: '@azure/cosmos.QueryPreparationTimes'
+      name: QueryPreparationTimes
+      items: []
+    - uid: '@azure/cosmos.RequestContext'
+      name: RequestContext
+      items: []
+    - uid: '@azure/cosmos.RequestOptions'
+      name: RequestOptions
+      items: []
+    - uid: '@azure/cosmos.Resource'
+      name: Resource
+      items: []
+    - uid: '@azure/cosmos.ResourceType'
+      name: ResourceType
+      items: []
+    - uid: '@azure/cosmos.Response'
+      name: Response
+      items: []
+    - uid: '@azure/cosmos.RetryContext'
+      name: RetryContext
+      items: []
+    - uid: '@azure/cosmos.RetryOptions'
+      name: RetryOptions
+      items: []
+    - uid: '@azure/cosmos.RuntimeExecutionTimes'
+      name: RuntimeExecutionTimes
+      items: []
+    - uid: '@azure/cosmos.SessionContext'
+      name: SessionContext
+      items: []
+    - uid: '@azure/cosmos.SqlParameter'
+      name: SqlParameter
+      items: []
+    - uid: '@azure/cosmos.SqlQuerySpec'
+      name: SqlQuerySpec
+      items: []
+    - uid: '@azure/cosmos.StoredProcedure'
+      name: StoredProcedure
+      items: []
+    - uid: '@azure/cosmos.StoredProcedureDefinition'
+      name: StoredProcedureDefinition
+      items: []
+    - uid: '@azure/cosmos.StoredProcedureResponse'
+      name: StoredProcedureResponse
+      items: []
+    - uid: '@azure/cosmos.StoredProcedures'
+      name: StoredProcedures
+      items: []
+    - uid: '@azure/cosmos.Trigger'
+      name: Trigger
+      items: []
+    - uid: '@azure/cosmos.TriggerDefinition'
+      name: TriggerDefinition
+      items: []
+    - uid: '@azure/cosmos.TriggerOperation'
+      name: TriggerOperation
+      items: []
+    - uid: '@azure/cosmos.TriggerResponse'
+      name: TriggerResponse
+      items: []
+    - uid: '@azure/cosmos.Triggers'
+      name: Triggers
+      items: []
+    - uid: '@azure/cosmos.TriggerType'
+      name: TriggerType
+      items: []
+    - uid: '@azure/cosmos.User'
+      name: User
+      items: []
+    - uid: '@azure/cosmos.UserDefinedFunction'
+      name: UserDefinedFunction
+      items: []
+    - uid: '@azure/cosmos.UserDefinedFunctionDefinition'
+      name: UserDefinedFunctionDefinition
+      items: []
+    - uid: '@azure/cosmos.UserDefinedFunctionResponse'
+      name: UserDefinedFunctionResponse
+      items: []
+    - uid: '@azure/cosmos.UserDefinedFunctions'
+      name: UserDefinedFunctions
+      items: []
+    - uid: '@azure/cosmos.UserDefinedFunctionType'
+      name: UserDefinedFunctionType
+      items: []
+    - uid: '@azure/cosmos.UserDefinition'
+      name: UserDefinition
+      items: []
+    - uid: '@azure/cosmos.UserResponse'
+      name: UserResponse
+      items: []
+    - uid: '@azure/cosmos.Users'
+      name: Users
       items: []
