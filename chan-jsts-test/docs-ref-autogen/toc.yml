@@ -1,207 +1,78 @@
-- uid: azure-arm-iothub
-  name: azure-arm-iothub
+- uid: '@azure/service-bus'
+  name: '@azure/service-bus'
   items:
-    - uid: azure-arm-iothub.CertificateBodyDescription
-      name: CertificateBodyDescription
+    - uid: '@azure/service-bus.Client'
+      name: Client
       items: []
-    - uid: azure-arm-iothub.CertificateDescription
-      name: CertificateDescription
+    - uid: '@azure/service-bus.CorrelationFilter'
+      name: CorrelationFilter
       items: []
-    - uid: azure-arm-iothub.CertificateListDescription
-      name: CertificateListDescription
+    - uid: '@azure/service-bus.DeadLetterOptions'
+      name: DeadLetterOptions
       items: []
-    - uid: azure-arm-iothub.CertificateProperties
-      name: CertificateProperties
+    - uid: '@azure/service-bus.MessageHandlerOptions'
+      name: MessageHandlerOptions
       items: []
-    - uid: azure-arm-iothub.CertificatePropertiesWithNonce
-      name: CertificatePropertiesWithNonce
+    - uid: '@azure/service-bus.OnError'
+      name: OnError
       items: []
-    - uid: azure-arm-iothub.Certificates
-      name: Certificates
+    - uid: '@azure/service-bus.OnMessage'
+      name: OnMessage
       items: []
-    - uid: azure-arm-iothub.CertificateVerificationDescription
-      name: CertificateVerificationDescription
+    - uid: '@azure/service-bus.QueueClient'
+      name: QueueClient
       items: []
-    - uid: azure-arm-iothub.CertificateWithNonceDescription
-      name: CertificateWithNonceDescription
+    - uid: '@azure/service-bus.ReceivedMessage'
+      name: ReceivedMessage
+      items:
+        - uid: '@azure/service-bus.ReceivedMessage.ReceivedMessageInfo'
+          name: ReceivedMessageInfo
+          items: []
+    - uid: '@azure/service-bus.ReceivedMessageInfo'
+      name: ReceivedMessageInfo
+      items:
+        - uid: '@azure/service-bus.ReceivedMessageInfo.SendableMessageInfo'
+          name: SendableMessageInfo
+          items: []
+    - uid: '@azure/service-bus.ReceiveMode'
+      name: ReceiveMode
       items: []
-    - uid: azure-arm-iothub.CloudToDeviceProperties
-      name: CloudToDeviceProperties
+    - uid: '@azure/service-bus.Receiver'
+      name: Receiver
       items: []
-    - uid: azure-arm-iothub.EndpointHealthData
-      name: EndpointHealthData
+    - uid: '@azure/service-bus.RuleDescription'
+      name: RuleDescription
       items: []
-    - uid: azure-arm-iothub.EndpointHealthDataListResult
-      name: EndpointHealthDataListResult
+    - uid: '@azure/service-bus.ScheduleMessage'
+      name: ScheduleMessage
       items: []
-    - uid: azure-arm-iothub.ErrorDetails
-      name: ErrorDetails
+    - uid: '@azure/service-bus.SendableMessageInfo'
+      name: SendableMessageInfo
       items: []
-    - uid: azure-arm-iothub.EventHubConsumerGroupInfo
-      name: EventHubConsumerGroupInfo
+    - uid: '@azure/service-bus.Sender'
+      name: Sender
       items: []
-    - uid: azure-arm-iothub.EventHubConsumerGroupsListResult
-      name: EventHubConsumerGroupsListResult
+    - uid: '@azure/service-bus.ServiceBusClient'
+      name: ServiceBusClient
       items: []
-    - uid: azure-arm-iothub.EventHubProperties
-      name: EventHubProperties
+    - uid: '@azure/service-bus.ServiceBusClientOptions'
+      name: ServiceBusClientOptions
       items: []
-    - uid: azure-arm-iothub.ExportDevicesRequest
-      name: ExportDevicesRequest
+    - uid: '@azure/service-bus.ServiceBusMessage'
+      name: ServiceBusMessage
       items: []
-    - uid: azure-arm-iothub.FallbackRouteProperties
-      name: FallbackRouteProperties
+    - uid: '@azure/service-bus.SessionMessageHandlerOptions'
+      name: SessionMessageHandlerOptions
       items: []
-    - uid: azure-arm-iothub.FeedbackProperties
-      name: FeedbackProperties
+    - uid: '@azure/service-bus.SessionReceiver'
+      name: SessionReceiver
       items: []
-    - uid: azure-arm-iothub.ImportDevicesRequest
-      name: ImportDevicesRequest
+    - uid: '@azure/service-bus.SessionReceiverOptions'
+      name: SessionReceiverOptions
       items: []
-    - uid: azure-arm-iothub.IotHubCapacity
-      name: IotHubCapacity
+    - uid: '@azure/service-bus.SubscriptionClient'
+      name: SubscriptionClient
       items: []
-    - uid: azure-arm-iothub.IotHubClient
-      name: IotHubClient
-      items: []
-    - uid: azure-arm-iothub.IotHubDescription
-      name: IotHubDescription
-      items: []
-    - uid: azure-arm-iothub.IotHubDescriptionListResult
-      name: IotHubDescriptionListResult
-      items: []
-    - uid: azure-arm-iothub.IotHubNameAvailabilityInfo
-      name: IotHubNameAvailabilityInfo
-      items: []
-    - uid: azure-arm-iothub.IotHubProperties
-      name: IotHubProperties
-      items: []
-    - uid: azure-arm-iothub.IotHubQuotaMetricInfo
-      name: IotHubQuotaMetricInfo
-      items: []
-    - uid: azure-arm-iothub.IotHubQuotaMetricInfoListResult
-      name: IotHubQuotaMetricInfoListResult
-      items: []
-    - uid: azure-arm-iothub.IotHubResource
-      name: IotHubResource
-      items: []
-    - uid: azure-arm-iothub.IotHubSkuDescription
-      name: IotHubSkuDescription
-      items: []
-    - uid: azure-arm-iothub.IotHubSkuDescriptionListResult
-      name: IotHubSkuDescriptionListResult
-      items: []
-    - uid: azure-arm-iothub.IotHubSkuInfo
-      name: IotHubSkuInfo
-      items: []
-    - uid: azure-arm-iothub.IpFilterRule
-      name: IpFilterRule
-      items: []
-    - uid: azure-arm-iothub.JobResponse
-      name: JobResponse
-      items: []
-    - uid: azure-arm-iothub.JobResponseListResult
-      name: JobResponseListResult
-      items: []
-    - uid: azure-arm-iothub.MatchedRoute
-      name: MatchedRoute
-      items: []
-    - uid: azure-arm-iothub.MessagingEndpointProperties
-      name: MessagingEndpointProperties
-      items: []
-    - uid: azure-arm-iothub.Name
-      name: Name
-      items: []
-    - uid: azure-arm-iothub.Operation
-      name: Operation
-      items: []
-    - uid: azure-arm-iothub.OperationDisplay
-      name: OperationDisplay
-      items: []
-    - uid: azure-arm-iothub.OperationInputs
-      name: OperationInputs
-      items: []
-    - uid: azure-arm-iothub.OperationListResult
-      name: OperationListResult
-      items: []
-    - uid: azure-arm-iothub.Operations
-      name: Operations
-      items: []
-    - uid: azure-arm-iothub.OperationsMonitoringProperties
-      name: OperationsMonitoringProperties
-      items: []
-    - uid: azure-arm-iothub.RegistryStatistics
-      name: RegistryStatistics
-      items: []
-    - uid: azure-arm-iothub.Resource
-      name: Resource
-      items: []
-    - uid: azure-arm-iothub.ResourceProviderCommon
-      name: ResourceProviderCommon
-      items: []
-    - uid: azure-arm-iothub.RouteCompilationError
-      name: RouteCompilationError
-      items: []
-    - uid: azure-arm-iothub.RouteErrorPosition
-      name: RouteErrorPosition
-      items: []
-    - uid: azure-arm-iothub.RouteErrorRange
-      name: RouteErrorRange
-      items: []
-    - uid: azure-arm-iothub.RouteProperties
-      name: RouteProperties
-      items: []
-    - uid: azure-arm-iothub.RoutingEndpoints
-      name: RoutingEndpoints
-      items: []
-    - uid: azure-arm-iothub.RoutingEventHubProperties
-      name: RoutingEventHubProperties
-      items: []
-    - uid: azure-arm-iothub.RoutingMessage
-      name: RoutingMessage
-      items: []
-    - uid: azure-arm-iothub.RoutingProperties
-      name: RoutingProperties
-      items: []
-    - uid: azure-arm-iothub.RoutingServiceBusQueueEndpointProperties
-      name: RoutingServiceBusQueueEndpointProperties
-      items: []
-    - uid: azure-arm-iothub.RoutingServiceBusTopicEndpointProperties
-      name: RoutingServiceBusTopicEndpointProperties
-      items: []
-    - uid: azure-arm-iothub.RoutingStorageContainerProperties
-      name: RoutingStorageContainerProperties
-      items: []
-    - uid: azure-arm-iothub.SharedAccessSignatureAuthorizationRule
-      name: SharedAccessSignatureAuthorizationRule
-      items: []
-    - uid: azure-arm-iothub.SharedAccessSignatureAuthorizationRuleListResult
-      name: SharedAccessSignatureAuthorizationRuleListResult
-      items: []
-    - uid: azure-arm-iothub.StorageEndpointProperties
-      name: StorageEndpointProperties
-      items: []
-    - uid: azure-arm-iothub.TagsResource
-      name: TagsResource
-      items: []
-    - uid: azure-arm-iothub.TestAllRoutesInput
-      name: TestAllRoutesInput
-      items: []
-    - uid: azure-arm-iothub.TestAllRoutesResult
-      name: TestAllRoutesResult
-      items: []
-    - uid: azure-arm-iothub.TestRouteInput
-      name: TestRouteInput
-      items: []
-    - uid: azure-arm-iothub.TestRouteResult
-      name: TestRouteResult
-      items: []
-    - uid: azure-arm-iothub.TestRouteResultDetails
-      name: TestRouteResultDetails
-      items: []
-    - uid: azure-arm-iothub.UserSubscriptionQuota
-      name: UserSubscriptionQuota
-      items: []
-    - uid: azure-arm-iothub.UserSubscriptionQuotaListResult
-      name: UserSubscriptionQuotaListResult
+    - uid: '@azure/service-bus.TopicClient'
+      name: TopicClient
       items: []
