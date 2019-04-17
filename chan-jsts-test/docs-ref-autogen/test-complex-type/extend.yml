@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.extend
+    name: 'extend(First, Second)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function extend<First>(first: First, second: Second)'
+      parameters:
+        - id: first
+          type:
+            - First
+          description: ''
+        - id: second
+          type:
+            - Second
+          description: ''
+      return:
+        type:
+          - First & Second
+    package: type2docfx
