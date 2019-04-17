@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx.A
+    name: A
+    fullName: A
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type A = IStudent & IWorker
+    package: type2docfx

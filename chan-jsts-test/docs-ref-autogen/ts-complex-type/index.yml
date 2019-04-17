@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx
+    name: type2docfx
+    summary: ''
+    children:
+      - type2docfx.A
+      - type2docfx.B
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: type2docfx.A
+    name: A
+  - uid: type2docfx.B
+    name: B
