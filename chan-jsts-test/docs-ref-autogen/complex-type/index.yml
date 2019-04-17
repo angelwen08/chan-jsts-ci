@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: type2docfx
+    name: type2docfx
+    summary: ''
+    children:
+      - type2docfx.extend
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: type2docfx.extend
+    name: 'extend(First, Second)'
