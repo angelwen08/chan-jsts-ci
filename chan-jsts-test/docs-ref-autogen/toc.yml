@@ -1,69 +1,69 @@
-- uid: azure-iot-device
-  name: azure-iot-device
+- uid: '@azure/service-bus'
+  name: '@azure/service-bus'
   items:
-    - uid: azure-iot-device.AmqpTransportOptions
-      name: AmqpTransportOptions
-      items: []
-    - uid: azure-iot-device.BlobUpload
-      name: BlobUpload
-      items: []
-    - uid: azure-iot-device.Client
+    - uid: '@azure/service-bus.Client'
       name: Client
       items: []
-    - uid: azure-iot-device.DeviceClientOptions
-      name: DeviceClientOptions
+    - uid: '@azure/service-bus.CorrelationFilter'
+      name: CorrelationFilter
       items: []
-    - uid: azure-iot-device.DeviceMethodExchange
-      name: DeviceMethodExchange
+    - uid: '@azure/service-bus.DeadLetterOptions'
+      name: DeadLetterOptions
       items: []
-    - uid: azure-iot-device.DeviceMethodRequest
-      name: DeviceMethodRequest
+    - uid: '@azure/service-bus.MessageHandlerOptions'
+      name: MessageHandlerOptions
       items: []
-    - uid: azure-iot-device.DeviceMethodResponse
-      name: DeviceMethodResponse
+    - uid: '@azure/service-bus.OnError'
+      name: OnError
       items: []
-    - uid: azure-iot-device.DeviceTransport
-      name: DeviceTransport
+    - uid: '@azure/service-bus.OnMessage'
+      name: OnMessage
       items: []
-    - uid: azure-iot-device.HttpReceiverOptions
-      name: HttpReceiverOptions
+    - uid: '@azure/service-bus.QueueClient'
+      name: QueueClient
       items: []
-    - uid: azure-iot-device.HttpTransportOptions
-      name: HttpTransportOptions
+    - uid: '@azure/service-bus.ReceivedMessage'
+      name: ReceivedMessage
       items: []
-    - uid: azure-iot-device.IotEdgeAuthenticationProvider
-      name: IotEdgeAuthenticationProvider
+    - uid: '@azure/service-bus.ReceivedMessageInfo'
+      name: ReceivedMessageInfo
       items: []
-    - uid: azure-iot-device.MethodCallback
-      name: MethodCallback
+    - uid: '@azure/service-bus.ReceiveMode'
+      name: ReceiveMode
       items: []
-    - uid: azure-iot-device.MethodParams
-      name: MethodParams
+    - uid: '@azure/service-bus.Receiver'
+      name: Receiver
       items: []
-    - uid: azure-iot-device.MethodResult
-      name: MethodResult
+    - uid: '@azure/service-bus.RuleDescription'
+      name: RuleDescription
       items: []
-    - uid: azure-iot-device.ModuleClient
-      name: ModuleClient
+    - uid: '@azure/service-bus.SendableMessageInfo'
+      name: SendableMessageInfo
       items: []
-    - uid: azure-iot-device.MqttTransportOptions
-      name: MqttTransportOptions
+    - uid: '@azure/service-bus.Sender'
+      name: Sender
       items: []
-    - uid: azure-iot-device.SharedAccessKeyAuthenticationProvider
-      name: SharedAccessKeyAuthenticationProvider
+    - uid: '@azure/service-bus.ServiceBusClient'
+      name: ServiceBusClient
       items: []
-    - uid: azure-iot-device.SharedAccessSignatureAuthenticationProvider
-      name: SharedAccessSignatureAuthenticationProvider
+    - uid: '@azure/service-bus.ServiceBusClientOptions'
+      name: ServiceBusClientOptions
       items: []
-    - uid: azure-iot-device.TransportCtor
-      name: TransportCtor
+    - uid: '@azure/service-bus.ServiceBusMessage'
+      name: ServiceBusMessage
       items: []
-    - uid: azure-iot-device.Twin
-      name: Twin
+    - uid: '@azure/service-bus.SessionMessageHandlerOptions'
+      name: SessionMessageHandlerOptions
       items: []
-    - uid: azure-iot-device.TwinProperties
-      name: TwinProperties
+    - uid: '@azure/service-bus.SessionReceiver'
+      name: SessionReceiver
       items: []
-    - uid: azure-iot-device.X509AuthenticationProvider
-      name: X509AuthenticationProvider
+    - uid: '@azure/service-bus.SessionReceiverOptions'
+      name: SessionReceiverOptions
+      items: []
+    - uid: '@azure/service-bus.SubscriptionClient'
+      name: SubscriptionClient
+      items: []
+    - uid: '@azure/service-bus.TopicClient'
+      name: TopicClient
       items: []
