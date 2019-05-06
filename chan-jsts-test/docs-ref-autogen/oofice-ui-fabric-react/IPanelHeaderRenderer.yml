@@ -1,14 +1,32 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: office-ui-fabric-react.IPanelHeaderRenderer
-    name: IPanelHeaderRenderer
+  - uid: office-ui-fabric-react.IPanelHeaderRenderer_1
+    name: >-
+      office-ui-fabric-react(IPanelProps, (props?: IPanelProps) => Element |
+      null)
     fullName: IPanelHeaderRenderer
     children: []
     syntax:
-      content: ''
+      content: >-
+        new office-ui-fabric-react(props?: IPanelProps, defaultRender?: (props?:
+        IPanelProps) => Element | null)
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IPanelProps
+          description: ''
+          optional: true
+        - id: defaultRender
+          type:
+            - '(props?: IPanelProps) => Element | null'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Element | null
     langs:
       - typeScript
-    type: interface
+    type: constructor
     summary: >-
       Renderer function which takes an additional parameter, the ID to use for
       the element containing
@@ -26,6 +44,12 @@ items:
       name: IRenderFunction<office-ui-fabric-react.IPanelProps>
     package: office-ui-fabric-react
 references:
+  - uid: office-ui-fabric-react.IPanelProps
+    name: IPanelProps
+    spec.typeScript:
+      - name: IPanelProps
+        fullName: IPanelProps
+        uid: office-ui-fabric-react.IPanelProps
   - uid: IRenderFunction<office-ui-fabric-react.IPanelProps>
     name: IPanelProps>
     spec.typeScript:
