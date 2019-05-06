@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardStyles
+    name: IDocumentCardStyles
+    fullName: IDocumentCardStyles
+    children:
+      - office-ui-fabric-react.IDocumentCardStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

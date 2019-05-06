@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGroupedListExampleState
+    name: IGroupedListExampleState
+    fullName: IGroupedListExampleState
+    children:
+      - office-ui-fabric-react.IGroupedListExampleState.isCompactMode
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListExampleState.isCompactMode
+    name: isCompactMode
+    fullName: isCompactMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isCompactMode?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

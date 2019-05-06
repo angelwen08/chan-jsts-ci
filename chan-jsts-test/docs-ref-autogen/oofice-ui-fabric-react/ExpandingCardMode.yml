@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ExpandingCardMode
+    name: ExpandingCardMode
+    fullName: ExpandingCardMode
+    children:
+      - office-ui-fabric-react.ExpandingCardMode.compact
+      - office-ui-fabric-react.ExpandingCardMode.expanded
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: '{@docCategory HoverCard}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExpandingCardMode.compact
+    name: compact
+    children: []
+    langs:
+      - typeScript
+    summary: To have top compact card only
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExpandingCardMode.expanded
+    name: expanded
+    children: []
+    langs:
+      - typeScript
+    summary: To have both top compact and bottom expanded card
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react

@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getContrastRatio
+    name: 'getContrastRatio(IColor, IColor)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getContrastRatio(color1: IColor, color2: IColor)'
+      parameters:
+        - id: color1
+          type:
+            - office-ui-fabric-react.IColor
+          description: ''
+        - id: color2
+          type:
+            - office-ui-fabric-react.IColor
+          description: ''
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor

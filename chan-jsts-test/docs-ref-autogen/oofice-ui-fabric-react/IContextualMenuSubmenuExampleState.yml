@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IContextualMenuSubmenuExampleState
+    name: IContextualMenuSubmenuExampleState
+    fullName: IContextualMenuSubmenuExampleState
+    children:
+      - office-ui-fabric-react.IContextualMenuSubmenuExampleState.hoverDelay
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuSubmenuExampleState.hoverDelay
+    name: hoverDelay
+    fullName: hoverDelay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'hoverDelay: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

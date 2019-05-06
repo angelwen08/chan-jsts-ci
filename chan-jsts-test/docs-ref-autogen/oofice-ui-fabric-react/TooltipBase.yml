@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TooltipBase
+    name: TooltipBase
+    fullName: TooltipBase<SS>
+    children:
+      - office-ui-fabric-react.TooltipBase.defaultProps
+      - office-ui-fabric-react.TooltipBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<office-ui-fabric-react.ITooltipProps, any>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Partial<ITooltipProps>'
+      return:
+        type:
+          - Partial<office-ui-fabric-react.ITooltipProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<office-ui-fabric-react.ITooltipProps, any>'
+    name: 'ITooltipProps, any>'
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: ITooltipProps
+        fullName: ITooltipProps
+        uid: office-ui-fabric-react.ITooltipProps
+      - name: ', any>'
+        fullName: ', any>'
+  - uid: Partial<office-ui-fabric-react.ITooltipProps>
+    name: ITooltipProps>
+    spec.typeScript:
+      - name: Partial<
+        fullName: Partial<
+      - name: ITooltipProps
+        fullName: ITooltipProps
+        uid: office-ui-fabric-react.ITooltipProps
+      - name: '>'
+        fullName: '>'

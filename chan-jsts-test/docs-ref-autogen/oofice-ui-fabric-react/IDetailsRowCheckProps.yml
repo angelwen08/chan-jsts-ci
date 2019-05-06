@@ -1,0 +1,240 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps
+    name: IDetailsRowCheckProps
+    fullName: IDetailsRowCheckProps
+    children:
+      - office-ui-fabric-react.IDetailsRowCheckProps.anySelected
+      - office-ui-fabric-react.IDetailsRowCheckProps.canSelect
+      - office-ui-fabric-react.IDetailsRowCheckProps.checkClassName
+      - office-ui-fabric-react.IDetailsRowCheckProps.className
+      - office-ui-fabric-react.IDetailsRowCheckProps.compact
+      - office-ui-fabric-react.IDetailsRowCheckProps.isHeader
+      - office-ui-fabric-react.IDetailsRowCheckProps.isSelected
+      - office-ui-fabric-react.IDetailsRowCheckProps.isVisible
+      - office-ui-fabric-react.IDetailsRowCheckProps.onRenderDetailsCheckbox
+      - office-ui-fabric-react.IDetailsRowCheckProps.selected
+      - office-ui-fabric-react.IDetailsRowCheckProps.styles
+      - office-ui-fabric-react.IDetailsRowCheckProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    extends:
+      name: HTMLAttributes<HTMLElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.anySelected
+    name: anySelected
+    fullName: anySelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is any selected - also true for isSelectionModal
+    optional: true
+    syntax:
+      content: 'anySelected?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.canSelect
+    name: canSelect
+    fullName: canSelect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Can this checkbox be selectable
+    syntax:
+      content: 'canSelect: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.checkClassName
+    name: checkClassName
+    fullName: checkClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The classname to be passed down to Check component
+    optional: true
+    syntax:
+      content: 'checkClassName?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional className to attach to the slider root element.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.compact
+    name: compact
+    fullName: compact
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is this in compact mode?
+    optional: true
+    syntax:
+      content: 'compact?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.isHeader
+    name: isHeader
+    fullName: isHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is the check part of the header in a DetailsList
+    optional: true
+    syntax:
+      content: 'isHeader?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Deprecated, use `selected` instead.'
+    optional: true
+    syntax:
+      content: 'isSelected?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `selected` instead.
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.isVisible
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether or not this checkbox is visible
+    optional: true
+    syntax:
+      content: 'isVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.onRenderDetailsCheckbox
+    name: onRenderDetailsCheckbox
+    fullName: onRenderDetailsCheckbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If provided, can be used to render a custom checkbox'
+    optional: true
+    syntax:
+      content: 'onRenderDetailsCheckbox?: IRenderFunction<IDetailsCheckboxProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IDetailsCheckboxProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.selected
+    name: selected
+    fullName: selected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether or not this check is selected
+    optional: true
+    syntax:
+      content: 'selected?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IDetailsRowCheckStyleProps,
+        IDetailsRowCheckStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IDetailsRowCheckStyleProps,
+            office-ui-fabric-react.IDetailsRowCheckStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: IRenderFunction<office-ui-fabric-react.IDetailsCheckboxProps>
+    name: IDetailsCheckboxProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IDetailsCheckboxProps
+        fullName: IDetailsCheckboxProps
+        uid: office-ui-fabric-react.IDetailsCheckboxProps
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IDetailsRowCheckStyleProps,
+      office-ui-fabric-react.IDetailsRowCheckStyles>
+    name: IDetailsRowCheckStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IDetailsRowCheckStyleProps
+        fullName: IDetailsRowCheckStyleProps
+        uid: office-ui-fabric-react.IDetailsRowCheckStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IDetailsRowCheckStyles
+        fullName: IDetailsRowCheckStyles
+        uid: office-ui-fabric-react.IDetailsRowCheckStyles
+      - name: '>'
+        fullName: '>'

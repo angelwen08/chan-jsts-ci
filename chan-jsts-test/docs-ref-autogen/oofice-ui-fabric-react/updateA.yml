@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.updateA
+    name: 'updateA(IColor, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Gets a color with the given alpha value and the same other components as
+      `color`.
+
+      Does not modify the original color.
+    syntax:
+      content: 'function updateA(color: IColor, a: number)'
+      parameters:
+        - id: color
+          type:
+            - office-ui-fabric-react.IColor
+          description: ''
+        - id: a
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.IColor
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor

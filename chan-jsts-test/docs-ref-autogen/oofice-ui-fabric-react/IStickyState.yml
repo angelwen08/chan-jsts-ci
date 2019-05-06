@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IStickyState
+    name: IStickyState
+    fullName: IStickyState
+    children:
+      - office-ui-fabric-react.IStickyState.distanceFromTop
+      - office-ui-fabric-react.IStickyState.isStickyBottom
+      - office-ui-fabric-react.IStickyState.isStickyTop
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStickyState.distanceFromTop
+    name: distanceFromTop
+    fullName: distanceFromTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'distanceFromTop?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStickyState.isStickyBottom
+    name: isStickyBottom
+    fullName: isStickyBottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isStickyBottom: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStickyState.isStickyTop
+    name: isStickyTop
+    fullName: isStickyTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isStickyTop: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

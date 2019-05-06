@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IScrollablePaneStyles
+    name: IScrollablePaneStyles
+    fullName: IScrollablePaneStyles
+    children:
+      - office-ui-fabric-react.IScrollablePaneStyles.contentContainer
+      - office-ui-fabric-react.IScrollablePaneStyles.root
+      - office-ui-fabric-react.IScrollablePaneStyles.stickyAbove
+      - office-ui-fabric-react.IScrollablePaneStyles.stickyBelow
+      - office-ui-fabric-react.IScrollablePaneStyles.stickyBelowItems
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ScrollablePane}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneStyles.contentContainer
+    name: contentContainer
+    fullName: contentContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the contentContainer element.
+    syntax:
+      content: 'contentContainer: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneStyles.stickyAbove
+    name: stickyAbove
+    fullName: stickyAbove
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the stickyAbove element.
+    syntax:
+      content: 'stickyAbove: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneStyles.stickyBelow
+    name: stickyBelow
+    fullName: stickyBelow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the stickyBelow element.
+    syntax:
+      content: 'stickyBelow: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneStyles.stickyBelowItems
+    name: stickyBelowItems
+    fullName: stickyBelowItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the stickyBelowItems element.
+    syntax:
+      content: 'stickyBelowItems: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

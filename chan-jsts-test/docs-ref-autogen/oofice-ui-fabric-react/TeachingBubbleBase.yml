@@ -1,0 +1,114 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TeachingBubbleBase
+    name: TeachingBubbleBase
+    fullName: TeachingBubbleBase<SS>
+    children:
+      - office-ui-fabric-react.TeachingBubbleBase.defaultProps
+      - office-ui-fabric-react.TeachingBubbleBase.focus
+      - office-ui-fabric-react.TeachingBubbleBase.render
+      - office-ui-fabric-react.TeachingBubbleBase.rootElement
+      - office-ui-fabric-react.TeachingBubbleBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.ITeachingBubbleProps,
+        office-ui-fabric-react.ITeachingBubbleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleBase.rootElement
+    name: rootElement
+    fullName: rootElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rootElement: RefObject<HTMLDivElement>'
+      return:
+        type:
+          - RefObject<HTMLDivElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleBase.constructor
+    name: TeachingBubbleBase(ITeachingBubbleProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TeachingBubbleBase(props: ITeachingBubbleProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ITeachingBubbleProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.ITeachingBubbleProps,
+      office-ui-fabric-react.ITeachingBubbleState>
+    name: ITeachingBubbleState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: ITeachingBubbleProps
+        fullName: ITeachingBubbleProps
+        uid: office-ui-fabric-react.ITeachingBubbleProps
+      - name: ', '
+        fullName: ', '
+      - name: ITeachingBubbleState
+        fullName: ITeachingBubbleState
+        uid: office-ui-fabric-react.ITeachingBubbleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ITeachingBubbleProps
+    name: ITeachingBubbleProps
+    spec.typeScript:
+      - name: ITeachingBubbleProps
+        fullName: ITeachingBubbleProps
+        uid: office-ui-fabric-react.ITeachingBubbleProps

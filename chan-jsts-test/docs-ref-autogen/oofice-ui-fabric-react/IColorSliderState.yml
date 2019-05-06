@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IColorSliderState
+    name: IColorSliderState
+    fullName: IColorSliderState
+    children:
+      - office-ui-fabric-react.IColorSliderState.currentValue
+      - office-ui-fabric-react.IColorSliderState.isAdjusting
+      - office-ui-fabric-react.IColorSliderState.origin
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorSliderState.currentValue
+    name: currentValue
+    fullName: currentValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'currentValue?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorSliderState.isAdjusting
+    name: isAdjusting
+    fullName: isAdjusting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isAdjusting?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorSliderState.origin
+    name: origin
+    fullName: origin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'origin?: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react

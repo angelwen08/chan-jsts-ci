@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsRowCheckStyles
+    name: IDetailsRowCheckStyles
+    fullName: IDetailsRowCheckStyles
+    children:
+      - office-ui-fabric-react.IDetailsRowCheckStyles.check
+      - office-ui-fabric-react.IDetailsRowCheckStyles.isDisabled
+      - office-ui-fabric-react.IDetailsRowCheckStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckStyles.check
+    name: check
+    fullName: check
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'check: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckStyles.isDisabled
+    name: isDisabled
+    fullName: isDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowCheckStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

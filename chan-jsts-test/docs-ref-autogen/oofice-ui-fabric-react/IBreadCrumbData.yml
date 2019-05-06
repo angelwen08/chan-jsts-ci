@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBreadcrumbData
+    name: IBreadcrumbData
+    fullName: IBreadcrumbData
+    children:
+      - office-ui-fabric-react.IBreadcrumbData.props
+      - office-ui-fabric-react.IBreadcrumbData.renderedItems
+      - office-ui-fabric-react.IBreadcrumbData.renderedOverflowItems
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Breadcrumb}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBreadcrumbData.props
+    name: props
+    fullName: props
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'props: IBreadcrumbProps'
+      return:
+        type:
+          - office-ui-fabric-react.IBreadcrumbProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBreadcrumbData.renderedItems
+    name: renderedItems
+    fullName: renderedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'renderedItems: IBreadcrumbItem[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IBreadcrumbItem[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBreadcrumbData.renderedOverflowItems
+    name: renderedOverflowItems
+    fullName: renderedOverflowItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'renderedOverflowItems: IBreadcrumbItem[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IBreadcrumbItem[]'
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IBreadcrumbProps
+    name: IBreadcrumbProps
+    spec.typeScript:
+      - name: IBreadcrumbProps
+        fullName: IBreadcrumbProps
+        uid: office-ui-fabric-react.IBreadcrumbProps
+  - uid: 'office-ui-fabric-react.IBreadcrumbItem[]'
+    name: 'IBreadcrumbItem[]'
+    spec.typeScript:
+      - name: IBreadcrumbItem
+        fullName: IBreadcrumbItem
+        uid: office-ui-fabric-react.IBreadcrumbItem
+      - name: '[]'
+        fullName: '[]'

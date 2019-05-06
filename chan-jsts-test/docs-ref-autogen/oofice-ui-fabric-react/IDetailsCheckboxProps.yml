@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsCheckboxProps
+    name: IDetailsCheckboxProps
+    fullName: IDetailsCheckboxProps
+    children:
+      - office-ui-fabric-react.IDetailsCheckboxProps.checked
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsCheckboxProps.checked
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'checked: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

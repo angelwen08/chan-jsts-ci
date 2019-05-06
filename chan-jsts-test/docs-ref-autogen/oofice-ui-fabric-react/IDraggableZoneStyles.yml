@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDraggableZoneStyles
+    name: IDraggableZoneStyles
+    fullName: IDraggableZoneStyles
+    children:
+      - office-ui-fabric-react.IDraggableZoneStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

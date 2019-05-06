@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SelectedItemWithMenu
+    name: SelectedItemWithMenu
+    fullName: SelectedItemWithMenu<SS>
+    children:
+      - office-ui-fabric-react.SelectedItemWithMenu.refs
+      - office-ui-fabric-react.SelectedItemWithMenu.render
+      - office-ui-fabric-react.SelectedItemWithMenu.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: PeoplePickerItem with an additional contextual menu.
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IPeoplePickerItemWithMenuProps,
+        office-ui-fabric-react.IPeoplePickerItemWithMenuState>
+    package: office-ui-fabric-react
+    deprecated:
+      content: Do not use. Will be removed in Fabric 7.0
+  - uid: office-ui-fabric-react.SelectedItemWithMenu.refs
+    name: refs
+    fullName: refs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'refs: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SelectedItemWithMenu.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SelectedItemWithMenu.constructor
+    name: SelectedItemWithMenu(IPeoplePickerItemWithMenuProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SelectedItemWithMenu(props: IPeoplePickerItemWithMenuProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IPeoplePickerItemWithMenuProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IPeoplePickerItemWithMenuProps,
+      office-ui-fabric-react.IPeoplePickerItemWithMenuState>
+    name: IPeoplePickerItemWithMenuState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IPeoplePickerItemWithMenuProps
+        fullName: IPeoplePickerItemWithMenuProps
+        uid: office-ui-fabric-react.IPeoplePickerItemWithMenuProps
+      - name: ', '
+        fullName: ', '
+      - name: IPeoplePickerItemWithMenuState
+        fullName: IPeoplePickerItemWithMenuState
+        uid: office-ui-fabric-react.IPeoplePickerItemWithMenuState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IPeoplePickerItemWithMenuProps
+    name: IPeoplePickerItemWithMenuProps
+    spec.typeScript:
+      - name: IPeoplePickerItemWithMenuProps
+        fullName: IPeoplePickerItemWithMenuProps
+        uid: office-ui-fabric-react.IPeoplePickerItemWithMenuProps

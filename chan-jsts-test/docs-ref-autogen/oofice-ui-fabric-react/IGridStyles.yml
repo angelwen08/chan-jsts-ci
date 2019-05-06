@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGridStyles
+    name: IGridStyles
+    fullName: IGridStyles
+    children:
+      - office-ui-fabric-react.IGridStyles.focusedContainer
+      - office-ui-fabric-react.IGridStyles.root
+      - office-ui-fabric-react.IGridStyles.tableCell
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: Styles for the Grid Component.
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridStyles.focusedContainer
+    name: focusedContainer
+    fullName: focusedContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, style for the FocusZone container for the grid'
+    optional: true
+    syntax:
+      content: 'focusedContainer?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the table container of a grid.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridStyles.tableCell
+    name: tableCell
+    fullName: tableCell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the table cells of the grid.
+    syntax:
+      content: 'tableCell: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

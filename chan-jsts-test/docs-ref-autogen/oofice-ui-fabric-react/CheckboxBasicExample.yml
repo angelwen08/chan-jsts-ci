@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.CheckboxBasicExample
+    name: CheckboxBasicExample
+    fullName: CheckboxBasicExample<SS>
+    children:
+      - office-ui-fabric-react.CheckboxBasicExample.constructor
+      - office-ui-fabric-react.CheckboxBasicExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, office-ui-fabric-react.ICheckboxBasicExampleState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CheckboxBasicExample.constructor
+    name: CheckboxBasicExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CheckboxBasicExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CheckboxBasicExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<__type, office-ui-fabric-react.ICheckboxBasicExampleState>'
+    name: ICheckboxBasicExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: ICheckboxBasicExampleState
+        fullName: ICheckboxBasicExampleState
+        uid: office-ui-fabric-react.ICheckboxBasicExampleState
+      - name: '>'
+        fullName: '>'

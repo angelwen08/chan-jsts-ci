@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.isRelativeUrl
+    name: isRelativeUrl(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isRelativeUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

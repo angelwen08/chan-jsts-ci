@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPeoplePickerItemSelectedSubComponentStyles
+    name: IPeoplePickerItemSelectedSubComponentStyles
+    fullName: IPeoplePickerItemSelectedSubComponentStyles
+    children:
+      - >-
+        office-ui-fabric-react.IPeoplePickerItemSelectedSubComponentStyles.persona
+      - >-
+        office-ui-fabric-react.IPeoplePickerItemSelectedSubComponentStyles.personaCoin
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Styles interface of the SubComponents rendered within
+      PeoplePickerItemSelected.
+
+      {@docCategory PeoplePicker}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPeoplePickerItemSelectedSubComponentStyles.persona
+    name: persona
+    fullName: persona
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the Persona rendered within the PeoplePickerItemSelected
+    syntax:
+      content: 'persona: IStyleFunctionOrObject<IPersonaStyleProps, any>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IPersonaStyleProps,
+            any>
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IPeoplePickerItemSelectedSubComponentStyles.personaCoin
+    name: personaCoin
+    fullName: personaCoin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Refers to the PersonaCoin in the Persona rendered within the
+      PeoplePickerItemSelected
+    optional: true
+    syntax:
+      content: 'personaCoin?: IStyleFunctionOrObject<IPersonaCoinStyleProps, any>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IPersonaCoinStyleProps,
+            any>
+    package: office-ui-fabric-react
+references:
+  - uid: 'IStyleFunctionOrObject<office-ui-fabric-react.IPersonaStyleProps, any>'
+    name: 'IPersonaStyleProps, any>'
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IPersonaStyleProps
+        fullName: IPersonaStyleProps
+        uid: office-ui-fabric-react.IPersonaStyleProps
+      - name: ', any>'
+        fullName: ', any>'
+  - uid: 'IStyleFunctionOrObject<office-ui-fabric-react.IPersonaCoinStyleProps, any>'
+    name: 'IPersonaCoinStyleProps, any>'
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IPersonaCoinStyleProps
+        fullName: IPersonaCoinStyleProps
+        uid: office-ui-fabric-react.IPersonaCoinStyleProps
+      - name: ', any>'
+        fullName: ', any>'

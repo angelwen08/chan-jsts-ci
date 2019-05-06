@@ -1,0 +1,273 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TextFieldBase
+    name: TextFieldBase
+    fullName: TextFieldBase<SS>
+    children:
+      - office-ui-fabric-react.TextFieldBase.blur
+      - office-ui-fabric-react.TextFieldBase.componentDidMount
+      - office-ui-fabric-react.TextFieldBase.componentDidUpdate
+      - office-ui-fabric-react.TextFieldBase.componentWillReceiveProps
+      - office-ui-fabric-react.TextFieldBase.componentWillUnmount
+      - office-ui-fabric-react.TextFieldBase.defaultProps
+      - office-ui-fabric-react.TextFieldBase.focus
+      - office-ui-fabric-react.TextFieldBase.render
+      - office-ui-fabric-react.TextFieldBase.select
+      - office-ui-fabric-react.TextFieldBase.selectionEnd
+      - office-ui-fabric-react.TextFieldBase.selectionStart
+      - office-ui-fabric-react.TextFieldBase.setSelectionEnd
+      - office-ui-fabric-react.TextFieldBase.setSelectionRange
+      - office-ui-fabric-react.TextFieldBase.setSelectionStart
+      - office-ui-fabric-react.TextFieldBase.constructor
+      - office-ui-fabric-react.TextFieldBase.value
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.ITextFieldProps,
+        office-ui-fabric-react.ITextFieldState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.blur
+    name: blur()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Blurs the text field.
+    syntax:
+      content: function blur()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.componentDidUpdate
+    name: componentDidUpdate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.componentWillReceiveProps
+    name: componentWillReceiveProps(ITextFieldProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: ITextFieldProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.ITextFieldProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: ITextFieldProps'
+      return:
+        type:
+          - office-ui-fabric-react.ITextFieldProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets focus on the text field
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.select
+    name: select()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Selects the text field
+    syntax:
+      content: function select()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.selectionEnd
+    name: selectionEnd
+    fullName: selectionEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the selection end of the text field
+    syntax:
+      content: 'selectionEnd: number | null'
+      return:
+        type:
+          - number | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.selectionStart
+    name: selectionStart
+    fullName: selectionStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the selection start of the text field
+    syntax:
+      content: 'selectionStart: number | null'
+      return:
+        type:
+          - number | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.setSelectionEnd
+    name: setSelectionEnd(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the selection end of the text field to a specified value
+    syntax:
+      content: 'function setSelectionEnd(value: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.setSelectionRange
+    name: 'setSelectionRange(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the start and end positions of a selection in a text field.
+    syntax:
+      content: 'function setSelectionRange(start: number, end: number)'
+      parameters:
+        - id: start
+          type:
+            - number
+          description: Index of the start of the selection.
+        - id: end
+          type:
+            - number
+          description: |
+            Index of the end of the selection.
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.setSelectionStart
+    name: setSelectionStart(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the selection start of the text field to a specified value
+    syntax:
+      content: 'function setSelectionStart(value: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.constructor
+    name: TextFieldBase(ITextFieldProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TextFieldBase(props: ITextFieldProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ITextFieldProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldBase.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the current value of the text field.
+    syntax:
+      content: 'value: string | undefined'
+      return:
+        type:
+          - string | undefined
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.ITextFieldProps,
+      office-ui-fabric-react.ITextFieldState>
+    name: ITextFieldState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: ITextFieldProps
+        fullName: ITextFieldProps
+        uid: office-ui-fabric-react.ITextFieldProps
+      - name: ', '
+        fullName: ', '
+      - name: ITextFieldState
+        fullName: ITextFieldState
+        uid: office-ui-fabric-react.ITextFieldState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ITextFieldProps
+    name: ITextFieldProps
+    spec.typeScript:
+      - name: ITextFieldProps
+        fullName: ITextFieldProps
+        uid: office-ui-fabric-react.ITextFieldProps

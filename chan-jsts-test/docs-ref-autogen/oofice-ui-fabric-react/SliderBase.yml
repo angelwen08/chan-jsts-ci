@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SliderBase
+    name: SliderBase
+    fullName: SliderBase<SS>
+    children:
+      - office-ui-fabric-react.SliderBase.componentWillReceiveProps
+      - office-ui-fabric-react.SliderBase.defaultProps
+      - office-ui-fabric-react.SliderBase.focus
+      - office-ui-fabric-react.SliderBase.render
+      - office-ui-fabric-react.SliderBase.constructor
+      - office-ui-fabric-react.SliderBase.value
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.ISliderProps,
+        office-ui-fabric-react.ISliderState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SliderBase.componentWillReceiveProps
+    name: componentWillReceiveProps(ISliderProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Invoked when a component is receiving new props. This method is not called
+      for the initial render.
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: ISliderProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.ISliderProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SliderBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: ISliderProps'
+      return:
+        type:
+          - office-ui-fabric-react.ISliderProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SliderBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SliderBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - ReactElement<__type>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SliderBase.constructor
+    name: SliderBase(ISliderProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SliderBase(props: ISliderProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ISliderProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SliderBase.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: number | undefined'
+      return:
+        type:
+          - number | undefined
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.ISliderProps,
+      office-ui-fabric-react.ISliderState>
+    name: ISliderState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: ISliderProps
+        fullName: ISliderProps
+        uid: office-ui-fabric-react.ISliderProps
+      - name: ', '
+        fullName: ', '
+      - name: ISliderState
+        fullName: ISliderState
+        uid: office-ui-fabric-react.ISliderState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ISliderProps
+    name: ISliderProps
+    spec.typeScript:
+      - name: ISliderProps
+        fullName: ISliderProps
+        uid: office-ui-fabric-react.ISliderProps

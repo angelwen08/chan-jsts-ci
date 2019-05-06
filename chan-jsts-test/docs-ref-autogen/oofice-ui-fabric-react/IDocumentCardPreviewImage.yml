@@ -1,0 +1,260 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage
+    name: IDocumentCardPreviewImage
+    fullName: IDocumentCardPreviewImage
+    children:
+      - office-ui-fabric-react.IDocumentCardPreviewImage.accentColor
+      - office-ui-fabric-react.IDocumentCardPreviewImage.componentRef
+      - office-ui-fabric-react.IDocumentCardPreviewImage.errorImageSrc
+      - office-ui-fabric-react.IDocumentCardPreviewImage.height
+      - office-ui-fabric-react.IDocumentCardPreviewImage.iconSrc
+      - office-ui-fabric-react.IDocumentCardPreviewImage.imageFit
+      - office-ui-fabric-react.IDocumentCardPreviewImage.linkProps
+      - office-ui-fabric-react.IDocumentCardPreviewImage.name
+      - >-
+        office-ui-fabric-react.IDocumentCardPreviewImage.previewIconContainerClass
+      - office-ui-fabric-react.IDocumentCardPreviewImage.previewIconProps
+      - office-ui-fabric-react.IDocumentCardPreviewImage.previewImageSrc
+      - office-ui-fabric-react.IDocumentCardPreviewImage.url
+      - office-ui-fabric-react.IDocumentCardPreviewImage.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.accentColor
+    name: accentColor
+    fullName: accentColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Hex color value of the line below the preview, which should correspond to
+      the document type.
+
+      Deprecated at v4.17.1, to be removed at \>= v5.0.0.
+    optional: true
+    syntax:
+      content: 'accentColor?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: To be removed at v5.0.0.
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the component ref.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<__type>'
+      return:
+        type:
+          - IRefObject<__type>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.errorImageSrc
+    name: errorImageSrc
+    fullName: errorImageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Deprecated at v1.3.6, to be removed at \>= v2.0.0.'
+    optional: true
+    syntax:
+      content: 'errorImageSrc?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: To be removed at v2.0.0.
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If provided, forces the preview image to be this height.'
+    optional: true
+    syntax:
+      content: 'height?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.iconSrc
+    name: iconSrc
+    fullName: iconSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Path to the icon associated with this document type.
+    optional: true
+    syntax:
+      content: 'iconSrc?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.imageFit
+    name: imageFit
+    fullName: imageFit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Used to determine how to size the image to fit the dimensions of the
+      component.
+
+      If both dimensions are provided, then the image is fit using
+      ImageFit.scale, otherwise ImageFit.none is used.
+    optional: true
+    syntax:
+      content: 'imageFit?: ImageFit'
+      return:
+        type:
+          - office-ui-fabric-react.ImageFit
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.linkProps
+    name: linkProps
+    fullName: linkProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Props to pass to Link component
+    optional: true
+    syntax:
+      content: 'linkProps?: ILinkProps'
+      return:
+        type:
+          - office-ui-fabric-react.ILinkProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: File name for the document this preview represents.
+    optional: true
+    syntax:
+      content: 'name?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.previewIconContainerClass
+    name: previewIconContainerClass
+    fullName: previewIconContainerClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The props for the preview icon container classname.
+      If provided, icon container classname will be used..
+    optional: true
+    syntax:
+      content: 'previewIconContainerClass?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.previewIconProps
+    name: previewIconProps
+    fullName: previewIconProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The props for the preview icon.
+      If provided, icon will be rendered instead of image.
+    optional: true
+    syntax:
+      content: 'previewIconProps?: IIconProps'
+      return:
+        type:
+          - office-ui-fabric-react.IIconProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.previewImageSrc
+    name: previewImageSrc
+    fullName: previewImageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Path to the preview image.
+    optional: true
+    syntax:
+      content: 'previewImageSrc?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: URL to view the file.
+    optional: true
+    syntax:
+      content: 'url?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `href` inside of `linkProps` instead.
+  - uid: office-ui-fabric-react.IDocumentCardPreviewImage.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If provided, forces the preview image to be this width.'
+    optional: true
+    syntax:
+      content: 'width?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ImageFit
+    name: ImageFit
+    spec.typeScript:
+      - name: ImageFit
+        fullName: ImageFit
+        uid: office-ui-fabric-react.ImageFit
+  - uid: office-ui-fabric-react.ILinkProps
+    name: ILinkProps
+    spec.typeScript:
+      - name: ILinkProps
+        fullName: ILinkProps
+        uid: office-ui-fabric-react.ILinkProps
+  - uid: office-ui-fabric-react.IIconProps
+    name: IIconProps
+    spec.typeScript:
+      - name: IIconProps
+        fullName: IIconProps
+        uid: office-ui-fabric-react.IIconProps

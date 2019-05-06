@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.FabricBase
+    name: FabricBase
+    fullName: FabricBase<SS>
+    children:
+      - office-ui-fabric-react.FabricBase.componentDidMount
+      - office-ui-fabric-react.FabricBase.componentWillUnmount
+      - office-ui-fabric-react.FabricBase.constructor
+      - office-ui-fabric-react.FabricBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<office-ui-fabric-react.IFabricProps, Object>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricBase.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricBase.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricBase.constructor
+    name: FabricBase(IFabricProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FabricBase(props: IFabricProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IFabricProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<office-ui-fabric-react.IFabricProps, Object>'
+    name: 'IFabricProps, Object>'
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IFabricProps
+        fullName: IFabricProps
+        uid: office-ui-fabric-react.IFabricProps
+      - name: ', Object>'
+        fullName: ', Object>'
+  - uid: office-ui-fabric-react.IFabricProps
+    name: IFabricProps
+    spec.typeScript:
+      - name: IFabricProps
+        fullName: IFabricProps
+        uid: office-ui-fabric-react.IFabricProps

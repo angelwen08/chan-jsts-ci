@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPickerItem
+    name: IPickerItem
+    fullName: IPickerItem
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      PickerItem component.
+      {@docCategory Pickers}
+    package: office-ui-fabric-react

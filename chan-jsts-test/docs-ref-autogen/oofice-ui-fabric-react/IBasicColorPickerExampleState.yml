@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBasicColorPickerExampleState
+    name: IBasicColorPickerExampleState
+    fullName: IBasicColorPickerExampleState
+    children:
+      - office-ui-fabric-react.IBasicColorPickerExampleState.alphaSliderHidden
+      - office-ui-fabric-react.IBasicColorPickerExampleState.color
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasicColorPickerExampleState.alphaSliderHidden
+    name: alphaSliderHidden
+    fullName: alphaSliderHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'alphaSliderHidden: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasicColorPickerExampleState.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'color: IColor'
+      return:
+        type:
+          - office-ui-fabric-react.IColor
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor

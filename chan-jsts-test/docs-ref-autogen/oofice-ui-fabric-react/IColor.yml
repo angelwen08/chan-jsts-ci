@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    fullName: IColor
+    children:
+      - office-ui-fabric-react.IColor.hex
+      - office-ui-fabric-react.IColor.str
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: office-ui-fabric-react.IRGB
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColor.hex
+    name: hex
+    fullName: hex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Hex string for the color (excluding alpha component), *not* prefixed with
+      #.
+    syntax:
+      content: 'hex: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColor.str
+    name: str
+    fullName: str
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'CSS color string. If a hex value, it must be prefixed with #.'
+    syntax:
+      content: 'str: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IRGB
+    name: IRGB
+    spec.typeScript:
+      - name: IRGB
+        fullName: IRGB
+        uid: office-ui-fabric-react.IRGB

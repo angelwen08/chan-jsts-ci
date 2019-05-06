@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IComboBoxOptionStyles
+    name: IComboBoxOptionStyles
+    fullName: IComboBoxOptionStyles
+    children:
+      - office-ui-fabric-react.IComboBoxOptionStyles.optionText
+      - office-ui-fabric-react.IComboBoxOptionStyles.optionTextWrapper
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ComboBox}'
+    extends:
+      name: office-ui-fabric-react.IButtonStyles
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxOptionStyles.optionText
+    name: optionText
+    fullName: optionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Styles for the text inside the comboBox option.
+      This should be used instead of the description
+      inside IButtonStyles because we custom render the text
+      in the comboBox options.
+    syntax:
+      content: 'optionText: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxOptionStyles.optionTextWrapper
+    name: optionTextWrapper
+    fullName: optionTextWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the comboBox option text's wrapper.
+    syntax:
+      content: 'optionTextWrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IButtonStyles
+    name: IButtonStyles
+    spec.typeScript:
+      - name: IButtonStyles
+        fullName: IButtonStyles
+        uid: office-ui-fabric-react.IButtonStyles

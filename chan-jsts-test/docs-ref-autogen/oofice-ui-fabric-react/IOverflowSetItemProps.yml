@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IOverflowSetItemProps
+    name: IOverflowSetItemProps
+    fullName: IOverflowSetItemProps
+    children:
+      - office-ui-fabric-react.IOverflowSetItemProps.key
+      - office-ui-fabric-react.IOverflowSetItemProps.keytipProps
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory OverflowSet}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IOverflowSetItemProps.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Unique id to identify the item.
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IOverflowSetItemProps.keytipProps
+    name: keytipProps
+    fullName: keytipProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional keytip for the overflowSetItem.
+    optional: true
+    syntax:
+      content: 'keytipProps?: IKeytipProps'
+      return:
+        type:
+          - office-ui-fabric-react.IKeytipProps
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IKeytipProps
+    name: IKeytipProps
+    spec.typeScript:
+      - name: IKeytipProps
+        fullName: IKeytipProps
+        uid: office-ui-fabric-react.IKeytipProps

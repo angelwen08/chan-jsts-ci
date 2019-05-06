@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITextStylesReturnType
+    name: ITextStylesReturnType
+    fullName: ITextStylesReturnType
+    children: []
+    syntax:
+      content: type ITextStylesReturnType = ReturnType
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory Text}'
+    package: office-ui-fabric-react

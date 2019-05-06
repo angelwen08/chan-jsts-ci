@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IExpandingCardStyleProps
+    name: IExpandingCardStyleProps
+    fullName: IExpandingCardStyleProps
+    children:
+      - office-ui-fabric-react.IExpandingCardStyleProps.compactCardHeight
+      - >-
+        office-ui-fabric-react.IExpandingCardStyleProps.expandedCardFirstFrameRendered
+      - office-ui-fabric-react.IExpandingCardStyleProps.expandedCardHeight
+      - office-ui-fabric-react.IExpandingCardStyleProps.needsScroll
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory HoverCard}'
+    extends:
+      name: office-ui-fabric-react.IBaseCardStyleProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IExpandingCardStyleProps.compactCardHeight
+    name: compactCardHeight
+    fullName: compactCardHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Height of the compact section of the card.
+    optional: true
+    syntax:
+      content: 'compactCardHeight?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IExpandingCardStyleProps.expandedCardFirstFrameRendered
+    name: expandedCardFirstFrameRendered
+    fullName: expandedCardFirstFrameRendered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Boolean flag that expanded card is in Expanded.mode === expanded && first
+      frame was rendered.
+    optional: true
+    syntax:
+      content: 'expandedCardFirstFrameRendered?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IExpandingCardStyleProps.expandedCardHeight
+    name: expandedCardHeight
+    fullName: expandedCardHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Height of the expanded section of the card.
+    optional: true
+    syntax:
+      content: 'expandedCardHeight?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IExpandingCardStyleProps.needsScroll
+    name: needsScroll
+    fullName: needsScroll
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the content of the expanded card overflows vertically.
+    optional: true
+    syntax:
+      content: 'needsScroll?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IBaseCardStyleProps
+    name: IBaseCardStyleProps
+    spec.typeScript:
+      - name: IBaseCardStyleProps
+        fullName: IBaseCardStyleProps
+        uid: office-ui-fabric-react.IBaseCardStyleProps

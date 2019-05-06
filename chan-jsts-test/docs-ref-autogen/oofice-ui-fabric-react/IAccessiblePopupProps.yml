@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IAccessiblePopupProps
+    name: IAccessiblePopupProps
+    fullName: IAccessiblePopupProps
+    children:
+      - office-ui-fabric-react.IAccessiblePopupProps.closeButtonAriaLabel
+      - office-ui-fabric-react.IAccessiblePopupProps.elementToFocusOnDismiss
+      - office-ui-fabric-react.IAccessiblePopupProps.firstFocusableSelector
+      - office-ui-fabric-react.IAccessiblePopupProps.forceFocusInsideTrap
+      - office-ui-fabric-react.IAccessiblePopupProps.ignoreExternalFocusing
+      - office-ui-fabric-react.IAccessiblePopupProps.isClickableOutsideFocusTrap
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAccessiblePopupProps.closeButtonAriaLabel
+    name: closeButtonAriaLabel
+    fullName: closeButtonAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria label on close button
+    optional: true
+    syntax:
+      content: 'closeButtonAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAccessiblePopupProps.elementToFocusOnDismiss
+    name: elementToFocusOnDismiss
+    fullName: elementToFocusOnDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sets the HTMLElement to focus on when exiting the FocusTrapZone.
+    optional: true
+    syntax:
+      content: 'elementToFocusOnDismiss?: HTMLElement'
+      return:
+        type:
+          - HTMLElement
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAccessiblePopupProps.firstFocusableSelector
+    name: firstFocusableSelector
+    fullName: firstFocusableSelector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates the selector for first focusable item
+    optional: true
+    syntax:
+      content: 'firstFocusableSelector?: string | () => string'
+      return:
+        type:
+          - string | () => string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAccessiblePopupProps.forceFocusInsideTrap
+    name: forceFocusInsideTrap
+    fullName: forceFocusInsideTrap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether dialog should force focus inside the focus trap zone
+    optional: true
+    syntax:
+      content: 'forceFocusInsideTrap?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAccessiblePopupProps.ignoreExternalFocusing
+    name: ignoreExternalFocusing
+    fullName: ignoreExternalFocusing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates if this dialog will ignore keeping track of HTMLElement that
+      activated the Zone.
+    optional: true
+    syntax:
+      content: 'ignoreExternalFocusing?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAccessiblePopupProps.isClickableOutsideFocusTrap
+    name: isClickableOutsideFocusTrap
+    fullName: isClickableOutsideFocusTrap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates if this dialog will allow clicks outside the FocusTrapZone
+    optional: true
+    syntax:
+      content: 'isClickableOutsideFocusTrap?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getYearStart
+    name: getYearStart(Date)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns a date that is the first day of the year of the provided date.
+    syntax:
+      content: 'function getYearStart(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The origin date
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react

@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerCircleStyles
+    name: IShimmerCircleStyles
+    fullName: IShimmerCircleStyles
+    children:
+      - office-ui-fabric-react.IShimmerCircleStyles.root
+      - office-ui-fabric-react.IShimmerCircleStyles.svg
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Represents the stylable areas of the control.
+      {@docCategory Shimmer}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerCircleStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Root of the ShimmerCircle component.
+    optional: true
+    syntax:
+      content: 'root?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerCircleStyles.svg
+    name: svg
+    fullName: svg
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the circle SVG of the ShimmerCircle component.
+    optional: true
+    syntax:
+      content: 'svg?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

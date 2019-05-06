@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICellStyleProps
+    name: ICellStyleProps
+    fullName: ICellStyleProps
+    children:
+      - office-ui-fabric-react.ICellStyleProps.cellExtraRightPadding
+      - office-ui-fabric-react.ICellStyleProps.cellLeftPadding
+      - office-ui-fabric-react.ICellStyleProps.cellRightPadding
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICellStyleProps.cellExtraRightPadding
+    name: cellExtraRightPadding
+    fullName: cellExtraRightPadding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cellExtraRightPadding: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICellStyleProps.cellLeftPadding
+    name: cellLeftPadding
+    fullName: cellLeftPadding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cellLeftPadding: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICellStyleProps.cellRightPadding
+    name: cellRightPadding
+    fullName: cellRightPadding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cellRightPadding: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

@@ -1,0 +1,177 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPersonaProps
+    name: IPersonaProps
+    fullName: IPersonaProps
+    children:
+      - office-ui-fabric-react.IPersonaProps.className
+      - office-ui-fabric-react.IPersonaProps.componentRef
+      - office-ui-fabric-react.IPersonaProps.onRenderOptionalText
+      - office-ui-fabric-react.IPersonaProps.onRenderPrimaryText
+      - office-ui-fabric-react.IPersonaProps.onRenderSecondaryText
+      - office-ui-fabric-react.IPersonaProps.onRenderTertiaryText
+      - office-ui-fabric-react.IPersonaProps.styles
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Persona}'
+    extends:
+      name: office-ui-fabric-react.IPersonaSharedProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional CSS class(es) to apply to the Persona
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IPersona interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IPersona>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IPersona>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaProps.onRenderOptionalText
+    name: onRenderOptionalText
+    fullName: onRenderOptionalText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for the optional text.
+    optional: true
+    syntax:
+      content: 'onRenderOptionalText?: IRenderFunction<IPersonaProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IPersonaProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaProps.onRenderPrimaryText
+    name: onRenderPrimaryText
+    fullName: onRenderPrimaryText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for the primary text.
+    optional: true
+    syntax:
+      content: 'onRenderPrimaryText?: IRenderFunction<IPersonaProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IPersonaProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaProps.onRenderSecondaryText
+    name: onRenderSecondaryText
+    fullName: onRenderSecondaryText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for the secondary text.
+    optional: true
+    syntax:
+      content: 'onRenderSecondaryText?: IRenderFunction<IPersonaProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IPersonaProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaProps.onRenderTertiaryText
+    name: onRenderTertiaryText
+    fullName: onRenderTertiaryText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for the tertiary text.
+    optional: true
+    syntax:
+      content: 'onRenderTertiaryText?: IRenderFunction<IPersonaProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IPersonaProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Call to provide customized styling that will layer on top of variant rules
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<IPersonaStyleProps, IPersonaStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IPersonaStyleProps,
+            office-ui-fabric-react.IPersonaStyles>
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IPersonaSharedProps
+    name: IPersonaSharedProps
+    spec.typeScript:
+      - name: IPersonaSharedProps
+        fullName: IPersonaSharedProps
+        uid: office-ui-fabric-react.IPersonaSharedProps
+  - uid: IRefObject<office-ui-fabric-react.IPersona>
+    name: IPersona>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IPersona
+        fullName: IPersona
+        uid: office-ui-fabric-react.IPersona
+      - name: '>'
+        fullName: '>'
+  - uid: IRenderFunction<office-ui-fabric-react.IPersonaProps>
+    name: IPersonaProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IPersonaProps
+        fullName: IPersonaProps
+        uid: office-ui-fabric-react.IPersonaProps
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IPersonaStyleProps,
+      office-ui-fabric-react.IPersonaStyles>
+    name: IPersonaStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IPersonaStyleProps
+        fullName: IPersonaStyleProps
+        uid: office-ui-fabric-react.IPersonaStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IPersonaStyles
+        fullName: IPersonaStyles
+        uid: office-ui-fabric-react.IPersonaStyles
+      - name: '>'
+        fullName: '>'

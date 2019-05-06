@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.clearRange
+    name: 'clearRange(IMaskValue[], number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Deletes all values in maskCharData with a displayIndex that falls inside
+      the specified range.
+
+      maskCharData is modified inline and also returned.
+    syntax:
+      content: >-
+        function clearRange(maskCharData: IMaskValue[], selectionStart: number,
+        selectionCount: number)
+      parameters:
+        - id: maskCharData
+          type:
+            - 'office-ui-fabric-react.IMaskValue[]'
+          description: ''
+        - id: selectionStart
+          type:
+            - number
+          description: ''
+        - id: selectionCount
+          type:
+            - number
+          description: |+
+
+      return:
+        type:
+          - 'office-ui-fabric-react.IMaskValue[]'
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IMaskValue[]'
+    name: 'IMaskValue[]'
+    spec.typeScript:
+      - name: IMaskValue
+        fullName: IMaskValue
+        uid: office-ui-fabric-react.IMaskValue
+      - name: '[]'
+        fullName: '[]'

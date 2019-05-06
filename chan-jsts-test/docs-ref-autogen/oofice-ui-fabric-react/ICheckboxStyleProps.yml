@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICheckboxStyleProps
+    name: ICheckboxStyleProps
+    fullName: ICheckboxStyleProps
+    children:
+      - office-ui-fabric-react.ICheckboxStyleProps.checked
+      - office-ui-fabric-react.ICheckboxStyleProps.className
+      - office-ui-fabric-react.ICheckboxStyleProps.disabled
+      - office-ui-fabric-react.ICheckboxStyleProps.isUsingCustomLabelRender
+      - office-ui-fabric-react.ICheckboxStyleProps.reversed
+      - office-ui-fabric-react.ICheckboxStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Checkbox}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxStyleProps.checked
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'checked?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxStyleProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxStyleProps.isUsingCustomLabelRender
+    name: isUsingCustomLabelRender
+    fullName: isUsingCustomLabelRender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isUsingCustomLabelRender: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxStyleProps.reversed
+    name: reversed
+    fullName: reversed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'reversed?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

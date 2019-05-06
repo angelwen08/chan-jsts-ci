@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SearchBoxBase
+    name: SearchBoxBase
+    fullName: SearchBoxBase<SS>
+    children:
+      - office-ui-fabric-react.SearchBoxBase.componentWillReceiveProps
+      - office-ui-fabric-react.SearchBoxBase.defaultProps
+      - office-ui-fabric-react.SearchBoxBase.focus
+      - office-ui-fabric-react.SearchBoxBase.hasFocus
+      - office-ui-fabric-react.SearchBoxBase.render
+      - office-ui-fabric-react.SearchBoxBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.ISearchBoxProps,
+        office-ui-fabric-react.ISearchBoxState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SearchBoxBase.componentWillReceiveProps
+    name: componentWillReceiveProps(ISearchBoxProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: ISearchBoxProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.ISearchBoxProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SearchBoxBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        static defaultProps: Pick<ISearchBoxProps, "disableAnimation" |
+        "clearButtonProps">
+      return:
+        type:
+          - >-
+            Pick<office-ui-fabric-react.ISearchBoxProps, "disableAnimation" |
+            "clearButtonProps">
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SearchBoxBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets focus to the search box input field
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SearchBoxBase.hasFocus
+    name: hasFocus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns whether or not the SearchBox has focus
+    syntax:
+      content: function hasFocus()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SearchBoxBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SearchBoxBase.constructor
+    name: SearchBoxBase(ISearchBoxProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SearchBoxBase(props: ISearchBoxProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ISearchBoxProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.ISearchBoxProps,
+      office-ui-fabric-react.ISearchBoxState>
+    name: ISearchBoxState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: ISearchBoxProps
+        fullName: ISearchBoxProps
+        uid: office-ui-fabric-react.ISearchBoxProps
+      - name: ', '
+        fullName: ', '
+      - name: ISearchBoxState
+        fullName: ISearchBoxState
+        uid: office-ui-fabric-react.ISearchBoxState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ISearchBoxProps
+    name: ISearchBoxProps
+    spec.typeScript:
+      - name: ISearchBoxProps
+        fullName: ISearchBoxProps
+        uid: office-ui-fabric-react.ISearchBoxProps
+  - uid: >-
+      Pick<office-ui-fabric-react.ISearchBoxProps, "disableAnimation" |
+      "clearButtonProps">
+    name: 'ISearchBoxProps, "disableAnimation" | "clearButtonProps">'
+    spec.typeScript:
+      - name: Pick<
+        fullName: Pick<
+      - name: ISearchBoxProps
+        fullName: ISearchBoxProps
+        uid: office-ui-fabric-react.ISearchBoxProps
+      - name: ', "disableAnimation" | "clearButtonProps">'
+        fullName: ', "disableAnimation" | "clearButtonProps">'

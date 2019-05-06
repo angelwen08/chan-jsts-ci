@@ -1,0 +1,276 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SuggestionsControl
+    name: SuggestionsControl
+    fullName: SuggestionsControl<T>
+    children:
+      - office-ui-fabric-react.SuggestionsControl.componentDidMount
+      - office-ui-fabric-react.SuggestionsControl.componentDidUpdate
+      - office-ui-fabric-react.SuggestionsControl.componentWillReceiveProps
+      - office-ui-fabric-react.SuggestionsControl.componentWillUnmount
+      - office-ui-fabric-react.SuggestionsControl.currentSuggestion
+      - office-ui-fabric-react.SuggestionsControl.currentSuggestionIndex
+      - office-ui-fabric-react.SuggestionsControl.executeSelectedAction
+      - office-ui-fabric-react.SuggestionsControl.handleKeyDown
+      - office-ui-fabric-react.SuggestionsControl.hasSelection
+      - office-ui-fabric-react.SuggestionsControl.hasSuggestionSelected
+      - office-ui-fabric-react.SuggestionsControl.removeSuggestion
+      - office-ui-fabric-react.SuggestionsControl.render
+      - office-ui-fabric-react.SuggestionsControl.scrollSelected
+      - office-ui-fabric-react.SuggestionsControl.selectedElement
+      - office-ui-fabric-react.SuggestionsControl.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Class when used with SuggestionsStore, renders a suggestions control with
+      customizable headers and footers
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.ISuggestionsControlProps<T>,
+        office-ui-fabric-react.ISuggestionsControlState<T>>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.componentDidUpdate
+    name: componentDidUpdate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.componentWillReceiveProps
+    name: componentWillReceiveProps(ISuggestionsControlProps<T>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentWillReceiveProps(newProps:
+        ISuggestionsControlProps<T>)
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.ISuggestionsControlProps<T>
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.currentSuggestion
+    name: currentSuggestion
+    fullName: currentSuggestion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'currentSuggestion: ISuggestionModel<T>'
+      return:
+        type:
+          - office-ui-fabric-react.ISuggestionModel<T>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.currentSuggestionIndex
+    name: currentSuggestionIndex
+    fullName: currentSuggestionIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'currentSuggestionIndex: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.executeSelectedAction
+    name: executeSelectedAction()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function executeSelectedAction()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.handleKeyDown
+    name: handleKeyDown(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Handles the key down, returns true, if the event was handled, false
+      otherwise
+    syntax:
+      content: 'function handleKeyDown(keyCode: number)'
+      parameters:
+        - id: keyCode
+          type:
+            - number
+          description: |
+            The keyCode to handle
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.hasSelection
+    name: hasSelection()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasSelection()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.hasSuggestionSelected
+    name: hasSuggestionSelected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasSuggestionSelected()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.removeSuggestion
+    name: removeSuggestion(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeSuggestion(index?: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+          optional: true
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.scrollSelected
+    name: scrollSelected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function scrollSelected()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.selectedElement
+    name: selectedElement
+    fullName: selectedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectedElement: HTMLDivElement | undefined'
+      return:
+        type:
+          - HTMLDivElement | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionsControl.constructor
+    name: SuggestionsControl(ISuggestionsControlProps<T>)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SuggestionsControl(suggestionsProps: ISuggestionsControlProps<T>)'
+      parameters:
+        - id: suggestionsProps
+          type:
+            - office-ui-fabric-react.ISuggestionsControlProps<T>
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.ISuggestionsControlProps<T>,
+      office-ui-fabric-react.ISuggestionsControlState<T>>
+    name: ISuggestionsControlState<T>>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: ISuggestionsControlProps
+        fullName: ISuggestionsControlProps
+        uid: office-ui-fabric-react.ISuggestionsControlProps
+      - name: '<T>, '
+        fullName: '<T>, '
+      - name: ISuggestionsControlState
+        fullName: ISuggestionsControlState
+        uid: office-ui-fabric-react.ISuggestionsControlState
+      - name: <T>>
+        fullName: <T>>
+  - uid: office-ui-fabric-react.ISuggestionsControlProps<T>
+    name: ISuggestionsControlProps<T>
+    spec.typeScript:
+      - name: ISuggestionsControlProps
+        fullName: ISuggestionsControlProps
+        uid: office-ui-fabric-react.ISuggestionsControlProps
+      - name: <T>
+        fullName: <T>
+  - uid: office-ui-fabric-react.ISuggestionModel<T>
+    name: ISuggestionModel<T>
+    spec.typeScript:
+      - name: ISuggestionModel
+        fullName: ISuggestionModel
+        uid: office-ui-fabric-react.ISuggestionModel
+      - name: <T>
+        fullName: <T>

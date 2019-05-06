@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPeoplePickerItemSelectedProps
+    name: IPeoplePickerItemSelectedProps
+    fullName: IPeoplePickerItemSelectedProps
+    children:
+      - office-ui-fabric-react.IPeoplePickerItemSelectedProps.styles
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      PeoplePickerItemSelected props interface. Refers to the PeoplePicker items
+      that have been picked already.
+
+      {@docCategory PeoplePicker}
+    extends:
+      name: >-
+        office-ui-fabric-react.IPickerItemProps<office-ui-fabric-react.IPersonaProps
+        & Object>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPeoplePickerItemSelectedProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IPeoplePickerItemSelectedStyleProps,
+        IPeoplePickerItemSelectedStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IPeoplePickerItemSelectedStyleProps,
+            office-ui-fabric-react.IPeoplePickerItemSelectedStyles>
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      office-ui-fabric-react.IPickerItemProps<office-ui-fabric-react.IPersonaProps
+      & Object>
+    name: IPersonaProps & Object>
+    spec.typeScript:
+      - name: IPickerItemProps
+        fullName: IPickerItemProps
+        uid: office-ui-fabric-react.IPickerItemProps
+      - name: <
+        fullName: <
+      - name: IPersonaProps
+        fullName: IPersonaProps
+        uid: office-ui-fabric-react.IPersonaProps
+      - name: ' & Object>'
+        fullName: ' & Object>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IPeoplePickerItemSelectedStyleProps,
+      office-ui-fabric-react.IPeoplePickerItemSelectedStyles>
+    name: IPeoplePickerItemSelectedStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IPeoplePickerItemSelectedStyleProps
+        fullName: IPeoplePickerItemSelectedStyleProps
+        uid: office-ui-fabric-react.IPeoplePickerItemSelectedStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IPeoplePickerItemSelectedStyles
+        fullName: IPeoplePickerItemSelectedStyles
+        uid: office-ui-fabric-react.IPeoplePickerItemSelectedStyles
+      - name: '>'
+        fullName: '>'

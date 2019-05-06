@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.KeytipData
+    name: KeytipData
+    fullName: KeytipData<SS>
+    children:
+      - office-ui-fabric-react.KeytipData.componentDidMount
+      - office-ui-fabric-react.KeytipData.componentDidUpdate
+      - office-ui-fabric-react.KeytipData.componentWillUnmount
+      - office-ui-fabric-react.KeytipData.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A small element to help the target component correctly read out its
+      aria-describedby for its Keytip
+
+      {@docCategory Keytips}
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.IKeytipDataProps &
+        IRenderComponent<__type>, __type>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.KeytipData.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.KeytipData.componentDidUpdate
+    name: componentDidUpdate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.KeytipData.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.KeytipData.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.IKeytipDataProps &
+      IRenderComponent<__type>, __type>
+    name: 'IKeytipDataProps & IRenderComponent<__type>, __type>'
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IKeytipDataProps
+        fullName: IKeytipDataProps
+        uid: office-ui-fabric-react.IKeytipDataProps
+      - name: ' & IRenderComponent<__type>, __type>'
+        fullName: ' & IRenderComponent<__type>, __type>'

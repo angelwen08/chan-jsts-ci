@@ -1,0 +1,206 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISelectionZoneProps
+    name: ISelectionZoneProps
+    fullName: ISelectionZoneProps
+    children:
+      - office-ui-fabric-react.ISelectionZoneProps.componentRef
+      - >-
+        office-ui-fabric-react.ISelectionZoneProps.disableAutoSelectOnInputElements
+      - office-ui-fabric-react.ISelectionZoneProps.enterModalOnTouch
+      - office-ui-fabric-react.ISelectionZoneProps.isSelectedOnFocus
+      - office-ui-fabric-react.ISelectionZoneProps.layout
+      - office-ui-fabric-react.ISelectionZoneProps.onItemContextMenu
+      - office-ui-fabric-react.ISelectionZoneProps.onItemInvoked
+      - office-ui-fabric-react.ISelectionZoneProps.selection
+      - office-ui-fabric-react.ISelectionZoneProps.selectionMode
+      - >-
+        office-ui-fabric-react.ISelectionZoneProps.selectionPreservedOnEmptyClick
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Selection}'
+    extends:
+      name: ClassAttributes<office-ui-fabric-react.SelectionZone>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectionZoneProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'componentRef?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.ISelectionZoneProps.disableAutoSelectOnInputElements
+    name: disableAutoSelectOnInputElements
+    fullName: disableAutoSelectOnInputElements
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'disableAutoSelectOnInputElements?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectionZoneProps.enterModalOnTouch
+    name: enterModalOnTouch
+    fullName: enterModalOnTouch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'enterModalOnTouch?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectionZoneProps.isSelectedOnFocus
+    name: isSelectedOnFocus
+    fullName: isSelectedOnFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isSelectedOnFocus?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectionZoneProps.layout
+    name: layout
+    fullName: layout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'layout?: __type'
+      return:
+        type:
+          - __type
+    package: office-ui-fabric-react
+    deprecated:
+      content: 'No longer in use, focus is now managed by FocusZone'
+  - uid: office-ui-fabric-react.ISelectionZoneProps.onItemContextMenu
+    name: onItemContextMenu
+    fullName: onItemContextMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onItemContextMenu?: (item?: any, index?: number, ev?: Event) => void |
+        boolean
+      return:
+        type:
+          - '(item?: any, index?: number, ev?: Event) => void | boolean'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectionZoneProps.onItemInvoked
+    name: onItemInvoked
+    fullName: onItemInvoked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onItemInvoked?: (item?: IObjectWithKey, index?: number, ev?: Event) =>
+        void
+      return:
+        type:
+          - '(item?: IObjectWithKey, index?: number, ev?: Event) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectionZoneProps.selection
+    name: selection
+    fullName: selection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selection: ISelection'
+      return:
+        type:
+          - office-ui-fabric-react.ISelection
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectionZoneProps.selectionMode
+    name: selectionMode
+    fullName: selectionMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectionMode?: SelectionMode'
+      return:
+        type:
+          - office-ui-fabric-react.SelectionMode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectionZoneProps.selectionPreservedOnEmptyClick
+    name: selectionPreservedOnEmptyClick
+    fullName: selectionPreservedOnEmptyClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectionPreservedOnEmptyClick?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: ClassAttributes<office-ui-fabric-react.SelectionZone>
+    name: SelectionZone>
+    spec.typeScript:
+      - name: ClassAttributes<
+        fullName: ClassAttributes<
+      - name: SelectionZone
+        fullName: SelectionZone
+        uid: office-ui-fabric-react.SelectionZone
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ISelection
+    name: ISelection
+    spec.typeScript:
+      - name: ISelection
+        fullName: ISelection
+        uid: office-ui-fabric-react.ISelection
+  - uid: office-ui-fabric-react.SelectionMode
+    name: SelectionMode
+    spec.typeScript:
+      - name: SelectionMode
+        fullName: SelectionMode
+        uid: office-ui-fabric-react.SelectionMode

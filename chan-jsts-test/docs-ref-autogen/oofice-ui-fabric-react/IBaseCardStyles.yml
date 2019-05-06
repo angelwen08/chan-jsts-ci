@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBaseCardStyles
+    name: IBaseCardStyles
+    fullName: IBaseCardStyles
+    children:
+      - office-ui-fabric-react.IBaseCardStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface containing style sections common for all types of cards.
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Style for the root element in the default enabled, non-toggled state.'
+    optional: true
+    syntax:
+      content: 'root?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

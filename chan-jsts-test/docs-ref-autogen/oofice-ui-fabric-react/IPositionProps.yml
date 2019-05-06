@@ -1,0 +1,162 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPositionProps
+    name: IPositionProps
+    fullName: IPositionProps
+    children:
+      - office-ui-fabric-react.IPositionProps.alignTargetEdge
+      - office-ui-fabric-react.IPositionProps.bounds
+      - office-ui-fabric-react.IPositionProps.coverTarget
+      - office-ui-fabric-react.IPositionProps.directionalHint
+      - office-ui-fabric-react.IPositionProps.directionalHintFixed
+      - office-ui-fabric-react.IPositionProps.directionalHintForRTL
+      - office-ui-fabric-react.IPositionProps.gapSpace
+      - office-ui-fabric-react.IPositionProps.target
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPositionProps.alignTargetEdge
+    name: alignTargetEdge
+    fullName: alignTargetEdge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true the positioning logic will prefer flipping edges over nudging the
+      rectangle to fit within bounds,
+
+      thus making sure the the element align perfectly with target.
+    optional: true
+    syntax:
+      content: 'alignTargetEdge?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPositionProps.bounds
+    name: bounds
+    fullName: bounds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The bounding rectangle for which  the contextual menu can appear in.
+    optional: true
+    syntax:
+      content: 'bounds?: IRectangle'
+      return:
+        type:
+          - IRectangle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPositionProps.coverTarget
+    name: coverTarget
+    fullName: coverTarget
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      If true the position returned will have the menu element cover the target.
+      If false then it will position next to the target;
+    optional: true
+    syntax:
+      content: 'coverTarget?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPositionProps.directionalHint
+    name: directionalHint
+    fullName: directionalHint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: how the element should be positioned
+    optional: true
+    syntax:
+      content: 'directionalHint?: DirectionalHint'
+      return:
+        type:
+          - DirectionalHint
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPositionProps.directionalHintFixed
+    name: directionalHintFixed
+    fullName: directionalHintFixed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true the position will not change edges in an attempt to fit the
+      rectangle within bounds.
+
+      It will still attempt to align it to whatever bounds are given.
+    optional: true
+    syntax:
+      content: 'directionalHintFixed?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPositionProps.directionalHintForRTL
+    name: directionalHintForRTL
+    fullName: directionalHintForRTL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      How the element should be positioned in RTL layouts.
+      If not specified, a mirror of `directionalHint` will be used instead
+    optional: true
+    syntax:
+      content: 'directionalHintForRTL?: DirectionalHint'
+      return:
+        type:
+          - DirectionalHint
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPositionProps.gapSpace
+    name: gapSpace
+    fullName: gapSpace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The gap between the callout and the target
+    optional: true
+    syntax:
+      content: 'gapSpace?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPositionProps.target
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'target?: Element | MouseEvent | IPoint'
+      return:
+        type:
+          - Element | MouseEvent | office-ui-fabric-react.IPoint
+    package: office-ui-fabric-react
+references:
+  - uid: Element | MouseEvent | office-ui-fabric-react.IPoint
+    name: IPoint
+    spec.typeScript:
+      - name: 'Element | MouseEvent | '
+        fullName: 'Element | MouseEvent | '
+      - name: IPoint
+        fullName: IPoint
+        uid: office-ui-fabric-react.IPoint

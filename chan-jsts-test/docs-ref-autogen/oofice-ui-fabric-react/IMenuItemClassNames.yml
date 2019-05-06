@@ -1,0 +1,210 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IMenuItemClassNames
+    name: IMenuItemClassNames
+    fullName: IMenuItemClassNames
+    children:
+      - office-ui-fabric-react.IMenuItemClassNames.checkmarkIcon
+      - office-ui-fabric-react.IMenuItemClassNames.divider
+      - office-ui-fabric-react.IMenuItemClassNames.icon
+      - office-ui-fabric-react.IMenuItemClassNames.item
+      - office-ui-fabric-react.IMenuItemClassNames.label
+      - office-ui-fabric-react.IMenuItemClassNames.linkContent
+      - office-ui-fabric-react.IMenuItemClassNames.linkContentMenu
+      - office-ui-fabric-react.IMenuItemClassNames.root
+      - office-ui-fabric-react.IMenuItemClassNames.secondaryText
+      - office-ui-fabric-react.IMenuItemClassNames.splitContainer
+      - office-ui-fabric-react.IMenuItemClassNames.splitMenu
+      - office-ui-fabric-react.IMenuItemClassNames.splitPrimary
+      - office-ui-fabric-react.IMenuItemClassNames.subMenuIcon
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+    deprecated:
+      content: in favor of mergeStyles API.
+  - uid: office-ui-fabric-react.IMenuItemClassNames.checkmarkIcon
+    name: checkmarkIcon
+    fullName: checkmarkIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'checkmarkIcon: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.divider
+    name: divider
+    fullName: divider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'divider: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'icon: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.item
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'item: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.linkContent
+    name: linkContent
+    fullName: linkContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'linkContent: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.linkContentMenu
+    name: linkContentMenu
+    fullName: linkContentMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'linkContentMenu: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.secondaryText
+    name: secondaryText
+    fullName: secondaryText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'secondaryText: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.splitContainer
+    name: splitContainer
+    fullName: splitContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'splitContainer: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.splitMenu
+    name: splitMenu
+    fullName: splitMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'splitMenu: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.splitPrimary
+    name: splitPrimary
+    fullName: splitPrimary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'splitPrimary: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMenuItemClassNames.subMenuIcon
+    name: subMenuIcon
+    fullName: subMenuIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'subMenuIcon: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

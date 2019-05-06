@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBaseFloatingPicker
+    name: IBaseFloatingPicker
+    fullName: IBaseFloatingPicker
+    children:
+      - office-ui-fabric-react.IBaseFloatingPicker.hidePicker
+      - office-ui-fabric-react.IBaseFloatingPicker.inputText
+      - office-ui-fabric-react.IBaseFloatingPicker.isSuggestionsShown
+      - office-ui-fabric-react.IBaseFloatingPicker.onQueryStringChanged
+      - office-ui-fabric-react.IBaseFloatingPicker.showPicker
+      - office-ui-fabric-react.IBaseFloatingPicker.suggestions
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPicker.hidePicker
+    name: hidePicker
+    fullName: hidePicker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Hides the picker
+    syntax:
+      content: 'hidePicker: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPicker.inputText
+    name: inputText
+    fullName: inputText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the input text
+    syntax:
+      content: 'inputText: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPicker.isSuggestionsShown
+    name: isSuggestionsShown
+    fullName: isSuggestionsShown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the suggestions are shown
+    syntax:
+      content: 'isSuggestionsShown: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPicker.onQueryStringChanged
+    name: onQueryStringChanged
+    fullName: onQueryStringChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: On queryString changed
+    syntax:
+      content: 'onQueryStringChanged: (input: string) => void'
+      return:
+        type:
+          - '(input: string) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPicker.showPicker
+    name: showPicker
+    fullName: showPicker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Shows the picker
+    syntax:
+      content: 'showPicker: (updateValue?: boolean) => void'
+      return:
+        type:
+          - '(updateValue?: boolean) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPicker.suggestions
+    name: suggestions
+    fullName: suggestions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the suggestions
+    syntax:
+      content: 'suggestions: any[]'
+      return:
+        type:
+          - 'any[]'
+    package: office-ui-fabric-react

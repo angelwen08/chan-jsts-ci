@@ -1,0 +1,244 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DetailsListBase
+    name: DetailsListBase
+    fullName: DetailsListBase<SS>
+    children:
+      - office-ui-fabric-react.DetailsListBase.componentDidUpdate
+      - office-ui-fabric-react.DetailsListBase.componentWillReceiveProps
+      - office-ui-fabric-react.DetailsListBase.componentWillUnmount
+      - office-ui-fabric-react.DetailsListBase.componentWillUpdate
+      - office-ui-fabric-react.DetailsListBase.defaultProps
+      - office-ui-fabric-react.DetailsListBase.constructor
+      - office-ui-fabric-react.DetailsListBase.focusIndex
+      - office-ui-fabric-react.DetailsListBase.forceUpdate
+      - office-ui-fabric-react.DetailsListBase.getStartItemIndexInView
+      - office-ui-fabric-react.DetailsListBase.render
+      - office-ui-fabric-react.DetailsListBase.scrollToIndex
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IDetailsListProps,
+        office-ui-fabric-react.IDetailsListState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.componentDidUpdate
+    name: 'componentDidUpdate(IDetailsListProps, IDetailsListState)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(prevProps: IDetailsListProps, prevState:
+        IDetailsListState)
+      parameters:
+        - id: prevProps
+          type:
+            - office-ui-fabric-react.IDetailsListProps
+          description: ''
+        - id: prevState
+          type:
+            - office-ui-fabric-react.IDetailsListState
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IDetailsListProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: IDetailsListProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.IDetailsListProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.componentWillUpdate
+    name: componentWillUpdate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUpdate()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.constructor
+    name: DetailsListBase(IDetailsListProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DetailsListBase(props: IDetailsListProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IDetailsListProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.focusIndex
+    name: 'focusIndex(number, boolean, (itemIndex: number) => number, ScrollToMode)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function focusIndex(index: number, forceIntoFirstElement?: boolean,
+        measureItem?: (itemIndex: number) => number, scrollToMode?:
+        ScrollToMode)
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: forceIntoFirstElement
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: measureItem
+          type:
+            - '(itemIndex: number) => number'
+          description: ''
+          optional: true
+        - id: scrollToMode
+          type:
+            - ScrollToMode
+          description: ''
+          optional: true
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.forceUpdate
+    name: forceUpdate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function forceUpdate()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.getStartItemIndexInView
+    name: getStartItemIndexInView()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getStartItemIndexInView()
+      parameters: []
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListBase.scrollToIndex
+    name: 'scrollToIndex(number, (itemIndex: number) => number, ScrollToMode)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function scrollToIndex(index: number, measureItem?: (itemIndex: number)
+        => number, scrollToMode?: ScrollToMode)
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: measureItem
+          type:
+            - '(itemIndex: number) => number'
+          description: ''
+          optional: true
+        - id: scrollToMode
+          type:
+            - ScrollToMode
+          description: ''
+          optional: true
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IDetailsListProps,
+      office-ui-fabric-react.IDetailsListState>
+    name: IDetailsListState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IDetailsListProps
+        fullName: IDetailsListProps
+        uid: office-ui-fabric-react.IDetailsListProps
+      - name: ', '
+        fullName: ', '
+      - name: IDetailsListState
+        fullName: IDetailsListState
+        uid: office-ui-fabric-react.IDetailsListState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IDetailsListProps
+    name: IDetailsListProps
+    spec.typeScript:
+      - name: IDetailsListProps
+        fullName: IDetailsListProps
+        uid: office-ui-fabric-react.IDetailsListProps
+  - uid: office-ui-fabric-react.IDetailsListState
+    name: IDetailsListState
+    spec.typeScript:
+      - name: IDetailsListState
+        fullName: IDetailsListState
+        uid: office-ui-fabric-react.IDetailsListState

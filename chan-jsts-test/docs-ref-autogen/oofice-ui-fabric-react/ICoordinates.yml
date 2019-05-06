@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICoordinates
+    name: ICoordinates
+    fullName: ICoordinates
+    children:
+      - office-ui-fabric-react.ICoordinates.x
+      - office-ui-fabric-react.ICoordinates.y
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoordinates.x
+    name: x
+    fullName: x
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'x: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoordinates.y
+    name: 'y'
+    fullName: 'y'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'y: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

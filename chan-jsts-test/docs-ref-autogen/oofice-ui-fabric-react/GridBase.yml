@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.GridBase
+    name: GridBase
+    fullName: GridBase<SS>
+    children:
+      - office-ui-fabric-react.GridBase.constructor
+      - office-ui-fabric-react.GridBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'BaseComponent<office-ui-fabric-react.IGridProps, __type>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GridBase.constructor
+    name: GridBase(IGridProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GridBase(props: IGridProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IGridProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GridBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<office-ui-fabric-react.IGridProps, __type>'
+    name: 'IGridProps, __type>'
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IGridProps
+        fullName: IGridProps
+        uid: office-ui-fabric-react.IGridProps
+      - name: ', __type>'
+        fullName: ', __type>'
+  - uid: office-ui-fabric-react.IGridProps
+    name: IGridProps
+    spec.typeScript:
+      - name: IGridProps
+        fullName: IGridProps
+        uid: office-ui-fabric-react.IGridProps

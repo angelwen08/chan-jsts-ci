@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TextFieldCustomRenderExample
+    name: TextFieldCustomRenderExample
+    fullName: TextFieldCustomRenderExample<SS>
+    children:
+      - office-ui-fabric-react.TextFieldCustomRenderExample.render
+      - office-ui-fabric-react.TextFieldCustomRenderExample.state
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<__type,
+        office-ui-fabric-react.ITextFieldCustomRenderExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldCustomRenderExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextFieldCustomRenderExample.state
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'state: ITextFieldCustomRenderExampleState'
+      return:
+        type:
+          - office-ui-fabric-react.ITextFieldCustomRenderExampleState
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<__type,
+      office-ui-fabric-react.ITextFieldCustomRenderExampleState>
+    name: ITextFieldCustomRenderExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: ITextFieldCustomRenderExampleState
+        fullName: ITextFieldCustomRenderExampleState
+        uid: office-ui-fabric-react.ITextFieldCustomRenderExampleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ITextFieldCustomRenderExampleState
+    name: ITextFieldCustomRenderExampleState
+    spec.typeScript:
+      - name: ITextFieldCustomRenderExampleState
+        fullName: ITextFieldCustomRenderExampleState
+        uid: office-ui-fabric-react.ITextFieldCustomRenderExampleState

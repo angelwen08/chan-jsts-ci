@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IThemeGeneratorPageState
+    name: IThemeGeneratorPageState
+    fullName: IThemeGeneratorPageState
+    children:
+      - office-ui-fabric-react.IThemeGeneratorPageState.colorPickerElement
+      - office-ui-fabric-react.IThemeGeneratorPageState.colorPickerSlotRule
+      - office-ui-fabric-react.IThemeGeneratorPageState.colorPickerVisible
+      - office-ui-fabric-react.IThemeGeneratorPageState.themeRules
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IThemeGeneratorPageState.colorPickerElement
+    name: colorPickerElement
+    fullName: colorPickerElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'colorPickerElement: HTMLElement | null'
+      return:
+        type:
+          - HTMLElement | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IThemeGeneratorPageState.colorPickerSlotRule
+    name: colorPickerSlotRule
+    fullName: colorPickerSlotRule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'colorPickerSlotRule: IThemeSlotRule | null'
+      return:
+        type:
+          - office-ui-fabric-react.IThemeSlotRule | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IThemeGeneratorPageState.colorPickerVisible
+    name: colorPickerVisible
+    fullName: colorPickerVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'colorPickerVisible: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IThemeGeneratorPageState.themeRules
+    name: themeRules
+    fullName: themeRules
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'themeRules: IThemeRules'
+      return:
+        type:
+          - office-ui-fabric-react.IThemeRules
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IThemeSlotRule | null
+    name: IThemeSlotRule | null
+    spec.typeScript:
+      - name: IThemeSlotRule
+        fullName: IThemeSlotRule
+        uid: office-ui-fabric-react.IThemeSlotRule
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: office-ui-fabric-react.IThemeRules
+    name: IThemeRules
+    spec.typeScript:
+      - name: IThemeRules
+        fullName: IThemeRules
+        uid: office-ui-fabric-react.IThemeRules

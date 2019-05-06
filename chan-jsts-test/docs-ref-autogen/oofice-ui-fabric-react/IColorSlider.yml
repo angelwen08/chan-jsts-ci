@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IColorSlider
+    name: IColorSlider
+    fullName: IColorSlider
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ColorPicker}'
+    package: office-ui-fabric-react

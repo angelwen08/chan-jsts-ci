@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ContextualMenuSplitButton
+    name: ContextualMenuSplitButton
+    fullName: ContextualMenuSplitButton<TState>
+    children:
+      - office-ui-fabric-react.ContextualMenuSplitButton.componentDidMount
+      - office-ui-fabric-react.ContextualMenuSplitButton.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: office-ui-fabric-react.ContextualMenuItemWrapper
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ContextualMenuSplitButton.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ContextualMenuSplitButton.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element | null
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ContextualMenuItemWrapper
+    name: ContextualMenuItemWrapper
+    spec.typeScript:
+      - name: ContextualMenuItemWrapper
+        fullName: ContextualMenuItemWrapper
+        uid: office-ui-fabric-react.ContextualMenuItemWrapper

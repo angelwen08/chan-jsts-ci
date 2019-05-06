@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ResizeGroupOverflowSetExample
+    name: ResizeGroupOverflowSetExample
+    fullName: ResizeGroupOverflowSetExample<SS>
+    children:
+      - office-ui-fabric-react.ResizeGroupOverflowSetExample.render
+      - office-ui-fabric-react.ResizeGroupOverflowSetExample.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<__type,
+        office-ui-fabric-react.IResizeGroupOverflowSetExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ResizeGroupOverflowSetExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ResizeGroupOverflowSetExample.constructor
+    name: ResizeGroupOverflowSetExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ResizeGroupOverflowSetExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<__type,
+      office-ui-fabric-react.IResizeGroupOverflowSetExampleState>
+    name: IResizeGroupOverflowSetExampleState>
+    spec.typeScript:
+      - name: 'BaseComponent<__type, '
+        fullName: 'BaseComponent<__type, '
+      - name: IResizeGroupOverflowSetExampleState
+        fullName: IResizeGroupOverflowSetExampleState
+        uid: office-ui-fabric-react.IResizeGroupOverflowSetExampleState
+      - name: '>'
+        fullName: '>'

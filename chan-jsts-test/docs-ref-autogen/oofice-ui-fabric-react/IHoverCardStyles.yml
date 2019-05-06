@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IHoverCardStyles
+    name: IHoverCardStyles
+    fullName: IHoverCardStyles
+    children:
+      - office-ui-fabric-react.IHoverCardStyles.host
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory HoverCard}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IHoverCardStyles.host
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Style for the host element in the default enabled, non-toggled state.'
+    optional: true
+    syntax:
+      content: 'host?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

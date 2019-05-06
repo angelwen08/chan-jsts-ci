@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardStyleProps
+    name: IDocumentCardStyleProps
+    fullName: IDocumentCardStyleProps
+    children:
+      - office-ui-fabric-react.IDocumentCardStyleProps.actionable
+      - office-ui-fabric-react.IDocumentCardStyleProps.className
+      - office-ui-fabric-react.IDocumentCardStyleProps.compact
+      - office-ui-fabric-react.IDocumentCardStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardStyleProps.actionable
+    name: actionable
+    fullName: actionable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: True when the card has a click action.
+    optional: true
+    syntax:
+      content: 'actionable?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override class name
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardStyleProps.compact
+    name: compact
+    fullName: compact
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Compact variant of the card.
+    optional: true
+    syntax:
+      content: 'compact?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accept theme prop.
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

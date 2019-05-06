@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SemanticColorSlots
+    name: SemanticColorSlots
+    fullName: SemanticColorSlots
+    children:
+      - office-ui-fabric-react.SemanticColorSlots.bodyBackground
+      - office-ui-fabric-react.SemanticColorSlots.bodyText
+      - office-ui-fabric-react.SemanticColorSlots.disabledBackground
+      - office-ui-fabric-react.SemanticColorSlots.disabledText
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SemanticColorSlots.bodyBackground
+    name: bodyBackground
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SemanticColorSlots.bodyText
+    name: bodyText
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SemanticColorSlots.disabledBackground
+    name: disabledBackground
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SemanticColorSlots.disabledText
+    name: disabledText
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: office-ui-fabric-react

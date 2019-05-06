@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyles
+    name: IColorPickerGridCellStyles
+    fullName: IColorPickerGridCellStyles
+    children:
+      - office-ui-fabric-react.IColorPickerGridCellStyles.colorCell
+      - office-ui-fabric-react.IColorPickerGridCellStyles.svg
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Styles for the Color Picker Component.
+      {@docCategory SwatchColorPicker}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyles.colorCell
+    name: colorCell
+    fullName: colorCell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style to apply to a colorCell in the color picker.
+    syntax:
+      content: 'colorCell: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyles.svg
+    name: svg
+    fullName: svg
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style to apply to the svg element that renders the color.
+    syntax:
+      content: 'svg: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

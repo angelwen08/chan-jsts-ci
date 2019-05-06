@@ -1,0 +1,130 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITableRowJson
+    name: ITableRowJson
+    fullName: ITableRowJson
+    children:
+      - office-ui-fabric-react.ITableRowJson.defaultValue
+      - office-ui-fabric-react.ITableRowJson.deprecated
+      - office-ui-fabric-react.ITableRowJson.deprecatedMessage
+      - office-ui-fabric-react.ITableRowJson.description
+      - office-ui-fabric-react.ITableRowJson.kind
+      - office-ui-fabric-react.ITableRowJson.name
+      - office-ui-fabric-react.ITableRowJson.typeTokens
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: Generic table row
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableRowJson.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableRowJson.deprecated
+    name: deprecated
+    fullName: deprecated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'deprecated: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableRowJson.deprecatedMessage
+    name: deprecatedMessage
+    fullName: deprecatedMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'deprecatedMessage?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableRowJson.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableRowJson.kind
+    name: kind
+    fullName: kind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'kind?: "Method" | "Property"'
+      return:
+        type:
+          - '"Method" | "Property"'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableRowJson.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableRowJson.typeTokens
+    name: typeTokens
+    fullName: typeTokens
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'typeTokens: ILinkToken[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.ILinkToken[]'
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.ILinkToken[]'
+    name: 'ILinkToken[]'
+    spec.typeScript:
+      - name: ILinkToken
+        fullName: ILinkToken
+        uid: office-ui-fabric-react.ILinkToken
+      - name: '[]'
+        fullName: '[]'

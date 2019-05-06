@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.PivotBase
+    name: PivotBase
+    fullName: PivotBase<SS>
+    children:
+      - office-ui-fabric-react.PivotBase.focus
+      - office-ui-fabric-react.PivotBase.constructor
+      - office-ui-fabric-react.PivotBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: |2
+       Usage:
+          <Pivot>
+            <PivotItem headerText="Foo">
+              <Label>Pivot #1</Label>
+            </PivotItem>
+            <PivotItem headerText="Bar">
+              <Label>Pivot #2</Label>
+            </PivotItem>
+            <PivotItem headerText="Bas">
+              <Label>Pivot #3</Label>
+            </PivotItem>
+          </Pivot>
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IPivotProps,
+        office-ui-fabric-react.IPivotState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PivotBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets focus to the first pivot tab.
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PivotBase.constructor
+    name: PivotBase(IPivotProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PivotBase(props: IPivotProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IPivotProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PivotBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IPivotProps,
+      office-ui-fabric-react.IPivotState>
+    name: IPivotState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IPivotProps
+        fullName: IPivotProps
+        uid: office-ui-fabric-react.IPivotProps
+      - name: ', '
+        fullName: ', '
+      - name: IPivotState
+        fullName: IPivotState
+        uid: office-ui-fabric-react.IPivotState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IPivotProps
+    name: IPivotProps
+    spec.typeScript:
+      - name: IPivotProps
+        fullName: IPivotProps
+        uid: office-ui-fabric-react.IPivotProps

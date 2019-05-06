@@ -1,0 +1,226 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IImageProps
+    name: IImageProps
+    fullName: IImageProps
+    children:
+      - office-ui-fabric-react.IImageProps.className
+      - office-ui-fabric-react.IImageProps.coverStyle
+      - office-ui-fabric-react.IImageProps.errorSrc
+      - office-ui-fabric-react.IImageProps.imageFit
+      - office-ui-fabric-react.IImageProps.maximizeFrame
+      - office-ui-fabric-react.IImageProps.onLoadingStateChange
+      - office-ui-fabric-react.IImageProps.shouldFadeIn
+      - office-ui-fabric-react.IImageProps.shouldStartVisible
+      - office-ui-fabric-react.IImageProps.styles
+      - office-ui-fabric-react.IImageProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Image}'
+    extends:
+      name: ImgHTMLAttributes<HTMLImageElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional css class to apply to the Component
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.coverStyle
+    name: coverStyle
+    fullName: coverStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Specifies the cover style to be used for this image. If not
+      specified, this will be dynamically calculated based on the
+      aspect ratio for the image.
+    optional: true
+    syntax:
+      content: 'coverStyle?: ImageCoverStyle'
+      return:
+        type:
+          - office-ui-fabric-react.ImageCoverStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.errorSrc
+    name: errorSrc
+    fullName: errorSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Deprecated at v1.3.6, to replace the src in case of errors, use
+      `onLoadingStateChange` instead and
+
+      rerender the Image with a difference src.
+    optional: true
+    syntax:
+      content: 'errorSrc?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: |-
+        Use `onLoadingStateChange` instead and
+        rerender the Image with a difference src.
+  - uid: office-ui-fabric-react.IImageProps.imageFit
+    name: imageFit
+    fullName: imageFit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Used to determine how the image is scaled and cropped to fit the frame.
+    optional: true
+    syntax:
+      content: 'imageFit?: ImageFit'
+      return:
+        type:
+          - office-ui-fabric-react.ImageFit
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.maximizeFrame
+    name: maximizeFrame
+    fullName: maximizeFrame
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If true, the image frame will expand to fill its parent container.'
+    optional: true
+    syntax:
+      content: 'maximizeFrame?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.onLoadingStateChange
+    name: onLoadingStateChange
+    fullName: onLoadingStateChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Optional callback method for when the image load state has changed.
+      The 'loadState' parameter indicates the current state of the Image.
+    optional: true
+    syntax:
+      content: 'onLoadingStateChange?: (loadState: ImageLoadState) => void'
+      return:
+        type:
+          - '(loadState: ImageLoadState) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.shouldFadeIn
+    name: shouldFadeIn
+    fullName: shouldFadeIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If true, fades the image in when loaded.'
+    optional: true
+    syntax:
+      content: 'shouldFadeIn?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.shouldStartVisible
+    name: shouldStartVisible
+    fullName: shouldStartVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true, the image starts as visible and is hidden on error. Otherwise,
+      the image is hidden until
+
+      it is successfully loaded. This disables shouldFadeIn.
+    optional: true
+    syntax:
+      content: 'shouldStartVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<IImageStyleProps, IImageStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IImageStyleProps,
+            office-ui-fabric-react.IImageStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ImageCoverStyle
+    name: ImageCoverStyle
+    spec.typeScript:
+      - name: ImageCoverStyle
+        fullName: ImageCoverStyle
+        uid: office-ui-fabric-react.ImageCoverStyle
+  - uid: office-ui-fabric-react.ImageFit
+    name: ImageFit
+    spec.typeScript:
+      - name: ImageFit
+        fullName: ImageFit
+        uid: office-ui-fabric-react.ImageFit
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IImageStyleProps,
+      office-ui-fabric-react.IImageStyles>
+    name: IImageStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IImageStyleProps
+        fullName: IImageStyleProps
+        uid: office-ui-fabric-react.IImageStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IImageStyles
+        fullName: IImageStyles
+        uid: office-ui-fabric-react.IImageStyles
+      - name: '>'
+        fullName: '>'

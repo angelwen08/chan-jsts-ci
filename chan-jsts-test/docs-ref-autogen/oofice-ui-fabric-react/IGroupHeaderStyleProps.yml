@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGroupHeaderStyleProps
+    name: IGroupHeaderStyleProps
+    fullName: IGroupHeaderStyleProps
+    children: []
+    syntax:
+      content: >-
+        type IGroupHeaderStyleProps = Required<Pick> & Pick<IGroupHeaderProps> &
+        Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory GroupedList}'
+    package: office-ui-fabric-react

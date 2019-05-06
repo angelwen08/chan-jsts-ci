@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPickerAriaIds
+    name: IPickerAriaIds
+    fullName: IPickerAriaIds
+    children: []
+    syntax:
+      content: >-
+        type IPickerAriaIds = { selectedItems:string,
+        selectedSuggestionAlert:string, suggestionList:string }
+    langs:
+      - typeScript
+    type: type alias
+    summary: |-
+      Aria id's for internal picker components
+      {@docCategory Pickers}
+    package: office-ui-fabric-react

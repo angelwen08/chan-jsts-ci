@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.addYears
+    name: 'addYears(Date, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns a date offset from the given date by the specified number of
+      years.
+
+      The method tries to preserve the day-of-month; however, if the new month
+      does not have enough days
+
+      to contain the original day-of-month, we'll use the last day of the new
+      month.
+    syntax:
+      content: 'function addYears(date: Date, years: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The origin date
+        - id: years
+          type:
+            - number
+          description: The number of years to offset. 'years' can be negative.
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react

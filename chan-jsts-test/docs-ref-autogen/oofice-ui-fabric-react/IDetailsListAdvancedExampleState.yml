@@ -1,0 +1,309 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState
+    name: IDetailsListAdvancedExampleState
+    fullName: IDetailsListAdvancedExampleState
+    children:
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.canResizeColumns
+      - >-
+        office-ui-fabric-react.IDetailsListAdvancedExampleState.checkboxVisibility
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.columns
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.constrainMode
+      - >-
+        office-ui-fabric-react.IDetailsListAdvancedExampleState.contextualMenuProps
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.groupItemLimit
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.groups
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.isHeaderVisible
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.isLazyLoaded
+      - >-
+        office-ui-fabric-react.IDetailsListAdvancedExampleState.isSortedDescending
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.items
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.layoutMode
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.selectionCount
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.selectionMode
+      - office-ui-fabric-react.IDetailsListAdvancedExampleState.sortedColumnKey
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.canResizeColumns
+    name: canResizeColumns
+    fullName: canResizeColumns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'canResizeColumns?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.checkboxVisibility
+    name: checkboxVisibility
+    fullName: checkboxVisibility
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'checkboxVisibility?: CheckboxVisibility'
+      return:
+        type:
+          - office-ui-fabric-react.CheckboxVisibility
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.columns
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'columns: IColumn[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IColumn[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.constrainMode
+    name: constrainMode
+    fullName: constrainMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'constrainMode?: ConstrainMode'
+      return:
+        type:
+          - office-ui-fabric-react.ConstrainMode
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IDetailsListAdvancedExampleState.contextualMenuProps
+    name: contextualMenuProps
+    fullName: contextualMenuProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contextualMenuProps?: IContextualMenuProps'
+      return:
+        type:
+          - office-ui-fabric-react.IContextualMenuProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.groupItemLimit
+    name: groupItemLimit
+    fullName: groupItemLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'groupItemLimit?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.groups
+    name: groups
+    fullName: groups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'groups?: IGroup[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IGroup[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.isHeaderVisible
+    name: isHeaderVisible
+    fullName: isHeaderVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isHeaderVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.isLazyLoaded
+    name: isLazyLoaded
+    fullName: isLazyLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isLazyLoaded?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.isSortedDescending
+    name: isSortedDescending
+    fullName: isSortedDescending
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isSortedDescending?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'items: IExampleItem[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IExampleItem[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.layoutMode
+    name: layoutMode
+    fullName: layoutMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'layoutMode?: DetailsListLayoutMode'
+      return:
+        type:
+          - office-ui-fabric-react.DetailsListLayoutMode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.selectionCount
+    name: selectionCount
+    fullName: selectionCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectionCount: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.selectionMode
+    name: selectionMode
+    fullName: selectionMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectionMode?: SelectionMode'
+      return:
+        type:
+          - office-ui-fabric-react.SelectionMode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListAdvancedExampleState.sortedColumnKey
+    name: sortedColumnKey
+    fullName: sortedColumnKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sortedColumnKey?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.CheckboxVisibility
+    name: CheckboxVisibility
+    spec.typeScript:
+      - name: CheckboxVisibility
+        fullName: CheckboxVisibility
+        uid: office-ui-fabric-react.CheckboxVisibility
+  - uid: 'office-ui-fabric-react.IColumn[]'
+    name: 'IColumn[]'
+    spec.typeScript:
+      - name: IColumn
+        fullName: IColumn
+        uid: office-ui-fabric-react.IColumn
+      - name: '[]'
+        fullName: '[]'
+  - uid: office-ui-fabric-react.ConstrainMode
+    name: ConstrainMode
+    spec.typeScript:
+      - name: ConstrainMode
+        fullName: ConstrainMode
+        uid: office-ui-fabric-react.ConstrainMode
+  - uid: office-ui-fabric-react.IContextualMenuProps
+    name: IContextualMenuProps
+    spec.typeScript:
+      - name: IContextualMenuProps
+        fullName: IContextualMenuProps
+        uid: office-ui-fabric-react.IContextualMenuProps
+  - uid: 'office-ui-fabric-react.IGroup[]'
+    name: 'IGroup[]'
+    spec.typeScript:
+      - name: IGroup
+        fullName: IGroup
+        uid: office-ui-fabric-react.IGroup
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'office-ui-fabric-react.IExampleItem[]'
+    name: 'IExampleItem[]'
+    spec.typeScript:
+      - name: IExampleItem
+        fullName: IExampleItem
+        uid: office-ui-fabric-react.IExampleItem
+      - name: '[]'
+        fullName: '[]'
+  - uid: office-ui-fabric-react.DetailsListLayoutMode
+    name: DetailsListLayoutMode
+    spec.typeScript:
+      - name: DetailsListLayoutMode
+        fullName: DetailsListLayoutMode
+        uid: office-ui-fabric-react.DetailsListLayoutMode
+  - uid: office-ui-fabric-react.SelectionMode
+    name: SelectionMode
+    spec.typeScript:
+      - name: SelectionMode
+        fullName: SelectionMode
+        uid: office-ui-fabric-react.SelectionMode

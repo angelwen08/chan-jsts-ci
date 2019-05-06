@@ -1,0 +1,207 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPivotItemProps
+    name: IPivotItemProps
+    fullName: IPivotItemProps
+    children:
+      - office-ui-fabric-react.IPivotItemProps.ariaLabel
+      - office-ui-fabric-react.IPivotItemProps.componentRef
+      - office-ui-fabric-react.IPivotItemProps.headerButtonProps
+      - office-ui-fabric-react.IPivotItemProps.headerText
+      - office-ui-fabric-react.IPivotItemProps.itemCount
+      - office-ui-fabric-react.IPivotItemProps.itemIcon
+      - office-ui-fabric-react.IPivotItemProps.itemKey
+      - office-ui-fabric-react.IPivotItemProps.keytipProps
+      - office-ui-fabric-react.IPivotItemProps.linkText
+      - office-ui-fabric-react.IPivotItemProps.onRenderItemLink
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Pivot}'
+    extends:
+      name: HTMLAttributes<HTMLDivElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The aria label of each pivot link which will read by screen reader instead
+      of linkText.
+
+      Note that unless you have compelling requirements you should not override
+      aria-label.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the component ref.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<__type>'
+      return:
+        type:
+          - IRefObject<__type>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.headerButtonProps
+    name: headerButtonProps
+    fullName: headerButtonProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Props for the header command button supporting native props - data-* and
+      aria-* - for each pivot header/link element
+    optional: true
+    syntax:
+      content: 'headerButtonProps?: [key: string]: function'
+      return:
+        type:
+          - '[key: string]: function'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.headerText
+    name: headerText
+    fullName: headerText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The text displayed of each pivot link.
+    optional: true
+    syntax:
+      content: 'headerText?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.itemCount
+    name: itemCount
+    fullName: itemCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Defines an optional item count displayed in parentheses just after the
+      `linkText`.
+
+      Examples: completed (4), Unread (99+)
+    optional: true
+    syntax:
+      content: 'itemCount?: number | string'
+      return:
+        type:
+          - number | string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.itemIcon
+    name: itemIcon
+    fullName: itemIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An optional icon to show next to the pivot link.
+    optional: true
+    syntax:
+      content: 'itemIcon?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.itemKey
+    name: itemKey
+    fullName: itemKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      An required key to uniquely identify a pivot item.
+      Note: The 'key' from react props cannot be used inside component.
+    optional: true
+    syntax:
+      content: 'itemKey?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.keytipProps
+    name: keytipProps
+    fullName: keytipProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional keytip for this PivotItem
+    optional: true
+    syntax:
+      content: 'keytipProps?: IKeytipProps'
+      return:
+        type:
+          - office-ui-fabric-react.IKeytipProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotItemProps.linkText
+    name: linkText
+    fullName: linkText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The text displayed of each pivot link - renaming to `headerText`.
+    optional: true
+    syntax:
+      content: 'linkText?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `headerText` instead.
+  - uid: office-ui-fabric-react.IPivotItemProps.onRenderItemLink
+    name: onRenderItemLink
+    fullName: onRenderItemLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for the pivot item link
+    optional: true
+    syntax:
+      content: 'onRenderItemLink?: IRenderFunction<IPivotItemProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IPivotItemProps>
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IKeytipProps
+    name: IKeytipProps
+    spec.typeScript:
+      - name: IKeytipProps
+        fullName: IKeytipProps
+        uid: office-ui-fabric-react.IKeytipProps
+  - uid: IRenderFunction<office-ui-fabric-react.IPivotItemProps>
+    name: IPivotItemProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IPivotItemProps
+        fullName: IPivotItemProps
+        uid: office-ui-fabric-react.IPivotItemProps
+      - name: '>'
+        fullName: '>'

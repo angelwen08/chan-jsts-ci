@@ -1,0 +1,315 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISpinButtonStyles
+    name: ISpinButtonStyles
+    fullName: ISpinButtonStyles
+    children:
+      - office-ui-fabric-react.ISpinButtonStyles.arrowButtonsContainer
+      - office-ui-fabric-react.ISpinButtonStyles.arrowButtonsContainerDisabled
+      - office-ui-fabric-react.ISpinButtonStyles.icon
+      - office-ui-fabric-react.ISpinButtonStyles.iconDisabled
+      - office-ui-fabric-react.ISpinButtonStyles.input
+      - office-ui-fabric-react.ISpinButtonStyles.inputDisabled
+      - office-ui-fabric-react.ISpinButtonStyles.inputTextSelected
+      - office-ui-fabric-react.ISpinButtonStyles.label
+      - office-ui-fabric-react.ISpinButtonStyles.labelDisabled
+      - office-ui-fabric-react.ISpinButtonStyles.labelWrapper
+      - office-ui-fabric-react.ISpinButtonStyles.labelWrapperBottom
+      - office-ui-fabric-react.ISpinButtonStyles.labelWrapperEnd
+      - office-ui-fabric-react.ISpinButtonStyles.labelWrapperStart
+      - office-ui-fabric-react.ISpinButtonStyles.labelWrapperTop
+      - office-ui-fabric-react.ISpinButtonStyles.root
+      - office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapper
+      - office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapperDisabled
+      - office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapperFocused
+      - office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapperHovered
+      - office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapperTopBottom
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory SpinButton}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.arrowButtonsContainer
+    name: arrowButtonsContainer
+    fullName: arrowButtonsContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the arrowButtonsContainer
+    syntax:
+      content: 'arrowButtonsContainer: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.arrowButtonsContainerDisabled
+    name: arrowButtonsContainerDisabled
+    fullName: arrowButtonsContainerDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override for the arrowButtonsContainer when spin button is disabled.
+    syntax:
+      content: 'arrowButtonsContainerDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the icon.
+    syntax:
+      content: 'icon: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.iconDisabled
+    name: iconDisabled
+    fullName: iconDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the icon.
+    syntax:
+      content: 'iconDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.input
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the input.
+    syntax:
+      content: 'input: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.inputDisabled
+    name: inputDisabled
+    fullName: inputDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when spinButton is disabled.
+    syntax:
+      content: 'inputDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.inputTextSelected
+    name: inputTextSelected
+    fullName: inputTextSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Style override for ::selection'
+    syntax:
+      content: 'inputTextSelected: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the label text
+    syntax:
+      content: 'label: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.labelDisabled
+    name: labelDisabled
+    fullName: labelDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the label text
+    syntax:
+      content: 'labelDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.labelWrapper
+    name: labelWrapper
+    fullName: labelWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Style for the label wrapper element of the component
+      The label wrapper contains the icon and the label.
+    syntax:
+      content: 'labelWrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.labelWrapperBottom
+    name: labelWrapperBottom
+    fullName: labelWrapperBottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when the label is positioned at the bottom.
+    syntax:
+      content: 'labelWrapperBottom: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.labelWrapperEnd
+    name: labelWrapperEnd
+    fullName: labelWrapperEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when the label is positioned at the end.
+    syntax:
+      content: 'labelWrapperEnd: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.labelWrapperStart
+    name: labelWrapperStart
+    fullName: labelWrapperStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when the label is positioned at the start.
+    syntax:
+      content: 'labelWrapperStart: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.labelWrapperTop
+    name: labelWrapperTop
+    fullName: labelWrapperTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when the label is positioned at the top.
+    syntax:
+      content: 'labelWrapperTop: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the root of the spin button component.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapper
+    name: spinButtonWrapper
+    fullName: spinButtonWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for spinButtonWrapper when enabled.
+    syntax:
+      content: 'spinButtonWrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapperDisabled
+    name: spinButtonWrapperDisabled
+    fullName: spinButtonWrapperDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when spinButton is disabled.
+    syntax:
+      content: 'spinButtonWrapperDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapperFocused
+    name: spinButtonWrapperFocused
+    fullName: spinButtonWrapperFocused
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when spinButton is enabled/focused.
+    syntax:
+      content: 'spinButtonWrapperFocused: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapperHovered
+    name: spinButtonWrapperHovered
+    fullName: spinButtonWrapperHovered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when spinButton is enabled/hovered.
+    syntax:
+      content: 'spinButtonWrapperHovered: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonStyles.spinButtonWrapperTopBottom
+    name: spinButtonWrapperTopBottom
+    fullName: spinButtonWrapperTopBottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override when label is positioned at the top/bottom.
+    syntax:
+      content: 'spinButtonWrapperTopBottom: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

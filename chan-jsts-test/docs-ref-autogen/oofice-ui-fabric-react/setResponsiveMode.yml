@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.setResponsiveMode
+    name: setResponsiveMode(ResponsiveMode | undefined)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Allows a server rendered scenario to provide a default responsive mode.
+    syntax:
+      content: 'function setResponsiveMode(responsiveMode: ResponsiveMode | undefined)'
+      parameters:
+        - id: responsiveMode
+          type:
+            - office-ui-fabric-react.ResponsiveMode | undefined
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ResponsiveMode | undefined
+    name: ResponsiveMode | undefined
+    spec.typeScript:
+      - name: ResponsiveMode
+        fullName: ResponsiveMode
+        uid: office-ui-fabric-react.ResponsiveMode
+      - name: ' | undefined'
+        fullName: ' | undefined'

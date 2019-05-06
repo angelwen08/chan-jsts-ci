@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDraggableZoneState
+    name: IDraggableZoneState
+    fullName: IDraggableZoneState
+    children:
+      - office-ui-fabric-react.IDraggableZoneState.isDragging
+      - office-ui-fabric-react.IDraggableZoneState.lastPosition
+      - office-ui-fabric-react.IDraggableZoneState.position
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneState.isDragging
+    name: isDragging
+    fullName: isDragging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isDragging: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneState.lastPosition
+    name: lastPosition
+    fullName: lastPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'lastPosition?: ICoordinates'
+      return:
+        type:
+          - office-ui-fabric-react.ICoordinates
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneState.position
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'position: ICoordinates'
+      return:
+        type:
+          - office-ui-fabric-react.ICoordinates
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ICoordinates
+    name: ICoordinates
+    spec.typeScript:
+      - name: ICoordinates
+        fullName: ICoordinates
+        uid: office-ui-fabric-react.ICoordinates

@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IContextualMenuStyles
+    name: IContextualMenuStyles
+    fullName: IContextualMenuStyles
+    children:
+      - office-ui-fabric-react.IContextualMenuStyles.container
+      - office-ui-fabric-react.IContextualMenuStyles.header
+      - office-ui-fabric-react.IContextualMenuStyles.list
+      - office-ui-fabric-react.IContextualMenuStyles.root
+      - office-ui-fabric-react.IContextualMenuStyles.subComponentStyles
+      - office-ui-fabric-react.IContextualMenuStyles.title
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ContextualMenu}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuStyles.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the container which parents all menu items.
+    syntax:
+      content: 'container: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuStyles.header
+    name: header
+    fullName: header
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the header item of a ContextualMenu
+    syntax:
+      content: 'header: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuStyles.list
+    name: list
+    fullName: list
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the list that contains all menuItems.
+    syntax:
+      content: 'list: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Base styles for the root element of all ContextualMenus.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuStyles.subComponentStyles
+    name: subComponentStyles
+    fullName: subComponentStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: SubComponent styles.
+    syntax:
+      content: 'subComponentStyles: IContextualMenuSubComponentStyles'
+      return:
+        type:
+          - office-ui-fabric-react.IContextualMenuSubComponentStyles
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuStyles.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override for the contextual menu title.
+    syntax:
+      content: 'title: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IContextualMenuSubComponentStyles
+    name: IContextualMenuSubComponentStyles
+    spec.typeScript:
+      - name: IContextualMenuSubComponentStyles
+        fullName: IContextualMenuSubComponentStyles
+        uid: office-ui-fabric-react.IContextualMenuSubComponentStyles

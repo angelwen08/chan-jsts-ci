@@ -1,0 +1,192 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.PersonaInitialsColor
+    name: PersonaInitialsColor
+    fullName: PersonaInitialsColor
+    children:
+      - office-ui-fabric-react.PersonaInitialsColor.lightBlue
+      - office-ui-fabric-react.PersonaInitialsColor.blue
+      - office-ui-fabric-react.PersonaInitialsColor.darkBlue
+      - office-ui-fabric-react.PersonaInitialsColor.teal
+      - office-ui-fabric-react.PersonaInitialsColor.lightGreen
+      - office-ui-fabric-react.PersonaInitialsColor.green
+      - office-ui-fabric-react.PersonaInitialsColor.darkGreen
+      - office-ui-fabric-react.PersonaInitialsColor.lightPink
+      - office-ui-fabric-react.PersonaInitialsColor.pink
+      - office-ui-fabric-react.PersonaInitialsColor.magenta
+      - office-ui-fabric-react.PersonaInitialsColor.purple
+      - office-ui-fabric-react.PersonaInitialsColor.black
+      - office-ui-fabric-react.PersonaInitialsColor.orange
+      - office-ui-fabric-react.PersonaInitialsColor.red
+      - office-ui-fabric-react.PersonaInitialsColor.darkRed
+      - office-ui-fabric-react.PersonaInitialsColor.transparent
+      - office-ui-fabric-react.PersonaInitialsColor.violet
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: '{@docCategory Persona}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.lightBlue
+    name: lightBlue
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.blue
+    name: blue
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.darkBlue
+    name: darkBlue
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.teal
+    name: teal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.lightGreen
+    name: lightGreen
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.green
+    name: green
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.darkGreen
+    name: darkGreen
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.lightPink
+    name: lightPink
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.pink
+    name: pink
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.magenta
+    name: magenta
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.purple
+    name: purple
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.black
+    name: black
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Black is a color that can result in offensive persona coins with some
+      initials combinations, so it can only be set with overrides
+    type: field
+    numericValue: 11
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.orange
+    name: orange
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 12
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.red
+    name: red
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Red is a color that often has a special meaning, so it is considered a
+      reserved color and can only be set with overrides
+    type: field
+    numericValue: 13
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.darkRed
+    name: darkRed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 14
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.transparent
+    name: transparent
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Transparent is not intended to be used with typical initials due to
+      accessibility issues.
+
+      Its primary use is for overflow buttons, so it is considered a reserved
+      color and can only be set with overrides.
+    type: field
+    numericValue: 15
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaInitialsColor.violet
+    name: violet
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 16
+    package: office-ui-fabric-react

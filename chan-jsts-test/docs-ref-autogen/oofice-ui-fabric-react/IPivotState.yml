@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPivotState
+    name: IPivotState
+    fullName: IPivotState
+    children:
+      - office-ui-fabric-react.IPivotState.selectedKey
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivotState.selectedKey
+    name: selectedKey
+    fullName: selectedKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectedKey: string | undefined'
+      return:
+        type:
+          - string | undefined
+    package: office-ui-fabric-react

@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.sequencesToID
+    name: 'sequencesToID(string[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Converts a whole set of KeySequences into one keytip ID, which will be the
+      ID for the last keytip sequence specified
+
+      keySequences should not include the initial keytip 'start' sequence.
+    syntax:
+      content: 'function sequencesToID(keySequences: string[])'
+      parameters:
+        - id: keySequences
+          type:
+            - 'string[]'
+          description: Full path of IKeySequences for one keytip.
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISelectedItemProps
+    name: ISelectedItemProps
+    fullName: ISelectedItemProps<T>
+    children:
+      - office-ui-fabric-react.ISelectedItemProps.onCopyItem
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: office-ui-fabric-react.IPickerItemProps<T>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectedItemProps.onCopyItem
+    name: onCopyItem
+    fullName: onCopyItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onCopyItem: (item: T) => void'
+      return:
+        type:
+          - '(item: T) => void'
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IPickerItemProps<T>
+    name: IPickerItemProps<T>
+    spec.typeScript:
+      - name: IPickerItemProps
+        fullName: IPickerItemProps
+        uid: office-ui-fabric-react.IPickerItemProps
+      - name: <T>
+        fullName: <T>

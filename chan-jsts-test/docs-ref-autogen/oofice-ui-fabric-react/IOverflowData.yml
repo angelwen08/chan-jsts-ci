@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IOverflowData
+    name: IOverflowData
+    fullName: IOverflowData
+    children:
+      - office-ui-fabric-react.IOverflowData.cacheKey
+      - office-ui-fabric-react.IOverflowData.overflow
+      - office-ui-fabric-react.IOverflowData.primary
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IOverflowData.cacheKey
+    name: cacheKey
+    fullName: cacheKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cacheKey?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IOverflowData.overflow
+    name: overflow
+    fullName: overflow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'overflow: IContextualMenuItem[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IContextualMenuItem[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IOverflowData.primary
+    name: primary
+    fullName: primary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'primary: IContextualMenuItem[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IContextualMenuItem[]'
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IContextualMenuItem[]'
+    name: 'IContextualMenuItem[]'
+    spec.typeScript:
+      - name: IContextualMenuItem
+        fullName: IContextualMenuItem
+        uid: office-ui-fabric-react.IContextualMenuItem
+      - name: '[]'
+        fullName: '[]'

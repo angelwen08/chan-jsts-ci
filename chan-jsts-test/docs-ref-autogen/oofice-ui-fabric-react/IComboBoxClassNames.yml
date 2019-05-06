@@ -1,0 +1,163 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IComboBoxClassNames
+    name: IComboBoxClassNames
+    fullName: IComboBoxClassNames
+    children:
+      - office-ui-fabric-react.IComboBoxClassNames.callout
+      - office-ui-fabric-react.IComboBoxClassNames.container
+      - office-ui-fabric-react.IComboBoxClassNames.divider
+      - office-ui-fabric-react.IComboBoxClassNames.errorMessage
+      - office-ui-fabric-react.IComboBoxClassNames.header
+      - office-ui-fabric-react.IComboBoxClassNames.input
+      - office-ui-fabric-react.IComboBoxClassNames.label
+      - office-ui-fabric-react.IComboBoxClassNames.optionsContainer
+      - office-ui-fabric-react.IComboBoxClassNames.optionsContainerWrapper
+      - office-ui-fabric-react.IComboBoxClassNames.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.callout
+    name: callout
+    fullName: callout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'callout: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'container: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.divider
+    name: divider
+    fullName: divider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'divider: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.errorMessage
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'errorMessage: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.header
+    name: header
+    fullName: header
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'header: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.input
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'input: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.optionsContainer
+    name: optionsContainer
+    fullName: optionsContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'optionsContainer: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.optionsContainerWrapper
+    name: optionsContainerWrapper
+    fullName: optionsContainerWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'optionsContainerWrapper: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxClassNames.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.isDark
+    name: isDark(IColor)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isDark(color: IColor)'
+      parameters:
+        - id: color
+          type:
+            - office-ui-fabric-react.IColor
+          description: ''
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor

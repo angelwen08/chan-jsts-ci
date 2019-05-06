@@ -1,0 +1,210 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardImageProps
+    name: IDocumentCardImageProps
+    fullName: IDocumentCardImageProps
+    children:
+      - office-ui-fabric-react.IDocumentCardImageProps.className
+      - office-ui-fabric-react.IDocumentCardImageProps.componentRef
+      - office-ui-fabric-react.IDocumentCardImageProps.height
+      - office-ui-fabric-react.IDocumentCardImageProps.iconProps
+      - office-ui-fabric-react.IDocumentCardImageProps.imageFit
+      - office-ui-fabric-react.IDocumentCardImageProps.imageSrc
+      - office-ui-fabric-react.IDocumentCardImageProps.styles
+      - office-ui-fabric-react.IDocumentCardImageProps.theme
+      - office-ui-fabric-react.IDocumentCardImageProps.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    extends:
+      name: IBaseProps<__type>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override class name
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the component ref.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IDocumentCardImage>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IDocumentCardImage>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If provided, forces the preview image to be this height.'
+    optional: true
+    syntax:
+      content: 'height?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.iconProps
+    name: iconProps
+    fullName: iconProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The props for the icon associated with this document type.
+    optional: true
+    syntax:
+      content: 'iconProps?: IIconProps'
+      return:
+        type:
+          - office-ui-fabric-react.IIconProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.imageFit
+    name: imageFit
+    fullName: imageFit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Used to determine how to size the image to fit the dimensions of the
+      component.
+
+      If both dimensions are provided, then the image is fit using
+      ImageFit.scale, otherwise ImageFit.none is used.
+    optional: true
+    syntax:
+      content: 'imageFit?: ImageFit'
+      return:
+        type:
+          - office-ui-fabric-react.ImageFit
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.imageSrc
+    name: imageSrc
+    fullName: imageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Path to the preview image.
+    optional: true
+    syntax:
+      content: 'imageSrc?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IDocumentCardImageStyleProps,
+        IDocumentCardImageStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IDocumentCardImageStyleProps,
+            office-ui-fabric-react.IDocumentCardImageStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageProps.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If provided, forces the preview image to be this width.'
+    optional: true
+    syntax:
+      content: 'width?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+references:
+  - uid: IRefObject<office-ui-fabric-react.IDocumentCardImage>
+    name: IDocumentCardImage>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IDocumentCardImage
+        fullName: IDocumentCardImage
+        uid: office-ui-fabric-react.IDocumentCardImage
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IIconProps
+    name: IIconProps
+    spec.typeScript:
+      - name: IIconProps
+        fullName: IIconProps
+        uid: office-ui-fabric-react.IIconProps
+  - uid: office-ui-fabric-react.ImageFit
+    name: ImageFit
+    spec.typeScript:
+      - name: ImageFit
+        fullName: ImageFit
+        uid: office-ui-fabric-react.ImageFit
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IDocumentCardImageStyleProps,
+      office-ui-fabric-react.IDocumentCardImageStyles>
+    name: IDocumentCardImageStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IDocumentCardImageStyleProps
+        fullName: IDocumentCardImageStyleProps
+        uid: office-ui-fabric-react.IDocumentCardImageStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IDocumentCardImageStyles
+        fullName: IDocumentCardImageStyles
+        uid: office-ui-fabric-react.IDocumentCardImageStyles
+      - name: '>'
+        fullName: '>'

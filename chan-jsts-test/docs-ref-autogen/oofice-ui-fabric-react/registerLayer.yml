@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.registerLayer
+    name: 'registerLayer(string, Component)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Register a layer for a given host id
+    syntax:
+      content: 'function registerLayer(hostId: string, layer: Component)'
+      parameters:
+        - id: hostId
+          type:
+            - string
+          description: Id of the layer host
+        - id: layer
+          type:
+            - Component
+          description: |
+            Layer instance
+    package: office-ui-fabric-react

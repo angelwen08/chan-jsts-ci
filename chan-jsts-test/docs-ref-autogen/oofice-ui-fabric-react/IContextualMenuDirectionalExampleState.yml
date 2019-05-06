@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IContextualMenuDirectionalExampleState
+    name: IContextualMenuDirectionalExampleState
+    fullName: IContextualMenuDirectionalExampleState
+    children:
+      - office-ui-fabric-react.IContextualMenuDirectionalExampleState.beakWidth
+      - >-
+        office-ui-fabric-react.IContextualMenuDirectionalExampleState.directionalHint
+      - >-
+        office-ui-fabric-react.IContextualMenuDirectionalExampleState.directionalHintForRTL
+      - office-ui-fabric-react.IContextualMenuDirectionalExampleState.edgeFixed
+      - office-ui-fabric-react.IContextualMenuDirectionalExampleState.gapSpace
+      - >-
+        office-ui-fabric-react.IContextualMenuDirectionalExampleState.isBeakVisible
+      - >-
+        office-ui-fabric-react.IContextualMenuDirectionalExampleState.useDirectionalHintForRtl
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuDirectionalExampleState.beakWidth
+    name: beakWidth
+    fullName: beakWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'beakWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IContextualMenuDirectionalExampleState.directionalHint
+    name: directionalHint
+    fullName: directionalHint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'directionalHint?: DirectionalHint'
+      return:
+        type:
+          - DirectionalHint
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IContextualMenuDirectionalExampleState.directionalHintForRTL
+    name: directionalHintForRTL
+    fullName: directionalHintForRTL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'directionalHintForRTL?: DirectionalHint'
+      return:
+        type:
+          - DirectionalHint
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuDirectionalExampleState.edgeFixed
+    name: edgeFixed
+    fullName: edgeFixed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'edgeFixed?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuDirectionalExampleState.gapSpace
+    name: gapSpace
+    fullName: gapSpace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'gapSpace?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IContextualMenuDirectionalExampleState.isBeakVisible
+    name: isBeakVisible
+    fullName: isBeakVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isBeakVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IContextualMenuDirectionalExampleState.useDirectionalHintForRtl
+    name: useDirectionalHintForRtl
+    fullName: useDirectionalHintForRtl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'useDirectionalHintForRtl?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

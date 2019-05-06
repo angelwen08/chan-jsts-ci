@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDatePickerStyles
+    name: IDatePickerStyles
+    fullName: IDatePickerStyles
+    children:
+      - office-ui-fabric-react.IDatePickerStyles.callout
+      - office-ui-fabric-react.IDatePickerStyles.icon
+      - office-ui-fabric-react.IDatePickerStyles.root
+      - office-ui-fabric-react.IDatePickerStyles.textField
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DatePicker}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerStyles.callout
+    name: callout
+    fullName: callout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'callout: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerStyles.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'icon: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerStyles.textField
+    name: textField
+    fullName: textField
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'textField: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

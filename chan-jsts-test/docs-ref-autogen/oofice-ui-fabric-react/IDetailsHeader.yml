@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsHeader
+    name: IDetailsHeader
+    fullName: IDetailsHeader
+    children:
+      - office-ui-fabric-react.IDetailsHeader.focus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsHeader.focus
+    name: focus
+    fullName: focus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: sets focus into the header
+    syntax:
+      content: 'focus: () => boolean'
+      return:
+        type:
+          - () => boolean
+    package: office-ui-fabric-react

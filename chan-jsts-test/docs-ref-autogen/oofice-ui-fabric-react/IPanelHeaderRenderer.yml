@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPanelHeaderRenderer
+    name: IPanelHeaderRenderer
+    fullName: IPanelHeaderRenderer
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Renderer function which takes an additional parameter, the ID to use for
+      the element containing
+
+      the panel's title. This allows the `aria-labelledby` for the panel popup
+      to work correctly.
+
+      Note that if `headerTextId` is provided, it **must** be used on an
+      element, or screen readers
+
+      will be confused by the reference to a nonexistent ID.
+
+      {@docCategory Panel}
+    extends:
+      name: IRenderFunction<office-ui-fabric-react.IPanelProps>
+    package: office-ui-fabric-react
+references:
+  - uid: IRenderFunction<office-ui-fabric-react.IPanelProps>
+    name: IPanelProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IPanelProps
+        fullName: IPanelProps
+        uid: office-ui-fabric-react.IPanelProps
+      - name: '>'
+        fullName: '>'

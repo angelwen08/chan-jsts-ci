@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DayOfWeek
+    name: DayOfWeek
+    fullName: DayOfWeek
+    children:
+      - office-ui-fabric-react.DayOfWeek.Sunday
+      - office-ui-fabric-react.DayOfWeek.Monday
+      - office-ui-fabric-react.DayOfWeek.Tuesday
+      - office-ui-fabric-react.DayOfWeek.Wednesday
+      - office-ui-fabric-react.DayOfWeek.Thursday
+      - office-ui-fabric-react.DayOfWeek.Friday
+      - office-ui-fabric-react.DayOfWeek.Saturday
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      The days of the week
+      {@docCategory DayOfWeek}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DayOfWeek.Sunday
+    name: Sunday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DayOfWeek.Monday
+    name: Monday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DayOfWeek.Tuesday
+    name: Tuesday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DayOfWeek.Wednesday
+    name: Wednesday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DayOfWeek.Thursday
+    name: Thursday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DayOfWeek.Friday
+    name: Friday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DayOfWeek.Saturday
+    name: Saturday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+    package: office-ui-fabric-react

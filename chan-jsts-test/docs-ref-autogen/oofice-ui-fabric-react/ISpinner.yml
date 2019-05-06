@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISpinner
+    name: ISpinner
+    fullName: ISpinner
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Spinner}'
+    package: office-ui-fabric-react

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IOverlay
+    name: IOverlay
+    fullName: IOverlay
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Overlay}'
+    package: office-ui-fabric-react

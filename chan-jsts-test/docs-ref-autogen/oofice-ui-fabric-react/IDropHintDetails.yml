@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDropHintDetails
+    name: IDropHintDetails
+    fullName: IDropHintDetails
+    children:
+      - office-ui-fabric-react.IDropHintDetails.dropHintElementRef
+      - office-ui-fabric-react.IDropHintDetails.endX
+      - office-ui-fabric-react.IDropHintDetails.originX
+      - office-ui-fabric-react.IDropHintDetails.startX
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropHintDetails.dropHintElementRef
+    name: dropHintElementRef
+    fullName: dropHintElementRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dropHintElementRef: HTMLElement'
+      return:
+        type:
+          - HTMLElement
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropHintDetails.endX
+    name: endX
+    fullName: endX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'endX: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropHintDetails.originX
+    name: originX
+    fullName: originX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'originX: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropHintDetails.startX
+    name: startX
+    fullName: startX
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'startX: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

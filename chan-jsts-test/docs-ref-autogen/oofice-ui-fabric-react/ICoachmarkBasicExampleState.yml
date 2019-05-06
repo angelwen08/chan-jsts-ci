@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICoachmarkBasicExampleState
+    name: ICoachmarkBasicExampleState
+    fullName: ICoachmarkBasicExampleState
+    children:
+      - office-ui-fabric-react.ICoachmarkBasicExampleState.coachmarkPosition
+      - office-ui-fabric-react.ICoachmarkBasicExampleState.isCoachmarkVisible
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkBasicExampleState.coachmarkPosition
+    name: coachmarkPosition
+    fullName: coachmarkPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'coachmarkPosition: DirectionalHint'
+      return:
+        type:
+          - DirectionalHint
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkBasicExampleState.isCoachmarkVisible
+    name: isCoachmarkVisible
+    fullName: isCoachmarkVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isCoachmarkVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

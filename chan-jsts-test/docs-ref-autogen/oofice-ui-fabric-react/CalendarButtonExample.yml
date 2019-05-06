@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.CalendarButtonExample
+    name: CalendarButtonExample
+    fullName: CalendarButtonExample<SS>
+    children:
+      - office-ui-fabric-react.CalendarButtonExample.constructor
+      - office-ui-fabric-react.CalendarButtonExample.defaultProps
+      - office-ui-fabric-react.CalendarButtonExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.ICalendarButtonExampleProps,
+        office-ui-fabric-react.ICalendarButtonExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CalendarButtonExample.constructor
+    name: CalendarButtonExample(ICalendarButtonExampleProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CalendarButtonExample(props: ICalendarButtonExampleProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ICalendarButtonExampleProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CalendarButtonExample.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: ICalendarButtonExampleProps'
+      return:
+        type:
+          - office-ui-fabric-react.ICalendarButtonExampleProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CalendarButtonExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.ICalendarButtonExampleProps,
+      office-ui-fabric-react.ICalendarButtonExampleState>
+    name: ICalendarButtonExampleState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: ICalendarButtonExampleProps
+        fullName: ICalendarButtonExampleProps
+        uid: office-ui-fabric-react.ICalendarButtonExampleProps
+      - name: ', '
+        fullName: ', '
+      - name: ICalendarButtonExampleState
+        fullName: ICalendarButtonExampleState
+        uid: office-ui-fabric-react.ICalendarButtonExampleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ICalendarButtonExampleProps
+    name: ICalendarButtonExampleProps
+    spec.typeScript:
+      - name: ICalendarButtonExampleProps
+        fullName: ICalendarButtonExampleProps
+        uid: office-ui-fabric-react.ICalendarButtonExampleProps

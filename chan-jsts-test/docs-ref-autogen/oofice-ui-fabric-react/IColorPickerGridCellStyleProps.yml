@@ -1,0 +1,144 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps
+    name: IColorPickerGridCellStyleProps
+    fullName: IColorPickerGridCellStyleProps
+    children:
+      - office-ui-fabric-react.IColorPickerGridCellStyleProps.borderWidth
+      - office-ui-fabric-react.IColorPickerGridCellStyleProps.circle
+      - office-ui-fabric-react.IColorPickerGridCellStyleProps.disabled
+      - office-ui-fabric-react.IColorPickerGridCellStyleProps.height
+      - office-ui-fabric-react.IColorPickerGridCellStyleProps.isWhite
+      - office-ui-fabric-react.IColorPickerGridCellStyleProps.selected
+      - office-ui-fabric-react.IColorPickerGridCellStyleProps.theme
+      - office-ui-fabric-react.IColorPickerGridCellStyleProps.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Properties required to build the styles for the color picker component.
+      {@docCategory SwatchColorPicker}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps.borderWidth
+    name: borderWidth
+    fullName: borderWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The width of the border indicating a hovered or selected cell, in pixels.'
+    optional: true
+    syntax:
+      content: 'borderWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps.circle
+    name: circle
+    fullName: circle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the svg color element should be rendered as a circle or not.
+    optional: true
+    syntax:
+      content: 'circle?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the component is disabled or not.
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The height of this cell, in pixels.'
+    optional: true
+    syntax:
+      content: 'height?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps.isWhite
+    name: isWhite
+    fullName: isWhite
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether the color being rendered is white or not. If it is white we show a
+      border around it.
+    optional: true
+    syntax:
+      content: 'isWhite?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps.selected
+    name: selected
+    fullName: selected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the cell is currently selected or not.
+    optional: true
+    syntax:
+      content: 'selected?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme to apply to the cell.
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorPickerGridCellStyleProps.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The width of this cell, in pixels.'
+    optional: true
+    syntax:
+      content: 'width?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

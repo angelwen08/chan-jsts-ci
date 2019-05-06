@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITextFieldStyleProps
+    name: ITextFieldStyleProps
+    fullName: ITextFieldStyleProps
+    children: []
+    syntax:
+      content: >-
+        type ITextFieldStyleProps = Required<Pick> & Pick<ITextFieldProps> &
+        Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory TextField}'
+    package: office-ui-fabric-react

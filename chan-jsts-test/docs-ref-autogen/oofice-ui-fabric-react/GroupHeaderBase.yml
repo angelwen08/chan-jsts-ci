@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.GroupHeaderBase
+    name: GroupHeaderBase
+    fullName: GroupHeaderBase<SS>
+    children:
+      - office-ui-fabric-react.GroupHeaderBase.componentWillReceiveProps
+      - office-ui-fabric-react.GroupHeaderBase.defaultProps
+      - office-ui-fabric-react.GroupHeaderBase.constructor
+      - office-ui-fabric-react.GroupHeaderBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.IGroupHeaderProps,
+        office-ui-fabric-react.IGroupHeaderState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GroupHeaderBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IGroupHeaderProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: IGroupHeaderProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.IGroupHeaderProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GroupHeaderBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: IGroupHeaderProps'
+      return:
+        type:
+          - office-ui-fabric-react.IGroupHeaderProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GroupHeaderBase.constructor
+    name: GroupHeaderBase(IGroupHeaderProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GroupHeaderBase(props: IGroupHeaderProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IGroupHeaderProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GroupHeaderBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element | null
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.IGroupHeaderProps,
+      office-ui-fabric-react.IGroupHeaderState>
+    name: IGroupHeaderState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IGroupHeaderProps
+        fullName: IGroupHeaderProps
+        uid: office-ui-fabric-react.IGroupHeaderProps
+      - name: ', '
+        fullName: ', '
+      - name: IGroupHeaderState
+        fullName: IGroupHeaderState
+        uid: office-ui-fabric-react.IGroupHeaderState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IGroupHeaderProps
+    name: IGroupHeaderProps
+    spec.typeScript:
+      - name: IGroupHeaderProps
+        fullName: IGroupHeaderProps
+        uid: office-ui-fabric-react.IGroupHeaderProps

@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGroupSpacerStyles
+    name: IGroupSpacerStyles
+    fullName: IGroupSpacerStyles
+    children:
+      - office-ui-fabric-react.IGroupSpacerStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory GroupedList}'
+    package: office-ui-fabric-react
+    deprecated:
+      content: 'unused, to be removed in 7.0.'
+  - uid: office-ui-fabric-react.IGroupSpacerStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

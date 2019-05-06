@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarYearHeaderProps
+    name: ICalendarYearHeaderProps
+    fullName: ICalendarYearHeaderProps
+    children:
+      - office-ui-fabric-react.ICalendarYearHeaderProps.onSelectNext
+      - office-ui-fabric-react.ICalendarYearHeaderProps.onSelectPrev
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: office-ui-fabric-react.ICalendarYearProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearHeaderProps.onSelectNext
+    name: onSelectNext
+    fullName: onSelectNext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onSelectNext?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearHeaderProps.onSelectPrev
+    name: onSelectPrev
+    fullName: onSelectPrev
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onSelectPrev?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ICalendarYearProps
+    name: ICalendarYearProps
+    spec.typeScript:
+      - name: ICalendarYearProps
+        fullName: ICalendarYearProps
+        uid: office-ui-fabric-react.ICalendarYearProps

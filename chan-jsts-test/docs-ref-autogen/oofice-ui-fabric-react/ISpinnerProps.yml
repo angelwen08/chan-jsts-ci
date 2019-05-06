@@ -1,0 +1,237 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISpinnerProps
+    name: ISpinnerProps
+    fullName: ISpinnerProps
+    children:
+      - office-ui-fabric-react.ISpinnerProps.ariaLabel
+      - office-ui-fabric-react.ISpinnerProps.ariaLive
+      - office-ui-fabric-react.ISpinnerProps.className
+      - office-ui-fabric-react.ISpinnerProps.componentRef
+      - office-ui-fabric-react.ISpinnerProps.label
+      - office-ui-fabric-react.ISpinnerProps.labelPosition
+      - office-ui-fabric-react.ISpinnerProps.size
+      - office-ui-fabric-react.ISpinnerProps.styles
+      - office-ui-fabric-react.ISpinnerProps.theme
+      - office-ui-fabric-react.ISpinnerProps.type
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Spinner component props.
+      {@docCategory Spinner}
+    extends:
+      name: HTMLAttributes<HTMLElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Alternative status label for screen reader
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.ariaLive
+    name: ariaLive
+    fullName: ariaLive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Politeness setting for label update announcement.
+    optional: true
+    syntax:
+      content: 'ariaLive?: "assertive" | "polite" | "off"'
+      return:
+        type:
+          - '"assertive" | "polite" | "off"'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional CSS class(es) to apply to the Spinner.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the ISpinner interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<ISpinner>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.ISpinner>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The label to show next to the Spinner. Label updates will be announced to
+      the screen readers.
+
+      Use ariaLive to control politeness level.
+    optional: true
+    syntax:
+      content: 'label?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.labelPosition
+    name: labelPosition
+    fullName: labelPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The position of the label in regards of the spinner animation.
+    optional: true
+    syntax:
+      content: 'labelPosition?: SpinnerLabelPosition'
+      return:
+        type:
+          - office-ui-fabric-react.SpinnerLabelPosition
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The size of Spinner to render. \{ extraSmall, small, medium, large \}'
+    optional: true
+    syntax:
+      content: 'size?: SpinnerSize'
+      return:
+        type:
+          - office-ui-fabric-react.SpinnerSize
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<ISpinnerStyleProps, ISpinnerStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.ISpinnerStyleProps,
+            office-ui-fabric-react.ISpinnerStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme (provided through customization.)
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerProps.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Deprecated and will be removed at \>= 2.0.0. Use `SpinnerSize` instead.
+    optional: true
+    syntax:
+      content: 'type?: SpinnerType'
+      return:
+        type:
+          - office-ui-fabric-react.SpinnerType
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `SpinnerSize` instead.
+references:
+  - uid: IRefObject<office-ui-fabric-react.ISpinner>
+    name: ISpinner>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: ISpinner
+        fullName: ISpinner
+        uid: office-ui-fabric-react.ISpinner
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.SpinnerLabelPosition
+    name: SpinnerLabelPosition
+    spec.typeScript:
+      - name: SpinnerLabelPosition
+        fullName: SpinnerLabelPosition
+        uid: office-ui-fabric-react.SpinnerLabelPosition
+  - uid: office-ui-fabric-react.SpinnerSize
+    name: SpinnerSize
+    spec.typeScript:
+      - name: SpinnerSize
+        fullName: SpinnerSize
+        uid: office-ui-fabric-react.SpinnerSize
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.ISpinnerStyleProps,
+      office-ui-fabric-react.ISpinnerStyles>
+    name: ISpinnerStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: ISpinnerStyleProps
+        fullName: ISpinnerStyleProps
+        uid: office-ui-fabric-react.ISpinnerStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: ISpinnerStyles
+        fullName: ISpinnerStyles
+        uid: office-ui-fabric-react.ISpinnerStyles
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.SpinnerType
+    name: SpinnerType
+    spec.typeScript:
+      - name: SpinnerType
+        fullName: SpinnerType
+        uid: office-ui-fabric-react.SpinnerType

@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITextProps
+    name: ITextProps
+    fullName: ITextProps
+    children:
+      - office-ui-fabric-react.ITextProps.as
+      - office-ui-fabric-react.ITextProps.block
+      - office-ui-fabric-react.ITextProps.nowrap
+      - office-ui-fabric-react.ITextProps.variant
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Inputs to the component
+      {@docCategory Text}
+    extends:
+      name: office-ui-fabric-react.ITextSlots
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextProps.as
+    name: as
+    fullName: as
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optionally render the component as another component type or primitive.
+    optional: true
+    syntax:
+      content: 'as?: React.ReactType<HTMLAttributes<HTMLElement>>'
+      return:
+        type:
+          - React.ReactType<HTMLAttributes<HTMLElement>>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextProps.block
+    name: block
+    fullName: block
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Whether the text is displayed as a block element.
+      Note that in order for ellipsis on overflow to work properly,
+      `block` and `nowrap` should be set to true.
+    optional: true
+    syntax:
+      content: 'block?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextProps.nowrap
+    name: nowrap
+    fullName: nowrap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Whether the text is not wrapped.
+      Note that in order for ellipsis on overflow to work properly,
+      `block` and `nowrap` should be set to true.
+    optional: true
+    syntax:
+      content: 'nowrap?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextProps.variant
+    name: variant
+    fullName: variant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional font type for Text.
+    optional: true
+    syntax:
+      content: 'variant?: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ITextSlots
+    name: ITextSlots
+    spec.typeScript:
+      - name: ITextSlots
+        fullName: ITextSlots
+        uid: office-ui-fabric-react.ITextSlots

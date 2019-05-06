@@ -1,0 +1,118 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IScrollablePaneDetailsListExampleItem
+    name: IScrollablePaneDetailsListExampleItem
+    fullName: IScrollablePaneDetailsListExampleItem
+    children:
+      - office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.key
+      - office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test1
+      - office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test2
+      - office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test3
+      - office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test4
+      - office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test5
+      - office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test6
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'key: number | string'
+      return:
+        type:
+          - number | string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test1
+    name: test1
+    fullName: test1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'test1: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test2
+    name: test2
+    fullName: test2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'test2: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test3
+    name: test3
+    fullName: test3
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'test3: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test4
+    name: test4
+    fullName: test4
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'test4: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test5
+    name: test5
+    fullName: test5
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'test5: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneDetailsListExampleItem.test6
+    name: test6
+    fullName: test6
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'test6: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

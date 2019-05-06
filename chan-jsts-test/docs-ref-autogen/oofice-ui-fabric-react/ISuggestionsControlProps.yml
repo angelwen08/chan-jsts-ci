@@ -1,0 +1,145 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISuggestionsControlProps
+    name: ISuggestionsControlProps
+    fullName: ISuggestionsControlProps<T>
+    children:
+      - office-ui-fabric-react.ISuggestionsControlProps.className
+      - office-ui-fabric-react.ISuggestionsControlProps.completeSuggestion
+      - office-ui-fabric-react.ISuggestionsControlProps.footerItemsProps
+      - office-ui-fabric-react.ISuggestionsControlProps.headerItemsProps
+      - office-ui-fabric-react.ISuggestionsControlProps.shouldSelectFirstItem
+      - >-
+        office-ui-fabric-react.ISuggestionsControlProps.suggestionsFooterContainerAriaLabel
+      - >-
+        office-ui-fabric-react.ISuggestionsControlProps.suggestionsHeaderContainerAriaLabel
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: ClassAttributes<any>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsControlProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The CSS classname of the suggestions list.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsControlProps.completeSuggestion
+    name: completeSuggestion
+    fullName: completeSuggestion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Completes the suggestion
+    syntax:
+      content: 'completeSuggestion: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsControlProps.footerItemsProps
+    name: footerItemsProps
+    fullName: footerItemsProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The footer items props
+    optional: true
+    syntax:
+      content: 'footerItemsProps?: ISuggestionsHeaderFooterProps[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.ISuggestionsHeaderFooterProps[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsControlProps.headerItemsProps
+    name: headerItemsProps
+    fullName: headerItemsProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The header items props
+    optional: true
+    syntax:
+      content: 'headerItemsProps?: ISuggestionsHeaderFooterProps[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.ISuggestionsHeaderFooterProps[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsControlProps.shouldSelectFirstItem
+    name: shouldSelectFirstItem
+    fullName: shouldSelectFirstItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether or not the first selectable item in the suggestions list should be
+      selected
+    optional: true
+    syntax:
+      content: 'shouldSelectFirstItem?: () => boolean'
+      return:
+        type:
+          - () => boolean
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.ISuggestionsControlProps.suggestionsFooterContainerAriaLabel
+    name: suggestionsFooterContainerAriaLabel
+    fullName: suggestionsFooterContainerAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An ARIA label for the container that is the parent of the suggestions
+      footer items.
+    optional: true
+    syntax:
+      content: 'suggestionsFooterContainerAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.ISuggestionsControlProps.suggestionsHeaderContainerAriaLabel
+    name: suggestionsHeaderContainerAriaLabel
+    fullName: suggestionsHeaderContainerAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An ARIA label for the container that is the parent of the suggestions
+      header items.
+    optional: true
+    syntax:
+      content: 'suggestionsHeaderContainerAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.ISuggestionsHeaderFooterProps[]'
+    name: 'ISuggestionsHeaderFooterProps[]'
+    spec.typeScript:
+      - name: ISuggestionsHeaderFooterProps
+        fullName: ISuggestionsHeaderFooterProps
+        uid: office-ui-fabric-react.ISuggestionsHeaderFooterProps
+      - name: '[]'
+        fullName: '[]'

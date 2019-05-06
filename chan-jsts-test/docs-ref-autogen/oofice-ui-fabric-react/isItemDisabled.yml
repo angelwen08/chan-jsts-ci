@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.isItemDisabled
+    name: isItemDisabled(IContextualMenuItem)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isItemDisabled(item: IContextualMenuItem)'
+      parameters:
+        - id: item
+          type:
+            - office-ui-fabric-react.IContextualMenuItem
+          description: ''
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IContextualMenuItem
+    name: IContextualMenuItem
+    spec.typeScript:
+      - name: IContextualMenuItem
+        fullName: IContextualMenuItem
+        uid: office-ui-fabric-react.IContextualMenuItem

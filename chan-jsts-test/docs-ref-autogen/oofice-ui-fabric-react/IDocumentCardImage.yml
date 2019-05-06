@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardImage
+    name: IDocumentCardImage
+    fullName: IDocumentCardImage
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    package: office-ui-fabric-react

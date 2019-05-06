@@ -1,0 +1,206 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IKeytipLayerProps
+    name: IKeytipLayerProps
+    fullName: IKeytipLayerProps
+    children:
+      - office-ui-fabric-react.IKeytipLayerProps.componentRef
+      - office-ui-fabric-react.IKeytipLayerProps.content
+      - office-ui-fabric-react.IKeytipLayerProps.keytipExitSequences
+      - office-ui-fabric-react.IKeytipLayerProps.keytipReturnSequences
+      - office-ui-fabric-react.IKeytipLayerProps.keytipStartSequences
+      - office-ui-fabric-react.IKeytipLayerProps.onEnterKeytipMode
+      - office-ui-fabric-react.IKeytipLayerProps.onExitKeytipMode
+      - office-ui-fabric-react.IKeytipLayerProps.styles
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Keytips}'
+    extends:
+      name: ClassAttributes<office-ui-fabric-react.IKeytipLayer>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipLayerProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the KeytipLayer component. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IKeytipLayer>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IKeytipLayer>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipLayerProps.content
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      String to put inside the layer to be used for the aria-describedby for the
+      component with the keytip
+
+      Should be one of the starting sequences
+    syntax:
+      content: 'content: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipLayerProps.keytipExitSequences
+    name: keytipExitSequences
+    fullName: keytipExitSequences
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: List of key sequences that will exit keytips mode
+    optional: true
+    syntax:
+      content: 'keytipExitSequences?: IKeytipTransitionKey[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IKeytipTransitionKey[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipLayerProps.keytipReturnSequences
+    name: keytipReturnSequences
+    fullName: keytipReturnSequences
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      List of key sequences that execute the return functionality in keytips
+      (going back to the previous level of keytips)
+    optional: true
+    syntax:
+      content: 'keytipReturnSequences?: IKeytipTransitionKey[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IKeytipTransitionKey[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipLayerProps.keytipStartSequences
+    name: keytipStartSequences
+    fullName: keytipStartSequences
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: List of key sequences that will start keytips mode
+    optional: true
+    syntax:
+      content: 'keytipStartSequences?: IKeytipTransitionKey[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IKeytipTransitionKey[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipLayerProps.onEnterKeytipMode
+    name: onEnterKeytipMode
+    fullName: onEnterKeytipMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback function triggered when keytip mode is entered
+    optional: true
+    syntax:
+      content: 'onEnterKeytipMode?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipLayerProps.onExitKeytipMode
+    name: onExitKeytipMode
+    fullName: onExitKeytipMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Callback function triggered when keytip mode is exited.
+      ev is the Mouse or Keyboard Event that triggered the exit, if any.
+    optional: true
+    syntax:
+      content: >-
+        onExitKeytipMode?: (ev?: KeyboardEvent<HTMLElement> |
+        MouseEvent<HTMLElement>) => void
+      return:
+        type:
+          - '(ev?: KeyboardEvent<HTMLElement> | MouseEvent<HTMLElement>) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipLayerProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: (Optional) Call to provide customized styling.
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IKeytipLayerStyleProps,
+        IKeytipLayerStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IKeytipLayerStyleProps,
+            office-ui-fabric-react.IKeytipLayerStyles>
+    package: office-ui-fabric-react
+references:
+  - uid: ClassAttributes<office-ui-fabric-react.IKeytipLayer>
+    name: IKeytipLayer>
+    spec.typeScript:
+      - name: ClassAttributes<
+        fullName: ClassAttributes<
+      - name: IKeytipLayer
+        fullName: IKeytipLayer
+        uid: office-ui-fabric-react.IKeytipLayer
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.IKeytipLayer>
+    name: IKeytipLayer>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IKeytipLayer
+        fullName: IKeytipLayer
+        uid: office-ui-fabric-react.IKeytipLayer
+      - name: '>'
+        fullName: '>'
+  - uid: 'office-ui-fabric-react.IKeytipTransitionKey[]'
+    name: 'IKeytipTransitionKey[]'
+    spec.typeScript:
+      - name: IKeytipTransitionKey
+        fullName: IKeytipTransitionKey
+        uid: office-ui-fabric-react.IKeytipTransitionKey
+      - name: '[]'
+        fullName: '[]'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IKeytipLayerStyleProps,
+      office-ui-fabric-react.IKeytipLayerStyles>
+    name: IKeytipLayerStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IKeytipLayerStyleProps
+        fullName: IKeytipLayerStyleProps
+        uid: office-ui-fabric-react.IKeytipLayerStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IKeytipLayerStyles
+        fullName: IKeytipLayerStyles
+        uid: office-ui-fabric-react.IKeytipLayerStyles
+      - name: '>'
+        fullName: '>'

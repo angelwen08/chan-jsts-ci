@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITextTokens
+    name: ITextTokens
+    fullName: ITextTokens
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Text}'
+    package: office-ui-fabric-react

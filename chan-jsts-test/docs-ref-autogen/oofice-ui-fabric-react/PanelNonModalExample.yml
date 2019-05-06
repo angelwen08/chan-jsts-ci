@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.PanelNonModalExample
+    name: PanelNonModalExample
+    fullName: PanelNonModalExample<SS>
+    children:
+      - office-ui-fabric-react.PanelNonModalExample.render
+      - office-ui-fabric-react.PanelNonModalExample.state
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, office-ui-fabric-react.IPanelNonModalExampleState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PanelNonModalExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PanelNonModalExample.state
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'state: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<__type, office-ui-fabric-react.IPanelNonModalExampleState>'
+    name: IPanelNonModalExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IPanelNonModalExampleState
+        fullName: IPanelNonModalExampleState
+        uid: office-ui-fabric-react.IPanelNonModalExampleState
+      - name: '>'
+        fullName: '>'

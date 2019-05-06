@@ -1,0 +1,344 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGridCellProps
+    name: IGridCellProps
+    fullName: IGridCellProps<T>
+    children:
+      - office-ui-fabric-react.IGridCellProps.cellDisabledStyle
+      - office-ui-fabric-react.IGridCellProps.cellIsSelectedStyle
+      - office-ui-fabric-react.IGridCellProps.className
+      - office-ui-fabric-react.IGridCellProps.disabled
+      - office-ui-fabric-react.IGridCellProps.getClassNames
+      - office-ui-fabric-react.IGridCellProps.id
+      - office-ui-fabric-react.IGridCellProps.index
+      - office-ui-fabric-react.IGridCellProps.item
+      - office-ui-fabric-react.IGridCellProps.label
+      - office-ui-fabric-react.IGridCellProps.onClick
+      - office-ui-fabric-react.IGridCellProps.onFocus
+      - office-ui-fabric-react.IGridCellProps.onHover
+      - office-ui-fabric-react.IGridCellProps.onKeyDown
+      - office-ui-fabric-react.IGridCellProps.onMouseEnter
+      - office-ui-fabric-react.IGridCellProps.onMouseLeave
+      - office-ui-fabric-react.IGridCellProps.onMouseMove
+      - office-ui-fabric-react.IGridCellProps.onRenderItem
+      - office-ui-fabric-react.IGridCellProps.onWheel
+      - office-ui-fabric-react.IGridCellProps.role
+      - office-ui-fabric-react.IGridCellProps.selected
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.cellDisabledStyle
+    name: cellDisabledStyle
+    fullName: cellDisabledStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, the CSS class used for when the cell is disabled'
+    optional: true
+    syntax:
+      content: 'cellDisabledStyle?: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.cellIsSelectedStyle
+    name: cellIsSelectedStyle
+    fullName: cellIsSelectedStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, the CSS class used for when the cell is selected'
+    optional: true
+    syntax:
+      content: 'cellIsSelectedStyle?: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, className(s) to apply'
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, if the this option should be diabled'
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.getClassNames
+    name: getClassNames
+    fullName: getClassNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Method to provide the classnames to style a button.
+      The default value for this prop is the getClassnames func
+      defined in BaseButton.classnames.
+    optional: true
+    syntax:
+      content: >-
+        getClassNames?: (theme: ITheme, className: string, variantClassName:
+        string, iconClassName: string | undefined, menuIconClassName: string |
+        undefined, disabled: boolean, checked: boolean, expanded: boolean,
+        isSplit: boolean | undefined) => IButtonClassNames
+      return:
+        type:
+          - >-
+            (theme: ITheme, className: string, variantClassName: string,
+            iconClassName: string | undefined, menuIconClassName: string |
+            undefined, disabled: boolean, checked: boolean, expanded: boolean,
+            isSplit: boolean | undefined) => IButtonClassNames
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Arbitrary unique string associated with this option
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.index
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Index for this option
+    optional: true
+    syntax:
+      content: 'index?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.item
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The option that will be made available to the user
+    syntax:
+      content: 'item: T'
+      return:
+        type:
+          - T
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The label for this item.
+      Visible text if this item is a header,
+      tooltip if is this item is normal
+    optional: true
+    syntax:
+      content: 'label?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The on click handler
+    optional: true
+    syntax:
+      content: 'onClick?: (item: T) => void'
+      return:
+        type:
+          - '(item: T) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onFocus
+    name: onFocus
+    fullName: onFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, the onFocus handler'
+    optional: true
+    syntax:
+      content: 'onFocus?: (item: T) => void'
+      return:
+        type:
+          - '(item: T) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onHover
+    name: onHover
+    fullName: onHover
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, the onHover handler'
+    optional: true
+    syntax:
+      content: 'onHover?: (item?: T) => void'
+      return:
+        type:
+          - '(item?: T) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onKeyDown
+    name: onKeyDown
+    fullName: onKeyDown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, onkeydown handler'
+    optional: true
+    syntax:
+      content: 'onKeyDown?: (ev: KeyboardEvent<HTMLButtonElement>) => void'
+      return:
+        type:
+          - '(ev: KeyboardEvent<HTMLButtonElement>) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onMouseEnter
+    name: onMouseEnter
+    fullName: onMouseEnter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, mouseEnter handler.'
+    optional: true
+    syntax:
+      content: 'onMouseEnter?: (ev: MouseEvent<HTMLButtonElement>) => boolean'
+      return:
+        type:
+          - '(ev: MouseEvent<HTMLButtonElement>) => boolean'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onMouseLeave
+    name: onMouseLeave
+    fullName: onMouseLeave
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, mouseLeave handler'
+    optional: true
+    syntax:
+      content: 'onMouseLeave?: (ev: MouseEvent<HTMLButtonElement>) => void'
+      return:
+        type:
+          - '(ev: MouseEvent<HTMLButtonElement>) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onMouseMove
+    name: onMouseMove
+    fullName: onMouseMove
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, mouseMove handler'
+    optional: true
+    syntax:
+      content: 'onMouseMove?: (ev: MouseEvent<HTMLButtonElement>) => boolean'
+      return:
+        type:
+          - '(ev: MouseEvent<HTMLButtonElement>) => boolean'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onRenderItem
+    name: onRenderItem
+    fullName: onRenderItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The render callback to handle rendering the item
+    syntax:
+      content: 'onRenderItem: (item: T) => Element'
+      return:
+        type:
+          - '(item: T) => Element'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.onWheel
+    name: onWheel
+    fullName: onWheel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, onWheel handler'
+    optional: true
+    syntax:
+      content: 'onWheel?: (ev: MouseEvent<HTMLButtonElement>) => void'
+      return:
+        type:
+          - '(ev: MouseEvent<HTMLButtonElement>) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.role
+    name: role
+    fullName: role
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The accessible role for this option
+    optional: true
+    syntax:
+      content: 'role?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridCellProps.selected
+    name: selected
+    fullName: selected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Optional, if the cell is currently selected'
+    optional: true
+    syntax:
+      content: 'selected?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ToggleBase
+    name: ToggleBase
+    fullName: ToggleBase<SS>
+    children:
+      - office-ui-fabric-react.ToggleBase.checked
+      - office-ui-fabric-react.ToggleBase.componentWillReceiveProps
+      - office-ui-fabric-react.ToggleBase.focus
+      - office-ui-fabric-react.ToggleBase.render
+      - office-ui-fabric-react.ToggleBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IToggleProps,
+        office-ui-fabric-react.IToggleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ToggleBase.checked
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the current checked state of the toggle.
+    syntax:
+      content: 'checked: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ToggleBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IToggleProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: IToggleProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.IToggleProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ToggleBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ToggleBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ToggleBase.constructor
+    name: ToggleBase(IToggleProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ToggleBase(props: IToggleProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IToggleProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IToggleProps,
+      office-ui-fabric-react.IToggleState>
+    name: IToggleState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IToggleProps
+        fullName: IToggleProps
+        uid: office-ui-fabric-react.IToggleProps
+      - name: ', '
+        fullName: ', '
+      - name: IToggleState
+        fullName: IToggleState
+        uid: office-ui-fabric-react.IToggleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IToggleProps
+    name: IToggleProps
+    spec.typeScript:
+      - name: IToggleProps
+        fullName: IToggleProps
+        uid: office-ui-fabric-react.IToggleProps

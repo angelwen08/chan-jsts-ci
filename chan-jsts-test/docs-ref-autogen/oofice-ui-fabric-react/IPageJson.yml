@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPageJson
+    name: IPageJson
+    fullName: IPageJson
+    children:
+      - office-ui-fabric-react.IPageJson.name
+      - office-ui-fabric-react.IPageJson.tables
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: Structure of the page.json files
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPageJson.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPageJson.tables
+    name: tables
+    fullName: tables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'tables: ITableJson[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.ITableJson[]'
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.ITableJson[]'
+    name: 'ITableJson[]'
+    spec.typeScript:
+      - name: ITableJson
+        fullName: ITableJson
+        uid: office-ui-fabric-react.ITableJson
+      - name: '[]'
+        fullName: '[]'

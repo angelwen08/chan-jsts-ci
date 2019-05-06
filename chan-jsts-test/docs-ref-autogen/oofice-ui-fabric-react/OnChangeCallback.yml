@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.OnChangeCallback
+    name: OnChangeCallback
+    fullName: OnChangeCallback
+    children: []
+    syntax:
+      content: >-
+        type OnChangeCallback = (evt?: FormEvent<HTMLElement |
+        HTMLInputElement>, props?: IChoiceGroupOption) => void
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory ChoiceGroup}'
+    package: office-ui-fabric-react

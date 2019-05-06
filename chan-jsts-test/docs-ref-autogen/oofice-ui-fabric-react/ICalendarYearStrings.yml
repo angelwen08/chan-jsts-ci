@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarYearStrings
+    name: ICalendarYearStrings
+    fullName: ICalendarYearStrings
+    children:
+      - office-ui-fabric-react.ICalendarYearStrings.nextRangeAriaLabel
+      - office-ui-fabric-react.ICalendarYearStrings.prevRangeAriaLabel
+      - office-ui-fabric-react.ICalendarYearStrings.rangeAriaLabel
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearStrings.nextRangeAriaLabel
+    name: nextRangeAriaLabel
+    fullName: nextRangeAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nextRangeAriaLabel?: string | ICalendarYearRangeToString'
+      return:
+        type:
+          - string | office-ui-fabric-react.ICalendarYearRangeToString
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearStrings.prevRangeAriaLabel
+    name: prevRangeAriaLabel
+    fullName: prevRangeAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'prevRangeAriaLabel?: string | ICalendarYearRangeToString'
+      return:
+        type:
+          - string | office-ui-fabric-react.ICalendarYearRangeToString
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearStrings.rangeAriaLabel
+    name: rangeAriaLabel
+    fullName: rangeAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'rangeAriaLabel?: string | ICalendarYearRangeToString'
+      return:
+        type:
+          - string | office-ui-fabric-react.ICalendarYearRangeToString
+    package: office-ui-fabric-react
+references:
+  - uid: string | office-ui-fabric-react.ICalendarYearRangeToString
+    name: ICalendarYearRangeToString
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ICalendarYearRangeToString
+        fullName: ICalendarYearRangeToString
+        uid: office-ui-fabric-react.ICalendarYearRangeToString

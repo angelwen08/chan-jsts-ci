@@ -1,0 +1,233 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.FabricSlots
+    name: FabricSlots
+    fullName: FabricSlots
+    children:
+      - office-ui-fabric-react.FabricSlots.themePrimary
+      - office-ui-fabric-react.FabricSlots.themeLighterAlt
+      - office-ui-fabric-react.FabricSlots.themeLighter
+      - office-ui-fabric-react.FabricSlots.themeLight
+      - office-ui-fabric-react.FabricSlots.themeTertiary
+      - office-ui-fabric-react.FabricSlots.themeSecondary
+      - office-ui-fabric-react.FabricSlots.themeDarkAlt
+      - office-ui-fabric-react.FabricSlots.themeDark
+      - office-ui-fabric-react.FabricSlots.themeDarker
+      - office-ui-fabric-react.FabricSlots.neutralLighterAlt
+      - office-ui-fabric-react.FabricSlots.neutralLighter
+      - office-ui-fabric-react.FabricSlots.neutralLight
+      - office-ui-fabric-react.FabricSlots.neutralQuaternaryAlt
+      - office-ui-fabric-react.FabricSlots.neutralQuaternary
+      - office-ui-fabric-react.FabricSlots.neutralTertiaryAlt
+      - office-ui-fabric-react.FabricSlots.neutralTertiary
+      - office-ui-fabric-react.FabricSlots.neutralSecondary
+      - office-ui-fabric-react.FabricSlots.neutralPrimaryAlt
+      - office-ui-fabric-react.FabricSlots.neutralPrimary
+      - office-ui-fabric-react.FabricSlots.neutralDark
+      - office-ui-fabric-react.FabricSlots.black
+      - office-ui-fabric-react.FabricSlots.white
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themePrimary
+    name: themePrimary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themeLighterAlt
+    name: themeLighterAlt
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themeLighter
+    name: themeLighter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themeLight
+    name: themeLight
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themeTertiary
+    name: themeTertiary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themeSecondary
+    name: themeSecondary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themeDarkAlt
+    name: themeDarkAlt
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themeDark
+    name: themeDark
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.themeDarker
+    name: themeDarker
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralLighterAlt
+    name: neutralLighterAlt
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralLighter
+    name: neutralLighter
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralLight
+    name: neutralLight
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 11
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralQuaternaryAlt
+    name: neutralQuaternaryAlt
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 12
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralQuaternary
+    name: neutralQuaternary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 13
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralTertiaryAlt
+    name: neutralTertiaryAlt
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 14
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralTertiary
+    name: neutralTertiary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 15
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralSecondary
+    name: neutralSecondary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 16
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralPrimaryAlt
+    name: neutralPrimaryAlt
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 17
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralPrimary
+    name: neutralPrimary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 18
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.neutralDark
+    name: neutralDark
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 19
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.black
+    name: black
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 20
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FabricSlots.white
+    name: white
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 21
+    package: office-ui-fabric-react

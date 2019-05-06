@@ -1,0 +1,201 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDragDropOptions
+    name: IDragDropOptions
+    fullName: IDragDropOptions
+    children:
+      - office-ui-fabric-react.IDragDropOptions.canDrag
+      - office-ui-fabric-react.IDragDropOptions.canDrop
+      - office-ui-fabric-react.IDragDropOptions.context
+      - office-ui-fabric-react.IDragDropOptions.eventMap
+      - office-ui-fabric-react.IDragDropOptions.key
+      - office-ui-fabric-react.IDragDropOptions.onDragEnd
+      - office-ui-fabric-react.IDragDropOptions.onDragOver
+      - office-ui-fabric-react.IDragDropOptions.onDragStart
+      - office-ui-fabric-react.IDragDropOptions.onDrop
+      - office-ui-fabric-react.IDragDropOptions.selectionIndex
+      - office-ui-fabric-react.IDragDropOptions.updateDropState
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.canDrag
+    name: canDrag
+    fullName: canDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'canDrag?: (item?: any) => boolean'
+      return:
+        type:
+          - '(item?: any) => boolean'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.canDrop
+    name: canDrop
+    fullName: canDrop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        canDrop?: (dropContext?: IDragDropContext, dragContext?:
+        IDragDropContext) => boolean
+      return:
+        type:
+          - >-
+            (dropContext?: IDragDropContext, dragContext?: IDragDropContext) =>
+            boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.context
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'context: IDragDropContext'
+      return:
+        type:
+          - office-ui-fabric-react.IDragDropContext
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.eventMap
+    name: eventMap
+    fullName: eventMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'eventMap?: Object[]'
+      return:
+        type:
+          - 'Object[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'key?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.onDragEnd
+    name: onDragEnd
+    fullName: onDragEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onDragEnd?: (item?: any, event?: DragEvent) => void'
+      return:
+        type:
+          - '(item?: any, event?: DragEvent) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.onDragOver
+    name: onDragOver
+    fullName: onDragOver
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onDragOver?: (item?: any, event?: DragEvent) => void'
+      return:
+        type:
+          - '(item?: any, event?: DragEvent) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.onDragStart
+    name: onDragStart
+    fullName: onDragStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onDragStart?: (item?: any, itemIndex?: number, selectedItems?: any[],
+        event?: MouseEvent) => void
+      return:
+        type:
+          - >-
+            (item?: any, itemIndex?: number, selectedItems?: any[], event?:
+            MouseEvent) => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.onDrop
+    name: onDrop
+    fullName: onDrop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onDrop?: (item?: any, event?: DragEvent) => void'
+      return:
+        type:
+          - '(item?: any, event?: DragEvent) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.selectionIndex
+    name: selectionIndex
+    fullName: selectionIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectionIndex: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragDropOptions.updateDropState
+    name: updateDropState
+    fullName: updateDropState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'updateDropState: (isDropping: boolean, event: DragEvent) => void'
+      return:
+        type:
+          - '(isDropping: boolean, event: DragEvent) => void'
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IDragDropContext
+    name: IDragDropContext
+    spec.typeScript:
+      - name: IDragDropContext
+        fullName: IDragDropContext
+        uid: office-ui-fabric-react.IDragDropContext

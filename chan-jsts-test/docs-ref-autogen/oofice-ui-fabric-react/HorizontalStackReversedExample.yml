@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.HorizontalStackReversedExample
+    name: HorizontalStackReversedExample
+    fullName: HorizontalStackReversedExample<SS>
+    children:
+      - office-ui-fabric-react.HorizontalStackReversedExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, __type>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.HorizontalStackReversedExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react

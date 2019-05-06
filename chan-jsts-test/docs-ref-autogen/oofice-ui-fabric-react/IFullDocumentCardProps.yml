@@ -1,0 +1,124 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IFullDocumentCardProps
+    name: IFullDocumentCardProps
+    fullName: IFullDocumentCardProps
+    children:
+      - office-ui-fabric-react.IFullDocumentCardProps.documentActionsProps
+      - office-ui-fabric-react.IFullDocumentCardProps.documentActivityProps
+      - office-ui-fabric-react.IFullDocumentCardProps.documentCardProps
+      - office-ui-fabric-react.IFullDocumentCardProps.documentPreviewProps
+      - office-ui-fabric-react.IFullDocumentCardProps.documentTitleProps
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFullDocumentCardProps.documentActionsProps
+    name: documentActionsProps
+    fullName: documentActionsProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'documentActionsProps?: IDocumentCardActionsProps'
+      return:
+        type:
+          - office-ui-fabric-react.IDocumentCardActionsProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFullDocumentCardProps.documentActivityProps
+    name: documentActivityProps
+    fullName: documentActivityProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'documentActivityProps?: IDocumentCardActivityProps'
+      return:
+        type:
+          - office-ui-fabric-react.IDocumentCardActivityProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFullDocumentCardProps.documentCardProps
+    name: documentCardProps
+    fullName: documentCardProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'documentCardProps?: IDocumentCardProps'
+      return:
+        type:
+          - office-ui-fabric-react.IDocumentCardProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFullDocumentCardProps.documentPreviewProps
+    name: documentPreviewProps
+    fullName: documentPreviewProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'documentPreviewProps?: IDocumentCardPreviewProps'
+      return:
+        type:
+          - office-ui-fabric-react.IDocumentCardPreviewProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFullDocumentCardProps.documentTitleProps
+    name: documentTitleProps
+    fullName: documentTitleProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'documentTitleProps?: IDocumentCardTitleProps'
+      return:
+        type:
+          - office-ui-fabric-react.IDocumentCardTitleProps
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IDocumentCardActionsProps
+    name: IDocumentCardActionsProps
+    spec.typeScript:
+      - name: IDocumentCardActionsProps
+        fullName: IDocumentCardActionsProps
+        uid: office-ui-fabric-react.IDocumentCardActionsProps
+  - uid: office-ui-fabric-react.IDocumentCardActivityProps
+    name: IDocumentCardActivityProps
+    spec.typeScript:
+      - name: IDocumentCardActivityProps
+        fullName: IDocumentCardActivityProps
+        uid: office-ui-fabric-react.IDocumentCardActivityProps
+  - uid: office-ui-fabric-react.IDocumentCardProps
+    name: IDocumentCardProps
+    spec.typeScript:
+      - name: IDocumentCardProps
+        fullName: IDocumentCardProps
+        uid: office-ui-fabric-react.IDocumentCardProps
+  - uid: office-ui-fabric-react.IDocumentCardPreviewProps
+    name: IDocumentCardPreviewProps
+    spec.typeScript:
+      - name: IDocumentCardPreviewProps
+        fullName: IDocumentCardPreviewProps
+        uid: office-ui-fabric-react.IDocumentCardPreviewProps
+  - uid: office-ui-fabric-react.IDocumentCardTitleProps
+    name: IDocumentCardTitleProps
+    spec.typeScript:
+      - name: IDocumentCardTitleProps
+        fullName: IDocumentCardTitleProps
+        uid: office-ui-fabric-react.IDocumentCardTitleProps

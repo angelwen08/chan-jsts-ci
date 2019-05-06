@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ContextualMenuButton
+    name: ContextualMenuButton
+    fullName: ContextualMenuButton<TState>
+    children:
+      - office-ui-fabric-react.ContextualMenuButton.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: office-ui-fabric-react.ContextualMenuItemWrapper
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ContextualMenuButton.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ContextualMenuItemWrapper
+    name: ContextualMenuItemWrapper
+    spec.typeScript:
+      - name: ContextualMenuItemWrapper
+        fullName: ContextualMenuItemWrapper
+        uid: office-ui-fabric-react.ContextualMenuItemWrapper

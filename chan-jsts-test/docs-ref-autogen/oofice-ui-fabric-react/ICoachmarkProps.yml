@@ -1,0 +1,602 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICoachmarkProps
+    name: ICoachmarkProps
+    fullName: ICoachmarkProps
+    children:
+      - office-ui-fabric-react.ICoachmarkProps.ariaAlertText
+      - office-ui-fabric-react.ICoachmarkProps.ariaDescribedBy
+      - office-ui-fabric-react.ICoachmarkProps.ariaDescribedByText
+      - office-ui-fabric-react.ICoachmarkProps.ariaLabelledBy
+      - office-ui-fabric-react.ICoachmarkProps.ariaLabelledByText
+      - office-ui-fabric-react.ICoachmarkProps.beaconColorOne
+      - office-ui-fabric-react.ICoachmarkProps.beaconColorTwo
+      - office-ui-fabric-react.ICoachmarkProps.beakHeight
+      - office-ui-fabric-react.ICoachmarkProps.beakWidth
+      - office-ui-fabric-react.ICoachmarkProps.className
+      - office-ui-fabric-react.ICoachmarkProps.collapsed
+      - office-ui-fabric-react.ICoachmarkProps.color
+      - office-ui-fabric-react.ICoachmarkProps.componentRef
+      - office-ui-fabric-react.ICoachmarkProps.delayBeforeCoachmarkAnimation
+      - office-ui-fabric-react.ICoachmarkProps.delayBeforeMouseOpen
+      - office-ui-fabric-react.ICoachmarkProps.height
+      - office-ui-fabric-react.ICoachmarkProps.isCollapsed
+      - office-ui-fabric-react.ICoachmarkProps.isPositionForced
+      - office-ui-fabric-react.ICoachmarkProps.mouseProximityOffset
+      - office-ui-fabric-react.ICoachmarkProps.onAnimationOpenEnd
+      - office-ui-fabric-react.ICoachmarkProps.onAnimationOpenStart
+      - office-ui-fabric-react.ICoachmarkProps.onDismiss
+      - office-ui-fabric-react.ICoachmarkProps.onMouseMove
+      - office-ui-fabric-react.ICoachmarkProps.positioningContainerProps
+      - office-ui-fabric-react.ICoachmarkProps.preventDismissOnLostFocus
+      - office-ui-fabric-react.ICoachmarkProps.preventFocusOnMount
+      - office-ui-fabric-react.ICoachmarkProps.styles
+      - office-ui-fabric-react.ICoachmarkProps.target
+      - office-ui-fabric-react.ICoachmarkProps.teachingBubbleRef
+      - office-ui-fabric-react.ICoachmarkProps.theme
+      - office-ui-fabric-react.ICoachmarkProps.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Coachmark component props
+      {@docCategory Coachmark}
+    extends:
+      name: ClassAttributes<office-ui-fabric-react.CoachmarkBase>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.ariaAlertText
+    name: ariaAlertText
+    fullName: ariaAlertText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text to announce to screen reader / narrator when Coachmark is displayed
+    optional: true
+    syntax:
+      content: 'ariaAlertText?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.ariaDescribedBy
+    name: ariaDescribedBy
+    fullName: ariaDescribedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines the element id referencing the element containing the description
+      for the Coachmark.
+    optional: true
+    syntax:
+      content: 'ariaDescribedBy?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.ariaDescribedByText
+    name: ariaDescribedByText
+    fullName: ariaDescribedByText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Defines the text content for the ariaDescribedBy element
+    optional: true
+    syntax:
+      content: 'ariaDescribedByText?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.ariaLabelledBy
+    name: ariaLabelledBy
+    fullName: ariaLabelledBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines the element id referencing the element containing label text for
+      Coachmark.
+    optional: true
+    syntax:
+      content: 'ariaLabelledBy?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.ariaLabelledByText
+    name: ariaLabelledByText
+    fullName: ariaLabelledByText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Defines the text content for the ariaLabelledBy element
+    optional: true
+    syntax:
+      content: 'ariaLabelledByText?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.beaconColorOne
+    name: beaconColorOne
+    fullName: beaconColorOne
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Beacon color one.
+    optional: true
+    syntax:
+      content: 'beaconColorOne?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.beaconColorTwo
+    name: beaconColorTwo
+    fullName: beaconColorTwo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Beacon color two.
+    optional: true
+    syntax:
+      content: 'beaconColorTwo?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.beakHeight
+    name: beakHeight
+    fullName: beakHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The height of the Beak component.
+    optional: true
+    syntax:
+      content: 'beakHeight?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+    deprecated:
+      content: No longer used.
+  - uid: office-ui-fabric-react.ICoachmarkProps.beakWidth
+    name: beakWidth
+    fullName: beakWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The width of the Beak component.
+    optional: true
+    syntax:
+      content: 'beakWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+    deprecated:
+      content: No longer used.
+  - uid: office-ui-fabric-react.ICoachmarkProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If provided, additional class name to provide on the root element.'
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.collapsed
+    name: collapsed
+    fullName: collapsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The starting collapsed state for the Coachmark.  Use `isCollapsed`
+      instead.
+    optional: true
+    syntax:
+      content: 'collapsed?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `isCollapsed` instead.
+  - uid: office-ui-fabric-react.ICoachmarkProps.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Color of the Coachmark/TeachingBubble.
+    optional: true
+    syntax:
+      content: 'color?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the ICoachmark interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<ICoachmark>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.ICoachmark>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.delayBeforeCoachmarkAnimation
+    name: delayBeforeCoachmarkAnimation
+    fullName: delayBeforeCoachmarkAnimation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Delay in milliseconds before Coachmark animation appears.
+    optional: true
+    syntax:
+      content: 'delayBeforeCoachmarkAnimation?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.delayBeforeMouseOpen
+    name: delayBeforeMouseOpen
+    fullName: delayBeforeMouseOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Delay before allowing mouse movements to open the Coachmark.
+    optional: true
+    syntax:
+      content: 'delayBeforeMouseOpen?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The height of the Coachmark.
+    optional: true
+    syntax:
+      content: 'height?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+    deprecated:
+      content: No longer used.
+  - uid: office-ui-fabric-react.ICoachmarkProps.isCollapsed
+    name: isCollapsed
+    fullName: isCollapsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The starting collapsed state for the Coachmark.
+    optional: true
+    syntax:
+      content: 'isCollapsed?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.isPositionForced
+    name: isPositionForced
+    fullName: isPositionForced
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether or not to force the Coachmark/TeachingBubble content to fit within
+      the window bounds.
+    optional: true
+    syntax:
+      content: 'isPositionForced?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.mouseProximityOffset
+    name: mouseProximityOffset
+    fullName: mouseProximityOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The distance in pixels the mouse is located
+      before opening up the Coachmark.
+    optional: true
+    syntax:
+      content: 'mouseProximityOffset?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.onAnimationOpenEnd
+    name: onAnimationOpenEnd
+    fullName: onAnimationOpenEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when the opening animation completes.
+    optional: true
+    syntax:
+      content: 'onAnimationOpenEnd?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.onAnimationOpenStart
+    name: onAnimationOpenStart
+    fullName: onAnimationOpenStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when the opening animation begins.
+    optional: true
+    syntax:
+      content: 'onAnimationOpenStart?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.onDismiss
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when the Coachmark tries to close.
+    optional: true
+    syntax:
+      content: 'onDismiss?: (ev?: any) => void'
+      return:
+        type:
+          - '(ev?: any) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.onMouseMove
+    name: onMouseMove
+    fullName: onMouseMove
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback to run when the mouse moves.
+    optional: true
+    syntax:
+      content: 'onMouseMove?: (e: MouseEvent) => void'
+      return:
+        type:
+          - '(e: MouseEvent) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.positioningContainerProps
+    name: positioningContainerProps
+    fullName: positioningContainerProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Props to pass to the PositioningContainer component. Specify the
+      `directionalHint` to indicate
+
+      on which edge the Coachmark/TeachingBubble should be positioned.
+    optional: true
+    syntax:
+      content: 'positioningContainerProps?: IPositioningContainerProps'
+      return:
+        type:
+          - office-ui-fabric-react.IPositioningContainerProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.preventDismissOnLostFocus
+    name: preventDismissOnLostFocus
+    fullName: preventDismissOnLostFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If true then the Coachmark will not dismiss when it loses focus
+    optional: true
+    syntax:
+      content: 'preventDismissOnLostFocus?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.preventFocusOnMount
+    name: preventFocusOnMount
+    fullName: preventFocusOnMount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true then focus will not be set to the Coachmark when it mounts. Useful
+      in cases where focus on coachmark
+
+      is causing other components in page to dismiss upon losing focus.
+    optional: true
+    syntax:
+      content: 'preventFocusOnMount?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<ICoachmarkStyleProps, ICoachmarkStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.ICoachmarkStyleProps,
+            office-ui-fabric-react.ICoachmarkStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.target
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The target that the Coachmark should try to position itself based on.
+    syntax:
+      content: 'target: HTMLElement | string | null'
+      return:
+        type:
+          - HTMLElement | string | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.teachingBubbleRef
+    name: teachingBubbleRef
+    fullName: teachingBubbleRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Ref for TeachingBubble
+    optional: true
+    syntax:
+      content: 'teachingBubbleRef?: ITeachingBubble'
+      return:
+        type:
+          - office-ui-fabric-react.ITeachingBubble
+    package: office-ui-fabric-react
+    deprecated:
+      content: >-
+        Coachmark uses `focusFirstChild` utility instead to focus on
+        TeachingBubbleContent
+  - uid: office-ui-fabric-react.ICoachmarkProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by higher order component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkProps.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The width of the Coachmark.
+    optional: true
+    syntax:
+      content: 'width?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+    deprecated:
+      content: No longer used.
+references:
+  - uid: ClassAttributes<office-ui-fabric-react.CoachmarkBase>
+    name: CoachmarkBase>
+    spec.typeScript:
+      - name: ClassAttributes<
+        fullName: ClassAttributes<
+      - name: CoachmarkBase
+        fullName: CoachmarkBase
+        uid: office-ui-fabric-react.CoachmarkBase
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.ICoachmark>
+    name: ICoachmark>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: ICoachmark
+        fullName: ICoachmark
+        uid: office-ui-fabric-react.ICoachmark
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IPositioningContainerProps
+    name: IPositioningContainerProps
+    spec.typeScript:
+      - name: IPositioningContainerProps
+        fullName: IPositioningContainerProps
+        uid: office-ui-fabric-react.IPositioningContainerProps
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.ICoachmarkStyleProps,
+      office-ui-fabric-react.ICoachmarkStyles>
+    name: ICoachmarkStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: ICoachmarkStyleProps
+        fullName: ICoachmarkStyleProps
+        uid: office-ui-fabric-react.ICoachmarkStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: ICoachmarkStyles
+        fullName: ICoachmarkStyles
+        uid: office-ui-fabric-react.ICoachmarkStyles
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ITeachingBubble
+    name: ITeachingBubble
+    spec.typeScript:
+      - name: ITeachingBubble
+        fullName: ITeachingBubble
+        uid: office-ui-fabric-react.ITeachingBubble

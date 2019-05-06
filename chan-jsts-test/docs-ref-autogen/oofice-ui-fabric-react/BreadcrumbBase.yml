@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.BreadcrumbBase
+    name: BreadcrumbBase
+    fullName: BreadcrumbBase<SS>
+    children:
+      - office-ui-fabric-react.BreadcrumbBase.constructor
+      - office-ui-fabric-react.BreadcrumbBase.componentWillReceiveProps
+      - office-ui-fabric-react.BreadcrumbBase.defaultProps
+      - office-ui-fabric-react.BreadcrumbBase.focus
+      - office-ui-fabric-react.BreadcrumbBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: '{@docCategory Breadcrumb}'
+    extends:
+      name: 'BaseComponent<office-ui-fabric-react.IBreadcrumbProps, any>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BreadcrumbBase.constructor
+    name: BreadcrumbBase(IBreadcrumbProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BreadcrumbBase(props: IBreadcrumbProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IBreadcrumbProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BreadcrumbBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IBreadcrumbProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IBreadcrumbProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - office-ui-fabric-react.IBreadcrumbProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BreadcrumbBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: IBreadcrumbProps'
+      return:
+        type:
+          - office-ui-fabric-react.IBreadcrumbProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BreadcrumbBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets focus to the first breadcrumb link.
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BreadcrumbBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<office-ui-fabric-react.IBreadcrumbProps, any>'
+    name: 'IBreadcrumbProps, any>'
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IBreadcrumbProps
+        fullName: IBreadcrumbProps
+        uid: office-ui-fabric-react.IBreadcrumbProps
+      - name: ', any>'
+        fullName: ', any>'
+  - uid: office-ui-fabric-react.IBreadcrumbProps
+    name: IBreadcrumbProps
+    spec.typeScript:
+      - name: IBreadcrumbProps
+        fullName: IBreadcrumbProps
+        uid: office-ui-fabric-react.IBreadcrumbProps

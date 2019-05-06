@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ShimmerCustomElementsExample
+    name: ShimmerCustomElementsExample
+    fullName: ShimmerCustomElementsExample<SS>
+    children:
+      - office-ui-fabric-react.ShimmerCustomElementsExample.render
+      - office-ui-fabric-react.ShimmerCustomElementsExample.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, __type>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerCustomElementsExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerCustomElementsExample.constructor
+    name: ShimmerCustomElementsExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ShimmerCustomElementsExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react

@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPeoplePickerItemWithMenuProps
+    name: IPeoplePickerItemWithMenuProps
+    fullName: IPeoplePickerItemWithMenuProps
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: PeoplePickerItemWithMenu props interface.
+    extends:
+      name: >-
+        office-ui-fabric-react.IPickerItemProps<office-ui-fabric-react.IPersonaWithMenu>
+    package: office-ui-fabric-react
+    deprecated:
+      content: Do not use. Will be removed in Fabric 7.0
+references:
+  - uid: >-
+      office-ui-fabric-react.IPickerItemProps<office-ui-fabric-react.IPersonaWithMenu>
+    name: IPersonaWithMenu>
+    spec.typeScript:
+      - name: IPickerItemProps
+        fullName: IPickerItemProps
+        uid: office-ui-fabric-react.IPickerItemProps
+      - name: <
+        fullName: <
+      - name: IPersonaWithMenu
+        fullName: IPersonaWithMenu
+        uid: office-ui-fabric-react.IPersonaWithMenu
+      - name: '>'
+        fullName: '>'

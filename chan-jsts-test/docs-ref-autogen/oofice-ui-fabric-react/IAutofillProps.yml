@@ -1,0 +1,208 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IAutofillProps
+    name: IAutofillProps
+    fullName: IAutofillProps
+    children:
+      - office-ui-fabric-react.IAutofillProps.componentRef
+      - office-ui-fabric-react.IAutofillProps.defaultVisibleValue
+      - office-ui-fabric-react.IAutofillProps.enableAutofillOnKeyPress
+      - office-ui-fabric-react.IAutofillProps.onInputChange
+      - office-ui-fabric-react.IAutofillProps.onInputValueChange
+      - office-ui-fabric-react.IAutofillProps.preventValueSelection
+      - >-
+        office-ui-fabric-react.IAutofillProps.shouldSelectFullInputValueInComponentDidUpdate
+      - office-ui-fabric-react.IAutofillProps.suggestedDisplayValue
+      - office-ui-fabric-react.IAutofillProps.updateValueInWillReceiveProps
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Autofill}'
+    extends:
+      name: InputHTMLAttributes<HTMLInputElement | office-ui-fabric-react.Autofill>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAutofillProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the compoonent ref.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IAutofill>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IAutofill>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAutofillProps.defaultVisibleValue
+    name: defaultVisibleValue
+    fullName: defaultVisibleValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The default value to be visible. This is different from placeholder
+      because it actually sets the current value of the picker
+      Note: This will only be set upon component creation
+      and will not update with subsequent prop updates.
+    optional: true
+    syntax:
+      content: 'defaultVisibleValue?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAutofillProps.enableAutofillOnKeyPress
+    name: enableAutofillOnKeyPress
+    fullName: enableAutofillOnKeyPress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When the user uses left arrow, right arrow, clicks, or deletes text
+      autofill is disabled
+
+      Since the user has taken control. It is automatically reenabled when the
+      user enters text and the
+
+      cursor is at the end of the text in the input box. This specifies other
+      key presses that will reenabled
+
+      autofill.
+    optional: true
+    syntax:
+      content: 'enableAutofillOnKeyPress?: KeyCodes[]'
+      return:
+        type:
+          - 'KeyCodes[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAutofillProps.onInputChange
+    name: onInputChange
+    fullName: onInputChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback used to modify the input string.
+    optional: true
+    syntax:
+      content: 'onInputChange?: (value: string) => string'
+      return:
+        type:
+          - '(value: string) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAutofillProps.onInputValueChange
+    name: onInputValueChange
+    fullName: onInputValueChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when the current input value changes.
+    optional: true
+    syntax:
+      content: 'onInputValueChange?: (newValue?: string) => void'
+      return:
+        type:
+          - '(newValue?: string) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAutofillProps.preventValueSelection
+    name: preventValueSelection
+    fullName: preventValueSelection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Should the value of the input be selected? True if we're focused on our
+      input, false otherwise.
+
+      We need to explicitly not select the text in the autofill if we are no
+      longer focused.
+
+      In IE11, selecting a input will also focus the input, causing other
+      element's focus to be stolen.
+    optional: true
+    syntax:
+      content: 'preventValueSelection?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IAutofillProps.shouldSelectFullInputValueInComponentDidUpdate
+    name: shouldSelectFullInputValueInComponentDidUpdate
+    fullName: shouldSelectFullInputValueInComponentDidUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Handler for checking if the full value of the input should
+      be seleced in componentDidUpdate
+    optional: true
+    syntax:
+      content: 'shouldSelectFullInputValueInComponentDidUpdate?: () => boolean'
+      return:
+        type:
+          - () => boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAutofillProps.suggestedDisplayValue
+    name: suggestedDisplayValue
+    fullName: suggestedDisplayValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The suggested autofill value that will display.
+    optional: true
+    syntax:
+      content: 'suggestedDisplayValue?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAutofillProps.updateValueInWillReceiveProps
+    name: updateValueInWillReceiveProps
+    fullName: updateValueInWillReceiveProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Handler for checking and updating the value if needed
+      in componentWillReceiveProps
+    optional: true
+    syntax:
+      content: 'updateValueInWillReceiveProps?: () => string | null'
+      return:
+        type:
+          - () => string | null
+    package: office-ui-fabric-react
+references:
+  - uid: InputHTMLAttributes<HTMLInputElement | office-ui-fabric-react.Autofill>
+    name: Autofill>
+    spec.typeScript:
+      - name: 'InputHTMLAttributes<HTMLInputElement | '
+        fullName: 'InputHTMLAttributes<HTMLInputElement | '
+      - name: Autofill
+        fullName: Autofill
+        uid: office-ui-fabric-react.Autofill
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.IAutofill>
+    name: IAutofill>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IAutofill
+        fullName: IAutofill
+        uid: office-ui-fabric-react.IAutofill
+      - name: '>'
+        fullName: '>'

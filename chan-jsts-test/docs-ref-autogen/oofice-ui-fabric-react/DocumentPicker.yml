@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DocumentPicker
+    name: DocumentPicker
+    fullName: DocumentPicker<SS>
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        office-ui-fabric-react.BasePickerListBelow<office-ui-fabric-react.IFullDocumentCardProps,
+        office-ui-fabric-react.IDocumentPickerProps>
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      office-ui-fabric-react.BasePickerListBelow<office-ui-fabric-react.IFullDocumentCardProps,
+      office-ui-fabric-react.IDocumentPickerProps>
+    name: IDocumentPickerProps>
+    spec.typeScript:
+      - name: BasePickerListBelow
+        fullName: BasePickerListBelow
+        uid: office-ui-fabric-react.BasePickerListBelow
+      - name: <
+        fullName: <
+      - name: IFullDocumentCardProps
+        fullName: IFullDocumentCardProps
+        uid: office-ui-fabric-react.IFullDocumentCardProps
+      - name: ', '
+        fullName: ', '
+      - name: IDocumentPickerProps
+        fullName: IDocumentPickerProps
+        uid: office-ui-fabric-react.IDocumentPickerProps
+      - name: '>'
+        fullName: '>'

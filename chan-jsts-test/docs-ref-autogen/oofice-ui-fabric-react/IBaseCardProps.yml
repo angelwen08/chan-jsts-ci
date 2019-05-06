@@ -1,0 +1,227 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBaseCardProps
+    name: IBaseCardProps
+    fullName: IBaseCardProps<TComponent>
+    children:
+      - office-ui-fabric-react.IBaseCardProps.className
+      - office-ui-fabric-react.IBaseCardProps.componentRef
+      - office-ui-fabric-react.IBaseCardProps.directionalHint
+      - office-ui-fabric-react.IBaseCardProps.directionalHintFixed
+      - office-ui-fabric-react.IBaseCardProps.firstFocus
+      - office-ui-fabric-react.IBaseCardProps.gapSpace
+      - office-ui-fabric-react.IBaseCardProps.onEnter
+      - office-ui-fabric-react.IBaseCardProps.onLeave
+      - office-ui-fabric-react.IBaseCardProps.renderData
+      - office-ui-fabric-react.IBaseCardProps.styles
+      - office-ui-fabric-react.IBaseCardProps.targetElement
+      - office-ui-fabric-react.IBaseCardProps.theme
+      - office-ui-fabric-react.IBaseCardProps.trapFocus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface containing props common for all types of cards.
+    extends:
+      name: HTMLAttributes<HTMLDivElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional CSS class(es) to apply to the Card content wrapper div.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the TComponent interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<TComponent>'
+      return:
+        type:
+          - IRefObject<TComponent>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.directionalHint
+    name: directionalHint
+    fullName: directionalHint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: How the element should be positioned
+    optional: true
+    syntax:
+      content: 'directionalHint?: DirectionalHint'
+      return:
+        type:
+          - DirectionalHint
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.directionalHintFixed
+    name: directionalHintFixed
+    fullName: directionalHintFixed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Make callout content show on the set side
+    optional: true
+    syntax:
+      content: 'directionalHintFixed?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.firstFocus
+    name: firstFocus
+    fullName: firstFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Focus on first element by default on card or not
+    optional: true
+    syntax:
+      content: 'firstFocus?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.gapSpace
+    name: gapSpace
+    fullName: gapSpace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The gap between the card and the target
+    optional: true
+    syntax:
+      content: 'gapSpace?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.onEnter
+    name: onEnter
+    fullName: onEnter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback upon focus or mouse enter event
+    optional: true
+    syntax:
+      content: 'onEnter?: (ev?: any) => void'
+      return:
+        type:
+          - '(ev?: any) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.onLeave
+    name: onLeave
+    fullName: onLeave
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback upon blur or mouse leave event
+    optional: true
+    syntax:
+      content: 'onLeave?: (ev?: any) => void'
+      return:
+        type:
+          - '(ev?: any) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.renderData
+    name: renderData
+    fullName: renderData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Item to be returned with onRender functions
+    optional: true
+    syntax:
+      content: 'renderData?: any'
+      return:
+        type:
+          - any
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom styles for this component
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<TStyleProps, Object>'
+      return:
+        type:
+          - 'IStyleFunctionOrObject<TStyleProps, Object>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.targetElement
+    name: targetElement
+    fullName: targetElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Element to anchor the card to.
+    optional: true
+    syntax:
+      content: 'targetElement?: HTMLElement'
+      return:
+        type:
+          - HTMLElement
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseCardProps.trapFocus
+    name: trapFocus
+    fullName: trapFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Trap focus or not
+    optional: true
+    syntax:
+      content: 'trapFocus?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

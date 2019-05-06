@@ -1,0 +1,352 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICommandBarProps
+    name: ICommandBarProps
+    fullName: ICommandBarProps
+    children:
+      - office-ui-fabric-react.ICommandBarProps.ariaLabel
+      - office-ui-fabric-react.ICommandBarProps.buttonAs
+      - office-ui-fabric-react.ICommandBarProps.className
+      - office-ui-fabric-react.ICommandBarProps.componentRef
+      - office-ui-fabric-react.ICommandBarProps.farItems
+      - office-ui-fabric-react.ICommandBarProps.items
+      - office-ui-fabric-react.ICommandBarProps.onDataGrown
+      - office-ui-fabric-react.ICommandBarProps.onDataReduced
+      - office-ui-fabric-react.ICommandBarProps.onGrowData
+      - office-ui-fabric-react.ICommandBarProps.onReduceData
+      - office-ui-fabric-react.ICommandBarProps.overflowButtonAs
+      - office-ui-fabric-react.ICommandBarProps.overflowButtonProps
+      - office-ui-fabric-react.ICommandBarProps.overflowItems
+      - office-ui-fabric-react.ICommandBarProps.shiftOnReduce
+      - office-ui-fabric-react.ICommandBarProps.styles
+      - office-ui-fabric-react.ICommandBarProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory CommandBar}'
+    extends:
+      name: HTMLAttributes<HTMLDivElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Accessibility text to be read by the screen reader when the user's
+      focus enters the command bar. The screen reader will read this text
+      after reading information about the first focusable item in the command
+      bar.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.buttonAs
+    name: buttonAs
+    fullName: buttonAs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom button to be used as near and far items
+    optional: true
+    syntax:
+      content: 'buttonAs?: IComponentAs<IButtonProps>'
+      return:
+        type:
+          - IComponentAs<office-ui-fabric-react.IButtonProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional css class to apply to the command bar
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the ICommandBar interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<ICommandBar>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.ICommandBar>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.farItems
+    name: farItems
+    fullName: farItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Items to render on the right side (or left, in RTL). ICommandBarItemProps
+      extend IContextualMenuItem
+    optional: true
+    syntax:
+      content: 'farItems?: ICommandBarItemProps[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.ICommandBarItemProps[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Items to render. ICommandBarItemProps extend IContextualMenuItem
+    syntax:
+      content: 'items: ICommandBarItemProps[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.ICommandBarItemProps[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.onDataGrown
+    name: onDataGrown
+    fullName: onDataGrown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function callback invoked when data has been grown.
+    optional: true
+    syntax:
+      content: 'onDataGrown?: (movedItem: ICommandBarItemProps) => void'
+      return:
+        type:
+          - '(movedItem: ICommandBarItemProps) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.onDataReduced
+    name: onDataReduced
+    fullName: onDataReduced
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function callback invoked when data has been reduced.
+    optional: true
+    syntax:
+      content: 'onDataReduced?: (movedItem: ICommandBarItemProps) => void'
+      return:
+        type:
+          - '(movedItem: ICommandBarItemProps) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.onGrowData
+    name: onGrowData
+    fullName: onGrowData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Custom function to grow data if items are too small for the given space.
+      Return `undefined` if no more steps can be taken to avoid infinate loop.
+    optional: true
+    syntax:
+      content: 'onGrowData?: (data: ICommandBarData) => ICommandBarData'
+      return:
+        type:
+          - '(data: ICommandBarData) => ICommandBarData'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.onReduceData
+    name: onReduceData
+    fullName: onReduceData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Custom function to reduce data if items do not fit in given space. Return
+      `undefined`
+
+      if no more steps can be taken to avoid infinate loop.
+    optional: true
+    syntax:
+      content: 'onReduceData?: (data: ICommandBarData) => ICommandBarData'
+      return:
+        type:
+          - '(data: ICommandBarData) => ICommandBarData'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.overflowButtonAs
+    name: overflowButtonAs
+    fullName: overflowButtonAs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom button to be used as oveflow button
+    optional: true
+    syntax:
+      content: 'overflowButtonAs?: IComponentAs<IButtonProps>'
+      return:
+        type:
+          - IComponentAs<office-ui-fabric-react.IButtonProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.overflowButtonProps
+    name: overflowButtonProps
+    fullName: overflowButtonProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Props to be passed to overflow button.
+
+      If menuProps are passed through this prop, any items provided will be
+      prepended to the top of the existing menu.
+    optional: true
+    syntax:
+      content: 'overflowButtonProps?: IButtonProps'
+      return:
+        type:
+          - office-ui-fabric-react.IButtonProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.overflowItems
+    name: overflowItems
+    fullName: overflowItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Default items to have in the overflow menu. ICommandBarItemProps extend
+      IContextualMenuItem
+    optional: true
+    syntax:
+      content: 'overflowItems?: ICommandBarItemProps[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.ICommandBarItemProps[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.shiftOnReduce
+    name: shiftOnReduce
+    fullName: shiftOnReduce
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When true, items will be 'shifted' off the front of the array when
+      reduced, and unshifted during grow
+    optional: true
+    syntax:
+      content: 'shiftOnReduce?: Boolean'
+      return:
+        type:
+          - Boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<ICommandBarStyleProps,
+        ICommandBarStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.ICommandBarStyleProps,
+            office-ui-fabric-react.ICommandBarStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICommandBarProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: IComponentAs<office-ui-fabric-react.IButtonProps>
+    name: IButtonProps>
+    spec.typeScript:
+      - name: IComponentAs<
+        fullName: IComponentAs<
+      - name: IButtonProps
+        fullName: IButtonProps
+        uid: office-ui-fabric-react.IButtonProps
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.ICommandBar>
+    name: ICommandBar>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: ICommandBar
+        fullName: ICommandBar
+        uid: office-ui-fabric-react.ICommandBar
+      - name: '>'
+        fullName: '>'
+  - uid: 'office-ui-fabric-react.ICommandBarItemProps[]'
+    name: 'ICommandBarItemProps[]'
+    spec.typeScript:
+      - name: ICommandBarItemProps
+        fullName: ICommandBarItemProps
+        uid: office-ui-fabric-react.ICommandBarItemProps
+      - name: '[]'
+        fullName: '[]'
+  - uid: office-ui-fabric-react.IButtonProps
+    name: IButtonProps
+    spec.typeScript:
+      - name: IButtonProps
+        fullName: IButtonProps
+        uid: office-ui-fabric-react.IButtonProps
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.ICommandBarStyleProps,
+      office-ui-fabric-react.ICommandBarStyles>
+    name: ICommandBarStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: ICommandBarStyleProps
+        fullName: ICommandBarStyleProps
+        uid: office-ui-fabric-react.ICommandBarStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: ICommandBarStyles
+        fullName: ICommandBarStyles
+        uid: office-ui-fabric-react.ICommandBarStyles
+      - name: '>'
+        fullName: '>'

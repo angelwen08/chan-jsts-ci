@@ -1,0 +1,612 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBasePickerProps
+    name: IBasePickerProps
+    fullName: IBasePickerProps<T>
+    children:
+      - office-ui-fabric-react.IBasePickerProps.className
+      - office-ui-fabric-react.IBasePickerProps.componentRef
+      - office-ui-fabric-react.IBasePickerProps.createGenericItem
+      - office-ui-fabric-react.IBasePickerProps.defaultSelectedItems
+      - office-ui-fabric-react.IBasePickerProps.disabled
+      - office-ui-fabric-react.IBasePickerProps.enableSelectedSuggestionAlert
+      - office-ui-fabric-react.IBasePickerProps.getTextFromItem
+      - office-ui-fabric-react.IBasePickerProps.inputProps
+      - office-ui-fabric-react.IBasePickerProps.itemLimit
+      - office-ui-fabric-react.IBasePickerProps.onBlur
+      - office-ui-fabric-react.IBasePickerProps.onChange
+      - office-ui-fabric-react.IBasePickerProps.onDismiss
+      - office-ui-fabric-react.IBasePickerProps.onEmptyInputFocus
+      - office-ui-fabric-react.IBasePickerProps.onFocus
+      - office-ui-fabric-react.IBasePickerProps.onGetMoreResults
+      - office-ui-fabric-react.IBasePickerProps.onInputChange
+      - office-ui-fabric-react.IBasePickerProps.onItemSelected
+      - office-ui-fabric-react.IBasePickerProps.onRemoveSuggestion
+      - office-ui-fabric-react.IBasePickerProps.onRenderItem
+      - office-ui-fabric-react.IBasePickerProps.onRenderSuggestionsItem
+      - office-ui-fabric-react.IBasePickerProps.onResolveSuggestions
+      - office-ui-fabric-react.IBasePickerProps.onValidateInput
+      - office-ui-fabric-react.IBasePickerProps.pickerCalloutProps
+      - office-ui-fabric-react.IBasePickerProps.pickerSuggestionsProps
+      - office-ui-fabric-react.IBasePickerProps.removeButtonAriaLabel
+      - office-ui-fabric-react.IBasePickerProps.resolveDelay
+      - office-ui-fabric-react.IBasePickerProps.searchingText
+      - office-ui-fabric-react.IBasePickerProps.selectedItems
+      - office-ui-fabric-react.IBasePickerProps.styles
+      - office-ui-fabric-react.IBasePickerProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: Props<any>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ClassName for the picker.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IBasePicker interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IBasePicker<T>>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IBasePicker<T>>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.createGenericItem
+    name: createGenericItem
+    fullName: createGenericItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Function that specifies how arbitrary text entered into the well is
+      handled.
+    optional: true
+    syntax:
+      content: >-
+        createGenericItem?: (input: string, ValidationState: ValidationState) =>
+        ISuggestionModel<T> | T
+      return:
+        type:
+          - >-
+            (input: string, ValidationState: ValidationState) =>
+            ISuggestionModel<T> | T
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.defaultSelectedItems
+    name: defaultSelectedItems
+    fullName: defaultSelectedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Initial items that have already been selected and should appear in the
+      people picker.
+    optional: true
+    syntax:
+      content: 'defaultSelectedItems?: T[]'
+      return:
+        type:
+          - 'T[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Flag for disabling the picker.
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.enableSelectedSuggestionAlert
+    name: enableSelectedSuggestionAlert
+    fullName: enableSelectedSuggestionAlert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Adds an additional alert for the currently selected suggestion. This prop
+      should be set to true for IE11 and below, as it
+
+      enables proper screen reader behavior for each suggestion (since
+      aria-activedescendant does not work with IE11).
+
+      It should not be set for modern browsers (Edge, Chrome).
+    optional: true
+    syntax:
+      content: 'enableSelectedSuggestionAlert?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.getTextFromItem
+    name: getTextFromItem
+    fullName: getTextFromItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback to get text from an item. Used to autofill text in the pickers.
+    optional: true
+    syntax:
+      content: 'getTextFromItem?: (item: T, currentValue?: string) => string'
+      return:
+        type:
+          - '(item: T, currentValue?: string) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.inputProps
+    name: inputProps
+    fullName: inputProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: AutoFill input native props
+    optional: true
+    syntax:
+      content: 'inputProps?: IInputProps'
+      return:
+        type:
+          - office-ui-fabric-react.IInputProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.itemLimit
+    name: itemLimit
+    fullName: itemLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Restrict the amount of selectable items.
+    optional: true
+    syntax:
+      content: 'itemLimit?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onBlur
+    name: onBlur
+    fullName: onBlur
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when the user moves the focus away from the picker
+    optional: true
+    syntax:
+      content: 'onBlur?: React.FocusEventHandler<HTMLInputElement | BaseAutoFill>'
+      return:
+        type:
+          - >-
+            React.FocusEventHandler<HTMLInputElement |
+            office-ui-fabric-react.BaseAutoFill>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when the selected list of items changes.
+    optional: true
+    syntax:
+      content: 'onChange?: (items?: T[]) => void'
+      return:
+        type:
+          - '(items?: T[]) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onDismiss
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A callback to override the default behavior of adding the selected
+      suggestion on dismiss.
+    optional: true
+    syntax:
+      content: 'onDismiss?: (ev?: any, selectedItem?: T) => void'
+      return:
+        type:
+          - '(ev?: any, selectedItem?: T) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onEmptyInputFocus
+    name: onEmptyInputFocus
+    fullName: onEmptyInputFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for what should happen when a user clicks the input.
+    optional: true
+    syntax:
+      content: 'onEmptyInputFocus?: (selectedItems?: T[]) => T[] | PromiseLike<T[]>'
+      return:
+        type:
+          - '(selectedItems?: T[]) => T[] | PromiseLike<T[]>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onFocus
+    name: onFocus
+    fullName: onFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when the user put focus on the picker
+    optional: true
+    syntax:
+      content: 'onFocus?: React.FocusEventHandler<HTMLInputElement | BaseAutoFill>'
+      return:
+        type:
+          - >-
+            React.FocusEventHandler<HTMLInputElement |
+            office-ui-fabric-react.BaseAutoFill>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onGetMoreResults
+    name: onGetMoreResults
+    fullName: onGetMoreResults
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A callback that gets the rest of the results when a user clicks get more
+      results.
+    optional: true
+    syntax:
+      content: >-
+        onGetMoreResults?: (filter: string, selectedItems?: T[]) => T[] |
+        PromiseLike<T[]>
+      return:
+        type:
+          - '(filter: string, selectedItems?: T[]) => T[] | PromiseLike<T[]>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onInputChange
+    name: onInputChange
+    fullName: onInputChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback used to modify the input string.
+    optional: true
+    syntax:
+      content: 'onInputChange?: (input: string) => string'
+      return:
+        type:
+          - '(input: string) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onItemSelected
+    name: onItemSelected
+    fullName: onItemSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A callback to process a selection after the user selects something from
+      the picker. If the callback returns null,
+
+      the item will not be added to the picker.
+    optional: true
+    syntax:
+      content: 'onItemSelected?: (selectedItem?: T) => T | PromiseLike<T> | null'
+      return:
+        type:
+          - '(selectedItem?: T) => T | PromiseLike<T> | null'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onRemoveSuggestion
+    name: onRemoveSuggestion
+    fullName: onRemoveSuggestion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when an item is removed from the suggestion list
+    optional: true
+    syntax:
+      content: 'onRemoveSuggestion?: (item: T) => void'
+      return:
+        type:
+          - '(item: T) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onRenderItem
+    name: onRenderItem
+    fullName: onRenderItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function that specifies how the selected item will appear.
+    optional: true
+    syntax:
+      content: 'onRenderItem?: (props: IPickerItemProps<T>) => Element'
+      return:
+        type:
+          - '(props: IPickerItemProps<T>) => Element'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onRenderSuggestionsItem
+    name: onRenderSuggestionsItem
+    fullName: onRenderSuggestionsItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function that specifies how an individual suggestion item will appear.
+    optional: true
+    syntax:
+      content: 'onRenderSuggestionsItem?: (props: T, itemProps: any) => Element'
+      return:
+        type:
+          - '(props: T, itemProps: any) => Element'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onResolveSuggestions
+    name: onResolveSuggestions
+    fullName: onResolveSuggestions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A callback for what should happen when a person types text into the input.
+
+      Returns the already selected items so the resolver can filter them out.
+
+      If used in conjunction with resolveDelay this will ony kick off after the
+      delay throttle.
+    syntax:
+      content: >-
+        onResolveSuggestions: (filter: string, selectedItems?: T[]) => T[] |
+        PromiseLike<T[]>
+      return:
+        type:
+          - '(filter: string, selectedItems?: T[]) => T[] | PromiseLike<T[]>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.onValidateInput
+    name: onValidateInput
+    fullName: onValidateInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A function used to validate if raw text entered into the well can be added
+      into the selected items list
+    optional: true
+    syntax:
+      content: 'onValidateInput?: (input: string) => ValidationState'
+      return:
+        type:
+          - '(input: string) => ValidationState'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.pickerCalloutProps
+    name: pickerCalloutProps
+    fullName: pickerCalloutProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The properties that will get passed to the Callout component.
+    optional: true
+    syntax:
+      content: 'pickerCalloutProps?: ICalloutProps'
+      return:
+        type:
+          - office-ui-fabric-react.ICalloutProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.pickerSuggestionsProps
+    name: pickerSuggestionsProps
+    fullName: pickerSuggestionsProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The properties that will get passed to the Suggestions component.
+    optional: true
+    syntax:
+      content: 'pickerSuggestionsProps?: IBasePickerSuggestionsProps'
+      return:
+        type:
+          - office-ui-fabric-react.IBasePickerSuggestionsProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.removeButtonAriaLabel
+    name: removeButtonAriaLabel
+    fullName: removeButtonAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria label for the "X" button in the selected item component.
+    optional: true
+    syntax:
+      content: 'removeButtonAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.resolveDelay
+    name: resolveDelay
+    fullName: resolveDelay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The delay time in ms before resolving suggestions, which is kicked off
+      when input has been changed.
+
+      e.g. If a second input change happens within the resolveDelay time, the
+      timer will start over.
+
+      Only until after the timer completes will onResolveSuggestions be called.
+    optional: true
+    syntax:
+      content: 'resolveDelay?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.searchingText
+    name: searchingText
+    fullName: searchingText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The text to display while searching for more results in a limited
+      suggestions list
+    optional: true
+    syntax:
+      content: 'searchingText?: (props: Object) => string | string'
+      return:
+        type:
+          - '(props: Object) => string | string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.selectedItems
+    name: selectedItems
+    fullName: selectedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The items that the base picker should currently display as selected.
+      If this is provided then the picker will act as a controlled component.
+    optional: true
+    syntax:
+      content: 'selectedItems?: T[]'
+      return:
+        type:
+          - 'T[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IBasePickerStyleProps,
+        IBasePickerStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IBasePickerStyleProps,
+            office-ui-fabric-react.IBasePickerStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by styled() function.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: IRefObject<office-ui-fabric-react.IBasePicker<T>>
+    name: IBasePicker<T>>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IBasePicker
+        fullName: IBasePicker
+        uid: office-ui-fabric-react.IBasePicker
+      - name: <T>>
+        fullName: <T>>
+  - uid: office-ui-fabric-react.IInputProps
+    name: IInputProps
+    spec.typeScript:
+      - name: IInputProps
+        fullName: IInputProps
+        uid: office-ui-fabric-react.IInputProps
+  - uid: >-
+      React.FocusEventHandler<HTMLInputElement |
+      office-ui-fabric-react.BaseAutoFill>
+    name: BaseAutoFill>
+    spec.typeScript:
+      - name: 'React.FocusEventHandler<HTMLInputElement | '
+        fullName: 'React.FocusEventHandler<HTMLInputElement | '
+      - name: BaseAutoFill
+        fullName: BaseAutoFill
+        uid: office-ui-fabric-react.BaseAutoFill
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ICalloutProps
+    name: ICalloutProps
+    spec.typeScript:
+      - name: ICalloutProps
+        fullName: ICalloutProps
+        uid: office-ui-fabric-react.ICalloutProps
+  - uid: office-ui-fabric-react.IBasePickerSuggestionsProps
+    name: IBasePickerSuggestionsProps
+    spec.typeScript:
+      - name: IBasePickerSuggestionsProps
+        fullName: IBasePickerSuggestionsProps
+        uid: office-ui-fabric-react.IBasePickerSuggestionsProps
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IBasePickerStyleProps,
+      office-ui-fabric-react.IBasePickerStyles>
+    name: IBasePickerStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IBasePickerStyleProps
+        fullName: IBasePickerStyleProps
+        uid: office-ui-fabric-react.IBasePickerStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IBasePickerStyles
+        fullName: IBasePickerStyles
+        uid: office-ui-fabric-react.IBasePickerStyles
+      - name: '>'
+        fullName: '>'

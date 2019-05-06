@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ShimmeredDetailsListBase
+    name: ShimmeredDetailsListBase
+    fullName: ShimmeredDetailsListBase<SS>
+    children:
+      - office-ui-fabric-react.ShimmeredDetailsListBase.render
+      - office-ui-fabric-react.ShimmeredDetailsListBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'BaseComponent<office-ui-fabric-react.IShimmeredDetailsListProps, __type>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmeredDetailsListBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmeredDetailsListBase.constructor
+    name: ShimmeredDetailsListBase(IShimmeredDetailsListProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ShimmeredDetailsListBase(props: IShimmeredDetailsListProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IShimmeredDetailsListProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<office-ui-fabric-react.IShimmeredDetailsListProps, __type>'
+    name: 'IShimmeredDetailsListProps, __type>'
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IShimmeredDetailsListProps
+        fullName: IShimmeredDetailsListProps
+        uid: office-ui-fabric-react.IShimmeredDetailsListProps
+      - name: ', __type>'
+        fullName: ', __type>'
+  - uid: office-ui-fabric-react.IShimmeredDetailsListProps
+    name: IShimmeredDetailsListProps
+    spec.typeScript:
+      - name: IShimmeredDetailsListProps
+        fullName: IShimmeredDetailsListProps
+        uid: office-ui-fabric-react.IShimmeredDetailsListProps

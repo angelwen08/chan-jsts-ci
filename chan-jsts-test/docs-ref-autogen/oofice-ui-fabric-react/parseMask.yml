@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.parseMask
+    name: 'parseMask(string | undefined, [key: string]: RegExp)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Takes in the mask string and the formatCharacters and returns an array of
+      MaskValues
+
+      Example:
+
+      mask = 'Phone Number: (999) - 9999'
+
+      return = [
+         { value: undefined, displayIndex: 16, format: /[0-9]/ },
+         { value: undefined, displayIndex: 17, format: /[0-9]/ },
+         { value: undefined, displayIndex: 18, format: /[0-9]/ },
+         { value: undefined, displayIndex: 22, format: /[0-9]/ },
+      ]
+    syntax:
+      content: >-
+        function parseMask(mask: string | undefined, formatChars?: [key:
+        string]: RegExp)
+      parameters:
+        - id: mask
+          type:
+            - string | undefined
+          description: The string use to define the format of the displayed maskedValue.
+        - id: formatChars
+          type:
+            - '[key: string]: RegExp'
+          description: >
+            An object defining how certain characters in the mask should accept
+            input.
+          optional: true
+      return:
+        type:
+          - 'office-ui-fabric-react.IMaskValue[]'
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IMaskValue[]'
+    name: 'IMaskValue[]'
+    spec.typeScript:
+      - name: IMaskValue
+        fullName: IMaskValue
+        uid: office-ui-fabric-react.IMaskValue
+      - name: '[]'
+        fullName: '[]'

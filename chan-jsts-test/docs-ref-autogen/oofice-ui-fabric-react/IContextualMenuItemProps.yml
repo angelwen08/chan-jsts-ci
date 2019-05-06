@@ -1,0 +1,293 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IContextualMenuItemProps
+    name: IContextualMenuItemProps
+    fullName: IContextualMenuItemProps
+    children:
+      - office-ui-fabric-react.IContextualMenuItemProps.className
+      - office-ui-fabric-react.IContextualMenuItemProps.classNames
+      - office-ui-fabric-react.IContextualMenuItemProps.componentRef
+      - office-ui-fabric-react.IContextualMenuItemProps.dismissMenu
+      - office-ui-fabric-react.IContextualMenuItemProps.dismissSubMenu
+      - office-ui-fabric-react.IContextualMenuItemProps.getSubmenuTarget
+      - office-ui-fabric-react.IContextualMenuItemProps.hasIcons
+      - office-ui-fabric-react.IContextualMenuItemProps.index
+      - office-ui-fabric-react.IContextualMenuItemProps.item
+      - office-ui-fabric-react.IContextualMenuItemProps.onCheckmarkClick
+      - office-ui-fabric-react.IContextualMenuItemProps.openSubMenu
+      - office-ui-fabric-react.IContextualMenuItemProps.styles
+      - office-ui-fabric-react.IContextualMenuItemProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ContextualMenu}'
+    extends:
+      name: HTMLAttributes<office-ui-fabric-react.IContextualMenuItemProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional css class to apply to the ContextualMenuItem
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.classNames
+    name: classNames
+    fullName: classNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Classnames for different aspects of a menu item
+    syntax:
+      content: 'classNames: IMenuItemClassNames'
+      return:
+        type:
+          - office-ui-fabric-react.IMenuItemClassNames
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IContextualMenuRenderItem interface. Use
+      this instead of ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IContextualMenuRenderItem>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IContextualMenuRenderItem>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.dismissMenu
+    name: dismissMenu
+    fullName: dismissMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This prop will get set by ContextualMenu and can be called to close the
+      menu this item belongs to.
+
+      If dismissAll is true, all menus will be closed.
+    optional: true
+    syntax:
+      content: 'dismissMenu?: (ev?: any, dismissAll?: boolean) => void'
+      return:
+        type:
+          - '(ev?: any, dismissAll?: boolean) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.dismissSubMenu
+    name: dismissSubMenu
+    fullName: dismissSubMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This prop will get set by ContextualMenu and can be called to close this
+      item's subMenu, if present.
+    optional: true
+    syntax:
+      content: 'dismissSubMenu?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.getSubmenuTarget
+    name: getSubmenuTarget
+    fullName: getSubmenuTarget
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This prop will get set by the wrapping component and will return the
+      element that wraps this ContextualMenuItem.
+
+      Used for openSubMenu.
+    optional: true
+    syntax:
+      content: 'getSubmenuTarget?: () => HTMLElement | undefined'
+      return:
+        type:
+          - () => HTMLElement | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.hasIcons
+    name: hasIcons
+    fullName: hasIcons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If this item has icons
+    syntax:
+      content: 'hasIcons: boolean | undefined'
+      return:
+        type:
+          - boolean | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.index
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Index of the item
+    syntax:
+      content: 'index: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.item
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The item to display
+    syntax:
+      content: 'item: IContextualMenuItem'
+      return:
+        type:
+          - office-ui-fabric-react.IContextualMenuItem
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.onCheckmarkClick
+    name: onCheckmarkClick
+    fullName: onCheckmarkClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Click handler for the checkmark
+    optional: true
+    syntax:
+      content: >-
+        onCheckmarkClick?: (item: IContextualMenuItem, ev:
+        MouseEvent<HTMLElement>) => void
+      return:
+        type:
+          - '(item: IContextualMenuItem, ev: MouseEvent<HTMLElement>) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.openSubMenu
+    name: openSubMenu
+    fullName: openSubMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      This prop will get set by ContextualMenu and can be called to open this
+      item's subMenu, if present.
+    optional: true
+    syntax:
+      content: 'openSubMenu?: (item: any, target: HTMLElement) => void'
+      return:
+        type:
+          - '(item: any, target: HTMLElement) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IContextualMenuItemStyleProps,
+        IContextualMenuItemStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IContextualMenuItemStyleProps,
+            office-ui-fabric-react.IContextualMenuItemStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: HTMLAttributes<office-ui-fabric-react.IContextualMenuItemProps>
+    name: IContextualMenuItemProps>
+    spec.typeScript:
+      - name: HTMLAttributes<
+        fullName: HTMLAttributes<
+      - name: IContextualMenuItemProps
+        fullName: IContextualMenuItemProps
+        uid: office-ui-fabric-react.IContextualMenuItemProps
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IMenuItemClassNames
+    name: IMenuItemClassNames
+    spec.typeScript:
+      - name: IMenuItemClassNames
+        fullName: IMenuItemClassNames
+        uid: office-ui-fabric-react.IMenuItemClassNames
+  - uid: IRefObject<office-ui-fabric-react.IContextualMenuRenderItem>
+    name: IContextualMenuRenderItem>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IContextualMenuRenderItem
+        fullName: IContextualMenuRenderItem
+        uid: office-ui-fabric-react.IContextualMenuRenderItem
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IContextualMenuItem
+    name: IContextualMenuItem
+    spec.typeScript:
+      - name: IContextualMenuItem
+        fullName: IContextualMenuItem
+        uid: office-ui-fabric-react.IContextualMenuItem
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IContextualMenuItemStyleProps,
+      office-ui-fabric-react.IContextualMenuItemStyles>
+    name: IContextualMenuItemStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IContextualMenuItemStyleProps
+        fullName: IContextualMenuItemStyleProps
+        uid: office-ui-fabric-react.IContextualMenuItemStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IContextualMenuItemStyles
+        fullName: IContextualMenuItemStyles
+        uid: office-ui-fabric-react.IContextualMenuItemStyles
+      - name: '>'
+        fullName: '>'

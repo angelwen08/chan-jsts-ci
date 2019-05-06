@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.BaseSlots
+    name: BaseSlots
+    fullName: BaseSlots
+    children:
+      - office-ui-fabric-react.BaseSlots.primaryColor
+      - office-ui-fabric-react.BaseSlots.backgroundColor
+      - office-ui-fabric-react.BaseSlots.foregroundColor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BaseSlots.primaryColor
+    name: primaryColor
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BaseSlots.backgroundColor
+    name: backgroundColor
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BaseSlots.foregroundColor
+    name: foregroundColor
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react

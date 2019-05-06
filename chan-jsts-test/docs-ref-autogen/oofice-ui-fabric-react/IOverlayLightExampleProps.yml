@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IOverlayLightExampleProps
+    name: IOverlayLightExampleProps
+    fullName: IOverlayLightExampleProps
+    children:
+      - office-ui-fabric-react.IOverlayLightExampleProps.getStyles
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IOverlayLightExampleProps.getStyles
+    name: getStyles
+    fullName: getStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'getStyles?: IStyleFunction<__type, IOverlayExampleStyles>'
+      return:
+        type:
+          - 'IStyleFunction<__type, office-ui-fabric-react.IOverlayExampleStyles>'
+    package: office-ui-fabric-react
+references:
+  - uid: 'IStyleFunction<__type, office-ui-fabric-react.IOverlayExampleStyles>'
+    name: IOverlayExampleStyles>
+    spec.typeScript:
+      - name: 'IStyleFunction<__type, '
+        fullName: 'IStyleFunction<__type, '
+      - name: IOverlayExampleStyles
+        fullName: IOverlayExampleStyles
+        uid: office-ui-fabric-react.IOverlayExampleStyles
+      - name: '>'
+        fullName: '>'

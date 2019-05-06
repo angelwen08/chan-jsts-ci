@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.standardStyles
+    name: standardStyles(ITheme)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function standardStyles(theme: ITheme)'
+      parameters:
+        - id: theme
+          type:
+            - ITheme
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.IButtonStyles
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IButtonStyles
+    name: IButtonStyles
+    spec.typeScript:
+      - name: IButtonStyles
+        fullName: IButtonStyles
+        uid: office-ui-fabric-react.IButtonStyles

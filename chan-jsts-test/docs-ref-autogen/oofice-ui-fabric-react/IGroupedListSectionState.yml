@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGroupedListSectionState
+    name: IGroupedListSectionState
+    fullName: IGroupedListSectionState
+    children:
+      - office-ui-fabric-react.IGroupedListSectionState.isDropping
+      - office-ui-fabric-react.IGroupedListSectionState.isSelected
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListSectionState.isDropping
+    name: isDropping
+    fullName: isDropping
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isDropping?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListSectionState.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isSelected?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

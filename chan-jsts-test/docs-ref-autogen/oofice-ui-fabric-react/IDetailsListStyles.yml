@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsListStyles
+    name: IDetailsListStyles
+    fullName: IDetailsListStyles
+    children:
+      - office-ui-fabric-react.IDetailsListStyles.contentWrapper
+      - office-ui-fabric-react.IDetailsListStyles.focusZone
+      - office-ui-fabric-react.IDetailsListStyles.headerWrapper
+      - office-ui-fabric-react.IDetailsListStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListStyles.contentWrapper
+    name: contentWrapper
+    fullName: contentWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'contentWrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListStyles.focusZone
+    name: focusZone
+    fullName: focusZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'focusZone: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListStyles.headerWrapper
+    name: headerWrapper
+    fullName: headerWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'headerWrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

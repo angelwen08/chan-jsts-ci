@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DetailsListDocumentsExample
+    name: DetailsListDocumentsExample
+    fullName: DetailsListDocumentsExample<SS>
+    children:
+      - office-ui-fabric-react.DetailsListDocumentsExample.componentDidUpdate
+      - office-ui-fabric-react.DetailsListDocumentsExample.constructor
+      - office-ui-fabric-react.DetailsListDocumentsExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<__type,
+        office-ui-fabric-react.IDetailsListDocumentsExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListDocumentsExample.componentDidUpdate
+    name: 'componentDidUpdate(any, IDetailsListDocumentsExampleState)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(previousProps: any, previousState:
+        IDetailsListDocumentsExampleState)
+      parameters:
+        - id: previousProps
+          type:
+            - any
+          description: ''
+        - id: previousState
+          type:
+            - office-ui-fabric-react.IDetailsListDocumentsExampleState
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListDocumentsExample.constructor
+    name: DetailsListDocumentsExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DetailsListDocumentsExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListDocumentsExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<__type,
+      office-ui-fabric-react.IDetailsListDocumentsExampleState>
+    name: IDetailsListDocumentsExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IDetailsListDocumentsExampleState
+        fullName: IDetailsListDocumentsExampleState
+        uid: office-ui-fabric-react.IDetailsListDocumentsExampleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IDetailsListDocumentsExampleState
+    name: IDetailsListDocumentsExampleState
+    spec.typeScript:
+      - name: IDetailsListDocumentsExampleState
+        fullName: IDetailsListDocumentsExampleState
+        uid: office-ui-fabric-react.IDetailsListDocumentsExampleState

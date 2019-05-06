@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.lorem
+    name: lorem(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function lorem(wordCount: number)'
+      parameters:
+        - id: wordCount
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

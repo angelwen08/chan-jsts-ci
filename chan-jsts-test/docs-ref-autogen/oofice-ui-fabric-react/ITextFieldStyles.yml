@@ -1,0 +1,174 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITextFieldStyles
+    name: ITextFieldStyles
+    fullName: ITextFieldStyles
+    children:
+      - office-ui-fabric-react.ITextFieldStyles.description
+      - office-ui-fabric-react.ITextFieldStyles.errorMessage
+      - office-ui-fabric-react.ITextFieldStyles.field
+      - office-ui-fabric-react.ITextFieldStyles.fieldGroup
+      - office-ui-fabric-react.ITextFieldStyles.icon
+      - office-ui-fabric-react.ITextFieldStyles.prefix
+      - office-ui-fabric-react.ITextFieldStyles.root
+      - office-ui-fabric-react.ITextFieldStyles.subComponentStyles
+      - office-ui-fabric-react.ITextFieldStyles.suffix
+      - office-ui-fabric-react.ITextFieldStyles.wrapper
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory TextField}'
+    extends:
+      name: Object & Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for description element.
+    syntax:
+      content: 'description: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.errorMessage
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for error message element.
+    syntax:
+      content: 'errorMessage: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.field
+    name: field
+    fullName: field
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for main field entry element.
+    syntax:
+      content: 'field: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.fieldGroup
+    name: fieldGroup
+    fullName: fieldGroup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Style for field group encompassing entry area (prefix, field, icon and
+      suffix).
+    syntax:
+      content: 'fieldGroup: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for icon prop element.
+    syntax:
+      content: 'icon: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.prefix
+    name: prefix
+    fullName: prefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for prefix element.
+    syntax:
+      content: 'prefix: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.subComponentStyles
+    name: subComponentStyles
+    fullName: subComponentStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styling for subcomponents.
+    syntax:
+      content: 'subComponentStyles: ITextFieldSubComponentStyles'
+      return:
+        type:
+          - office-ui-fabric-react.ITextFieldSubComponentStyles
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.suffix
+    name: suffix
+    fullName: suffix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for suffix element.
+    syntax:
+      content: 'suffix: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldStyles.wrapper
+    name: wrapper
+    fullName: wrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for TextField wrapper element.
+    syntax:
+      content: 'wrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ITextFieldSubComponentStyles
+    name: ITextFieldSubComponentStyles
+    spec.typeScript:
+      - name: ITextFieldSubComponentStyles
+        fullName: ITextFieldSubComponentStyles
+        uid: office-ui-fabric-react.ITextFieldSubComponentStyles

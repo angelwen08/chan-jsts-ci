@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBasePickerStyleProps
+    name: IBasePickerStyleProps
+    fullName: IBasePickerStyleProps
+    children: []
+    syntax:
+      content: type IBasePickerStyleProps = Pick<IBasePickerProps> & Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: |-
+      The props needed to construct styles.
+      {@docCategory Pickers}
+    package: office-ui-fabric-react

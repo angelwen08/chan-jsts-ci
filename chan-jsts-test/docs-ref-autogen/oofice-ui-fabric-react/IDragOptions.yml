@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDragOptions
+    name: IDragOptions
+    fullName: IDragOptions
+    children:
+      - office-ui-fabric-react.IDragOptions.closeMenuItemText
+      - office-ui-fabric-react.IDragOptions.dragHandleSelector
+      - office-ui-fabric-react.IDragOptions.keyboardMoveIconProps
+      - office-ui-fabric-react.IDragOptions.menu
+      - office-ui-fabric-react.IDragOptions.moveMenuItemText
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragOptions.closeMenuItemText
+    name: closeMenuItemText
+    fullName: closeMenuItemText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The text to use for the modal close menu item
+    syntax:
+      content: 'closeMenuItemText: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragOptions.dragHandleSelector
+    name: dragHandleSelector
+    fullName: dragHandleSelector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional selector for the element where the drag can be initiated. If not
+      supplied when
+
+      isDraggable is true dragging can be initated by the whole contents of the
+      modal
+    optional: true
+    syntax:
+      content: 'dragHandleSelector?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragOptions.keyboardMoveIconProps
+    name: keyboardMoveIconProps
+    fullName: keyboardMoveIconProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      IconProps for the icon used to indicate that the dialog is in keyboard
+      move mode
+    optional: true
+    syntax:
+      content: 'keyboardMoveIconProps?: IIconProps'
+      return:
+        type:
+          - office-ui-fabric-react.IIconProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragOptions.menu
+    name: menu
+    fullName: menu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The Draggable Control Menu so that the draggable zone can be moved via the
+      keyboard
+    syntax:
+      content: 'menu: StatelessComponent<IContextualMenuProps>'
+      return:
+        type:
+          - StatelessComponent<office-ui-fabric-react.IContextualMenuProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDragOptions.moveMenuItemText
+    name: moveMenuItemText
+    fullName: moveMenuItemText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The text to use for the modal move menu item
+    syntax:
+      content: 'moveMenuItemText: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IIconProps
+    name: IIconProps
+    spec.typeScript:
+      - name: IIconProps
+        fullName: IIconProps
+        uid: office-ui-fabric-react.IIconProps
+  - uid: StatelessComponent<office-ui-fabric-react.IContextualMenuProps>
+    name: IContextualMenuProps>
+    spec.typeScript:
+      - name: StatelessComponent<
+        fullName: StatelessComponent<
+      - name: IContextualMenuProps
+        fullName: IContextualMenuProps
+        uid: office-ui-fabric-react.IContextualMenuProps
+      - name: '>'
+        fullName: '>'

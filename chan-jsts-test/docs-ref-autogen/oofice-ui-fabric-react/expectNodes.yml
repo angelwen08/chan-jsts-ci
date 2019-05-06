@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.expectNodes
+    name: 'expectNodes(ReactWrapper<any, any>, string, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function expectNodes(wrapper: ReactWrapper<any, any>, className: string,
+        n: number)
+      parameters:
+        - id: wrapper
+          type:
+            - 'ReactWrapper<any, any>'
+          description: ''
+        - id: className
+          type:
+            - string
+          description: ''
+        - id: 'n'
+          type:
+            - number
+          description: ''
+    package: office-ui-fabric-react

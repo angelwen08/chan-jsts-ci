@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerElementsGroup
+    name: IShimmerElementsGroup
+    fullName: IShimmerElementsGroup
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Shimmer}'
+    package: office-ui-fabric-react

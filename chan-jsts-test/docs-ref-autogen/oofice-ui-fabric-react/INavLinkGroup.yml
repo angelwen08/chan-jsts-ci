@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.INavLinkGroup
+    name: INavLinkGroup
+    fullName: INavLinkGroup
+    children:
+      - office-ui-fabric-react.INavLinkGroup.automationId
+      - office-ui-fabric-react.INavLinkGroup.collapseByDefault
+      - office-ui-fabric-react.INavLinkGroup.links
+      - office-ui-fabric-react.INavLinkGroup.name
+      - office-ui-fabric-react.INavLinkGroup.onHeaderClick
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Nav}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.INavLinkGroup.automationId
+    name: automationId
+    fullName: automationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name to use for functional automation tests
+    optional: true
+    syntax:
+      content: 'automationId?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.INavLinkGroup.collapseByDefault
+    name: collapseByDefault
+    fullName: collapseByDefault
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If true, the group should render collapsed by default'
+    optional: true
+    syntax:
+      content: 'collapseByDefault?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.INavLinkGroup.links
+    name: links
+    fullName: links
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Links to render within this group
+    syntax:
+      content: 'links: INavLink[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.INavLink[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.INavLinkGroup.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text to render as the header of a group
+    optional: true
+    syntax:
+      content: 'name?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.INavLinkGroup.onHeaderClick
+    name: onHeaderClick
+    fullName: onHeaderClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback invoked when a group header is clicked
+    optional: true
+    syntax:
+      content: >-
+        onHeaderClick?: (ev?: MouseEvent<HTMLElement>, isCollapsing?: boolean)
+        => void
+      return:
+        type:
+          - '(ev?: MouseEvent<HTMLElement>, isCollapsing?: boolean) => void'
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.INavLink[]'
+    name: 'INavLink[]'
+    spec.typeScript:
+      - name: INavLink
+        fullName: INavLink
+        uid: office-ui-fabric-react.INavLink
+      - name: '[]'
+        fullName: '[]'

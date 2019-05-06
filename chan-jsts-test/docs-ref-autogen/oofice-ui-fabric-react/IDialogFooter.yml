@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDialogFooter
+    name: IDialogFooter
+    fullName: IDialogFooter
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Dialog}'
+    package: office-ui-fabric-react

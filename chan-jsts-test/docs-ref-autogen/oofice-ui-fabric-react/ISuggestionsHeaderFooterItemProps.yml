@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterItemProps
+    name: ISuggestionsHeaderFooterItemProps
+    fullName: ISuggestionsHeaderFooterItemProps
+    children:
+      - office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.className
+      - office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.componentRef
+      - office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.id
+      - office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.isSelected
+      - office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.onExecute
+      - office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.renderItem
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'className: string | undefined'
+      return:
+        type:
+          - string | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<__type>'
+      return:
+        type:
+          - IRefObject<__type>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSelected: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.onExecute
+    name: onExecute
+    fullName: onExecute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onExecute?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterItemProps.renderItem
+    name: renderItem
+    fullName: renderItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'renderItem: () => Element'
+      return:
+        type:
+          - () => Element
+    package: office-ui-fabric-react

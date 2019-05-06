@@ -1,0 +1,202 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarYearProps
+    name: ICalendarYearProps
+    fullName: ICalendarYearProps
+    children:
+      - office-ui-fabric-react.ICalendarYearProps.className
+      - office-ui-fabric-react.ICalendarYearProps.maxYear
+      - office-ui-fabric-react.ICalendarYearProps.minYear
+      - office-ui-fabric-react.ICalendarYearProps.navigatedYear
+      - office-ui-fabric-react.ICalendarYearProps.navigationIcons
+      - office-ui-fabric-react.ICalendarYearProps.onHeaderSelect
+      - office-ui-fabric-react.ICalendarYearProps.onRenderTitle
+      - office-ui-fabric-react.ICalendarYearProps.onRenderYear
+      - office-ui-fabric-react.ICalendarYearProps.onSelectYear
+      - office-ui-fabric-react.ICalendarYearProps.selectedYear
+      - office-ui-fabric-react.ICalendarYearProps.strings
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.maxYear
+    name: maxYear
+    fullName: maxYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxYear?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.minYear
+    name: minYear
+    fullName: minYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'minYear?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.navigatedYear
+    name: navigatedYear
+    fullName: navigatedYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'navigatedYear?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.navigationIcons
+    name: navigationIcons
+    fullName: navigationIcons
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'navigationIcons?: ICalendarIconStrings'
+      return:
+        type:
+          - office-ui-fabric-react.ICalendarIconStrings
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.onHeaderSelect
+    name: onHeaderSelect
+    fullName: onHeaderSelect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onHeaderSelect?: (focus: boolean) => void'
+      return:
+        type:
+          - '(focus: boolean) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.onRenderTitle
+    name: onRenderTitle
+    fullName: onRenderTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onRenderTitle?: (props: ICalendarYearHeaderProps) => React.ReactNode'
+      return:
+        type:
+          - '(props: ICalendarYearHeaderProps) => React.ReactNode'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.onRenderYear
+    name: onRenderYear
+    fullName: onRenderYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onRenderYear?: (year: number) => React.ReactNode'
+      return:
+        type:
+          - '(year: number) => React.ReactNode'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.onSelectYear
+    name: onSelectYear
+    fullName: onSelectYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onSelectYear?: (year: number) => void'
+      return:
+        type:
+          - '(year: number) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.selectedYear
+    name: selectedYear
+    fullName: selectedYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectedYear?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarYearProps.strings
+    name: strings
+    fullName: strings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'strings?: ICalendarYearStrings'
+      return:
+        type:
+          - office-ui-fabric-react.ICalendarYearStrings
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ICalendarIconStrings
+    name: ICalendarIconStrings
+    spec.typeScript:
+      - name: ICalendarIconStrings
+        fullName: ICalendarIconStrings
+        uid: office-ui-fabric-react.ICalendarIconStrings
+  - uid: office-ui-fabric-react.ICalendarYearStrings
+    name: ICalendarYearStrings
+    spec.typeScript:
+      - name: ICalendarYearStrings
+        fullName: ICalendarYearStrings
+        uid: office-ui-fabric-react.ICalendarYearStrings

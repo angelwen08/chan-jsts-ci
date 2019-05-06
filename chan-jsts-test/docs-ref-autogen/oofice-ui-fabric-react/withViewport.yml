@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.withViewport
+    name: withViewport(Object)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function withViewport<TProps>(ComposedComponent: Object)'
+      parameters:
+        - id: ComposedComponent
+          type:
+            - Object
+          description: ''
+      return:
+        type:
+          - any
+    package: office-ui-fabric-react

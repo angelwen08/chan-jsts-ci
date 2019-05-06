@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ExpandingCardBase
+    name: ExpandingCardBase
+    fullName: ExpandingCardBase<SS>
+    children:
+      - office-ui-fabric-react.ExpandingCardBase.componentDidMount
+      - office-ui-fabric-react.ExpandingCardBase.componentWillUnmount
+      - office-ui-fabric-react.ExpandingCardBase.defaultProps
+      - office-ui-fabric-react.ExpandingCardBase.constructor
+      - office-ui-fabric-react.ExpandingCardBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IExpandingCardProps,
+        office-ui-fabric-react.IExpandingCardState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExpandingCardBase.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExpandingCardBase.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExpandingCardBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExpandingCardBase.constructor
+    name: ExpandingCardBase(IExpandingCardProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ExpandingCardBase(props: IExpandingCardProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IExpandingCardProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExpandingCardBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IExpandingCardProps,
+      office-ui-fabric-react.IExpandingCardState>
+    name: IExpandingCardState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IExpandingCardProps
+        fullName: IExpandingCardProps
+        uid: office-ui-fabric-react.IExpandingCardProps
+      - name: ', '
+        fullName: ', '
+      - name: IExpandingCardState
+        fullName: IExpandingCardState
+        uid: office-ui-fabric-react.IExpandingCardState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IExpandingCardProps
+    name: IExpandingCardProps
+    spec.typeScript:
+      - name: IExpandingCardProps
+        fullName: IExpandingCardProps
+        uid: office-ui-fabric-react.IExpandingCardProps

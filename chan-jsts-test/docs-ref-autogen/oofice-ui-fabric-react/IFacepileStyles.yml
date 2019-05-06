@@ -1,0 +1,163 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IFacepileStyles
+    name: IFacepileStyles
+    fullName: IFacepileStyles
+    children:
+      - office-ui-fabric-react.IFacepileStyles.addButton
+      - office-ui-fabric-react.IFacepileStyles.descriptiveOverflowButton
+      - office-ui-fabric-react.IFacepileStyles.itemButton
+      - office-ui-fabric-react.IFacepileStyles.itemContainer
+      - office-ui-fabric-react.IFacepileStyles.member
+      - office-ui-fabric-react.IFacepileStyles.members
+      - office-ui-fabric-react.IFacepileStyles.overflowButton
+      - office-ui-fabric-react.IFacepileStyles.overflowInitialsIcon
+      - office-ui-fabric-react.IFacepileStyles.root
+      - office-ui-fabric-react.IFacepileStyles.screenReaderOnly
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Facepile}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.addButton
+    name: addButton
+    fullName: addButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'addButton: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.descriptiveOverflowButton
+    name: descriptiveOverflowButton
+    fullName: descriptiveOverflowButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'descriptiveOverflowButton: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.itemButton
+    name: itemButton
+    fullName: itemButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'itemButton: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.itemContainer
+    name: itemContainer
+    fullName: itemContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'itemContainer: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.member
+    name: member
+    fullName: member
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'member: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.members
+    name: members
+    fullName: members
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'members: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.overflowButton
+    name: overflowButton
+    fullName: overflowButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'overflowButton: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.overflowInitialsIcon
+    name: overflowInitialsIcon
+    fullName: overflowInitialsIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'overflowInitialsIcon: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFacepileStyles.screenReaderOnly
+    name: screenReaderOnly
+    fullName: screenReaderOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'screenReaderOnly: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ComboBoxTogglesExample
+    name: ComboBoxTogglesExample
+    fullName: ComboBoxTogglesExample<SS>
+    children:
+      - office-ui-fabric-react.ComboBoxTogglesExample.render
+      - office-ui-fabric-react.ComboBoxTogglesExample.state
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, office-ui-fabric-react.IComboBoxTogglesExampleState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ComboBoxTogglesExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ComboBoxTogglesExample.state
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'state: IComboBoxTogglesExampleState'
+      return:
+        type:
+          - office-ui-fabric-react.IComboBoxTogglesExampleState
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<__type, office-ui-fabric-react.IComboBoxTogglesExampleState>'
+    name: IComboBoxTogglesExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IComboBoxTogglesExampleState
+        fullName: IComboBoxTogglesExampleState
+        uid: office-ui-fabric-react.IComboBoxTogglesExampleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IComboBoxTogglesExampleState
+    name: IComboBoxTogglesExampleState
+    spec.typeScript:
+      - name: IComboBoxTogglesExampleState
+        fullName: IComboBoxTogglesExampleState
+        uid: office-ui-fabric-react.IComboBoxTogglesExampleState

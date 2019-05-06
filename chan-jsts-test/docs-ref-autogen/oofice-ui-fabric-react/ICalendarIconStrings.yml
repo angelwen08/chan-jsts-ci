@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarIconStrings
+    name: ICalendarIconStrings
+    fullName: ICalendarIconStrings
+    children:
+      - office-ui-fabric-react.ICalendarIconStrings.closeIcon
+      - office-ui-fabric-react.ICalendarIconStrings.leftNavigation
+      - office-ui-fabric-react.ICalendarIconStrings.rightNavigation
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Calendar}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarIconStrings.closeIcon
+    name: closeIcon
+    fullName: closeIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Close icon
+    optional: true
+    syntax:
+      content: 'closeIcon?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarIconStrings.leftNavigation
+    name: leftNavigation
+    fullName: leftNavigation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      FabricMDL2Icons name for the left navigation icon.  Previous default:
+      ChevronLeft.
+    optional: true
+    syntax:
+      content: 'leftNavigation?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarIconStrings.rightNavigation
+    name: rightNavigation
+    fullName: rightNavigation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      FabricMDL2Icons name for the right navigation icon.  Previous default:
+      ChevronRight.
+    optional: true
+    syntax:
+      content: 'rightNavigation?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

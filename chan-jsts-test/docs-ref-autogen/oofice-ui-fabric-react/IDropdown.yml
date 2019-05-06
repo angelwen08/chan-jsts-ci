@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDropdown
+    name: IDropdown
+    fullName: IDropdown
+    children:
+      - office-ui-fabric-react.IDropdown.focus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Dropdown}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdown.focus
+    name: focus
+    fullName: focus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'focus: (shouldOpenOnFocus?: boolean) => void'
+      return:
+        type:
+          - '(shouldOpenOnFocus?: boolean) => void'
+    package: office-ui-fabric-react

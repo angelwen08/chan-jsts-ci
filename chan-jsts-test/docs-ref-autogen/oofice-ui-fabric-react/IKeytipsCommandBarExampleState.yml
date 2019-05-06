@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IKeytipsCommandBarExampleState
+    name: IKeytipsCommandBarExampleState
+    fullName: IKeytipsCommandBarExampleState
+    children:
+      - office-ui-fabric-react.IKeytipsCommandBarExampleState.showMessageBar
+      - office-ui-fabric-react.IKeytipsCommandBarExampleState.showModal
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipsCommandBarExampleState.showMessageBar
+    name: showMessageBar
+    fullName: showMessageBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showMessageBar: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipsCommandBarExampleState.showModal
+    name: showModal
+    fullName: showModal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showModal: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

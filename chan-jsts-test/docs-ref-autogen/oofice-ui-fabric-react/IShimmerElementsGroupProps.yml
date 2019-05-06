@@ -1,0 +1,195 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps
+    name: IShimmerElementsGroupProps
+    fullName: IShimmerElementsGroupProps
+    children:
+      - office-ui-fabric-react.IShimmerElementsGroupProps.backgroundColor
+      - office-ui-fabric-react.IShimmerElementsGroupProps.componentRef
+      - office-ui-fabric-react.IShimmerElementsGroupProps.flexWrap
+      - office-ui-fabric-react.IShimmerElementsGroupProps.rowHeight
+      - office-ui-fabric-react.IShimmerElementsGroupProps.shimmerElements
+      - office-ui-fabric-react.IShimmerElementsGroupProps.styles
+      - office-ui-fabric-react.IShimmerElementsGroupProps.theme
+      - office-ui-fabric-react.IShimmerElementsGroupProps.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      ShimmerElementsGroup component props.
+      {@docCategory Shimmer}
+    extends:
+      name: AllHTMLAttributes<HTMLElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps.backgroundColor
+    name: backgroundColor
+    fullName: backgroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines the background color of the space in between and around shimmer
+      elements.
+    optional: true
+    syntax:
+      content: 'backgroundColor?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IShimmerElementsGroup interface. Use this
+      instead of ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IShimmerElementsGroup>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IShimmerElementsGroup>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps.flexWrap
+    name: flexWrap
+    fullName: flexWrap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional boolean for enabling flexWrap of the container containing the
+      shimmerElements.
+    optional: true
+    syntax:
+      content: 'flexWrap?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps.rowHeight
+    name: rowHeight
+    fullName: rowHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional maximum row height of the shimmerElements container.
+    optional: true
+    syntax:
+      content: 'rowHeight?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps.shimmerElements
+    name: shimmerElements
+    fullName: shimmerElements
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Elements to render in one group of the Shimmer.
+    optional: true
+    syntax:
+      content: 'shimmerElements?: IShimmerElement[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IShimmerElement[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IShimmerElementsGroupStyleProps,
+        IShimmerElementsGroupStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IShimmerElementsGroupStyleProps,
+            office-ui-fabric-react.IShimmerElementsGroupStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerElementsGroupProps.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional width for ShimmerElements container.
+    optional: true
+    syntax:
+      content: 'width?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: IRefObject<office-ui-fabric-react.IShimmerElementsGroup>
+    name: IShimmerElementsGroup>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IShimmerElementsGroup
+        fullName: IShimmerElementsGroup
+        uid: office-ui-fabric-react.IShimmerElementsGroup
+      - name: '>'
+        fullName: '>'
+  - uid: 'office-ui-fabric-react.IShimmerElement[]'
+    name: 'IShimmerElement[]'
+    spec.typeScript:
+      - name: IShimmerElement
+        fullName: IShimmerElement
+        uid: office-ui-fabric-react.IShimmerElement
+      - name: '[]'
+        fullName: '[]'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IShimmerElementsGroupStyleProps,
+      office-ui-fabric-react.IShimmerElementsGroupStyles>
+    name: IShimmerElementsGroupStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IShimmerElementsGroupStyleProps
+        fullName: IShimmerElementsGroupStyleProps
+        uid: office-ui-fabric-react.IShimmerElementsGroupStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IShimmerElementsGroupStyles
+        fullName: IShimmerElementsGroupStyles
+        uid: office-ui-fabric-react.IShimmerElementsGroupStyles
+      - name: '>'
+        fullName: '>'

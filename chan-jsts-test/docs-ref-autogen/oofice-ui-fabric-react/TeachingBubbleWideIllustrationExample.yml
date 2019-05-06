@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TeachingBubbleWideIllustrationExample
+    name: TeachingBubbleWideIllustrationExample
+    fullName: TeachingBubbleWideIllustrationExample<SS>
+    children:
+      - office-ui-fabric-react.TeachingBubbleWideIllustrationExample.render
+      - office-ui-fabric-react.TeachingBubbleWideIllustrationExample.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<__type,
+        office-ui-fabric-react.ITeachingBubbleWideIllustrationExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleWideIllustrationExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleWideIllustrationExample.constructor
+    name: TeachingBubbleWideIllustrationExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TeachingBubbleWideIllustrationExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<__type,
+      office-ui-fabric-react.ITeachingBubbleWideIllustrationExampleState>
+    name: ITeachingBubbleWideIllustrationExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: ITeachingBubbleWideIllustrationExampleState
+        fullName: ITeachingBubbleWideIllustrationExampleState
+        uid: office-ui-fabric-react.ITeachingBubbleWideIllustrationExampleState
+      - name: '>'
+        fullName: '>'

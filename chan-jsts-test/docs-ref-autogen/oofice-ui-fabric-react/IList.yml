@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IList
+    name: IList
+    fullName: IList
+    children:
+      - office-ui-fabric-react.IList.forceUpdate
+      - office-ui-fabric-react.IList.getStartItemIndexInView
+      - office-ui-fabric-react.IList.scrollToIndex
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory List}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IList.forceUpdate
+    name: forceUpdate
+    fullName: forceUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Force the component to update.
+    syntax:
+      content: 'forceUpdate: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IList.getStartItemIndexInView
+    name: getStartItemIndexInView
+    fullName: getStartItemIndexInView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the start index of the page that is currently in view
+    syntax:
+      content: 'getStartItemIndexInView: () => number'
+      return:
+        type:
+          - () => number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IList.scrollToIndex
+    name: scrollToIndex
+    fullName: scrollToIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Scroll to the given index. By default will bring the page the specified
+      item is on into the view. If a callback
+
+      to measure the height of an individual item is specified, will only scroll
+      to bring the specific item into view.
+
+      Note: with items of variable height and no passed in `getPageHeight`
+      method, the list might jump after scrolling
+
+      when windows before/ahead are being rendered, and the estimated height is
+      replaced using actual elements.
+    syntax:
+      content: >-
+        scrollToIndex: (index: number, measureItem?: (itemIndex: number) =>
+        number, scrollToMode?: ScrollToMode) => void
+      return:
+        type:
+          - >-
+            (index: number, measureItem?: (itemIndex: number) => number,
+            scrollToMode?: ScrollToMode) => void
+    package: office-ui-fabric-react

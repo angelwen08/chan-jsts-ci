@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICheckStyles
+    name: ICheckStyles
+    fullName: ICheckStyles
+    children:
+      - office-ui-fabric-react.ICheckStyles.check
+      - office-ui-fabric-react.ICheckStyles.checkHost
+      - office-ui-fabric-react.ICheckStyles.circle
+      - office-ui-fabric-react.ICheckStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Check}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckStyles.check
+    name: check
+    fullName: check
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The 'check' icon styles.
+    syntax:
+      content: 'check: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckStyles.checkHost
+    name: checkHost
+    fullName: checkHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Check host style
+    syntax:
+      content: 'checkHost: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckStyles.circle
+    name: circle
+    fullName: circle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The 'circle' icon styles.
+    syntax:
+      content: 'circle: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

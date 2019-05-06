@@ -1,0 +1,455 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISelection
+    name: ISelection
+    fullName: ISelection
+    children:
+      - office-ui-fabric-react.ISelection.canSelectItem
+      - office-ui-fabric-react.ISelection.count
+      - office-ui-fabric-react.ISelection.getItems
+      - office-ui-fabric-react.ISelection.getSelectedCount
+      - office-ui-fabric-react.ISelection.getSelectedIndices
+      - office-ui-fabric-react.ISelection.getSelection
+      - office-ui-fabric-react.ISelection.isAllSelected
+      - office-ui-fabric-react.ISelection.isIndexSelected
+      - office-ui-fabric-react.ISelection.isKeySelected
+      - office-ui-fabric-react.ISelection.isModal
+      - office-ui-fabric-react.ISelection.isRangeSelected
+      - office-ui-fabric-react.ISelection.mode
+      - office-ui-fabric-react.ISelection.selectToIndex
+      - office-ui-fabric-react.ISelection.selectToKey
+      - office-ui-fabric-react.ISelection.setAllSelected
+      - office-ui-fabric-react.ISelection.setChangeEvents
+      - office-ui-fabric-react.ISelection.setIndexSelected
+      - office-ui-fabric-react.ISelection.setItems
+      - office-ui-fabric-react.ISelection.setKeySelected
+      - office-ui-fabric-react.ISelection.setModal
+      - office-ui-fabric-react.ISelection.toggleAllSelected
+      - office-ui-fabric-react.ISelection.toggleIndexSelected
+      - office-ui-fabric-react.ISelection.toggleKeySelected
+      - office-ui-fabric-react.ISelection.toggleRangeSelected
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Selection}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.canSelectItem
+    name: canSelectItem
+    fullName: canSelectItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'canSelectItem: (item: IObjectWithKey, index?: number) => boolean'
+      return:
+        type:
+          - '(item: IObjectWithKey, index?: number) => boolean'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.count
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'count: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.getItems
+    name: getItems()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getItems()
+      parameters: []
+      return:
+        type:
+          - 'office-ui-fabric-react.IObjectWithKey[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.getSelectedCount
+    name: getSelectedCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSelectedCount()
+      parameters: []
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.getSelectedIndices
+    name: getSelectedIndices()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSelectedIndices()
+      parameters: []
+      return:
+        type:
+          - 'number[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.getSelection
+    name: getSelection()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSelection()
+      parameters: []
+      return:
+        type:
+          - 'office-ui-fabric-react.IObjectWithKey[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.isAllSelected
+    name: isAllSelected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAllSelected()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.isIndexSelected
+    name: isIndexSelected(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isIndexSelected(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.isKeySelected
+    name: isKeySelected(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isKeySelected(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.isModal
+    name: isModal()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isModal()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.isRangeSelected
+    name: 'isRangeSelected(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isRangeSelected(fromIndex: number, count: number)'
+      parameters:
+        - id: fromIndex
+          type:
+            - number
+          description: ''
+        - id: count
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.mode
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mode: SelectionMode'
+      return:
+        type:
+          - office-ui-fabric-react.SelectionMode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.selectToIndex
+    name: 'selectToIndex(number, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function selectToIndex(index: number, clearSelection?: boolean)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: clearSelection
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.selectToKey
+    name: 'selectToKey(string, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function selectToKey(key: string, clearSelection?: boolean)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: clearSelection
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.setAllSelected
+    name: setAllSelected(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setAllSelected(isAllSelected: boolean)'
+      parameters:
+        - id: isAllSelected
+          type:
+            - boolean
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.setChangeEvents
+    name: 'setChangeEvents(boolean, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setChangeEvents(isEnabled: boolean, suppressChange?: boolean)'
+      parameters:
+        - id: isEnabled
+          type:
+            - boolean
+          description: ''
+        - id: suppressChange
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.setIndexSelected
+    name: 'setIndexSelected(number, boolean, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setIndexSelected(index: number, isSelected: boolean,
+        shouldAnchor: boolean)
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+        - id: isSelected
+          type:
+            - boolean
+          description: ''
+        - id: shouldAnchor
+          type:
+            - boolean
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.setItems
+    name: 'setItems(IObjectWithKey[], boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setItems(items: IObjectWithKey[], shouldClear: boolean)'
+      parameters:
+        - id: items
+          type:
+            - 'office-ui-fabric-react.IObjectWithKey[]'
+          description: ''
+        - id: shouldClear
+          type:
+            - boolean
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.setKeySelected
+    name: 'setKeySelected(string, boolean, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setKeySelected(key: string, isSelected: boolean, shouldAnchor:
+        boolean)
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: isSelected
+          type:
+            - boolean
+          description: ''
+        - id: shouldAnchor
+          type:
+            - boolean
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.setModal
+    name: setModal(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setModal(isModal: boolean)'
+      parameters:
+        - id: isModal
+          type:
+            - boolean
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.toggleAllSelected
+    name: toggleAllSelected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toggleAllSelected()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.toggleIndexSelected
+    name: toggleIndexSelected(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toggleIndexSelected(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.toggleKeySelected
+    name: toggleKeySelected(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toggleKeySelected(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelection.toggleRangeSelected
+    name: 'toggleRangeSelected(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toggleRangeSelected(fromIndex: number, count: number)'
+      parameters:
+        - id: fromIndex
+          type:
+            - number
+          description: ''
+        - id: count
+          type:
+            - number
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.SelectionMode
+    name: SelectionMode
+    spec.typeScript:
+      - name: SelectionMode
+        fullName: SelectionMode
+        uid: office-ui-fabric-react.SelectionMode
+  - uid: 'office-ui-fabric-react.IObjectWithKey[]'
+    name: 'IObjectWithKey[]'
+    spec.typeScript:
+      - name: IObjectWithKey
+        fullName: IObjectWithKey
+        uid: office-ui-fabric-react.IObjectWithKey
+      - name: '[]'
+        fullName: '[]'

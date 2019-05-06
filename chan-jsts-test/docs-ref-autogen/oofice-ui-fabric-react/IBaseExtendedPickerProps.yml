@@ -1,0 +1,453 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps
+    name: IBaseExtendedPickerProps
+    fullName: IBaseExtendedPickerProps<T>
+    children:
+      - office-ui-fabric-react.IBaseExtendedPickerProps.className
+      - office-ui-fabric-react.IBaseExtendedPickerProps.componentRef
+      - >-
+        office-ui-fabric-react.IBaseExtendedPickerProps.currentRenderedQueryString
+      - office-ui-fabric-react.IBaseExtendedPickerProps.defaultSelectedItems
+      - office-ui-fabric-react.IBaseExtendedPickerProps.disabled
+      - office-ui-fabric-react.IBaseExtendedPickerProps.floatingPickerProps
+      - office-ui-fabric-react.IBaseExtendedPickerProps.focusZoneProps
+      - office-ui-fabric-react.IBaseExtendedPickerProps.headerComponent
+      - office-ui-fabric-react.IBaseExtendedPickerProps.inputProps
+      - office-ui-fabric-react.IBaseExtendedPickerProps.itemLimit
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onBlur
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onChange
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onFocus
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onItemAdded
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onItemSelected
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onItemsRemoved
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onPaste
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onRenderFloatingPicker
+      - office-ui-fabric-react.IBaseExtendedPickerProps.onRenderSelectedItems
+      - office-ui-fabric-react.IBaseExtendedPickerProps.selectedItems
+      - office-ui-fabric-react.IBaseExtendedPickerProps.selectedItemsListProps
+      - office-ui-fabric-react.IBaseExtendedPickerProps.suggestionItems
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ClassName for the picker.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Ref of the component
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IBaseExtendedPicker<T>>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IBaseExtendedPicker<T>>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.currentRenderedQueryString
+    name: currentRenderedQueryString
+    fullName: currentRenderedQueryString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Current rendered query string that's corealte to current rendered result
+    optional: true
+    syntax:
+      content: 'currentRenderedQueryString?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.defaultSelectedItems
+    name: defaultSelectedItems
+    fullName: defaultSelectedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Initial items that have already been selected and should appear in the
+      people picker.
+    optional: true
+    syntax:
+      content: 'defaultSelectedItems?: T[]'
+      return:
+        type:
+          - 'T[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Flag for disabling the picker.
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.floatingPickerProps
+    name: floatingPickerProps
+    fullName: floatingPickerProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Floating picker properties
+    syntax:
+      content: 'floatingPickerProps: IBaseFloatingPickerProps<T>'
+      return:
+        type:
+          - office-ui-fabric-react.IBaseFloatingPickerProps<T>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.focusZoneProps
+    name: focusZoneProps
+    fullName: focusZoneProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Focus zone props
+    optional: true
+    syntax:
+      content: 'focusZoneProps?: IFocusZoneProps'
+      return:
+        type:
+          - office-ui-fabric-react.IFocusZoneProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.headerComponent
+    name: headerComponent
+    fullName: headerComponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Header/title element for the picker
+    optional: true
+    syntax:
+      content: 'headerComponent?: Element'
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.inputProps
+    name: inputProps
+    fullName: inputProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Autofill input native props
+    optional: true
+    syntax:
+      content: 'inputProps?: IInputProps'
+      return:
+        type:
+          - office-ui-fabric-react.IInputProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.itemLimit
+    name: itemLimit
+    fullName: itemLimit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Restrict the amount of selectable items.
+    optional: true
+    syntax:
+      content: 'itemLimit?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onBlur
+    name: onBlur
+    fullName: onBlur
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when the user moves the focus away from the picker
+    optional: true
+    syntax:
+      content: 'onBlur?: React.FocusEventHandler<HTMLInputElement | Autofill>'
+      return:
+        type:
+          - >-
+            React.FocusEventHandler<HTMLInputElement |
+            office-ui-fabric-react.Autofill>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when the selected list of items changes.
+    optional: true
+    syntax:
+      content: 'onChange?: (items?: T[]) => void'
+      return:
+        type:
+          - '(items?: T[]) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onFocus
+    name: onFocus
+    fullName: onFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when the user put focus on the picker
+    optional: true
+    syntax:
+      content: 'onFocus?: React.FocusEventHandler<HTMLInputElement | Autofill>'
+      return:
+        type:
+          - >-
+            React.FocusEventHandler<HTMLInputElement |
+            office-ui-fabric-react.Autofill>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onItemAdded
+    name: onItemAdded
+    fullName: onItemAdded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback on when an item was added to the selected item list
+    optional: true
+    syntax:
+      content: 'onItemAdded?: (addedItem: T) => void'
+      return:
+        type:
+          - '(addedItem: T) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onItemSelected
+    name: onItemSelected
+    fullName: onItemSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A callback to process a selection after the user selects a suggestion from
+      the picker.
+
+      The returned item will be added to the selected items list
+    optional: true
+    syntax:
+      content: 'onItemSelected?: (selectedItem?: T) => T | PromiseLike<T>'
+      return:
+        type:
+          - '(selectedItem?: T) => T | PromiseLike<T>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onItemsRemoved
+    name: onItemsRemoved
+    fullName: onItemsRemoved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A callback on when an item or items were removed from the selected item
+      list
+    optional: true
+    syntax:
+      content: 'onItemsRemoved?: (removedItems: T[]) => void'
+      return:
+        type:
+          - '(removedItems: T[]) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onPaste
+    name: onPaste
+    fullName: onPaste
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A callback for when text is pasted into the input
+    optional: true
+    syntax:
+      content: 'onPaste?: (pastedText: string) => T[]'
+      return:
+        type:
+          - '(pastedText: string) => T[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onRenderFloatingPicker
+    name: onRenderFloatingPicker
+    fullName: onRenderFloatingPicker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function that specifies how the floating picker will appear.
+    syntax:
+      content: 'onRenderFloatingPicker: React.ComponentType<IBaseFloatingPickerProps<T>>'
+      return:
+        type:
+          - >-
+            React.ComponentType<office-ui-fabric-react.IBaseFloatingPickerProps<T>>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.onRenderSelectedItems
+    name: onRenderSelectedItems
+    fullName: onRenderSelectedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function that specifies how the floating picker will appear.
+    syntax:
+      content: >-
+        onRenderSelectedItems:
+        React.ComponentType<IBaseSelectedItemsListProps<T>>
+      return:
+        type:
+          - >-
+            React.ComponentType<office-ui-fabric-react.IBaseSelectedItemsListProps<T>>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.selectedItems
+    name: selectedItems
+    fullName: selectedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If using as a controlled component use selectedItems here instead of the
+      SelectedItemsList
+    optional: true
+    syntax:
+      content: 'selectedItems?: T[]'
+      return:
+        type:
+          - 'T[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.selectedItemsListProps
+    name: selectedItemsListProps
+    fullName: selectedItemsListProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Selected items list properties
+    syntax:
+      content: 'selectedItemsListProps: IBaseSelectedItemsListProps<T>'
+      return:
+        type:
+          - office-ui-fabric-react.IBaseSelectedItemsListProps<T>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerProps.suggestionItems
+    name: suggestionItems
+    fullName: suggestionItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If using as a controlled component use suggestionItems here instead of
+      FloatingPicker
+    optional: true
+    syntax:
+      content: 'suggestionItems?: T[]'
+      return:
+        type:
+          - 'T[]'
+    package: office-ui-fabric-react
+references:
+  - uid: IRefObject<office-ui-fabric-react.IBaseExtendedPicker<T>>
+    name: IBaseExtendedPicker<T>>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IBaseExtendedPicker
+        fullName: IBaseExtendedPicker
+        uid: office-ui-fabric-react.IBaseExtendedPicker
+      - name: <T>>
+        fullName: <T>>
+  - uid: office-ui-fabric-react.IBaseFloatingPickerProps<T>
+    name: IBaseFloatingPickerProps<T>
+    spec.typeScript:
+      - name: IBaseFloatingPickerProps
+        fullName: IBaseFloatingPickerProps
+        uid: office-ui-fabric-react.IBaseFloatingPickerProps
+      - name: <T>
+        fullName: <T>
+  - uid: office-ui-fabric-react.IFocusZoneProps
+    name: IFocusZoneProps
+    spec.typeScript:
+      - name: IFocusZoneProps
+        fullName: IFocusZoneProps
+        uid: office-ui-fabric-react.IFocusZoneProps
+  - uid: office-ui-fabric-react.IInputProps
+    name: IInputProps
+    spec.typeScript:
+      - name: IInputProps
+        fullName: IInputProps
+        uid: office-ui-fabric-react.IInputProps
+  - uid: >-
+      React.FocusEventHandler<HTMLInputElement |
+      office-ui-fabric-react.Autofill>
+    name: Autofill>
+    spec.typeScript:
+      - name: 'React.FocusEventHandler<HTMLInputElement | '
+        fullName: 'React.FocusEventHandler<HTMLInputElement | '
+      - name: Autofill
+        fullName: Autofill
+        uid: office-ui-fabric-react.Autofill
+      - name: '>'
+        fullName: '>'
+  - uid: React.ComponentType<office-ui-fabric-react.IBaseFloatingPickerProps<T>>
+    name: IBaseFloatingPickerProps<T>>
+    spec.typeScript:
+      - name: React.ComponentType<
+        fullName: React.ComponentType<
+      - name: IBaseFloatingPickerProps
+        fullName: IBaseFloatingPickerProps
+        uid: office-ui-fabric-react.IBaseFloatingPickerProps
+      - name: <T>>
+        fullName: <T>>
+  - uid: React.ComponentType<office-ui-fabric-react.IBaseSelectedItemsListProps<T>>
+    name: IBaseSelectedItemsListProps<T>>
+    spec.typeScript:
+      - name: React.ComponentType<
+        fullName: React.ComponentType<
+      - name: IBaseSelectedItemsListProps
+        fullName: IBaseSelectedItemsListProps
+        uid: office-ui-fabric-react.IBaseSelectedItemsListProps
+      - name: <T>>
+        fullName: <T>>
+  - uid: office-ui-fabric-react.IBaseSelectedItemsListProps<T>
+    name: IBaseSelectedItemsListProps<T>
+    spec.typeScript:
+      - name: IBaseSelectedItemsListProps
+        fullName: IBaseSelectedItemsListProps
+        uid: office-ui-fabric-react.IBaseSelectedItemsListProps
+      - name: <T>
+        fullName: <T>

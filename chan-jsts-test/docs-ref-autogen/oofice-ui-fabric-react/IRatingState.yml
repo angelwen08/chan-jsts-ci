@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IRatingState
+    name: IRatingState
+    fullName: IRatingState
+    children:
+      - office-ui-fabric-react.IRatingState.rating
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingState.rating
+    name: rating
+    fullName: rating
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rating: number | null | undefined'
+      return:
+        type:
+          - number | null | undefined
+    package: office-ui-fabric-react

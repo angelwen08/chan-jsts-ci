@@ -1,0 +1,173 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DetailsHeaderBase
+    name: DetailsHeaderBase
+    fullName: DetailsHeaderBase<SS>
+    children:
+      - office-ui-fabric-react.DetailsHeaderBase.componentDidMount
+      - office-ui-fabric-react.DetailsHeaderBase.componentDidUpdate
+      - office-ui-fabric-react.DetailsHeaderBase.componentWillUnmount
+      - office-ui-fabric-react.DetailsHeaderBase.defaultProps
+      - office-ui-fabric-react.DetailsHeaderBase.constructor
+      - office-ui-fabric-react.DetailsHeaderBase.focus
+      - office-ui-fabric-react.DetailsHeaderBase.getDerivedStateFromProps
+      - office-ui-fabric-react.DetailsHeaderBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IDetailsHeaderBaseProps,
+        office-ui-fabric-react.IDetailsHeaderState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsHeaderBase.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsHeaderBase.componentDidUpdate
+    name: componentDidUpdate(IDetailsHeaderBaseProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IDetailsHeaderBaseProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - office-ui-fabric-react.IDetailsHeaderBaseProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsHeaderBase.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsHeaderBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsHeaderBase.constructor
+    name: DetailsHeaderBase(IDetailsHeaderBaseProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DetailsHeaderBase(props: IDetailsHeaderBaseProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IDetailsHeaderBaseProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsHeaderBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Set focus to the active thing in the focus area.
+    syntax:
+      content: function focus()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsHeaderBase.getDerivedStateFromProps
+    name: 'getDerivedStateFromProps(IDetailsHeaderBaseProps, IDetailsHeaderState)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function getDerivedStateFromProps(newProps:
+        IDetailsHeaderBaseProps, prevState: IDetailsHeaderState)
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.IDetailsHeaderBaseProps
+          description: ''
+        - id: prevState
+          type:
+            - office-ui-fabric-react.IDetailsHeaderState
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.IDetailsHeaderState
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsHeaderBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IDetailsHeaderBaseProps,
+      office-ui-fabric-react.IDetailsHeaderState>
+    name: IDetailsHeaderState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IDetailsHeaderBaseProps
+        fullName: IDetailsHeaderBaseProps
+        uid: office-ui-fabric-react.IDetailsHeaderBaseProps
+      - name: ', '
+        fullName: ', '
+      - name: IDetailsHeaderState
+        fullName: IDetailsHeaderState
+        uid: office-ui-fabric-react.IDetailsHeaderState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IDetailsHeaderBaseProps
+    name: IDetailsHeaderBaseProps
+    spec.typeScript:
+      - name: IDetailsHeaderBaseProps
+        fullName: IDetailsHeaderBaseProps
+        uid: office-ui-fabric-react.IDetailsHeaderBaseProps
+  - uid: office-ui-fabric-react.IDetailsHeaderState
+    name: IDetailsHeaderState
+    spec.typeScript:
+      - name: IDetailsHeaderState
+        fullName: IDetailsHeaderState
+        uid: office-ui-fabric-react.IDetailsHeaderState

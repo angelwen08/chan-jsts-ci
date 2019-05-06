@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.StickyPositionType
+    name: StickyPositionType
+    fullName: StickyPositionType
+    children:
+      - office-ui-fabric-react.StickyPositionType.Both
+      - office-ui-fabric-react.StickyPositionType.Header
+      - office-ui-fabric-react.StickyPositionType.Footer
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.StickyPositionType.Both
+    name: Both
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.StickyPositionType.Header
+    name: Header
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.StickyPositionType.Footer
+    name: Footer
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react

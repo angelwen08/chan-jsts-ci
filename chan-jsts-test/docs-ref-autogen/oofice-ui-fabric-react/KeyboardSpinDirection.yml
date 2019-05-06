@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.KeyboardSpinDirection
+    name: KeyboardSpinDirection
+    fullName: KeyboardSpinDirection
+    children:
+      - office-ui-fabric-react.KeyboardSpinDirection.down
+      - office-ui-fabric-react.KeyboardSpinDirection.notSpinning
+      - office-ui-fabric-react.KeyboardSpinDirection.up
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.KeyboardSpinDirection.down
+    name: down
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: -1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.KeyboardSpinDirection.notSpinning
+    name: notSpinning
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.KeyboardSpinDirection.up
+    name: up
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react

@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IActivityItemExampleStyles
+    name: IActivityItemExampleStyles
+    fullName: IActivityItemExampleStyles
+    children:
+      - office-ui-fabric-react.IActivityItemExampleStyles.exampleRoot
+      - office-ui-fabric-react.IActivityItemExampleStyles.nameText
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IActivityItemExampleStyles.exampleRoot
+    name: exampleRoot
+    fullName: exampleRoot
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'exampleRoot?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IActivityItemExampleStyles.nameText
+    name: nameText
+    fullName: nameText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nameText?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

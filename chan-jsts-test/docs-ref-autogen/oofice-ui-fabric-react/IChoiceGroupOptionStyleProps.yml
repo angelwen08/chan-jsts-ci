@@ -1,0 +1,124 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IChoiceGroupOptionStyleProps
+    name: IChoiceGroupOptionStyleProps
+    fullName: IChoiceGroupOptionStyleProps
+    children:
+      - office-ui-fabric-react.IChoiceGroupOptionStyleProps.checked
+      - office-ui-fabric-react.IChoiceGroupOptionStyleProps.disabled
+      - office-ui-fabric-react.IChoiceGroupOptionStyleProps.focused
+      - office-ui-fabric-react.IChoiceGroupOptionStyleProps.hasIcon
+      - office-ui-fabric-react.IChoiceGroupOptionStyleProps.hasImage
+      - office-ui-fabric-react.IChoiceGroupOptionStyleProps.imageIsLarge
+      - office-ui-fabric-react.IChoiceGroupOptionStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ChoiceGroup}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroupOptionStyleProps.checked
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'checked?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroupOptionStyleProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroupOptionStyleProps.focused
+    name: focused
+    fullName: focused
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'focused?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroupOptionStyleProps.hasIcon
+    name: hasIcon
+    fullName: hasIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hasIcon?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroupOptionStyleProps.hasImage
+    name: hasImage
+    fullName: hasImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hasImage?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroupOptionStyleProps.imageIsLarge
+    name: imageIsLarge
+    fullName: imageIsLarge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'imageIsLarge?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroupOptionStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

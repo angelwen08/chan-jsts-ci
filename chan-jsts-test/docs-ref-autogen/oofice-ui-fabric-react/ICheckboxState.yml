@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICheckboxState
+    name: ICheckboxState
+    fullName: ICheckboxState
+    children:
+      - office-ui-fabric-react.ICheckboxState.isChecked
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxState.isChecked
+    name: isChecked
+    fullName: isChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is true when Uncontrolled control is checked.
+    optional: true
+    syntax:
+      content: 'isChecked?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

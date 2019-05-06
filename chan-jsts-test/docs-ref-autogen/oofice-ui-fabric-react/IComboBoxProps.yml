@@ -1,0 +1,691 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IComboBoxProps
+    name: IComboBoxProps
+    fullName: IComboBoxProps<TListenerElement>
+    children:
+      - office-ui-fabric-react.IComboBoxProps.allowFreeform
+      - office-ui-fabric-react.IComboBoxProps.ariaDescribedBy
+      - office-ui-fabric-react.IComboBoxProps.autoComplete
+      - office-ui-fabric-react.IComboBoxProps.autofill
+      - office-ui-fabric-react.IComboBoxProps.buttonIconProps
+      - office-ui-fabric-react.IComboBoxProps.caretDownButtonStyles
+      - office-ui-fabric-react.IComboBoxProps.comboBoxOptionStyles
+      - office-ui-fabric-react.IComboBoxProps.componentRef
+      - office-ui-fabric-react.IComboBoxProps.dropdownMaxWidth
+      - office-ui-fabric-react.IComboBoxProps.dropdownWidth
+      - office-ui-fabric-react.IComboBoxProps.getClassNames
+      - office-ui-fabric-react.IComboBoxProps.isButtonAriaHidden
+      - office-ui-fabric-react.IComboBoxProps.keytipProps
+      - office-ui-fabric-react.IComboBoxProps.multiSelect
+      - office-ui-fabric-react.IComboBoxProps.onChange
+      - office-ui-fabric-react.IComboBoxProps.onChanged
+      - office-ui-fabric-react.IComboBoxProps.onItemClick
+      - office-ui-fabric-react.IComboBoxProps.onMenuDismissed
+      - office-ui-fabric-react.IComboBoxProps.onMenuOpen
+      - office-ui-fabric-react.IComboBoxProps.onPendingValueChanged
+      - office-ui-fabric-react.IComboBoxProps.onRenderLowerContent
+      - office-ui-fabric-react.IComboBoxProps.onResolveOptions
+      - office-ui-fabric-react.IComboBoxProps.onScrollToItem
+      - office-ui-fabric-react.IComboBoxProps.options
+      - office-ui-fabric-react.IComboBoxProps.persistMenu
+      - office-ui-fabric-react.IComboBoxProps.scrollSelectedToTop
+      - office-ui-fabric-react.IComboBoxProps.styles
+      - office-ui-fabric-react.IComboBoxProps.text
+      - office-ui-fabric-react.IComboBoxProps.theme
+      - office-ui-fabric-react.IComboBoxProps.useComboBoxAsMenuWidth
+      - office-ui-fabric-react.IComboBoxProps.value
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ComboBox}'
+    extends:
+      name: >-
+        office-ui-fabric-react.ISelectableDroppableTextProps<office-ui-fabric-react.IComboBox>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.allowFreeform
+    name: allowFreeform
+    fullName: allowFreeform
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether the ComboBox is free form, meaning that the user input is not
+      bound to provided options. Defaults to false.
+    optional: true
+    syntax:
+      content: 'allowFreeform?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.ariaDescribedBy
+    name: ariaDescribedBy
+    fullName: ariaDescribedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional prop to add a string id that can be referenced inside the
+      aria-describedby attribute
+    optional: true
+    syntax:
+      content: 'ariaDescribedBy?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.autoComplete
+    name: autoComplete
+    fullName: autoComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether the ComboBox auto completes. As the user is inputing text, it will
+      be suggested potential matches from the list of options. If
+
+      the combo box is expanded, this will also scroll to the suggested option,
+      and give it a selected style.
+    optional: true
+    syntax:
+      content: 'autoComplete?: "on" | "off"'
+      return:
+        type:
+          - '"on" | "off"'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.autofill
+    name: autofill
+    fullName: autofill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The AutofillProps to be passed into the Autofill component inside combobox
+    optional: true
+    syntax:
+      content: 'autofill?: IAutofillProps'
+      return:
+        type:
+          - office-ui-fabric-react.IAutofillProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.buttonIconProps
+    name: buttonIconProps
+    fullName: buttonIconProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The IconProps to use for the button aspect of the combobox
+    optional: true
+    syntax:
+      content: 'buttonIconProps?: IIconProps'
+      return:
+        type:
+          - office-ui-fabric-react.IIconProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.caretDownButtonStyles
+    name: caretDownButtonStyles
+    fullName: caretDownButtonStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the caret down button.
+    optional: true
+    syntax:
+      content: 'caretDownButtonStyles?: Partial<IButtonStyles>'
+      return:
+        type:
+          - Partial<office-ui-fabric-react.IButtonStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.comboBoxOptionStyles
+    name: comboBoxOptionStyles
+    fullName: comboBoxOptionStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Default styles that should be applied to ComboBox options,
+      in case an option does not come with user-defined custom styles
+    optional: true
+    syntax:
+      content: 'comboBoxOptionStyles?: Partial<IComboBoxOptionStyles>'
+      return:
+        type:
+          - Partial<office-ui-fabric-react.IComboBoxOptionStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IComboBox interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IComboBox>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IComboBox>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.dropdownMaxWidth
+    name: dropdownMaxWidth
+    fullName: dropdownMaxWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom max width for dropdown
+    optional: true
+    syntax:
+      content: 'dropdownMaxWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.dropdownWidth
+    name: dropdownWidth
+    fullName: dropdownWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Custom width for dropdown (unless useComboBoxAsMenuWidth is undefined or
+      false)
+    optional: true
+    syntax:
+      content: 'dropdownWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.getClassNames
+    name: getClassNames
+    fullName: getClassNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Custom function for providing the classNames for the ComboBox. Can be used
+      to provide
+
+      all styles for the component instead of applying them on top of the
+      default styles.
+    optional: true
+    syntax:
+      content: >-
+        getClassNames?: (theme: ITheme, isOpen: boolean, disabled: boolean,
+        required: boolean, focused: boolean, allowFreeForm: boolean,
+        hasErrorMessage: boolean, className?: string) => IComboBoxClassNames
+      return:
+        type:
+          - >-
+            (theme: ITheme, isOpen: boolean, disabled: boolean, required:
+            boolean, focused: boolean, allowFreeForm: boolean, hasErrorMessage:
+            boolean, className?: string) => IComboBoxClassNames
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.isButtonAriaHidden
+    name: isButtonAriaHidden
+    fullName: isButtonAriaHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Sets the 'aria-hidden' attribute on the ComboBox's button element
+      instructing screen readers how to handle the element.
+
+      This element is hidden by default because all functionality is handled by
+      the input element and the arrow button is
+
+      only meant to be decorative.
+    optional: true
+    syntax:
+      content: 'isButtonAriaHidden?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.keytipProps
+    name: keytipProps
+    fullName: keytipProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional keytip for this combo box
+    optional: true
+    syntax:
+      content: 'keytipProps?: IKeytipProps'
+      return:
+        type:
+          - office-ui-fabric-react.IKeytipProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.multiSelect
+    name: multiSelect
+    fullName: multiSelect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional mode indicates if multi-choice selections is allowed.  Default to
+      false
+    optional: true
+    syntax:
+      content: 'multiSelect?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Callback issued when either:
+
+      1) the selected option changes
+
+      2) a manually edited value is submitted. In this case there may not be a
+      matched option if allowFreeform is also true
+         (and hence only value would be true, the other parameter would be null in this case)
+    optional: true
+    syntax:
+      content: >-
+        onChange?: (event: FormEvent<IComboBox>, option?: IComboBoxOption,
+        index?: number, value?: string) => void
+      return:
+        type:
+          - >-
+            (event: FormEvent<IComboBox>, option?: IComboBoxOption, index?:
+            number, value?: string) => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.onChanged
+    name: onChanged
+    fullName: onChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Deprecated, use `onChange` instead.'
+    optional: true
+    syntax:
+      content: >-
+        onChanged?: (option?: IComboBoxOption, index?: number, value?: string,
+        submitPendingValueEvent?: any) => void
+      return:
+        type:
+          - >-
+            (option?: IComboBoxOption, index?: number, value?: string,
+            submitPendingValueEvent?: any) => void
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `onChange` instead.
+  - uid: office-ui-fabric-react.IComboBoxProps.onItemClick
+    name: onItemClick
+    fullName: onItemClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback issued when a ComboBox item is clicked.
+    optional: true
+    syntax:
+      content: >-
+        onItemClick?: (event: FormEvent<IComboBox>, option?: IComboBoxOption,
+        index?: number) => void
+      return:
+        type:
+          - >-
+            (event: FormEvent<IComboBox>, option?: IComboBoxOption, index?:
+            number) => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.onMenuDismissed
+    name: onMenuDismissed
+    fullName: onMenuDismissed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function that gets invoked when the ComboBox menu is dismissed
+    optional: true
+    syntax:
+      content: 'onMenuDismissed?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.onMenuOpen
+    name: onMenuOpen
+    fullName: onMenuOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function that gets invoked when the ComboBox menu is launched
+    optional: true
+    syntax:
+      content: 'onMenuOpen?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.onPendingValueChanged
+    name: onPendingValueChanged
+    fullName: onPendingValueChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback issued when the user changes the pending value in ComboBox
+    optional: true
+    syntax:
+      content: >-
+        onPendingValueChanged?: (option?: IComboBoxOption, index?: number,
+        value?: string) => void
+      return:
+        type:
+          - '(option?: IComboBoxOption, index?: number, value?: string) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.onRenderLowerContent
+    name: onRenderLowerContent
+    fullName: onRenderLowerContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Add additional content below the callout list.
+    optional: true
+    syntax:
+      content: 'onRenderLowerContent?: IRenderFunction<IComboBoxProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IComboBoxProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.onResolveOptions
+    name: onResolveOptions
+    fullName: onResolveOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Callback issued when the options should be resolved, if they have been
+      updated or
+
+      if they need to be passed in the first time
+    optional: true
+    syntax:
+      content: >-
+        onResolveOptions?: (options: IComboBoxOption[]) => IComboBoxOption[] |
+        PromiseLike<IComboBoxOption[]>
+      return:
+        type:
+          - >-
+            (options: IComboBoxOption[]) => IComboBoxOption[] |
+            PromiseLike<IComboBoxOption[]>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.onScrollToItem
+    name: onScrollToItem
+    fullName: onScrollToItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Callback issued when the ComboBox requests the list to scroll to a
+      specific element
+    optional: true
+    syntax:
+      content: 'onScrollToItem?: (itemIndex: number) => void'
+      return:
+        type:
+          - '(itemIndex: number) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.options
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Collection of options for this ComboBox
+    syntax:
+      content: 'options: IComboBoxOption[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IComboBoxOption[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.persistMenu
+    name: persistMenu
+    fullName: persistMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Menu will not be created or destroyed when opened or closed, instead it
+
+      will be hidden. This will improve perf of the menu opening but could
+      potentially
+
+      impact overall perf by having more elemnts in the dom. Should only be used
+
+      when perf is important.
+
+      Note: This may increase the amount of time it takes for the comboBox
+      itself to mount.
+    optional: true
+    syntax:
+      content: 'persistMenu?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.scrollSelectedToTop
+    name: scrollSelectedToTop
+    fullName: scrollSelectedToTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When options are scrollable the selected option is positioned at the top
+      of the callout when it is opened
+
+      (unless it has reached the end of the scrollbar).
+    optional: true
+    syntax:
+      content: 'scrollSelectedToTop?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom styles for this component
+    optional: true
+    syntax:
+      content: 'styles?: Partial<IComboBoxStyles>'
+      return:
+        type:
+          - Partial<office-ui-fabric-react.IComboBoxStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.text
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Value to show in the input, does not have to map to a combobox option'
+    optional: true
+    syntax:
+      content: 'text?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.useComboBoxAsMenuWidth
+    name: useComboBoxAsMenuWidth
+    fullName: useComboBoxAsMenuWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to use the ComboBoxes width as the menu's width
+    optional: true
+    syntax:
+      content: 'useComboBoxAsMenuWidth?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxProps.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Value to show in the input, does not have to map to a combobox option
+      Deprecated, use `text` instead.
+    optional: true
+    syntax:
+      content: 'value?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `text` instead.
+references:
+  - uid: >-
+      office-ui-fabric-react.ISelectableDroppableTextProps<office-ui-fabric-react.IComboBox>
+    name: IComboBox>
+    spec.typeScript:
+      - name: ISelectableDroppableTextProps
+        fullName: ISelectableDroppableTextProps
+        uid: office-ui-fabric-react.ISelectableDroppableTextProps
+      - name: <
+        fullName: <
+      - name: IComboBox
+        fullName: IComboBox
+        uid: office-ui-fabric-react.IComboBox
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IAutofillProps
+    name: IAutofillProps
+    spec.typeScript:
+      - name: IAutofillProps
+        fullName: IAutofillProps
+        uid: office-ui-fabric-react.IAutofillProps
+  - uid: office-ui-fabric-react.IIconProps
+    name: IIconProps
+    spec.typeScript:
+      - name: IIconProps
+        fullName: IIconProps
+        uid: office-ui-fabric-react.IIconProps
+  - uid: Partial<office-ui-fabric-react.IButtonStyles>
+    name: IButtonStyles>
+    spec.typeScript:
+      - name: Partial<
+        fullName: Partial<
+      - name: IButtonStyles
+        fullName: IButtonStyles
+        uid: office-ui-fabric-react.IButtonStyles
+      - name: '>'
+        fullName: '>'
+  - uid: Partial<office-ui-fabric-react.IComboBoxOptionStyles>
+    name: IComboBoxOptionStyles>
+    spec.typeScript:
+      - name: Partial<
+        fullName: Partial<
+      - name: IComboBoxOptionStyles
+        fullName: IComboBoxOptionStyles
+        uid: office-ui-fabric-react.IComboBoxOptionStyles
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.IComboBox>
+    name: IComboBox>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IComboBox
+        fullName: IComboBox
+        uid: office-ui-fabric-react.IComboBox
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IKeytipProps
+    name: IKeytipProps
+    spec.typeScript:
+      - name: IKeytipProps
+        fullName: IKeytipProps
+        uid: office-ui-fabric-react.IKeytipProps
+  - uid: IRenderFunction<office-ui-fabric-react.IComboBoxProps>
+    name: IComboBoxProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IComboBoxProps
+        fullName: IComboBoxProps
+        uid: office-ui-fabric-react.IComboBoxProps
+      - name: '>'
+        fullName: '>'
+  - uid: 'office-ui-fabric-react.IComboBoxOption[]'
+    name: 'IComboBoxOption[]'
+    spec.typeScript:
+      - name: IComboBoxOption
+        fullName: IComboBoxOption
+        uid: office-ui-fabric-react.IComboBoxOption
+      - name: '[]'
+        fullName: '[]'
+  - uid: Partial<office-ui-fabric-react.IComboBoxStyles>
+    name: IComboBoxStyles>
+    spec.typeScript:
+      - name: Partial<
+        fullName: Partial<
+      - name: IComboBoxStyles
+        fullName: IComboBoxStyles
+        uid: office-ui-fabric-react.IComboBoxStyles
+      - name: '>'
+        fullName: '>'

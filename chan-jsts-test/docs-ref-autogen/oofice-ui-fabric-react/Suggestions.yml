@@ -1,0 +1,205 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.Suggestions
+    name: Suggestions
+    fullName: Suggestions<T>
+    children:
+      - office-ui-fabric-react.Suggestions.componentDidMount
+      - office-ui-fabric-react.Suggestions.componentDidUpdate
+      - office-ui-fabric-react.Suggestions.executeSelectedAction
+      - office-ui-fabric-react.Suggestions.focusAboveSuggestions
+      - office-ui-fabric-react.Suggestions.focusBelowSuggestions
+      - office-ui-fabric-react.Suggestions.focusSearchForMoreButton
+      - office-ui-fabric-react.Suggestions.hasSuggestedAction
+      - office-ui-fabric-react.Suggestions.hasSuggestedActionSelected
+      - office-ui-fabric-react.Suggestions.render
+      - office-ui-fabric-react.Suggestions.scrollSelected
+      - office-ui-fabric-react.Suggestions.constructor
+      - office-ui-fabric-react.Suggestions.tryHandleKeyDown
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: '{@docCategory Pickers}'
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.ISuggestionsProps<T>,
+        office-ui-fabric-react.ISuggestionsState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.componentDidUpdate
+    name: componentDidUpdate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.executeSelectedAction
+    name: executeSelectedAction()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function executeSelectedAction()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.focusAboveSuggestions
+    name: focusAboveSuggestions()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusAboveSuggestions()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.focusBelowSuggestions
+    name: focusBelowSuggestions()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusBelowSuggestions()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.focusSearchForMoreButton
+    name: focusSearchForMoreButton()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusSearchForMoreButton()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.hasSuggestedAction
+    name: hasSuggestedAction()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasSuggestedAction()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.hasSuggestedActionSelected
+    name: hasSuggestedActionSelected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasSuggestedActionSelected()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.scrollSelected
+    name: scrollSelected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function scrollSelected()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.constructor
+    name: Suggestions(ISuggestionsProps<T>)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Suggestions(suggestionsProps: ISuggestionsProps<T>)'
+      parameters:
+        - id: suggestionsProps
+          type:
+            - office-ui-fabric-react.ISuggestionsProps<T>
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Suggestions.tryHandleKeyDown
+    name: tryHandleKeyDown
+    fullName: tryHandleKeyDown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Returns true if the event was handled, false otherwise'
+    syntax:
+      content: >-
+        tryHandleKeyDown: (keyCode: number, currentSuggestionIndex: number) =>
+        boolean
+      return:
+        type:
+          - '(keyCode: number, currentSuggestionIndex: number) => boolean'
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.ISuggestionsProps<T>,
+      office-ui-fabric-react.ISuggestionsState>
+    name: ISuggestionsState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: ISuggestionsProps
+        fullName: ISuggestionsProps
+        uid: office-ui-fabric-react.ISuggestionsProps
+      - name: '<T>, '
+        fullName: '<T>, '
+      - name: ISuggestionsState
+        fullName: ISuggestionsState
+        uid: office-ui-fabric-react.ISuggestionsState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ISuggestionsProps<T>
+    name: ISuggestionsProps<T>
+    spec.typeScript:
+      - name: ISuggestionsProps
+        fullName: ISuggestionsProps
+        uid: office-ui-fabric-react.ISuggestionsProps
+      - name: <T>
+        fullName: <T>

@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.updateSV
+    name: 'updateSV(IColor, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Gets a color with the same hue as `color` and other components updated to
+      match the given
+
+      saturation and value.
+
+      Does not modify the original `color` and does not supply a default alpha
+      value.
+    syntax:
+      content: 'function updateSV(color: IColor, s: number, v: number)'
+      parameters:
+        - id: color
+          type:
+            - office-ui-fabric-react.IColor
+          description: ''
+        - id: s
+          type:
+            - number
+          description: ''
+        - id: v
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.IColor
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor

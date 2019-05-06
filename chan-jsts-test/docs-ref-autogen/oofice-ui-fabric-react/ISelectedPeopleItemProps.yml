@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISelectedPeopleItemProps
+    name: ISelectedPeopleItemProps
+    fullName: ISelectedPeopleItemProps
+    children:
+      - office-ui-fabric-react.ISelectedPeopleItemProps.onExpandItem
+      - office-ui-fabric-react.ISelectedPeopleItemProps.renderPersonaCoin
+      - office-ui-fabric-react.ISelectedPeopleItemProps.renderPrimaryText
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory SelectedPeopleList}'
+    extends:
+      name: >-
+        office-ui-fabric-react.ISelectedItemProps<office-ui-fabric-react.IExtendedPersonaProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectedPeopleItemProps.onExpandItem
+    name: onExpandItem
+    fullName: onExpandItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onExpandItem?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectedPeopleItemProps.renderPersonaCoin
+    name: renderPersonaCoin
+    fullName: renderPersonaCoin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'renderPersonaCoin?: IRenderFunction<IPersonaProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IPersonaProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectedPeopleItemProps.renderPrimaryText
+    name: renderPrimaryText
+    fullName: renderPrimaryText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'renderPrimaryText?: IRenderFunction<IPersonaProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IPersonaProps>
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      office-ui-fabric-react.ISelectedItemProps<office-ui-fabric-react.IExtendedPersonaProps>
+    name: IExtendedPersonaProps>
+    spec.typeScript:
+      - name: ISelectedItemProps
+        fullName: ISelectedItemProps
+        uid: office-ui-fabric-react.ISelectedItemProps
+      - name: <
+        fullName: <
+      - name: IExtendedPersonaProps
+        fullName: IExtendedPersonaProps
+        uid: office-ui-fabric-react.IExtendedPersonaProps
+      - name: '>'
+        fullName: '>'
+  - uid: IRenderFunction<office-ui-fabric-react.IPersonaProps>
+    name: IPersonaProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IPersonaProps
+        fullName: IPersonaProps
+        uid: office-ui-fabric-react.IPersonaProps
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getOppositeEdge
+    name: getOppositeEdge(RectangleEdge)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns the opposite edge of the given RectangleEdge.
+    syntax:
+      content: 'function getOppositeEdge(edge: RectangleEdge)'
+      parameters:
+        - id: edge
+          type:
+            - office-ui-fabric-react.RectangleEdge
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.RectangleEdge
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.RectangleEdge
+    name: RectangleEdge
+    spec.typeScript:
+      - name: RectangleEdge
+        fullName: RectangleEdge
+        uid: office-ui-fabric-react.RectangleEdge

@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.OverflowSetCustomExample
+    name: OverflowSetCustomExample
+    fullName: OverflowSetCustomExample<P>
+    children:
+      - office-ui-fabric-react.OverflowSetCustomExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: PureComponent
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.OverflowSetCustomExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react

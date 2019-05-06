@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.findNodes
+    name: 'findNodes(ReactWrapper<any, any>, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findNodes(wrapper: ReactWrapper<any, any>, className: string)'
+      parameters:
+        - id: wrapper
+          type:
+            - 'ReactWrapper<any, any>'
+          description: ''
+        - id: className
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'ReactWrapper<any, any>'
+    package: office-ui-fabric-react

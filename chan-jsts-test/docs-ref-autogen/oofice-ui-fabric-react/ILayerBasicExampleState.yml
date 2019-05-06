@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILayerBasicExampleState
+    name: ILayerBasicExampleState
+    fullName: ILayerBasicExampleState
+    children:
+      - office-ui-fabric-react.ILayerBasicExampleState.showLayer
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerBasicExampleState.showLayer
+    name: showLayer
+    fullName: showLayer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showLayer: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

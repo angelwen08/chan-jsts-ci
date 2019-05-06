@@ -1,0 +1,461 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDropdownProps
+    name: IDropdownProps
+    fullName: IDropdownProps
+    children:
+      - office-ui-fabric-react.IDropdownProps.defaultSelectedKeys
+      - office-ui-fabric-react.IDropdownProps.dropdownWidth
+      - office-ui-fabric-react.IDropdownProps.isDisabled
+      - office-ui-fabric-react.IDropdownProps.keytipProps
+      - office-ui-fabric-react.IDropdownProps.multiSelect
+      - office-ui-fabric-react.IDropdownProps.multiSelectDelimiter
+      - office-ui-fabric-react.IDropdownProps.notifyOnReselect
+      - office-ui-fabric-react.IDropdownProps.onChange
+      - office-ui-fabric-react.IDropdownProps.onChanged
+      - office-ui-fabric-react.IDropdownProps.onDismiss
+      - office-ui-fabric-react.IDropdownProps.onRenderCaretDown
+      - office-ui-fabric-react.IDropdownProps.onRenderPlaceHolder
+      - office-ui-fabric-react.IDropdownProps.onRenderPlaceholder
+      - office-ui-fabric-react.IDropdownProps.onRenderTitle
+      - office-ui-fabric-react.IDropdownProps.options
+      - office-ui-fabric-react.IDropdownProps.placeHolder
+      - office-ui-fabric-react.IDropdownProps.responsiveMode
+      - office-ui-fabric-react.IDropdownProps.selectedKeys
+      - office-ui-fabric-react.IDropdownProps.styles
+      - office-ui-fabric-react.IDropdownProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Dropdown}'
+    extends:
+      name: >-
+        office-ui-fabric-react.ISelectableDroppableTextProps<office-ui-fabric-react.IDropdown,
+        HTMLDivElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.defaultSelectedKeys
+    name: defaultSelectedKeys
+    fullName: defaultSelectedKeys
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Keys that will be initially used to set selected items. This prop is used
+      for `multiSelect`
+
+      scenarios. In other cases, `defaultSelectedKey` should be used.
+    optional: true
+    syntax:
+      content: 'defaultSelectedKeys?: string[] | number[]'
+      return:
+        type:
+          - 'string[] | number[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.dropdownWidth
+    name: dropdownWidth
+    fullName: dropdownWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Custom width for dropdown. If value is 0, width of the input field is
+      used.
+    optional: true
+    syntax:
+      content: 'dropdownWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.isDisabled
+    name: isDisabled
+    fullName: isDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Deprecated at v0.52.0, use `disabled` instead.'
+    optional: true
+    syntax:
+      content: 'isDisabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `disabled` instead.
+  - uid: office-ui-fabric-react.IDropdownProps.keytipProps
+    name: keytipProps
+    fullName: keytipProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional keytip for this dropdown
+    optional: true
+    syntax:
+      content: 'keytipProps?: IKeytipProps'
+      return:
+        type:
+          - office-ui-fabric-react.IKeytipProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.multiSelect
+    name: multiSelect
+    fullName: multiSelect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional mode indicates if multi-choice selections is allowed.  Default to
+      false
+    optional: true
+    syntax:
+      content: 'multiSelect?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.multiSelectDelimiter
+    name: multiSelectDelimiter
+    fullName: multiSelectDelimiter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When multiple items are selected, this still will be used to separate
+      values in
+
+      the dropdown title.
+    optional: true
+    syntax:
+      content: 'multiSelectDelimiter?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.notifyOnReselect
+    name: notifyOnReselect
+    fullName: notifyOnReselect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional preference to have onChanged still be called when an already
+      selected item is
+
+      clicked in single select mode.  Default to false
+    optional: true
+    syntax:
+      content: 'notifyOnReselect?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback issued when the selected option changes.
+    optional: true
+    syntax:
+      content: >-
+        onChange?: (event: FormEvent<HTMLDivElement>, option?: IDropdownOption,
+        index?: number) => void
+      return:
+        type:
+          - >-
+            (event: FormEvent<HTMLDivElement>, option?: IDropdownOption, index?:
+            number) => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.onChanged
+    name: onChanged
+    fullName: onChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onChanged?: (option: IDropdownOption, index?: number) => void'
+      return:
+        type:
+          - '(option: IDropdownOption, index?: number) => void'
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `onChange` instead.
+  - uid: office-ui-fabric-react.IDropdownProps.onDismiss
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback issues when the options callout is dismissed
+    optional: true
+    syntax:
+      content: 'onDismiss?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.onRenderCaretDown
+    name: onRenderCaretDown
+    fullName: onRenderCaretDown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for chevron icon
+    optional: true
+    syntax:
+      content: 'onRenderCaretDown?: IRenderFunction<IDropdownProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IDropdownProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.onRenderPlaceHolder
+    name: onRenderPlaceHolder
+    fullName: onRenderPlaceHolder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for placeholder text
+    optional: true
+    syntax:
+      content: 'onRenderPlaceHolder?: IRenderFunction<IDropdownProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IDropdownProps>
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `onRenderPlaceholder`
+  - uid: office-ui-fabric-react.IDropdownProps.onRenderPlaceholder
+    name: onRenderPlaceholder
+    fullName: onRenderPlaceholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for placeholder text
+    optional: true
+    syntax:
+      content: 'onRenderPlaceholder?: IRenderFunction<IDropdownProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IDropdownProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.onRenderTitle
+    name: onRenderTitle
+    fullName: onRenderTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional custom renderer for selected option displayed in input
+    optional: true
+    syntax:
+      content: 'onRenderTitle?: IRenderFunction<IDropdownOption[]>'
+      return:
+        type:
+          - 'IRenderFunction<office-ui-fabric-react.IDropdownOption[]>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.options
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Options for the dropdown. If using `defaultSelectedKey` or
+      `defaultSelectedKeys`, options must be
+
+      pure for correct behavior.
+    syntax:
+      content: 'options: IDropdownOption[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IDropdownOption[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.placeHolder
+    name: placeHolder
+    fullName: placeHolder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Input placeholder text. Displayed until option is selected.
+    optional: true
+    syntax:
+      content: 'placeHolder?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `placeholder`
+  - uid: office-ui-fabric-react.IDropdownProps.responsiveMode
+    name: responsiveMode
+    fullName: responsiveMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Pass in ResponsiveMode to manually overwrite the way the Dropdown renders.
+
+      ResponsiveMode.Large would, for instance, disable the behavior where
+      Dropdown options
+
+      get rendered into a Panel while ResponsiveMode.Small would result in the
+      Dropdown
+
+      options always getting rendered in a Panel.
+    optional: true
+    syntax:
+      content: 'responsiveMode?: ResponsiveMode'
+      return:
+        type:
+          - office-ui-fabric-react.ResponsiveMode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.selectedKeys
+    name: selectedKeys
+    fullName: selectedKeys
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Keys of the selected items. If you provide this, you must maintain
+      selection
+
+      state by observing onChange events and passing a new value in when
+      changed.
+
+      Passing null in will clear the selection.
+    optional: true
+    syntax:
+      content: 'selectedKeys?: string[] | number[] | null'
+      return:
+        type:
+          - 'string[] | number[] | null'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<IDropdownStyleProps, IDropdownStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IDropdownStyleProps,
+            office-ui-fabric-react.IDropdownStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by higher order component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      office-ui-fabric-react.ISelectableDroppableTextProps<office-ui-fabric-react.IDropdown,
+      HTMLDivElement>
+    name: 'IDropdown, HTMLDivElement>'
+    spec.typeScript:
+      - name: ISelectableDroppableTextProps
+        fullName: ISelectableDroppableTextProps
+        uid: office-ui-fabric-react.ISelectableDroppableTextProps
+      - name: <
+        fullName: <
+      - name: IDropdown
+        fullName: IDropdown
+        uid: office-ui-fabric-react.IDropdown
+      - name: ', HTMLDivElement>'
+        fullName: ', HTMLDivElement>'
+  - uid: office-ui-fabric-react.IKeytipProps
+    name: IKeytipProps
+    spec.typeScript:
+      - name: IKeytipProps
+        fullName: IKeytipProps
+        uid: office-ui-fabric-react.IKeytipProps
+  - uid: IRenderFunction<office-ui-fabric-react.IDropdownProps>
+    name: IDropdownProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IDropdownProps
+        fullName: IDropdownProps
+        uid: office-ui-fabric-react.IDropdownProps
+      - name: '>'
+        fullName: '>'
+  - uid: 'IRenderFunction<office-ui-fabric-react.IDropdownOption[]>'
+    name: 'IDropdownOption[]>'
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IDropdownOption
+        fullName: IDropdownOption
+        uid: office-ui-fabric-react.IDropdownOption
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: 'office-ui-fabric-react.IDropdownOption[]'
+    name: 'IDropdownOption[]'
+    spec.typeScript:
+      - name: IDropdownOption
+        fullName: IDropdownOption
+        uid: office-ui-fabric-react.IDropdownOption
+      - name: '[]'
+        fullName: '[]'
+  - uid: office-ui-fabric-react.ResponsiveMode
+    name: ResponsiveMode
+    spec.typeScript:
+      - name: ResponsiveMode
+        fullName: ResponsiveMode
+        uid: office-ui-fabric-react.ResponsiveMode
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IDropdownStyleProps,
+      office-ui-fabric-react.IDropdownStyles>
+    name: IDropdownStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IDropdownStyleProps
+        fullName: IDropdownStyleProps
+        uid: office-ui-fabric-react.IDropdownStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IDropdownStyles
+        fullName: IDropdownStyles
+        uid: office-ui-fabric-react.IDropdownStyles
+      - name: '>'
+        fullName: '>'

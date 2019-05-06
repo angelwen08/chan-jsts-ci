@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TypedBaseExtendedPicker
+    name: TypedBaseExtendedPicker
+    fullName: TypedBaseExtendedPicker
+    children: []
+    syntax:
+      content: type TypedBaseExtendedPicker = BaseExtendedPicker
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    package: office-ui-fabric-react

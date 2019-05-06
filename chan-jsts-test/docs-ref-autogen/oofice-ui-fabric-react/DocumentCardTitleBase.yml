@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DocumentCardTitleBase
+    name: DocumentCardTitleBase
+    fullName: DocumentCardTitleBase<SS>
+    children:
+      - office-ui-fabric-react.DocumentCardTitleBase.componentDidMount
+      - office-ui-fabric-react.DocumentCardTitleBase.componentDidUpdate
+      - office-ui-fabric-react.DocumentCardTitleBase.componentWillReceiveProps
+      - office-ui-fabric-react.DocumentCardTitleBase.constructor
+      - office-ui-fabric-react.DocumentCardTitleBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: '{@docCategory DocumentCard}'
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IDocumentCardTitleProps,
+        office-ui-fabric-react.IDocumentCardTitleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DocumentCardTitleBase.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DocumentCardTitleBase.componentDidUpdate
+    name: componentDidUpdate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidUpdate()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DocumentCardTitleBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IDocumentCardTitleProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: IDocumentCardTitleProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.IDocumentCardTitleProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DocumentCardTitleBase.constructor
+    name: DocumentCardTitleBase(IDocumentCardTitleProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DocumentCardTitleBase(props: IDocumentCardTitleProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IDocumentCardTitleProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DocumentCardTitleBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IDocumentCardTitleProps,
+      office-ui-fabric-react.IDocumentCardTitleState>
+    name: IDocumentCardTitleState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IDocumentCardTitleProps
+        fullName: IDocumentCardTitleProps
+        uid: office-ui-fabric-react.IDocumentCardTitleProps
+      - name: ', '
+        fullName: ', '
+      - name: IDocumentCardTitleState
+        fullName: IDocumentCardTitleState
+        uid: office-ui-fabric-react.IDocumentCardTitleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IDocumentCardTitleProps
+    name: IDocumentCardTitleProps
+    spec.typeScript:
+      - name: IDocumentCardTitleProps
+        fullName: IDocumentCardTitleProps
+        uid: office-ui-fabric-react.IDocumentCardTitleProps

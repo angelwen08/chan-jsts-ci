@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TeachingBubbleCondensedExample
+    name: TeachingBubbleCondensedExample
+    fullName: TeachingBubbleCondensedExample<SS>
+    children:
+      - office-ui-fabric-react.TeachingBubbleCondensedExample.render
+      - office-ui-fabric-react.TeachingBubbleCondensedExample.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<__type,
+        office-ui-fabric-react.ITeachingBubbleCondensedExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleCondensedExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TeachingBubbleCondensedExample.constructor
+    name: TeachingBubbleCondensedExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TeachingBubbleCondensedExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<__type,
+      office-ui-fabric-react.ITeachingBubbleCondensedExampleState>
+    name: ITeachingBubbleCondensedExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: ITeachingBubbleCondensedExampleState
+        fullName: ITeachingBubbleCondensedExampleState
+        uid: office-ui-fabric-react.ITeachingBubbleCondensedExampleState
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IFocusTrapZoneNestedExampleState
+    name: IFocusTrapZoneNestedExampleState
+    fullName: IFocusTrapZoneNestedExampleState
+    children:
+      - office-ui-fabric-react.IFocusTrapZoneNestedExampleState.activeStates
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFocusTrapZoneNestedExampleState.activeStates
+    name: activeStates
+    fullName: activeStates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'activeStates: [key: number]: boolean'
+      return:
+        type:
+          - '[key: number]: boolean'
+    package: office-ui-fabric-react

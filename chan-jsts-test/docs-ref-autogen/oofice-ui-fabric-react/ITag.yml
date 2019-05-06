@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITag
+    name: ITag
+    fullName: ITag
+    children:
+      - office-ui-fabric-react.ITag.key
+      - office-ui-fabric-react.ITag.name
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      TagPickerItem item interface.
+      {@docCategory TagPicker}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITag.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Unique key for the item.
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITag.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Name of the item.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

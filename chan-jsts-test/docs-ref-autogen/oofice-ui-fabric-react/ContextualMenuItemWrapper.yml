@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ContextualMenuItemWrapper
+    name: ContextualMenuItemWrapper
+    fullName: ContextualMenuItemWrapper<TState>
+    children:
+      - office-ui-fabric-react.ContextualMenuItemWrapper.shouldComponentUpdate
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: BaseComponent<office-ui-fabric-react.IContextualMenuItemWrapperProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ContextualMenuItemWrapper.shouldComponentUpdate
+    name: shouldComponentUpdate(IContextualMenuItemWrapperProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function shouldComponentUpdate(newProps:
+        IContextualMenuItemWrapperProps)
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.IContextualMenuItemWrapperProps
+          description: ''
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: BaseComponent<office-ui-fabric-react.IContextualMenuItemWrapperProps>
+    name: IContextualMenuItemWrapperProps>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IContextualMenuItemWrapperProps
+        fullName: IContextualMenuItemWrapperProps
+        uid: office-ui-fabric-react.IContextualMenuItemWrapperProps
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IContextualMenuItemWrapperProps
+    name: IContextualMenuItemWrapperProps
+    spec.typeScript:
+      - name: IContextualMenuItemWrapperProps
+        fullName: IContextualMenuItemWrapperProps
+        uid: office-ui-fabric-react.IContextualMenuItemWrapperProps

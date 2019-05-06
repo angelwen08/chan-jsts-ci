@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBasePicker
+    name: IBasePicker
+    fullName: IBasePicker<T>
+    children:
+      - office-ui-fabric-react.IBasePicker.focus
+      - office-ui-fabric-react.IBasePicker.focusInput
+      - office-ui-fabric-react.IBasePicker.items
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      BasePicker component.
+      {@docCategory Pickers}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePicker.focus
+    name: focus
+    fullName: focus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sets focus to the focus zone.
+    syntax:
+      content: 'focus: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePicker.focusInput
+    name: focusInput
+    fullName: focusInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Set focus to the input
+    syntax:
+      content: 'focusInput: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePicker.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the current value of the input.
+    syntax:
+      content: 'items: T[] | undefined'
+      return:
+        type:
+          - 'T[] | undefined'
+    package: office-ui-fabric-react

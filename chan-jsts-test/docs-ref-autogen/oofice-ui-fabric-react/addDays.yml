@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.addDays
+    name: 'addDays(Date, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns a date offset from the given date by the specified number of days.
+    syntax:
+      content: 'function addDays(date: Date, days: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The origin date
+        - id: days
+          type:
+            - number
+          description: The number of days to offset. 'days' can be negative.
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react

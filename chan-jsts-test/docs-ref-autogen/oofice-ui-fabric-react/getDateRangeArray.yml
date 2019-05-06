@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getDateRangeArray
+    name: 'getDateRangeArray(Date, DateRangeType, DayOfWeek, DayOfWeek[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Gets the date range array including the specified date. The date range
+      array is calculated as the list
+
+      of dates accounting for the specified first day of the week and date range
+      type.
+    syntax:
+      content: >-
+        function getDateRangeArray(date: Date, dateRangeType: DateRangeType,
+        firstDayOfWeek: DayOfWeek, workWeekDays?: DayOfWeek[])
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The input date
+        - id: dateRangeType
+          type:
+            - office-ui-fabric-react.DateRangeType
+          description: 'The desired date range type, i.e., day, week, month, etc.'
+        - id: firstDayOfWeek
+          type:
+            - office-ui-fabric-react.DayOfWeek
+          description: The first day of the week.
+        - id: workWeekDays
+          type:
+            - 'office-ui-fabric-react.DayOfWeek[]'
+          description: >-
+            The allowed days in work week. If not provided, assumes all days are
+            allowed.
+          optional: true
+      return:
+        type:
+          - 'Date[]'
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.DateRangeType
+    name: DateRangeType
+    spec.typeScript:
+      - name: DateRangeType
+        fullName: DateRangeType
+        uid: office-ui-fabric-react.DateRangeType
+  - uid: office-ui-fabric-react.DayOfWeek
+    name: DayOfWeek
+    spec.typeScript:
+      - name: DayOfWeek
+        fullName: DayOfWeek
+        uid: office-ui-fabric-react.DayOfWeek
+  - uid: 'office-ui-fabric-react.DayOfWeek[]'
+    name: 'DayOfWeek[]'
+    spec.typeScript:
+      - name: DayOfWeek
+        fullName: DayOfWeek
+        uid: office-ui-fabric-react.DayOfWeek
+      - name: '[]'
+        fullName: '[]'

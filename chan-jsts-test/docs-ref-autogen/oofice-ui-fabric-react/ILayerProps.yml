@@ -1,0 +1,241 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILayerProps
+    name: ILayerProps
+    fullName: ILayerProps
+    children:
+      - office-ui-fabric-react.ILayerProps.className
+      - office-ui-fabric-react.ILayerProps.componentRef
+      - office-ui-fabric-react.ILayerProps.eventBubblingEnabled
+      - office-ui-fabric-react.ILayerProps.hostId
+      - office-ui-fabric-react.ILayerProps.insertFirst
+      - office-ui-fabric-react.ILayerProps.onLayerDidMount
+      - office-ui-fabric-react.ILayerProps.onLayerMounted
+      - office-ui-fabric-react.ILayerProps.onLayerWillUnmount
+      - office-ui-fabric-react.ILayerProps.styles
+      - office-ui-fabric-react.ILayerProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Layer}'
+    extends:
+      name: HTMLAttributes<HTMLDivElement | office-ui-fabric-react.LayerBase>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional css class to apply to the Layer
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the ILayer interface. Use this instead of ref
+      for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<ILayer>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.ILayer>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.eventBubblingEnabled
+    name: eventBubblingEnabled
+    fullName: eventBubblingEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When enabled, Layer allows events to bubble up from Layer content.
+
+      Traditionally Layer has not had this behavior. This prop preserves
+      backwards compatibility by
+
+      default while allowing users to opt in to the new event bubbling
+      functionality.
+    optional: true
+    syntax:
+      content: 'eventBubblingEnabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.hostId
+    name: hostId
+    fullName: hostId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The optional id property provided on a LayerHost that this Layer should
+      render within. The LayerHost does
+
+      not need to be immediately available but once has been rendered, and if
+      missing, we'll avoid trying
+
+      to render the Layer content until the host is available. If an id is not
+      provided, we will render the Layer
+
+      content in a fixed position element rendered at the end of the document.
+    optional: true
+    syntax:
+      content: 'hostId?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.insertFirst
+    name: insertFirst
+    fullName: insertFirst
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Whether the layer should be added as the first child of the host.
+      If true, the layer will be inserted as the first child of the host
+      By default, the layer will be appended at the end to the host
+    optional: true
+    syntax:
+      content: 'insertFirst?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.onLayerDidMount
+    name: onLayerDidMount
+    fullName: onLayerDidMount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback for when the layer is mounted.
+    optional: true
+    syntax:
+      content: 'onLayerDidMount?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.onLayerMounted
+    name: onLayerMounted
+    fullName: onLayerMounted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback for when the layer is mounted.
+    optional: true
+    syntax:
+      content: 'onLayerMounted?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.onLayerWillUnmount
+    name: onLayerWillUnmount
+    fullName: onLayerWillUnmount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback for when the layer is unmounted.
+    optional: true
+    syntax:
+      content: 'onLayerWillUnmount?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<ILayerStyleProps, ILayerStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.ILayerStyleProps,
+            office-ui-fabric-react.ILayerStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: HTMLAttributes<HTMLDivElement | office-ui-fabric-react.LayerBase>
+    name: LayerBase>
+    spec.typeScript:
+      - name: 'HTMLAttributes<HTMLDivElement | '
+        fullName: 'HTMLAttributes<HTMLDivElement | '
+      - name: LayerBase
+        fullName: LayerBase
+        uid: office-ui-fabric-react.LayerBase
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.ILayer>
+    name: ILayer>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: ILayer
+        fullName: ILayer
+        uid: office-ui-fabric-react.ILayer
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.ILayerStyleProps,
+      office-ui-fabric-react.ILayerStyles>
+    name: ILayerStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: ILayerStyleProps
+        fullName: ILayerStyleProps
+        uid: office-ui-fabric-react.ILayerStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: ILayerStyles
+        fullName: ILayerStyles
+        uid: office-ui-fabric-react.ILayerStyles
+      - name: '>'
+        fullName: '>'

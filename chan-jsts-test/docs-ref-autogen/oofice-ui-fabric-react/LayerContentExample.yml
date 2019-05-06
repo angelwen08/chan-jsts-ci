@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.LayerContentExample
+    name: LayerContentExample
+    fullName: LayerContentExample<SS>
+    children:
+      - office-ui-fabric-react.LayerContentExample.componentDidMount
+      - office-ui-fabric-react.LayerContentExample.context
+      - office-ui-fabric-react.LayerContentExample.contextTypes
+      - office-ui-fabric-react.LayerContentExample.render
+      - office-ui-fabric-react.LayerContentExample.state
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'BaseComponent<__type, office-ui-fabric-react.ILayerContentExampleState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.LayerContentExample.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.LayerContentExample.context
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'context: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.LayerContentExample.contextTypes
+    name: contextTypes
+    fullName: contextTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static contextTypes: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.LayerContentExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.LayerContentExample.state
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'state: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<__type, office-ui-fabric-react.ILayerContentExampleState>'
+    name: ILayerContentExampleState>
+    spec.typeScript:
+      - name: 'BaseComponent<__type, '
+        fullName: 'BaseComponent<__type, '
+      - name: ILayerContentExampleState
+        fullName: ILayerContentExampleState
+        uid: office-ui-fabric-react.ILayerContentExampleState
+      - name: '>'
+        fullName: '>'

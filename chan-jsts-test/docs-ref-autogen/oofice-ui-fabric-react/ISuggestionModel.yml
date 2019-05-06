@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISuggestionModel
+    name: ISuggestionModel
+    fullName: ISuggestionModel<T>
+    children:
+      - office-ui-fabric-react.ISuggestionModel.ariaLabel
+      - office-ui-fabric-react.ISuggestionModel.item
+      - office-ui-fabric-react.ISuggestionModel.selected
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      SuggestionModel interface.
+
+      Type T is the type of the item that is suggested (Persona, Tag or any
+      other custom picker).
+
+      {@docCategory Pickers}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionModel.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria-label string for each suggested item.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionModel.item
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The suggested item of the type T
+    syntax:
+      content: 'item: T'
+      return:
+        type:
+          - T
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionModel.selected
+    name: selected
+    fullName: selected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the suggested item is selected or not.
+    syntax:
+      content: 'selected: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

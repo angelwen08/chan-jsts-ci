@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ShimmerCircleBase
+    name: ShimmerCircleBase
+    fullName: ShimmerCircleBase<SS>
+    children:
+      - office-ui-fabric-react.ShimmerCircleBase.render
+      - office-ui-fabric-react.ShimmerCircleBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'BaseComponent<office-ui-fabric-react.IShimmerCircleProps, __type>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerCircleBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerCircleBase.constructor
+    name: ShimmerCircleBase(IShimmerCircleProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ShimmerCircleBase(props: IShimmerCircleProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IShimmerCircleProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<office-ui-fabric-react.IShimmerCircleProps, __type>'
+    name: 'IShimmerCircleProps, __type>'
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IShimmerCircleProps
+        fullName: IShimmerCircleProps
+        uid: office-ui-fabric-react.IShimmerCircleProps
+      - name: ', __type>'
+        fullName: ', __type>'
+  - uid: office-ui-fabric-react.IShimmerCircleProps
+    name: IShimmerCircleProps
+    spec.typeScript:
+      - name: IShimmerCircleProps
+        fullName: IShimmerCircleProps
+        uid: office-ui-fabric-react.IShimmerCircleProps

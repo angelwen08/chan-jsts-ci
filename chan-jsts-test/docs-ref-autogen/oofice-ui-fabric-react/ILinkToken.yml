@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILinkToken
+    name: ILinkToken
+    fullName: ILinkToken
+    children:
+      - office-ui-fabric-react.ILinkToken.hyperlinkedPage
+      - office-ui-fabric-react.ILinkToken.pageKind
+      - office-ui-fabric-react.ILinkToken.text
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Excerpt token that is part of a type or extends block and may have a
+      hyperlink
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkToken.hyperlinkedPage
+    name: hyperlinkedPage
+    fullName: hyperlinkedPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hyperlinkedPage?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkToken.pageKind
+    name: pageKind
+    fullName: pageKind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'pageKind?: PageKind'
+      return:
+        type:
+          - office-ui-fabric-react.PageKind
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkToken.text
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'text: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.PageKind
+    name: PageKind
+    spec.typeScript:
+      - name: PageKind
+        fullName: PageKind
+        uid: office-ui-fabric-react.PageKind

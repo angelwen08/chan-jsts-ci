@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.AnnouncedBase
+    name: AnnouncedBase
+    fullName: AnnouncedBase<S>
+    children:
+      - office-ui-fabric-react.AnnouncedBase.defaultProps
+      - office-ui-fabric-react.AnnouncedBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: '{@docCategory Announced}'
+    extends:
+      name: Component<office-ui-fabric-react.IAnnouncedProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.AnnouncedBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Partial<IAnnouncedProps>'
+      return:
+        type:
+          - Partial<office-ui-fabric-react.IAnnouncedProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.AnnouncedBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: Component<office-ui-fabric-react.IAnnouncedProps>
+    name: IAnnouncedProps>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IAnnouncedProps
+        fullName: IAnnouncedProps
+        uid: office-ui-fabric-react.IAnnouncedProps
+      - name: '>'
+        fullName: '>'
+  - uid: Partial<office-ui-fabric-react.IAnnouncedProps>
+    name: IAnnouncedProps>
+    spec.typeScript:
+      - name: Partial<
+        fullName: Partial<
+      - name: IAnnouncedProps
+        fullName: IAnnouncedProps
+        uid: office-ui-fabric-react.IAnnouncedProps
+      - name: '>'
+        fullName: '>'

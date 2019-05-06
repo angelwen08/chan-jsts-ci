@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DialogTopOffsetFixedExample
+    name: DialogTopOffsetFixedExample
+    fullName: DialogTopOffsetFixedExample<SS>
+    children:
+      - office-ui-fabric-react.DialogTopOffsetFixedExample.render
+      - office-ui-fabric-react.DialogTopOffsetFixedExample.state
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<__type,
+        office-ui-fabric-react.IDialogTopOffsetFixedExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DialogTopOffsetFixedExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DialogTopOffsetFixedExample.state
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'state: IDialogTopOffsetFixedExampleState'
+      return:
+        type:
+          - office-ui-fabric-react.IDialogTopOffsetFixedExampleState
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<__type,
+      office-ui-fabric-react.IDialogTopOffsetFixedExampleState>
+    name: IDialogTopOffsetFixedExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IDialogTopOffsetFixedExampleState
+        fullName: IDialogTopOffsetFixedExampleState
+        uid: office-ui-fabric-react.IDialogTopOffsetFixedExampleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IDialogTopOffsetFixedExampleState
+    name: IDialogTopOffsetFixedExampleState
+    spec.typeScript:
+      - name: IDialogTopOffsetFixedExampleState
+        fullName: IDialogTopOffsetFixedExampleState
+        uid: office-ui-fabric-react.IDialogTopOffsetFixedExampleState

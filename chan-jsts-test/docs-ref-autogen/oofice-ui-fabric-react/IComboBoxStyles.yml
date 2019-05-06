@@ -1,0 +1,306 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IComboBoxStyles
+    name: IComboBoxStyles
+    fullName: IComboBoxStyles
+    children:
+      - office-ui-fabric-react.IComboBoxStyles.callout
+      - office-ui-fabric-react.IComboBoxStyles.container
+      - office-ui-fabric-react.IComboBoxStyles.divider
+      - office-ui-fabric-react.IComboBoxStyles.errorMessage
+      - office-ui-fabric-react.IComboBoxStyles.header
+      - office-ui-fabric-react.IComboBoxStyles.input
+      - office-ui-fabric-react.IComboBoxStyles.inputDisabled
+      - office-ui-fabric-react.IComboBoxStyles.label
+      - office-ui-fabric-react.IComboBoxStyles.labelDisabled
+      - office-ui-fabric-react.IComboBoxStyles.optionsContainer
+      - office-ui-fabric-react.IComboBoxStyles.optionsContainerWrapper
+      - office-ui-fabric-react.IComboBoxStyles.root
+      - office-ui-fabric-react.IComboBoxStyles.rootDisabled
+      - office-ui-fabric-react.IComboBoxStyles.rootDisallowFreeForm
+      - office-ui-fabric-react.IComboBoxStyles.rootError
+      - office-ui-fabric-react.IComboBoxStyles.rootFocused
+      - office-ui-fabric-react.IComboBoxStyles.rootHovered
+      - office-ui-fabric-react.IComboBoxStyles.rootPressed
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ComboBox}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.callout
+    name: callout
+    fullName: callout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the callout.
+    syntax:
+      content: 'callout: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the container which has the ComboBox and the label
+    syntax:
+      content: 'container: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.divider
+    name: divider
+    fullName: divider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for a divider in the options.
+    syntax:
+      content: 'divider: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.errorMessage
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the error Message text of the comboBox.
+    syntax:
+      content: 'errorMessage: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.header
+    name: header
+    fullName: header
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for a header in the options.
+    syntax:
+      content: 'header: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.input
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Base styles for the input element - which contains the currently selected
+      option.
+    syntax:
+      content: 'input: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.inputDisabled
+    name: inputDisabled
+    fullName: inputDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style override for the input element when comboBox is disabled.
+    syntax:
+      content: 'inputDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the label element of the ComboBox.
+    syntax:
+      content: 'label: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.labelDisabled
+    name: labelDisabled
+    fullName: labelDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the label element of the ComboBox in the disabled state.
+    syntax:
+      content: 'labelDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.optionsContainer
+    name: optionsContainer
+    fullName: optionsContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Styles for the container of all the Combobox options
+      Includes the headers and dividers.
+    syntax:
+      content: 'optionsContainer: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.optionsContainerWrapper
+    name: optionsContainerWrapper
+    fullName: optionsContainerWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the optionsContainerWrapper.
+    syntax:
+      content: 'optionsContainerWrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Base styles for the root element of all ComboBoxes.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.rootDisabled
+    name: rootDisabled
+    fullName: rootDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Styles for when the comboBox is disabled. These styles override all the
+      other styles.
+
+      NOTE : Hover (or) Focused (or) active styles are not applied for disabled
+      comboBoxes.
+    syntax:
+      content: 'rootDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.rootDisallowFreeForm
+    name: rootDisallowFreeForm
+    fullName: rootDisallowFreeForm
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for variant of ComboBox where allowFreeForm is false in the props.
+    syntax:
+      content: 'rootDisallowFreeForm: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.rootError
+    name: rootError
+    fullName: rootError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Styles for the root element for variant of ComboBox with an errorMessage
+      in the props.
+    syntax:
+      content: 'rootError: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.rootFocused
+    name: rootFocused
+    fullName: rootFocused
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Styles for when the ComboBox is focused. These styles are applied for all
+      comboBoxes except when
+
+      the comboBox is disabled.
+    syntax:
+      content: 'rootFocused: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.rootHovered
+    name: rootHovered
+    fullName: rootHovered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Styles for when the ComboBox is hovered. These styles are applied for all
+      comboBoxes except when
+
+      the comboBox is disabled.
+    syntax:
+      content: 'rootHovered: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxStyles.rootPressed
+    name: rootPressed
+    fullName: rootPressed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Styles for when the ComboBox is active. These styles are applied for all
+      comboBoxes except when
+
+      the comboBox is disabled.
+    syntax:
+      content: 'rootPressed: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

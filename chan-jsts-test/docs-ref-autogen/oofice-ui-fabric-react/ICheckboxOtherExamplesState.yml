@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICheckboxOtherExamplesState
+    name: ICheckboxOtherExamplesState
+    fullName: ICheckboxOtherExamplesState
+    children:
+      - office-ui-fabric-react.ICheckboxOtherExamplesState.isChecked
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxOtherExamplesState.isChecked
+    name: isChecked
+    fullName: isChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isChecked: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IconBase
+    name: IconBase
+    fullName: IconBase<SS>
+    children:
+      - office-ui-fabric-react.IconBase.constructor
+      - office-ui-fabric-react.IconBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.IIconProps,
+        office-ui-fabric-react.IIconState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IconBase.constructor
+    name: IconBase(IIconProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new IconBase(props: IIconProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IIconProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IconBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.IIconProps,
+      office-ui-fabric-react.IIconState>
+    name: IIconState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IIconProps
+        fullName: IIconProps
+        uid: office-ui-fabric-react.IIconProps
+      - name: ', '
+        fullName: ', '
+      - name: IIconState
+        fullName: IIconState
+        uid: office-ui-fabric-react.IIconState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IIconProps
+    name: IIconProps
+    spec.typeScript:
+      - name: IIconProps
+        fullName: IIconProps
+        uid: office-ui-fabric-react.IIconProps

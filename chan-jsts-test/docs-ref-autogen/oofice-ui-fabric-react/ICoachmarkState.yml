@@ -1,0 +1,250 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICoachmarkState
+    name: ICoachmarkState
+    fullName: ICoachmarkState
+    children:
+      - office-ui-fabric-react.ICoachmarkState.alertText
+      - office-ui-fabric-react.ICoachmarkState.beakBottom
+      - office-ui-fabric-react.ICoachmarkState.beakLeft
+      - office-ui-fabric-react.ICoachmarkState.beakRight
+      - office-ui-fabric-react.ICoachmarkState.beakTop
+      - office-ui-fabric-react.ICoachmarkState.entityInnerHostRect
+      - office-ui-fabric-react.ICoachmarkState.isBeaconAnimating
+      - office-ui-fabric-react.ICoachmarkState.isCollapsed
+      - office-ui-fabric-react.ICoachmarkState.isMeasured
+      - office-ui-fabric-react.ICoachmarkState.isMeasuring
+      - office-ui-fabric-react.ICoachmarkState.isMouseInProximity
+      - office-ui-fabric-react.ICoachmarkState.targetAlignment
+      - office-ui-fabric-react.ICoachmarkState.targetPosition
+      - office-ui-fabric-react.ICoachmarkState.transformOrigin
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.alertText
+    name: alertText
+    fullName: alertText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ARIA alert text to read aloud with Narrator once the Coachmark is mounted
+    optional: true
+    syntax:
+      content: 'alertText?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.beakBottom
+    name: beakBottom
+    fullName: beakBottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The bottom position of the beak
+    optional: true
+    syntax:
+      content: 'beakBottom?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.beakLeft
+    name: beakLeft
+    fullName: beakLeft
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The left position of the beak
+    optional: true
+    syntax:
+      content: 'beakLeft?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.beakRight
+    name: beakRight
+    fullName: beakRight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The right position of the beak
+    optional: true
+    syntax:
+      content: 'beakRight?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.beakTop
+    name: beakTop
+    fullName: beakTop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The right position of the beak
+    optional: true
+    syntax:
+      content: 'beakTop?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.entityInnerHostRect
+    name: entityInnerHostRect
+    fullName: entityInnerHostRect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Cached width and height of _entityInnerHostElement
+    syntax:
+      content: 'entityInnerHostRect: IEntityRect'
+      return:
+        type:
+          - office-ui-fabric-react.IEntityRect
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.isBeaconAnimating
+    name: isBeaconAnimating
+    fullName: isBeaconAnimating
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Enables/Disables the beacon that radiates
+      from the center of the coachmark.
+    syntax:
+      content: 'isBeaconAnimating: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.isCollapsed
+    name: isCollapsed
+    fullName: isCollapsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Is the Coachmark currently collapsed into
+      a tear drop shape
+    syntax:
+      content: 'isCollapsed: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.isMeasured
+    name: isMeasured
+    fullName: isMeasured
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is the Coachmark done measuring the hosted entity
+    syntax:
+      content: 'isMeasured: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.isMeasuring
+    name: isMeasuring
+    fullName: isMeasuring
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Is the teaching bubble currently retreiving the
+      original dimensions of the hosted entity.
+    syntax:
+      content: 'isMeasuring: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.isMouseInProximity
+    name: isMouseInProximity
+    fullName: isMouseInProximity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is the mouse in proximity of the default target element
+    syntax:
+      content: 'isMouseInProximity: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.targetAlignment
+    name: targetAlignment
+    fullName: targetAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Alignment edge of callout in relation to target
+    optional: true
+    syntax:
+      content: 'targetAlignment?: RectangleEdge'
+      return:
+        type:
+          - office-ui-fabric-react.RectangleEdge
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.targetPosition
+    name: targetPosition
+    fullName: targetPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Position of Coachmark/TeachingBubble in relation to target
+    optional: true
+    syntax:
+      content: 'targetPosition?: RectangleEdge'
+      return:
+        type:
+          - office-ui-fabric-react.RectangleEdge
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICoachmarkState.transformOrigin
+    name: transformOrigin
+    fullName: transformOrigin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Transform origin of teaching bubble callout
+    optional: true
+    syntax:
+      content: 'transformOrigin?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IEntityRect
+    name: IEntityRect
+    spec.typeScript:
+      - name: IEntityRect
+        fullName: IEntityRect
+        uid: office-ui-fabric-react.IEntityRect
+  - uid: office-ui-fabric-react.RectangleEdge
+    name: RectangleEdge
+    spec.typeScript:
+      - name: RectangleEdge
+        fullName: RectangleEdge
+        uid: office-ui-fabric-react.RectangleEdge

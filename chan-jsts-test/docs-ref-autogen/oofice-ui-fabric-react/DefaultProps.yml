@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DefaultProps
+    name: DefaultProps
+    fullName: DefaultProps
+    children: []
+    syntax:
+      content: type DefaultProps = Required
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    package: office-ui-fabric-react

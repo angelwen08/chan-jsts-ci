@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IModalStyleProps
+    name: IModalStyleProps
+    fullName: IModalStyleProps
+    children: []
+    syntax:
+      content: type IModalStyleProps = Required<Pick> & Pick<IModalProps> & Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory Modal}'
+    package: office-ui-fabric-react

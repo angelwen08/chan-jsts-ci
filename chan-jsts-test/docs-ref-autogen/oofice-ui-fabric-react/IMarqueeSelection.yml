@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IMarqueeSelection
+    name: IMarqueeSelection
+    fullName: IMarqueeSelection
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory MarqueeSelection}'
+    package: office-ui-fabric-react

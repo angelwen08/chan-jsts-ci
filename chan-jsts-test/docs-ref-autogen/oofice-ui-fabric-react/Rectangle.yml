@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.Rectangle
+    name: Rectangle
+    fullName: Rectangle
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: Rectangle
+    package: office-ui-fabric-react

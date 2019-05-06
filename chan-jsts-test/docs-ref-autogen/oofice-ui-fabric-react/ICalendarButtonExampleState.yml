@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarButtonExampleState
+    name: ICalendarButtonExampleState
+    fullName: ICalendarButtonExampleState
+    children:
+      - office-ui-fabric-react.ICalendarButtonExampleState.selectedDate
+      - office-ui-fabric-react.ICalendarButtonExampleState.showCalendar
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarButtonExampleState.selectedDate
+    name: selectedDate
+    fullName: selectedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectedDate: Date | null'
+      return:
+        type:
+          - Date | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarButtonExampleState.showCalendar
+    name: showCalendar
+    fullName: showCalendar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showCalendar: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

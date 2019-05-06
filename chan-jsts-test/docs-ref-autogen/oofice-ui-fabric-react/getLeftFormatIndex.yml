@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getLeftFormatIndex
+    name: 'getLeftFormatIndex(IMaskValue[], number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Get the next format index left of a specified index.
+      If no index exists, returns the leftmost index.
+    syntax:
+      content: 'function getLeftFormatIndex(maskCharData: IMaskValue[], index: number)'
+      parameters:
+        - id: maskCharData
+          type:
+            - 'office-ui-fabric-react.IMaskValue[]'
+          description: ''
+        - id: index
+          type:
+            - number
+          description: |+
+
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IMaskValue[]'
+    name: 'IMaskValue[]'
+    spec.typeScript:
+      - name: IMaskValue
+        fullName: IMaskValue
+        uid: office-ui-fabric-react.IMaskValue
+      - name: '[]'
+        fullName: '[]'

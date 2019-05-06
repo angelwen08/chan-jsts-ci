@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IOverflowSet
+    name: IOverflowSet
+    fullName: IOverflowSet
+    children:
+      - office-ui-fabric-react.IOverflowSet.focus
+      - office-ui-fabric-react.IOverflowSet.focusElement
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory OverflowSet}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IOverflowSet.focus
+    name: focus(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets focus to the first tabbable item in the zone.
+    syntax:
+      content: 'function focus(forceIntoFirstElement?: boolean)'
+      parameters:
+        - id: forceIntoFirstElement
+          type:
+            - boolean
+          description: |-
+            If true, focus will be forced into the first element, even if
+            focus is already in the focus zone.
+          optional: true
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IOverflowSet.focusElement
+    name: focusElement(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets focus to a specific child element within the zone. This can be used
+      in conjunction with
+
+      onBeforeFocus to created delayed focus scenarios (like animate the scroll
+      position to the correct
+
+      location and then focus.)
+    syntax:
+      content: 'function focusElement(childElement?: HTMLElement)'
+      parameters:
+        - id: childElement
+          type:
+            - HTMLElement
+          description: The child element within the zone to focus.
+          optional: true
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

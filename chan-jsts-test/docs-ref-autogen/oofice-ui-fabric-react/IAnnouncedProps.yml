@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IAnnouncedProps
+    name: IAnnouncedProps
+    fullName: IAnnouncedProps
+    children:
+      - office-ui-fabric-react.IAnnouncedProps.message
+      - office-ui-fabric-react.IAnnouncedProps.styles
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Announced}'
+    extends:
+      name: Props<office-ui-fabric-react.AnnouncedBase>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAnnouncedProps.message
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The status message provided as screen reader output
+    optional: true
+    syntax:
+      content: 'message?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IAnnouncedProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<__type, IAnnouncedStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<__type,
+            office-ui-fabric-react.IAnnouncedStyles>
+    package: office-ui-fabric-react
+references:
+  - uid: Props<office-ui-fabric-react.AnnouncedBase>
+    name: AnnouncedBase>
+    spec.typeScript:
+      - name: Props<
+        fullName: Props<
+      - name: AnnouncedBase
+        fullName: AnnouncedBase
+        uid: office-ui-fabric-react.AnnouncedBase
+      - name: '>'
+        fullName: '>'
+  - uid: 'IStyleFunctionOrObject<__type, office-ui-fabric-react.IAnnouncedStyles>'
+    name: IAnnouncedStyles>
+    spec.typeScript:
+      - name: 'IStyleFunctionOrObject<__type, '
+        fullName: 'IStyleFunctionOrObject<__type, '
+      - name: IAnnouncedStyles
+        fullName: IAnnouncedStyles
+        uid: office-ui-fabric-react.IAnnouncedStyles
+      - name: '>'
+        fullName: '>'

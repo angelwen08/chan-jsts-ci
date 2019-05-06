@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarInlineExampleState
+    name: ICalendarInlineExampleState
+    fullName: ICalendarInlineExampleState
+    children:
+      - office-ui-fabric-react.ICalendarInlineExampleState.selectedDate
+      - office-ui-fabric-react.ICalendarInlineExampleState.selectedDateRange
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarInlineExampleState.selectedDate
+    name: selectedDate
+    fullName: selectedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectedDate?: Date | null'
+      return:
+        type:
+          - Date | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarInlineExampleState.selectedDateRange
+    name: selectedDateRange
+    fullName: selectedDateRange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectedDateRange?: Date[] | null'
+      return:
+        type:
+          - 'Date[] | null'
+    package: office-ui-fabric-react

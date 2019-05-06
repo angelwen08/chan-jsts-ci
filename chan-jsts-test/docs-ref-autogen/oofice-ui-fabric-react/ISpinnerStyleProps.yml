@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISpinnerStyleProps
+    name: ISpinnerStyleProps
+    fullName: ISpinnerStyleProps
+    children:
+      - office-ui-fabric-react.ISpinnerStyleProps.className
+      - office-ui-fabric-react.ISpinnerStyleProps.labelPosition
+      - office-ui-fabric-react.ISpinnerStyleProps.size
+      - office-ui-fabric-react.ISpinnerStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The props needed to construct styles. This represents the simplified set
+      of immutable things which control the class names.
+
+      {@docCategory Spinner}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: CSS class name for the component attached to the root stylable area.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerStyleProps.labelPosition
+    name: labelPosition
+    fullName: labelPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Position of the label in regards to the spinner animation.
+    optional: true
+    syntax:
+      content: 'labelPosition?: SpinnerLabelPosition'
+      return:
+        type:
+          - office-ui-fabric-react.SpinnerLabelPosition
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerStyleProps.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Size of the spinner animation.
+    optional: true
+    syntax:
+      content: 'size?: SpinnerSize'
+      return:
+        type:
+          - office-ui-fabric-react.SpinnerSize
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinnerStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.SpinnerLabelPosition
+    name: SpinnerLabelPosition
+    spec.typeScript:
+      - name: SpinnerLabelPosition
+        fullName: SpinnerLabelPosition
+        uid: office-ui-fabric-react.SpinnerLabelPosition
+  - uid: office-ui-fabric-react.SpinnerSize
+    name: SpinnerSize
+    spec.typeScript:
+      - name: SpinnerSize
+        fullName: SpinnerSize
+        uid: office-ui-fabric-react.SpinnerSize

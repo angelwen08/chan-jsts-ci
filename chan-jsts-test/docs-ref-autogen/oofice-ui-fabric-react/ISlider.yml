@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISlider
+    name: ISlider
+    fullName: ISlider
+    children:
+      - office-ui-fabric-react.ISlider.focus
+      - office-ui-fabric-react.ISlider.value
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Slider}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISlider.focus
+    name: focus
+    fullName: focus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'focus: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISlider.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: number | undefined'
+      return:
+        type:
+          - number | undefined
+    package: office-ui-fabric-react

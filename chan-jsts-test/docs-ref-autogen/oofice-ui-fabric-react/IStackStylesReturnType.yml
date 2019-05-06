@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IStackStylesReturnType
+    name: IStackStylesReturnType
+    fullName: IStackStylesReturnType
+    children: []
+    syntax:
+      content: type IStackStylesReturnType = ReturnType
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory Stack}'
+    package: office-ui-fabric-react

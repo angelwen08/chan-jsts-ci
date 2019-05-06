@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IStackTokens
+    name: IStackTokens
+    fullName: IStackTokens
+    children:
+      - office-ui-fabric-react.IStackTokens.childrenGap
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Stack}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStackTokens.childrenGap
+    name: childrenGap
+    fullName: childrenGap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'childrenGap?: number | string'
+      return:
+        type:
+          - number | string
+    package: office-ui-fabric-react

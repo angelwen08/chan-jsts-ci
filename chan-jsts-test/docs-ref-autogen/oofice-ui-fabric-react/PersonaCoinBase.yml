@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.PersonaCoinBase
+    name: PersonaCoinBase
+    fullName: PersonaCoinBase<SS>
+    children:
+      - office-ui-fabric-react.PersonaCoinBase.componentWillReceiveProps
+      - office-ui-fabric-react.PersonaCoinBase.defaultProps
+      - office-ui-fabric-react.PersonaCoinBase.constructor
+      - office-ui-fabric-react.PersonaCoinBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      PersonaCoin with no default styles.
+
+      [Use the `getStyles` API to add your own
+      styles.](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Styling)
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IPersonaCoinProps,
+        office-ui-fabric-react.IPersonaState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaCoinBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IPersonaCoinProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IPersonaCoinProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - office-ui-fabric-react.IPersonaCoinProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaCoinBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: IPersonaCoinProps'
+      return:
+        type:
+          - office-ui-fabric-react.IPersonaCoinProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaCoinBase.constructor
+    name: PersonaCoinBase(IPersonaCoinProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PersonaCoinBase(props: IPersonaCoinProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IPersonaCoinProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaCoinBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element | null
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IPersonaCoinProps,
+      office-ui-fabric-react.IPersonaState>
+    name: IPersonaState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IPersonaCoinProps
+        fullName: IPersonaCoinProps
+        uid: office-ui-fabric-react.IPersonaCoinProps
+      - name: ', '
+        fullName: ', '
+      - name: IPersonaState
+        fullName: IPersonaState
+        uid: office-ui-fabric-react.IPersonaState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IPersonaCoinProps
+    name: IPersonaCoinProps
+    spec.typeScript:
+      - name: IPersonaCoinProps
+        fullName: IPersonaCoinProps
+        uid: office-ui-fabric-react.IPersonaCoinProps

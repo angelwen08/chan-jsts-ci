@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPlainCardStyleProps
+    name: IPlainCardStyleProps
+    fullName: IPlainCardStyleProps
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory HoverCard}'
+    extends:
+      name: office-ui-fabric-react.IBaseCardStyleProps
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IBaseCardStyleProps
+    name: IBaseCardStyleProps
+    spec.typeScript:
+      - name: IBaseCardStyleProps
+        fullName: IBaseCardStyleProps
+        uid: office-ui-fabric-react.IBaseCardStyleProps

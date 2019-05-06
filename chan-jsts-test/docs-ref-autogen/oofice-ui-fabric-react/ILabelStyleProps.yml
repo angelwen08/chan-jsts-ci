@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILabelStyleProps
+    name: ILabelStyleProps
+    fullName: ILabelStyleProps
+    children:
+      - office-ui-fabric-react.ILabelStyleProps.className
+      - office-ui-fabric-react.ILabelStyleProps.disabled
+      - office-ui-fabric-react.ILabelStyleProps.required
+      - office-ui-fabric-react.ILabelStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Label}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILabelStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILabelStyleProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILabelStyleProps.required
+    name: required
+    fullName: required
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'required?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILabelStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

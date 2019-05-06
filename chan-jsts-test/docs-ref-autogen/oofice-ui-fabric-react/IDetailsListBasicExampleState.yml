@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsListBasicExampleState
+    name: IDetailsListBasicExampleState
+    fullName: IDetailsListBasicExampleState
+    children:
+      - office-ui-fabric-react.IDetailsListBasicExampleState.items
+      - office-ui-fabric-react.IDetailsListBasicExampleState.selectionDetails
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListBasicExampleState.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'items: IDetailsListBasicExampleItem[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IDetailsListBasicExampleItem[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListBasicExampleState.selectionDetails
+    name: selectionDetails
+    fullName: selectionDetails
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectionDetails: __type'
+      return:
+        type:
+          - __type
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IDetailsListBasicExampleItem[]'
+    name: 'IDetailsListBasicExampleItem[]'
+    spec.typeScript:
+      - name: IDetailsListBasicExampleItem
+        fullName: IDetailsListBasicExampleItem
+        uid: office-ui-fabric-react.IDetailsListBasicExampleItem
+      - name: '[]'
+        fullName: '[]'

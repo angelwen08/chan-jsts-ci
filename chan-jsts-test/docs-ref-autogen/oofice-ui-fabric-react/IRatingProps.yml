@@ -1,0 +1,330 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IRatingProps
+    name: IRatingProps
+    fullName: IRatingProps
+    children:
+      - office-ui-fabric-react.IRatingProps.allowZeroStars
+      - office-ui-fabric-react.IRatingProps.ariaLabelFormat
+      - office-ui-fabric-react.IRatingProps.ariaLabelId
+      - office-ui-fabric-react.IRatingProps.componentRef
+      - office-ui-fabric-react.IRatingProps.getAriaLabel
+      - office-ui-fabric-react.IRatingProps.icon
+      - office-ui-fabric-react.IRatingProps.max
+      - office-ui-fabric-react.IRatingProps.min
+      - office-ui-fabric-react.IRatingProps.onChange
+      - office-ui-fabric-react.IRatingProps.onChanged
+      - office-ui-fabric-react.IRatingProps.rating
+      - office-ui-fabric-react.IRatingProps.readOnly
+      - office-ui-fabric-react.IRatingProps.size
+      - office-ui-fabric-react.IRatingProps.styles
+      - office-ui-fabric-react.IRatingProps.theme
+      - office-ui-fabric-react.IRatingProps.unselectedIcon
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Rating component props.
+      {@docCategory Rating}
+    extends:
+      name: AllHTMLAttributes<HTMLElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.allowZeroStars
+    name: allowZeroStars
+    fullName: allowZeroStars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Allow the rating value to be set to 0 instead of a minimum of 1.
+    optional: true
+    syntax:
+      content: 'allowZeroStars?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.ariaLabelFormat
+    name: ariaLabelFormat
+    fullName: ariaLabelFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional label format for star ratings, will be read by screen readers,
+      defaults to ''.
+
+      Can be used like "\{0\} of \{1\} stars selected".
+
+      Where \{0\} will be subsituted by the current rating and \{1\} will be
+      subsituted by the max rating.
+    optional: true
+    syntax:
+      content: 'ariaLabelFormat?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.ariaLabelId
+    name: ariaLabelId
+    fullName: ariaLabelId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Deprecated: Optional id of label describing this instance of Rating. Use
+      `getAriaLabel` instead.
+    optional: true
+    syntax:
+      content: 'ariaLabelId?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `getAriaLabel` instead.
+  - uid: office-ui-fabric-react.IRatingProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IRating interface. Use this instead of ref
+      for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IRating>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IRating>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.getAriaLabel
+    name: getAriaLabel
+    fullName: getAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'getAriaLabel?: (rating: number, max: number) => string'
+      return:
+        type:
+          - '(rating: number, max: number) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom icon
+    optional: true
+    syntax:
+      content: 'icon?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.max
+    name: max
+    fullName: max
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Maximum rating, defaults to 5, has to be \>= min'
+    optional: true
+    syntax:
+      content: 'max?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.min
+    name: min
+    fullName: min
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Minimum rating, defaults to 1, has to be \>= 0'
+    optional: true
+    syntax:
+      content: 'min?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+    deprecated:
+      content: No longer used.
+  - uid: office-ui-fabric-react.IRatingProps.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback issued when the rating changes.
+    optional: true
+    syntax:
+      content: 'onChange?: (event: FocusEvent<HTMLElement>, rating?: number) => void'
+      return:
+        type:
+          - '(event: FocusEvent<HTMLElement>, rating?: number) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.onChanged
+    name: onChanged
+    fullName: onChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onChanged?: (rating: number) => void'
+      return:
+        type:
+          - '(rating: number) => void'
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `onChange` instead.
+  - uid: office-ui-fabric-react.IRatingProps.rating
+    name: rating
+    fullName: rating
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Selected rating, has to be an integer between min and max'
+    optional: true
+    syntax:
+      content: 'rating?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.readOnly
+    name: readOnly
+    fullName: readOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional flag to mark rating control as readOnly
+    optional: true
+    syntax:
+      content: 'readOnly?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Size of rating, defaults to small'
+    optional: true
+    syntax:
+      content: 'size?: RatingSize'
+      return:
+        type:
+          - office-ui-fabric-react.RatingSize
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<IRatingStyleProps, IRatingStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IRatingStyleProps,
+            office-ui-fabric-react.IRatingStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme (provided through customization.)
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingProps.unselectedIcon
+    name: unselectedIcon
+    fullName: unselectedIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom icon for unselected rating elements.
+    optional: true
+    syntax:
+      content: 'unselectedIcon?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: IRefObject<office-ui-fabric-react.IRating>
+    name: IRating>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IRating
+        fullName: IRating
+        uid: office-ui-fabric-react.IRating
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.RatingSize
+    name: RatingSize
+    spec.typeScript:
+      - name: RatingSize
+        fullName: RatingSize
+        uid: office-ui-fabric-react.RatingSize
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IRatingStyleProps,
+      office-ui-fabric-react.IRatingStyles>
+    name: IRatingStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IRatingStyleProps
+        fullName: IRatingStyleProps
+        uid: office-ui-fabric-react.IRatingStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IRatingStyles
+        fullName: IRatingStyles
+        uid: office-ui-fabric-react.IRatingStyles
+      - name: '>'
+        fullName: '>'

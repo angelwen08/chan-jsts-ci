@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IndividualCommandBarButtonAsExample
+    name: IndividualCommandBarButtonAsExample
+    fullName: IndividualCommandBarButtonAsExample<S>
+    children:
+      - office-ui-fabric-react.IndividualCommandBarButtonAsExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.IIndividualCommandBarButtonAsExampleProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IndividualCommandBarButtonAsExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.IIndividualCommandBarButtonAsExampleProps>
+    name: IIndividualCommandBarButtonAsExampleProps>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IIndividualCommandBarButtonAsExampleProps
+        fullName: IIndividualCommandBarButtonAsExampleProps
+        uid: office-ui-fabric-react.IIndividualCommandBarButtonAsExampleProps
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPlainCardProps
+    name: IPlainCardProps
+    fullName: IPlainCardProps
+    children:
+      - office-ui-fabric-react.IPlainCardProps.onRenderPlainCard
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      PlainCard component props.
+      {@docCategory HoverCard}
+    extends:
+      name: >-
+        office-ui-fabric-react.IBaseCardProps<office-ui-fabric-react.IPlainCard,
+        office-ui-fabric-react.IPlainCardStyles,
+        office-ui-fabric-react.IPlainCardStyleProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPlainCardProps.onRenderPlainCard
+    name: onRenderPlainCard
+    fullName: onRenderPlainCard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Render function to populate compact content area
+    optional: true
+    syntax:
+      content: 'onRenderPlainCard?: IRenderFunction<any>'
+      return:
+        type:
+          - IRenderFunction<any>
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      office-ui-fabric-react.IBaseCardProps<office-ui-fabric-react.IPlainCard,
+      office-ui-fabric-react.IPlainCardStyles,
+      office-ui-fabric-react.IPlainCardStyleProps>
+    name: IPlainCardStyleProps>
+    spec.typeScript:
+      - name: IBaseCardProps
+        fullName: IBaseCardProps
+        uid: office-ui-fabric-react.IBaseCardProps
+      - name: <
+        fullName: <
+      - name: IPlainCard
+        fullName: IPlainCard
+        uid: office-ui-fabric-react.IPlainCard
+      - name: ', '
+        fullName: ', '
+      - name: IPlainCardStyles
+        fullName: IPlainCardStyles
+        uid: office-ui-fabric-react.IPlainCardStyles
+      - name: ', '
+        fullName: ', '
+      - name: IPlainCardStyleProps
+        fullName: IPlainCardStyleProps
+        uid: office-ui-fabric-react.IPlainCardStyleProps
+      - name: '>'
+        fullName: '>'

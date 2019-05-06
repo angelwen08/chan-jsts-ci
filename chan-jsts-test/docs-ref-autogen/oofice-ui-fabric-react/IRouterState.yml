@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IRouterState
+    name: IRouterState
+    fullName: IRouterState
+    children:
+      - office-ui-fabric-react.IRouterState.path
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRouterState.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'path: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

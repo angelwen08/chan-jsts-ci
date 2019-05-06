@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.CalendarYear
+    name: CalendarYear
+    fullName: CalendarYear<SS>
+    children:
+      - office-ui-fabric-react.CalendarYear.constructor
+      - office-ui-fabric-react.CalendarYear.focus
+      - office-ui-fabric-react.CalendarYear.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.ICalendarYearProps,
+        office-ui-fabric-react.ICalendarYearState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CalendarYear.constructor
+    name: CalendarYear(ICalendarYearProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CalendarYear(props: ICalendarYearProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ICalendarYearProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CalendarYear.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CalendarYear.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.ICalendarYearProps,
+      office-ui-fabric-react.ICalendarYearState>
+    name: ICalendarYearState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: ICalendarYearProps
+        fullName: ICalendarYearProps
+        uid: office-ui-fabric-react.ICalendarYearProps
+      - name: ', '
+        fullName: ', '
+      - name: ICalendarYearState
+        fullName: ICalendarYearState
+        uid: office-ui-fabric-react.ICalendarYearState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ICalendarYearProps
+    name: ICalendarYearProps
+    spec.typeScript:
+      - name: ICalendarYearProps
+        fullName: ICalendarYearProps
+        uid: office-ui-fabric-react.ICalendarYearProps

@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.Shade
+    name: Shade
+    fullName: Shade
+    children:
+      - office-ui-fabric-react.Shade.Unshaded
+      - office-ui-fabric-react.Shade.Shade1
+      - office-ui-fabric-react.Shade.Shade2
+      - office-ui-fabric-react.Shade.Shade3
+      - office-ui-fabric-react.Shade.Shade4
+      - office-ui-fabric-react.Shade.Shade5
+      - office-ui-fabric-react.Shade.Shade6
+      - office-ui-fabric-react.Shade.Shade7
+      - office-ui-fabric-react.Shade.Shade8
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: 'Shades of a given color, from softest to strongest.'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Unshaded
+    name: Unshaded
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Shade1
+    name: Shade1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Shade2
+    name: Shade2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Shade3
+    name: Shade3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Shade4
+    name: Shade4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Shade5
+    name: Shade5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Shade6
+    name: Shade6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Shade7
+    name: Shade7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.Shade.Shade8
+    name: Shade8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+    package: office-ui-fabric-react

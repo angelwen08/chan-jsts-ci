@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.FocusTrapZoneBoxExample
+    name: FocusTrapZoneBoxExample
+    fullName: FocusTrapZoneBoxExample<SS>
+    children:
+      - office-ui-fabric-react.FocusTrapZoneBoxExample.render
+      - office-ui-fabric-react.FocusTrapZoneBoxExample.state
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, office-ui-fabric-react.IFocusTrapZoneBoxExampleState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FocusTrapZoneBoxExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.FocusTrapZoneBoxExample.state
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'state: IFocusTrapZoneBoxExampleState'
+      return:
+        type:
+          - office-ui-fabric-react.IFocusTrapZoneBoxExampleState
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<__type, office-ui-fabric-react.IFocusTrapZoneBoxExampleState>'
+    name: IFocusTrapZoneBoxExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IFocusTrapZoneBoxExampleState
+        fullName: IFocusTrapZoneBoxExampleState
+        uid: office-ui-fabric-react.IFocusTrapZoneBoxExampleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IFocusTrapZoneBoxExampleState
+    name: IFocusTrapZoneBoxExampleState
+    spec.typeScript:
+      - name: IFocusTrapZoneBoxExampleState
+        fullName: IFocusTrapZoneBoxExampleState
+        uid: office-ui-fabric-react.IFocusTrapZoneBoxExampleState

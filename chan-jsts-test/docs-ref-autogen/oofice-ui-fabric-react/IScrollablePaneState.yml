@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IScrollablePaneState
+    name: IScrollablePaneState
+    fullName: IScrollablePaneState
+    children:
+      - office-ui-fabric-react.IScrollablePaneState.scrollbarHeight
+      - office-ui-fabric-react.IScrollablePaneState.scrollbarWidth
+      - office-ui-fabric-react.IScrollablePaneState.stickyBottomHeight
+      - office-ui-fabric-react.IScrollablePaneState.stickyTopHeight
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneState.scrollbarHeight
+    name: scrollbarHeight
+    fullName: scrollbarHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'scrollbarHeight: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneState.scrollbarWidth
+    name: scrollbarWidth
+    fullName: scrollbarWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'scrollbarWidth: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneState.stickyBottomHeight
+    name: stickyBottomHeight
+    fullName: stickyBottomHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stickyBottomHeight: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IScrollablePaneState.stickyTopHeight
+    name: stickyTopHeight
+    fullName: stickyTopHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stickyTopHeight: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

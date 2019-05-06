@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISplitButtonClassNames
+    name: ISplitButtonClassNames
+    fullName: ISplitButtonClassNames
+    children:
+      - office-ui-fabric-react.ISplitButtonClassNames.divider
+      - office-ui-fabric-react.ISplitButtonClassNames.flexContainer
+      - office-ui-fabric-react.ISplitButtonClassNames.icon
+      - office-ui-fabric-react.ISplitButtonClassNames.root
+      - office-ui-fabric-react.ISplitButtonClassNames.splitButtonContainer
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISplitButtonClassNames.divider
+    name: divider
+    fullName: divider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'divider?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISplitButtonClassNames.flexContainer
+    name: flexContainer
+    fullName: flexContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'flexContainer?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISplitButtonClassNames.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'icon?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISplitButtonClassNames.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'root?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISplitButtonClassNames.splitButtonContainer
+    name: splitButtonContainer
+    fullName: splitButtonContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'splitButtonContainer?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

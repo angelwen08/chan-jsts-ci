@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IUniqueKeytip
+    name: IUniqueKeytip
+    fullName: IUniqueKeytip
+    children:
+      - office-ui-fabric-react.IUniqueKeytip.keytip
+      - office-ui-fabric-react.IUniqueKeytip.uniqueID
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IUniqueKeytip.keytip
+    name: keytip
+    fullName: keytip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'keytip: IKeytipProps'
+      return:
+        type:
+          - office-ui-fabric-react.IKeytipProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IUniqueKeytip.uniqueID
+    name: uniqueID
+    fullName: uniqueID
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'uniqueID: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IKeytipProps
+    name: IKeytipProps
+    spec.typeScript:
+      - name: IKeytipProps
+        fullName: IKeytipProps
+        uid: office-ui-fabric-react.IKeytipProps

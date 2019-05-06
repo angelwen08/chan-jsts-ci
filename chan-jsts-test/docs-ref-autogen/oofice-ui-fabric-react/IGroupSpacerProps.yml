@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGroupSpacerProps
+    name: IGroupSpacerProps
+    fullName: IGroupSpacerProps
+    children:
+      - office-ui-fabric-react.IGroupSpacerProps.count
+      - office-ui-fabric-react.IGroupSpacerProps.indentWidth
+      - office-ui-fabric-react.IGroupSpacerProps.styles
+      - office-ui-fabric-react.IGroupSpacerProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory GroupedList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupSpacerProps.count
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Count of spacer(s)
+    syntax:
+      content: 'count: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupSpacerProps.indentWidth
+    name: indentWidth
+    fullName: indentWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: How much to indent
+    optional: true
+    syntax:
+      content: 'indentWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupSpacerProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style function to be passed in to override the themed or default styles
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IGroupSpacerStyleProps,
+        IGroupSpacerStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IGroupSpacerStyleProps,
+            office-ui-fabric-react.IGroupSpacerStyles>
+    package: office-ui-fabric-react
+    deprecated:
+      content: 'unused, to be removed in 7.0'
+  - uid: office-ui-fabric-react.IGroupSpacerProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme from Higher Order Component
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+    deprecated:
+      content: 'unused, to be removed in 7.0'
+references:
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IGroupSpacerStyleProps,
+      office-ui-fabric-react.IGroupSpacerStyles>
+    name: IGroupSpacerStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IGroupSpacerStyleProps
+        fullName: IGroupSpacerStyleProps
+        uid: office-ui-fabric-react.IGroupSpacerStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IGroupSpacerStyles
+        fullName: IGroupSpacerStyles
+        uid: office-ui-fabric-react.IGroupSpacerStyles
+      - name: '>'
+        fullName: '>'

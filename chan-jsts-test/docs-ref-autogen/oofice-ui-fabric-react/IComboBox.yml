@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IComboBox
+    name: IComboBox
+    fullName: IComboBox
+    children:
+      - office-ui-fabric-react.IComboBox.dismissMenu
+      - office-ui-fabric-react.IComboBox.focus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ComboBox}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBox.dismissMenu
+    name: dismissMenu
+    fullName: dismissMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If there is a menu open this will dismiss the menu
+    syntax:
+      content: 'dismissMenu: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBox.focus
+    name: 'focus(boolean, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets focus to the input in the comboBox
+    syntax:
+      content: 'function focus(shouldOpenOnFocus?: boolean, useFocusAsync?: boolean)'
+      parameters:
+        - id: shouldOpenOnFocus
+          type:
+            - boolean
+          description: >-
+            Determines if we should open the ComboBox menu when the input gets
+            focus
+          optional: true
+        - id: useFocusAsync
+          type:
+            - boolean
+          description: Determines if we should focus the input asynchronously
+          optional: true
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

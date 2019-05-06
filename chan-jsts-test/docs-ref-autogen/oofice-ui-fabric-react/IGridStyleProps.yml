@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGridStyleProps
+    name: IGridStyleProps
+    fullName: IGridStyleProps
+    children:
+      - office-ui-fabric-react.IGridStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: Properties required to build the styles for the grid component.
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGridStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme to apply to the grid
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

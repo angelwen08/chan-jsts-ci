@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendar
+    name: ICalendar
+    fullName: ICalendar
+    children:
+      - office-ui-fabric-react.ICalendar.focus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Calendar}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendar.focus
+    name: focus
+    fullName: focus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sets focus to the selected date.
+    syntax:
+      content: 'focus: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react

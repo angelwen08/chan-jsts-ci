@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ComponentLike
+    name: ComponentLike
+    fullName: ComponentLike<P>
+    children: []
+    syntax:
+      content: type ComponentLike = ComponentClass<P> | Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: >-
+      A component function which doesn't explicitly declare itself as
+      React.StatelessComponent/SFC/FunctionComponent
+    package: office-ui-fabric-react

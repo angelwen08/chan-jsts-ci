@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.BasePickerListBelow
+    name: BasePickerListBelow
+    fullName: BasePickerListBelow<T>
+    children:
+      - office-ui-fabric-react.BasePickerListBelow.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'office-ui-fabric-react.BasePicker<T, P>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePickerListBelow.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.BasePicker<T, P>'
+    name: 'BasePicker<T, P>'
+    spec.typeScript:
+      - name: BasePicker
+        fullName: BasePicker
+        uid: office-ui-fabric-react.BasePicker
+      - name: '<T, P>'
+        fullName: '<T, P>'

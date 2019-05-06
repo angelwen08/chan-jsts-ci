@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarFormatDateCallbacks
+    name: ICalendarFormatDateCallbacks
+    fullName: ICalendarFormatDateCallbacks
+    children:
+      - office-ui-fabric-react.ICalendarFormatDateCallbacks.formatDay
+      - office-ui-fabric-react.ICalendarFormatDateCallbacks.formatMonthDayYear
+      - office-ui-fabric-react.ICalendarFormatDateCallbacks.formatMonthYear
+      - office-ui-fabric-react.ICalendarFormatDateCallbacks.formatYear
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Calendar}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarFormatDateCallbacks.formatDay
+    name: formatDay
+    fullName: formatDay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback to apply formatting to the days in the Day Picker calendar
+    syntax:
+      content: 'formatDay: (date: Date) => string'
+      return:
+        type:
+          - '(date: Date) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarFormatDateCallbacks.formatMonthDayYear
+    name: formatMonthDayYear
+    fullName: formatMonthDayYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Callback to apply formatting to mmmm d, yyyy formated dates'
+    syntax:
+      content: 'formatMonthDayYear: (date: Date, strings?: ICalendarStrings) => string'
+      return:
+        type:
+          - '(date: Date, strings?: ICalendarStrings) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarFormatDateCallbacks.formatMonthYear
+    name: formatMonthYear
+    fullName: formatMonthYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Callback to apply formatting to the month and year in the Day Picker
+      header
+    syntax:
+      content: 'formatMonthYear: (date: Date, strings?: ICalendarStrings) => string'
+      return:
+        type:
+          - '(date: Date, strings?: ICalendarStrings) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarFormatDateCallbacks.formatYear
+    name: formatYear
+    fullName: formatYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback to apply formatting to the year in the Month Picker header
+    syntax:
+      content: 'formatYear: (date: Date) => string'
+      return:
+        type:
+          - '(date: Date) => string'
+    package: office-ui-fabric-react

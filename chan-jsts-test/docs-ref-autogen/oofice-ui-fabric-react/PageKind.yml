@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.PageKind
+    name: PageKind
+    fullName: PageKind
+    children: []
+    syntax:
+      content: type PageKind = "References" | "Components"
+    langs:
+      - typeScript
+    type: type alias
+    summary: Used to keep track of where the page will live on the site
+    package: office-ui-fabric-react

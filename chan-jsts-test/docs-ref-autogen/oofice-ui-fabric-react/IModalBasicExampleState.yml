@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IModalBasicExampleState
+    name: IModalBasicExampleState
+    fullName: IModalBasicExampleState
+    children:
+      - office-ui-fabric-react.IModalBasicExampleState.isDraggable
+      - office-ui-fabric-react.IModalBasicExampleState.showModal
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IModalBasicExampleState.isDraggable
+    name: isDraggable
+    fullName: isDraggable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isDraggable: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IModalBasicExampleState.showModal
+    name: showModal
+    fullName: showModal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showModal: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

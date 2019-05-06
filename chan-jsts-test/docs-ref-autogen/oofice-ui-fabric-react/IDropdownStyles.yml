@@ -1,0 +1,323 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDropdownStyles
+    name: IDropdownStyles
+    fullName: IDropdownStyles
+    children:
+      - office-ui-fabric-react.IDropdownStyles.callout
+      - office-ui-fabric-react.IDropdownStyles.caretDown
+      - office-ui-fabric-react.IDropdownStyles.caretDownWrapper
+      - office-ui-fabric-react.IDropdownStyles.dropdown
+      - office-ui-fabric-react.IDropdownStyles.dropdownDivider
+      - office-ui-fabric-react.IDropdownStyles.dropdownItem
+      - office-ui-fabric-react.IDropdownStyles.dropdownItemDisabled
+      - office-ui-fabric-react.IDropdownStyles.dropdownItemHeader
+      - office-ui-fabric-react.IDropdownStyles.dropdownItems
+      - office-ui-fabric-react.IDropdownStyles.dropdownItemSelected
+      - office-ui-fabric-react.IDropdownStyles.dropdownItemSelectedAndDisabled
+      - office-ui-fabric-react.IDropdownStyles.dropdownItemsWrapper
+      - office-ui-fabric-react.IDropdownStyles.dropdownOptionText
+      - office-ui-fabric-react.IDropdownStyles.errorMessage
+      - office-ui-fabric-react.IDropdownStyles.label
+      - office-ui-fabric-react.IDropdownStyles.panel
+      - office-ui-fabric-react.IDropdownStyles.root
+      - office-ui-fabric-react.IDropdownStyles.subComponentStyles
+      - office-ui-fabric-react.IDropdownStyles.title
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Represents the stylable areas of the control.
+      {@docCategory Dropdown}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.callout
+    name: callout
+    fullName: callout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the callout that hosts Dropdown options in larger viewports.
+    syntax:
+      content: 'callout: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.caretDown
+    name: caretDown
+    fullName: caretDown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Refers to the downward pointing caret icon users click on to expand the
+      Dropdown.
+    syntax:
+      content: 'caretDown: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.caretDownWrapper
+    name: caretDownWrapper
+    fullName: caretDownWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Refers to the wrapping container around the downward pointing caret users
+      click on to expand the Dropdown.
+    syntax:
+      content: 'caretDownWrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdown
+    name: dropdown
+    fullName: dropdown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the actual Dropdown element.
+    syntax:
+      content: 'dropdown: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownDivider
+    name: dropdownDivider
+    fullName: dropdownDivider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the dropdown separator.
+    syntax:
+      content: 'dropdownDivider: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownItem
+    name: dropdownItem
+    fullName: dropdownItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the individual dropdown item.
+    syntax:
+      content: 'dropdownItem: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownItemDisabled
+    name: dropdownItemDisabled
+    fullName: dropdownItemDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for a dropdown item when it is disabled.
+    syntax:
+      content: 'dropdownItemDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownItemHeader
+    name: dropdownItemHeader
+    fullName: dropdownItemHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Refers to the individual dropdown items that are being rendered as a
+      header.
+    syntax:
+      content: 'dropdownItemHeader: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownItems
+    name: dropdownItems
+    fullName: dropdownItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the FocusZone wrapping the individual dropdown items.
+    syntax:
+      content: 'dropdownItems: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownItemSelected
+    name: dropdownItemSelected
+    fullName: dropdownItemSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for a dropdown item when it is being selected.
+    syntax:
+      content: 'dropdownItemSelected: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownItemSelectedAndDisabled
+    name: dropdownItemSelectedAndDisabled
+    fullName: dropdownItemSelectedAndDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for a dropdown item when it is both selected and disabled.
+    syntax:
+      content: 'dropdownItemSelectedAndDisabled: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownItemsWrapper
+    name: dropdownItemsWrapper
+    fullName: dropdownItemsWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the element that wraps `dropdownItems`.
+    syntax:
+      content: 'dropdownItemsWrapper: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.dropdownOptionText
+    name: dropdownOptionText
+    fullName: dropdownOptionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Refers to the text element that renders the actual dropdown item/option
+      text. This would be wrapped by the element
+
+      referred to by `dropdownItem`.
+    syntax:
+      content: 'dropdownOptionText: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.errorMessage
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the error message being rendered under the Dropdown (if any).
+    syntax:
+      content: 'errorMessage: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Refers to the label associated with the dropdown. This is enclosed by the
+      root.
+    syntax:
+      content: 'label: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.panel
+    name: panel
+    fullName: panel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Refers to the panel that hosts the Dropdown options in small viewports.
+      Note: This will be deprecated when Panel supports JS Styling.
+    syntax:
+      content: 'panel: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Root element of the Dropdown (includes Label and the actual Dropdown).
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.subComponentStyles
+    name: subComponentStyles
+    fullName: subComponentStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Subcomponent styles.
+    syntax:
+      content: 'subComponentStyles: IDropdownSubComponentStyles'
+      return:
+        type:
+          - office-ui-fabric-react.IDropdownSubComponentStyles
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDropdownStyles.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Refers to the primary title of the Dropdown (rendering the selected
+      options/placeholder/etc.).
+    syntax:
+      content: 'title: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IDropdownSubComponentStyles
+    name: IDropdownSubComponentStyles
+    spec.typeScript:
+      - name: IDropdownSubComponentStyles
+        fullName: IDropdownSubComponentStyles
+        uid: office-ui-fabric-react.IDropdownSubComponentStyles

@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IContextualMenuSection
+    name: IContextualMenuSection
+    fullName: IContextualMenuSection
+    children:
+      - office-ui-fabric-react.IContextualMenuSection.bottomDivider
+      - office-ui-fabric-react.IContextualMenuSection.items
+      - office-ui-fabric-react.IContextualMenuSection.title
+      - office-ui-fabric-react.IContextualMenuSection.topDivider
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      React.Props is deprecated and we're removing it in 6.0. Usage of 'any'
+      should go away with it.
+
+      {@docCategory ContextualMenu}
+    extends:
+      name: ClassAttributes<any>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuSection.bottomDivider
+    name: bottomDivider
+    fullName: bottomDivider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If set to true, the section will display a divider at the bottom of the
+      section.
+    optional: true
+    syntax:
+      content: 'bottomDivider?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuSection.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The items to include inside the section.
+    syntax:
+      content: 'items: IContextualMenuItem[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IContextualMenuItem[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuSection.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The optional section title.
+    optional: true
+    syntax:
+      content: 'title?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuSection.topDivider
+    name: topDivider
+    fullName: topDivider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If set to true, the section will display a divider at the top of the
+      section.
+    optional: true
+    syntax:
+      content: 'topDivider?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IContextualMenuItem[]'
+    name: 'IContextualMenuItem[]'
+    spec.typeScript:
+      - name: IContextualMenuItem
+        fullName: IContextualMenuItem
+        uid: office-ui-fabric-react.IContextualMenuItem
+      - name: '[]'
+        fullName: '[]'

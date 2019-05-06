@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.AnnouncedLazyLoadingExample
+    name: AnnouncedLazyLoadingExample
+    fullName: AnnouncedLazyLoadingExample<SS>
+    children:
+      - office-ui-fabric-react.AnnouncedLazyLoadingExample.constructor
+      - office-ui-fabric-react.AnnouncedLazyLoadingExample.componentDidMount
+      - office-ui-fabric-react.AnnouncedLazyLoadingExample.componentWillUnmount
+      - office-ui-fabric-react.AnnouncedLazyLoadingExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.IAnnouncedLazyLoadingExampleProps,
+        office-ui-fabric-react.IAnnouncedLazyLoadingExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.AnnouncedLazyLoadingExample.constructor
+    name: AnnouncedLazyLoadingExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AnnouncedLazyLoadingExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.AnnouncedLazyLoadingExample.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.AnnouncedLazyLoadingExample.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.AnnouncedLazyLoadingExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.IAnnouncedLazyLoadingExampleProps,
+      office-ui-fabric-react.IAnnouncedLazyLoadingExampleState>
+    name: IAnnouncedLazyLoadingExampleState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IAnnouncedLazyLoadingExampleProps
+        fullName: IAnnouncedLazyLoadingExampleProps
+        uid: office-ui-fabric-react.IAnnouncedLazyLoadingExampleProps
+      - name: ', '
+        fullName: ', '
+      - name: IAnnouncedLazyLoadingExampleState
+        fullName: IAnnouncedLazyLoadingExampleState
+        uid: office-ui-fabric-react.IAnnouncedLazyLoadingExampleState
+      - name: '>'
+        fullName: '>'

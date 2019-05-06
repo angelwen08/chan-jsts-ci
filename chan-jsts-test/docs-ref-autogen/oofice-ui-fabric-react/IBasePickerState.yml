@@ -1,0 +1,173 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBasePickerState
+    name: IBasePickerState
+    fullName: IBasePickerState
+    children:
+      - office-ui-fabric-react.IBasePickerState.isFocused
+      - office-ui-fabric-react.IBasePickerState.isMostRecentlyUsedVisible
+      - office-ui-fabric-react.IBasePickerState.isResultsFooterVisible
+      - office-ui-fabric-react.IBasePickerState.isSearching
+      - office-ui-fabric-react.IBasePickerState.items
+      - office-ui-fabric-react.IBasePickerState.moreSuggestionsAvailable
+      - office-ui-fabric-react.IBasePickerState.selectedIndices
+      - office-ui-fabric-react.IBasePickerState.suggestedDisplayValue
+      - office-ui-fabric-react.IBasePickerState.suggestionsLoading
+      - office-ui-fabric-react.IBasePickerState.suggestionsVisible
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.isFocused
+    name: isFocused
+    fullName: isFocused
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isFocused?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.isMostRecentlyUsedVisible
+    name: isMostRecentlyUsedVisible
+    fullName: isMostRecentlyUsedVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isMostRecentlyUsedVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.isResultsFooterVisible
+    name: isResultsFooterVisible
+    fullName: isResultsFooterVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isResultsFooterVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.isSearching
+    name: isSearching
+    fullName: isSearching
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isSearching?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'items?: any'
+      return:
+        type:
+          - any
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.moreSuggestionsAvailable
+    name: moreSuggestionsAvailable
+    fullName: moreSuggestionsAvailable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'moreSuggestionsAvailable?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.selectedIndices
+    name: selectedIndices
+    fullName: selectedIndices
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectedIndices?: number[]'
+      return:
+        type:
+          - 'number[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.suggestedDisplayValue
+    name: suggestedDisplayValue
+    fullName: suggestedDisplayValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'suggestedDisplayValue?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.suggestionsLoading
+    name: suggestionsLoading
+    fullName: suggestionsLoading
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'suggestionsLoading?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBasePickerState.suggestionsVisible
+    name: suggestionsVisible
+    fullName: suggestionsVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'suggestionsVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

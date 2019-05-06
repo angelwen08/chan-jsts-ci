@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPageSpecification
+    name: IPageSpecification
+    fullName: IPageSpecification
+    children:
+      - office-ui-fabric-react.IPageSpecification.data
+      - office-ui-fabric-react.IPageSpecification.height
+      - office-ui-fabric-react.IPageSpecification.itemCount
+      - office-ui-fabric-react.IPageSpecification.key
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory List}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPageSpecification.data
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Data to pass through to the page when rendering.
+    optional: true
+    syntax:
+      content: 'data?: any'
+      return:
+        type:
+          - any
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPageSpecification.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The estimated pixel height of the page.
+    optional: true
+    syntax:
+      content: 'height?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPageSpecification.itemCount
+    name: itemCount
+    fullName: itemCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The number of items to allocate to the page.
+    optional: true
+    syntax:
+      content: 'itemCount?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPageSpecification.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The key to use when creating the page.
+    optional: true
+    syntax:
+      content: 'key?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

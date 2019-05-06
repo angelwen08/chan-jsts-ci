@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.correctRGB
+    name: correctRGB(IRGB)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Corrects an RGB color to fall within the valid range.
+    syntax:
+      content: 'function correctRGB(color: IRGB)'
+      parameters:
+        - id: color
+          type:
+            - office-ui-fabric-react.IRGB
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.IRGB
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IRGB
+    name: IRGB
+    spec.typeScript:
+      - name: IRGB
+        fullName: IRGB
+        uid: office-ui-fabric-react.IRGB

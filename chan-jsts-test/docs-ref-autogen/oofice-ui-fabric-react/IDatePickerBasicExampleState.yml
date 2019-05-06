@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDatePickerBasicExampleState
+    name: IDatePickerBasicExampleState
+    fullName: IDatePickerBasicExampleState
+    children:
+      - office-ui-fabric-react.IDatePickerBasicExampleState.firstDayOfWeek
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerBasicExampleState.firstDayOfWeek
+    name: firstDayOfWeek
+    fullName: firstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'firstDayOfWeek?: DayOfWeek'
+      return:
+        type:
+          - office-ui-fabric-react.DayOfWeek
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.DayOfWeek
+    name: DayOfWeek
+    spec.typeScript:
+      - name: DayOfWeek
+        fullName: DayOfWeek
+        uid: office-ui-fabric-react.DayOfWeek

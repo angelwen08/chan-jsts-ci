@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IMessageBar
+    name: IMessageBar
+    fullName: IMessageBar
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory MessageBar}'
+    package: office-ui-fabric-react

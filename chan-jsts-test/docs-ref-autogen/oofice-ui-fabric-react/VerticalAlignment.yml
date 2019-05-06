@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.VerticalAlignment
+    name: VerticalAlignment
+    fullName: VerticalAlignment
+    children: []
+    syntax:
+      content: type VerticalAlignment = "start" | "center" | "end"
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    package: office-ui-fabric-react

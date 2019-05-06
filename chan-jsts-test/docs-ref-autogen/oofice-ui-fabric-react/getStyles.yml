@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getStyles
+    name: getStyles(ITagItemSuggestionStyleProps)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getStyles(props: ITagItemSuggestionStyleProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ITagItemSuggestionStyleProps
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.ITagItemSuggestionStyles
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ITagItemSuggestionStyleProps
+    name: ITagItemSuggestionStyleProps
+    spec.typeScript:
+      - name: ITagItemSuggestionStyleProps
+        fullName: ITagItemSuggestionStyleProps
+        uid: office-ui-fabric-react.ITagItemSuggestionStyleProps
+  - uid: office-ui-fabric-react.ITagItemSuggestionStyles
+    name: ITagItemSuggestionStyles
+    spec.typeScript:
+      - name: ITagItemSuggestionStyles
+        fullName: ITagItemSuggestionStyles
+        uid: office-ui-fabric-react.ITagItemSuggestionStyles

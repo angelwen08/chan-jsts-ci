@@ -1,0 +1,136 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.CheckboxBase
+    name: CheckboxBase
+    fullName: CheckboxBase<SS>
+    children:
+      - office-ui-fabric-react.CheckboxBase.constructor
+      - office-ui-fabric-react.CheckboxBase.checked
+      - office-ui-fabric-react.CheckboxBase.componentWillReceiveProps
+      - office-ui-fabric-react.CheckboxBase.defaultProps
+      - office-ui-fabric-react.CheckboxBase.focus
+      - office-ui-fabric-react.CheckboxBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.ICheckboxProps,
+        office-ui-fabric-react.ICheckboxState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CheckboxBase.constructor
+    name: 'CheckboxBase(ICheckboxProps, any)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Initialize a new instance of the Checkbox
+    syntax:
+      content: 'new CheckboxBase(props: ICheckboxProps, context?: any)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ICheckboxProps
+          description: Props for the component
+        - id: context
+          type:
+            - any
+          description: |
+            Context or initial state for the base component.
+          optional: true
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CheckboxBase.checked
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'checked: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CheckboxBase.componentWillReceiveProps
+    name: componentWillReceiveProps(ICheckboxProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: ICheckboxProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.ICheckboxProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CheckboxBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: ICheckboxProps'
+      return:
+        type:
+          - office-ui-fabric-react.ICheckboxProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CheckboxBase.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CheckboxBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Render the Checkbox based on passed props
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.ICheckboxProps,
+      office-ui-fabric-react.ICheckboxState>
+    name: ICheckboxState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: ICheckboxProps
+        fullName: ICheckboxProps
+        uid: office-ui-fabric-react.ICheckboxProps
+      - name: ', '
+        fullName: ', '
+      - name: ICheckboxState
+        fullName: ICheckboxState
+        uid: office-ui-fabric-react.ICheckboxState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ICheckboxProps
+    name: ICheckboxProps
+    spec.typeScript:
+      - name: ICheckboxProps
+        fullName: ICheckboxProps
+        uid: office-ui-fabric-react.ICheckboxProps

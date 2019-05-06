@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.MonthOfYear
+    name: MonthOfYear
+    fullName: MonthOfYear
+    children:
+      - office-ui-fabric-react.MonthOfYear.January
+      - office-ui-fabric-react.MonthOfYear.February
+      - office-ui-fabric-react.MonthOfYear.March
+      - office-ui-fabric-react.MonthOfYear.April
+      - office-ui-fabric-react.MonthOfYear.May
+      - office-ui-fabric-react.MonthOfYear.June
+      - office-ui-fabric-react.MonthOfYear.July
+      - office-ui-fabric-react.MonthOfYear.August
+      - office-ui-fabric-react.MonthOfYear.September
+      - office-ui-fabric-react.MonthOfYear.October
+      - office-ui-fabric-react.MonthOfYear.November
+      - office-ui-fabric-react.MonthOfYear.December
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      The months
+      {@docCategory MonthOfYear}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.January
+    name: January
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.February
+    name: February
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.March
+    name: March
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.April
+    name: April
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.May
+    name: May
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.June
+    name: June
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.July
+    name: July
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.August
+    name: August
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.September
+    name: September
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.October
+    name: October
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.November
+    name: November
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.MonthOfYear.December
+    name: December
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 11
+    package: office-ui-fabric-react

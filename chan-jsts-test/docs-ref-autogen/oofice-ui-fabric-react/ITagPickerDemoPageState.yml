@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITagPickerDemoPageState
+    name: ITagPickerDemoPageState
+    fullName: ITagPickerDemoPageState
+    children:
+      - office-ui-fabric-react.ITagPickerDemoPageState.isPickerDisabled
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITagPickerDemoPageState.isPickerDisabled
+    name: isPickerDisabled
+    fullName: isPickerDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isPickerDisabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

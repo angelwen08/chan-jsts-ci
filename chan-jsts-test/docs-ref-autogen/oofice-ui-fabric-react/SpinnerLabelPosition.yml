@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SpinnerLabelPosition
+    name: SpinnerLabelPosition
+    fullName: SpinnerLabelPosition
+    children: []
+    syntax:
+      content: type SpinnerLabelPosition = "top" | "right" | "bottom" | "left"
+    langs:
+      - typeScript
+    type: type alias
+    summary: Possible locations of the label in regards to the spinner
+    package: office-ui-fabric-react

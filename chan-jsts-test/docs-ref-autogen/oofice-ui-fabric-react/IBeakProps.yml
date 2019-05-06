@@ -1,0 +1,190 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBeakProps
+    name: IBeakProps
+    fullName: IBeakProps
+    children:
+      - office-ui-fabric-react.IBeakProps.bottom
+      - office-ui-fabric-react.IBeakProps.color
+      - office-ui-fabric-react.IBeakProps.componentRef
+      - office-ui-fabric-react.IBeakProps.direction
+      - office-ui-fabric-react.IBeakProps.height
+      - office-ui-fabric-react.IBeakProps.left
+      - office-ui-fabric-react.IBeakProps.right
+      - office-ui-fabric-react.IBeakProps.top
+      - office-ui-fabric-react.IBeakProps.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: IBaseProps<office-ui-fabric-react.IBeak>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakProps.bottom
+    name: bottom
+    fullName: bottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Bottom position of the beak
+    optional: true
+    syntax:
+      content: 'bottom?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakProps.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Color of the beak
+    optional: true
+    syntax:
+      content: 'color?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: All props for your component are to be defined here.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IBeak>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IBeak>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakProps.direction
+    name: direction
+    fullName: direction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Direction of beak
+    optional: true
+    syntax:
+      content: 'direction?: RectangleEdge'
+      return:
+        type:
+          - office-ui-fabric-react.RectangleEdge
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakProps.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Beak height.
+    optional: true
+    syntax:
+      content: 'height?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+    deprecated:
+      content: Do not use.
+  - uid: office-ui-fabric-react.IBeakProps.left
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Left position of the beak
+    optional: true
+    syntax:
+      content: 'left?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakProps.right
+    name: right
+    fullName: right
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Right position of the beak
+    optional: true
+    syntax:
+      content: 'right?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakProps.top
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Top position of the beak
+    optional: true
+    syntax:
+      content: 'top?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakProps.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Beak width.
+    optional: true
+    syntax:
+      content: 'width?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+    deprecated:
+      content: Do not use.
+references:
+  - uid: IBaseProps<office-ui-fabric-react.IBeak>
+    name: IBeak>
+    spec.typeScript:
+      - name: IBaseProps<
+        fullName: IBaseProps<
+      - name: IBeak
+        fullName: IBeak
+        uid: office-ui-fabric-react.IBeak
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.IBeak>
+    name: IBeak>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IBeak
+        fullName: IBeak
+        uid: office-ui-fabric-react.IBeak
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.RectangleEdge
+    name: RectangleEdge
+    spec.typeScript:
+      - name: RectangleEdge
+        fullName: RectangleEdge
+        uid: office-ui-fabric-react.RectangleEdge

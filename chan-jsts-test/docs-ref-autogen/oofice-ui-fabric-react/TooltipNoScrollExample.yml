@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TooltipNoScrollExample
+    name: TooltipNoScrollExample
+    fullName: TooltipNoScrollExample<TState>
+    children:
+      - office-ui-fabric-react.TooltipNoScrollExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: BaseComponent<__type>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipNoScrollExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react

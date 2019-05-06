@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.VerticalStackShrinkExample
+    name: VerticalStackShrinkExample
+    fullName: VerticalStackShrinkExample<SS>
+    children:
+      - office-ui-fabric-react.VerticalStackShrinkExample.render
+      - office-ui-fabric-react.VerticalStackShrinkExample.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, office-ui-fabric-react.IExampleState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.VerticalStackShrinkExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.VerticalStackShrinkExample.constructor
+    name: VerticalStackShrinkExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new VerticalStackShrinkExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<__type, office-ui-fabric-react.IExampleState>'
+    name: IExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IExampleState
+        fullName: IExampleState
+        uid: office-ui-fabric-react.IExampleState
+      - name: '>'
+        fullName: '>'

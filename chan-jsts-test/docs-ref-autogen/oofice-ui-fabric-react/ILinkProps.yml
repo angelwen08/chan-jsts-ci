@@ -1,0 +1,172 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILinkProps
+    name: ILinkProps
+    fullName: ILinkProps
+    children:
+      - office-ui-fabric-react.ILinkProps.as
+      - office-ui-fabric-react.ILinkProps.componentRef
+      - office-ui-fabric-react.ILinkProps.disabled
+      - office-ui-fabric-react.ILinkProps.keytipProps
+      - office-ui-fabric-react.ILinkProps.styles
+      - office-ui-fabric-react.ILinkProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Link}'
+    extends:
+      name: >-
+        office-ui-fabric-react.ILinkHTMLAttributes<HTMLAnchorElement |
+        HTMLButtonElement | HTMLElement | office-ui-fabric-react.LinkBase>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkProps.as
+    name: as
+    fullName: as
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A component that should be used as the root element of the link returned
+      from the Link component.
+    optional: true
+    syntax:
+      content: 'as?: string | ComponentClass | StatelessComponent'
+      return:
+        type:
+          - string | ComponentClass | StatelessComponent
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the ILink interface. Use this instead of ref
+      for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<ILink>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.ILink>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the link is disabled
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkProps.keytipProps
+    name: keytipProps
+    fullName: keytipProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional keytip for this Link
+    optional: true
+    syntax:
+      content: 'keytipProps?: IKeytipProps'
+      return:
+        type:
+          - office-ui-fabric-react.IKeytipProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<ILinkStyleProps, ILinkStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.ILinkStyleProps,
+            office-ui-fabric-react.ILinkStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme (provided through customization.)
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      office-ui-fabric-react.ILinkHTMLAttributes<HTMLAnchorElement |
+      HTMLButtonElement | HTMLElement | office-ui-fabric-react.LinkBase>
+    name: LinkBase>
+    spec.typeScript:
+      - name: ILinkHTMLAttributes
+        fullName: ILinkHTMLAttributes
+        uid: office-ui-fabric-react.ILinkHTMLAttributes
+      - name: '<HTMLAnchorElement | HTMLButtonElement | HTMLElement | '
+        fullName: '<HTMLAnchorElement | HTMLButtonElement | HTMLElement | '
+      - name: LinkBase
+        fullName: LinkBase
+        uid: office-ui-fabric-react.LinkBase
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.ILink>
+    name: ILink>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: ILink
+        fullName: ILink
+        uid: office-ui-fabric-react.ILink
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IKeytipProps
+    name: IKeytipProps
+    spec.typeScript:
+      - name: IKeytipProps
+        fullName: IKeytipProps
+        uid: office-ui-fabric-react.IKeytipProps
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.ILinkStyleProps,
+      office-ui-fabric-react.ILinkStyles>
+    name: ILinkStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: ILinkStyleProps
+        fullName: ILinkStyleProps
+        uid: office-ui-fabric-react.ILinkStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: ILinkStyles
+        fullName: ILinkStyles
+        uid: office-ui-fabric-react.ILinkStyles
+      - name: '>'
+        fullName: '>'

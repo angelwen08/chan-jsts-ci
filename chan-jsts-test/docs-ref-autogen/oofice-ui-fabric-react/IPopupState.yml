@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPopupState
+    name: IPopupState
+    fullName: IPopupState
+    children:
+      - office-ui-fabric-react.IPopupState.needsVerticalScrollBar
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPopupState.needsVerticalScrollBar
+    name: needsVerticalScrollBar
+    fullName: needsVerticalScrollBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'needsVerticalScrollBar?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

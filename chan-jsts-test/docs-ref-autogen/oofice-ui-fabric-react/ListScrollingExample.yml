@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ListScrollingExample
+    name: ListScrollingExample
+    fullName: ListScrollingExample<SS>
+    children:
+      - office-ui-fabric-react.ListScrollingExample.componentWillUnmount
+      - office-ui-fabric-react.ListScrollingExample.constructor
+      - office-ui-fabric-react.ListScrollingExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.IListScrollingExampleProps,
+        office-ui-fabric-react.IListScrollingExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ListScrollingExample.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ListScrollingExample.constructor
+    name: ListScrollingExample(IListScrollingExampleProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ListScrollingExample(props: IListScrollingExampleProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IListScrollingExampleProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ListScrollingExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.IListScrollingExampleProps,
+      office-ui-fabric-react.IListScrollingExampleState>
+    name: IListScrollingExampleState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IListScrollingExampleProps
+        fullName: IListScrollingExampleProps
+        uid: office-ui-fabric-react.IListScrollingExampleProps
+      - name: ', '
+        fullName: ', '
+      - name: IListScrollingExampleState
+        fullName: IListScrollingExampleState
+        uid: office-ui-fabric-react.IListScrollingExampleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IListScrollingExampleProps
+    name: IListScrollingExampleProps
+    spec.typeScript:
+      - name: IListScrollingExampleProps
+        fullName: IListScrollingExampleProps
+        uid: office-ui-fabric-react.IListScrollingExampleProps

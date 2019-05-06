@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IFabricStyleProps
+    name: IFabricStyleProps
+    fullName: IFabricStyleProps
+    children:
+      - office-ui-fabric-react.IFabricStyleProps.isFocusVisible
+      - office-ui-fabric-react.IFabricStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: office-ui-fabric-react.IFabricProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFabricStyleProps.isFocusVisible
+    name: isFocusVisible
+    fullName: isFocusVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isFocusVisible: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFabricStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IFabricProps
+    name: IFabricProps
+    spec.typeScript:
+      - name: IFabricProps
+        fullName: IFabricProps
+        uid: office-ui-fabric-react.IFabricProps

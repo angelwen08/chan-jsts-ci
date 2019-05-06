@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.delay
+    name: delay(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delay(millisecond: number)'
+      parameters:
+        - id: millisecond
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<void>
+    package: office-ui-fabric-react

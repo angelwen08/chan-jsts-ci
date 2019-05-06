@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ListPeoplePickerBase
+    name: ListPeoplePickerBase
+    fullName: ListPeoplePickerBase<SS>
+    children:
+      - office-ui-fabric-react.ListPeoplePickerBase.defaultProps
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      MemberList layout. The selected people show up below the search box.
+      {@docCategory PeoplePicker}
+    extends:
+      name: office-ui-fabric-react.MemberListPeoplePicker
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ListPeoplePickerBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Default props for ListPeoplePicker.
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.MemberListPeoplePicker
+    name: MemberListPeoplePicker
+    spec.typeScript:
+      - name: MemberListPeoplePicker
+        fullName: MemberListPeoplePicker
+        uid: office-ui-fabric-react.MemberListPeoplePicker

@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DetailsListGroupedExample
+    name: DetailsListGroupedExample
+    fullName: DetailsListGroupedExample<SS>
+    children:
+      - office-ui-fabric-react.DetailsListGroupedExample.componentWillUnmount
+      - office-ui-fabric-react.DetailsListGroupedExample.constructor
+      - office-ui-fabric-react.DetailsListGroupedExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<__type,
+        office-ui-fabric-react.IDetailsListGroupedExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListGroupedExample.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListGroupedExample.constructor
+    name: DetailsListGroupedExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DetailsListGroupedExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DetailsListGroupedExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<__type,
+      office-ui-fabric-react.IDetailsListGroupedExampleState>
+    name: IDetailsListGroupedExampleState>
+    spec.typeScript:
+      - name: 'BaseComponent<__type, '
+        fullName: 'BaseComponent<__type, '
+      - name: IDetailsListGroupedExampleState
+        fullName: IDetailsListGroupedExampleState
+        uid: office-ui-fabric-react.IDetailsListGroupedExampleState
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILabelStyles
+    name: ILabelStyles
+    fullName: ILabelStyles
+    children:
+      - office-ui-fabric-react.ILabelStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Label}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILabelStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

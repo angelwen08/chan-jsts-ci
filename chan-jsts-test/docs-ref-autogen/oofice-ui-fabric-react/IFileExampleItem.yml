@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IFileExampleItem
+    name: IFileExampleItem
+    fullName: IFileExampleItem
+    children:
+      - office-ui-fabric-react.IFileExampleItem.filesize
+      - office-ui-fabric-react.IFileExampleItem.key
+      - office-ui-fabric-react.IFileExampleItem.modified
+      - office-ui-fabric-react.IFileExampleItem.modifiedby
+      - office-ui-fabric-react.IFileExampleItem.name
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFileExampleItem.filesize
+    name: filesize
+    fullName: filesize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'filesize: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFileExampleItem.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFileExampleItem.modified
+    name: modified
+    fullName: modified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'modified: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFileExampleItem.modifiedby
+    name: modifiedby
+    fullName: modifiedby
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'modifiedby: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFileExampleItem.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

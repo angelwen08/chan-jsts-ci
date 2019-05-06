@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ButtonCompoundExample
+    name: ButtonCompoundExample
+    fullName: ButtonCompoundExample<S>
+    children:
+      - office-ui-fabric-react.ButtonCompoundExample.constructor
+      - office-ui-fabric-react.ButtonCompoundExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: Component<office-ui-fabric-react.IButtonProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ButtonCompoundExample.constructor
+    name: ButtonCompoundExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ButtonCompoundExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ButtonCompoundExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: Component<office-ui-fabric-react.IButtonProps>
+    name: IButtonProps>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IButtonProps
+        fullName: IButtonProps
+        uid: office-ui-fabric-react.IButtonProps
+      - name: '>'
+        fullName: '>'

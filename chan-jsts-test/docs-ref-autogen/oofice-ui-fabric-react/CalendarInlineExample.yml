@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.CalendarInlineExample
+    name: CalendarInlineExample
+    fullName: CalendarInlineExample<SS>
+    children:
+      - office-ui-fabric-react.CalendarInlineExample.constructor
+      - office-ui-fabric-react.CalendarInlineExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.ICalendarInlineExampleProps,
+        office-ui-fabric-react.ICalendarInlineExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CalendarInlineExample.constructor
+    name: CalendarInlineExample(ICalendarInlineExampleProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CalendarInlineExample(props: ICalendarInlineExampleProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ICalendarInlineExampleProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CalendarInlineExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.ICalendarInlineExampleProps,
+      office-ui-fabric-react.ICalendarInlineExampleState>
+    name: ICalendarInlineExampleState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: ICalendarInlineExampleProps
+        fullName: ICalendarInlineExampleProps
+        uid: office-ui-fabric-react.ICalendarInlineExampleProps
+      - name: ', '
+        fullName: ', '
+      - name: ICalendarInlineExampleState
+        fullName: ICalendarInlineExampleState
+        uid: office-ui-fabric-react.ICalendarInlineExampleState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ICalendarInlineExampleProps
+    name: ICalendarInlineExampleProps
+    spec.typeScript:
+      - name: ICalendarInlineExampleProps
+        fullName: ICalendarInlineExampleProps
+        uid: office-ui-fabric-react.ICalendarInlineExampleProps

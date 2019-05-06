@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.BaseFloatingPeoplePicker
+    name: BaseFloatingPeoplePicker
+    fullName: BaseFloatingPeoplePicker<SS>
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: '{@docCategory FloatingPeoplePicker}'
+    extends:
+      name: >-
+        office-ui-fabric-react.BaseFloatingPicker<office-ui-fabric-react.IPersonaProps,
+        office-ui-fabric-react.IPeopleFloatingPickerProps>
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      office-ui-fabric-react.BaseFloatingPicker<office-ui-fabric-react.IPersonaProps,
+      office-ui-fabric-react.IPeopleFloatingPickerProps>
+    name: IPeopleFloatingPickerProps>
+    spec.typeScript:
+      - name: BaseFloatingPicker
+        fullName: BaseFloatingPicker
+        uid: office-ui-fabric-react.BaseFloatingPicker
+      - name: <
+        fullName: <
+      - name: IPersonaProps
+        fullName: IPersonaProps
+        uid: office-ui-fabric-react.IPersonaProps
+      - name: ', '
+        fullName: ', '
+      - name: IPeopleFloatingPickerProps
+        fullName: IPeopleFloatingPickerProps
+        uid: office-ui-fabric-react.IPeopleFloatingPickerProps
+      - name: '>'
+        fullName: '>'

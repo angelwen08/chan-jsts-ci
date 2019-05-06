@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.addMonths
+    name: 'addMonths(Date, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns a date offset from the given date by the specified number of
+      months.
+
+      The method tries to preserve the day-of-month; however, if the new month
+      does not have enough days
+
+      to contain the original day-of-month, we'll use the last day of the new
+      month.
+    syntax:
+      content: 'function addMonths(date: Date, months: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The origin date
+        - id: months
+          type:
+            - number
+          description: The number of months to offset. 'months' can be negative.
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react

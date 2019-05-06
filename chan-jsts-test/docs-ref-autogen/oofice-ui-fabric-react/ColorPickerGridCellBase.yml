@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ColorPickerGridCellBase
+    name: ColorPickerGridCellBase
+    fullName: ColorPickerGridCellBase<SS>
+    children:
+      - office-ui-fabric-react.ColorPickerGridCellBase.defaultProps
+      - office-ui-fabric-react.ColorPickerGridCellBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<office-ui-fabric-react.IColorPickerGridCellProps, __type>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ColorPickerGridCellBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: IColorPickerGridCellProps'
+      return:
+        type:
+          - office-ui-fabric-react.IColorPickerGridCellProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ColorPickerGridCellBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<office-ui-fabric-react.IColorPickerGridCellProps, __type>'
+    name: 'IColorPickerGridCellProps, __type>'
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IColorPickerGridCellProps
+        fullName: IColorPickerGridCellProps
+        uid: office-ui-fabric-react.IColorPickerGridCellProps
+      - name: ', __type>'
+        fullName: ', __type>'
+  - uid: office-ui-fabric-react.IColorPickerGridCellProps
+    name: IColorPickerGridCellProps
+    spec.typeScript:
+      - name: IColorPickerGridCellProps
+        fullName: IColorPickerGridCellProps
+        uid: office-ui-fabric-react.IColorPickerGridCellProps

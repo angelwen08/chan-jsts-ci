@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILinkStyles
+    name: ILinkStyles
+    fullName: ILinkStyles
+    children:
+      - office-ui-fabric-react.ILinkStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Link}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILinkStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

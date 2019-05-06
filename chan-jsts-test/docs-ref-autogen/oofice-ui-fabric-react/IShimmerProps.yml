@@ -1,0 +1,231 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerProps
+    name: IShimmerProps
+    fullName: IShimmerProps
+    children:
+      - office-ui-fabric-react.IShimmerProps.ariaLabel
+      - office-ui-fabric-react.IShimmerProps.className
+      - office-ui-fabric-react.IShimmerProps.componentRef
+      - office-ui-fabric-react.IShimmerProps.customElementsGroup
+      - office-ui-fabric-react.IShimmerProps.isDataLoaded
+      - office-ui-fabric-react.IShimmerProps.shimmerColors
+      - office-ui-fabric-react.IShimmerProps.shimmerElements
+      - office-ui-fabric-react.IShimmerProps.styles
+      - office-ui-fabric-react.IShimmerProps.theme
+      - office-ui-fabric-react.IShimmerProps.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Shimmer component props.
+      {@docCategory Shimmer}
+    extends:
+      name: AllHTMLAttributes<HTMLElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Localized string of the status label for screen reader
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional CSS class(es) to apply to the Shimmer container.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IShimmer interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IShimmer>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IShimmer>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.customElementsGroup
+    name: customElementsGroup
+    fullName: customElementsGroup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom elements when necessary to build complex placeholder skeletons.
+    optional: true
+    syntax:
+      content: 'customElementsGroup?: React.ReactNode'
+      return:
+        type:
+          - React.ReactNode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.isDataLoaded
+    name: isDataLoaded
+    fullName: isDataLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Controls when the shimmer is swapped with actual data through an animated
+      transition.
+    optional: true
+    syntax:
+      content: 'isDataLoaded?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.shimmerColors
+    name: shimmerColors
+    fullName: shimmerColors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines an object with possible colors to pass for Shimmer customization
+      used on different backgrounds.
+    optional: true
+    syntax:
+      content: 'shimmerColors?: IShimmerColors'
+      return:
+        type:
+          - office-ui-fabric-react.IShimmerColors
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.shimmerElements
+    name: shimmerElements
+    fullName: shimmerElements
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Elements to render in one line of the Shimmer.
+    optional: true
+    syntax:
+      content: 'shimmerElements?: IShimmerElement[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IShimmerElement[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<IShimmerStyleProps, IShimmerStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IShimmerStyleProps,
+            office-ui-fabric-react.IShimmerStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerProps.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sets the width value of the shimmer wave wrapper.
+    optional: true
+    syntax:
+      content: 'width?: number | string'
+      return:
+        type:
+          - number | string
+    package: office-ui-fabric-react
+references:
+  - uid: IRefObject<office-ui-fabric-react.IShimmer>
+    name: IShimmer>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IShimmer
+        fullName: IShimmer
+        uid: office-ui-fabric-react.IShimmer
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IShimmerColors
+    name: IShimmerColors
+    spec.typeScript:
+      - name: IShimmerColors
+        fullName: IShimmerColors
+        uid: office-ui-fabric-react.IShimmerColors
+  - uid: 'office-ui-fabric-react.IShimmerElement[]'
+    name: 'IShimmerElement[]'
+    spec.typeScript:
+      - name: IShimmerElement
+        fullName: IShimmerElement
+        uid: office-ui-fabric-react.IShimmerElement
+      - name: '[]'
+        fullName: '[]'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IShimmerStyleProps,
+      office-ui-fabric-react.IShimmerStyles>
+    name: IShimmerStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IShimmerStyleProps
+        fullName: IShimmerStyleProps
+        uid: office-ui-fabric-react.IShimmerStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IShimmerStyles
+        fullName: IShimmerStyles
+        uid: office-ui-fabric-react.IShimmerStyles
+      - name: '>'
+        fullName: '>'

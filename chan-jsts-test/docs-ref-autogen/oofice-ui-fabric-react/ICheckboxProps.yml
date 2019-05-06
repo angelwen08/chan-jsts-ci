@@ -1,0 +1,406 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICheckboxProps
+    name: ICheckboxProps
+    fullName: ICheckboxProps
+    children:
+      - office-ui-fabric-react.ICheckboxProps.ariaDescribedBy
+      - office-ui-fabric-react.ICheckboxProps.ariaLabel
+      - office-ui-fabric-react.ICheckboxProps.ariaLabelledBy
+      - office-ui-fabric-react.ICheckboxProps.ariaPositionInSet
+      - office-ui-fabric-react.ICheckboxProps.ariaSetSize
+      - office-ui-fabric-react.ICheckboxProps.boxSide
+      - office-ui-fabric-react.ICheckboxProps.checked
+      - office-ui-fabric-react.ICheckboxProps.checkmarkIconProps
+      - office-ui-fabric-react.ICheckboxProps.className
+      - office-ui-fabric-react.ICheckboxProps.componentRef
+      - office-ui-fabric-react.ICheckboxProps.defaultChecked
+      - office-ui-fabric-react.ICheckboxProps.disabled
+      - office-ui-fabric-react.ICheckboxProps.inputProps
+      - office-ui-fabric-react.ICheckboxProps.keytipProps
+      - office-ui-fabric-react.ICheckboxProps.label
+      - office-ui-fabric-react.ICheckboxProps.onChange
+      - office-ui-fabric-react.ICheckboxProps.onRenderLabel
+      - office-ui-fabric-react.ICheckboxProps.styles
+      - office-ui-fabric-react.ICheckboxProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Checkbox properties.
+      {@docCategory Checkbox}
+    extends:
+      name: ButtonHTMLAttributes<HTMLElement | HTMLInputElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.ariaDescribedBy
+    name: ariaDescribedBy
+    fullName: ariaDescribedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ID for element that provides extended information for the checkbox.
+    optional: true
+    syntax:
+      content: 'ariaDescribedBy?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accessible label for the checkbox.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.ariaLabelledBy
+    name: ariaLabelledBy
+    fullName: ariaLabelledBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ID for element that contains label information for the checkbox.
+    optional: true
+    syntax:
+      content: 'ariaLabelledBy?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.ariaPositionInSet
+    name: ariaPositionInSet
+    fullName: ariaPositionInSet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The position in the parent set (if in a set) for aria-posinset.
+    optional: true
+    syntax:
+      content: 'ariaPositionInSet?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.ariaSetSize
+    name: ariaSetSize
+    fullName: ariaSetSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The total size of the parent set (if in a set) for aria-setsize.
+    optional: true
+    syntax:
+      content: 'ariaSetSize?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.boxSide
+    name: boxSide
+    fullName: boxSide
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Allows you to set the checkbox to be at the before (start) or after (end)
+      the label.
+    optional: true
+    syntax:
+      content: 'boxSide?: "start" | "end"'
+      return:
+        type:
+          - '"start" | "end"'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.checked
+    name: checked
+    fullName: checked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Checked state. Mutually exclusive to "defaultChecked". Use this if you
+      control the checked state at a higher
+
+      level and plan to pass in the correct value based on handling onChange
+      events and re-rendering.
+    optional: true
+    syntax:
+      content: 'checked?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.checkmarkIconProps
+    name: checkmarkIconProps
+    fullName: checkmarkIconProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom icon props for the check mark rendered by the checkbox
+    optional: true
+    syntax:
+      content: 'checkmarkIconProps?: IIconProps'
+      return:
+        type:
+          - office-ui-fabric-react.IIconProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Additional class name to provide on the root element, in addition to the
+      ms-Checkbox class.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the ICheckbox interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<ICheckbox>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.ICheckbox>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.defaultChecked
+    name: defaultChecked
+    fullName: defaultChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Default checked state. Mutually exclusive to "checked". Use this if you
+      want an uncontrolled component, and
+
+      want the Checkbox instance to maintain its own state.
+    optional: true
+    syntax:
+      content: 'defaultChecked?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Disabled state of the checkbox.
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.inputProps
+    name: inputProps
+    fullName: inputProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional input props that will be mixed into the input element, *before*
+      other props are applied. This allows
+
+      you to extend the input element with additional attributes, such as
+      data-automation-id needed for automation.
+
+      Note that if you provide, for example, "disabled" as well as
+      "inputProps.disabled", the former will take
+
+      precedence over the later.
+    optional: true
+    syntax:
+      content: 'inputProps?: ButtonHTMLAttributes<HTMLElement | HTMLButtonElement>'
+      return:
+        type:
+          - ButtonHTMLAttributes<HTMLElement | HTMLButtonElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.keytipProps
+    name: keytipProps
+    fullName: keytipProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional keytip for this checkbox
+    optional: true
+    syntax:
+      content: 'keytipProps?: IKeytipProps'
+      return:
+        type:
+          - office-ui-fabric-react.IKeytipProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Label to display next to the checkbox.
+    optional: true
+    syntax:
+      content: 'label?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback that is called when the checked value has changed.
+    optional: true
+    syntax:
+      content: >-
+        onChange?: (ev?: FormEvent<HTMLElement | HTMLInputElement>, checked?:
+        boolean) => void
+      return:
+        type:
+          - >-
+            (ev?: FormEvent<HTMLElement | HTMLInputElement>, checked?: boolean)
+            => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.onRenderLabel
+    name: onRenderLabel
+    fullName: onRenderLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom render function for the label.
+    optional: true
+    syntax:
+      content: 'onRenderLabel?: IRenderFunction<ICheckboxProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.ICheckboxProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<ICheckboxStyleProps, ICheckboxStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.ICheckboxStyleProps,
+            office-ui-fabric-react.ICheckboxStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICheckboxProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IIconProps
+    name: IIconProps
+    spec.typeScript:
+      - name: IIconProps
+        fullName: IIconProps
+        uid: office-ui-fabric-react.IIconProps
+  - uid: IRefObject<office-ui-fabric-react.ICheckbox>
+    name: ICheckbox>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: ICheckbox
+        fullName: ICheckbox
+        uid: office-ui-fabric-react.ICheckbox
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IKeytipProps
+    name: IKeytipProps
+    spec.typeScript:
+      - name: IKeytipProps
+        fullName: IKeytipProps
+        uid: office-ui-fabric-react.IKeytipProps
+  - uid: IRenderFunction<office-ui-fabric-react.ICheckboxProps>
+    name: ICheckboxProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: ICheckboxProps
+        fullName: ICheckboxProps
+        uid: office-ui-fabric-react.ICheckboxProps
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.ICheckboxStyleProps,
+      office-ui-fabric-react.ICheckboxStyles>
+    name: ICheckboxStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: ICheckboxStyleProps
+        fullName: ICheckboxStyleProps
+        uid: office-ui-fabric-react.ICheckboxStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: ICheckboxStyles
+        fullName: ICheckboxStyles
+        uid: office-ui-fabric-react.ICheckboxStyles
+      - name: '>'
+        fullName: '>'

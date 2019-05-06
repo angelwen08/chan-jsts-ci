@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.Route
+    name: Route
+    fullName: Route<S>
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: PureComponent<office-ui-fabric-react.IRouteProps>
+    package: office-ui-fabric-react
+references:
+  - uid: PureComponent<office-ui-fabric-react.IRouteProps>
+    name: IRouteProps>
+    spec.typeScript:
+      - name: PureComponent<
+        fullName: PureComponent<
+      - name: IRouteProps
+        fullName: IRouteProps
+        uid: office-ui-fabric-react.IRouteProps
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPeoplePickerItemState
+    name: IPeoplePickerItemState
+    fullName: IPeoplePickerItemState
+    children:
+      - office-ui-fabric-react.IPeoplePickerItemState.contextualMenuVisible
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPeoplePickerItemState.contextualMenuVisible
+    name: contextualMenuVisible
+    fullName: contextualMenuVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'contextualMenuVisible: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

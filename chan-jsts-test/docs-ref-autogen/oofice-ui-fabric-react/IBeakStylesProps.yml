@@ -1,0 +1,141 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBeakStylesProps
+    name: IBeakStylesProps
+    fullName: IBeakStylesProps
+    children:
+      - office-ui-fabric-react.IBeakStylesProps.bottom
+      - office-ui-fabric-react.IBeakStylesProps.color
+      - office-ui-fabric-react.IBeakStylesProps.height
+      - office-ui-fabric-react.IBeakStylesProps.left
+      - office-ui-fabric-react.IBeakStylesProps.right
+      - office-ui-fabric-react.IBeakStylesProps.top
+      - office-ui-fabric-react.IBeakStylesProps.transform
+      - office-ui-fabric-react.IBeakStylesProps.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakStylesProps.bottom
+    name: bottom
+    fullName: bottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'bottom?: string | undefined'
+      return:
+        type:
+          - string | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakStylesProps.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'color?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakStylesProps.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'height?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakStylesProps.left
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'left?: string | undefined'
+      return:
+        type:
+          - string | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakStylesProps.right
+    name: right
+    fullName: right
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'right?: string | undefined'
+      return:
+        type:
+          - string | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakStylesProps.top
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'top?: string | undefined'
+      return:
+        type:
+          - string | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakStylesProps.transform
+    name: transform
+    fullName: transform
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'transform?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBeakStylesProps.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'width?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

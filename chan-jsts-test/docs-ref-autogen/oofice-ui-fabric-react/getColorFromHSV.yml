@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getColorFromHSV
+    name: 'getColorFromHSV(IHSV, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Converts an HSV color (and optional alpha value) to a color object.
+
+      If `a` is not given, a default of 100 is used.
+
+      Hex in the returned value will *not* be prefixed with #.
+
+      If `a` is unspecified or 100, the result's `str` property will contain a
+      hex value
+
+      (*not* prefixed with #)
+    syntax:
+      content: 'function getColorFromHSV(hsv: IHSV, a?: number)'
+      parameters:
+        - id: hsv
+          type:
+            - office-ui-fabric-react.IHSV
+          description: ''
+        - id: a
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - office-ui-fabric-react.IColor
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IHSV
+    name: IHSV
+    spec.typeScript:
+      - name: IHSV
+        fullName: IHSV
+        uid: office-ui-fabric-react.IHSV
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor

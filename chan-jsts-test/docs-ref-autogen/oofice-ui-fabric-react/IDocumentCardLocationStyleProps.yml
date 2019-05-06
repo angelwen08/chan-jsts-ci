@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardLocationStyleProps
+    name: IDocumentCardLocationStyleProps
+    fullName: IDocumentCardLocationStyleProps
+    children:
+      - office-ui-fabric-react.IDocumentCardLocationStyleProps.className
+      - office-ui-fabric-react.IDocumentCardLocationStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardLocationStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override class name
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardLocationStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accept theme prop.
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

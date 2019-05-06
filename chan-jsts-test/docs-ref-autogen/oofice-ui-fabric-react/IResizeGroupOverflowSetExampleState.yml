@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IResizeGroupOverflowSetExampleState
+    name: IResizeGroupOverflowSetExampleState
+    fullName: IResizeGroupOverflowSetExampleState
+    children:
+      - >-
+        office-ui-fabric-react.IResizeGroupOverflowSetExampleState.buttonsChecked
+      - >-
+        office-ui-fabric-react.IResizeGroupOverflowSetExampleState.cachingEnabled
+      - office-ui-fabric-react.IResizeGroupOverflowSetExampleState.numberOfItems
+      - >-
+        office-ui-fabric-react.IResizeGroupOverflowSetExampleState.onGrowDataEnabled
+      - office-ui-fabric-react.IResizeGroupOverflowSetExampleState.short
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IResizeGroupOverflowSetExampleState.buttonsChecked
+    name: buttonsChecked
+    fullName: buttonsChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'buttonsChecked: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IResizeGroupOverflowSetExampleState.cachingEnabled
+    name: cachingEnabled
+    fullName: cachingEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cachingEnabled: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IResizeGroupOverflowSetExampleState.numberOfItems
+    name: numberOfItems
+    fullName: numberOfItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'numberOfItems: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IResizeGroupOverflowSetExampleState.onGrowDataEnabled
+    name: onGrowDataEnabled
+    fullName: onGrowDataEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onGrowDataEnabled: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IResizeGroupOverflowSetExampleState.short
+    name: short
+    fullName: short
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'short: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

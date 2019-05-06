@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IFocusTrapCalloutProps
+    name: IFocusTrapCalloutProps
+    fullName: IFocusTrapCalloutProps
+    children:
+      - office-ui-fabric-react.IFocusTrapCalloutProps.focusTrapProps
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: office-ui-fabric-react.ICalloutProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFocusTrapCalloutProps.focusTrapProps
+    name: focusTrapProps
+    fullName: focusTrapProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional props to be passed on to FocusTrapZone
+    optional: true
+    syntax:
+      content: 'focusTrapProps?: IFocusTrapZoneProps'
+      return:
+        type:
+          - office-ui-fabric-react.IFocusTrapZoneProps
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ICalloutProps
+    name: ICalloutProps
+    spec.typeScript:
+      - name: ICalloutProps
+        fullName: ICalloutProps
+        uid: office-ui-fabric-react.ICalloutProps
+  - uid: office-ui-fabric-react.IFocusTrapZoneProps
+    name: IFocusTrapZoneProps
+    spec.typeScript:
+      - name: IFocusTrapZoneProps
+        fullName: IFocusTrapZoneProps
+        uid: office-ui-fabric-react.IFocusTrapZoneProps

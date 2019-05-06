@@ -1,0 +1,142 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.HoverCardBase
+    name: HoverCardBase
+    fullName: HoverCardBase<SS>
+    children:
+      - office-ui-fabric-react.HoverCardBase.componentDidMount
+      - office-ui-fabric-react.HoverCardBase.componentDidUpdate
+      - office-ui-fabric-react.HoverCardBase.defaultProps
+      - office-ui-fabric-react.HoverCardBase.dismiss
+      - office-ui-fabric-react.HoverCardBase.constructor
+      - office-ui-fabric-react.HoverCardBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IHoverCardProps,
+        office-ui-fabric-react.IHoverCardState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.HoverCardBase.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.HoverCardBase.componentDidUpdate
+    name: 'componentDidUpdate(IHoverCardProps, IHoverCardState)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(prevProps: IHoverCardProps, prevState:
+        IHoverCardState)
+      parameters:
+        - id: prevProps
+          type:
+            - office-ui-fabric-react.IHoverCardProps
+          description: ''
+        - id: prevState
+          type:
+            - office-ui-fabric-react.IHoverCardState
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.HoverCardBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.HoverCardBase.dismiss
+    name: dismiss
+    fullName: dismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dismiss: (withTimeOut?: boolean | undefined) => void'
+      return:
+        type:
+          - '(withTimeOut?: boolean | undefined) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.HoverCardBase.constructor
+    name: HoverCardBase(IHoverCardProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HoverCardBase(props: IHoverCardProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IHoverCardProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.HoverCardBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IHoverCardProps,
+      office-ui-fabric-react.IHoverCardState>
+    name: IHoverCardState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IHoverCardProps
+        fullName: IHoverCardProps
+        uid: office-ui-fabric-react.IHoverCardProps
+      - name: ', '
+        fullName: ', '
+      - name: IHoverCardState
+        fullName: IHoverCardState
+        uid: office-ui-fabric-react.IHoverCardState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IHoverCardProps
+    name: IHoverCardProps
+    spec.typeScript:
+      - name: IHoverCardProps
+        fullName: IHoverCardProps
+        uid: office-ui-fabric-react.IHoverCardProps
+  - uid: office-ui-fabric-react.IHoverCardState
+    name: IHoverCardState
+    spec.typeScript:
+      - name: IHoverCardState
+        fullName: IHoverCardState
+        uid: office-ui-fabric-react.IHoverCardState

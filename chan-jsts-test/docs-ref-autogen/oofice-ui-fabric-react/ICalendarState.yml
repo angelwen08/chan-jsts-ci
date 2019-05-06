@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarState
+    name: ICalendarState
+    fullName: ICalendarState
+    children:
+      - office-ui-fabric-react.ICalendarState.isDayPickerVisible
+      - office-ui-fabric-react.ICalendarState.isMonthPickerVisible
+      - office-ui-fabric-react.ICalendarState.navigatedDayDate
+      - office-ui-fabric-react.ICalendarState.navigatedMonthDate
+      - office-ui-fabric-react.ICalendarState.selectedDate
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarState.isDayPickerVisible
+    name: isDayPickerVisible
+    fullName: isDayPickerVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: State used to show/hide day picker
+    optional: true
+    syntax:
+      content: 'isDayPickerVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarState.isMonthPickerVisible
+    name: isMonthPickerVisible
+    fullName: isMonthPickerVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: State used to show/hide month picker
+    optional: true
+    syntax:
+      content: 'isMonthPickerVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarState.navigatedDayDate
+    name: navigatedDayDate
+    fullName: navigatedDayDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The currently focused date in the day picker, but not necessarily selected'
+    optional: true
+    syntax:
+      content: 'navigatedDayDate?: Date'
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarState.navigatedMonthDate
+    name: navigatedMonthDate
+    fullName: navigatedMonthDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The currently focused date in the month picker, but not necessarily
+      selected
+    optional: true
+    syntax:
+      content: 'navigatedMonthDate?: Date'
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarState.selectedDate
+    name: selectedDate
+    fullName: selectedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The currently selected date in the calendar
+    optional: true
+    syntax:
+      content: 'selectedDate?: Date'
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react

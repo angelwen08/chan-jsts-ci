@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPlainCard
+    name: IPlainCard
+    fullName: IPlainCard
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory HoverCard}'
+    package: office-ui-fabric-react

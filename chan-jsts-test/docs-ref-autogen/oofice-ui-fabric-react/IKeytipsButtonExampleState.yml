@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IKeytipsButtonExampleState
+    name: IKeytipsButtonExampleState
+    fullName: IKeytipsButtonExampleState
+    children:
+      - office-ui-fabric-react.IKeytipsButtonExampleState.btnDisabled
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipsButtonExampleState.btnDisabled
+    name: btnDisabled
+    fullName: btnDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'btnDisabled: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

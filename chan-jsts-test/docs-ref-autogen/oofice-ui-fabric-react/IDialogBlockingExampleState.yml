@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDialogBlockingExampleState
+    name: IDialogBlockingExampleState
+    fullName: IDialogBlockingExampleState
+    children:
+      - office-ui-fabric-react.IDialogBlockingExampleState.hideDialog
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogBlockingExampleState.hideDialog
+    name: hideDialog
+    fullName: hideDialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'hideDialog: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

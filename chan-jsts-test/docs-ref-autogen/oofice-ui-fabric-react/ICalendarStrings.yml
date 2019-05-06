@@ -1,0 +1,196 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarStrings
+    name: ICalendarStrings
+    fullName: ICalendarStrings
+    children:
+      - office-ui-fabric-react.ICalendarStrings.closeButtonAriaLabel
+      - office-ui-fabric-react.ICalendarStrings.days
+      - office-ui-fabric-react.ICalendarStrings.goToToday
+      - office-ui-fabric-react.ICalendarStrings.months
+      - office-ui-fabric-react.ICalendarStrings.nextMonthAriaLabel
+      - office-ui-fabric-react.ICalendarStrings.nextYearAriaLabel
+      - office-ui-fabric-react.ICalendarStrings.prevMonthAriaLabel
+      - office-ui-fabric-react.ICalendarStrings.prevYearAriaLabel
+      - office-ui-fabric-react.ICalendarStrings.shortDays
+      - office-ui-fabric-react.ICalendarStrings.shortMonths
+      - office-ui-fabric-react.ICalendarStrings.weekNumberFormatString
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Calendar}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.closeButtonAriaLabel
+    name: closeButtonAriaLabel
+    fullName: closeButtonAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria-label for the "close" button.
+    optional: true
+    syntax:
+      content: 'closeButtonAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.days
+    name: days
+    fullName: days
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An array of strings for the full names of days of the week.
+      The array is 0-based, so days[0] should be the full name of Sunday.
+    syntax:
+      content: 'days: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.goToToday
+    name: goToToday
+    fullName: goToToday
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: String to render for button to direct the user to today's date.
+    syntax:
+      content: 'goToToday: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.months
+    name: months
+    fullName: months
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An array of strings for the full names of months.
+      The array is 0-based, so months[0] should be the full name of January.
+    syntax:
+      content: 'months: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.nextMonthAriaLabel
+    name: nextMonthAriaLabel
+    fullName: nextMonthAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria-label for the "next month" button.
+    optional: true
+    syntax:
+      content: 'nextMonthAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.nextYearAriaLabel
+    name: nextYearAriaLabel
+    fullName: nextYearAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria-label for the "next year" button.
+    optional: true
+    syntax:
+      content: 'nextYearAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.prevMonthAriaLabel
+    name: prevMonthAriaLabel
+    fullName: prevMonthAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria-label for the "previous month" button.
+    optional: true
+    syntax:
+      content: 'prevMonthAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.prevYearAriaLabel
+    name: prevYearAriaLabel
+    fullName: prevYearAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria-label for the "previous year" button.
+    optional: true
+    syntax:
+      content: 'prevYearAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.shortDays
+    name: shortDays
+    fullName: shortDays
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An array of strings for the initials of the days of the week.
+      The array is 0-based, so days[0] should be the initial of Sunday.
+    syntax:
+      content: 'shortDays: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.shortMonths
+    name: shortMonths
+    fullName: shortMonths
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An array of strings for the short names of months.
+
+      The array is 0-based, so shortMonths[0] should be the short name of
+      January.
+    syntax:
+      content: 'shortMonths: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarStrings.weekNumberFormatString
+    name: weekNumberFormatString
+    fullName: weekNumberFormatString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Aria-label format string for the week number header. Should have 1 string
+      param e.g. "week number \{0\}"
+    optional: true
+    syntax:
+      content: 'weekNumberFormatString?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

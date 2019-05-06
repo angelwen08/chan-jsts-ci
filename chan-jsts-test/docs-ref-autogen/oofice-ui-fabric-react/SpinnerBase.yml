@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SpinnerBase
+    name: SpinnerBase
+    fullName: SpinnerBase<SS>
+    children:
+      - office-ui-fabric-react.SpinnerBase.defaultProps
+      - office-ui-fabric-react.SpinnerBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'BaseComponent<office-ui-fabric-react.ISpinnerProps, any>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SpinnerBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: ISpinnerProps'
+      return:
+        type:
+          - office-ui-fabric-react.ISpinnerProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SpinnerBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<office-ui-fabric-react.ISpinnerProps, any>'
+    name: 'ISpinnerProps, any>'
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: ISpinnerProps
+        fullName: ISpinnerProps
+        uid: office-ui-fabric-react.ISpinnerProps
+      - name: ', any>'
+        fullName: ', any>'
+  - uid: office-ui-fabric-react.ISpinnerProps
+    name: ISpinnerProps
+    spec.typeScript:
+      - name: ISpinnerProps
+        fullName: ISpinnerProps
+        uid: office-ui-fabric-react.ISpinnerProps

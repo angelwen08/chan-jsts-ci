@@ -1,0 +1,122 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IStickyProps
+    name: IStickyProps
+    fullName: IStickyProps
+    children:
+      - office-ui-fabric-react.IStickyProps.componentRef
+      - office-ui-fabric-react.IStickyProps.isScrollSynced
+      - office-ui-fabric-react.IStickyProps.stickyBackgroundColor
+      - office-ui-fabric-react.IStickyProps.stickyClassName
+      - office-ui-fabric-react.IStickyProps.stickyPosition
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: Props<office-ui-fabric-react.Sticky>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStickyProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets ref to component interface.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IStickyProps>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IStickyProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStickyProps.isScrollSynced
+    name: isScrollSynced
+    fullName: isScrollSynced
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If true, then match scrolling position of placeholder element in Sticky.'
+    optional: true
+    syntax:
+      content: 'isScrollSynced?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStickyProps.stickyBackgroundColor
+    name: stickyBackgroundColor
+    fullName: stickyBackgroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: color to apply as 'background-color' style for sticky element.
+    optional: true
+    syntax:
+      content: 'stickyBackgroundColor?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStickyProps.stickyClassName
+    name: stickyClassName
+    fullName: stickyClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Class name to apply to the sticky element if component is sticky.
+    optional: true
+    syntax:
+      content: 'stickyClassName?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IStickyProps.stickyPosition
+    name: stickyPosition
+    fullName: stickyPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Region to render sticky component in.
+    optional: true
+    syntax:
+      content: 'stickyPosition?: StickyPositionType'
+      return:
+        type:
+          - office-ui-fabric-react.StickyPositionType
+    package: office-ui-fabric-react
+references:
+  - uid: Props<office-ui-fabric-react.Sticky>
+    name: Sticky>
+    spec.typeScript:
+      - name: Props<
+        fullName: Props<
+      - name: Sticky
+        fullName: Sticky
+        uid: office-ui-fabric-react.Sticky
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.IStickyProps>
+    name: IStickyProps>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IStickyProps
+        fullName: IStickyProps
+        uid: office-ui-fabric-react.IStickyProps
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.StickyPositionType
+    name: StickyPositionType
+    spec.typeScript:
+      - name: StickyPositionType
+        fullName: StickyPositionType
+        uid: office-ui-fabric-react.StickyPositionType

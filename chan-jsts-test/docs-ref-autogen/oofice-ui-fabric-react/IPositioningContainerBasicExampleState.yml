@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPositioningContainerBasicExampleState
+    name: IPositioningContainerBasicExampleState
+    fullName: IPositioningContainerBasicExampleState
+    children:
+      - >-
+        office-ui-fabric-react.IPositioningContainerBasicExampleState.isPositioningContainerVisible
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: >-
+      office-ui-fabric-react.IPositioningContainerBasicExampleState.isPositioningContainerVisible
+    name: isPositioningContainerVisible
+    fullName: isPositioningContainerVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isPositioningContainerVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

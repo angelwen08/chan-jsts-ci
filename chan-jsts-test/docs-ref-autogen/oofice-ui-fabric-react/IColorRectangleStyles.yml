@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IColorRectangleStyles
+    name: IColorRectangleStyles
+    fullName: IColorRectangleStyles
+    children:
+      - office-ui-fabric-react.IColorRectangleStyles.dark
+      - office-ui-fabric-react.IColorRectangleStyles.light
+      - office-ui-fabric-react.IColorRectangleStyles.root
+      - office-ui-fabric-react.IColorRectangleStyles.thumb
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ColorPicker}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorRectangleStyles.dark
+    name: dark
+    fullName: dark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the dark-colored rectangle.
+    optional: true
+    syntax:
+      content: 'dark?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorRectangleStyles.light
+    name: light
+    fullName: light
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the light-colored rectangle.
+    optional: true
+    syntax:
+      content: 'light?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorRectangleStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the root element.
+    optional: true
+    syntax:
+      content: 'root?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorRectangleStyles.thumb
+    name: thumb
+    fullName: thumb
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the draggable thumb element.
+    optional: true
+    syntax:
+      content: 'thumb?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

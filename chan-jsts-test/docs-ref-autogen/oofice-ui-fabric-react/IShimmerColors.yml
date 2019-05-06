@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerColors
+    name: IShimmerColors
+    fullName: IShimmerColors
+    children:
+      - office-ui-fabric-react.IShimmerColors.background
+      - office-ui-fabric-react.IShimmerColors.shimmer
+      - office-ui-fabric-react.IShimmerColors.shimmerWave
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Interface describing the possible color customizations of Shimmer.
+      {@docCategory Shimmer}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerColors.background
+    name: background
+    fullName: background
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines the background color of the space in between and around shimmer
+      elements (borders, gaps and rounded corners).
+    optional: true
+    syntax:
+      content: 'background?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerColors.shimmer
+    name: shimmer
+    fullName: shimmer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines the main background color which is the color you see when the wave
+      is not animating.
+    optional: true
+    syntax:
+      content: 'shimmer?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerColors.shimmerWave
+    name: shimmerWave
+    fullName: shimmerWave
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines the tip color of the shimmer wave which gradually gets from and to
+      `shimmer` color.
+    optional: true
+    syntax:
+      content: 'shimmerWave?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

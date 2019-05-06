@@ -1,0 +1,141 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDraggableZoneProps
+    name: IDraggableZoneProps
+    fullName: IDraggableZoneProps
+    children:
+      - office-ui-fabric-react.IDraggableZoneProps.handleSelector
+      - office-ui-fabric-react.IDraggableZoneProps.onDragChange
+      - office-ui-fabric-react.IDraggableZoneProps.onStart
+      - office-ui-fabric-react.IDraggableZoneProps.onStop
+      - office-ui-fabric-react.IDraggableZoneProps.position
+      - office-ui-fabric-react.IDraggableZoneProps.preventDragSelector
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: HTMLAttributes<HTMLDivElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneProps.handleSelector
+    name: handleSelector
+    fullName: handleSelector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Specifies a selector to be used as the handle that initiates drag
+    optional: true
+    syntax:
+      content: 'handleSelector?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneProps.onDragChange
+    name: onDragChange
+    fullName: onDragChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Callback for when the drag changes, while dragging'
+    optional: true
+    syntax:
+      content: >-
+        onDragChange?: (event: MouseEvent<HTMLElement> &
+        TouchEvent<HTMLElement>, dragData: IDragData) => void
+      return:
+        type:
+          - >-
+            (event: MouseEvent<HTMLElement> & TouchEvent<HTMLElement>, dragData:
+            IDragData) => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneProps.onStart
+    name: onStart
+    fullName: onStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback for when dragging starts
+    optional: true
+    syntax:
+      content: >-
+        onStart?: (event: MouseEvent<HTMLElement> & TouchEvent<HTMLElement>,
+        dragData: IDragData) => void
+      return:
+        type:
+          - >-
+            (event: MouseEvent<HTMLElement> & TouchEvent<HTMLElement>, dragData:
+            IDragData) => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneProps.onStop
+    name: onStop
+    fullName: onStop
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback for when dragging stops
+    optional: true
+    syntax:
+      content: >-
+        onStop?: (event: MouseEvent<HTMLElement> & TouchEvent<HTMLElement>,
+        dragData: IDragData) => void
+      return:
+        type:
+          - >-
+            (event: MouseEvent<HTMLElement> & TouchEvent<HTMLElement>, dragData:
+            IDragData) => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneProps.position
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      the X and Y coordinates to use as an offest to position the draggable
+      content
+    optional: true
+    syntax:
+      content: 'position?: ICoordinates'
+      return:
+        type:
+          - office-ui-fabric-react.ICoordinates
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDraggableZoneProps.preventDragSelector
+    name: preventDragSelector
+    fullName: preventDragSelector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Specifies a selector to be used to prevent drag initialization.
+
+      For example, if you do not want buttons inside of your handleSelector
+
+      to have the cursor change to move or to allow users to select from
+      buttons,
+
+      you could pass button here (the close button in the header of a dialog is
+      a concrete example)
+    optional: true
+    syntax:
+      content: 'preventDragSelector?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ICoordinates
+    name: ICoordinates
+    spec.typeScript:
+      - name: ICoordinates
+        fullName: ICoordinates
+        uid: office-ui-fabric-react.ICoordinates

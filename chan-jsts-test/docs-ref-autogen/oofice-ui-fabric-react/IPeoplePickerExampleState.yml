@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPeoplePickerExampleState
+    name: IPeoplePickerExampleState
+    fullName: IPeoplePickerExampleState
+    children:
+      - office-ui-fabric-react.IPeoplePickerExampleState.contextualMenuTarget
+      - office-ui-fabric-react.IPeoplePickerExampleState.contextualMenuVisible
+      - office-ui-fabric-react.IPeoplePickerExampleState.isPickerDisabled
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPeoplePickerExampleState.contextualMenuTarget
+    name: contextualMenuTarget
+    fullName: contextualMenuTarget
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contextualMenuTarget?: HTMLElement'
+      return:
+        type:
+          - HTMLElement
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPeoplePickerExampleState.contextualMenuVisible
+    name: contextualMenuVisible
+    fullName: contextualMenuVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contextualMenuVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPeoplePickerExampleState.isPickerDisabled
+    name: isPickerDisabled
+    fullName: isPickerDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isPickerDisabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

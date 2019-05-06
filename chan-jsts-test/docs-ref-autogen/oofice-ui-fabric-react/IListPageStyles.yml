@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IListPageStyles
+    name: IListPageStyles
+    fullName: IListPageStyles
+    children:
+      - office-ui-fabric-react.IListPageStyles.backgroundColor
+      - office-ui-fabric-react.IListPageStyles.hiddenStyle
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IListPageStyles.backgroundColor
+    name: backgroundColor
+    fullName: backgroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'backgroundColor: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IListPageStyles.hiddenStyle
+    name: hiddenStyle
+    fullName: hiddenStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'hiddenStyle: CSSProperties | undefined'
+      return:
+        type:
+          - CSSProperties | undefined
+    package: office-ui-fabric-react

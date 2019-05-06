@@ -1,0 +1,204 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.BasePicker
+    name: BasePicker
+    fullName: BasePicker<T>
+    children:
+      - office-ui-fabric-react.BasePicker.constructor
+      - office-ui-fabric-react.BasePicker.completeSuggestion
+      - office-ui-fabric-react.BasePicker.componentDidMount
+      - office-ui-fabric-react.BasePicker.componentWillReceiveProps
+      - office-ui-fabric-react.BasePicker.componentWillUnmount
+      - office-ui-fabric-react.BasePicker.componentWillUpdate
+      - office-ui-fabric-react.BasePicker.dismissSuggestions
+      - office-ui-fabric-react.BasePicker.focus
+      - office-ui-fabric-react.BasePicker.focusInput
+      - office-ui-fabric-react.BasePicker.items
+      - office-ui-fabric-react.BasePicker.refocusSuggestions
+      - office-ui-fabric-react.BasePicker.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: '{@docCategory Pickers}'
+    extends:
+      name: 'BaseComponent<P, office-ui-fabric-react.IBasePickerState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.constructor
+    name: BasePicker(P)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BasePicker(basePickerProps: P)'
+      parameters:
+        - id: basePickerProps
+          type:
+            - P
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.completeSuggestion
+    name: completeSuggestion()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function completeSuggestion()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.componentWillReceiveProps
+    name: componentWillReceiveProps(P)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: P)'
+      parameters:
+        - id: newProps
+          type:
+            - P
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.componentWillUpdate
+    name: 'componentWillUpdate(P, IBasePickerState)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillUpdate(newProps: P, newState: IBasePickerState)'
+      parameters:
+        - id: newProps
+          type:
+            - P
+          description: ''
+        - id: newState
+          type:
+            - office-ui-fabric-react.IBasePickerState
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.dismissSuggestions
+    name: dismissSuggestions
+    fullName: dismissSuggestions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dismissSuggestions: (ev?: any) => void'
+      return:
+        type:
+          - '(ev?: any) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.focusInput
+    name: focusInput()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focusInput()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'items: T[]'
+      return:
+        type:
+          - 'T[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.refocusSuggestions
+    name: refocusSuggestions
+    fullName: refocusSuggestions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'refocusSuggestions: (keyCode: number) => void'
+      return:
+        type:
+          - '(keyCode: number) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.BasePicker.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<P, office-ui-fabric-react.IBasePickerState>'
+    name: IBasePickerState>
+    spec.typeScript:
+      - name: 'BaseComponent<P, '
+        fullName: 'BaseComponent<P, '
+      - name: IBasePickerState
+        fullName: IBasePickerState
+        uid: office-ui-fabric-react.IBasePickerState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IBasePickerState
+    name: IBasePickerState
+    spec.typeScript:
+      - name: IBasePickerState
+        fullName: IBasePickerState
+        uid: office-ui-fabric-react.IBasePickerState

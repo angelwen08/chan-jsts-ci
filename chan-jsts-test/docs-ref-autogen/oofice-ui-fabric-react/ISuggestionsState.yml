@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISuggestionsState
+    name: ISuggestionsState
+    fullName: ISuggestionsState
+    children:
+      - office-ui-fabric-react.ISuggestionsState.selectedActionType
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsState.selectedActionType
+    name: selectedActionType
+    fullName: selectedActionType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectedActionType: SuggestionActionType'
+      return:
+        type:
+          - office-ui-fabric-react.SuggestionActionType
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.SuggestionActionType
+    name: SuggestionActionType
+    spec.typeScript:
+      - name: SuggestionActionType
+        fullName: SuggestionActionType
+        uid: office-ui-fabric-react.SuggestionActionType

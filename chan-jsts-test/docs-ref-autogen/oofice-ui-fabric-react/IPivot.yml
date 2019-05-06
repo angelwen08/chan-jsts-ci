@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPivot
+    name: IPivot
+    fullName: IPivot
+    children:
+      - office-ui-fabric-react.IPivot.focus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Pivot}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPivot.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets focus to the first pivot tab.
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react

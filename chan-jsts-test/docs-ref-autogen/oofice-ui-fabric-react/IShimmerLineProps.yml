@@ -1,0 +1,153 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerLineProps
+    name: IShimmerLineProps
+    fullName: IShimmerLineProps
+    children:
+      - office-ui-fabric-react.IShimmerLineProps.borderStyle
+      - office-ui-fabric-react.IShimmerLineProps.componentRef
+      - office-ui-fabric-react.IShimmerLineProps.height
+      - office-ui-fabric-react.IShimmerLineProps.styles
+      - office-ui-fabric-react.IShimmerLineProps.theme
+      - office-ui-fabric-react.IShimmerLineProps.width
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      ShimmerLine component props.
+      {@docCategory Shimmer}
+    extends:
+      name: AllHTMLAttributes<HTMLElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerLineProps.borderStyle
+    name: borderStyle
+    fullName: borderStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Use to set custom styling of the shimmerLine borders.
+    optional: true
+    syntax:
+      content: 'borderStyle?: IRawStyle'
+      return:
+        type:
+          - IRawStyle
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `styles` prop to leverage mergeStyle API.
+  - uid: office-ui-fabric-react.IShimmerLineProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IShimmerLine interface. Use this instead
+      of ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IShimmerLine>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IShimmerLine>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerLineProps.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sets the height of the rectangle.
+    optional: true
+    syntax:
+      content: 'height?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerLineProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IShimmerLineStyleProps,
+        IShimmerLineStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IShimmerLineStyleProps,
+            office-ui-fabric-react.IShimmerLineStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerLineProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerLineProps.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sets width value of the line.
+    optional: true
+    syntax:
+      content: 'width?: number | string'
+      return:
+        type:
+          - number | string
+    package: office-ui-fabric-react
+references:
+  - uid: IRefObject<office-ui-fabric-react.IShimmerLine>
+    name: IShimmerLine>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IShimmerLine
+        fullName: IShimmerLine
+        uid: office-ui-fabric-react.IShimmerLine
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IShimmerLineStyleProps,
+      office-ui-fabric-react.IShimmerLineStyles>
+    name: IShimmerLineStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IShimmerLineStyleProps
+        fullName: IShimmerLineStyleProps
+        uid: office-ui-fabric-react.IShimmerLineStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IShimmerLineStyles
+        fullName: IShimmerLineStyles
+        uid: office-ui-fabric-react.IShimmerLineStyles
+      - name: '>'
+        fullName: '>'

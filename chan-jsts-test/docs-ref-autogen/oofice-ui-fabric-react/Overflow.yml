@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.Overflow
+    name: Overflow
+    fullName: Overflow
+    children: []
+    syntax:
+      content: type Overflow = "visible" | "auto" | "hidden"
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    package: office-ui-fabric-react

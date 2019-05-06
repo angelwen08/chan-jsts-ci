@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IOverflowSetStyleProps
+    name: IOverflowSetStyleProps
+    fullName: IOverflowSetStyleProps
+    children: []
+    syntax:
+      content: type IOverflowSetStyleProps = Pick
+    langs:
+      - typeScript
+    type: type alias
+    summary: >-
+      The props needed to construct styles. This represents the simplified set
+      of immutable things which control the class names.
+
+      {@docCategory OverflowSet}
+    package: office-ui-fabric-react

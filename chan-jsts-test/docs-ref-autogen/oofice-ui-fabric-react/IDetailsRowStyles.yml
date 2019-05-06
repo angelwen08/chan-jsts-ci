@@ -1,0 +1,246 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsRowStyles
+    name: IDetailsRowStyles
+    fullName: IDetailsRowStyles
+    children:
+      - office-ui-fabric-react.IDetailsRowStyles.cell
+      - office-ui-fabric-react.IDetailsRowStyles.cellMeasurer
+      - office-ui-fabric-react.IDetailsRowStyles.cellPadded
+      - office-ui-fabric-react.IDetailsRowStyles.cellUnpadded
+      - office-ui-fabric-react.IDetailsRowStyles.check
+      - office-ui-fabric-react.IDetailsRowStyles.checkCell
+      - office-ui-fabric-react.IDetailsRowStyles.checkCover
+      - office-ui-fabric-react.IDetailsRowStyles.fields
+      - office-ui-fabric-react.IDetailsRowStyles.isMultiline
+      - office-ui-fabric-react.IDetailsRowStyles.isRowHeader
+      - office-ui-fabric-react.IDetailsRowStyles.root
+      - office-ui-fabric-react.IDetailsRowStyles.shimmer
+      - office-ui-fabric-react.IDetailsRowStyles.shimmerBottomBorder
+      - office-ui-fabric-react.IDetailsRowStyles.shimmerIconPlaceholder
+      - office-ui-fabric-react.IDetailsRowStyles.shimmerLeftBorder
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.cell
+    name: cell
+    fullName: cell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cell: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.cellMeasurer
+    name: cellMeasurer
+    fullName: cellMeasurer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cellMeasurer: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.cellPadded
+    name: cellPadded
+    fullName: cellPadded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cellPadded: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.cellUnpadded
+    name: cellUnpadded
+    fullName: cellUnpadded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cellUnpadded: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.check
+    name: check
+    fullName: check
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'check: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.checkCell
+    name: checkCell
+    fullName: checkCell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'checkCell: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.checkCover
+    name: checkCover
+    fullName: checkCover
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'checkCover: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.fields
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'fields: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.isMultiline
+    name: isMultiline
+    fullName: isMultiline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isMultiline: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.isRowHeader
+    name: isRowHeader
+    fullName: isRowHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isRowHeader: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowStyles.shimmer
+    name: shimmer
+    fullName: shimmer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'shimmer: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+    deprecated:
+      content: Will be removed in Fabric 7.0. Use `ShimmeredDetailsList` instead.
+  - uid: office-ui-fabric-react.IDetailsRowStyles.shimmerBottomBorder
+    name: shimmerBottomBorder
+    fullName: shimmerBottomBorder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'shimmerBottomBorder: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+    deprecated:
+      content: Will be removed in Fabric 7.0. Use `ShimmeredDetailsList` instead.
+  - uid: office-ui-fabric-react.IDetailsRowStyles.shimmerIconPlaceholder
+    name: shimmerIconPlaceholder
+    fullName: shimmerIconPlaceholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'shimmerIconPlaceholder: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+    deprecated:
+      content: Will be removed in Fabric 7.0. Use `ShimmeredDetailsList` instead.
+  - uid: office-ui-fabric-react.IDetailsRowStyles.shimmerLeftBorder
+    name: shimmerLeftBorder
+    fullName: shimmerLeftBorder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'shimmerLeftBorder: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+    deprecated:
+      content: Will be removed in Fabric 7.0. Use `ShimmeredDetailsList` instead.

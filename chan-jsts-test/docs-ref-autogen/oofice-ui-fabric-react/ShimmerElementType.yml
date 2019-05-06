@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ShimmerElementType
+    name: ShimmerElementType
+    fullName: ShimmerElementType
+    children:
+      - office-ui-fabric-react.ShimmerElementType.line
+      - office-ui-fabric-react.ShimmerElementType.circle
+      - office-ui-fabric-react.ShimmerElementType.gap
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      Describes the possible types for shimmer elements used.
+      {@docCategory Shimmer}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerElementType.line
+    name: line
+    children: []
+    langs:
+      - typeScript
+    summary: Line element type
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerElementType.circle
+    name: circle
+    children: []
+    langs:
+      - typeScript
+    summary: Circle element type
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerElementType.gap
+    name: gap
+    children: []
+    langs:
+      - typeScript
+    summary: Gap element type
+    type: field
+    numericValue: 3
+    package: office-ui-fabric-react

@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.PanelHandleDismissTargetExample
+    name: PanelHandleDismissTargetExample
+    fullName: PanelHandleDismissTargetExample<SS>
+    children:
+      - office-ui-fabric-react.PanelHandleDismissTargetExample.render
+      - office-ui-fabric-react.PanelHandleDismissTargetExample.state
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<__type,
+        office-ui-fabric-react.IPanelHandleDismissTargetExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PanelHandleDismissTargetExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PanelHandleDismissTargetExample.state
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'state: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<__type,
+      office-ui-fabric-react.IPanelHandleDismissTargetExampleState>
+    name: IPanelHandleDismissTargetExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IPanelHandleDismissTargetExampleState
+        fullName: IPanelHandleDismissTargetExampleState
+        uid: office-ui-fabric-react.IPanelHandleDismissTargetExampleState
+      - name: '>'
+        fullName: '>'

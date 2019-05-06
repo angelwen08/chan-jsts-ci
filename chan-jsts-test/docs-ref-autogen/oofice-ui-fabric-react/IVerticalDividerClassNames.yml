@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IVerticalDividerClassNames
+    name: IVerticalDividerClassNames
+    fullName: IVerticalDividerClassNames
+    children:
+      - office-ui-fabric-react.IVerticalDividerClassNames.divider
+      - office-ui-fabric-react.IVerticalDividerClassNames.wrapper
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory VerticalDivider}'
+    package: office-ui-fabric-react
+    deprecated:
+      content: >-
+        Deprecated class names, used to be used to provider customizations, use
+        IVerticalDividerStyles instead
+  - uid: office-ui-fabric-react.IVerticalDividerClassNames.divider
+    name: divider
+    fullName: divider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styling for the divider.
+    syntax:
+      content: 'divider: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IVerticalDividerClassNames.wrapper
+    name: wrapper
+    fullName: wrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styling for the div that wraps the actual divider
+    syntax:
+      content: 'wrapper: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

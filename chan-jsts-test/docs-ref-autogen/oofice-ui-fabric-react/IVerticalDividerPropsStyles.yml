@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IVerticalDividerPropsStyles
+    name: IVerticalDividerPropsStyles
+    fullName: IVerticalDividerPropsStyles
+    children: []
+    syntax:
+      content: type IVerticalDividerPropsStyles = Pick
+    langs:
+      - typeScript
+    type: type alias
+    summary: >-
+      {@docCategory VerticalDivider}
+
+      Props that will get passed to the styling function to style the Vertical
+      Divider
+    package: office-ui-fabric-react

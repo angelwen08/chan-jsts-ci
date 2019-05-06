@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IChoiceGroupImageExampleState
+    name: IChoiceGroupImageExampleState
+    fullName: IChoiceGroupImageExampleState
+    children:
+      - office-ui-fabric-react.IChoiceGroupImageExampleState.selectedKey
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface for ChoiceGroupImageExample state.
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroupImageExampleState.selectedKey
+    name: selectedKey
+    fullName: selectedKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectedKey: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

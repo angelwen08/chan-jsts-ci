@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IButtonDocPageProps
+    name: IButtonDocPageProps
+    fullName: IButtonDocPageProps
+    children:
+      - office-ui-fabric-react.IButtonDocPageProps.areButtonsChecked
+      - office-ui-fabric-react.IButtonDocPageProps.areButtonsDisabled
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IButtonDocPageProps.areButtonsChecked
+    name: areButtonsChecked
+    fullName: areButtonsChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'areButtonsChecked: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IButtonDocPageProps.areButtonsDisabled
+    name: areButtonsDisabled
+    fullName: areButtonsDisabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'areButtonsDisabled: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

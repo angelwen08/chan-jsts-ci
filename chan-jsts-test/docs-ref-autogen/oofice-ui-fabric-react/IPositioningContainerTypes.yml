@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPositioningContainerTypes
+    name: IPositioningContainerTypes
+    fullName: IPositioningContainerTypes
+    children: []
+    syntax:
+      content: type IPositioningContainerTypes = IPositioningContainerProps
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    package: office-ui-fabric-react
+    deprecated:
+      content: |-
+        Use `IPositioningContainerProps`
+        {@docCategory PositioningContainer}

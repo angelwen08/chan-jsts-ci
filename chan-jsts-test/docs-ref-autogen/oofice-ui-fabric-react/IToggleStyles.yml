@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IToggleStyles
+    name: IToggleStyles
+    fullName: IToggleStyles
+    children:
+      - office-ui-fabric-react.IToggleStyles.container
+      - office-ui-fabric-react.IToggleStyles.label
+      - office-ui-fabric-react.IToggleStyles.pill
+      - office-ui-fabric-react.IToggleStyles.root
+      - office-ui-fabric-react.IToggleStyles.text
+      - office-ui-fabric-react.IToggleStyles.thumb
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Styles for the Toggle component.
+      {@docCategory Toggle}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IToggleStyles.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Container for the toggle pill and the text next to it.
+    syntax:
+      content: 'container: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IToggleStyles.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Label element above the toggle.
+    syntax:
+      content: 'label: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IToggleStyles.pill
+    name: pill
+    fullName: pill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Pill, rendered as a button.'
+    syntax:
+      content: 'pill: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IToggleStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IToggleStyles.text
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text next to the pill.
+    syntax:
+      content: 'text: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IToggleStyles.thumb
+    name: thumb
+    fullName: thumb
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Thumb inside of the pill.
+    syntax:
+      content: 'thumb: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

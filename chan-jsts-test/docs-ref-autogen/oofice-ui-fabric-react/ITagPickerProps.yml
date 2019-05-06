@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITagPickerProps
+    name: ITagPickerProps
+    fullName: ITagPickerProps
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      TagPicker component props
+      {@docCategory TagPicker}
+    extends:
+      name: office-ui-fabric-react.IBasePickerProps<office-ui-fabric-react.ITag>
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IBasePickerProps<office-ui-fabric-react.ITag>
+    name: ITag>
+    spec.typeScript:
+      - name: IBasePickerProps
+        fullName: IBasePickerProps
+        uid: office-ui-fabric-react.IBasePickerProps
+      - name: <
+        fullName: <
+      - name: ITag
+        fullName: ITag
+        uid: office-ui-fabric-react.ITag
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getColorFromString
+    name: getColorFromString(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Converts a CSS color string to a color object.
+
+      Note that hex colors *must* be prefixed with # to be considered valid.
+
+      `inputColor` will be used unmodified as the `str` property of the returned
+      object.
+
+      Alpha defaults to 100 if not specified in `inputColor`.
+
+      Returns undefined if the color string is invalid/not recognized.
+    syntax:
+      content: 'function getColorFromString(inputColor: string)'
+      parameters:
+        - id: inputColor
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.IColor | undefined
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IColor | undefined
+    name: IColor | undefined
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor
+      - name: ' | undefined'
+        fullName: ' | undefined'

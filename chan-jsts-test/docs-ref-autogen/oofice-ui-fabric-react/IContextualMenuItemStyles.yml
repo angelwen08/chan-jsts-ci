@@ -1,0 +1,247 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles
+    name: IContextualMenuItemStyles
+    fullName: IContextualMenuItemStyles
+    children:
+      - office-ui-fabric-react.IContextualMenuItemStyles.anchorLink
+      - office-ui-fabric-react.IContextualMenuItemStyles.checkmarkIcon
+      - office-ui-fabric-react.IContextualMenuItemStyles.divider
+      - office-ui-fabric-react.IContextualMenuItemStyles.icon
+      - office-ui-fabric-react.IContextualMenuItemStyles.iconColor
+      - office-ui-fabric-react.IContextualMenuItemStyles.item
+      - office-ui-fabric-react.IContextualMenuItemStyles.label
+      - office-ui-fabric-react.IContextualMenuItemStyles.linkContent
+      - office-ui-fabric-react.IContextualMenuItemStyles.linkContentMenu
+      - office-ui-fabric-react.IContextualMenuItemStyles.root
+      - office-ui-fabric-react.IContextualMenuItemStyles.secondaryText
+      - office-ui-fabric-react.IContextualMenuItemStyles.splitContainer
+      - office-ui-fabric-react.IContextualMenuItemStyles.splitMenu
+      - office-ui-fabric-react.IContextualMenuItemStyles.splitPrimary
+      - office-ui-fabric-react.IContextualMenuItemStyles.subMenuIcon
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ContextualMenu}'
+    extends:
+      name: office-ui-fabric-react.IButtonStyles
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.anchorLink
+    name: anchorLink
+    fullName: anchorLink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for a menu item that is an anchor link.
+    syntax:
+      content: 'anchorLink: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.checkmarkIcon
+    name: checkmarkIcon
+    fullName: checkmarkIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Default style for checkmark icons.
+    syntax:
+      content: 'checkmarkIcon: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.divider
+    name: divider
+    fullName: divider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for a divider item of a ContextualMenu.
+    syntax:
+      content: 'divider: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the icon element of a menu item.
+    syntax:
+      content: 'icon: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.iconColor
+    name: iconColor
+    fullName: iconColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Default icon color style for known icons.
+    syntax:
+      content: 'iconColor: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.item
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for a menu item that is an anchor link.
+    syntax:
+      content: 'item: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the label of a menu item.
+    syntax:
+      content: 'label: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.linkContent
+    name: linkContent
+    fullName: linkContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the content inside the button/link of the menuItem.
+    syntax:
+      content: 'linkContent: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.linkContentMenu
+    name: linkContentMenu
+    fullName: linkContentMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for a menu item that is a link.
+    syntax:
+      content: 'linkContentMenu: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.secondaryText
+    name: secondaryText
+    fullName: secondaryText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the secondary text of a menu item.
+    syntax:
+      content: 'secondaryText: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.splitContainer
+    name: splitContainer
+    fullName: splitContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the container of a split menu item.
+    syntax:
+      content: 'splitContainer: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.splitMenu
+    name: splitMenu
+    fullName: splitMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the menu portion of a split menu item.
+    syntax:
+      content: 'splitMenu: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.splitPrimary
+    name: splitPrimary
+    fullName: splitPrimary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the primary portion of a split menu item.
+    syntax:
+      content: 'splitPrimary: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuItemStyles.subMenuIcon
+    name: subMenuIcon
+    fullName: subMenuIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the submenu icon of a menu item.
+    syntax:
+      content: 'subMenuIcon: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IButtonStyles
+    name: IButtonStyles
+    spec.typeScript:
+      - name: IButtonStyles
+        fullName: IButtonStyles
+        uid: office-ui-fabric-react.IButtonStyles

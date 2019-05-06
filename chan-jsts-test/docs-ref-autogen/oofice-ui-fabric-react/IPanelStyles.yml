@@ -1,0 +1,223 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPanelStyles
+    name: IPanelStyles
+    fullName: IPanelStyles
+    children:
+      - office-ui-fabric-react.IPanelStyles.closeButton
+      - office-ui-fabric-react.IPanelStyles.commands
+      - office-ui-fabric-react.IPanelStyles.content
+      - office-ui-fabric-react.IPanelStyles.contentInner
+      - office-ui-fabric-react.IPanelStyles.footer
+      - office-ui-fabric-react.IPanelStyles.footerInner
+      - office-ui-fabric-react.IPanelStyles.header
+      - office-ui-fabric-react.IPanelStyles.headerText
+      - office-ui-fabric-react.IPanelStyles.hiddenPanel
+      - office-ui-fabric-react.IPanelStyles.main
+      - office-ui-fabric-react.IPanelStyles.navigation
+      - office-ui-fabric-react.IPanelStyles.overlay
+      - office-ui-fabric-react.IPanelStyles.root
+      - office-ui-fabric-react.IPanelStyles.scrollableContent
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Panel}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.closeButton
+    name: closeButton
+    fullName: closeButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the close button IconButton element.
+    syntax:
+      content: 'closeButton: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.commands
+    name: commands
+    fullName: commands
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the navigation container element.
+    syntax:
+      content: 'commands: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.content
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the body div element.
+    syntax:
+      content: 'content: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.contentInner
+    name: contentInner
+    fullName: contentInner
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the Body and Footer container element.
+    syntax:
+      content: 'contentInner: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.footer
+    name: footer
+    fullName: footer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the footer div element.
+    syntax:
+      content: 'footer: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.footerInner
+    name: footerInner
+    fullName: footerInner
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the inner footer div element.
+    syntax:
+      content: 'footerInner: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.header
+    name: header
+    fullName: header
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the header container div element.
+    syntax:
+      content: 'header: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.headerText
+    name: headerText
+    fullName: headerText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the header inner p element.
+    syntax:
+      content: 'headerText: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.hiddenPanel
+    name: hiddenPanel
+    fullName: hiddenPanel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the hidden element.
+    syntax:
+      content: 'hiddenPanel: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.main
+    name: main
+    fullName: main
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the main section element.
+    syntax:
+      content: 'main: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.navigation
+    name: navigation
+    fullName: navigation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the close button container element.
+    syntax:
+      content: 'navigation: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.overlay
+    name: overlay
+    fullName: overlay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the overlay element.
+    syntax:
+      content: 'overlay: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelStyles.scrollableContent
+    name: scrollableContent
+    fullName: scrollableContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the scrollable content area container element.
+    syntax:
+      content: 'scrollableContent: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

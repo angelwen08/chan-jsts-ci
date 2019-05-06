@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IListScrollingExampleState
+    name: IListScrollingExampleState
+    fullName: IListScrollingExampleState
+    children:
+      - office-ui-fabric-react.IListScrollingExampleState.scrollToMode
+      - office-ui-fabric-react.IListScrollingExampleState.selectedIndex
+      - office-ui-fabric-react.IListScrollingExampleState.showItemIndexInView
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IListScrollingExampleState.scrollToMode
+    name: scrollToMode
+    fullName: scrollToMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'scrollToMode: ScrollToMode'
+      return:
+        type:
+          - ScrollToMode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IListScrollingExampleState.selectedIndex
+    name: selectedIndex
+    fullName: selectedIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectedIndex: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IListScrollingExampleState.showItemIndexInView
+    name: showItemIndexInView
+    fullName: showItemIndexInView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showItemIndexInView: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

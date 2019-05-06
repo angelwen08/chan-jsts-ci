@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ChecklistStatus
+    name: ChecklistStatus
+    fullName: ChecklistStatus
+    children:
+      - office-ui-fabric-react.ChecklistStatus.fail
+      - office-ui-fabric-react.ChecklistStatus.fair
+      - office-ui-fabric-react.ChecklistStatus.good
+      - office-ui-fabric-react.ChecklistStatus.none
+      - office-ui-fabric-react.ChecklistStatus.notApplicable
+      - office-ui-fabric-react.ChecklistStatus.pass
+      - office-ui-fabric-react.ChecklistStatus.poor
+      - office-ui-fabric-react.ChecklistStatus.unknown
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ChecklistStatus.fail
+    name: fail
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ChecklistStatus.fair
+    name: fair
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ChecklistStatus.good
+    name: good
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ChecklistStatus.none
+    name: none
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ChecklistStatus.notApplicable
+    name: notApplicable
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ChecklistStatus.pass
+    name: pass
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ChecklistStatus.poor
+    name: poor
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ChecklistStatus.unknown
+    name: unknown
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: office-ui-fabric-react

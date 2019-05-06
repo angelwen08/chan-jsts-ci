@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getMaskDisplay
+    name: 'getMaskDisplay(string | undefined, IMaskValue[], string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Takes in the mask string, an array of MaskValues, and the maskCharacter
+
+      returns the mask string formatted with the input values and maskCharacter.
+
+      If the maskChar is undefined, the maskDisplay is truncated to the last
+      filled format character.
+
+      Example:
+
+      mask = 'Phone Number: (999) 999 - 9999'
+
+      maskCharData = '12345'
+
+      maskChar = '_'
+
+      return = 'Phone Number: (123) 45_ - ___'
+
+      Example:
+
+      mask = 'Phone Number: (999) 999 - 9999'
+
+      value = '12345'
+
+      maskChar = undefined
+
+      return = 'Phone Number: (123) 45'
+    syntax:
+      content: >-
+        function getMaskDisplay(mask: string | undefined, maskCharData:
+        IMaskValue[], maskChar?: string)
+      parameters:
+        - id: mask
+          type:
+            - string | undefined
+          description: The string use to define the format of the displayed maskedValue.
+        - id: maskCharData
+          type:
+            - 'office-ui-fabric-react.IMaskValue[]'
+          description: The input values to insert into the mask string for displaying.
+        - id: maskChar
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IMaskValue[]'
+    name: 'IMaskValue[]'
+    spec.typeScript:
+      - name: IMaskValue
+        fullName: IMaskValue
+        uid: office-ui-fabric-react.IMaskValue
+      - name: '[]'
+        fullName: '[]'

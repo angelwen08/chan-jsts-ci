@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.isInDateRangeArray
+    name: 'isInDateRangeArray(Date, Date[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Checks whether the specified date is in the given date range.
+    syntax:
+      content: 'function isInDateRangeArray(date: Date, dateRange: Date[])'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The origin date
+        - id: dateRange
+          type:
+            - 'Date[]'
+          description: An array of dates to do the lookup on
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

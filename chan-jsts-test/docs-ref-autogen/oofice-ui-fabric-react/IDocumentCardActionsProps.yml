@@ -1,0 +1,162 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardActionsProps
+    name: IDocumentCardActionsProps
+    fullName: IDocumentCardActionsProps
+    children:
+      - office-ui-fabric-react.IDocumentCardActionsProps.actions
+      - office-ui-fabric-react.IDocumentCardActionsProps.className
+      - office-ui-fabric-react.IDocumentCardActionsProps.componentRef
+      - office-ui-fabric-react.IDocumentCardActionsProps.styles
+      - office-ui-fabric-react.IDocumentCardActionsProps.theme
+      - office-ui-fabric-react.IDocumentCardActionsProps.views
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    extends:
+      name: ClassAttributes<office-ui-fabric-react.DocumentCardActionsBase>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActionsProps.actions
+    name: actions
+    fullName: actions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The actions available for this document.
+    syntax:
+      content: 'actions: IButtonProps[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IButtonProps[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActionsProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override class name
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActionsProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the component ref.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IDocumentCardActions>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IDocumentCardActions>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActionsProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IDocumentCardActionsStyleProps,
+        IDocumentCardActionsStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IDocumentCardActionsStyleProps,
+            office-ui-fabric-react.IDocumentCardActionsStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActionsProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActionsProps.views
+    name: views
+    fullName: views
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The number of views this document has received.
+    optional: true
+    syntax:
+      content: 'views?: Number'
+      return:
+        type:
+          - Number
+    package: office-ui-fabric-react
+references:
+  - uid: ClassAttributes<office-ui-fabric-react.DocumentCardActionsBase>
+    name: DocumentCardActionsBase>
+    spec.typeScript:
+      - name: ClassAttributes<
+        fullName: ClassAttributes<
+      - name: DocumentCardActionsBase
+        fullName: DocumentCardActionsBase
+        uid: office-ui-fabric-react.DocumentCardActionsBase
+      - name: '>'
+        fullName: '>'
+  - uid: 'office-ui-fabric-react.IButtonProps[]'
+    name: 'IButtonProps[]'
+    spec.typeScript:
+      - name: IButtonProps
+        fullName: IButtonProps
+        uid: office-ui-fabric-react.IButtonProps
+      - name: '[]'
+        fullName: '[]'
+  - uid: IRefObject<office-ui-fabric-react.IDocumentCardActions>
+    name: IDocumentCardActions>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IDocumentCardActions
+        fullName: IDocumentCardActions
+        uid: office-ui-fabric-react.IDocumentCardActions
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IDocumentCardActionsStyleProps,
+      office-ui-fabric-react.IDocumentCardActionsStyles>
+    name: IDocumentCardActionsStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IDocumentCardActionsStyleProps
+        fullName: IDocumentCardActionsStyleProps
+        uid: office-ui-fabric-react.IDocumentCardActionsStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IDocumentCardActionsStyles
+        fullName: IDocumentCardActionsStyles
+        uid: office-ui-fabric-react.IDocumentCardActionsStyles
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SwatchColorPickerBase
+    name: SwatchColorPickerBase
+    fullName: SwatchColorPickerBase<SS>
+    children:
+      - office-ui-fabric-react.SwatchColorPickerBase.componentWillReceiveProps
+      - office-ui-fabric-react.SwatchColorPickerBase.componentWillUnmount
+      - office-ui-fabric-react.SwatchColorPickerBase.defaultProps
+      - office-ui-fabric-react.SwatchColorPickerBase.render
+      - office-ui-fabric-react.SwatchColorPickerBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.ISwatchColorPickerProps,
+        office-ui-fabric-react.ISwatchColorPickerState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SwatchColorPickerBase.componentWillReceiveProps
+    name: componentWillReceiveProps(ISwatchColorPickerProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: ISwatchColorPickerProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.ISwatchColorPickerProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SwatchColorPickerBase.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SwatchColorPickerBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: ISwatchColorPickerProps'
+      return:
+        type:
+          - office-ui-fabric-react.ISwatchColorPickerProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SwatchColorPickerBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SwatchColorPickerBase.constructor
+    name: SwatchColorPickerBase(ISwatchColorPickerProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SwatchColorPickerBase(props: ISwatchColorPickerProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ISwatchColorPickerProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.ISwatchColorPickerProps,
+      office-ui-fabric-react.ISwatchColorPickerState>
+    name: ISwatchColorPickerState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: ISwatchColorPickerProps
+        fullName: ISwatchColorPickerProps
+        uid: office-ui-fabric-react.ISwatchColorPickerProps
+      - name: ', '
+        fullName: ', '
+      - name: ISwatchColorPickerState
+        fullName: ISwatchColorPickerState
+        uid: office-ui-fabric-react.ISwatchColorPickerState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ISwatchColorPickerProps
+    name: ISwatchColorPickerProps
+    spec.typeScript:
+      - name: ISwatchColorPickerProps
+        fullName: ISwatchColorPickerProps
+        uid: office-ui-fabric-react.ISwatchColorPickerProps

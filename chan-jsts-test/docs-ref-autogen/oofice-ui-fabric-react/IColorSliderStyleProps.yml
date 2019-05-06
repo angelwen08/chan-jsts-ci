@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IColorSliderStyleProps
+    name: IColorSliderStyleProps
+    fullName: IColorSliderStyleProps
+    children:
+      - office-ui-fabric-react.IColorSliderStyleProps.className
+      - office-ui-fabric-react.IColorSliderStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ColorPicker}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorSliderStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional CSS class(es) to apply to the ColorSlider.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IColorSliderStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme (provided through customization).
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

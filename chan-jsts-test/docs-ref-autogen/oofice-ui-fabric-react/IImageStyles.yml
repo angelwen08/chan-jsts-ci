@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IImageStyles
+    name: IImageStyles
+    fullName: IImageStyles
+    children:
+      - office-ui-fabric-react.IImageStyles.image
+      - office-ui-fabric-react.IImageStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Image}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageStyles.image
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the img element.
+    syntax:
+      content: 'image: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IImageStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style set for the root div element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

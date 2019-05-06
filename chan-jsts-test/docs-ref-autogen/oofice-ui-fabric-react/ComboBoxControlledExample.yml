@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ComboBoxControlledExample
+    name: ComboBoxControlledExample
+    fullName: ComboBoxControlledExample<SS>
+    children:
+      - office-ui-fabric-react.ComboBoxControlledExample.constructor
+      - office-ui-fabric-react.ComboBoxControlledExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<__type,
+        office-ui-fabric-react.IComboBoxControlledExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ComboBoxControlledExample.constructor
+    name: ComboBoxControlledExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ComboBoxControlledExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ComboBoxControlledExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<__type, office-ui-fabric-react.IComboBoxControlledExampleState>'
+    name: IComboBoxControlledExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IComboBoxControlledExampleState
+        fullName: IComboBoxControlledExampleState
+        uid: office-ui-fabric-react.IComboBoxControlledExampleState
+      - name: '>'
+        fullName: '>'

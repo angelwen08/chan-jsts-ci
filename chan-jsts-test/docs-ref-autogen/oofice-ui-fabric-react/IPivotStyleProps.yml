@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPivotStyleProps
+    name: IPivotStyleProps
+    fullName: IPivotStyleProps
+    children: []
+    syntax:
+      content: type IPivotStyleProps = Required<Pick> & Pick<IPivotProps> & Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory Pivot}'
+    package: office-ui-fabric-react

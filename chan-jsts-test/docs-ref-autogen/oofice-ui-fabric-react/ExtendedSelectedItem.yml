@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ExtendedSelectedItem
+    name: ExtendedSelectedItem
+    fullName: ExtendedSelectedItem<SS>
+    children:
+      - office-ui-fabric-react.ExtendedSelectedItem.constructor
+      - office-ui-fabric-react.ExtendedSelectedItem.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.ISelectedPeopleItemProps,
+        office-ui-fabric-react.IPeoplePickerItemState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExtendedSelectedItem.constructor
+    name: ExtendedSelectedItem(ISelectedPeopleItemProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ExtendedSelectedItem(props: ISelectedPeopleItemProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ISelectedPeopleItemProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ExtendedSelectedItem.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.ISelectedPeopleItemProps,
+      office-ui-fabric-react.IPeoplePickerItemState>
+    name: IPeoplePickerItemState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: ISelectedPeopleItemProps
+        fullName: ISelectedPeopleItemProps
+        uid: office-ui-fabric-react.ISelectedPeopleItemProps
+      - name: ', '
+        fullName: ', '
+      - name: IPeoplePickerItemState
+        fullName: IPeoplePickerItemState
+        uid: office-ui-fabric-react.IPeoplePickerItemState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ISelectedPeopleItemProps
+    name: ISelectedPeopleItemProps
+    spec.typeScript:
+      - name: ISelectedPeopleItemProps
+        fullName: ISelectedPeopleItemProps
+        uid: office-ui-fabric-react.ISelectedPeopleItemProps

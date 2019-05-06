@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.GroupFooterBase
+    name: GroupFooterBase
+    fullName: GroupFooterBase<S>
+    children:
+      - office-ui-fabric-react.GroupFooterBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: Component<office-ui-fabric-react.IGroupFooterProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GroupFooterBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element | null
+    package: office-ui-fabric-react
+references:
+  - uid: Component<office-ui-fabric-react.IGroupFooterProps>
+    name: IGroupFooterProps>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IGroupFooterProps
+        fullName: IGroupFooterProps
+        uid: office-ui-fabric-react.IGroupFooterProps
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ShimmerBase
+    name: ShimmerBase
+    fullName: ShimmerBase<SS>
+    children:
+      - office-ui-fabric-react.ShimmerBase.componentWillReceiveProps
+      - office-ui-fabric-react.ShimmerBase.defaultProps
+      - office-ui-fabric-react.ShimmerBase.render
+      - office-ui-fabric-react.ShimmerBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: '{@docCategory Shimmer}'
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IShimmerProps,
+        office-ui-fabric-react.IShimmerState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IShimmerProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IShimmerProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - office-ui-fabric-react.IShimmerProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: IShimmerProps'
+      return:
+        type:
+          - office-ui-fabric-react.IShimmerProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerBase.constructor
+    name: ShimmerBase(IShimmerProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ShimmerBase(props: IShimmerProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IShimmerProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IShimmerProps,
+      office-ui-fabric-react.IShimmerState>
+    name: IShimmerState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IShimmerProps
+        fullName: IShimmerProps
+        uid: office-ui-fabric-react.IShimmerProps
+      - name: ', '
+        fullName: ', '
+      - name: IShimmerState
+        fullName: IShimmerState
+        uid: office-ui-fabric-react.IShimmerState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IShimmerProps
+    name: IShimmerProps
+    spec.typeScript:
+      - name: IShimmerProps
+        fullName: IShimmerProps
+        uid: office-ui-fabric-react.IShimmerProps

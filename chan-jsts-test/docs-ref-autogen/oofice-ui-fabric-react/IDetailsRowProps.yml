@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsRowProps
+    name: IDetailsRowProps
+    fullName: IDetailsRowProps
+    children:
+      - office-ui-fabric-react.IDetailsRowProps.columns
+      - office-ui-fabric-react.IDetailsRowProps.selection
+      - office-ui-fabric-react.IDetailsRowProps.selectionMode
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    extends:
+      name: office-ui-fabric-react.IDetailsRowBaseProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowProps.columns
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Column metadata
+    syntax:
+      content: 'columns: IColumn[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IColumn[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowProps.selection
+    name: selection
+    fullName: selection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Selection from utilities
+    syntax:
+      content: 'selection: ISelection'
+      return:
+        type:
+          - office-ui-fabric-react.ISelection
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowProps.selectionMode
+    name: selectionMode
+    fullName: selectionMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Selection mode
+    syntax:
+      content: 'selectionMode: SelectionMode'
+      return:
+        type:
+          - office-ui-fabric-react.SelectionMode
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IDetailsRowBaseProps
+    name: IDetailsRowBaseProps
+    spec.typeScript:
+      - name: IDetailsRowBaseProps
+        fullName: IDetailsRowBaseProps
+        uid: office-ui-fabric-react.IDetailsRowBaseProps
+  - uid: 'office-ui-fabric-react.IColumn[]'
+    name: 'IColumn[]'
+    spec.typeScript:
+      - name: IColumn
+        fullName: IColumn
+        uid: office-ui-fabric-react.IColumn
+      - name: '[]'
+        fullName: '[]'
+  - uid: office-ui-fabric-react.ISelection
+    name: ISelection
+    spec.typeScript:
+      - name: ISelection
+        fullName: ISelection
+        uid: office-ui-fabric-react.ISelection
+  - uid: office-ui-fabric-react.SelectionMode
+    name: SelectionMode
+    spec.typeScript:
+      - name: SelectionMode
+        fullName: SelectionMode
+        uid: office-ui-fabric-react.SelectionMode

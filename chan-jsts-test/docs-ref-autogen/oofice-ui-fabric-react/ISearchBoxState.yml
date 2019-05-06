@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISearchBoxState
+    name: ISearchBoxState
+    fullName: ISearchBoxState
+    children:
+      - office-ui-fabric-react.ISearchBoxState.hasFocus
+      - office-ui-fabric-react.ISearchBoxState.id
+      - office-ui-fabric-react.ISearchBoxState.value
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISearchBoxState.hasFocus
+    name: hasFocus
+    fullName: hasFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hasFocus?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISearchBoxState.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISearchBoxState.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'value?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.RatingSize
+    name: RatingSize
+    fullName: RatingSize
+    children:
+      - office-ui-fabric-react.RatingSize.Small
+      - office-ui-fabric-react.RatingSize.Large
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: '{@docCategory Rating}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.RatingSize.Small
+    name: Small
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.RatingSize.Large
+    name: Large
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react

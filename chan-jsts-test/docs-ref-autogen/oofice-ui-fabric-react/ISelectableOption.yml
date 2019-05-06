@@ -1,0 +1,164 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISelectableOption
+    name: ISelectableOption
+    fullName: ISelectableOption
+    children:
+      - office-ui-fabric-react.ISelectableOption.ariaLabel
+      - office-ui-fabric-react.ISelectableOption.data
+      - office-ui-fabric-react.ISelectableOption.disabled
+      - office-ui-fabric-react.ISelectableOption.index
+      - office-ui-fabric-react.ISelectableOption.itemType
+      - office-ui-fabric-react.ISelectableOption.key
+      - office-ui-fabric-react.ISelectableOption.selected
+      - office-ui-fabric-react.ISelectableOption.text
+      - office-ui-fabric-react.ISelectableOption.title
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The aria label for the dropdown option. If not present, the `text` will be
+      used.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.data
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Data available to custom onRender functions.
+    optional: true
+    syntax:
+      content: 'data?: any'
+      return:
+        type:
+          - any
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the option is disabled
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.index
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Index for this option
+    optional: true
+    syntax:
+      content: 'index?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.itemType
+    name: itemType
+    fullName: itemType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text to render for this option
+    optional: true
+    syntax:
+      content: 'itemType?: SelectableOptionMenuItemType'
+      return:
+        type:
+          - office-ui-fabric-react.SelectableOptionMenuItemType
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Arbitrary string associated with this option.
+    syntax:
+      content: 'key: string | number'
+      return:
+        type:
+          - string | number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.selected
+    name: selected
+    fullName: selected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If option is selected.
+    optional: true
+    syntax:
+      content: 'selected?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.text
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Text to render for this option
+    syntax:
+      content: 'text: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISelectableOption.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Title attribute (built in tooltip) for a given option.
+    optional: true
+    syntax:
+      content: 'title?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.SelectableOptionMenuItemType
+    name: SelectableOptionMenuItemType
+    spec.typeScript:
+      - name: SelectableOptionMenuItemType
+        fullName: SelectableOptionMenuItemType
+        uid: office-ui-fabric-react.SelectableOptionMenuItemType

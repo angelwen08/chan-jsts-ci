@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerCircle
+    name: IShimmerCircle
+    fullName: IShimmerCircle
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Shimmer}'
+    package: office-ui-fabric-react

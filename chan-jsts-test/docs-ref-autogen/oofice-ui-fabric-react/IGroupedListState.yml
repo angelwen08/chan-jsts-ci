@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGroupedListState
+    name: IGroupedListState
+    fullName: IGroupedListState
+    children:
+      - office-ui-fabric-react.IGroupedListState.groups
+      - office-ui-fabric-react.IGroupedListState.lastSelectionMode
+      - office-ui-fabric-react.IGroupedListState.lastWidth
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListState.groups
+    name: groups
+    fullName: groups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'groups?: IGroup[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IGroup[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListState.lastSelectionMode
+    name: lastSelectionMode
+    fullName: lastSelectionMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'lastSelectionMode?: SelectionMode'
+      return:
+        type:
+          - office-ui-fabric-react.SelectionMode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListState.lastWidth
+    name: lastWidth
+    fullName: lastWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'lastWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IGroup[]'
+    name: 'IGroup[]'
+    spec.typeScript:
+      - name: IGroup
+        fullName: IGroup
+        uid: office-ui-fabric-react.IGroup
+      - name: '[]'
+        fullName: '[]'
+  - uid: office-ui-fabric-react.SelectionMode
+    name: SelectionMode
+    spec.typeScript:
+      - name: SelectionMode
+        fullName: SelectionMode
+        uid: office-ui-fabric-react.SelectionMode

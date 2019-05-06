@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IIconStyles
+    name: IIconStyles
+    fullName: IIconStyles
+    children:
+      - office-ui-fabric-react.IIconStyles.imageContainer
+      - office-ui-fabric-react.IIconStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Icon}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IIconStyles.imageContainer
+    name: imageContainer
+    fullName: imageContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Deprecated. Use `root`.
+    optional: true
+    syntax:
+      content: 'imageContainer?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `root`.
+  - uid: office-ui-fabric-react.IIconStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'root?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

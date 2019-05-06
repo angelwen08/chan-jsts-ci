@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TooltipOverflowExample
+    name: TooltipOverflowExample
+    fullName: TooltipOverflowExample<SS>
+    children:
+      - office-ui-fabric-react.TooltipOverflowExample.render
+      - office-ui-fabric-react.TooltipOverflowExample.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<__type,
+        office-ui-fabric-react.ITooltipOverflowExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipOverflowExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipOverflowExample.constructor
+    name: TooltipOverflowExample(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TooltipOverflowExample(props: any)'
+      parameters:
+        - id: props
+          type:
+            - any
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<__type, office-ui-fabric-react.ITooltipOverflowExampleState>'
+    name: ITooltipOverflowExampleState>
+    spec.typeScript:
+      - name: 'BaseComponent<__type, '
+        fullName: 'BaseComponent<__type, '
+      - name: ITooltipOverflowExampleState
+        fullName: ITooltipOverflowExampleState
+        uid: office-ui-fabric-react.ITooltipOverflowExampleState
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISwatchColorPickerState
+    name: ISwatchColorPickerState
+    fullName: ISwatchColorPickerState
+    children:
+      - office-ui-fabric-react.ISwatchColorPickerState.selectedIndex
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISwatchColorPickerState.selectedIndex
+    name: selectedIndex
+    fullName: selectedIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectedIndex?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

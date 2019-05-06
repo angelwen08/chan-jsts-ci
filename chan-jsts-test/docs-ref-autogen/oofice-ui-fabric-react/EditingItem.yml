@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.EditingItem
+    name: EditingItem
+    fullName: EditingItem<SS>
+    children:
+      - office-ui-fabric-react.EditingItem.componentDidMount
+      - office-ui-fabric-react.EditingItem.constructor
+      - office-ui-fabric-react.EditingItem.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IEditingSelectedPeopleItemProps,
+        office-ui-fabric-react.IPeoplePickerItemState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.EditingItem.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.EditingItem.constructor
+    name: EditingItem(IEditingSelectedPeopleItemProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new EditingItem(props: IEditingSelectedPeopleItemProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IEditingSelectedPeopleItemProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.EditingItem.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IEditingSelectedPeopleItemProps,
+      office-ui-fabric-react.IPeoplePickerItemState>
+    name: IPeoplePickerItemState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IEditingSelectedPeopleItemProps
+        fullName: IEditingSelectedPeopleItemProps
+        uid: office-ui-fabric-react.IEditingSelectedPeopleItemProps
+      - name: ', '
+        fullName: ', '
+      - name: IPeoplePickerItemState
+        fullName: IPeoplePickerItemState
+        uid: office-ui-fabric-react.IPeoplePickerItemState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IEditingSelectedPeopleItemProps
+    name: IEditingSelectedPeopleItemProps
+    spec.typeScript:
+      - name: IEditingSelectedPeopleItemProps
+        fullName: IEditingSelectedPeopleItemProps
+        uid: office-ui-fabric-react.IEditingSelectedPeopleItemProps

@@ -1,0 +1,114 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITableJson
+    name: ITableJson
+    fullName: ITableJson
+    children:
+      - office-ui-fabric-react.ITableJson.description
+      - office-ui-fabric-react.ITableJson.extendsTokens
+      - office-ui-fabric-react.ITableJson.kind
+      - office-ui-fabric-react.ITableJson.members
+      - office-ui-fabric-react.ITableJson.name
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: Api table
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableJson.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableJson.extendsTokens
+    name: extendsTokens
+    fullName: extendsTokens
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'extendsTokens: ILinkToken[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.ILinkToken[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableJson.kind
+    name: kind
+    fullName: kind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'kind: "interface" | "enum" | "class"'
+      return:
+        type:
+          - '"interface" | "enum" | "class"'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableJson.members
+    name: members
+    fullName: members
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'members: ITableRowJson[] | IEnumTableRowJson[]'
+      return:
+        type:
+          - >-
+            office-ui-fabric-react.ITableRowJson[] |
+            office-ui-fabric-react.IEnumTableRowJson[]
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITableJson.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.ILinkToken[]'
+    name: 'ILinkToken[]'
+    spec.typeScript:
+      - name: ILinkToken
+        fullName: ILinkToken
+        uid: office-ui-fabric-react.ILinkToken
+      - name: '[]'
+        fullName: '[]'
+  - uid: >-
+      office-ui-fabric-react.ITableRowJson[] |
+      office-ui-fabric-react.IEnumTableRowJson[]
+    name: 'IEnumTableRowJson[]'
+    spec.typeScript:
+      - name: ITableRowJson
+        fullName: ITableRowJson
+        uid: office-ui-fabric-react.ITableRowJson
+      - name: '[] | '
+        fullName: '[] | '
+      - name: IEnumTableRowJson
+        fullName: IEnumTableRowJson
+        uid: office-ui-fabric-react.IEnumTableRowJson
+      - name: '[]'
+        fullName: '[]'

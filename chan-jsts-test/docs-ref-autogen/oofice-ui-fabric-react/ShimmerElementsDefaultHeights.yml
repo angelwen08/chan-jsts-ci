@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ShimmerElementsDefaultHeights
+    name: ShimmerElementsDefaultHeights
+    fullName: ShimmerElementsDefaultHeights
+    children:
+      - office-ui-fabric-react.ShimmerElementsDefaultHeights.gap
+      - office-ui-fabric-react.ShimmerElementsDefaultHeights.line
+      - office-ui-fabric-react.ShimmerElementsDefaultHeights.circle
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      Describes the default heights for shimmer elements when omitted in
+      implementation.
+
+      {@docCategory Shimmer}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerElementsDefaultHeights.gap
+    name: gap
+    children: []
+    langs:
+      - typeScript
+    summary: 'Default height of the gap element when not provided by user: 16px'
+    type: field
+    numericValue: 16
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerElementsDefaultHeights.line
+    name: line
+    children: []
+    langs:
+      - typeScript
+    summary: 'Default height of the line element when not provided by user: 16px'
+    type: field
+    numericValue: 16
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ShimmerElementsDefaultHeights.circle
+    name: circle
+    children: []
+    langs:
+      - typeScript
+    summary: 'Default height of the circle element when not provided by user: 24px'
+    type: field
+    numericValue: 24
+    package: office-ui-fabric-react

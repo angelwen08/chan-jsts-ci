@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TagPickerBasicExample
+    name: TagPickerBasicExample
+    fullName: TagPickerBasicExample<SS>
+    children:
+      - office-ui-fabric-react.TagPickerBasicExample.render
+      - office-ui-fabric-react.TagPickerBasicExample.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'BaseComponent<__type, office-ui-fabric-react.ITagPickerDemoPageState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TagPickerBasicExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TagPickerBasicExample.constructor
+    name: TagPickerBasicExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TagPickerBasicExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<__type, office-ui-fabric-react.ITagPickerDemoPageState>'
+    name: ITagPickerDemoPageState>
+    spec.typeScript:
+      - name: 'BaseComponent<__type, '
+        fullName: 'BaseComponent<__type, '
+      - name: ITagPickerDemoPageState
+        fullName: ITagPickerDemoPageState
+        uid: office-ui-fabric-react.ITagPickerDemoPageState
+      - name: '>'
+        fullName: '>'

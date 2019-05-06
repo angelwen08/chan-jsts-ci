@@ -1,0 +1,178 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IRatingStyles
+    name: IRatingStyles
+    fullName: IRatingStyles
+    children:
+      - office-ui-fabric-react.IRatingStyles.labelText
+      - office-ui-fabric-react.IRatingStyles.ratingButton
+      - office-ui-fabric-react.IRatingStyles.ratingFocusZone
+      - office-ui-fabric-react.IRatingStyles.ratingStar
+      - office-ui-fabric-react.IRatingStyles.ratingStarBack
+      - office-ui-fabric-react.IRatingStyles.ratingStarFront
+      - office-ui-fabric-react.IRatingStyles.ratingStarIsLarge
+      - office-ui-fabric-react.IRatingStyles.ratingStarIsSmall
+      - office-ui-fabric-react.IRatingStyles.root
+      - office-ui-fabric-react.IRatingStyles.rootIsLarge
+      - office-ui-fabric-react.IRatingStyles.rootIsSmall
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Rating}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.labelText
+    name: labelText
+    fullName: labelText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'labelText: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.ratingButton
+    name: ratingButton
+    fullName: ratingButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ratingButton: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.ratingFocusZone
+    name: ratingFocusZone
+    fullName: ratingFocusZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ratingFocusZone: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.ratingStar
+    name: ratingStar
+    fullName: ratingStar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ratingStar: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.ratingStarBack
+    name: ratingStarBack
+    fullName: ratingStarBack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ratingStarBack: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.ratingStarFront
+    name: ratingStarFront
+    fullName: ratingStarFront
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ratingStarFront: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.ratingStarIsLarge
+    name: ratingStarIsLarge
+    fullName: ratingStarIsLarge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ratingStarIsLarge: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.ratingStarIsSmall
+    name: ratingStarIsSmall
+    fullName: ratingStarIsSmall
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ratingStarIsSmall: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.rootIsLarge
+    name: rootIsLarge
+    fullName: rootIsLarge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rootIsLarge: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRatingStyles.rootIsSmall
+    name: rootIsSmall
+    fullName: rootIsSmall
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rootIsSmall: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

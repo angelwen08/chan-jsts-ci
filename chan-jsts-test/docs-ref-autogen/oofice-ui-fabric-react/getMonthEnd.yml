@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getMonthEnd
+    name: getMonthEnd(Date)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns a date that is the last day of the month of the provided date.
+    syntax:
+      content: 'function getMonthEnd(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The origin date
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react

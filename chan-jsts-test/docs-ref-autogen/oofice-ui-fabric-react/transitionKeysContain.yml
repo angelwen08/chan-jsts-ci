@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.transitionKeysContain
+    name: 'transitionKeysContain(IKeytipTransitionKey[], IKeytipTransitionKey)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Tests if 'key' is present in 'keys'.
+    syntax:
+      content: >-
+        function transitionKeysContain(keys: IKeytipTransitionKey[], key:
+        IKeytipTransitionKey)
+      parameters:
+        - id: keys
+          type:
+            - 'office-ui-fabric-react.IKeytipTransitionKey[]'
+          description: Array of IKeytipTransitionKey.
+        - id: key
+          type:
+            - office-ui-fabric-react.IKeytipTransitionKey
+          description: IKeytipTransitionKey to find in 'keys'.
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IKeytipTransitionKey[]'
+    name: 'IKeytipTransitionKey[]'
+    spec.typeScript:
+      - name: IKeytipTransitionKey
+        fullName: IKeytipTransitionKey
+        uid: office-ui-fabric-react.IKeytipTransitionKey
+      - name: '[]'
+        fullName: '[]'
+  - uid: office-ui-fabric-react.IKeytipTransitionKey
+    name: IKeytipTransitionKey
+    spec.typeScript:
+      - name: IKeytipTransitionKey
+        fullName: IKeytipTransitionKey
+        uid: office-ui-fabric-react.IKeytipTransitionKey

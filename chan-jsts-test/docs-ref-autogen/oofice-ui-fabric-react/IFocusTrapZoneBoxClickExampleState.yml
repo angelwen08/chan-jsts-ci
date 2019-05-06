@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IFocusTrapZoneBoxClickExampleState
+    name: IFocusTrapZoneBoxClickExampleState
+    fullName: IFocusTrapZoneBoxClickExampleState
+    children:
+      - office-ui-fabric-react.IFocusTrapZoneBoxClickExampleState.useTrapZone
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IFocusTrapZoneBoxClickExampleState.useTrapZone
+    name: useTrapZone
+    fullName: useTrapZone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'useTrapZone: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IProgressIndicatorBasicExampleState
+    name: IProgressIndicatorBasicExampleState
+    fullName: IProgressIndicatorBasicExampleState
+    children:
+      - >-
+        office-ui-fabric-react.IProgressIndicatorBasicExampleState.percentComplete
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IProgressIndicatorBasicExampleState.percentComplete
+    name: percentComplete
+    fullName: percentComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'percentComplete: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

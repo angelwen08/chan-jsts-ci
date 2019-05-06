@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBaseFloatingPickerState
+    name: IBaseFloatingPickerState
+    fullName: IBaseFloatingPickerState
+    children:
+      - office-ui-fabric-react.IBaseFloatingPickerState.didBind
+      - office-ui-fabric-react.IBaseFloatingPickerState.queryString
+      - office-ui-fabric-react.IBaseFloatingPickerState.suggestionsVisible
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPickerState.didBind
+    name: didBind
+    fullName: didBind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'didBind: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPickerState.queryString
+    name: queryString
+    fullName: queryString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'queryString: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseFloatingPickerState.suggestionsVisible
+    name: suggestionsVisible
+    fullName: suggestionsVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'suggestionsVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

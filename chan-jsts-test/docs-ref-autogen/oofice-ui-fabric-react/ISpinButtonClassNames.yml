@@ -1,0 +1,118 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISpinButtonClassNames
+    name: ISpinButtonClassNames
+    fullName: ISpinButtonClassNames
+    children:
+      - office-ui-fabric-react.ISpinButtonClassNames.arrowBox
+      - office-ui-fabric-react.ISpinButtonClassNames.icon
+      - office-ui-fabric-react.ISpinButtonClassNames.input
+      - office-ui-fabric-react.ISpinButtonClassNames.label
+      - office-ui-fabric-react.ISpinButtonClassNames.labelWrapper
+      - office-ui-fabric-react.ISpinButtonClassNames.root
+      - office-ui-fabric-react.ISpinButtonClassNames.spinButtonWrapper
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonClassNames.arrowBox
+    name: arrowBox
+    fullName: arrowBox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'arrowBox: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonClassNames.icon
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'icon: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonClassNames.input
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'input: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonClassNames.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonClassNames.labelWrapper
+    name: labelWrapper
+    fullName: labelWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'labelWrapper: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonClassNames.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonClassNames.spinButtonWrapper
+    name: spinButtonWrapper
+    fullName: spinButtonWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'spinButtonWrapper: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

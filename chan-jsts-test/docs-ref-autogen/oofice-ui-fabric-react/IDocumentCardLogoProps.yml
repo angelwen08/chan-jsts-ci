@@ -1,0 +1,154 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardLogoProps
+    name: IDocumentCardLogoProps
+    fullName: IDocumentCardLogoProps
+    children:
+      - office-ui-fabric-react.IDocumentCardLogoProps.className
+      - office-ui-fabric-react.IDocumentCardLogoProps.componentRef
+      - office-ui-fabric-react.IDocumentCardLogoProps.logoIcon
+      - office-ui-fabric-react.IDocumentCardLogoProps.logoName
+      - office-ui-fabric-react.IDocumentCardLogoProps.styles
+      - office-ui-fabric-react.IDocumentCardLogoProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    extends:
+      name: ClassAttributes<office-ui-fabric-react.DocumentCardLogoBase>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardLogoProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override class name
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardLogoProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the component ref.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IDocumentCardLogo>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IDocumentCardLogo>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardLogoProps.logoIcon
+    name: logoIcon
+    fullName: logoIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Describes DocumentCard Logo badge.
+    syntax:
+      content: 'logoIcon: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardLogoProps.logoName
+    name: logoName
+    fullName: logoName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Describe Logo name, optional.'
+    optional: true
+    syntax:
+      content: 'logoName?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardLogoProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IDocumentCardLogoStyleProps,
+        IDocumentCardLogoStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IDocumentCardLogoStyleProps,
+            office-ui-fabric-react.IDocumentCardLogoStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardLogoProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by HOC.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: ClassAttributes<office-ui-fabric-react.DocumentCardLogoBase>
+    name: DocumentCardLogoBase>
+    spec.typeScript:
+      - name: ClassAttributes<
+        fullName: ClassAttributes<
+      - name: DocumentCardLogoBase
+        fullName: DocumentCardLogoBase
+        uid: office-ui-fabric-react.DocumentCardLogoBase
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.IDocumentCardLogo>
+    name: IDocumentCardLogo>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IDocumentCardLogo
+        fullName: IDocumentCardLogo
+        uid: office-ui-fabric-react.IDocumentCardLogo
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IDocumentCardLogoStyleProps,
+      office-ui-fabric-react.IDocumentCardLogoStyles>
+    name: IDocumentCardLogoStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IDocumentCardLogoStyleProps
+        fullName: IDocumentCardLogoStyleProps
+        uid: office-ui-fabric-react.IDocumentCardLogoStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IDocumentCardLogoStyles
+        fullName: IDocumentCardLogoStyles
+        uid: office-ui-fabric-react.IDocumentCardLogoStyles
+      - name: '>'
+        fullName: '>'

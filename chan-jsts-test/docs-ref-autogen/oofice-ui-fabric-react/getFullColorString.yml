@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getFullColorString
+    name: getFullColorString(IColor)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Converts a color hue to an HTML color string (with # prefix).
+      This implementation ignores all components of `color` except hue.
+    syntax:
+      content: 'function getFullColorString(color: IColor)'
+      parameters:
+        - id: color
+          type:
+            - office-ui-fabric-react.IColor
+          description: ''
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor

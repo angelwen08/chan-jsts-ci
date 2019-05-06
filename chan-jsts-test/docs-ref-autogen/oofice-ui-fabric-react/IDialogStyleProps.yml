@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDialogStyleProps
+    name: IDialogStyleProps
+    fullName: IDialogStyleProps
+    children:
+      - office-ui-fabric-react.IDialogStyleProps.className
+      - office-ui-fabric-react.IDialogStyleProps.containerClassName
+      - office-ui-fabric-react.IDialogStyleProps.contentClassName
+      - office-ui-fabric-react.IDialogStyleProps.dialogDefaultMaxWidth
+      - office-ui-fabric-react.IDialogStyleProps.dialogDefaultMinWidth
+      - office-ui-fabric-react.IDialogStyleProps.hidden
+      - office-ui-fabric-react.IDialogStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Dialog}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accept custom classNames
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogStyleProps.containerClassName
+    name: containerClassName
+    fullName: containerClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override for container class
+    optional: true
+    syntax:
+      content: 'containerClassName?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: Pass through via `modalProps.className` instead.
+  - uid: office-ui-fabric-react.IDialogStyleProps.contentClassName
+    name: contentClassName
+    fullName: contentClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional override content class
+    optional: true
+    syntax:
+      content: 'contentClassName?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+    deprecated:
+      content: Pass through via `dialogContentProps` instead as `className`.
+  - uid: office-ui-fabric-react.IDialogStyleProps.dialogDefaultMaxWidth
+    name: dialogDefaultMaxWidth
+    fullName: dialogDefaultMaxWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Default max-width for the dialog box.
+    optional: true
+    syntax:
+      content: 'dialogDefaultMaxWidth?: string | ICSSRule | ICSSPixelUnitRule'
+      return:
+        type:
+          - string | ICSSRule | ICSSPixelUnitRule
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogStyleProps.dialogDefaultMinWidth
+    name: dialogDefaultMinWidth
+    fullName: dialogDefaultMinWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Default min-width for the dialog box.
+    optional: true
+    syntax:
+      content: 'dialogDefaultMinWidth?: string | ICSSRule | ICSSPixelUnitRule'
+      return:
+        type:
+          - string | ICSSRule | ICSSPixelUnitRule
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogStyleProps.hidden
+    name: hidden
+    fullName: hidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the dialog is hidden.
+    optional: true
+    syntax:
+      content: 'hidden?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accept theme prop.
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

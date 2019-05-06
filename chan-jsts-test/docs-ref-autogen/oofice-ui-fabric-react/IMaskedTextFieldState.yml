@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IMaskedTextFieldState
+    name: IMaskedTextFieldState
+    fullName: IMaskedTextFieldState
+    children:
+      - office-ui-fabric-react.IMaskedTextFieldState.displayValue
+      - office-ui-fabric-react.IMaskedTextFieldState.maskCursorPosition
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: State for the MaskedTextField component.
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMaskedTextFieldState.displayValue
+    name: displayValue
+    fullName: displayValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The mask string formatted with the input value.
+      This is what is displayed inside the TextField
+    syntax:
+      content: 'displayValue: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMaskedTextFieldState.maskCursorPosition
+    name: maskCursorPosition
+    fullName: maskCursorPosition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The index into the rendered value of the first unfilled format character
+    optional: true
+    syntax:
+      content: 'maskCursorPosition?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

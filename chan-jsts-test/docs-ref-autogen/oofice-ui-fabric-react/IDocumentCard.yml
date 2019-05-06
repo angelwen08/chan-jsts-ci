@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCard
+    name: IDocumentCard
+    fullName: IDocumentCard
+    children:
+      - office-ui-fabric-react.IDocumentCard.focus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCard.focus
+    name: focus
+    fullName: focus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sets focus to the DocumentCard.
+    syntax:
+      content: 'focus: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react

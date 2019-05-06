@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.CompactPeoplePickerBase
+    name: CompactPeoplePickerBase
+    fullName: CompactPeoplePickerBase<SS>
+    children:
+      - office-ui-fabric-react.CompactPeoplePickerBase.defaultProps
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Compact layout. It uses personas without secondary text when displaying
+      search results.
+
+      {@docCategory PeoplePicker}
+    extends:
+      name: office-ui-fabric-react.BasePeoplePicker
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.CompactPeoplePickerBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Default props for CompactPeoplePicker.
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.BasePeoplePicker
+    name: BasePeoplePicker
+    spec.typeScript:
+      - name: BasePeoplePicker
+        fullName: BasePeoplePicker
+        uid: office-ui-fabric-react.BasePeoplePicker

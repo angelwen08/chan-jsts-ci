@@ -1,0 +1,770 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDatePickerProps
+    name: IDatePickerProps
+    fullName: IDatePickerProps
+    children:
+      - office-ui-fabric-react.IDatePickerProps.allFocusable
+      - office-ui-fabric-react.IDatePickerProps.allowTextInput
+      - office-ui-fabric-react.IDatePickerProps.ariaLabel
+      - office-ui-fabric-react.IDatePickerProps.borderless
+      - office-ui-fabric-react.IDatePickerProps.calendarAs
+      - office-ui-fabric-react.IDatePickerProps.calendarProps
+      - office-ui-fabric-react.IDatePickerProps.calloutProps
+      - office-ui-fabric-react.IDatePickerProps.className
+      - office-ui-fabric-react.IDatePickerProps.componentRef
+      - office-ui-fabric-react.IDatePickerProps.dateTimeFormatter
+      - office-ui-fabric-react.IDatePickerProps.disableAutoFocus
+      - office-ui-fabric-react.IDatePickerProps.disabled
+      - office-ui-fabric-react.IDatePickerProps.firstDayOfWeek
+      - office-ui-fabric-react.IDatePickerProps.firstWeekOfYear
+      - office-ui-fabric-react.IDatePickerProps.formatDate
+      - office-ui-fabric-react.IDatePickerProps.highlightCurrentMonth
+      - office-ui-fabric-react.IDatePickerProps.highlightSelectedMonth
+      - office-ui-fabric-react.IDatePickerProps.initialPickerDate
+      - office-ui-fabric-react.IDatePickerProps.isMonthPickerVisible
+      - office-ui-fabric-react.IDatePickerProps.isRequired
+      - office-ui-fabric-react.IDatePickerProps.label
+      - office-ui-fabric-react.IDatePickerProps.maxDate
+      - office-ui-fabric-react.IDatePickerProps.minDate
+      - office-ui-fabric-react.IDatePickerProps.onAfterMenuDismiss
+      - office-ui-fabric-react.IDatePickerProps.onSelectDate
+      - office-ui-fabric-react.IDatePickerProps.parseDateFromString
+      - office-ui-fabric-react.IDatePickerProps.pickerAriaLabel
+      - office-ui-fabric-react.IDatePickerProps.placeholder
+      - office-ui-fabric-react.IDatePickerProps.showCloseButton
+      - office-ui-fabric-react.IDatePickerProps.showGoToToday
+      - office-ui-fabric-react.IDatePickerProps.showMonthPickerAsOverlay
+      - office-ui-fabric-react.IDatePickerProps.showWeekNumbers
+      - office-ui-fabric-react.IDatePickerProps.strings
+      - office-ui-fabric-react.IDatePickerProps.styles
+      - office-ui-fabric-react.IDatePickerProps.tabIndex
+      - office-ui-fabric-react.IDatePickerProps.textField
+      - office-ui-fabric-react.IDatePickerProps.theme
+      - office-ui-fabric-react.IDatePickerProps.today
+      - office-ui-fabric-react.IDatePickerProps.underlined
+      - office-ui-fabric-react.IDatePickerProps.value
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DatePicker}'
+    extends:
+      name: IBaseProps<office-ui-fabric-react.IDatePicker>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.allFocusable
+    name: allFocusable
+    fullName: allFocusable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Allows all elements to be focused, including disabled ones'
+    optional: true
+    syntax:
+      content: 'allFocusable?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.allowTextInput
+    name: allowTextInput
+    fullName: allowTextInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the DatePicker allows input a date string directly or not
+    optional: true
+    syntax:
+      content: 'allowTextInput?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria Label for TextField of the DatePicker for screen reader users.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.borderless
+    name: borderless
+    fullName: borderless
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Determines if DatePicker has a border.
+    optional: true
+    syntax:
+      content: 'borderless?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.calendarAs
+    name: calendarAs
+    fullName: calendarAs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Custom Calendar to be used for date picking
+    optional: true
+    syntax:
+      content: 'calendarAs?: IComponentAs<ICalendarProps>'
+      return:
+        type:
+          - IComponentAs<office-ui-fabric-react.ICalendarProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.calendarProps
+    name: calendarProps
+    fullName: calendarProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Pass calendar props to calendar component
+    optional: true
+    syntax:
+      content: 'calendarProps?: ICalendarProps'
+      return:
+        type:
+          - office-ui-fabric-react.ICalendarProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.calloutProps
+    name: calloutProps
+    fullName: calloutProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Pass callout props to callout component
+    optional: true
+    syntax:
+      content: 'calloutProps?: ICalloutProps'
+      return:
+        type:
+          - office-ui-fabric-react.ICalloutProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional Classname for datepicker root element .
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IDatePicker interface. Use this instead of
+      ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IDatePicker>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IDatePicker>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.dateTimeFormatter
+    name: dateTimeFormatter
+    fullName: dateTimeFormatter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Apply additional formating to dates, for example localized date
+      formatting.
+    optional: true
+    syntax:
+      content: 'dateTimeFormatter?: ICalendarFormatDateCallbacks'
+      return:
+        type:
+          - office-ui-fabric-react.ICalendarFormatDateCallbacks
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.disableAutoFocus
+    name: disableAutoFocus
+    fullName: disableAutoFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether the DatePicker should open automatically when the control is
+      focused
+    optional: true
+    syntax:
+      content: 'disableAutoFocus?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Disabled state of the DatePicker.
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.firstDayOfWeek
+    name: firstDayOfWeek
+    fullName: firstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The first day of the week for your locale.
+    optional: true
+    syntax:
+      content: 'firstDayOfWeek?: DayOfWeek'
+      return:
+        type:
+          - office-ui-fabric-react.DayOfWeek
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.firstWeekOfYear
+    name: firstWeekOfYear
+    fullName: firstWeekOfYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines when the first week of the year should start,
+      FirstWeekOfYear.FirstDay,
+
+      FirstWeekOfYear.FirstFullWeek or FirstWeekOfYear.FirstFourDayWeek are the
+      possible values
+    optional: true
+    syntax:
+      content: 'firstWeekOfYear?: FirstWeekOfYear'
+      return:
+        type:
+          - office-ui-fabric-react.FirstWeekOfYear
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.formatDate
+    name: formatDate
+    fullName: formatDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional method to format the chosen date to a string to display in the
+      DatePicker
+    optional: true
+    syntax:
+      content: 'formatDate?: (date?: Date) => string'
+      return:
+        type:
+          - '(date?: Date) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.highlightCurrentMonth
+    name: highlightCurrentMonth
+    fullName: highlightCurrentMonth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the month picker should highlight the current month
+    optional: true
+    syntax:
+      content: 'highlightCurrentMonth?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.highlightSelectedMonth
+    name: highlightSelectedMonth
+    fullName: highlightSelectedMonth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the month picker should highlight the selected month
+    optional: true
+    syntax:
+      content: 'highlightSelectedMonth?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.initialPickerDate
+    name: initialPickerDate
+    fullName: initialPickerDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The initially highlighted date in the calendar picker
+    optional: true
+    syntax:
+      content: 'initialPickerDate?: Date'
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.isMonthPickerVisible
+    name: isMonthPickerVisible
+    fullName: isMonthPickerVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the month picker is shown beside the day picker or hidden.
+    optional: true
+    syntax:
+      content: 'isMonthPickerVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.isRequired
+    name: isRequired
+    fullName: isRequired
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the DatePicker is a required field or not
+    optional: true
+    syntax:
+      content: 'isRequired?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Label for the DatePicker
+    optional: true
+    syntax:
+      content: 'label?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.maxDate
+    name: maxDate
+    fullName: maxDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The maximum allowable date.
+    optional: true
+    syntax:
+      content: 'maxDate?: Date'
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.minDate
+    name: minDate
+    fullName: minDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The minimum allowable date.
+    optional: true
+    syntax:
+      content: 'minDate?: Date'
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.onAfterMenuDismiss
+    name: onAfterMenuDismiss
+    fullName: onAfterMenuDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback that runs after DatePicker's menu (Calendar) is closed
+    optional: true
+    syntax:
+      content: 'onAfterMenuDismiss?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.onSelectDate
+    name: onSelectDate
+    fullName: onSelectDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback issued when a date is selected
+    optional: true
+    syntax:
+      content: 'onSelectDate?: (date: Date | null | undefined) => void'
+      return:
+        type:
+          - '(date: Date | null | undefined) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.parseDateFromString
+    name: parseDateFromString
+    fullName: parseDateFromString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional method to parse the text input value to date, it is only useful
+      when allowTextInput is set to true
+    optional: true
+    syntax:
+      content: 'parseDateFromString?: (dateStr: string) => Date | null'
+      return:
+        type:
+          - '(dateStr: string) => Date | null'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.pickerAriaLabel
+    name: pickerAriaLabel
+    fullName: pickerAriaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria label for date picker popup for screen reader users.
+    optional: true
+    syntax:
+      content: 'pickerAriaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.placeholder
+    name: placeholder
+    fullName: placeholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Placeholder text for the DatePicker
+    optional: true
+    syntax:
+      content: 'placeholder?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.showCloseButton
+    name: showCloseButton
+    fullName: showCloseButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the CalendarDay close button should be shown or not.
+    optional: true
+    syntax:
+      content: 'showCloseButton?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.showGoToToday
+    name: showGoToToday
+    fullName: showGoToToday
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether the "Go to today" link should be shown or not
+    optional: true
+    syntax:
+      content: 'showGoToToday?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.showMonthPickerAsOverlay
+    name: showMonthPickerAsOverlay
+    fullName: showMonthPickerAsOverlay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Show month picker on top of date picker when visible.
+    optional: true
+    syntax:
+      content: 'showMonthPickerAsOverlay?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.showWeekNumbers
+    name: showWeekNumbers
+    fullName: showWeekNumbers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether the calendar should show the week number (weeks 1 to 53) before
+      each week row
+    optional: true
+    syntax:
+      content: 'showWeekNumbers?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.strings
+    name: strings
+    fullName: strings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Localized strings to use in the DatePicker
+    optional: true
+    syntax:
+      content: 'strings?: IDatePickerStrings'
+      return:
+        type:
+          - office-ui-fabric-react.IDatePickerStrings
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunction<IDatePickerStyleProps, IDatePickerStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunction<office-ui-fabric-react.IDatePickerStyleProps,
+            office-ui-fabric-react.IDatePickerStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.tabIndex
+    name: tabIndex
+    fullName: tabIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The tabIndex of the TextField
+    optional: true
+    syntax:
+      content: 'tabIndex?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.textField
+    name: textField
+    fullName: textField
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Pass textField props to textField component.
+      Prop name is "textField" for compatiblity with upcoming slots work.
+    optional: true
+    syntax:
+      content: 'textField?: ITextFieldProps'
+      return:
+        type:
+          - office-ui-fabric-react.ITextFieldProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.today
+    name: today
+    fullName: today
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Value of today. If null, current time in client machine will be used.'
+    optional: true
+    syntax:
+      content: 'today?: Date'
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.underlined
+    name: underlined
+    fullName: underlined
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether or not the Textfield of the DatePicker is underlined.
+    optional: true
+    syntax:
+      content: 'underlined?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDatePickerProps.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Default value of the DatePicker, if any'
+    optional: true
+    syntax:
+      content: 'value?: Date'
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react
+references:
+  - uid: IBaseProps<office-ui-fabric-react.IDatePicker>
+    name: IDatePicker>
+    spec.typeScript:
+      - name: IBaseProps<
+        fullName: IBaseProps<
+      - name: IDatePicker
+        fullName: IDatePicker
+        uid: office-ui-fabric-react.IDatePicker
+      - name: '>'
+        fullName: '>'
+  - uid: IComponentAs<office-ui-fabric-react.ICalendarProps>
+    name: ICalendarProps>
+    spec.typeScript:
+      - name: IComponentAs<
+        fullName: IComponentAs<
+      - name: ICalendarProps
+        fullName: ICalendarProps
+        uid: office-ui-fabric-react.ICalendarProps
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ICalendarProps
+    name: ICalendarProps
+    spec.typeScript:
+      - name: ICalendarProps
+        fullName: ICalendarProps
+        uid: office-ui-fabric-react.ICalendarProps
+  - uid: office-ui-fabric-react.ICalloutProps
+    name: ICalloutProps
+    spec.typeScript:
+      - name: ICalloutProps
+        fullName: ICalloutProps
+        uid: office-ui-fabric-react.ICalloutProps
+  - uid: IRefObject<office-ui-fabric-react.IDatePicker>
+    name: IDatePicker>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IDatePicker
+        fullName: IDatePicker
+        uid: office-ui-fabric-react.IDatePicker
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ICalendarFormatDateCallbacks
+    name: ICalendarFormatDateCallbacks
+    spec.typeScript:
+      - name: ICalendarFormatDateCallbacks
+        fullName: ICalendarFormatDateCallbacks
+        uid: office-ui-fabric-react.ICalendarFormatDateCallbacks
+  - uid: office-ui-fabric-react.DayOfWeek
+    name: DayOfWeek
+    spec.typeScript:
+      - name: DayOfWeek
+        fullName: DayOfWeek
+        uid: office-ui-fabric-react.DayOfWeek
+  - uid: office-ui-fabric-react.FirstWeekOfYear
+    name: FirstWeekOfYear
+    spec.typeScript:
+      - name: FirstWeekOfYear
+        fullName: FirstWeekOfYear
+        uid: office-ui-fabric-react.FirstWeekOfYear
+  - uid: office-ui-fabric-react.IDatePickerStrings
+    name: IDatePickerStrings
+    spec.typeScript:
+      - name: IDatePickerStrings
+        fullName: IDatePickerStrings
+        uid: office-ui-fabric-react.IDatePickerStrings
+  - uid: >-
+      IStyleFunction<office-ui-fabric-react.IDatePickerStyleProps,
+      office-ui-fabric-react.IDatePickerStyles>
+    name: IDatePickerStyles>
+    spec.typeScript:
+      - name: IStyleFunction<
+        fullName: IStyleFunction<
+      - name: IDatePickerStyleProps
+        fullName: IDatePickerStyleProps
+        uid: office-ui-fabric-react.IDatePickerStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IDatePickerStyles
+        fullName: IDatePickerStyles
+        uid: office-ui-fabric-react.IDatePickerStyles
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ITextFieldProps
+    name: ITextFieldProps
+    spec.typeScript:
+      - name: ITextFieldProps
+        fullName: ITextFieldProps
+        uid: office-ui-fabric-react.ITextFieldProps

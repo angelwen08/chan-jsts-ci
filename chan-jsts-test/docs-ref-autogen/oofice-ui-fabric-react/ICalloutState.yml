@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalloutState
+    name: ICalloutState
+    fullName: ICalloutState
+    children:
+      - office-ui-fabric-react.ICalloutState.calloutElementRect
+      - office-ui-fabric-react.ICalloutState.heightOffset
+      - office-ui-fabric-react.ICalloutState.positions
+      - office-ui-fabric-react.ICalloutState.slideDirectionalClassName
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalloutState.calloutElementRect
+    name: calloutElementRect
+    fullName: calloutElementRect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'calloutElementRect?: ClientRect'
+      return:
+        type:
+          - ClientRect
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalloutState.heightOffset
+    name: heightOffset
+    fullName: heightOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'heightOffset?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalloutState.positions
+    name: positions
+    fullName: positions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'positions?: ICalloutPositionedInfo'
+      return:
+        type:
+          - office-ui-fabric-react.ICalloutPositionedInfo
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalloutState.slideDirectionalClassName
+    name: slideDirectionalClassName
+    fullName: slideDirectionalClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'slideDirectionalClassName?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ICalloutPositionedInfo
+    name: ICalloutPositionedInfo
+    spec.typeScript:
+      - name: ICalloutPositionedInfo
+        fullName: ICalloutPositionedInfo
+        uid: office-ui-fabric-react.ICalloutPositionedInfo

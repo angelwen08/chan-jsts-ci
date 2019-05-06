@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISuggestionsSubComponentStyles
+    name: ISuggestionsSubComponentStyles
+    fullName: ISuggestionsSubComponentStyles
+    children:
+      - office-ui-fabric-react.ISuggestionsSubComponentStyles.spinner
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Styles interface of the SubComponents rendered within
+      PeoplePickerItemSelected.
+
+      {@docCategory Pickers}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsSubComponentStyles.spinner
+    name: spinner
+    fullName: spinner
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Refers to the Spinner rendered within the Suggestions when searching or
+      loading suggestions.
+    syntax:
+      content: 'spinner: IStyleFunctionOrObject<ISpinnerStyleProps, any>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.ISpinnerStyleProps,
+            any>
+    package: office-ui-fabric-react
+references:
+  - uid: 'IStyleFunctionOrObject<office-ui-fabric-react.ISpinnerStyleProps, any>'
+    name: 'ISpinnerStyleProps, any>'
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: ISpinnerStyleProps
+        fullName: ISpinnerStyleProps
+        uid: office-ui-fabric-react.ISpinnerStyleProps
+      - name: ', any>'
+        fullName: ', any>'

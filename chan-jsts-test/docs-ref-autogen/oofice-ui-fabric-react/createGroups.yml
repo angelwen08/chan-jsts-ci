@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.createGroups
+    name: 'createGroups(number, number, number, number, number, string, boolean)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createGroups(groupCount: number, groupDepth: number,
+        startIndex: number, itemsPerGroup: number, level?: number, key?: string,
+        isCollapsed?: boolean)
+      parameters:
+        - id: groupCount
+          type:
+            - number
+          description: ''
+        - id: groupDepth
+          type:
+            - number
+          description: ''
+        - id: startIndex
+          type:
+            - number
+          description: ''
+        - id: itemsPerGroup
+          type:
+            - number
+          description: ''
+        - id: level
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: key
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: isCollapsed
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'office-ui-fabric-react.IGroup[]'
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IGroup[]'
+    name: 'IGroup[]'
+    spec.typeScript:
+      - name: IGroup
+        fullName: IGroup
+        uid: office-ui-fabric-react.IGroup
+      - name: '[]'
+        fullName: '[]'

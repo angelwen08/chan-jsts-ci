@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.hsl2hsv
+    name: 'hsl2hsv(number, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Converts HSL components to an HSV color.
+    syntax:
+      content: 'function hsl2hsv(h: number, s: number, l: number)'
+      parameters:
+        - id: h
+          type:
+            - number
+          description: ''
+        - id: s
+          type:
+            - number
+          description: ''
+        - id: l
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.IHSV
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IHSV
+    name: IHSV
+    spec.typeScript:
+      - name: IHSV
+        fullName: IHSV
+        uid: office-ui-fabric-react.IHSV

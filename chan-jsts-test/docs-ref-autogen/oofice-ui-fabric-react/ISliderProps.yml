@@ -1,0 +1,380 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISliderProps
+    name: ISliderProps
+    fullName: ISliderProps
+    children:
+      - office-ui-fabric-react.ISliderProps.ariaLabel
+      - office-ui-fabric-react.ISliderProps.ariaValueText
+      - office-ui-fabric-react.ISliderProps.buttonProps
+      - office-ui-fabric-react.ISliderProps.className
+      - office-ui-fabric-react.ISliderProps.componentRef
+      - office-ui-fabric-react.ISliderProps.defaultValue
+      - office-ui-fabric-react.ISliderProps.disabled
+      - office-ui-fabric-react.ISliderProps.label
+      - office-ui-fabric-react.ISliderProps.max
+      - office-ui-fabric-react.ISliderProps.min
+      - office-ui-fabric-react.ISliderProps.onChange
+      - office-ui-fabric-react.ISliderProps.onChanged
+      - office-ui-fabric-react.ISliderProps.showValue
+      - office-ui-fabric-react.ISliderProps.step
+      - office-ui-fabric-react.ISliderProps.styles
+      - office-ui-fabric-react.ISliderProps.theme
+      - office-ui-fabric-react.ISliderProps.value
+      - office-ui-fabric-react.ISliderProps.valueFormat
+      - office-ui-fabric-react.ISliderProps.vertical
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Slider}'
+    extends:
+      name: ClassAttributes<office-ui-fabric-react.SliderBase>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A description of the Slider for the benefit of screen readers.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.ariaValueText
+    name: ariaValueText
+    fullName: ariaValueText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A text description of the Slider number value for the benefit of screen
+      readers.
+
+      This should be used when the Slider number value is not accurately
+      represented by a number.
+    optional: true
+    syntax:
+      content: 'ariaValueText?: (value: number) => string'
+      return:
+        type:
+          - '(value: number) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.buttonProps
+    name: buttonProps
+    fullName: buttonProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional mixin for additional props on the thumb button within the slider.
+    optional: true
+    syntax:
+      content: 'buttonProps?: HTMLAttributes<HTMLButtonElement>'
+      return:
+        type:
+          - HTMLAttributes<HTMLButtonElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional className to attach to the slider root element.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the ISlider interface. Use this instead of ref
+      for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<ISlider>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.ISlider>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The initial value of the Slider. Use this if you intend for the Slider to
+      be an uncontrolled component.
+
+      This value is mutually exclusive to value. Use one or the other.
+    optional: true
+    syntax:
+      content: 'defaultValue?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional flag to render the Slider as disabled.
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Description label of the Slider
+    optional: true
+    syntax:
+      content: 'label?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.max
+    name: max
+    fullName: max
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The max value of the Slider
+    optional: true
+    syntax:
+      content: 'max?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.min
+    name: min
+    fullName: min
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The min value of the Slider
+    optional: true
+    syntax:
+      content: 'min?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback when the value has been changed
+    optional: true
+    syntax:
+      content: 'onChange?: (value: number) => void'
+      return:
+        type:
+          - '(value: number) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.onChanged
+    name: onChanged
+    fullName: onChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback on mouse up or touch end
+    optional: true
+    syntax:
+      content: 'onChanged?: (event: MouseEvent | TouchEvent, value: number) => void'
+      return:
+        type:
+          - '(event: MouseEvent | TouchEvent, value: number) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.showValue
+    name: showValue
+    fullName: showValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to show the value on the right of the Slider.
+    optional: true
+    syntax:
+      content: 'showValue?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.step
+    name: step
+    fullName: step
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The difference between the two adjacent values of the Slider
+    optional: true
+    syntax:
+      content: 'step?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: 'styles?: IStyleFunctionOrObject<ISliderStyleProps, ISliderStyles>'
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.ISliderStyleProps,
+            office-ui-fabric-react.ISliderStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The initial value of the Slider. Use this if you intend to pass in a new
+      value as a result of onChange events.
+
+      This value is mutually exclusive to defaultValue. Use one or the other.
+    optional: true
+    syntax:
+      content: 'value?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.valueFormat
+    name: valueFormat
+    fullName: valueFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional function to format the slider value.
+    optional: true
+    syntax:
+      content: 'valueFormat?: (value: number) => string'
+      return:
+        type:
+          - '(value: number) => string'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISliderProps.vertical
+    name: vertical
+    fullName: vertical
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional flag to render the slider vertically. Defaults to rendering
+      horizontal.
+    optional: true
+    syntax:
+      content: 'vertical?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: ClassAttributes<office-ui-fabric-react.SliderBase>
+    name: SliderBase>
+    spec.typeScript:
+      - name: ClassAttributes<
+        fullName: ClassAttributes<
+      - name: SliderBase
+        fullName: SliderBase
+        uid: office-ui-fabric-react.SliderBase
+      - name: '>'
+        fullName: '>'
+  - uid: IRefObject<office-ui-fabric-react.ISlider>
+    name: ISlider>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: ISlider
+        fullName: ISlider
+        uid: office-ui-fabric-react.ISlider
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.ISliderStyleProps,
+      office-ui-fabric-react.ISliderStyles>
+    name: ISliderStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: ISliderStyleProps
+        fullName: ISliderStyleProps
+        uid: office-ui-fabric-react.ISliderStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: ISliderStyles
+        fullName: ISliderStyles
+        uid: office-ui-fabric-react.ISliderStyles
+      - name: '>'
+        fullName: '>'

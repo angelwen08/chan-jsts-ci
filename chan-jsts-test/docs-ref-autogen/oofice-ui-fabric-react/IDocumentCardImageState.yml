@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardImageState
+    name: IDocumentCardImageState
+    fullName: IDocumentCardImageState
+    children:
+      - office-ui-fabric-react.IDocumentCardImageState.imageHasLoaded
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardImageState.imageHasLoaded
+    name: imageHasLoaded
+    fullName: imageHasLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'imageHasLoaded: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

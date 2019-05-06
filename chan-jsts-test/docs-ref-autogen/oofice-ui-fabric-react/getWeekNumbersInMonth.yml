@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getWeekNumbersInMonth
+    name: 'getWeekNumbersInMonth(number, DayOfWeek, FirstWeekOfYear, Date)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Returns the week number for a date.
+      Week numbers are 1 - 52 (53) in a year
+    syntax:
+      content: >-
+        function getWeekNumbersInMonth(weeksInMonth: number, firstDayOfWeek:
+        DayOfWeek, firstWeekOfYear: FirstWeekOfYear, navigatedDate: Date)
+      parameters:
+        - id: weeksInMonth
+          type:
+            - number
+          description: ''
+        - id: firstDayOfWeek
+          type:
+            - office-ui-fabric-react.DayOfWeek
+          description: ''
+        - id: firstWeekOfYear
+          type:
+            - office-ui-fabric-react.FirstWeekOfYear
+          description: ''
+        - id: navigatedDate
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - 'number[]'
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.DayOfWeek
+    name: DayOfWeek
+    spec.typeScript:
+      - name: DayOfWeek
+        fullName: DayOfWeek
+        uid: office-ui-fabric-react.DayOfWeek
+  - uid: office-ui-fabric-react.FirstWeekOfYear
+    name: FirstWeekOfYear
+    spec.typeScript:
+      - name: FirstWeekOfYear
+        fullName: FirstWeekOfYear
+        uid: office-ui-fabric-react.FirstWeekOfYear

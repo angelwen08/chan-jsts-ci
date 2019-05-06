@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.expectOne
+    name: 'expectOne(ReactWrapper<any, any>, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function expectOne(wrapper: ReactWrapper<any, any>, className: string)'
+      parameters:
+        - id: wrapper
+          type:
+            - 'ReactWrapper<any, any>'
+          description: ''
+        - id: className
+          type:
+            - string
+          description: ''
+    package: office-ui-fabric-react

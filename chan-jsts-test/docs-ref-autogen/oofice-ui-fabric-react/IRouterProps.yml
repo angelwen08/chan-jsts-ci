@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IRouterProps
+    name: IRouterProps
+    fullName: IRouterProps
+    children:
+      - office-ui-fabric-react.IRouterProps.children
+      - office-ui-fabric-react.IRouterProps.componentRef
+      - office-ui-fabric-react.IRouterProps.onNewRouteLoaded
+      - office-ui-fabric-react.IRouterProps.replaceState
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRouterProps.children
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'children?: React.ReactNode'
+      return:
+        type:
+          - React.ReactNode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRouterProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the component ref.
+    optional: true
+    syntax:
+      content: 'componentRef?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRouterProps.onNewRouteLoaded
+    name: onNewRouteLoaded
+    fullName: onNewRouteLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onNewRouteLoaded?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IRouterProps.replaceState
+    name: replaceState
+    fullName: replaceState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'replaceState?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

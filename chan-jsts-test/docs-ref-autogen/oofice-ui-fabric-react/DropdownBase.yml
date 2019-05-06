@@ -1,0 +1,182 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DropdownBase
+    name: DropdownBase
+    fullName: DropdownBase<SS>
+    children:
+      - office-ui-fabric-react.DropdownBase.componentDidUpdate
+      - office-ui-fabric-react.DropdownBase.componentWillReceiveProps
+      - office-ui-fabric-react.DropdownBase.componentWillUnmount
+      - office-ui-fabric-react.DropdownBase.defaultProps
+      - office-ui-fabric-react.DropdownBase.constructor
+      - office-ui-fabric-react.DropdownBase.focus
+      - office-ui-fabric-react.DropdownBase.render
+      - office-ui-fabric-react.DropdownBase.setSelectedIndex
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<office-ui-fabric-react.IDropdownInternalProps,
+        office-ui-fabric-react.IDropdownState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DropdownBase.componentDidUpdate
+    name: 'componentDidUpdate(IDropdownProps, IDropdownState)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function componentDidUpdate(prevProps: IDropdownProps, prevState:
+        IDropdownState)
+      parameters:
+        - id: prevProps
+          type:
+            - office-ui-fabric-react.IDropdownProps
+          description: ''
+        - id: prevState
+          type:
+            - office-ui-fabric-react.IDropdownState
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DropdownBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IDropdownProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: IDropdownProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.IDropdownProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DropdownBase.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DropdownBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DropdownBase.constructor
+    name: DropdownBase(IDropdownProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DropdownBase(props: IDropdownProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IDropdownProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DropdownBase.focus
+    name: focus(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function focus(shouldOpenOnFocus?: boolean)'
+      parameters:
+        - id: shouldOpenOnFocus
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DropdownBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DropdownBase.setSelectedIndex
+    name: 'setSelectedIndex(FormEvent<HTMLDivElement>, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setSelectedIndex(event: FormEvent<HTMLDivElement>, index:
+        number)
+      parameters:
+        - id: event
+          type:
+            - FormEvent<HTMLDivElement>
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<office-ui-fabric-react.IDropdownInternalProps,
+      office-ui-fabric-react.IDropdownState>
+    name: IDropdownState>
+    spec.typeScript:
+      - name: Component<
+        fullName: Component<
+      - name: IDropdownInternalProps
+        fullName: IDropdownInternalProps
+        uid: office-ui-fabric-react.IDropdownInternalProps
+      - name: ', '
+        fullName: ', '
+      - name: IDropdownState
+        fullName: IDropdownState
+        uid: office-ui-fabric-react.IDropdownState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IDropdownProps
+    name: IDropdownProps
+    spec.typeScript:
+      - name: IDropdownProps
+        fullName: IDropdownProps
+        uid: office-ui-fabric-react.IDropdownProps
+  - uid: office-ui-fabric-react.IDropdownState
+    name: IDropdownState
+    spec.typeScript:
+      - name: IDropdownState
+        fullName: IDropdownState
+        uid: office-ui-fabric-react.IDropdownState

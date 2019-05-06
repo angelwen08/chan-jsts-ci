@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getMaxHeight
+    name: >-
+      getMaxHeight(Element | MouseEvent | IPoint, DirectionalHint, number,
+      IRectangle, boolean)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get's the maximum height that a rectangle can have in order to fit below
+      or above a target.
+
+      If the directional hint specifies a left or right edge (i.e. leftCenter)
+      it will limit the height to the topBorder
+
+      of the target given.
+
+      If no bounds are provided then the window is treated as the bounds.
+    syntax:
+      content: >-
+        function getMaxHeight(target: Element | MouseEvent | IPoint, targetEdge:
+        DirectionalHint, gapSpace?: number, bounds?: IRectangle, coverTarget?:
+        boolean)
+      parameters:
+        - id: target
+          type:
+            - Element | MouseEvent | office-ui-fabric-react.IPoint
+          description: ''
+        - id: targetEdge
+          type:
+            - DirectionalHint
+          description: ''
+        - id: gapSpace
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: bounds
+          type:
+            - IRectangle
+          description: ''
+          optional: true
+        - id: coverTarget
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+references:
+  - uid: Element | MouseEvent | office-ui-fabric-react.IPoint
+    name: IPoint
+    spec.typeScript:
+      - name: 'Element | MouseEvent | '
+        fullName: 'Element | MouseEvent | '
+      - name: IPoint
+        fullName: IPoint
+        uid: office-ui-fabric-react.IPoint

@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITextFieldErrorMessageExampleState
+    name: ITextFieldErrorMessageExampleState
+    fullName: ITextFieldErrorMessageExampleState
+    children:
+      - office-ui-fabric-react.ITextFieldErrorMessageExampleState.showFields
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITextFieldErrorMessageExampleState.showFields
+    name: showFields
+    fullName: showFields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Screen readers will read all errors on a page as soon as they are present,
+
+      making this demo potentially unpleasant when using a screen reader.
+
+      Not rendering the controls by default makes for a more pleasant
+      experience.
+    syntax:
+      content: 'showFields: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

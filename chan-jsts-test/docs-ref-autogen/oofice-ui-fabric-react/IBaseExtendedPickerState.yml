@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBaseExtendedPickerState
+    name: IBaseExtendedPickerState
+    fullName: IBaseExtendedPickerState<T>
+    children:
+      - office-ui-fabric-react.IBaseExtendedPickerState.queryString
+      - office-ui-fabric-react.IBaseExtendedPickerState.selectedItems
+      - office-ui-fabric-react.IBaseExtendedPickerState.suggestionItems
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerState.queryString
+    name: queryString
+    fullName: queryString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'queryString: string | null'
+      return:
+        type:
+          - string | null
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerState.selectedItems
+    name: selectedItems
+    fullName: selectedItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'selectedItems: T[] | null'
+      return:
+        type:
+          - 'T[] | null'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IBaseExtendedPickerState.suggestionItems
+    name: suggestionItems
+    fullName: suggestionItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'suggestionItems: T[] | null'
+      return:
+        type:
+          - 'T[] | null'
+    package: office-ui-fabric-react

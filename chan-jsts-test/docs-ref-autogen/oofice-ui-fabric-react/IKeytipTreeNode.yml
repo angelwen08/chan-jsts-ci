@@ -1,0 +1,207 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IKeytipTreeNode
+    name: IKeytipTreeNode
+    fullName: IKeytipTreeNode
+    children:
+      - office-ui-fabric-react.IKeytipTreeNode.children
+      - office-ui-fabric-react.IKeytipTreeNode.disabled
+      - office-ui-fabric-react.IKeytipTreeNode.hasDynamicChildren
+      - office-ui-fabric-react.IKeytipTreeNode.hasMenu
+      - office-ui-fabric-react.IKeytipTreeNode.id
+      - office-ui-fabric-react.IKeytipTreeNode.keySequences
+      - office-ui-fabric-react.IKeytipTreeNode.onExecute
+      - office-ui-fabric-react.IKeytipTreeNode.onReturn
+      - office-ui-fabric-react.IKeytipTreeNode.overflowSetSequence
+      - office-ui-fabric-react.IKeytipTreeNode.parent
+      - office-ui-fabric-react.IKeytipTreeNode.persisted
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.children
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      List of keytip IDs that should become visible when this keytip is pressed,
+      can be empty
+    syntax:
+      content: 'children: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.disabled
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: T/F if this keytip's component is currently disabled
+    optional: true
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.hasDynamicChildren
+    name: hasDynamicChildren
+    fullName: hasDynamicChildren
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether or not this keytip will have children keytips that are dynamically
+      created (DOM is generated on keytip activation)
+
+      Common cases are keytips in a menu or modal
+    optional: true
+    syntax:
+      content: 'hasDynamicChildren?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.hasMenu
+    name: hasMenu
+    fullName: hasMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether or not this keytip belongs to a component that has a menu
+
+      Keytip mode will stay on when a menu is opened, even if the items in that
+      menu have no keytips
+    optional: true
+    syntax:
+      content: 'hasMenu?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      ID of the <Keytip> DOM element. Needed to locate the correct keytip in the
+      KeytipLayer's 'keytip' state array
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.keySequences
+    name: keySequences
+    fullName: keySequences
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: KeySequence that invokes this KeytipTreeNode's onExecute function
+    syntax:
+      content: 'keySequences: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.onExecute
+    name: onExecute
+    fullName: onExecute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Control's execute function for when keytip is invoked, passed from the
+      component to the Manager in the IKeytipProps
+    optional: true
+    syntax:
+      content: >-
+        onExecute?: (executeTarget: HTMLElement | null, target: HTMLElement |
+        null) => void
+      return:
+        type:
+          - >-
+            (executeTarget: HTMLElement | null, target: HTMLElement | null) =>
+            void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.onReturn
+    name: onReturn
+    fullName: onReturn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Function to execute when we return to this keytip
+    optional: true
+    syntax:
+      content: >-
+        onReturn?: (executeTarget: HTMLElement | null, target: HTMLElement |
+        null) => void
+      return:
+        type:
+          - >-
+            (executeTarget: HTMLElement | null, target: HTMLElement | null) =>
+            void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.overflowSetSequence
+    name: overflowSetSequence
+    fullName: overflowSetSequence
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Overflow set sequence for this keytip
+    optional: true
+    syntax:
+      content: 'overflowSetSequence?: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.parent
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Parent keytip ID
+    syntax:
+      content: 'parent: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IKeytipTreeNode.persisted
+    name: persisted
+    fullName: persisted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: T/F if this keytip is a persisted keytip
+    optional: true
+    syntax:
+      content: 'persisted?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

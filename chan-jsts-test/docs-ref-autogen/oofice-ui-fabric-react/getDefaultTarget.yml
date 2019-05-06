@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getDefaultTarget
+    name: getDefaultTarget()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Get the default target selector when determining a host
+    syntax:
+      content: function getDefaultTarget()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+    package: office-ui-fabric-react

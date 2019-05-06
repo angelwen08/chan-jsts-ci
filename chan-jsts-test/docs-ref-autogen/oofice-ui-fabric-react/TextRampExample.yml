@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TextRampExample
+    name: TextRampExample
+    fullName: TextRampExample<SS>
+    children:
+      - office-ui-fabric-react.TextRampExample.render
+      - office-ui-fabric-react.TextRampExample.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, office-ui-fabric-react.ITextRampExampleState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextRampExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TextRampExample.constructor
+    name: TextRampExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TextRampExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<__type, office-ui-fabric-react.ITextRampExampleState>'
+    name: ITextRampExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: ITextRampExampleState
+        fullName: ITextRampExampleState
+        uid: office-ui-fabric-react.ITextRampExampleState
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsList
+    name: IDetailsList
+    fullName: IDetailsList
+    children:
+      - office-ui-fabric-react.IDetailsList.focusIndex
+      - office-ui-fabric-react.IDetailsList.forceUpdate
+      - office-ui-fabric-react.IDetailsList.getStartItemIndexInView
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    extends:
+      name: office-ui-fabric-react.IList
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsList.focusIndex
+    name: focusIndex
+    fullName: focusIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Scroll to and focus the item at the given index. focusIndex will call
+      scrollToIndex on the specified index.
+    syntax:
+      content: >-
+        focusIndex: (index: number, forceIntoFirstElement?: boolean,
+        measureItem?: (itemIndex: number) => number, scrollToMode?:
+        ScrollToMode) => void
+      return:
+        type:
+          - >-
+            (index: number, forceIntoFirstElement?: boolean, measureItem?:
+            (itemIndex: number) => number, scrollToMode?: ScrollToMode) => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsList.forceUpdate
+    name: forceUpdate
+    fullName: forceUpdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Ensures that the list content is updated. Call this in cases where the
+      list prop updates don't change, but the list
+
+      still needs to be re-evaluated. For example, if a sizer bar is adjusted
+      and causes the list width to change, you can
+
+      call this to force a re-evaluation. Be aware that this can be an expensive
+      operation and should be done sparingly.
+    syntax:
+      content: 'forceUpdate: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsList.getStartItemIndexInView
+    name: getStartItemIndexInView
+    fullName: getStartItemIndexInView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the start index of the page that is currently in view
+    syntax:
+      content: 'getStartItemIndexInView: () => number'
+      return:
+        type:
+          - () => number
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IList
+    name: IList
+    spec.typeScript:
+      - name: IList
+        fullName: IList
+        uid: office-ui-fabric-react.IList

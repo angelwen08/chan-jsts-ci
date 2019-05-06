@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SuggestionActionType
+    name: SuggestionActionType
+    fullName: SuggestionActionType
+    children:
+      - office-ui-fabric-react.SuggestionActionType.none
+      - office-ui-fabric-react.SuggestionActionType.forceResolve
+      - office-ui-fabric-react.SuggestionActionType.searchMore
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      Enum to help identify which suggestions action button is selected.
+      {@docCategory Pickers}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionActionType.none
+    name: none
+    children: []
+    langs:
+      - typeScript
+    summary: None of the actions is selected.
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionActionType.forceResolve
+    name: forceResolve
+    children: []
+    langs:
+      - typeScript
+    summary: ForceResolve action is selected.
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SuggestionActionType.searchMore
+    name: searchMore
+    children: []
+    langs:
+      - typeScript
+    summary: SearchMore action is selected.
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react

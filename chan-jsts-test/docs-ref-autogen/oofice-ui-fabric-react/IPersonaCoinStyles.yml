@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPersonaCoinStyles
+    name: IPersonaCoinStyles
+    fullName: IPersonaCoinStyles
+    children:
+      - office-ui-fabric-react.IPersonaCoinStyles.coin
+      - office-ui-fabric-react.IPersonaCoinStyles.image
+      - office-ui-fabric-react.IPersonaCoinStyles.imageArea
+      - office-ui-fabric-react.IPersonaCoinStyles.initials
+      - office-ui-fabric-react.IPersonaCoinStyles.size10WithoutPresenceIcon
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Persona}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaCoinStyles.coin
+    name: coin
+    fullName: coin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'coin: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaCoinStyles.image
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'image: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaCoinStyles.imageArea
+    name: imageArea
+    fullName: imageArea
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'imageArea: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaCoinStyles.initials
+    name: initials
+    fullName: initials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'initials: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaCoinStyles.size10WithoutPresenceIcon
+    name: size10WithoutPresenceIcon
+    fullName: size10WithoutPresenceIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size10WithoutPresenceIcon: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

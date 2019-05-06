@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ResizeGroupBase
+    name: ResizeGroupBase
+    fullName: ResizeGroupBase<SS>
+    children:
+      - office-ui-fabric-react.ResizeGroupBase.componentDidMount
+      - office-ui-fabric-react.ResizeGroupBase.componentDidUpdate
+      - office-ui-fabric-react.ResizeGroupBase.componentWillReceiveProps
+      - office-ui-fabric-react.ResizeGroupBase.remeasure
+      - office-ui-fabric-react.ResizeGroupBase.render
+      - office-ui-fabric-react.ResizeGroupBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IResizeGroupProps,
+        office-ui-fabric-react.IResizeGroupState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ResizeGroupBase.componentDidMount
+    name: componentDidMount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentDidMount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ResizeGroupBase.componentDidUpdate
+    name: componentDidUpdate(IResizeGroupProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentDidUpdate(prevProps: IResizeGroupProps)'
+      parameters:
+        - id: prevProps
+          type:
+            - office-ui-fabric-react.IResizeGroupProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ResizeGroupBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IResizeGroupProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(nextProps: IResizeGroupProps)'
+      parameters:
+        - id: nextProps
+          type:
+            - office-ui-fabric-react.IResizeGroupProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ResizeGroupBase.remeasure
+    name: remeasure()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function remeasure()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ResizeGroupBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ResizeGroupBase.constructor
+    name: ResizeGroupBase(IResizeGroupProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ResizeGroupBase(props: IResizeGroupProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IResizeGroupProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IResizeGroupProps,
+      office-ui-fabric-react.IResizeGroupState>
+    name: IResizeGroupState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IResizeGroupProps
+        fullName: IResizeGroupProps
+        uid: office-ui-fabric-react.IResizeGroupProps
+      - name: ', '
+        fullName: ', '
+      - name: IResizeGroupState
+        fullName: IResizeGroupState
+        uid: office-ui-fabric-react.IResizeGroupState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IResizeGroupProps
+    name: IResizeGroupProps
+    spec.typeScript:
+      - name: IResizeGroupProps
+        fullName: IResizeGroupProps
+        uid: office-ui-fabric-react.IResizeGroupProps

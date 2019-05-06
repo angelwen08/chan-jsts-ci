@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsListCompactExampleItem
+    name: IDetailsListCompactExampleItem
+    fullName: IDetailsListCompactExampleItem
+    children:
+      - office-ui-fabric-react.IDetailsListCompactExampleItem.key
+      - office-ui-fabric-react.IDetailsListCompactExampleItem.name
+      - office-ui-fabric-react.IDetailsListCompactExampleItem.value
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListCompactExampleItem.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'key: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListCompactExampleItem.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsListCompactExampleItem.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

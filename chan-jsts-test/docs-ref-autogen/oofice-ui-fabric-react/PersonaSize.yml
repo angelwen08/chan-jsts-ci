@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.personaSize
+    name: personaSize
+    fullName: personaSize
+    children: []
+    langs:
+      - typeScript
+    type: module
+    summary: ''
+    package: office-ui-fabric-react

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ICalendarMonthState
+    name: ICalendarMonthState
+    fullName: ICalendarMonthState
+    children:
+      - office-ui-fabric-react.ICalendarMonthState.isYearPickerVisible
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ICalendarMonthState.isYearPickerVisible
+    name: isYearPickerVisible
+    fullName: isYearPickerVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: State used to show/hide month picker
+    optional: true
+    syntax:
+      content: 'isYearPickerVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

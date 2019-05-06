@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.GroupedListBasicExample
+    name: GroupedListBasicExample
+    fullName: GroupedListBasicExample<SS>
+    children:
+      - office-ui-fabric-react.GroupedListBasicExample.constructor
+      - office-ui-fabric-react.GroupedListBasicExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: 'Component<__type, office-ui-fabric-react.IGroupedListExampleState>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GroupedListBasicExample.constructor
+    name: GroupedListBasicExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GroupedListBasicExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.GroupedListBasicExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'Component<__type, office-ui-fabric-react.IGroupedListExampleState>'
+    name: IGroupedListExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IGroupedListExampleState
+        fullName: IGroupedListExampleState
+        uid: office-ui-fabric-react.IGroupedListExampleState
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITextTokenReturnType
+    name: ITextTokenReturnType
+    fullName: ITextTokenReturnType
+    children: []
+    syntax:
+      content: type ITextTokenReturnType = ReturnType
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory Text}'
+    package: office-ui-fabric-react

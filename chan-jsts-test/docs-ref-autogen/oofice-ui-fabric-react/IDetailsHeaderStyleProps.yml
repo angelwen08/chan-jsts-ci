@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsHeaderStyleProps
+    name: IDetailsHeaderStyleProps
+    fullName: IDetailsHeaderStyleProps
+    children: []
+    syntax:
+      content: >-
+        type IDetailsHeaderStyleProps = Required<Pick> &
+        Pick<IDetailsHeaderProps> & Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory DetailsList}'
+    package: office-ui-fabric-react

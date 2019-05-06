@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IOverrideColumnRenderProps
+    name: IOverrideColumnRenderProps
+    fullName: IOverrideColumnRenderProps
+    children: []
+    syntax:
+      content: >-
+        type IOverrideColumnRenderProps = Pick<IDetailsListProps> &
+        Pick<IDetailsRowProps>
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory DetailsList}'
+    package: office-ui-fabric-react

@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.addWeeks
+    name: 'addWeeks(Date, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns a date offset from the given date by the specified number of
+      weeks.
+    syntax:
+      content: 'function addWeeks(date: Date, weeks: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: The origin date
+        - id: weeks
+          type:
+            - number
+          description: The number of weeks to offset. 'weeks' can be negative.
+      return:
+        type:
+          - Date
+    package: office-ui-fabric-react

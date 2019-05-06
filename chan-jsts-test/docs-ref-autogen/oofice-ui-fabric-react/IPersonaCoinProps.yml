@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPersonaCoinProps
+    name: IPersonaCoinProps
+    fullName: IPersonaCoinProps
+    children:
+      - office-ui-fabric-react.IPersonaCoinProps.className
+      - office-ui-fabric-react.IPersonaCoinProps.componentRef
+      - office-ui-fabric-react.IPersonaCoinProps.styles
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Persona}'
+    extends:
+      name: office-ui-fabric-react.IPersonaSharedProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaCoinProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional css class to apply to the PersonaCoin
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaCoinProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the component ref.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<__type>'
+      return:
+        type:
+          - IRefObject<__type>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaCoinProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IPersonaCoinStyleProps,
+        IPersonaCoinStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IPersonaCoinStyleProps,
+            office-ui-fabric-react.IPersonaCoinStyles>
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IPersonaSharedProps
+    name: IPersonaSharedProps
+    spec.typeScript:
+      - name: IPersonaSharedProps
+        fullName: IPersonaSharedProps
+        uid: office-ui-fabric-react.IPersonaSharedProps
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IPersonaCoinStyleProps,
+      office-ui-fabric-react.IPersonaCoinStyles>
+    name: IPersonaCoinStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IPersonaCoinStyleProps
+        fullName: IPersonaCoinStyleProps
+        uid: office-ui-fabric-react.IPersonaCoinStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IPersonaCoinStyles
+        fullName: IPersonaCoinStyles
+        uid: office-ui-fabric-react.IPersonaCoinStyles
+      - name: '>'
+        fullName: '>'

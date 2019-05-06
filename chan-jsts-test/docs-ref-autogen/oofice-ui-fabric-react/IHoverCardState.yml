@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IHoverCardState
+    name: IHoverCardState
+    fullName: IHoverCardState
+    children:
+      - office-ui-fabric-react.IHoverCardState.isHoverCardVisible
+      - office-ui-fabric-react.IHoverCardState.mode
+      - office-ui-fabric-react.IHoverCardState.openMode
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IHoverCardState.isHoverCardVisible
+    name: isHoverCardVisible
+    fullName: isHoverCardVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isHoverCardVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IHoverCardState.mode
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'mode?: ExpandingCardMode'
+      return:
+        type:
+          - office-ui-fabric-react.ExpandingCardMode
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IHoverCardState.openMode
+    name: openMode
+    fullName: openMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'openMode?: OpenCardMode'
+      return:
+        type:
+          - office-ui-fabric-react.OpenCardMode
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ExpandingCardMode
+    name: ExpandingCardMode
+    spec.typeScript:
+      - name: ExpandingCardMode
+        fullName: ExpandingCardMode
+        uid: office-ui-fabric-react.ExpandingCardMode
+  - uid: office-ui-fabric-react.OpenCardMode
+    name: OpenCardMode
+    spec.typeScript:
+      - name: OpenCardMode
+        fullName: OpenCardMode
+        uid: office-ui-fabric-react.OpenCardMode

@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISearchBox
+    name: ISearchBox
+    fullName: ISearchBox
+    children:
+      - office-ui-fabric-react.ISearchBox.focus
+      - office-ui-fabric-react.ISearchBox.hasFocus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory SearchBox}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISearchBox.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets focus inside the search input box.
+    syntax:
+      content: function focus()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISearchBox.hasFocus
+    name: hasFocus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns whether or not the SearchBox has focus
+    syntax:
+      content: function hasFocus()
+      parameters: []
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.OverflowButtonType
+    name: OverflowButtonType
+    fullName: OverflowButtonType
+    children:
+      - office-ui-fabric-react.OverflowButtonType.none
+      - office-ui-fabric-react.OverflowButtonType.descriptive
+      - office-ui-fabric-react.OverflowButtonType.more
+      - office-ui-fabric-react.OverflowButtonType.downArrow
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: '{@docCategory Facepile}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.OverflowButtonType.none
+    name: none
+    children: []
+    langs:
+      - typeScript
+    summary: No overflow
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.OverflowButtonType.descriptive
+    name: descriptive
+    children: []
+    langs:
+      - typeScript
+    summary: +1 overflow icon
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.OverflowButtonType.more
+    name: more
+    children: []
+    langs:
+      - typeScript
+    summary: More overflow icon
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.OverflowButtonType.downArrow
+    name: downArrow
+    children: []
+    langs:
+      - typeScript
+    summary: Chevron overflow icon
+    type: field
+    numericValue: 3
+    package: office-ui-fabric-react

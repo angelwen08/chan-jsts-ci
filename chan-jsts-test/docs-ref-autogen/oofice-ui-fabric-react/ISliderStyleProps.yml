@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISliderStyleProps
+    name: ISliderStyleProps
+    fullName: ISliderStyleProps
+    children: []
+    syntax:
+      content: type ISliderStyleProps = Required<Pick> & Pick<ISliderProps> & Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory Slider}'
+    package: office-ui-fabric-react

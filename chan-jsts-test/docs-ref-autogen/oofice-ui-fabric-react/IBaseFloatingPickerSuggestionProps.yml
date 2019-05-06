@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBaseFloatingPickerSuggestionProps
+    name: IBaseFloatingPickerSuggestionProps
+    fullName: IBaseFloatingPickerSuggestionProps
+    children: []
+    syntax:
+      content: type IBaseFloatingPickerSuggestionProps = Pick
+    langs:
+      - typeScript
+    type: type alias
+    summary: Props which are passed on to the inner Suggestions component
+    package: office-ui-fabric-react

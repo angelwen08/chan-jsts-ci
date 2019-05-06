@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGenericItem
+    name: IGenericItem
+    fullName: IGenericItem
+    children:
+      - office-ui-fabric-react.IGenericItem.imageInitials
+      - office-ui-fabric-react.IGenericItem.primaryText
+      - office-ui-fabric-react.IGenericItem.ValidationState
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory PeoplePicker}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGenericItem.imageInitials
+    name: imageInitials
+    fullName: imageInitials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'imageInitials: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGenericItem.primaryText
+    name: primaryText
+    fullName: primaryText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'primaryText: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGenericItem.ValidationState
+    name: ValidationState
+    fullName: ValidationState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ValidationState: ValidationState'
+      return:
+        type:
+          - office-ui-fabric-react.ValidationState
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ValidationState
+    name: ValidationState
+    spec.typeScript:
+      - name: ValidationState
+        fullName: ValidationState
+        uid: office-ui-fabric-react.ValidationState

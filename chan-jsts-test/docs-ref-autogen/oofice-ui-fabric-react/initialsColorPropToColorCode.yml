@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.initialsColorPropToColorCode
+    name: initialsColorPropToColorCode(IPersonaProps)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function initialsColorPropToColorCode(props: IPersonaProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IPersonaProps
+          description: ''
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IPersonaProps
+    name: IPersonaProps
+    spec.typeScript:
+      - name: IPersonaProps
+        fullName: IPersonaProps
+        uid: office-ui-fabric-react.IPersonaProps

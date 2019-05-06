@@ -1,0 +1,239 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGroup
+    name: IGroup
+    fullName: IGroup
+    children:
+      - office-ui-fabric-react.IGroup.ariaLabel
+      - office-ui-fabric-react.IGroup.children
+      - office-ui-fabric-react.IGroup.count
+      - office-ui-fabric-react.IGroup.data
+      - office-ui-fabric-react.IGroup.hasMoreData
+      - office-ui-fabric-react.IGroup.isCollapsed
+      - office-ui-fabric-react.IGroup.isDropEnabled
+      - office-ui-fabric-react.IGroup.isSelected
+      - office-ui-fabric-react.IGroup.isShowingAll
+      - office-ui-fabric-react.IGroup.key
+      - office-ui-fabric-react.IGroup.level
+      - office-ui-fabric-react.IGroup.name
+      - office-ui-fabric-react.IGroup.startIndex
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory GroupedList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional accessibility label (aria-label) attribute that will be stamped
+      on to the element.
+
+      If none is specified, the arai-label attribute will contain the group name
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.children
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Nested groups, if any.'
+    optional: true
+    syntax:
+      content: 'children?: IGroup[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IGroup[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.count
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: How many items should be rendered within the group.
+    syntax:
+      content: 'count: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.data
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Arbitrary data required to be preserved by the caller.
+    optional: true
+    syntax:
+      content: 'data?: any'
+      return:
+        type:
+          - any
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.hasMoreData
+    name: hasMoreData
+    fullName: hasMoreData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional flag to indicate the group has more data to load than the current
+      group count indicated.
+
+      This can be used to indicate that a plus should be rendered next to the
+      group count in the header.
+    optional: true
+    syntax:
+      content: 'hasMoreData?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.isCollapsed
+    name: isCollapsed
+    fullName: isCollapsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If all the items in the group are collapsed.
+    optional: true
+    syntax:
+      content: 'isCollapsed?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.isDropEnabled
+    name: isDropEnabled
+    fullName: isDropEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If drag/drop is enabled for the group header.
+    optional: true
+    syntax:
+      content: 'isDropEnabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Deprecated at 1.0.0, selection state will be controled by the selection
+      store only.
+    optional: true
+    syntax:
+      content: 'isSelected?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+    deprecated:
+      content: 'At 1.0.0, selection state wil be controlled by the selection store only.'
+  - uid: office-ui-fabric-react.IGroup.isShowingAll
+    name: isShowingAll
+    fullName: isShowingAll
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If the items within the group are summarized or showing all.
+    optional: true
+    syntax:
+      content: 'isShowingAll?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Unique identifier for the group.
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.level
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Number indicating the level of nested groups.
+    optional: true
+    syntax:
+      content: 'level?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Display name for the group, rendered on the header.'
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroup.startIndex
+    name: startIndex
+    fullName: startIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Start index for the group within the given items.
+    syntax:
+      content: 'startIndex: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+references:
+  - uid: 'office-ui-fabric-react.IGroup[]'
+    name: 'IGroup[]'
+    spec.typeScript:
+      - name: IGroup
+        fullName: IGroup
+        uid: office-ui-fabric-react.IGroup
+      - name: '[]'
+        fullName: '[]'

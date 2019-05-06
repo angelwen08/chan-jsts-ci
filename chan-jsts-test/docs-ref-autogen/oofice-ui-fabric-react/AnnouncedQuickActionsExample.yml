@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.AnnouncedQuickActionsExample
+    name: AnnouncedQuickActionsExample
+    fullName: AnnouncedQuickActionsExample<SS>
+    children:
+      - office-ui-fabric-react.AnnouncedQuickActionsExample.constructor
+      - office-ui-fabric-react.AnnouncedQuickActionsExample.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        Component<__type,
+        office-ui-fabric-react.IAnnouncedQuickActionsExampleState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.AnnouncedQuickActionsExample.constructor
+    name: AnnouncedQuickActionsExample(__type)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AnnouncedQuickActionsExample(props: __type)'
+      parameters:
+        - id: props
+          type:
+            - __type
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.AnnouncedQuickActionsExample.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      Component<__type,
+      office-ui-fabric-react.IAnnouncedQuickActionsExampleState>
+    name: IAnnouncedQuickActionsExampleState>
+    spec.typeScript:
+      - name: 'Component<__type, '
+        fullName: 'Component<__type, '
+      - name: IAnnouncedQuickActionsExampleState
+        fullName: IAnnouncedQuickActionsExampleState
+        uid: office-ui-fabric-react.IAnnouncedQuickActionsExampleState
+      - name: '>'
+        fullName: '>'

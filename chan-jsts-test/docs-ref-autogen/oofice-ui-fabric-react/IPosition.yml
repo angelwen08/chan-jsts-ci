@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPosition
+    name: IPosition
+    fullName: IPosition
+    children:
+      - office-ui-fabric-react.IPosition.bottom
+      - office-ui-fabric-react.IPosition.left
+      - office-ui-fabric-react.IPosition.right
+      - office-ui-fabric-react.IPosition.top
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Gives the position of some element on the page. Only a pair of vertical
+      and horizontal edges need to be
+
+      given. So top/left or bottom/left is sufficient.
+
+      The number given is the distance in pixels from whatever host was given..
+
+      So bottom: 100 would be 100px up from the bottom of the host while top:
+      100px from the top.
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPosition.bottom
+    name: bottom
+    fullName: bottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'bottom?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPosition.left
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'left?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPosition.right
+    name: right
+    fullName: right
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'right?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPosition.top
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'top?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react

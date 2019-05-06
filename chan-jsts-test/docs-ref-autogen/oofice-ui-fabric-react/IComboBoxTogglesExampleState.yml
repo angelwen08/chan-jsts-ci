@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IComboBoxTogglesExampleState
+    name: IComboBoxTogglesExampleState
+    fullName: IComboBoxTogglesExampleState
+    children:
+      - office-ui-fabric-react.IComboBoxTogglesExampleState.allowFreeform
+      - office-ui-fabric-react.IComboBoxTogglesExampleState.autoComplete
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxTogglesExampleState.allowFreeform
+    name: allowFreeform
+    fullName: allowFreeform
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allowFreeform: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxTogglesExampleState.autoComplete
+    name: autoComplete
+    fullName: autoComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'autoComplete: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

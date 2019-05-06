@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.PersonaBase
+    name: PersonaBase
+    fullName: PersonaBase<SS>
+    children:
+      - office-ui-fabric-react.PersonaBase.defaultProps
+      - office-ui-fabric-react.PersonaBase.constructor
+      - office-ui-fabric-react.PersonaBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Persona with no default styles.
+
+      [Use the `styles` API to add your own
+      styles.](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Styling)
+    extends:
+      name: 'BaseComponent<office-ui-fabric-react.IPersonaProps, __type>'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: IPersonaProps'
+      return:
+        type:
+          - office-ui-fabric-react.IPersonaProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaBase.constructor
+    name: PersonaBase(IPersonaProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PersonaBase(props: IPersonaProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IPersonaProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.PersonaBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: 'BaseComponent<office-ui-fabric-react.IPersonaProps, __type>'
+    name: 'IPersonaProps, __type>'
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IPersonaProps
+        fullName: IPersonaProps
+        uid: office-ui-fabric-react.IPersonaProps
+      - name: ', __type>'
+        fullName: ', __type>'
+  - uid: office-ui-fabric-react.IPersonaProps
+    name: IPersonaProps
+    spec.typeScript:
+      - name: IPersonaProps
+        fullName: IPersonaProps
+        uid: office-ui-fabric-react.IPersonaProps

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITooltipHost
+    name: ITooltipHost
+    fullName: ITooltipHost
+    children:
+      - office-ui-fabric-react.ITooltipHost.dismiss
+      - office-ui-fabric-react.ITooltipHost.show
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Tooltip}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITooltipHost.dismiss
+    name: dismiss
+    fullName: dismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Dismisses the tooltip.
+    syntax:
+      content: 'dismiss: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITooltipHost.show
+    name: show
+    fullName: show
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Shows the tooltip.
+    syntax:
+      content: 'show: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react

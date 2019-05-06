@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IThemePagePalette
+    name: IThemePagePalette
+    fullName: IThemePagePalette
+    children: []
+    syntax:
+      content: >-
+        type IThemePagePalette = { description:string, key:string, name:string,
+        value:string }
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    package: office-ui-fabric-react

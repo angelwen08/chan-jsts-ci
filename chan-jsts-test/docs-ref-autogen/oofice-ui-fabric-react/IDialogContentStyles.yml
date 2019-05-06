@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDialogContentStyles
+    name: IDialogContentStyles
+    fullName: IDialogContentStyles
+    children:
+      - office-ui-fabric-react.IDialogContentStyles.button
+      - office-ui-fabric-react.IDialogContentStyles.content
+      - office-ui-fabric-react.IDialogContentStyles.header
+      - office-ui-fabric-react.IDialogContentStyles.inner
+      - office-ui-fabric-react.IDialogContentStyles.innerContent
+      - office-ui-fabric-react.IDialogContentStyles.subText
+      - office-ui-fabric-react.IDialogContentStyles.title
+      - office-ui-fabric-react.IDialogContentStyles.topButton
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Dialog}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyles.button
+    name: button
+    fullName: button
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'button: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyles.content
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the content element.
+    syntax:
+      content: 'content: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyles.header
+    name: header
+    fullName: header
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'header: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyles.inner
+    name: inner
+    fullName: inner
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'inner: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyles.innerContent
+    name: innerContent
+    fullName: innerContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'innerContent: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyles.subText
+    name: subText
+    fullName: subText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'subText: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyles.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyles.topButton
+    name: topButton
+    fullName: topButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'topButton: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

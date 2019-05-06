@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBaseAutoFillProps
+    name: IBaseAutoFillProps
+    fullName: IBaseAutoFillProps
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Deprecated, do not use.'
+    extends:
+      name: office-ui-fabric-react.IAutofillProps
+    package: office-ui-fabric-react
+    deprecated:
+      content: |-
+        do not use, will be removed in 6.0
+        {@docCategory Autofill}
+references:
+  - uid: office-ui-fabric-react.IAutofillProps
+    name: IAutofillProps
+    spec.typeScript:
+      - name: IAutofillProps
+        fullName: IAutofillProps
+        uid: office-ui-fabric-react.IAutofillProps

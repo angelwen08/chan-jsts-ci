@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.positionCallout
+    name: >-
+      positionCallout(IPositionProps, HTMLElement, HTMLElement,
+      ICalloutPositionedInfo)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function positionCallout(props: IPositionProps, hostElement:
+        HTMLElement, elementToPosition: HTMLElement, previousPositions?:
+        ICalloutPositionedInfo)
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IPositionProps
+          description: ''
+        - id: hostElement
+          type:
+            - HTMLElement
+          description: ''
+        - id: elementToPosition
+          type:
+            - HTMLElement
+          description: ''
+        - id: previousPositions
+          type:
+            - office-ui-fabric-react.ICalloutPositionedInfo
+          description: ''
+          optional: true
+      return:
+        type:
+          - office-ui-fabric-react.ICalloutPositionedInfo
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IPositionProps
+    name: IPositionProps
+    spec.typeScript:
+      - name: IPositionProps
+        fullName: IPositionProps
+        uid: office-ui-fabric-react.IPositionProps
+  - uid: office-ui-fabric-react.ICalloutPositionedInfo
+    name: ICalloutPositionedInfo
+    spec.typeScript:
+      - name: ICalloutPositionedInfo
+        fullName: ICalloutPositionedInfo
+        uid: office-ui-fabric-react.ICalloutPositionedInfo

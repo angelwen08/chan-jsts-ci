@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILayerStyleProps
+    name: ILayerStyleProps
+    fullName: ILayerStyleProps
+    children:
+      - office-ui-fabric-react.ILayerStyleProps.className
+      - office-ui-fabric-react.ILayerStyleProps.isNotHost
+      - office-ui-fabric-react.ILayerStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Layer}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accept custom classNames
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerStyleProps.isNotHost
+    name: isNotHost
+    fullName: isNotHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Check if Host
+    optional: true
+    syntax:
+      content: 'isNotHost?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accept theme prop.
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

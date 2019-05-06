@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ILayerStyles
+    name: ILayerStyles
+    fullName: ILayerStyles
+    children:
+      - office-ui-fabric-react.ILayerStyles.content
+      - office-ui-fabric-react.ILayerStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Layer}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerStyles.content
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the Fabric component.
+    optional: true
+    syntax:
+      content: 'content?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ILayerStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the root element when fixed.
+    optional: true
+    syntax:
+      content: 'root?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

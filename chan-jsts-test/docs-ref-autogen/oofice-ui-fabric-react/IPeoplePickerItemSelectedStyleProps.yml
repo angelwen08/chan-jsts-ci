@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPeoplePickerItemSelectedStyleProps
+    name: IPeoplePickerItemSelectedStyleProps
+    fullName: IPeoplePickerItemSelectedStyleProps
+    children: []
+    syntax:
+      content: >-
+        type IPeoplePickerItemSelectedStyleProps = Required<Pick> &
+        Pick<IPeoplePickerItemSelectedProps> & Object
+    langs:
+      - typeScript
+    type: type alias
+    summary: |-
+      Props needed to construct PeoplePickerItemSelected styles.
+      {@docCategory PeoplePicker}
+    package: office-ui-fabric-react

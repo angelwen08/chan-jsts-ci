@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardActivityPerson
+    name: IDocumentCardActivityPerson
+    fullName: IDocumentCardActivityPerson
+    children:
+      - office-ui-fabric-react.IDocumentCardActivityPerson.allowPhoneInitials
+      - office-ui-fabric-react.IDocumentCardActivityPerson.initials
+      - office-ui-fabric-react.IDocumentCardActivityPerson.initialsColor
+      - office-ui-fabric-react.IDocumentCardActivityPerson.name
+      - office-ui-fabric-react.IDocumentCardActivityPerson.profileImageSrc
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActivityPerson.allowPhoneInitials
+    name: allowPhoneInitials
+    fullName: allowPhoneInitials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether initials are calculated for phone numbers and number sequences.
+
+      Example: Set property to true to get initials for project names consisting
+      of numbers only.
+    optional: true
+    syntax:
+      content: 'allowPhoneInitials?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActivityPerson.initials
+    name: initials
+    fullName: initials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The user's initials to display in the profile photo area when there is no
+      image.
+    optional: true
+    syntax:
+      content: 'initials?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActivityPerson.initialsColor
+    name: initialsColor
+    fullName: initialsColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The background color when the user's initials are displayed.
+    optional: true
+    syntax:
+      content: 'initialsColor?: PersonaInitialsColor'
+      return:
+        type:
+          - office-ui-fabric-react.PersonaInitialsColor
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActivityPerson.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the person.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDocumentCardActivityPerson.profileImageSrc
+    name: profileImageSrc
+    fullName: profileImageSrc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Path to the profile photo of the person.
+    syntax:
+      content: 'profileImageSrc: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.PersonaInitialsColor
+    name: PersonaInitialsColor
+    spec.typeScript:
+      - name: PersonaInitialsColor
+        fullName: PersonaInitialsColor
+        uid: office-ui-fabric-react.PersonaInitialsColor

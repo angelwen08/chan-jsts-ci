@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDocumentCardImageStyleProps
+    name: IDocumentCardImageStyleProps
+    fullName: IDocumentCardImageStyleProps
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DocumentCard}'
+    extends:
+      name: office-ui-fabric-react.IDocumentCardImageProps
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IDocumentCardImageProps
+    name: IDocumentCardImageProps
+    spec.typeScript:
+      - name: IDocumentCardImageProps
+        fullName: IDocumentCardImageProps
+        uid: office-ui-fabric-react.IDocumentCardImageProps

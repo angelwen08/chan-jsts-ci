@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerStyles
+    name: IShimmerStyles
+    fullName: IShimmerStyles
+    children:
+      - office-ui-fabric-react.IShimmerStyles.dataWrapper
+      - office-ui-fabric-react.IShimmerStyles.root
+      - office-ui-fabric-react.IShimmerStyles.screenReaderText
+      - office-ui-fabric-react.IShimmerStyles.shimmerWrapper
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Represents the stylable areas of the control.
+      {@docCategory Shimmer}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerStyles.dataWrapper
+    name: dataWrapper
+    fullName: dataWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to wrapper element of the children only.
+    optional: true
+    syntax:
+      content: 'dataWrapper?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to the root wrapper element.
+    optional: true
+    syntax:
+      content: 'root?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerStyles.screenReaderText
+    name: screenReaderText
+    fullName: screenReaderText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Styles for the hidden helper element to aid with screen readers.
+    optional: true
+    syntax:
+      content: 'screenReaderText?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerStyles.shimmerWrapper
+    name: shimmerWrapper
+    fullName: shimmerWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Refers to wrapper element of the shimmer animation only.
+    optional: true
+    syntax:
+      content: 'shimmerWrapper?: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

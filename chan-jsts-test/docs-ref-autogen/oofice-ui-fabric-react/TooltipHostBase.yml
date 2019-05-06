@@ -1,0 +1,129 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.TooltipHostBase
+    name: TooltipHostBase
+    fullName: TooltipHostBase<SS>
+    children:
+      - office-ui-fabric-react.TooltipHostBase.componentWillUnmount
+      - office-ui-fabric-react.TooltipHostBase.defaultProps
+      - office-ui-fabric-react.TooltipHostBase.dismiss
+      - office-ui-fabric-react.TooltipHostBase.render
+      - office-ui-fabric-react.TooltipHostBase.show
+      - office-ui-fabric-react.TooltipHostBase.constructor
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.ITooltipHostProps,
+        office-ui-fabric-react.ITooltipHostState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipHostBase.componentWillUnmount
+    name: componentWillUnmount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function componentWillUnmount()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipHostBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipHostBase.dismiss
+    name: dismiss
+    fullName: dismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dismiss: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipHostBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipHostBase.show
+    name: show
+    fullName: show
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'show: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.TooltipHostBase.constructor
+    name: TooltipHostBase(ITooltipHostProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TooltipHostBase(props: ITooltipHostProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.ITooltipHostProps
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.ITooltipHostProps,
+      office-ui-fabric-react.ITooltipHostState>
+    name: ITooltipHostState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: ITooltipHostProps
+        fullName: ITooltipHostProps
+        uid: office-ui-fabric-react.ITooltipHostProps
+      - name: ', '
+        fullName: ', '
+      - name: ITooltipHostState
+        fullName: ITooltipHostState
+        uid: office-ui-fabric-react.ITooltipHostState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ITooltipHostProps
+    name: ITooltipHostProps
+    spec.typeScript:
+      - name: ITooltipHostProps
+        fullName: ITooltipHostProps
+        uid: office-ui-fabric-react.ITooltipHostProps

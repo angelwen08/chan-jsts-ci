@@ -1,0 +1,221 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps
+    name: IMarqueeSelectionProps
+    fullName: IMarqueeSelectionProps
+    children:
+      - office-ui-fabric-react.IMarqueeSelectionProps.className
+      - office-ui-fabric-react.IMarqueeSelectionProps.componentRef
+      - >-
+        office-ui-fabric-react.IMarqueeSelectionProps.isDraggingConstrainedToRoot
+      - office-ui-fabric-react.IMarqueeSelectionProps.isEnabled
+      - office-ui-fabric-react.IMarqueeSelectionProps.onShouldStartSelection
+      - office-ui-fabric-react.IMarqueeSelectionProps.rootProps
+      - office-ui-fabric-react.IMarqueeSelectionProps.selection
+      - office-ui-fabric-react.IMarqueeSelectionProps.styles
+      - office-ui-fabric-react.IMarqueeSelectionProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory MarqueeSelection}'
+    extends:
+      name: HTMLAttributes<HTMLDivElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional CSS class(es) to apply to the MarqueeSelection.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IMarqueeSelection interface. Use this
+      instead of ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IMarqueeSelection>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IMarqueeSelection>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.isDraggingConstrainedToRoot
+    name: isDraggingConstrainedToRoot
+    fullName: isDraggingConstrainedToRoot
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional flag to restrict the drag rect to the root element, instead of
+      allowing the drag
+
+      rect to start outside of the root element boundaries.
+    optional: true
+    syntax:
+      content: 'isDraggingConstrainedToRoot?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.isEnabled
+    name: isEnabled
+    fullName: isEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional flag to control the enabled state of marquee selection. This
+      allows you to render
+
+      it and have events all ready to go, but conditionally disable it. That way
+      transitioning
+
+      between enabled/disabled generate no difference in the DOM.
+    optional: true
+    syntax:
+      content: 'isEnabled?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.onShouldStartSelection
+    name: onShouldStartSelection
+    fullName: onShouldStartSelection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback that is called, when the mouse down event occurs, in
+      order to determine
+
+      if we should start a marquee selection. If true is returned, we will
+      cancel the mousedown
+
+      event to prevent upstream mousedown handlers from executing.
+    optional: true
+    syntax:
+      content: 'onShouldStartSelection?: (ev: MouseEvent) => boolean'
+      return:
+        type:
+          - '(ev: MouseEvent) => boolean'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.rootProps
+    name: rootProps
+    fullName: rootProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional props to mix into the root DIV element.
+    optional: true
+    syntax:
+      content: 'rootProps?: HTMLAttributes<HTMLDivElement>'
+      return:
+        type:
+          - HTMLAttributes<HTMLDivElement>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.selection
+    name: selection
+    fullName: selection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The selection object to interact with when updating selection changes.
+    syntax:
+      content: 'selection: ISelection'
+      return:
+        type:
+          - office-ui-fabric-react.ISelection
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunction<IMarqueeSelectionStyleProps,
+        IMarqueeSelectionStyles>
+      return:
+        type:
+          - >-
+            IStyleFunction<office-ui-fabric-react.IMarqueeSelectionStyleProps,
+            office-ui-fabric-react.IMarqueeSelectionStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IMarqueeSelectionProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme (provided through customization.)
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: IRefObject<office-ui-fabric-react.IMarqueeSelection>
+    name: IMarqueeSelection>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IMarqueeSelection
+        fullName: IMarqueeSelection
+        uid: office-ui-fabric-react.IMarqueeSelection
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ISelection
+    name: ISelection
+    spec.typeScript:
+      - name: ISelection
+        fullName: ISelection
+        uid: office-ui-fabric-react.ISelection
+  - uid: >-
+      IStyleFunction<office-ui-fabric-react.IMarqueeSelectionStyleProps,
+      office-ui-fabric-react.IMarqueeSelectionStyles>
+    name: IMarqueeSelectionStyles>
+    spec.typeScript:
+      - name: IStyleFunction<
+        fullName: IStyleFunction<
+      - name: IMarqueeSelectionStyleProps
+        fullName: IMarqueeSelectionStyleProps
+        uid: office-ui-fabric-react.IMarqueeSelectionStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IMarqueeSelectionStyles
+        fullName: IMarqueeSelectionStyles
+        uid: office-ui-fabric-react.IMarqueeSelectionStyles
+      - name: '>'
+        fullName: '>'

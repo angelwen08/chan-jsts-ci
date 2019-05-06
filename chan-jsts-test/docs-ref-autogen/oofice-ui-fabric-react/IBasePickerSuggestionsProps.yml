@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IBasePickerSuggestionsProps
+    name: IBasePickerSuggestionsProps
+    fullName: IBasePickerSuggestionsProps<T>
+    children: []
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Subset of picker options that may be legally passed through a picker to
+      its
+
+      internal Suggestions component.
+
+      {@docCategory Pickers}
+    extends:
+      name: Object
+    package: office-ui-fabric-react

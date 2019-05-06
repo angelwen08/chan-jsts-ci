@@ -1,0 +1,118 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IIconStyleProps
+    name: IIconStyleProps
+    fullName: IIconStyleProps
+    children:
+      - office-ui-fabric-react.IIconStyleProps.className
+      - office-ui-fabric-react.IIconStyleProps.iconClassName
+      - office-ui-fabric-react.IIconStyleProps.isImage
+      - office-ui-fabric-react.IIconStyleProps.isPlaceholder
+      - office-ui-fabric-react.IIconStyleProps.styles
+      - office-ui-fabric-react.IIconStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Icon}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IIconStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IIconStyleProps.iconClassName
+    name: iconClassName
+    fullName: iconClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'iconClassName?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IIconStyleProps.isImage
+    name: isImage
+    fullName: isImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isImage: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IIconStyleProps.isPlaceholder
+    name: isPlaceholder
+    fullName: isPlaceholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isPlaceholder: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IIconStyleProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'styles?: Partial<IIconStyles>'
+      return:
+        type:
+          - Partial<office-ui-fabric-react.IIconStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IIconStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+references:
+  - uid: Partial<office-ui-fabric-react.IIconStyles>
+    name: IIconStyles>
+    spec.typeScript:
+      - name: Partial<
+        fullName: Partial<
+      - name: IIconStyles
+        fullName: IIconStyles
+        uid: office-ui-fabric-react.IIconStyles
+      - name: '>'
+        fullName: '>'

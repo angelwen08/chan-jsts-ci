@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IChoiceGroup
+    name: IChoiceGroup
+    fullName: IChoiceGroup
+    children:
+      - office-ui-fabric-react.IChoiceGroup.checkedOption
+      - office-ui-fabric-react.IChoiceGroup.focus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory ChoiceGroup}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroup.checkedOption
+    name: checkedOption
+    fullName: checkedOption
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the current checked option.
+    syntax:
+      content: 'checkedOption: IChoiceGroupOption | undefined'
+      return:
+        type:
+          - office-ui-fabric-react.IChoiceGroupOption | undefined
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IChoiceGroup.focus
+    name: focus
+    fullName: focus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sets focus to the choiceGroup.
+    syntax:
+      content: 'focus: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IChoiceGroupOption | undefined
+    name: IChoiceGroupOption | undefined
+    spec.typeScript:
+      - name: IChoiceGroupOption
+        fullName: IChoiceGroupOption
+        uid: office-ui-fabric-react.IChoiceGroupOption
+      - name: ' | undefined'
+        fullName: ' | undefined'

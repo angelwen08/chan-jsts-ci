@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.DragDropHelper
+    name: DragDropHelper
+    fullName: DragDropHelper
+    children:
+      - office-ui-fabric-react.DragDropHelper.dispose
+      - office-ui-fabric-react.DragDropHelper.constructor
+      - office-ui-fabric-react.DragDropHelper.subscribe
+      - office-ui-fabric-react.DragDropHelper.unsubscribe
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DragDropHelper.dispose
+    name: dispose()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DragDropHelper.constructor
+    name: DragDropHelper(IDragDropHelperParams)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DragDropHelper(params: IDragDropHelperParams)'
+      parameters:
+        - id: params
+          type:
+            - office-ui-fabric-react.IDragDropHelperParams
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DragDropHelper.subscribe
+    name: 'subscribe(HTMLElement, EventGroup, IDragDropOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function subscribe(root: HTMLElement, events: EventGroup,
+        dragDropOptions: IDragDropOptions)
+      parameters:
+        - id: root
+          type:
+            - HTMLElement
+          description: ''
+        - id: events
+          type:
+            - EventGroup
+          description: ''
+        - id: dragDropOptions
+          type:
+            - office-ui-fabric-react.IDragDropOptions
+          description: ''
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.DragDropHelper.unsubscribe
+    name: 'unsubscribe(HTMLElement, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unsubscribe(root: HTMLElement, key: string)'
+      parameters:
+        - id: root
+          type:
+            - HTMLElement
+          description: ''
+        - id: key
+          type:
+            - string
+          description: ''
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IDragDropHelperParams
+    name: IDragDropHelperParams
+    spec.typeScript:
+      - name: IDragDropHelperParams
+        fullName: IDragDropHelperParams
+        uid: office-ui-fabric-react.IDragDropHelperParams
+  - uid: office-ui-fabric-react.IDragDropOptions
+    name: IDragDropOptions
+    spec.typeScript:
+      - name: IDragDropOptions
+        fullName: IDragDropOptions
+        uid: office-ui-fabric-react.IDragDropOptions

@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPeoplePickerItemSharedProps
+    name: IPeoplePickerItemSharedProps
+    fullName: IPeoplePickerItemSharedProps
+    children:
+      - office-ui-fabric-react.IPeoplePickerItemSharedProps.className
+      - office-ui-fabric-react.IPeoplePickerItemSharedProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Common props in between IPeoplePickerItemSelectedProps,
+      IPeoplePickerItemWithMenuProps and IPeoplePickerItemSuggestionProps.
+
+      {@docCategory PeoplePicker}
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPeoplePickerItemSharedProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional CSS class(es) to apply to the PeoplePickerItem root element.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPeoplePickerItemSharedProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

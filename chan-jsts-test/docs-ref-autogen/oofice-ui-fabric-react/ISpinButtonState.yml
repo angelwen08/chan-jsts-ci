@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISpinButtonState
+    name: ISpinButtonState
+    fullName: ISpinButtonState
+    children:
+      - office-ui-fabric-react.ISpinButtonState.isFocused
+      - office-ui-fabric-react.ISpinButtonState.keyboardSpinDirection
+      - office-ui-fabric-react.ISpinButtonState.value
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonState.isFocused
+    name: isFocused
+    fullName: isFocused
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is true when the control has focus.
+    syntax:
+      content: 'isFocused: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonState.keyboardSpinDirection
+    name: keyboardSpinDirection
+    fullName: keyboardSpinDirection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      keyboard spin direction, used to style the up or down button
+      as active when up/down arrow is pressed
+    syntax:
+      content: 'keyboardSpinDirection: KeyboardSpinDirection'
+      return:
+        type:
+          - office-ui-fabric-react.KeyboardSpinDirection
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISpinButtonState.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: the value of the spin button
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.KeyboardSpinDirection
+    name: KeyboardSpinDirection
+    spec.typeScript:
+      - name: KeyboardSpinDirection
+        fullName: KeyboardSpinDirection
+        uid: office-ui-fabric-react.KeyboardSpinDirection

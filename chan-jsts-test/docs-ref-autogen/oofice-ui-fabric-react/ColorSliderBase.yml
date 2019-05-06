@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ColorSliderBase
+    name: ColorSliderBase
+    fullName: ColorSliderBase<SS>
+    children:
+      - office-ui-fabric-react.ColorSliderBase.constructor
+      - office-ui-fabric-react.ColorSliderBase.componentWillReceiveProps
+      - office-ui-fabric-react.ColorSliderBase.defaultProps
+      - office-ui-fabric-react.ColorSliderBase.render
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: class
+    summary: '{@docCategory ColorPicker}'
+    extends:
+      name: >-
+        BaseComponent<office-ui-fabric-react.IColorSliderProps,
+        office-ui-fabric-react.IColorSliderState>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ColorSliderBase.constructor
+    name: ColorSliderBase(IColorSliderProps)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ColorSliderBase(props: IColorSliderProps)'
+      parameters:
+        - id: props
+          type:
+            - office-ui-fabric-react.IColorSliderProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ColorSliderBase.componentWillReceiveProps
+    name: componentWillReceiveProps(IColorSliderProps)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function componentWillReceiveProps(newProps: IColorSliderProps)'
+      parameters:
+        - id: newProps
+          type:
+            - office-ui-fabric-react.IColorSliderProps
+          description: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ColorSliderBase.defaultProps
+    name: defaultProps
+    fullName: defaultProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultProps: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ColorSliderBase.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - Element
+    package: office-ui-fabric-react
+references:
+  - uid: >-
+      BaseComponent<office-ui-fabric-react.IColorSliderProps,
+      office-ui-fabric-react.IColorSliderState>
+    name: IColorSliderState>
+    spec.typeScript:
+      - name: BaseComponent<
+        fullName: BaseComponent<
+      - name: IColorSliderProps
+        fullName: IColorSliderProps
+        uid: office-ui-fabric-react.IColorSliderProps
+      - name: ', '
+        fullName: ', '
+      - name: IColorSliderState
+        fullName: IColorSliderState
+        uid: office-ui-fabric-react.IColorSliderState
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IColorSliderProps
+    name: IColorSliderProps
+    spec.typeScript:
+      - name: IColorSliderProps
+        fullName: IColorSliderProps
+        uid: office-ui-fabric-react.IColorSliderProps

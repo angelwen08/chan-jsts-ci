@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IStackItemComponent
+    name: IStackItemComponent
+    fullName: IStackItemComponent
+    children: []
+    syntax:
+      content: type IStackItemComponent = IComponent
+    langs:
+      - typeScript
+    type: type alias
+    summary: '{@docCategory Stack}'
+    package: office-ui-fabric-react

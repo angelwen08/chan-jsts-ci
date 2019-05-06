@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.createGenericItem
+    name: 'createGenericItem(string, ValidationState)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: '{@docCategory PeoplePicker}'
+    syntax:
+      content: >-
+        function createGenericItem(name: string, currentValidationState:
+        ValidationState)
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: currentValidationState
+          type:
+            - office-ui-fabric-react.ValidationState
+          description: ''
+      return:
+        type:
+          - office-ui-fabric-react.IGenericItem & Object
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.ValidationState
+    name: ValidationState
+    spec.typeScript:
+      - name: ValidationState
+        fullName: ValidationState
+        uid: office-ui-fabric-react.ValidationState
+  - uid: office-ui-fabric-react.IGenericItem & Object
+    name: IGenericItem & Object
+    spec.typeScript:
+      - name: IGenericItem
+        fullName: IGenericItem
+        uid: office-ui-fabric-react.IGenericItem
+      - name: ' & Object'
+        fullName: ' & Object'

@@ -1,0 +1,151 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPopupProps
+    name: IPopupProps
+    fullName: IPopupProps
+    children:
+      - office-ui-fabric-react.IPopupProps.ariaDescribedBy
+      - office-ui-fabric-react.IPopupProps.ariaLabel
+      - office-ui-fabric-react.IPopupProps.ariaLabelledBy
+      - office-ui-fabric-react.IPopupProps.className
+      - office-ui-fabric-react.IPopupProps.onDismiss
+      - office-ui-fabric-react.IPopupProps.role
+      - office-ui-fabric-react.IPopupProps.shouldRestoreFocus
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Popup}'
+    extends:
+      name: HTMLAttributes<office-ui-fabric-react.Popup>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPopupProps.ariaDescribedBy
+    name: ariaDescribedBy
+    fullName: ariaDescribedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines the element id referencing the element containing the description
+      for the popup.
+    optional: true
+    syntax:
+      content: 'ariaDescribedBy?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPopupProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accessible label text for the popup.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPopupProps.ariaLabelledBy
+    name: ariaLabelledBy
+    fullName: ariaLabelledBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Defines the element id referencing the element containing label text for
+      popup.
+    optional: true
+    syntax:
+      content: 'ariaLabelledBy?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPopupProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional class name for the root popup div.
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPopupProps.onDismiss
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A callback function for when the popup is dismissed from the close button
+      or light dismiss. If provided, will
+
+      handle escape keypresses and call this. The event will be
+      stopped/canceled.
+    optional: true
+    syntax:
+      content: >-
+        onDismiss?: (ev?: MouseEvent<HTMLElement> | KeyboardEvent<HTMLElement>)
+        => any
+      return:
+        type:
+          - '(ev?: MouseEvent<HTMLElement> | KeyboardEvent<HTMLElement>) => any'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPopupProps.role
+    name: role
+    fullName: role
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria role for popup
+    optional: true
+    syntax:
+      content: 'role?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPopupProps.shouldRestoreFocus
+    name: shouldRestoreFocus
+    fullName: shouldRestoreFocus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true, the unmounting of this component will cause focus to be restored
+      to the element that had focus when first mounted.
+    optional: true
+    syntax:
+      content: 'shouldRestoreFocus?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: HTMLAttributes<office-ui-fabric-react.Popup>
+    name: Popup>
+    spec.typeScript:
+      - name: HTMLAttributes<
+        fullName: HTMLAttributes<
+      - name: Popup
+        fullName: Popup
+        uid: office-ui-fabric-react.Popup
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.KeytipEvents
+    name: KeytipEvents
+    fullName: KeytipEvents
+    children: []
+    langs:
+      - typeScript
+    type: module
+    summary: ''
+    package: office-ui-fabric-react

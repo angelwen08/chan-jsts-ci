@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IGroupedListStyles
+    name: IGroupedListStyles
+    fullName: IGroupedListStyles
+    children:
+      - office-ui-fabric-react.IGroupedListStyles.group
+      - office-ui-fabric-react.IGroupedListStyles.groupIsDropping
+      - office-ui-fabric-react.IGroupedListStyles.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory GroupedList}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListStyles.group
+    name: group
+    fullName: group
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'group: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListStyles.groupIsDropping
+    name: groupIsDropping
+    fullName: groupIsDropping
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'groupIsDropping: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IGroupedListStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

@@ -1,0 +1,822 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IContextualMenuProps
+    name: IContextualMenuProps
+    fullName: IContextualMenuProps
+    children:
+      - office-ui-fabric-react.IContextualMenuProps.alignTargetEdge
+      - office-ui-fabric-react.IContextualMenuProps.ariaLabel
+      - office-ui-fabric-react.IContextualMenuProps.beakWidth
+      - office-ui-fabric-react.IContextualMenuProps.bounds
+      - office-ui-fabric-react.IContextualMenuProps.calloutProps
+      - office-ui-fabric-react.IContextualMenuProps.className
+      - office-ui-fabric-react.IContextualMenuProps.componentRef
+      - office-ui-fabric-react.IContextualMenuProps.contextualMenuItemAs
+      - office-ui-fabric-react.IContextualMenuProps.coverTarget
+      - office-ui-fabric-react.IContextualMenuProps.delayUpdateFocusOnHover
+      - office-ui-fabric-react.IContextualMenuProps.directionalHint
+      - office-ui-fabric-react.IContextualMenuProps.directionalHintFixed
+      - office-ui-fabric-react.IContextualMenuProps.directionalHintForRTL
+      - office-ui-fabric-react.IContextualMenuProps.doNotLayer
+      - office-ui-fabric-react.IContextualMenuProps.focusZoneProps
+      - office-ui-fabric-react.IContextualMenuProps.gapSpace
+      - office-ui-fabric-react.IContextualMenuProps.getMenuClassNames
+      - office-ui-fabric-react.IContextualMenuProps.hidden
+      - office-ui-fabric-react.IContextualMenuProps.id
+      - office-ui-fabric-react.IContextualMenuProps.isBeakVisible
+      - office-ui-fabric-react.IContextualMenuProps.isSubMenu
+      - office-ui-fabric-react.IContextualMenuProps.items
+      - office-ui-fabric-react.IContextualMenuProps.labelElementId
+      - office-ui-fabric-react.IContextualMenuProps.onDismiss
+      - office-ui-fabric-react.IContextualMenuProps.onItemClick
+      - office-ui-fabric-react.IContextualMenuProps.onMenuDismissed
+      - office-ui-fabric-react.IContextualMenuProps.onMenuOpened
+      - office-ui-fabric-react.IContextualMenuProps.onRenderMenuList
+      - office-ui-fabric-react.IContextualMenuProps.onRenderSubMenu
+      - office-ui-fabric-react.IContextualMenuProps.shouldFocusOnContainer
+      - office-ui-fabric-react.IContextualMenuProps.shouldFocusOnMount
+      - office-ui-fabric-react.IContextualMenuProps.styles
+      - office-ui-fabric-react.IContextualMenuProps.subMenuHoverDelay
+      - office-ui-fabric-react.IContextualMenuProps.target
+      - office-ui-fabric-react.IContextualMenuProps.theme
+      - office-ui-fabric-react.IContextualMenuProps.title
+      - office-ui-fabric-react.IContextualMenuProps.useTargetAsMinWidth
+      - office-ui-fabric-react.IContextualMenuProps.useTargetWidth
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      React.Props is deprecated and we're removing it in 6.0. Usage of 'any'
+      should go away with it.
+
+      {@docCategory ContextualMenu}
+    extends:
+      name: IBaseProps<office-ui-fabric-react.IContextualMenu>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.alignTargetEdge
+    name: alignTargetEdge
+    fullName: alignTargetEdge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true the positioning logic will prefer to flip edges rather than to
+      nudge the rectangle to fit within bounds,
+
+      thus making sure the element aligns perfectly with target's alignment edge
+    optional: true
+    syntax:
+      content: 'alignTargetEdge?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Aria label for accessibility for the ContextualMenu.
+      If none specified no aria label will be applied to the ContextualMenu.
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.beakWidth
+    name: beakWidth
+    fullName: beakWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The width of the beak.
+    optional: true
+    syntax:
+      content: 'beakWidth?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.bounds
+    name: bounds
+    fullName: bounds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The bounding rectangle for which the contextual menu can appear in.
+    optional: true
+    syntax:
+      content: 'bounds?: IRectangle'
+      return:
+        type:
+          - IRectangle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.calloutProps
+    name: calloutProps
+    fullName: calloutProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Pass in custom callout props
+    optional: true
+    syntax:
+      content: 'calloutProps?: ICalloutProps'
+      return:
+        type:
+          - office-ui-fabric-react.ICalloutProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Additional css class to apply to the ContextualMenu
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.componentRef
+    name: componentRef
+    fullName: componentRef
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional callback to access the IContextualMenu interface. Use this
+      instead of ref for accessing
+
+      the public methods and properties of the component.
+    optional: true
+    syntax:
+      content: 'componentRef?: IRefObject<IContextualMenu>'
+      return:
+        type:
+          - IRefObject<office-ui-fabric-react.IContextualMenu>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.contextualMenuItemAs
+    name: contextualMenuItemAs
+    fullName: contextualMenuItemAs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Method to override the render of the individual menu items
+    optional: true
+    syntax:
+      content: >-
+        contextualMenuItemAs?: ComponentClass<IContextualMenuItemProps> |
+        StatelessComponent<IContextualMenuItemProps>
+      return:
+        type:
+          - >-
+            ComponentClass<office-ui-fabric-react.IContextualMenuItemProps> |
+            StatelessComponent<office-ui-fabric-react.IContextualMenuItemProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.coverTarget
+    name: coverTarget
+    fullName: coverTarget
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      If true the position returned will have the menu element cover the target.
+      If false then it will position next to the target;
+    optional: true
+    syntax:
+      content: 'coverTarget?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.delayUpdateFocusOnHover
+    name: delayUpdateFocusOnHover
+    fullName: delayUpdateFocusOnHover
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      If true, the contextual menu will not be updated until
+      focus enters the menu via other means. This will only result
+      in different behavior when shouldFocusOnMount = false
+    optional: true
+    syntax:
+      content: 'delayUpdateFocusOnHover?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.directionalHint
+    name: directionalHint
+    fullName: directionalHint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: How the element should be positioned
+    optional: true
+    syntax:
+      content: 'directionalHint?: DirectionalHint'
+      return:
+        type:
+          - DirectionalHint
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.directionalHintFixed
+    name: directionalHintFixed
+    fullName: directionalHintFixed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true the position will not change sides in an attempt to fit the
+      ContextualMenu within bounds.
+
+      It will still attempt to align it to whatever bounds are given.
+    optional: true
+    syntax:
+      content: 'directionalHintFixed?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.directionalHintForRTL
+    name: directionalHintForRTL
+    fullName: directionalHintForRTL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      How the element should be positioned in RTL layouts.
+      If not specified, a mirror of `directionalHint` will be used instead
+    optional: true
+    syntax:
+      content: 'directionalHintForRTL?: DirectionalHint'
+      return:
+        type:
+          - DirectionalHint
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.doNotLayer
+    name: doNotLayer
+    fullName: doNotLayer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If true do not render on a new layer. If false render on a new layer.
+    optional: true
+    syntax:
+      content: 'doNotLayer?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.focusZoneProps
+    name: focusZoneProps
+    fullName: focusZoneProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Props to pass down to the FocusZone.
+
+      NOTE: the default FocusZoneDirection will be used unless a direction
+
+      is specified in the focusZoneProps (even if other focusZoneProps are
+      defined)
+    optional: true
+    syntax:
+      content: 'focusZoneProps?: IFocusZoneProps'
+      return:
+        type:
+          - office-ui-fabric-react.IFocusZoneProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.gapSpace
+    name: gapSpace
+    fullName: gapSpace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The gap between the ContextualMenu and the target
+    optional: true
+    syntax:
+      content: 'gapSpace?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.getMenuClassNames
+    name: getMenuClassNames
+    fullName: getMenuClassNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Method to provide the classnames to style the contextual menu. Default
+      value is the getMenuClassnames func
+
+      defined in ContextualMenu.classnames.
+
+      Deprecated, use `styles` prop of `IContextualMenuProps` to leverage
+      mergeStyles API.
+    optional: true
+    syntax:
+      content: >-
+        getMenuClassNames?: (theme: ITheme, className?: string) =>
+        IContextualMenuClassNames
+      return:
+        type:
+          - '(theme: ITheme, className?: string) => IContextualMenuClassNames'
+    package: office-ui-fabric-react
+    deprecated:
+      content: Use `styles` prop of `IContextualMenuProps` to leverage mergeStyles API.
+  - uid: office-ui-fabric-react.IContextualMenuProps.hidden
+    name: hidden
+    fullName: hidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If specified, renders the ContextualMenu in a hidden state.
+
+      Use this flag, rather than rendering a ContextualMenu conditionally based
+      on visibility,
+
+      to improve rendering performance when it becomes visible.
+
+      Note: When ContextualMenu is hidden its content will not be rendered. It
+      will only render
+
+      once the ContextualMenu is visible.
+    optional: true
+    syntax:
+      content: 'hidden?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      DOM id to tag the ContextualMenu with, for reference.
+
+      Should be used for 'aria-owns' and other such uses, rather than direct
+      reference for programmatic purposes.
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.isBeakVisible
+    name: isBeakVisible
+    fullName: isBeakVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: If true then the beak is visible. If false it will not be shown.
+    optional: true
+    syntax:
+      content: 'isBeakVisible?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.isSubMenu
+    name: isSubMenu
+    fullName: isSubMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether this menu is a submenu of another menu or not.
+    optional: true
+    syntax:
+      content: 'isSubMenu?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Collection of menu items.
+    syntax:
+      content: 'items: IContextualMenuItem[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IContextualMenuItem[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.labelElementId
+    name: labelElementId
+    fullName: labelElementId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Aria Labelled by labelElementId
+    optional: true
+    syntax:
+      content: 'labelElementId?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.onDismiss
+    name: onDismiss
+    fullName: onDismiss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Callback when the ContextualMenu tries to close. If dismissAll is true
+      then all
+
+      submenus will be dismissed.
+    optional: true
+    syntax:
+      content: 'onDismiss?: (ev?: any, dismissAll?: boolean) => void'
+      return:
+        type:
+          - '(ev?: any, dismissAll?: boolean) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.onItemClick
+    name: onItemClick
+    fullName: onItemClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Click handler which is invoked if onClick is not passed for individual
+      contextual
+
+      menu item.
+
+      Returning true will dismiss the menu even if ev.preventDefault() was
+      called.
+    optional: true
+    syntax:
+      content: >-
+        onItemClick?: (ev?: MouseEvent<HTMLElement> |
+        KeyboardEvent<HTMLElement>, item?: IContextualMenuItem) => boolean |
+        void
+      return:
+        type:
+          - >-
+            (ev?: MouseEvent<HTMLElement> | KeyboardEvent<HTMLElement>, item?:
+            IContextualMenuItem) => boolean | void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.onMenuDismissed
+    name: onMenuDismissed
+    fullName: onMenuDismissed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Callback for when the contextualmenu is being closed (removing from the
+      DOM)
+    optional: true
+    syntax:
+      content: 'onMenuDismissed?: (contextualMenu?: IContextualMenuProps) => void'
+      return:
+        type:
+          - '(contextualMenu?: IContextualMenuProps) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.onMenuOpened
+    name: onMenuOpened
+    fullName: onMenuOpened
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback for when the contextualmenu has been opened.
+    optional: true
+    syntax:
+      content: 'onMenuOpened?: (contextualMenu?: IContextualMenuProps) => void'
+      return:
+        type:
+          - '(contextualMenu?: IContextualMenuProps) => void'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.onRenderMenuList
+    name: onRenderMenuList
+    fullName: onRenderMenuList
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Method to override the render of the list of menu items.
+    optional: true
+    syntax:
+      content: 'onRenderMenuList?: IRenderFunction<IContextualMenuListProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IContextualMenuListProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.onRenderSubMenu
+    name: onRenderSubMenu
+    fullName: onRenderSubMenu
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Method to call when trying to render a submenu.
+    optional: true
+    syntax:
+      content: 'onRenderSubMenu?: IRenderFunction<IContextualMenuProps>'
+      return:
+        type:
+          - IRenderFunction<office-ui-fabric-react.IContextualMenuProps>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.shouldFocusOnContainer
+    name: shouldFocusOnContainer
+    fullName: shouldFocusOnContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether to focus on the contextual menu container (as opposed to the first
+      menu item).
+    optional: true
+    syntax:
+      content: 'shouldFocusOnContainer?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.shouldFocusOnMount
+    name: shouldFocusOnMount
+    fullName: shouldFocusOnMount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to focus on the menu when mounted.
+    optional: true
+    syntax:
+      content: 'shouldFocusOnMount?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.styles
+    name: styles
+    fullName: styles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Call to provide customized styling that will layer on top of the variant
+      rules.
+    optional: true
+    syntax:
+      content: >-
+        styles?: IStyleFunctionOrObject<IContextualMenuStyleProps,
+        IContextualMenuStyles>
+      return:
+        type:
+          - >-
+            IStyleFunctionOrObject<office-ui-fabric-react.IContextualMenuStyleProps,
+            office-ui-fabric-react.IContextualMenuStyles>
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.subMenuHoverDelay
+    name: subMenuHoverDelay
+    fullName: subMenuHoverDelay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Delay (in milliseconds) to wait before expanding / dismissing a submenu on
+      mouseEnter or mouseLeave
+    optional: true
+    syntax:
+      content: 'subMenuHoverDelay?: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.target
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The target that the ContextualMenu should try to position itself based on.
+
+      It can be either an Element a querySelector string of a valid Element
+
+      or a MouseEvent. If MouseEvent is given then the origin point of the event
+      will be used.
+    optional: true
+    syntax:
+      content: 'target?: Target'
+      return:
+        type:
+          - office-ui-fabric-react.Target
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Theme provided by High-Order Component.
+    optional: true
+    syntax:
+      content: 'theme?: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Optional title to be displayed on top of the menu.
+    optional: true
+    syntax:
+      content: 'title?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.useTargetAsMinWidth
+    name: useTargetAsMinWidth
+    fullName: useTargetAsMinWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true the context menu will have a minimum width equal to the width of
+      the target element
+    optional: true
+    syntax:
+      content: 'useTargetAsMinWidth?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IContextualMenuProps.useTargetWidth
+    name: useTargetWidth
+    fullName: useTargetWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If true the context menu will render as the same width as the target
+      element
+    optional: true
+    syntax:
+      content: 'useTargetWidth?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+references:
+  - uid: IBaseProps<office-ui-fabric-react.IContextualMenu>
+    name: IContextualMenu>
+    spec.typeScript:
+      - name: IBaseProps<
+        fullName: IBaseProps<
+      - name: IContextualMenu
+        fullName: IContextualMenu
+        uid: office-ui-fabric-react.IContextualMenu
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.ICalloutProps
+    name: ICalloutProps
+    spec.typeScript:
+      - name: ICalloutProps
+        fullName: ICalloutProps
+        uid: office-ui-fabric-react.ICalloutProps
+  - uid: IRefObject<office-ui-fabric-react.IContextualMenu>
+    name: IContextualMenu>
+    spec.typeScript:
+      - name: IRefObject<
+        fullName: IRefObject<
+      - name: IContextualMenu
+        fullName: IContextualMenu
+        uid: office-ui-fabric-react.IContextualMenu
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      ComponentClass<office-ui-fabric-react.IContextualMenuItemProps> |
+      StatelessComponent<office-ui-fabric-react.IContextualMenuItemProps>
+    name: IContextualMenuItemProps>
+    spec.typeScript:
+      - name: ComponentClass<
+        fullName: ComponentClass<
+      - name: IContextualMenuItemProps
+        fullName: IContextualMenuItemProps
+        uid: office-ui-fabric-react.IContextualMenuItemProps
+      - name: '> | StatelessComponent<'
+        fullName: '> | StatelessComponent<'
+      - name: IContextualMenuItemProps
+        fullName: IContextualMenuItemProps
+        uid: office-ui-fabric-react.IContextualMenuItemProps
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.IFocusZoneProps
+    name: IFocusZoneProps
+    spec.typeScript:
+      - name: IFocusZoneProps
+        fullName: IFocusZoneProps
+        uid: office-ui-fabric-react.IFocusZoneProps
+  - uid: 'office-ui-fabric-react.IContextualMenuItem[]'
+    name: 'IContextualMenuItem[]'
+    spec.typeScript:
+      - name: IContextualMenuItem
+        fullName: IContextualMenuItem
+        uid: office-ui-fabric-react.IContextualMenuItem
+      - name: '[]'
+        fullName: '[]'
+  - uid: IRenderFunction<office-ui-fabric-react.IContextualMenuListProps>
+    name: IContextualMenuListProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IContextualMenuListProps
+        fullName: IContextualMenuListProps
+        uid: office-ui-fabric-react.IContextualMenuListProps
+      - name: '>'
+        fullName: '>'
+  - uid: IRenderFunction<office-ui-fabric-react.IContextualMenuProps>
+    name: IContextualMenuProps>
+    spec.typeScript:
+      - name: IRenderFunction<
+        fullName: IRenderFunction<
+      - name: IContextualMenuProps
+        fullName: IContextualMenuProps
+        uid: office-ui-fabric-react.IContextualMenuProps
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      IStyleFunctionOrObject<office-ui-fabric-react.IContextualMenuStyleProps,
+      office-ui-fabric-react.IContextualMenuStyles>
+    name: IContextualMenuStyles>
+    spec.typeScript:
+      - name: IStyleFunctionOrObject<
+        fullName: IStyleFunctionOrObject<
+      - name: IContextualMenuStyleProps
+        fullName: IContextualMenuStyleProps
+        uid: office-ui-fabric-react.IContextualMenuStyleProps
+      - name: ', '
+        fullName: ', '
+      - name: IContextualMenuStyles
+        fullName: IContextualMenuStyles
+        uid: office-ui-fabric-react.IContextualMenuStyles
+      - name: '>'
+        fullName: '>'
+  - uid: office-ui-fabric-react.Target
+    name: Target
+    spec.typeScript:
+      - name: Target
+        fullName: Target
+        uid: office-ui-fabric-react.Target

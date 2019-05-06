@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.getBackgroundShade
+    name: 'getBackgroundShade(IColor, Shade, boolean)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getBackgroundShade(color: IColor, shade: Shade, isInverted?:
+        boolean)
+      parameters:
+        - id: color
+          type:
+            - office-ui-fabric-react.IColor
+          description: ''
+        - id: shade
+          type:
+            - office-ui-fabric-react.Shade
+          description: ''
+        - id: isInverted
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - office-ui-fabric-react.IColor | null
+    package: office-ui-fabric-react
+references:
+  - uid: office-ui-fabric-react.IColor
+    name: IColor
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor
+  - uid: office-ui-fabric-react.Shade
+    name: Shade
+    spec.typeScript:
+      - name: Shade
+        fullName: Shade
+        uid: office-ui-fabric-react.Shade
+  - uid: office-ui-fabric-react.IColor | null
+    name: IColor | null
+    spec.typeScript:
+      - name: IColor
+        fullName: IColor
+        uid: office-ui-fabric-react.IColor
+      - name: ' | null'
+        fullName: ' | null'

@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterProps
+    name: ISuggestionsHeaderFooterProps
+    fullName: ISuggestionsHeaderFooterProps
+    children:
+      - office-ui-fabric-react.ISuggestionsHeaderFooterProps.ariaLabel
+      - office-ui-fabric-react.ISuggestionsHeaderFooterProps.className
+      - office-ui-fabric-react.ISuggestionsHeaderFooterProps.onExecute
+      - office-ui-fabric-react.ISuggestionsHeaderFooterProps.renderItem
+      - office-ui-fabric-react.ISuggestionsHeaderFooterProps.shouldShow
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterProps.ariaLabel
+    name: ariaLabel
+    fullName: ariaLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterProps.onExecute
+    name: onExecute
+    fullName: onExecute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onExecute?: () => void'
+      return:
+        type:
+          - () => void
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterProps.renderItem
+    name: renderItem
+    fullName: renderItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'renderItem: () => Element'
+      return:
+        type:
+          - () => Element
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ISuggestionsHeaderFooterProps.shouldShow
+    name: shouldShow
+    fullName: shouldShow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'shouldShow: () => boolean'
+      return:
+        type:
+          - () => boolean
+    package: office-ui-fabric-react

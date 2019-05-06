@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.SelectableOptionMenuItemType
+    name: SelectableOptionMenuItemType
+    fullName: SelectableOptionMenuItemType
+    children:
+      - office-ui-fabric-react.SelectableOptionMenuItemType.Normal
+      - office-ui-fabric-react.SelectableOptionMenuItemType.Divider
+      - office-ui-fabric-react.SelectableOptionMenuItemType.Header
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SelectableOptionMenuItemType.Normal
+    name: Normal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SelectableOptionMenuItemType.Divider
+    name: Divider
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.SelectableOptionMenuItemType.Header
+    name: Header
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: office-ui-fabric-react

@@ -1,0 +1,159 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps
+    name: IDetailsRowFieldsProps
+    fullName: IDetailsRowFieldsProps
+    children:
+      - office-ui-fabric-react.IDetailsRowFieldsProps.cellStyleProps
+      - office-ui-fabric-react.IDetailsRowFieldsProps.columns
+      - office-ui-fabric-react.IDetailsRowFieldsProps.columnStartIndex
+      - office-ui-fabric-react.IDetailsRowFieldsProps.compact
+      - office-ui-fabric-react.IDetailsRowFieldsProps.item
+      - office-ui-fabric-react.IDetailsRowFieldsProps.itemIndex
+      - office-ui-fabric-react.IDetailsRowFieldsProps.rowClassNames
+      - office-ui-fabric-react.IDetailsRowFieldsProps.shimmer
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory DetailsList}'
+    extends:
+      name: Object & Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps.cellStyleProps
+    name: cellStyleProps
+    fullName: cellStyleProps
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cellStyleProps?: ICellStyleProps'
+      return:
+        type:
+          - office-ui-fabric-react.ICellStyleProps
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps.columns
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Columns metadata
+    syntax:
+      content: 'columns: IColumn[]'
+      return:
+        type:
+          - 'office-ui-fabric-react.IColumn[]'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps.columnStartIndex
+    name: columnStartIndex
+    fullName: columnStartIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Index to start for the column
+    syntax:
+      content: 'columnStartIndex: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps.compact
+    name: compact
+    fullName: compact
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: whether to render as a compact field
+    optional: true
+    syntax:
+      content: 'compact?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps.item
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Data source for this component
+    syntax:
+      content: 'item: any'
+      return:
+        type:
+          - any
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps.itemIndex
+    name: itemIndex
+    fullName: itemIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The item index of the collection for the DetailsList
+    syntax:
+      content: 'itemIndex: number'
+      return:
+        type:
+          - number
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps.rowClassNames
+    name: rowClassNames
+    fullName: rowClassNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Subset of classnames currently generated in DetailsRow that are used
+      within DetailsRowFields.
+    syntax:
+      content: 'rowClassNames: Object'
+      return:
+        type:
+          - Object
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDetailsRowFieldsProps.shimmer
+    name: shimmer
+    fullName: shimmer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to show shimmer
+    optional: true
+    syntax:
+      content: 'shimmer?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+    deprecated:
+      content: >-
+        Use `ShimmeredDetailsList` instead:
+        https://developer.microsoft.com/en-us/fabric#/components/detailslist/shimmer
+references:
+  - uid: office-ui-fabric-react.ICellStyleProps
+    name: ICellStyleProps
+    spec.typeScript:
+      - name: ICellStyleProps
+        fullName: ICellStyleProps
+        uid: office-ui-fabric-react.ICellStyleProps
+  - uid: 'office-ui-fabric-react.IColumn[]'
+    name: 'IColumn[]'
+    spec.typeScript:
+      - name: IColumn
+        fullName: IColumn
+        uid: office-ui-fabric-react.IColumn
+      - name: '[]'
+        fullName: '[]'

@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IComboBoxOptionClassNames
+    name: IComboBoxOptionClassNames
+    fullName: IComboBoxOptionClassNames
+    children:
+      - office-ui-fabric-react.IComboBoxOptionClassNames.optionText
+      - office-ui-fabric-react.IComboBoxOptionClassNames.optionTextWrapper
+      - office-ui-fabric-react.IComboBoxOptionClassNames.root
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxOptionClassNames.optionText
+    name: optionText
+    fullName: optionText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'optionText: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxOptionClassNames.optionTextWrapper
+    name: optionTextWrapper
+    fullName: optionTextWrapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'optionTextWrapper: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IComboBoxOptionClassNames.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react

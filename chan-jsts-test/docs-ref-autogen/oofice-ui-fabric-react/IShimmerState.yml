@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IShimmerState
+    name: IShimmerState
+    fullName: IShimmerState
+    children:
+      - office-ui-fabric-react.IShimmerState.contentLoaded
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IShimmerState.contentLoaded
+    name: contentLoaded
+    fullName: contentLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Flag for knowing when to remove the shimmerWrapper from the DOM.
+    optional: true
+    syntax:
+      content: 'contentLoaded?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

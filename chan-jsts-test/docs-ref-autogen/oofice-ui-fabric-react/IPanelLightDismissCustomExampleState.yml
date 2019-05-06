@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPanelLightDismissCustomExampleState
+    name: IPanelLightDismissCustomExampleState
+    fullName: IPanelLightDismissCustomExampleState
+    children:
+      - office-ui-fabric-react.IPanelLightDismissCustomExampleState.hideDialog
+      - office-ui-fabric-react.IPanelLightDismissCustomExampleState.showPanel
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelLightDismissCustomExampleState.hideDialog
+    name: hideDialog
+    fullName: hideDialog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'hideDialog: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPanelLightDismissCustomExampleState.showPanel
+    name: showPanel
+    fullName: showPanel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showPanel: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react

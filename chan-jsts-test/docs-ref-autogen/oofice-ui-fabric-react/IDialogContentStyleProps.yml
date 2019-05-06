@@ -1,0 +1,124 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IDialogContentStyleProps
+    name: IDialogContentStyleProps
+    fullName: IDialogContentStyleProps
+    children:
+      - office-ui-fabric-react.IDialogContentStyleProps.className
+      - office-ui-fabric-react.IDialogContentStyleProps.draggableHeaderClassName
+      - office-ui-fabric-react.IDialogContentStyleProps.hidden
+      - office-ui-fabric-react.IDialogContentStyleProps.isClose
+      - office-ui-fabric-react.IDialogContentStyleProps.isLargeHeader
+      - office-ui-fabric-react.IDialogContentStyleProps.isMultiline
+      - office-ui-fabric-react.IDialogContentStyleProps.theme
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Dialog}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyleProps.className
+    name: className
+    fullName: className
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accept custom classNames
+    optional: true
+    syntax:
+      content: 'className?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyleProps.draggableHeaderClassName
+    name: draggableHeaderClassName
+    fullName: draggableHeaderClassName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The classname for when the header is draggable
+    optional: true
+    syntax:
+      content: 'draggableHeaderClassName?: string'
+      return:
+        type:
+          - string
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyleProps.hidden
+    name: hidden
+    fullName: hidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hidden?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyleProps.isClose
+    name: isClose
+    fullName: isClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isClose?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyleProps.isLargeHeader
+    name: isLargeHeader
+    fullName: isLargeHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isLargeHeader?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyleProps.isMultiline
+    name: isMultiline
+    fullName: isMultiline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Is inside a multiline wrapper
+    optional: true
+    syntax:
+      content: 'isMultiline?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IDialogContentStyleProps.theme
+    name: theme
+    fullName: theme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Accept theme prop.
+    syntax:
+      content: 'theme: ITheme'
+      return:
+        type:
+          - ITheme
+    package: office-ui-fabric-react

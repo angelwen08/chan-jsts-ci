@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.ITooltipStyles
+    name: ITooltipStyles
+    fullName: ITooltipStyles
+    children:
+      - office-ui-fabric-react.ITooltipStyles.content
+      - office-ui-fabric-react.ITooltipStyles.root
+      - office-ui-fabric-react.ITooltipStyles.subText
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: '{@docCategory Tooltip}'
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITooltipStyles.content
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the content element.
+    syntax:
+      content: 'content: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITooltipStyles.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the root element.
+    syntax:
+      content: 'root: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.ITooltipStyles.subText
+    name: subText
+    fullName: subText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Style for the subtext element.
+    syntax:
+      content: 'subText: IStyle'
+      return:
+        type:
+          - IStyle
+    package: office-ui-fabric-react

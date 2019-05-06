@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: office-ui-fabric-react.IPersonaState
+    name: IPersonaState
+    fullName: IPersonaState
+    children:
+      - office-ui-fabric-react.IPersonaState.isImageError
+      - office-ui-fabric-react.IPersonaState.isImageLoaded
+    syntax:
+      content: ''
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaState.isImageError
+    name: isImageError
+    fullName: isImageError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isImageError?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
+  - uid: office-ui-fabric-react.IPersonaState.isImageLoaded
+    name: isImageLoaded
+    fullName: isImageLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isImageLoaded?: boolean'
+      return:
+        type:
+          - boolean
+    package: office-ui-fabric-react
