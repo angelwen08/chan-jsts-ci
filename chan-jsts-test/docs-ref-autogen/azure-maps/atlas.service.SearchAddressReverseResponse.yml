@@ -9,7 +9,9 @@ items:
     type: type alias
     summary: ''
     syntax:
-      content: type SearchAddressReverseResponse = WithGeojson
+      content: >-
+        type SearchAddressReverseResponse =
+        WithGeojson<Models.SearchGetSearchAddressReverseResponse,SearchReverseGeojson>
     package: azure-maps-rest
 references:
   - uid: azure-maps-rest.atlas.service.Models.BatchResponseSummary
