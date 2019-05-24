@@ -1,0 +1,212 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams'
+    name: ContainerListBlobFlatSegmentOptionalParams
+    fullName: ContainerListBlobFlatSegmentOptionalParams
+    children:
+      - >-
+        @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.abortSignal
+      - >-
+        @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.customHeaders
+      - '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.include'
+      - '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.marker'
+      - >-
+        @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.maxresults
+      - >-
+        @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.onDownloadProgress
+      - >-
+        @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.onUploadProgress
+      - '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.prefix'
+      - '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.requestId'
+      - '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.timeout'
+      - >-
+        @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.timeoutParameter
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: RequestOptionsBase
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The signal which can be used to abort requests.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - AbortSignalLike
+    package: '@azure/storage-blob'
+  - uid: >-
+      @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.customHeaders
+    name: customHeaders
+    fullName: customHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      {object} [customHeaders] User defined custom request headers that
+      will be applied before the request is sent.
+    optional: true
+    syntax:
+      content: 'customHeaders?: [key: string]: string'
+      return:
+        type:
+          - '[key: string]: string'
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.include'
+    name: include
+    fullName: include
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'include?: ListBlobsIncludeItem[]'
+      return:
+        type:
+          - '@azure/storage-blob.ListBlobsIncludeItem[]'
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.marker'
+    name: marker
+    fullName: marker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'marker?: string'
+      return:
+        type:
+          - string
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.maxresults'
+    name: maxresults
+    fullName: maxresults
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxresults?: number'
+      return:
+        type:
+          - number
+    package: '@azure/storage-blob'
+  - uid: >-
+      @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.onDownloadProgress
+    name: onDownloadProgress
+    fullName: onDownloadProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback which fires upon download progress.
+    optional: true
+    syntax:
+      content: 'onDownloadProgress?: (progress: TransferProgressEvent) => void'
+      return:
+        type:
+          - '(progress: TransferProgressEvent) => void'
+    package: '@azure/storage-blob'
+  - uid: >-
+      @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.onUploadProgress
+    name: onUploadProgress
+    fullName: onUploadProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback which fires upon upload progress.
+    optional: true
+    syntax:
+      content: 'onUploadProgress?: (progress: TransferProgressEvent) => void'
+      return:
+        type:
+          - '(progress: TransferProgressEvent) => void'
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.prefix'
+    name: prefix
+    fullName: prefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'prefix?: string'
+      return:
+        type:
+          - string
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.requestId'
+    name: requestId
+    fullName: requestId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'requestId?: string'
+      return:
+        type:
+          - string
+    package: '@azure/storage-blob'
+  - uid: '@azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.timeout'
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The number of milliseconds a request can take before automatically being
+      terminated.
+    optional: true
+    syntax:
+      content: 'timeout?: number'
+      return:
+        type:
+          - number
+    package: '@azure/storage-blob'
+  - uid: >-
+      @azure/storage-blob.ContainerListBlobFlatSegmentOptionalParams.timeoutParameter
+    name: timeoutParameter
+    fullName: timeoutParameter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeoutParameter?: number'
+      return:
+        type:
+          - number
+    package: '@azure/storage-blob'
+references:
+  - uid: '@azure/storage-blob.ListBlobsIncludeItem[]'
+    name: 'ListBlobsIncludeItem[]'
+    spec.typeScript:
+      - name: ListBlobsIncludeItem
+        fullName: ListBlobsIncludeItem
+        uid: '@azure/storage-blob.ListBlobsIncludeItem'
+      - name: '[]'
+        fullName: '[]'
