@@ -12,6 +12,6 @@ items:
       uploadBrowserDateToBlockBlob.
     syntax:
       content: >-
-        type BlobUploadCommonResponse = BlockBlobUploadHeaders & {
-        _response:HttpResponse }
+        type BlobUploadCommonResponse = BlockBlobUploadHeaders & { _response:
+        HttpResponse }
     package: '@azure/storage-blob'
