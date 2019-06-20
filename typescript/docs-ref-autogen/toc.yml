@@ -1,59 +1,71 @@
-- uid: azure-cognitiveservices-customimagesearch
-  name: azure-cognitiveservices-customimagesearch
+- uid: '@azure/service-bus'
+  name: '@azure/service-bus'
   items:
-    - uid: azure-cognitiveservices-customimagesearch.Answer
-      name: Answer
+    - uid: '@azure/service-bus.Client'
+      name: Client
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.CreativeWork
-      name: CreativeWork
+    - uid: '@azure/service-bus.CorrelationFilter'
+      name: CorrelationFilter
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.CustomImageSearchAPIClient
-      name: CustomImageSearchAPIClient
+    - uid: '@azure/service-bus.DeadLetterOptions'
+      name: DeadLetterOptions
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.CustomImageSearchClient
-      name: CustomImageSearchClient
+    - uid: '@azure/service-bus.MessageHandlerOptions'
+      name: MessageHandlerOptions
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.CustomImageSearchClientOptions
-      name: CustomImageSearchClientOptions
+    - uid: '@azure/service-bus.OnError'
+      name: OnError
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.CustomInstance
-      name: CustomInstance
+    - uid: '@azure/service-bus.OnMessage'
+      name: OnMessage
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.ErrorModel
-      name: ErrorModel
+    - uid: '@azure/service-bus.QueueClient'
+      name: QueueClient
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.ErrorResponse
-      name: ErrorResponse
+    - uid: '@azure/service-bus.ReceivedMessage'
+      name: ReceivedMessage
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.Identifiable
-      name: Identifiable
+    - uid: '@azure/service-bus.ReceivedMessageInfo'
+      name: ReceivedMessageInfo
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.ImageObject
-      name: ImageObject
+    - uid: '@azure/service-bus.ReceiveMode'
+      name: ReceiveMode
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.Images
-      name: Images
+    - uid: '@azure/service-bus.Receiver'
+      name: Receiver
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.MediaObject
-      name: MediaObject
+    - uid: '@azure/service-bus.RuleDescription'
+      name: RuleDescription
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.Query
-      name: Query
+    - uid: '@azure/service-bus.SendableMessageInfo'
+      name: SendableMessageInfo
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.Response
-      name: Response
+    - uid: '@azure/service-bus.Sender'
+      name: Sender
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.ResponseBase
-      name: ResponseBase
+    - uid: '@azure/service-bus.ServiceBusClient'
+      name: ServiceBusClient
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.SearchResultsAnswer
-      name: SearchResultsAnswer
+    - uid: '@azure/service-bus.ServiceBusClientOptions'
+      name: ServiceBusClientOptions
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.Thing
-      name: Thing
+    - uid: '@azure/service-bus.ServiceBusMessage'
+      name: ServiceBusMessage
       items: []
-    - uid: azure-cognitiveservices-customimagesearch.WebPage
-      name: WebPage
+    - uid: '@azure/service-bus.SessionMessageHandlerOptions'
+      name: SessionMessageHandlerOptions
+      items: []
+    - uid: '@azure/service-bus.SessionReceiver'
+      name: SessionReceiver
+      items: []
+    - uid: '@azure/service-bus.SessionReceiverOptions'
+      name: SessionReceiverOptions
+      items: []
+    - uid: '@azure/service-bus.SubscriptionClient'
+      name: SubscriptionClient
+      items: []
+    - uid: '@azure/service-bus.TopicClient'
+      name: TopicClient
       items: []
 - uid: azure-cognitiveservices-visualsearch
   name: azure-cognitiveservices-visualsearch
